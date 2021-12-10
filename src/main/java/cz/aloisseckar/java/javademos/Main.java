@@ -1,0 +1,75 @@
+package cz.aloisseckar.java.javademos;
+
+import cz.aloisseckar.java.javademos.commons.IDemo;
+import cz.aloisseckar.java.javademos.java11.http.HttpDemo;
+import cz.aloisseckar.java.javademos.java11.j9.J9Demo;
+import cz.aloisseckar.java.javademos.java11.string11.String11Demo;
+import cz.aloisseckar.java.javademos.java11.var.VarDemo;
+import cz.aloisseckar.java.javademos.java17.deprecated.DeprecatedDemo;
+import cz.aloisseckar.java.javademos.java17.j16.J16Demo;
+import cz.aloisseckar.java.javademos.java17.newswitch.SwitchDemo;
+import cz.aloisseckar.java.javademos.java17.nullpointer.NullPointerDemo;
+import cz.aloisseckar.java.javademos.java17.pattern.InstanceofPatternMatchingDemo;
+import cz.aloisseckar.java.javademos.java17.pattern.SwitchPatternMatchingDemo;
+import cz.aloisseckar.java.javademos.java17.record.RecordDemo;
+import cz.aloisseckar.java.javademos.java17.sealed.SealedDemo;
+import cz.aloisseckar.java.javademos.java17.string12.String12Demo;
+import cz.aloisseckar.java.javademos.java17.textblock.TextBlockDemo;
+import java.util.ArrayList;
+
+/**
+ * This application helps showing some new features from Java 11 and Java 17.
+ * 
+ * The 'demoPool' array consists of simple IDemo interface implementations.
+ * Code logic is being implemented inside .demo() methods.
+ * 
+ * @see cz.aloisseckar.java.javademos.commons.IDemo
+ * 
+ * You can try switching the compile/build settings back to Java 1.8 to see
+ * that the most of the stuff used here cannot be compiled and run under old
+ * versions of Java.
+ * 
+ * @author alois.seckar@atos.net
+ */
+public class Main {
+    
+    /**
+     * Simple main method.
+     * No complex logic - all available demo implementations are being put
+     * inside a list, and then being executed one by one.
+     * 
+     * @param args 
+     */
+    public static void main(String[] args) {
+        
+        var demoPool = new ArrayList<IDemo>();
+        
+        // you may find useful to comment out all entries except the one
+        // you are about to examine
+        // it may be confusing to search the actual output of particular
+        // demo class implementation you are currently interested in
+        
+        // Java 11
+        demoPool.add(new J9Demo());
+        demoPool.add(new VarDemo());
+        demoPool.add(new HttpDemo());
+        demoPool.add(new String11Demo());
+        
+        // Java 17
+        demoPool.add(new String12Demo());
+        demoPool.add(new SwitchDemo());
+        demoPool.add(new NullPointerDemo());
+        demoPool.add(new TextBlockDemo());
+        demoPool.add(new J16Demo());
+        demoPool.add(new RecordDemo());
+        demoPool.add(new InstanceofPatternMatchingDemo());
+        demoPool.add(new SwitchPatternMatchingDemo());
+        demoPool.add(new SealedDemo());
+        demoPool.add(new DeprecatedDemo());
+        
+        // run method .demo() on each entry to see the output
+        demoPool.forEach(example -> example.demo());
+        
+    }
+    
+}
