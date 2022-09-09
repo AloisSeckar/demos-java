@@ -8,7 +8,7 @@ import java.util.Random;
  * This class demonstrates some new 'switch' syntax options in Java 17.
  * 
  * Introduced: Java 12
- * Introduced: Java 14
+ * Finalized: Java 14
  * 
  * Further reading:
  * https://openjdk.java.net/jeps/361
