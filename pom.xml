@@ -26,6 +26,19 @@
     <build>
         <plugins>
             <plugin>
+                <!-- adding MANIFEST.MF to .jar -->
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>3.3.0</version>
+                <configuration>
+                    <archive>
+                        <manifest>
+                            <mainClass>cz.aloisseckar.java.javademos.Main</mainClass>
+                        </manifest>
+                    </archive>
+                </configuration>
+            </plugin>
+            <plugin>
                 <!-- responsible for performing .jar build -->
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.8.0</version>
