@@ -39,7 +39,7 @@ public class HttpDemo implements IDemo {
             //    https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers
             // GET/POST/PUT/DELETE - depending of what you need
             var request = HttpRequest.newBuilder()
-                    .uri(new URI("http://alois-seckar.cz/demo/index.html"))
+                    .uri(new URI("http://ellrohir.mzf.cz/demo/index.html"))
                     .version(HttpClient.Version.HTTP_2)
                     .header("my-header", "my-value")
                     .GET()
