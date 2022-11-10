@@ -11,6 +11,7 @@ import java.time.ZoneId;
 import java.time.format.DateTimeFormatter;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Locale;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -103,7 +104,8 @@ public class J16Demo implements IDemo {
                 LocalTime.now(ZoneId.of("GMT+10")),
                 LocalTime.now(ZoneId.of("GMT-10"))
         );
-        
+
+        Locale.setDefault(Locale.UK); // to prevent local symbols (like czech 'ů') from breaking the console output
         variousTimes.forEach(time -> {
             System.out.println(DateTimeFormatter.ofPattern("HH:mm B").format(time));
         });
