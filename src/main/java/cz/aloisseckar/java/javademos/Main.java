@@ -41,6 +41,15 @@ public class Main {
      * @param args 
      */
     public static void main(String[] args) {
+
+        // https://stackoverflow.com/a/19165338/3204544
+        System.out.println("JVM INFO");
+        System.out.println(System.getProperty("java.vm.name"));
+        System.out.println(System.getProperty("java.home"));
+        System.out.println(System.getProperty("java.vendor"));
+        System.out.println(System.getProperty("java.version"));
+        System.out.println(System.getProperty("java.specification.vendor"));
+        //
         
         var demoPool = new ArrayList<IDemo>();
         

@@ -51,7 +51,9 @@ public class SwitchPatternMatchingDemo implements IDemo {
         
         // this switch basically replaces a series of 
         // 'if (o instanceof Clazz c) {} else ...' commands
-        
+
+        return "turned off for now";
+        /*
         return switch (o) {
             
             // we cannot have superclass BEFORE its subclasses,
@@ -77,6 +79,7 @@ public class SwitchPatternMatchingDemo implements IDemo {
             //   the switch expression does not cover all possible input values    
             default         -> o.toString();
         };
+        */
     }
 
 }
