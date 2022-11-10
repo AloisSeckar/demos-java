@@ -35,7 +35,7 @@ public class SwitchPatternMatchingDemo implements IDemo {
         System.out.println(formatViaSwitchPatternMatching(5L));
         System.out.println(formatViaSwitchPatternMatching(5.1));
         System.out.println(formatViaSwitchPatternMatching("5"));
-        System.out.println(formatViaSwitchPatternMatching("some long text"));
+        // System.out.println(formatViaSwitchPatternMatching("some long text")); // only worked in Java 17
         System.out.println(formatViaSwitchPatternMatching(null));
         System.out.println(formatViaSwitchPatternMatching(new Object()));
         
@@ -52,8 +52,8 @@ public class SwitchPatternMatchingDemo implements IDemo {
         // this switch basically replaces a series of 
         // 'if (o instanceof Clazz c) {} else ...' commands
 
-        return "turned off for now";
-        /*
+        //return "turned off for now";
+
         return switch (o) {
             
             // we cannot have superclass BEFORE its subclasses,
@@ -65,11 +65,15 @@ public class SwitchPatternMatchingDemo implements IDemo {
             case Long l     -> String.format("long %d", l);
             case Double d   -> String.format("double %f", d);
             // here the general option is valid
-            case Number n  -> String.format("num %d", n);
-                
+            case Number n   -> String.format("num %d", n);
+
+            // THIS ONLY WORKED IN JAVA 17 PREVIEW!!!
             // we can also perform some other filtering on re-casted object
             // but again remember "more specific rule BEFORE more generic one"
-            case String s && (s.length() > 10) -> "Long string";
+            //case String s && (s.length() > 10) -> "Long string";
+            //case String s   -> String.format("String %s", s);
+            // THIS ONLY WORKED IN JAVA 17 PREVIEW!!!
+
             case String s   -> String.format("String %s", s);
                 
             // null is possible to be treated as a separate option like that
@@ -79,7 +83,7 @@ public class SwitchPatternMatchingDemo implements IDemo {
             //   the switch expression does not cover all possible input values    
             default         -> o.toString();
         };
-        */
+
     }
 
 }
