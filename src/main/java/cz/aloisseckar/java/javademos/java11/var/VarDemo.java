@@ -114,7 +114,7 @@ public class VarDemo implements IDemo {
         System.out.println("(since Java 11)");
         
         // originally it wasn't allowed to use 'var' inside lambdas
-        // the only requirement is not to mix var and non-var declarations
+        // now the only requirement is not to mix var and non-var declarations
         // https://openjdk.java.net/jeps/323
         
         // simple functional interface to be implemented by our lambdas
@@ -132,8 +132,7 @@ public class VarDemo implements IDemo {
         System.out.println(myFunction2.operation("x", Integer.MAX_VALUE));
         
         // this is not allowed - attempt will throw:
-        // invalid lambda parameter declaration
-        //   (cannot mix 'var' and explicitly-typed parameters)
+        //  'Cannot mix 'var' and explicitly typed parameters in lambda expression'
         // MyFunction myFunction3 = (var x, Object y) -> x.toString() + y.toString();
         
         // however, you can also omit data types declaration at all as the
@@ -142,6 +141,10 @@ public class VarDemo implements IDemo {
         // and doesn't bring anything new
         MyFunction myFunction3 = (x,y) -> x.toString() + y.toString();
         System.out.println(myFunction3.operation("x", Integer.MAX_VALUE));
+
+        // you also cannot 'var' the lambda definition:
+        //  'Cannot infer type: lambda expression requires an explicit target type'
+        // var myFunction4 = (Object x, Object y) -> x.toString() + y.toString();
         
         System.out.println();
     }
