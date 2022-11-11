@@ -15,6 +15,8 @@ import cz.aloisseckar.java.javademos.java17.record.RecordDemo;
 import cz.aloisseckar.java.javademos.java17.sealed.SealedDemo;
 import cz.aloisseckar.java.javademos.java17.string12.String12Demo;
 import cz.aloisseckar.java.javademos.java17.textblock.TextBlockDemo;
+import cz.aloisseckar.java.javademos.java19.virtualthreads.VirtualThreadsDemo;
+
 import java.util.ArrayList;
 
 /**
@@ -75,6 +77,9 @@ public class Main {
         demoPool.add(new SwitchPatternMatchingDemo());
         demoPool.add(new SealedDemo());
         demoPool.add(new DeprecatedDemo());
+
+        // Java 19
+        demoPool.add(new VirtualThreadsDemo());
         
         // run method .demo() on each entry to see the output
         demoPool.forEach(example -> example.demo());
