@@ -3,7 +3,7 @@ package cz.aloisseckar.java.javademos.java19.virtualthreads;
 import cz.aloisseckar.java.javademos.commons.IDemo;
 
 /**
- * This class shows new preview fea.
+ * This class shows new preview feature from Java 19 - Virtual Threads
  *
  * Introduced: Java 19
  * Finalized: Not yet
@@ -124,7 +124,7 @@ public class VirtualThreadsDemo implements IDemo {
     // prints out the name of the current thread invoking it
     private static class SimpleTask implements Runnable {
         @Override
-        public void run(){
+        public void run() {
             var threadName = Thread.currentThread().getName();
             if (threadName != null && !threadName.isBlank()) {
                 System.out.println(threadName);
