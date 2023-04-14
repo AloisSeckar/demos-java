@@ -16,11 +16,12 @@ import cz.aloisseckar.java.javademos.java17.sealed.SealedDemo;
 import cz.aloisseckar.java.javademos.java17.string12.String12Demo;
 import cz.aloisseckar.java.javademos.java17.textblock.TextBlockDemo;
 import cz.aloisseckar.java.javademos.java19.virtualthreads.VirtualThreadsDemo;
+import cz.aloisseckar.java.javademos.java20.scopedvalues.ScopedValuesDemo;
 
 import java.util.ArrayList;
 
 /**
- * This application helps showing some new features from Java 11 and Java 17.
+ * This application helps to show some new features from Java 11 and Java 20.
  * 
  * The 'demoPool' array consists of simple IDemo interface implementations.
  * Code logic is being implemented inside .demo() methods.
@@ -40,7 +41,7 @@ public class Main {
      * No complex logic - all available demo implementations are being put
      * inside a list, and then being executed one by one.
      * 
-     * @param args 
+     * @param args not supported (ignored) in this application
      */
     public static void main(String[] args) {
 
@@ -80,9 +81,12 @@ public class Main {
 
         // Java 19
         demoPool.add(new VirtualThreadsDemo());
+
+        // Java 20
+        demoPool.add(new ScopedValuesDemo());
         
         // run method .demo() on each entry to see the output
-        demoPool.forEach(example -> example.demo());
+        demoPool.forEach(IDemo::demo);
         
     }
     
