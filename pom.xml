@@ -7,10 +7,10 @@
     <packaging>jar</packaging>
     
     <properties>
-        <java.version>19</java.version>
+        <java.version>20</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>19</maven.compiler.source>
-        <maven.compiler.target>19</maven.compiler.target>
+        <maven.compiler.source>20</maven.compiler.source>
+        <maven.compiler.target>20</maven.compiler.target>
     </properties>
     
     <dependencies>
@@ -18,7 +18,7 @@
             <!-- for simplier getter/setter/constructor declarations -->
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-            <version>1.18.22</version>
+            <version>1.18.26</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>
@@ -41,9 +41,9 @@
             <plugin>
                 <!-- responsible for performing .jar build -->
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.10.1</version>
+                <version>3.11.0</version>
                 <configuration>
-                    <release>19</release>
+                    <release>20</release>
                     <compilerArgs>
                         <!-- allows 'preview' Java features -->
                         --enable-preview

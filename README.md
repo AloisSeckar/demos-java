@@ -1,8 +1,8 @@
-# Java demos - new language features from Java 11 to Java 19
+# Java demos - new language features from Java 11 to Java 20
 
-This application helps showing some new features being introduced in Java versions since Java 19.
+This application helps to show some new features being introduced in Java versions until Java 20.
 
-Currently being re-designed and enhanced Java JDK 19.
+Currently, it is being enhanced for Java JDK 20.
 
 All relevant info is written down in comments inside sources.
 
