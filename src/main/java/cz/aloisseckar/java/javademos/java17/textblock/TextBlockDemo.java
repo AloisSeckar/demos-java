@@ -39,7 +39,7 @@ public class TextBlockDemo implements IDemo {
                            """;
         System.out.println(newString);
         
-        // you can reffer to output to see both Strings print out equivalently
+        // you can refer to output to see both Strings print out equivalently
     }
 
 }

@@ -20,8 +20,8 @@ public class J9Demo implements IDemo {
     public void demo() {
         info("J9 DEMO", "Examples for three little language features\nintroduced in Java 9");
         
-        // 1) try-with-resources variable is not anymore limited to live just
-        //    inside the try block. It can be instanced and worked with before.
+        // 1) try-with-resources variable is not limited to live just inside
+        //    the try block anymore. It can be instanced and worked with before.
         //    Try-with-resources still ensures closing of the resource.
         
         System.out.println("Try-with-resources on existing resource");
@@ -44,7 +44,7 @@ public class J9Demo implements IDemo {
             // while our .demo() method is not...
             // so try-with-resources without catch block will yield and error
             
-            // setting PrintStream/PrintWriter target here will easilly supress 
+            // setting PrintStream/PrintWriter target here will easily suppress
             // the infamous 'Print Stack Trace' compiler warning
             ex.printStackTrace(System.out);
         }
@@ -53,31 +53,31 @@ public class J9Demo implements IDemo {
         
         ////////////////////////////////////////////////////////////////////////
         
-        // 2) diamond operator <> now allows annonymous inner classes
-        //    In Java 7 and 8 you can use diamont operator to simplify
+        // 2) diamond operator <> now allows anonymous inner classes
+        //    In Java 7 and 8 you can use diamond operator to simplify
         //    right side of generic type declaration, but it has to be 
         //    the class itself. Since Java 9 it is possible to benefit from 
-        //    enhancing the class' behaviour via annonymous inner class.
+        //    enhancing the class' behaviour via anonymous inner class.
         
-        System.out.println("Diamond operator allows annonymous classes");
+        System.out.println("Diamond operator allows anonymous classes");
         
         // if you try this in Java < 9, compiler will throw:
         //   "cannot infer type arguments for ArrayList<E>"
         List<String> fc1 = new ArrayList<>() {
             
             // here we are overriding the default implementation of ArrayList's
-            // .size() method and also introducing brand new method (but it has
+            // .size() method and also introducing brand-new method (but it has
             // to be private)
             
             @Override
             public int size() {
-                System.out.println("Overriden ArrayList.size() method");
+                System.out.println("Overridden ArrayList.size() method");
                 foo();
                 return super.size();
             }
             
             private void foo() {
-                System.out.println("Method available just for this annonymous class");
+                System.out.println("Method available just for this anonymous class");
             }
         };
         System.out.println(fc1.size());

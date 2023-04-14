@@ -11,7 +11,7 @@ package cz.aloisseckar.java.javademos.java11.var;
 public class IVarDemoImpl1 implements IVarDemo {
 
     @Override
-    public void fooo() {
+    public void foo() {
         System.out.println("Hello from IVarDemoImpl1");
     }
     

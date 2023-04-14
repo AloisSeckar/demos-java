@@ -7,6 +7,6 @@ package cz.aloisseckar.java.javademos.java11.var;
  * 
  * @author alois.seckar@atos.net
  */
-public class VarDemoVeryLongClassNameThatWeDontWantToRepeat {
+public class VarDemoVeryLongClassNameThatWeDoNotWantToRepeat {
     
 }

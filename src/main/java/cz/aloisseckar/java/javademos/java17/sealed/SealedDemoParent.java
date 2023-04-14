@@ -3,7 +3,7 @@ package cz.aloisseckar.java.javademos.java17.sealed;
 /**
  * Simple class to show 'sealed class' concept from Java 17.
  * If class is 'sealed', it MUST also have 'permits' section with 1-n
- * allowed sub-classes. Those sub-classes must exist and MUST extend parent.
+ * allowed subclasses. Those subclasses must exist and MUST extend parent.
  * 
  * @see cz.aloisseckar.java.javademos.java17.sealed.SealedDemoChild
  * @see cz.aloisseckar.java.javademos.java17.sealed.SealedDemoBastard

@@ -23,8 +23,8 @@ public class RecordDemo implements IDemo {
         
         // we can define new 'record' directly inside the code block
         // where we need it
-        // arguments in this constructor-alike declaration are auto-transfered
-        // to object memebers, that are 'final' by definition
+        // arguments in this constructor-alike declaration are auto-transferred
+        // to object members, that are 'final' by definition
         // it is not possible to have more non-static members inside record
         // than those declared here
         record MyData(int number, String text) {}
@@ -36,7 +36,7 @@ public class RecordDemo implements IDemo {
         // names, no "get" prefix here...
         System.out.println(data.number());
         System.out.println(data.text());
-        // it is also possible to adress member directly, like it is declared 'public'
+        // it is also possible to address member directly, like it is declared 'public'
         System.out.println(data.number);
         
         // although members are accessible, it is not possible to re-assign 
@@ -52,7 +52,7 @@ public class RecordDemo implements IDemo {
         // private class MyExtData extends MyData {}
         
         // however 'records' CAN implement interfaces and declare new methods
-        // inside {} block, much alike annonymous inner classes
+        // inside {} block, much alike anonymous inner classes
         record MyExtendedData(int number, String text) implements IRecord {
             
             // only static variables allowed here

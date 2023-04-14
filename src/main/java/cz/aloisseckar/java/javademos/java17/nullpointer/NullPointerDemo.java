@@ -38,7 +38,7 @@ public class NullPointerDemo implements IDemo {
             nullPointer.getLevel2().getLevel3().getLevel4();
         } catch (Exception ex) {
             // without the hint, you will have to elaborate, which part 
-            // of the chain was 'null', but now JVM simply tells you
+            // of the chain was 'null', but now JVM simply tells you,
             // and you can narrow your point of interest during debugging
             ex.printStackTrace(System.out);
         }

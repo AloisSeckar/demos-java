@@ -37,7 +37,7 @@ public class HttpDemo implements IDemo {
             // .header() (or .headers() for more) - specify yor request
             //    read more about HTTP headers here:
             //    https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers
-            // GET/POST/PUT/DELETE - depending of what you need
+            // GET/POST/PUT/DELETE - depending on what you need
             var request = HttpRequest.newBuilder()
                     .uri(new URI("http://ellrohir.mzf.cz/demo/index.html"))
                     .version(HttpClient.Version.HTTP_2)
@@ -61,7 +61,7 @@ public class HttpDemo implements IDemo {
             // and verify you got the exact same output here
             
         } catch (Exception ex) {
-            // setting PrintStream/PrintWriter target here will easilly supress 
+            // setting PrintStream/PrintWriter target here will easily suppress
             // the infamous 'Print Stack Trace' compiler warning
             ex.printStackTrace(System.out);
         }

@@ -1,7 +1,7 @@
 package cz.aloisseckar.java.javademos.java11.var;
 
 /**
- * Simple sub-class of VarDemoParent to show 'var' keyword behavior.
+ * Simple subclass of VarDemoParent to show 'var' keyword behavior.
  * 
  * @see cz.aloisseckar.java.javademos.java11.var.VarDemoParent
  * @see cz.aloisseckar.java.javademos.java11.var.VarDemo

@@ -23,7 +23,7 @@ public class VarDemo implements IDemo {
     //   'var' is not allowed here
     // private var variable;
     
-    // even with immedeate assignment
+    // even with immediate assignment
     // private var variable = "v";
     
     @Override
@@ -46,9 +46,9 @@ public class VarDemo implements IDemo {
         System.out.println(s2.getClass());
         
         // here you can see how 'var' shortens variable declaration
-        VarDemoVeryLongClassNameThatWeDontWantToRepeat v1 = new VarDemoVeryLongClassNameThatWeDontWantToRepeat();
+        VarDemoVeryLongClassNameThatWeDoNotWantToRepeat v1 = new VarDemoVeryLongClassNameThatWeDoNotWantToRepeat();
         System.out.println(v1.getClass());
-        var v2 = new VarDemoVeryLongClassNameThatWeDontWantToRepeat();
+        var v2 = new VarDemoVeryLongClassNameThatWeDoNotWantToRepeat();
         System.out.println(v2.getClass());
         
         // it can be also useful when using method chaining
@@ -64,8 +64,8 @@ public class VarDemo implements IDemo {
         
         System.out.println("INHERITANCE");
         
-        // normally, we can benefit from polymorfism in Java
-        // if we declare your variable as 'parent', it allows all 'childern'
+        // normally, we can benefit from polymorphism in Java
+        // if we declare your variable as 'parent', it allows all 'children'
         // to be assigned into, as subclass always resolves to its parent
         VarDemoParent p1 = new VarDemoSon();
         p1.foo();
@@ -88,21 +88,21 @@ public class VarDemo implements IDemo {
         
         // same effect applies to interfaces
         // while you can assign any implementation into variable declared as
-        // the interface iself, using 'var' will resolve 'if2' as the first
-        // implementation and you won't be able to change it later
+        // the interface itself, using 'var' will resolve 'if2' as the first
+        // implementation, and you won't be able to change it later
         IVarDemo if1 = new IVarDemoImpl1();
-        if1.fooo();
+        if1.foo();
         System.out.println(if1.getClass());
         if1 = new IVarDemoImpl2();
-        if1.fooo();
+        if1.foo();
         System.out.println(if1.getClass());
         
         /*
         var if2 = new IVarDemoImpl1();
-        if2.fooo();
+        if2.foo();
         System.out.println(if2.getClass());
         if2 = new IVarDemoImpl2(); // incompatible types: IVarDemoImpl2 cannot be converted to IVarDemoImpl1
-        if2.fooo();
+        if2.foo();
         System.out.println(if2.getClass());
         */
         
@@ -136,7 +136,7 @@ public class VarDemo implements IDemo {
         // MyFunction myFunction3 = (var x, Object y) -> x.toString() + y.toString();
         
         // however, you can also omit data types declaration at all as the
-        // datatypes implicitly result from functional interface declaration
+        // data types implicitly result from functional interface declaration
         // therefore allowing 'var' for lambda variables just avoids confusion
         // and doesn't bring anything new
         MyFunction myFunction3 = (x,y) -> x.toString() + y.toString();

@@ -11,7 +11,7 @@ package cz.aloisseckar.java.javademos.java17.sealed;
 
 // following two declarations are invalid:
 
-// class is not allowed to extend sealed class: SealedDemoParent (as it is not listed in its permits clause)
+// class is not allowed to extend sealed class: SealedDemoParent (as it is not listed in its permits' clause)
 // public class SealedDemoBastard extends SealedDemoParent {
 
 // non-sealed modifier not allowed here

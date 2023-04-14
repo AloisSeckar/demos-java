@@ -28,6 +28,6 @@ public interface IDemo {
     /**
      * Method to perform the actual work for each demo feature.
      */
-    public void demo();
+    void demo();
     
 }

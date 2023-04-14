@@ -9,6 +9,6 @@ package cz.aloisseckar.java.javademos.java11.var;
  */
 public interface IVarDemo {
     
-    public void fooo();
+    void foo();
     
 }

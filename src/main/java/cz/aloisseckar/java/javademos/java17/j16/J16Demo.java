@@ -64,7 +64,7 @@ public class J16Demo implements IDemo {
         // here the output is our custom object with 3 values:
         // 1) number of characters in each word
         // 2) first letter of each word
-        // 3) flag wheter the word ends with 'a'
+        // 3) flag whether the word ends with 'a'
         // method signature:
         // default <R> Stream<R> mapMulti(BiConsumer<? super T,? super Consumer<R>> mapper)
         Stream.of("Java", "Valhalla", "Panama", "Loom", "Amber")

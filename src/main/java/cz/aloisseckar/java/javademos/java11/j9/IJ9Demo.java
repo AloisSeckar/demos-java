@@ -12,7 +12,7 @@ public interface IJ9Demo {
     /**
      * Method that HAS to be implemented.
      */
-    public void foo();
+    void foo();
     
     /**
      * Default method (Java 8 feature) that CAN be re-implemented.

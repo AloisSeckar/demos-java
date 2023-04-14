@@ -20,7 +20,7 @@ public class DeprecatedDemo implements IDemo {
 
     @Override
     public void demo() {
-        info("DEPRECATED DEMO", "What is deprecared in Java 17");
+        info("DEPRECATED DEMO", "What is deprecated in Java 17");
         
         System.out.println("There is nothing to display in this demo");
         System.out.println("Go and check DeprecatedDemo.java class");
@@ -47,7 +47,7 @@ public class DeprecatedDemo implements IDemo {
         SecurityManager secMan = new SecurityManager();
         //
         // disabled by default and not widely used
-        // however, can be found eg. in Tomcat or ElasticSearch
+        // however, can be found e.g. in Tomcat or ElasticSearch
         //
         // (dis)allows almost all JVM actions based on white-list policies
         //

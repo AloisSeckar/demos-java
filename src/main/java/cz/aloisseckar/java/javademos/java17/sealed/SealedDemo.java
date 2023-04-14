@@ -23,7 +23,7 @@ public class SealedDemo implements IDemo {
     public void demo() {
         info("SEALED CLASSES DEMO", "Examples for 'sealed' classes\nintroduced in Java 15 and finalized in Java 17");
         
-        // reffer to class declarations for more info
+        // refer to class declarations for more info
         // cz.aloisseckar.java.javademos.java17.sealed.SealedDemoParent
         // cz.aloisseckar.java.javademos.java17.sealed.SealedDemoChild
         // cz.aloisseckar.java.javademos.java17.sealed.SealedDemoBastard

@@ -23,7 +23,7 @@ public class SwitchDemo implements IDemo {
         
         // code examples taken directly from https://openjdk.java.net/jeps/361
         
-        // lets get random day of week
+        // let's get random day of week
         // and return number of letters in its english name
         
         int day = new Random().nextInt(7) + 1;
@@ -73,7 +73,7 @@ public class SwitchDemo implements IDemo {
         
         // Java < 14
         // you have to declare first and take care of initialization (either
-        // by doing it manually or by having 'switch' covering all possibilites)
+        // by doing it manually or by having 'switch' covering all possibilities)
         // then you assign value into the variable in each 'case' block
         int numLetters = -1;
         switch (day) {

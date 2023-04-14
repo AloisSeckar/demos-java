@@ -25,10 +25,9 @@ public class J9DemoAutoCloseable implements AutoCloseable {
 
     /**
      * This method ensures proper closing.
-     * @throws Exception 
      */
     @Override
-    public void close() throws Exception {
+    public void close() {
         System.out.println("Performing operations required to close the resource");
     }
     

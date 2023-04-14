@@ -10,6 +10,6 @@ package cz.aloisseckar.java.javademos.java17.record;
  */
 public interface IRecord {
     
-    public void foo();
+    void foo();
     
 }
