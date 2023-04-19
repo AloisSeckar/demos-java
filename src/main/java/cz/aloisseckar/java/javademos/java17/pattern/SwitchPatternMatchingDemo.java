@@ -22,6 +22,9 @@ public class SwitchPatternMatchingDemo implements IDemo {
     @Override
     public void demo() {
         info("PATTERN MATCHING DEMO", "Example for 'switch pattern matching'\nintroduced in Java 17");
+
+        System.out.println("The variant from Java 17 is not valid in Java 20 anymore");
+        System.out.println("This demo is 'archived' and new variant is introduced form JDK 20+");
         
         // method formatViaSwitchPatternMatching() takes any java.lang.Object
         // as an argument and returns its java.lang.String representation based
@@ -30,18 +33,21 @@ public class SwitchPatternMatchingDemo implements IDemo {
         // before switch pattern matching there would be a lot of 'if-then-else'
         // commands together with 'instanceof' checks and re-casting
         // now the syntax is much shorter, cleaner and more compact
-        
+
+        /* not working in JDK 20
         System.out.println(formatViaSwitchPatternMatching(5));
         System.out.println(formatViaSwitchPatternMatching(5L));
         System.out.println(formatViaSwitchPatternMatching(5.1));
         System.out.println(formatViaSwitchPatternMatching("5"));
-        // System.out.println(formatViaSwitchPatternMatching("some long text")); // only worked in Java 17
+        // System.out.println(formatViaSwitchPatternMatching("some long text")); // not working in JDK 19
         System.out.println(formatViaSwitchPatternMatching(null));
         System.out.println(formatViaSwitchPatternMatching(new Object()));
+         */
         
         System.out.println();
     }
-    
+
+    /* not working in JDK 20
     // NOTE: since this is still a preview feature in Java 17, following steps
     // have to be taken to be able to use it:
     //   - in maven-compiler-plugin settings '<arg>--enable-preview</arg>' must be set to build the program
@@ -85,5 +91,6 @@ public class SwitchPatternMatchingDemo implements IDemo {
         };
 
     }
+    */
 
 }
