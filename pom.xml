@@ -48,7 +48,7 @@
                         <!-- allows 'preview' features -->
                         <arg>--enable-preview</arg>
                         <!-- allows newest 'incubator' features -->
-                        <arg>--add-modules=jdk.incubator.concurrent</arg>
+                        <arg>--add-modules=jdk.incubator.concurrent,jdk.incubator.vector</arg>
                     </compilerArgs>
                 </configuration>
             </plugin>

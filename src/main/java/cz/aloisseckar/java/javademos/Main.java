@@ -17,6 +17,7 @@ import cz.aloisseckar.java.javademos.java17.string12.String12Demo;
 import cz.aloisseckar.java.javademos.java17.textblock.TextBlockDemo;
 import cz.aloisseckar.java.javademos.java20.virtualthreads.VirtualThreadsDemo;
 import cz.aloisseckar.java.javademos.java20.scopedvalues.ScopedValuesDemo;
+import cz.aloisseckar.java.javademos.java20.vectorapi.VectorAPIDemo;
 
 import java.util.ArrayList;
 
@@ -82,6 +83,7 @@ public class Main {
         // Java 20
         demoPool.add(new VirtualThreadsDemo());
         demoPool.add(new ScopedValuesDemo());
+        demoPool.add(new VectorAPIDemo());
         
         // run method .demo() on each entry to see the output
         demoPool.forEach(IDemo::demo);
