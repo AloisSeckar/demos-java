@@ -1,15 +1,16 @@
-# Java demos - new language features from Java 11 to Java 20
+# Java demos - new language features from Java 11 to Java 21
 
-This application helps to show some new features being introduced in Java versions until Java 20.
-
-Currently, it is being enhanced for Java JDK 20.
+This application helps to show some new features being introduced in Java versions until Java 21.
 
 All relevant info is written down in comments inside sources.
 
-## Usage
-Checkout and explore in your favorite IDE.
+## Java News
+Since september 2023 [there is file](JavaNews.md) with interesting articles and information from Java world. 
 
-You also can `mvn clean install` the project and then just run `java --enable-preview --add-modules=jdk.incubator.concurrent,jdk.incubator.vector -jar target\JavaDemos-2.0.jar`. 
+## Usage
+Checkout the project and explore the files in your favorite IDE.
+
+You can also `mvn clean install` the project and then just run `java --enable-preview --add-modules=jdk.incubator.concurrent,jdk.incubator.vector -jar target\JavaDemos-2.0.jar`. 
 But you may miss some important context and information without reading the comments in the source code. 
 
 Note that `--enable-preview` and `--add-modules` options are necessary to make the newest Java language features available.
