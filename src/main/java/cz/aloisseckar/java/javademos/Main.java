@@ -15,9 +15,9 @@ import cz.aloisseckar.java.javademos.java17.record.RecordDemo;
 import cz.aloisseckar.java.javademos.java17.sealed.SealedDemo;
 import cz.aloisseckar.java.javademos.java17.string12.String12Demo;
 import cz.aloisseckar.java.javademos.java17.textblock.TextBlockDemo;
-import cz.aloisseckar.java.javademos.java20.virtualthreads.VirtualThreadsDemo;
-import cz.aloisseckar.java.javademos.java20.scopedvalues.ScopedValuesDemo;
-import cz.aloisseckar.java.javademos.java20.vectorapi.VectorAPIDemo;
+import cz.aloisseckar.java.javademos.java21.virtualthreads.VirtualThreadsDemo;
+import cz.aloisseckar.java.javademos.java21.scopedvalues.ScopedValuesDemo;
+import cz.aloisseckar.java.javademos.java21.vectorapi.VectorAPIDemo;
 
 import java.util.ArrayList;
 
@@ -80,7 +80,7 @@ public class Main {
         demoPool.add(new SealedDemo());
         demoPool.add(new DeprecatedDemo());
 
-        // Java 20
+        // Java 21
         demoPool.add(new VirtualThreadsDemo());
         demoPool.add(new ScopedValuesDemo());
         demoPool.add(new VectorAPIDemo());

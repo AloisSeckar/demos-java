@@ -1,4 +1,4 @@
-package cz.aloisseckar.java.javademos.java20.vectorapi;
+package cz.aloisseckar.java.javademos.java21.vectorapi;
 
 import cz.aloisseckar.java.javademos.commons.IDemo;
 import jdk.incubator.vector.FloatVector;

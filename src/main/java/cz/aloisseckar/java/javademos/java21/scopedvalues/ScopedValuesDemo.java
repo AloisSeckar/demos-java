@@ -1,4 +1,4 @@
-package cz.aloisseckar.java.javademos.java20.scopedvalues;
+package cz.aloisseckar.java.javademos.java21.scopedvalues;
 
 import cz.aloisseckar.java.javademos.commons.IDemo;
 import jdk.incubator.concurrent.ScopedValue;

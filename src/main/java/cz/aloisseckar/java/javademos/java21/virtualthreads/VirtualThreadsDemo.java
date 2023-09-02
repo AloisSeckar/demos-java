@@ -1,4 +1,4 @@
-package cz.aloisseckar.java.javademos.java20.virtualthreads;
+package cz.aloisseckar.java.javademos.java21.virtualthreads;
 
 import cz.aloisseckar.java.javademos.commons.IDemo;
 
