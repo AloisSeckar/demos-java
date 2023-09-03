@@ -4,9 +4,6 @@ This application helps to show some new features being introduced in Java versio
 
 All relevant info is written down in comments inside sources.
 
-## Java News
-Since september 2023 [there is file](JavaNews.md) with interesting articles and information from Java world. 
-
 ## Usage
 Checkout the project and explore the files in your favorite IDE.
 
@@ -18,3 +15,9 @@ Note that `--enable-preview` and `--add-modules` options are necessary to make t
 ## Author
 * alois.seckar@atos.net
 * http://alois-seckar.cz
+
+## Extra - Java News
+Since september 2023 [there is file](JavaNews.md) with interesting articles and information from Java world.
+
+## Extra - Java Tech
+[This is a list](JavaTech.md) of interesting projects based on Java.
