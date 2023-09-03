@@ -1,4 +1,4 @@
-# Java demos - new language features from Java 11 to Java 21
+# Java demos - new language features from Java 11 to 21
 
 This application helps to show some new features being introduced in Java versions until Java 21.
 
@@ -16,8 +16,11 @@ Note that `--enable-preview` and `--add-modules` options are necessary to make t
 * alois.seckar@atos.net
 * http://alois-seckar.cz
 
-## Extra - Java News
-Since september 2023 [there is file](JavaNews.md) with interesting articles and information from Java world.
+## Extra - Java Features
+[JavaFeatures](JavaFeatures.md) is my list of all Java versions with all JEPs included in each release.
 
 ## Extra - Java Tech
-[This is a list](JavaTech.md) of interesting projects based on Java.
+[JavaTech](JavaTech.md) is my list of interesting projects based on Java.
+
+## Extra - Java News
+[JavaNews](JavaNews.md) is my list with interesting articles and information from Java world started since 09/2023.
