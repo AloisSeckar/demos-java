@@ -7,6 +7,8 @@ What is the Java world up to
 
 - **2023-08-22** - [Exploring the design of Java’s new virtual threads](https://blogs.oracle.com/javamagazine/post/java-virtual-threads) - gain deeper insight and better understanding of one of the most anticipated feature of Java 21 - Virtual threads.
 
+- **2023-07-11** - [Java 21 - Java 17 = 42 JEPs view](https://dev.to/pfilaretov42/java-21-java-17-42-jeps-view-ckk) - simple but useful list grouping the new features between Java 17 and Java 21
+
 ## Further reading
 Stay updated with the following more dedicated sources:
 - https://inside.java/
