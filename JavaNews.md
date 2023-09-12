@@ -2,6 +2,7 @@
 What is the Java world up to
 
 - **2023-09-19** - **JDK 21 release date**
+- **2023-09-11** - [LTS JDK 21 Features](https://dzone.com/articles/lts-jdk-21-features) - cool summary of Java 21 enhancements with example code snippets.
 - **2023-09-05** - [New Oracle GraalVM Container Images](https://blogs.oracle.com/java/post/new-oracle-graalvm-container-images) - Oracle now offers [GraalVM](https://www.graalvm.org/) jdk/native-image containers
 - **2023-09-01** - [JDK 21 and JDK 22: What We Know So Far](https://www.infoq.com/news/2023/09/java-21-so-far/) - as the release of Java 21 knocks at the door, Michael Redlich prepared an exhaustive list of what is to be expected.
 
