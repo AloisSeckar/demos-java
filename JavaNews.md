@@ -5,6 +5,7 @@ What is the Java world up to?
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2023-09-19`**  | [The Arrival of Java 21!](https://inside.java/2023/09/19/the-arrival-of-java-21/) - Java 21 release summary with some interesting stats and figures |
 | **`2023-09-19`**  | **JDK 21 release date**  |
 | **`2023-09-16`**  | [Java 21 Launch Event](https://dev.java/community/java-21-launch/) - official 8-hour streaming event covering the Java 21 release day was announced |
 | **`2023-09-11`**  | [LTS JDK 21 Features](https://dzone.com/articles/lts-jdk-21-features) - cool summary of Java 21 enhancements with example code snippets |
