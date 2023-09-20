@@ -1,7 +1,6 @@
 package cz.aloisseckar.java.javademos.java21.scopedvalues;
 
 import cz.aloisseckar.java.javademos.commons.IDemo;
-import jdk.incubator.concurrent.ScopedValue;
 
 /**
  * This class demonstrates new feature called Scoped Values.
