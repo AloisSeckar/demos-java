@@ -5,6 +5,7 @@ What is the Java world up to?
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2023-09-21`**  | [Introducing GraalOS](https://blogs.oracle.com/java/post/introducing-graalos) - brand new application deployment technology using [GraalVM](https://www.graalvm.org/) was announced by Oracle |
 | **`2023-09-20`**  | [Hello, Java 21](https://spring.io/blog/2023/09/20/hello-java-21) - Another Java 21 release summary, but also including some not so commonly mentioned features |
 | **`2023-09-19`**  | [When Quarkus meets Virtual Threads](https://quarkus.io/blog/virtual-thread-1/) - Series-opening article about adopting Java 21 Virtual Threads in [Quarkus](https://quarkus.io/) |
 | **`2023-09-19`**  | [GraalVM for JDK 21 is here!](https://medium.com/graalvm/graalvm-for-jdk-21-is-here-ee01177dd12d) - Announcement of a new version of [GraalVM](https://www.graalvm.org/) with Java 21 support |
