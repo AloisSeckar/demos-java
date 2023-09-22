@@ -29,7 +29,7 @@ public class J21Demo implements IDemo {
         System.out.println();
 
         // 2) BigInteger.parallelMultiply
-        // -------------------
+        // ------------------------------
         // introduced in Java 19 - https://bugs.openjdk.org/browse/JDK-8278886
         // faster than traditional BigInteger.multiply, as it utilizes parallel threads to perform the computation
         // it has to be really large numbers to see the effect (due to multi-thread computing overhead)
@@ -53,6 +53,31 @@ public class J21Demo implements IDemo {
         var timeE2 = System.nanoTime() - timeS2;
         System.out.println(".parallelMultiply() took " + timeE2 / 1000 + " ms");
         System.out.println();
+
+        // 3) StringBuilder.repeat
+        // -----------------------
+        // introduced in Java 21 - https://bugs.openjdk.org/browse/JDK-8302686
+        // String.repeat already exists since Java 11
+        // this is a more convenient way to use it directly in StringBuilder
+
+        System.out.println("StringBuilder.repeat - more effective string concatenation");
+        System.out.println("sb.repeat(\"abc\", 5);");
+        StringBuilder sb = new StringBuilder();
+        sb.repeat("abc", 5);
+        System.out.println(sb);
+        System.out.println();
+
+        // 4) Character.isEmoji
+        // --------------------
+        // introduced in Java 21 - https://bugs.openjdk.org/browse/JDK-8303018
+        // detect whether given CharSequence is an emoji or not based on its Unicode code point
+        // prior to this, workarounds had to be used for detection (see https://www.baeldung.com/java-check-letter-emoji)
+
+        System.out.println("Character.isEmoji - detecting whether a text contains an emoji");
+        var codePoint1 = Character.codePointAt("😃", 0);
+        System.out.println("😃 isEmoji? " + Character.isEmoji(codePoint1));
+        var codePoint2 = Character.codePointAt(":)", 0);
+        System.out.println(":) isEmoji? " + Character.isEmoji(codePoint2));
 
     }
 }
