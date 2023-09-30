@@ -6,6 +6,7 @@ What is the Java world up to?
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
 | **`2023-09-28`**  | [Java 22 could include computed constants, class-filed API](https://www.infoworld.com/article/3707728/java-22-could-include-computed-constants-class-filed-api.html) - what might be expected in forthcoming Java release |
+| **`2023-09-22`**  | **New JEP Draft** - [Value Object Storage Enhancements (Preview))](https://openjdk.org/jeps/8316779) - introducing _null-restricted_ storage objects |
 | **`2023-09-21`**  | [Introducing GraalOS](https://blogs.oracle.com/java/post/introducing-graalos) - brand new application deployment technology using [GraalVM](https://www.graalvm.org/) was announced by Oracle |
 | **`2023-09-20`**  | [Hello, Java 21](https://spring.io/blog/2023/09/20/hello-java-21) - Another Java 21 release summary, but also including some not so commonly mentioned features |
 | **`2023-09-19`**  | [When Quarkus meets Virtual Threads](https://quarkus.io/blog/virtual-thread-1/) - Series-opening article about adopting Java 21 Virtual Threads in [Quarkus](https://quarkus.io/) |
@@ -14,6 +15,7 @@ What is the Java world up to?
 | **`2023-09-19`**  | **JDK 21 release date**  |
 | **`2023-09-16`**  | [Java 21 Launch Event](https://dev.java/community/java-21-launch/) - official 8-hour streaming event covering the Java 21 release day was announced |
 | **`2023-09-11`**  | [LTS JDK 21 Features](https://dzone.com/articles/lts-jdk-21-features) - cool summary of Java 21 enhancements with example code snippets |
+| **`2023-09-08`**  | **New JEP Draft** - [Vector API (Seventh Incubator)](https://openjdk.org/jeps/8315945) - another iteration of Vector API |
 | **`2023-09-05`**  | [New Oracle GraalVM Container Images](https://blogs.oracle.com/java/post/new-oracle-graalvm-container-images) - Oracle now offers [GraalVM](https://www.graalvm.org/) jdk/native-image containers |
 | **`2023-09-01`**  | [JDK 21 and JDK 22: What We Know So Far](https://www.infoq.com/news/2023/09/java-21-so-far/) - as the release of Java 21 knocks at the door, Michael Redlich prepared an exhaustive list of what is to be expected |
 
