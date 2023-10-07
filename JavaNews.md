@@ -1,6 +1,13 @@
 # JAVA NEWS
 What is the Java world up to?
 
+## 2023 - October
+
+| Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
+| --- | :--  |
+| **`2023-10-06`**  | [Java 22 begins to take shape](https://www.infoworld.com/article/3708329/java-22-begins-to-take-shape.html) - some news about the development around Java 22 |
+| **`2023-10-03`**  | [Microsoft ships Java 21 builds](https://www.infoworld.com/article/3707711/microsoft-ships-java-21-builds.html) - Microsoft OpenJDK 21 builds will be available in Azure PaaS |
+
 ## 2023 - September
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
