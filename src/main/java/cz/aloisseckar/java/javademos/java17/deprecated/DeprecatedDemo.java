@@ -15,7 +15,7 @@ import java.applet.Applet;
  * https://docs.oracle.com/en/java/javase/17/migrate/removed-tools-and-components.html
  * (list of DEPRECATED and REMOVED from platform features until Java 17)
  * 
- * @author alois.seckar@atos.net
+ * @author alois.seckar@gmail.com
  */
 public class DeprecatedDemo implements IDemo {
 

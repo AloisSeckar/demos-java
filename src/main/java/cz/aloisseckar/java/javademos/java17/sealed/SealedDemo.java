@@ -17,7 +17,7 @@ import java.util.Arrays;
  * Further reading: 
  * https://www.baeldung.com/java-sealed-classes-interfaces
  * 
- * @author alois.seckar@atos.net
+ * @author alois.seckar@gmail.com
  */
 public class SealedDemo implements IDemo {
 

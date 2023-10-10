@@ -16,7 +16,7 @@ But you may miss some important context and information without reading the comm
 Note that `--enable-preview` and `--add-modules` options are necessary to make the newest Java language features available.
 
 ## Author
-* alois.seckar@atos.net
+* alois.seckar@gmail.com
 * http://alois-seckar.cz
 
 ## Extra - Java Features

@@ -15,7 +15,7 @@ import cz.aloisseckar.java.javademos.commons.IDemo;
  * Further reading: 
  * https://dzone.com/articles/what-are-java-records 
  * 
- * @author alois.seckar@atos.net
+ * @author alois.seckar@gmail.com
  */
 public class RecordDemo implements IDemo {
     

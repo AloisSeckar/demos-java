@@ -6,7 +6,7 @@ package cz.aloisseckar.java.javademos.java11.var;
  * @see cz.aloisseckar.java.javademos.java11.var.VarDemoParent
  * @see cz.aloisseckar.java.javademos.java11.var.VarDemo
  * 
- * @author alois.seckar@atos.net
+ * @author alois.seckar@gmail.com
  */
 public class VarDemoSon extends VarDemoParent {
     

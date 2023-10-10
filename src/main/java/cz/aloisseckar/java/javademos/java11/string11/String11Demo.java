@@ -14,7 +14,7 @@ import cz.aloisseckar.java.javademos.commons.IDemo;
  * Further reading: 
  * https://dzone.com/articles/applying-new-jdk-11-string-methods 
  * 
- * @author alois.seckar@atos.net
+ * @author alois.seckar@gmail.com
  */
 public class String11Demo implements IDemo {
 

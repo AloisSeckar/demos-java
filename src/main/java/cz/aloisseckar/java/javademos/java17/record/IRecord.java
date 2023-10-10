@@ -6,7 +6,7 @@ package cz.aloisseckar.java.javademos.java17.record;
  * 
  * @see cz.aloisseckar.java.javademos.java17.record.RecordDemo
  * 
- * @author alois.seckar@atos.net
+ * @author alois.seckar@gmail.com
  */
 public interface IRecord {
     

@@ -7,7 +7,7 @@ import lombok.Getter;
  * Here we have 4-level nested class structure and somewhere on the way
  * one element is 'null', so invoking method on it will raise 'NullPointer'.
  * 
- * @author alois.seckar@atos.net
+ * @author alois.seckar@gmail.com
  */
 public class NullPointerLevel2 {
     

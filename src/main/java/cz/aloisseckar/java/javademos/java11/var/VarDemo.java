@@ -16,7 +16,7 @@ import java.util.stream.Stream;
  * Further reading:
  * https://developers.redhat.com/blog/2018/05/25/simplify-local-variable-type-definition-using-the-java-10-var-keyword
  * 
- * @author alois.seckar@atos.net
+ * @author alois.seckar@gmail.com
  */
 public class VarDemo implements IDemo {
     

@@ -28,7 +28,7 @@ import java.util.stream.Stream;
  * Further reading:
  * https://blogs.oracle.com/javamagazine/post/the-hidden-gems-in-java-16-and-java-17-from-streammapmulti-to-hexformat 
  * 
- * @author alois.seckar@atos.net
+ * @author alois.seckar@gmail.com
  */
 public class J16Demo implements IDemo {
 

@@ -13,7 +13,7 @@ import cz.aloisseckar.java.javademos.commons.IDemo;
  * Further reading:
  * https://blogs.oracle.com/javamagazine/post/java-loom-virtual-threads-platform-threads
  *
- * @author alois.seckar@atos.net
+ * @author alois.seckar@gmail.com
  */
 public class VirtualThreadsDemo implements IDemo {
 

@@ -5,7 +5,7 @@ package cz.aloisseckar.java.javademos.java11.j9;
  * 
  * @see cz.aloisseckar.java.javademos.java11.j9.J9Demo
  * 
- * @author alois.seckar@atos.net
+ * @author alois.seckar@gmail.com
  */
 public interface IJ9Demo {
     

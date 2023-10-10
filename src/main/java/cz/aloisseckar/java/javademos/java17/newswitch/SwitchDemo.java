@@ -15,7 +15,7 @@ import java.util.Random;
  * Further reading:
  * https://betterprogramming.pub/a-look-at-the-new-switch-expressions-in-java-14-ed209c802ba0
  * 
- * @author alois.seckar@atos.net
+ * @author alois.seckar@gmail.com
  */
 public class SwitchDemo implements IDemo {
 

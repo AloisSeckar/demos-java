@@ -8,7 +8,7 @@ package cz.aloisseckar.java.javademos.java17.sealed;
  * @see cz.aloisseckar.java.javademos.java17.sealed.SealedDemoChild
  * @see cz.aloisseckar.java.javademos.java17.sealed.SealedDemoBastard
  * 
- * @author alois.seckar@atos.net
+ * @author alois.seckar@gmail.com
  */
 public sealed class SealedDemoParent permits SealedDemoChild {
     

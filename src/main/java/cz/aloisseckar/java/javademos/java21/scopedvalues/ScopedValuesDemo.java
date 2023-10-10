@@ -13,7 +13,7 @@ import cz.aloisseckar.java.javademos.commons.IDemo;
  * Further reading: 
  * https://www.happycoders.eu/java/scoped-values
  * 
- * @author alois.seckar@atos.net
+ * @author alois.seckar@gmail.com
  */
 public class ScopedValuesDemo implements IDemo {
 

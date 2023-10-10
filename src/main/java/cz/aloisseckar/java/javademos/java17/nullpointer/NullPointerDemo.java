@@ -11,7 +11,7 @@ import cz.aloisseckar.java.javademos.commons.IDemo;
  * Further reading:
  * https://www.baeldung.com/java-14-nullpointerexception
  * 
- * @author alois.seckar@atos.net
+ * @author alois.seckar@gmail.com
  */
 public class NullPointerDemo implements IDemo {
 

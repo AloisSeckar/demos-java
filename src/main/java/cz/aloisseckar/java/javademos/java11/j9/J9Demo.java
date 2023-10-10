@@ -13,7 +13,7 @@ import java.util.List;
  * Further reading:
  * https://www.baeldung.com/new-java-9#Language
  * 
- * @author alois.seckar@atos.net
+ * @author alois.seckar@gmail.com
  */
 public class J9Demo implements IDemo {
 

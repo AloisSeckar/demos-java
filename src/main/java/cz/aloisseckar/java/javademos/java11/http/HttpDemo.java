@@ -17,7 +17,7 @@ import java.net.http.HttpResponse;
  * Further reading:
  * https://www.baeldung.com/java-9-http-client
  * 
- * @author alois.seckar@atos.net
+ * @author alois.seckar@gmail.com
  */
 public class HttpDemo implements IDemo {
 

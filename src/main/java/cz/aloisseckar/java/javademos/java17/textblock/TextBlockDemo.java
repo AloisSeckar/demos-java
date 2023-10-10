@@ -13,7 +13,7 @@ import cz.aloisseckar.java.javademos.commons.IDemo;
  * Further reading: 
  * https://www.baeldung.com/java-text-blocks
  * 
- * @author alois.seckar@atos.net
+ * @author alois.seckar@gmail.com
  */
 public class TextBlockDemo implements IDemo {
 

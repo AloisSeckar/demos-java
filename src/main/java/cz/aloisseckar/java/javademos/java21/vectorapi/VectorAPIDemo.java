@@ -22,7 +22,7 @@ import java.util.Random;
  * https://www.linkedin.com/pulse/whats-new-java-21-meet-vector-api-alexey-iyunski
  * https://medium.com/@Styp/java-18-vector-api-do-we-get-free-speed-up-c4510eda50d2
  *
- * @author alois.seckar@atos.net
+ * @author alois.seckar@gmail.com
  */
 public class VectorAPIDemo implements IDemo {
 

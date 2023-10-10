@@ -12,7 +12,7 @@ import cz.aloisseckar.java.javademos.commons.IDemo;
  * Further reading: 
  * https://www.baeldung.com/java12-string-api 
  * 
- * @author alois.seckar@atos.net
+ * @author alois.seckar@gmail.com
  */
 public class String12Demo implements IDemo {
 

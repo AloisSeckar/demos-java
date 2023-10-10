@@ -4,7 +4,7 @@ package cz.aloisseckar.java.javademos.java11.j9;
  * 
  * @see cz.aloisseckar.java.javademos.Main
  * 
- * @author alois.seckar@atos.net
+ * @author alois.seckar@gmail.com
  */
 public class IJ9DemoImpl implements IJ9Demo {
 

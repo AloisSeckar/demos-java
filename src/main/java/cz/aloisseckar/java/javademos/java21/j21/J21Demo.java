@@ -16,7 +16,7 @@ import java.math.BigInteger;
  * Further reading:
  * https://www.baeldung.com/java-text-blocks
  *
- * @author alois.seckar@atos.net
+ * @author alois.seckar@gmail.com
  */
 public class J21Demo implements IDemo {
 

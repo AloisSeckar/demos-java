@@ -35,7 +35,7 @@ import java.util.ArrayList;
  * that the most of the stuff used here cannot be compiled and run under old
  * versions of Java.
  * 
- * @author alois.seckar@atos.net
+ * @author alois.seckar@gmail.com
  */
 public class Main {
     

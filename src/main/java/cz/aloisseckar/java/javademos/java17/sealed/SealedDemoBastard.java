@@ -6,7 +6,7 @@ package cz.aloisseckar.java.javademos.java17.sealed;
  * 
  * @see cz.aloisseckar.java.javademos.java17.sealed.SealedDemoParent
  * 
- * @author alois.seckar@atos.net
+ * @author alois.seckar@gmail.com
  */
 
 // following two declarations are invalid:

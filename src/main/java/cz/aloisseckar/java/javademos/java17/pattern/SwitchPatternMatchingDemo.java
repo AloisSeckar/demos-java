@@ -19,7 +19,7 @@ import cz.aloisseckar.java.javademos.commons.IDemo;
  * Further reading: 
  * https://blogs.oracle.com/javamagazine/post/java-pattern-matching-switch-preview 
  * 
- * @author alois.seckar@atos.net
+ * @author alois.seckar@gmail.com
  */
 public class SwitchPatternMatchingDemo implements IDemo {
 

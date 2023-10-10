@@ -14,7 +14,7 @@ import java.util.*;
  * Further reading:
  * https://www.baeldung.com/java-21-sequenced-collections
  *
- * @author alois.seckar@atos.net
+ * @author alois.seckar@gmail.com
  */
 public class SequencedCollectionsDemo implements IDemo {
 

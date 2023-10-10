@@ -15,7 +15,7 @@ import cz.aloisseckar.java.javademos.commons.IDemo;
  * Further reading: 
  * https://www.agileconnection.com/article/using-new-pattern-matching-feature-java-16
  * 
- * @author alois.seckar@atos.net
+ * @author alois.seckar@gmail.com
  */
 public class InstanceofPatternMatchingDemo implements IDemo {
 

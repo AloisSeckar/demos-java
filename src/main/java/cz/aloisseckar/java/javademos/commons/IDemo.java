@@ -5,7 +5,7 @@ package cz.aloisseckar.java.javademos.commons;
  * Override method 'demo()' in your implementation and include new instance
  * into demoPool in Main.java
  *
- * @author alois.seckar@atos.net
+ * @author alois.seckar@gmail.com
  *
  * -----
  *
@@ -19,7 +19,7 @@ package cz.aloisseckar.java.javademos.commons;
  *  * Further reading:
  *  * <<LINK to interesting article or tutorial>>
  *  *
- *  * @author alois.seckar@atos.net
+ *  * @author alois.seckar@gmail.com
  *
  */
 public interface IDemo {
