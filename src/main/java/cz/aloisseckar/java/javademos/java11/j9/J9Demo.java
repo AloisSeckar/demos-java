@@ -5,9 +5,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * This class demonstrates some new language features from Java 9.
- * 
- * Introduced: Java 9
+ * This class demonstrates some new language features in Java 9.
+ *
+ * REFERENCES:
+ * Java 9 - TODO specify relevant JEP(s) / JBS(s)
  * 
  * Further reading:
  * https://www.baeldung.com/new-java-9#Language

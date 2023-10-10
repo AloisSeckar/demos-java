@@ -4,8 +4,10 @@ import cz.aloisseckar.java.javademos.commons.IDemo;
 
 /**
  * This class demonstrates new methods available on java.lang.String.
- * 
- * Introduced: Java 12
+ *
+ * REFERENCES:
+ * Java 12 - https://bugs.openjdk.org/browse/JDK-8203442 - String::transform
+ * Java 12 - https://bugs.openjdk.org/browse/JDK-8200435 - String::align, String::indent
  * 
  * Further reading: 
  * https://www.baeldung.com/java12-string-api 
@@ -17,6 +19,8 @@ public class String12Demo implements IDemo {
     @Override
     public void demo() {
         info("STRING J12 DEMO", "Examples for Java 12 new String methods");
+
+        // TODO add String::align demo
         
         // adds n-level indentation before the String
         System.out.println("String.indent(n)");

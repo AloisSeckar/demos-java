@@ -7,11 +7,12 @@ import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 
 /**
- * This class demonstrates features of the new HttpClient.
+ * This class demonstrates features of the new Java HttpClient.
  * This allows simpler and cleaner work with external HTTP resources.
  * 
- * Introduced: Java 9
- * Finalized: Java 11
+ * REFERENCES:
+ * Java 11 - https://openjdk.org/jeps/321 - HTTP Client
+ * Java  9 - https://openjdk.org/jeps/110 - HTTP/2 Client (Incubator)
  * 
  * Further reading:
  * https://www.baeldung.com/java-9-http-client

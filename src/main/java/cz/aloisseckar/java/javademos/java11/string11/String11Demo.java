@@ -3,9 +3,13 @@ package cz.aloisseckar.java.javademos.java11.string11;
 import cz.aloisseckar.java.javademos.commons.IDemo;
 
 /**
- * This class demonstrates new methods available on java.lang.String.
+ * This class demonstrates new methods available on java.lang.String since Java 11.
  * 
- * Introduced: Java 11
+ * REFERENCES:
+ * Java 11 - https://bugs.openjdk.org/browse/JDK-8200437 - String::isBlank
+ * Java 11 - https://bugs.openjdk.org/browse/JDK-8200425 - String::lines
+ * Java 11 - https://bugs.openjdk.org/browse/JDK-8200378 - String::strip, String::stripLeading, String::stripTrailing
+ * Java 11 - https://bugs.openjdk.org/browse/JDK-8197594 - String::repeat
  * 
  * Further reading: 
  * https://dzone.com/articles/applying-new-jdk-11-string-methods 

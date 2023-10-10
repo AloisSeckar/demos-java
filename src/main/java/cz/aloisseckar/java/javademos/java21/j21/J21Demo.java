@@ -4,15 +4,27 @@ import cz.aloisseckar.java.javademos.commons.IDemo;
 
 import java.math.BigInteger;
 
+/**
+ * This class shows some new useful API methods made available in Java 18 - Java 21.
+ *
+ * REFERENCES:
+ * Java 21 - https://bugs.openjdk.org/browse/JDK-8303018 - Unicode Emoji Properties
+ * Java 21 - https://bugs.openjdk.org/browse/JDK-8302686 - Add repeat methods to StringBuilder/StringBuffer
+ * Java 19 - https://bugs.openjdk.org/browse/JDK-8278886 - Add a parallel multiply method to BigInteger
+ * Java 18 - https://bugs.openjdk.org/browse/JDK-8270378 - divideExact is missing in java.lang.Math
+ *
+ * Further reading:
+ * https://www.baeldung.com/java-text-blocks
+ *
+ * @author alois.seckar@atos.net
+ */
 public class J21Demo implements IDemo {
 
     @Override
     public void demo() {
         info("JAVA 21 FEATURES DEMO", "Examples for couple of 'hidden' features \nintroduced until Java 21");
 
-        // 1) Math.divideExact
-        // -------------------
-        // introduced in Java 18 - https://bugs.openjdk.org/browse/JDK-8270378
+        // 1) Math.divideExact (Java 18)
         // unlike regular division operator, it throws an exception, when result overflows
 
         System.out.println("Math.divideExact - new operation for division");
@@ -28,12 +40,11 @@ public class J21Demo implements IDemo {
         }
         System.out.println();
 
-        // 2) BigInteger.parallelMultiply
-        // ------------------------------
-        // introduced in Java 19 - https://bugs.openjdk.org/browse/JDK-8278886
+        // 2) BigInteger.parallelMultiply (Java 19)
         // faster than traditional BigInteger.multiply, as it utilizes parallel threads to perform the computation
         // it has to be really large numbers to see the effect (due to multi-thread computing overhead)
-        // see this article for benchmark: https://www.javaspecialists.eu/archive/Issue305-Contributing-BigInteger.parallelMultiply-to-OpenJDK.html
+        // see this article for benchmark:
+        // https://www.javaspecialists.eu/archive/Issue305-Contributing-BigInteger.parallelMultiply-to-OpenJDK.html
 
         System.out.println("BigInteger.parallelMultiply - faster BigInteger multiplication");
 
@@ -54,9 +65,7 @@ public class J21Demo implements IDemo {
         System.out.println(".parallelMultiply() took " + timeE2 / 1000 + " ms");
         System.out.println();
 
-        // 3) StringBuilder.repeat
-        // -----------------------
-        // introduced in Java 21 - https://bugs.openjdk.org/browse/JDK-8302686
+        // 3) StringBuilder.repeat (Java 21)
         // String.repeat already exists since Java 11
         // this is a more convenient way to use it directly in StringBuilder
 
@@ -67,9 +76,7 @@ public class J21Demo implements IDemo {
         System.out.println(sb);
         System.out.println();
 
-        // 4) Character.isEmoji
-        // --------------------
-        // introduced in Java 21 - https://bugs.openjdk.org/browse/JDK-8303018
+        // 4) Character.isEmoji (Java 21)
         // detect whether given CharSequence is an emoji or not based on its Unicode code point
         // prior to this, workarounds had to be used for detection (see https://www.baeldung.com/java-check-letter-emoji)
 

@@ -4,10 +4,23 @@ package cz.aloisseckar.java.javademos.commons;
  * Simple interface to unify the process.
  * Override method 'demo()' in your implementation and include new instance
  * into demoPool in Main.java
- * 
- * @see cz.aloisseckar.java.javademos.java11.j9.J9Demo
- * 
+ *
  * @author alois.seckar@atos.net
+ *
+ * -----
+ *
+ * TEMPLATE for demo implementation class JavaDocs:
+ *
+ *  * This class shows new <<INSERT FEATURE>> introduced in Java <<JDK VERSION>>
+ *  *
+ *  * REFERENCES:
+ *  * Java <<JDK VERSION>> - <<link to relevant JEP or JBC>> - <<TITLE from linked page>>
+ *  *
+ *  * Further reading:
+ *  * <<LINK to interesting article or tutorial>>
+ *  *
+ *  * @author alois.seckar@atos.net
+ *
  */
 public interface IDemo {
     

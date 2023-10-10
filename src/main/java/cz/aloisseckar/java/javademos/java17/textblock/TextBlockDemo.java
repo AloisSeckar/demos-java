@@ -4,9 +4,11 @@ import cz.aloisseckar.java.javademos.commons.IDemo;
 
 /**
  * This class demonstrates new way of handling text blocks in Java 15.
- * 
- * Introduced: Java 13
- * Finalized: Java 15
+ *
+ * REFERENCES:
+ * Java 15 - https://openjdk.org/jeps/378 - Text Blocks
+ * Java 14 - https://openjdk.org/jeps/368 - Text Blocks (Second Preview)
+ * Java 13 - https://openjdk.org/jeps/355 - Text Blocks (Preview)
  * 
  * Further reading: 
  * https://www.baeldung.com/java-text-blocks

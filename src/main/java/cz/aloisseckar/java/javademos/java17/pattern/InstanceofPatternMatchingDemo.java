@@ -6,12 +6,14 @@ import cz.aloisseckar.java.javademos.commons.IDemo;
  * This class shows new 'instanceof pattern matching' concept from Java 16.
  * The basic idea is to allow 'instanceof' check and re-casting to respective
  * data type within one command.
- * 
- * Introduced: Java 14
- * Finalized: Java 16
+ *
+ * REFERENCES:
+ * Java 16 - https://openjdk.java.net/jeps/394 - Pattern Matching for instanceof
+ * Java 15 - https://openjdk.java.net/jeps/375 - Pattern Matching for instanceof (Second Preview)
+ * Java 14 - https://openjdk.java.net/jeps/305 - Pattern Matching for instanceof (Preview)
  * 
  * Further reading: 
- * https://openjdk.java.net/jeps/394
+ * https://www.agileconnection.com/article/using-new-pattern-matching-feature-java-16
  * 
  * @author alois.seckar@atos.net
  */

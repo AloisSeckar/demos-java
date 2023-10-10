@@ -5,13 +5,15 @@ import static java.util.Calendar.*;
 import java.util.Random;
 
 /**
- * This class demonstrates some new 'switch' syntax options in Java 17.
- * 
- * Introduced: Java 12
- * Finalized: Java 14
+ * This class demonstrates new 'switch' syntax options in Java 17.
+ *
+ * REFERENCES:
+ * Java 14 - https://openjdk.org/jeps/361 - Switch Expressions
+ * Java 13 - https://openjdk.org/jeps/354 - Switch Expressions (Second Preview)
+ * Java 12 - https://openjdk.org/jeps/325 - Switch Expressions (Preview)
  * 
  * Further reading:
- * https://openjdk.java.net/jeps/361
+ * https://betterprogramming.pub/a-look-at-the-new-switch-expressions-in-java-14-ed209c802ba0
  * 
  * @author alois.seckar@atos.net
  */

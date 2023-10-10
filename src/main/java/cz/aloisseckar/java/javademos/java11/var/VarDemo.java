@@ -8,10 +8,11 @@ import java.util.stream.Stream;
  * You can use 'var' on left side of variable declaration to simplify the code.
  * Compiler will internally translate 'var' into respective data type appearing
  * on the right side. This assignment is final and cannot be changed later.
- * 
- * Introduced: Java 10
- * Finalized: Java 11
- * 
+ *
+ * REFERENCES:
+ * Java 11 - https://openjdk.org/jeps/323 - Local-Variable Syntax for Lambda Parameters
+ * Java 10 - https://openjdk.org/jeps/286 - Local-Variable Type Inference
+ *
  * Further reading:
  * https://developers.redhat.com/blog/2018/05/25/simplify-local-variable-type-definition-using-the-java-10-var-keyword
  * 

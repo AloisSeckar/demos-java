@@ -1,3 +1,6 @@
+// TODO this feature got evolved since Java 17 to Java 21
+// TODO it should either be updated or re-created inside `java21` package with up-to-date info
+
 package cz.aloisseckar.java.javademos.java17.pattern;
 
 import cz.aloisseckar.java.javademos.commons.IDemo;
@@ -9,8 +12,9 @@ import cz.aloisseckar.java.javademos.commons.IDemo;
  * 
  * @see cz.aloisseckar.java.javademos.java17.newswitch.SwitchDemo
  * @see cz.aloisseckar.java.javademos.java17.pattern.InstanceofPatternMatchingDemo
- * 
- * Introduced: Java 17
+ *
+ * REFERENCES:
+ * Java 17 - https://openjdk.org/jeps/406 - Pattern Matching for switch (Preview)
  * 
  * Further reading: 
  * https://blogs.oracle.com/javamagazine/post/java-pattern-matching-switch-preview 

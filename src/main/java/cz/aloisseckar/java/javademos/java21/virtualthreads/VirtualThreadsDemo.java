@@ -3,14 +3,15 @@ package cz.aloisseckar.java.javademos.java21.virtualthreads;
 import cz.aloisseckar.java.javademos.commons.IDemo;
 
 /**
- * This class shows new preview feature from Java 19 - Virtual Threads
+ * This class shows new preview feature finalized in Java 21 - Virtual Threads.
  *
- * Introduced: Java 19
- * Finalized: Not yet
+ * REFERENCES:
+ * Java 21 - https://openjdk.org/jeps/444 - Virtual Threads
+ * Java 20 - https://openjdk.org/jeps/436 - Virtual Threads (Second Preview)
+ * Java 19 - https://openjdk.org/jeps/425 - Virtual Threads (Preview)
  *
  * Further reading:
  * https://blogs.oracle.com/javamagazine/post/java-loom-virtual-threads-platform-threads
- * https://openjdk.org/jeps/425
  *
  * @author alois.seckar@atos.net
  */

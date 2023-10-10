@@ -4,12 +4,14 @@ import cz.aloisseckar.java.javademos.commons.IDemo;
 
 /**
  * This class demonstrates new feature called Scoped Values.
- * 
- * Introduced: Java 20
+ * The status in Java 21 is PREVIEW => JVM option `--enable-preview` is required to use it.
+ *
+ * REFERENCES:
+ * Java 21 - https://openjdk.org/jeps/446 - Scoped Values (Preview)
+ * Java 20 - https://openjdk.org/jeps/429 - Scoped Values (Incubator)
  * 
  * Further reading: 
- * https://www.happycoders.eu/java/scoped-values/
- * https://openjdk.org/jeps/429
+ * https://www.happycoders.eu/java/scoped-values
  * 
  * @author alois.seckar@atos.net
  */

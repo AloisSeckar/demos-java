@@ -8,10 +8,10 @@ import java.util.*;
  * This class shows examples of new 'Sequenced Collections'.
  * They are defined as collections whose elements have a defined encounter order.
  *
- * Introduced: Java 21 (JEP 431)
+ * REFERENCES:
+ * Java 21 - https://openjdk.org/jeps/431 - Sequenced Collections
  *
  * Further reading:
- * https://openjdk.org/jeps/431
  * https://www.baeldung.com/java-21-sequenced-collections
  *
  * @author alois.seckar@atos.net

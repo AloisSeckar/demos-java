@@ -3,12 +3,13 @@ package cz.aloisseckar.java.javademos.java17.nullpointer;
 import cz.aloisseckar.java.javademos.commons.IDemo;
 
 /**
- * This class introduces new 'helpful' NullPointerExceptions from Java 14.
- * 
- * Introduced: Java 14
+ * This class introduces new 'helpful' NullPointerExceptions available from Java 14.
+ *
+ * REFERENCES:
+ * Java 14 - https://openjdk.java.net/jeps/358 - Helpful NullPointerExceptions
  * 
  * Further reading:
- * https://openjdk.java.net/jeps/358 
+ * https://www.baeldung.com/java-14-nullpointerexception
  * 
  * @author alois.seckar@atos.net
  */

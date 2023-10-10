@@ -6,9 +6,11 @@ import cz.aloisseckar.java.javademos.commons.IDemo;
  * This class shows new data type 'record' available since Java 16.
  * Java 'record' is basically a container for transferring immutable data
  * designed to be as short and simple to declare as possible.
- * 
- * Introduced: Java 14
- * Finalized: Java 16
+ *
+ * REFERENCES:
+ * Java 16 - https://openjdk.org/jeps/395 - Records
+ * Java 15 - https://openjdk.org/jeps/384 - Records (Second Preview)
+ * Java 14 - https://openjdk.org/jeps/359 - Records (Preview)
  * 
  * Further reading: 
  * https://dzone.com/articles/what-are-java-records 

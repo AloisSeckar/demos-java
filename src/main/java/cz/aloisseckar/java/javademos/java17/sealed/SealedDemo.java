@@ -8,9 +8,11 @@ import java.util.Arrays;
  * We can now 'seal' classes (and interfaces) to avoid unwanted extending 
  * (implementing). With new 'sealed' and 'permits' keywords we can limit
  * inheritance (implementation) only to white-listed subclasses.
- * 
- * Introduced: Java 15
- * Finalized: Java 17
+ *
+ * REFERENCES:
+ * Java 17 - https://openjdk.org/jeps/409 - Sealed Classes
+ * Java 16 - https://openjdk.org/jeps/397 - Sealed Classes (Second Preview)
+ * Java 15 - https://openjdk.org/jeps/360 - Sealed Classes (Preview)
  * 
  * Further reading: 
  * https://www.baeldung.com/java-sealed-classes-interfaces

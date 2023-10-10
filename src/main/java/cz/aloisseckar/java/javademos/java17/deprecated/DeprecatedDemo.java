@@ -5,8 +5,9 @@ import java.applet.Applet;
 
 /**
  * This class just showing some examples of deprecated APIs from Java 17 Platform.
- * 
- * Introduced: Java 17
+ *
+ * REFERENCES:
+ * Java 17 - TODO specify relevant JEP(s) / JBS(s)
  * 
  * Further reading: 
  * https://docs.oracle.com/en/java/javase/17/docs/api/deprecated-list.html
