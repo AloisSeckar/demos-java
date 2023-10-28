@@ -5,6 +5,7 @@ What is the Java world up to?
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2023-10-27`**  | [Red Hat Quarkus Java stack spruces up the dev UI](https://www.infoworld.com/article/3709551/red-hat-quarkus-java-stack-spruces-up-the-dev-ui.html) - new features in Quarkus build by Red Hat version 3.2 including new UI for Java developers |
 | **`2023-10-18`**  | [Introducing the Oracle Java Platform Extension for Visual Studio Code](https://inside.java/2023/10/18/announcing-vscode-extension/) - new official VS Code extension for Java |
 | **`2023-10-13`**  | [GraalVM Replaces the GraalVM Updater with Language Libraries](https://www.infoq.com/news/2023/10/graalvm-language-libraries/) - polyglot's language runtimes will be available as Maven dependencies instead of using proprietary tohle (`gu`) |
 | **`2023-10-06`**  | [Java 22 begins to take shape](https://www.infoworld.com/article/3708329/java-22-begins-to-take-shape.html) - some news about the development around Java 22 |
