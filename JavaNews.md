@@ -6,8 +6,12 @@ What is the Java world up to?
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
 | **`2023-10-27`**  | [Red Hat Quarkus Java stack spruces up the dev UI](https://www.infoworld.com/article/3709551/red-hat-quarkus-java-stack-spruces-up-the-dev-ui.html) - new features in Quarkus build by Red Hat version 3.2 including new UI for Java developers |
+| **`2023-10-27`**  | **New JEP** - [Structured Concurrency (Second Preview)](https://openjdk.org/jeps/462) - promoted from draft to candidate status as **JEP 462** |
+| **`2023-10-26`**  | **New JEP** - [Stream Gatherers (Preview)](https://openjdk.org/jeps/461) - promoted from draft to candidate status as **JEP 461** |
+| **`2023-10-26`**  | **New JEP Draft** - [Scoped Values (Second Preview)](https://openjdk.org/jeps/8318898) - further evolution of _scoped values_ from Java 21 |
 | **`2023-10-18`**  | [Introducing the Oracle Java Platform Extension for Visual Studio Code](https://inside.java/2023/10/18/announcing-vscode-extension/) - new official VS Code extension for Java |
-| **`2023-10-13`**  | [GraalVM Replaces the GraalVM Updater with Language Libraries](https://www.infoq.com/news/2023/10/graalvm-language-libraries/) - polyglot's language runtimes will be available as Maven dependencies instead of using proprietary tohle (`gu`) |
+| **`2023-10-13`**  | [GraalVM Replaces the GraalVM Updater with Language Libraries](https://www.infoq.com/news/2023/10/graalvm-language-libraries/) - polyglot's language runtimes will be available as Maven dependencies instead of using proprietary tool (`gu`) |
+| **`2023-10-11`**  | **New JEP Draft** - [Stream Gatherers (Preview)](https://openjdk.org/jeps/8317955) - introduce custom intermediate operations on Java streams |
 | **`2023-10-06`**  | [Java 22 begins to take shape](https://www.infoworld.com/article/3708329/java-22-begins-to-take-shape.html) - some news about the development around Java 22 |
 | **`2023-10-03`**  | [Microsoft ships Java 21 builds](https://www.infoworld.com/article/3707711/microsoft-ships-java-21-builds.html) - Microsoft OpenJDK 21 builds will be available in Azure PaaS |
 
@@ -15,8 +19,9 @@ What is the Java world up to?
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2023-09-29`**  | **New JEP Draft** - [Structured Concurrency (Second Preview)](https://openjdk.org/jeps/8317302) - introducing _structured concurrency_ storage objects |
 | **`2023-09-28`**  | [Java 22 could include computed constants, class-filed API](https://www.infoworld.com/article/3707728/java-22-could-include-computed-constants-class-filed-api.html) - what might be expected in forthcoming Java release |
-| **`2023-09-22`**  | **New JEP Draft** - [Value Object Storage Enhancements (Preview))](https://openjdk.org/jeps/8316779) - introducing _null-restricted_ storage objects |
+| **`2023-09-22`**  | **New JEP Draft** - [Null-Restricted Value Class Types (Preview)](https://openjdk.org/jeps/8316779) - further evolution of _scoped values_ from Java 21 |
 | **`2023-09-21`**  | [Introducing GraalOS](https://blogs.oracle.com/java/post/introducing-graalos) - brand new application deployment technology using [GraalVM](https://www.graalvm.org/) was announced by Oracle |
 | **`2023-09-20`**  | [Hello, Java 21](https://spring.io/blog/2023/09/20/hello-java-21) - Another Java 21 release summary, but also including some not so commonly mentioned features |
 | **`2023-09-19`**  | [When Quarkus meets Virtual Threads](https://quarkus.io/blog/virtual-thread-1/) - Series-opening article about adopting Java 21 Virtual Threads in [Quarkus](https://quarkus.io/) |
@@ -24,6 +29,7 @@ What is the Java world up to?
 | **`2023-09-19`**  | [The Arrival of Java 21!](https://inside.java/2023/09/19/the-arrival-of-java-21/) - Java 21 release summary with some interesting stats and figures |
 | **`2023-09-19`**  | **JDK 21 release date**  |
 | **`2023-09-16`**  | [Java 21 Launch Event](https://dev.java/community/java-21-launch/) - official 8-hour streaming event covering the Java 21 release day was announced |
+| **`2023-09-11`**  | **New JEP Draft** - [Support Markdown in Documentation Comments](https://openjdk.org/jeps/8316039) - aims to bring Markdown in javadoc |
 | **`2023-09-11`**  | [LTS JDK 21 Features](https://dzone.com/articles/lts-jdk-21-features) - cool summary of Java 21 enhancements with example code snippets |
 | **`2023-09-08`**  | **New JEP Draft** - [Vector API (Seventh Incubator)](https://openjdk.org/jeps/8315945) - another iteration of Vector API |
 | **`2023-09-05`**  | [New Oracle GraalVM Container Images](https://blogs.oracle.com/java/post/new-oracle-graalvm-container-images) - Oracle now offers [GraalVM](https://www.graalvm.org/) jdk/native-image containers |
