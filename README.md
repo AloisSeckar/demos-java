@@ -20,10 +20,13 @@ Note that `--enable-preview` and `--add-modules` options are necessary to make t
 * http://alois-seckar.cz
 
 ## Extra - Java Features
-[JavaFeatures](JavaFeatures.md) is my list of all Java versions with all JEPs included in each release.
+[Java Features](JavaFeatures.md) is my list of all Java versions with all JEPs included in each release.
 
 ## Extra - Java Tech
-[JavaTech](JavaTech.md) is my list of interesting projects based on Java.
+[Java Tech](JavaTech.md) is my list of interesting projects based on Java.
 
 ## Extra - Java News
-[JavaNews](JavaNews.md) is my list with interesting articles and information from Java world started since 09/2023.
+[Java News](JavaNews.md) is my list with interesting articles and information from Java world started since 09/2023.
+
+## Extra - JEP Status
+[JEP Status](JEPStatus.md) is my tracker of changes in [OpenJDK JEP Index](https://openjdk.org/jeps/0) since 09/2023.
