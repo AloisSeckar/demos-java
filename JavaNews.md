@@ -1,6 +1,12 @@
 # JAVA NEWS
 What is the Java world up to?
 
+## 2023 - November
+
+| Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
+| --- | :--  |
+| **`2023-11-02`**  | [Garbage Collection Analysis: OpenJDK and GraalVM](https://dzone.com/articles/garbage-collection-analysis-openjdk-and-graalvm) - practical comparation of GC performance in standard OpenJDK and in GraalVM |
+
 ## 2023 - October
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
