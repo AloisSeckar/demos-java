@@ -15,6 +15,8 @@ What is the Java world up to?
 | **`2023-10-24`**  | [Helidon 4 released!](https://medium.com/helidon/helidon-4-is-released-a06756e1562a) - Oracle's [Helidon 4](https://helidon.io/), a microservices' framework utilizing Java 21 virtual threads, was released for production |
 | **`2023-10-18`**  | [Introducing the Oracle Java Platform Extension for Visual Studio Code](https://inside.java/2023/10/18/announcing-vscode-extension/) - new official VS Code extension for Java |
 | **`2023-10-13`**  | [GraalVM Replaces the GraalVM Updater with Language Libraries](https://www.infoq.com/news/2023/10/graalvm-language-libraries/) - polyglot's language runtimes will be available as Maven dependencies instead of using proprietary tool (`gu`) |
+| **`2023-10-10`**  | [How to Diagnose and Mitigate Pinning in Java’s Virtual Thread Execution](https://foojay.io/today/how-to-diagnose-and-mitigate-pinning-in-javas-virtual-thread-execution/) - potential performance problem with Virtual Threads explained with tips how to spot and fix it |
+| **`2023-10-06`** | [Java 21 and the Upcoming Jakarta EE 11: A New Era of Cloud Native Java](https://foojay.io/today/java-21-and-the-upcoming-jakarta-ee-11-a-new-era-of-cloud-native-java/) - what might be expected width Jakarta EE 11 scheduled for Q1/2024 |
 | **`2023-10-06`**  | [Java 22 begins to take shape](https://www.infoworld.com/article/3708329/java-22-begins-to-take-shape.html) - some news about the development around Java 22 |
 | **`2023-10-03`**  | [Microsoft ships Java 21 builds](https://www.infoworld.com/article/3707711/microsoft-ships-java-21-builds.html) - Microsoft OpenJDK 21 builds will be available in Azure PaaS |
 
