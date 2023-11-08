@@ -24,6 +24,7 @@ What is the Java world up to?
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2023-09-29`**  | [Microfrontends for Quarkus Microservices](https://dzone.com/articles/micro-frontends-for-quarkus-microservices) - a comprehensive history of the emergence of 'microfrontends' in context of Java world |
 | **`2023-09-28`**  | [Java 22 could include computed constants, class-filed API](https://www.infoworld.com/article/3707728/java-22-could-include-computed-constants-class-filed-api.html) - what might be expected in forthcoming Java release |
 | **`2023-09-21`**  | [Introducing GraalOS](https://blogs.oracle.com/java/post/introducing-graalos) - brand new application deployment technology using [GraalVM](https://www.graalvm.org/) was announced by Oracle |
 | **`2023-09-20`**  | [Hello, Java 21](https://spring.io/blog/2023/09/20/hello-java-21) - Another Java 21 release summary, but also including some not so commonly mentioned features |
