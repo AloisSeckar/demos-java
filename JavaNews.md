@@ -5,6 +5,7 @@ What is the Java world up to?
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2023-11-08`** | [Oracle open-sources Jipher for FIPS-compliant SSL](https://www.infoworld.com/article/3710172/oracle-open-sources-jipher-for-fips-compliant-ssl.html) - Oracle's JCA cryptography provider is being opensourced |
 | **`2023-11-02`** | [Garbage Collection Analysis: OpenJDK and GraalVM](https://dzone.com/articles/garbage-collection-analysis-openjdk-and-graalvm) - practical comparation of GC performance in standard OpenJDK and in GraalVM |
 
 ## 2023 - October
