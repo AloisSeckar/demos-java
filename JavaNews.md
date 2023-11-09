@@ -47,8 +47,20 @@ What is the Java world up to?
 
 - **2023-07-11** - [Java 21 - Java 17 = 42 JEPs view](https://dev.to/pfilaretov42/java-21-java-17-42-jeps-view-ckk) - simple but useful list grouping the new features between Java 17 and Java 21
 
+
 ## Further reading
 Stay updated with the following more dedicated sources:
 - https://inside.java/
 - https://blogs.oracle.com/java/
 - https://www.infoworld.com/category/java/
+
+
+## Older, but worth reading
+
+Various interesting articles I came across over the time:
+
+| Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
+| --- | :--  |
+| **`2020-12-17`** | [Troubleshooting Native Memory Leaks in Java Applications](https://poonamparhar.github.io/troubleshooting_native_memory_leaks/) - how to understand, diagnose and confirm leaks coming from native code interactions with memory
+|
+
