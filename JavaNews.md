@@ -12,6 +12,7 @@ What is the Java world up to?
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2023-10-27`** | [State of Java: Resilience amid licensing changes and security concerns](https://www.developer-tech.com/news/2023/oct/27/state-of-java-resilience-licensing-changes-security-concerns/) - a summary of Azul's annual survey among Java developers and users |
 | **`2023-10-27`** | [Red Hat Quarkus Java stack spruces up the dev UI](https://www.infoworld.com/article/3709551/red-hat-quarkus-java-stack-spruces-up-the-dev-ui.html) - new features in Quarkus build by Red Hat version 3.2 including new UI for Java developers |
 | **`2023-10-24`** | [Helidon 4 released!](https://medium.com/helidon/helidon-4-is-released-a06756e1562a) - Oracle's [Helidon 4](https://helidon.io/), a microservices' framework utilizing Java 21 virtual threads, was released for production |
 | **`2023-10-18`** | [Introducing the Oracle Java Platform Extension for Visual Studio Code](https://inside.java/2023/10/18/announcing-vscode-extension/) - new official VS Code extension for Java |
