@@ -12,11 +12,13 @@ import java.math.BigInteger;
  * Java 21 - https://bugs.openjdk.org/browse/JDK-8303648 - Add String.indexOf(String str, int beginIndex, int endIndex)
  * Java 21 - https://bugs.openjdk.org/browse/JDK-8303018 - Unicode Emoji Properties
  * Java 21 - https://bugs.openjdk.org/browse/JDK-8302686 - Add repeat methods to StringBuilder/StringBuffer
+ * Java 21 - https://bugs.openjdk.org/browse/JDK-8301226 - Add clamp() methods to java.lang.Math and to StrictMath
  * Java 19 - https://bugs.openjdk.org/browse/JDK-8278886 - Add a parallel multiply method to BigInteger
  * Java 18 - https://bugs.openjdk.org/browse/JDK-8270378 - divideExact is missing in java.lang.Math
  *
  * Further reading:
  * https://www.baeldung.com/java-text-blocks
+ * https://www.baeldung.com/java-clamp-function
  * https://www.happycoders.eu/java/java-21-features/#New_String_Methods
  *
  * @author alois.seckar@gmail.com
@@ -68,7 +70,17 @@ public class J21Demo implements IDemo {
         System.out.println(".parallelMultiply() took " + timeE2 / 1000 + " ms");
         System.out.println();
 
-        // 3) String.indexOf in a substring (Java 21)
+
+        // 3) Math.clamp function (Java 21)
+        // Definition (by Baeldung): A clamp function restricts a value to within a range.
+        // It ensures a given value doesn't fall outside specific lower and upper boundaries.
+        System.out.println("Math.clamp - new value range limiting function");
+        System.out.println("Math.clamp(2 * 2, 1, 5): " + Math.clamp(2 * 2, 1, 5));
+        System.out.println("Math.clamp(2 * 2, 1, 3): " + Math.clamp(2 * 2, 1, 3));
+        System.out.println("Math.clamp(2 * 2, 5, 9): " + Math.clamp(2 * 2, 5, 9));
+        System.out.println();
+
+        // 4) String.indexOf in a substring (Java 21)
         // it is now possible to search for a term only in a given range
         // the method also exists overloaded for char input
         System.out.println("String.indexOf in a substring");
@@ -77,7 +89,7 @@ public class J21Demo implements IDemo {
         System.out.println();
 
 
-        // 4) String.splitWithDelimiters() (Java 21)
+        // 5) String.splitWithDelimiters() (Java 21)
         // enhanced .split() that generates array with both extracted parts and the delimiters between
         // you must also set the upper limit of extracted parts with the 2nd argument (value < 0 means no limit)
         // the method was also added for java.util.regex.Pattern
@@ -97,7 +109,7 @@ public class J21Demo implements IDemo {
         System.out.println(String.join(" | ", split3));
         System.out.println();
 
-        // 5) StringBuilder.repeat (Java 21)
+        // 6) StringBuilder.repeat (Java 21)
         // String.repeat already exists since Java 11
         // this is a more convenient way to use it directly in StringBuilder
 
@@ -108,7 +120,7 @@ public class J21Demo implements IDemo {
         System.out.println(sb);
         System.out.println();
 
-        // 6) Character.isEmoji (Java 21)
+        // 7) Character.isEmoji (Java 21)
         // detect whether given CharSequence is an emoji or not based on its Unicode code point
         // prior to this, workarounds had to be used for detection (see https://www.baeldung.com/java-check-letter-emoji)
 
