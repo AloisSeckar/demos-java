@@ -8,6 +8,8 @@ import java.math.BigInteger;
  * This class shows some new useful API methods made available in Java 18 - Java 21.
  *
  * REFERENCES:
+ * Java 21 - https://bugs.openjdk.org/browse/JDK-8305486 - Add split() variants that keep the delimiters to String and j.u.r.Pattern
+ * Java 21 - https://bugs.openjdk.org/browse/JDK-8303648 - Add String.indexOf(String str, int beginIndex, int endIndex)
  * Java 21 - https://bugs.openjdk.org/browse/JDK-8303018 - Unicode Emoji Properties
  * Java 21 - https://bugs.openjdk.org/browse/JDK-8302686 - Add repeat methods to StringBuilder/StringBuffer
  * Java 19 - https://bugs.openjdk.org/browse/JDK-8278886 - Add a parallel multiply method to BigInteger
@@ -15,6 +17,7 @@ import java.math.BigInteger;
  *
  * Further reading:
  * https://www.baeldung.com/java-text-blocks
+ * https://www.happycoders.eu/java/java-21-features/#New_String_Methods
  *
  * @author alois.seckar@gmail.com
  */
@@ -65,7 +68,36 @@ public class J21Demo implements IDemo {
         System.out.println(".parallelMultiply() took " + timeE2 / 1000 + " ms");
         System.out.println();
 
-        // 3) StringBuilder.repeat (Java 21)
+        // 3) String.indexOf in a substring (Java 21)
+        // it is now possible to search for a term only in a given range
+        // the method also exists overloaded for char input
+        System.out.println("String.indexOf in a substring");
+        System.out.println("Standard - \"abcabca\".indexOf(\"a\"): " + "abcabca".indexOf("a"));
+        System.out.println("In range - \"abcabca\".indexOf(\"a\", 1, 5): " + "abcabca".indexOf("a", 1, 5));
+        System.out.println();
+
+
+        // 4) String.splitWithDelimiters() (Java 21)
+        // enhanced .split() that generates array with both extracted parts and the delimiters between
+        // you must also set the upper limit of extracted parts with the 2nd argument (value < 0 means no limit)
+        // the method was also added for java.util.regex.Pattern
+        System.out.println("String.splitWithDelimiters()");
+
+        var input = "this is a demo string";
+        System.out.println("input: " + input);
+
+        System.out.println("input.split(\" \")");
+        var split1 = input.split(" ");
+        System.out.println(String.join(" | ", split1));
+        System.out.println("input.splitWithDelimiters(\" \", 3)");
+        var split2 = input.splitWithDelimiters(" ", 3);
+        System.out.println(String.join(" | ", split2));
+        System.out.println("input.splitWithDelimiters(\" \", -1)");
+        var split3 = input.splitWithDelimiters(" ", -1);
+        System.out.println(String.join(" | ", split3));
+        System.out.println();
+
+        // 5) StringBuilder.repeat (Java 21)
         // String.repeat already exists since Java 11
         // this is a more convenient way to use it directly in StringBuilder
 
@@ -76,11 +108,12 @@ public class J21Demo implements IDemo {
         System.out.println(sb);
         System.out.println();
 
-        // 4) Character.isEmoji (Java 21)
+        // 6) Character.isEmoji (Java 21)
         // detect whether given CharSequence is an emoji or not based on its Unicode code point
         // prior to this, workarounds had to be used for detection (see https://www.baeldung.com/java-check-letter-emoji)
 
         System.out.println("Character.isEmoji - detecting whether a text contains an emoji");
+        System.out.println("(note: emoji character may not be printable on terminal)");
         var codePoint1 = Character.codePointAt("😃", 0);
         System.out.println("😃 isEmoji? " + Character.isEmoji(codePoint1));
         var codePoint2 = Character.codePointAt(":)", 0);
