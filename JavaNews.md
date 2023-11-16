@@ -5,6 +5,7 @@ What is the Java world up to?
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2023-11-15`** | [The Resurrection of Virtual Threads](https://dzone.com/articles/the-resurrection-of-virtual-threads-unraveling-the) - a brief look into the history of Java Threads concepts |
 | **`2023-11-09`** | [J-Fall](https://jfall.nl/) conference in Ede, Netherlands |
 | **`2023-11-08`** | [Java Days](https://www.javadays.cz/) conference in Prague, Czechia |
 | **`2023-11-08`** | [Oracle open-sources Jipher for FIPS-compliant SSL](https://www.infoworld.com/article/3710172/oracle-open-sources-jipher-for-fips-compliant-ssl.html) - Oracle's JCA cryptography provider is being opensourced |
