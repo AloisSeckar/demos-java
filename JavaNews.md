@@ -5,6 +5,7 @@ What is the Java world up to?
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2023-11-16`** | [Ways To Reduce JVM Docker Image Size](https://dzone.com/articles/ways-to-reduce-jvm-docker-image-size) - a practical step-by-step guide of stripping unnecessary burden from Dockerized Java containers |
 | **`2023-11-15`** | [The Resurrection of Virtual Threads](https://dzone.com/articles/the-resurrection-of-virtual-threads-unraveling-the) - a brief look into the history of Java Threads concepts |
 | **`2023-11-09`** | [J-Fall](https://jfall.nl/) conference in Ede, Netherlands |
 | **`2023-11-08`** | [Java Days](https://www.javadays.cz/) conference in Prague, Czechia |
