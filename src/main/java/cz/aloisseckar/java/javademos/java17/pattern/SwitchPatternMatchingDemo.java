@@ -1,6 +1,3 @@
-// TODO this feature got evolved since Java 17 to Java 21
-// TODO it should either be updated or re-created inside `java21` package with up-to-date info
-
 package cz.aloisseckar.java.javademos.java17.pattern;
 
 import cz.aloisseckar.java.javademos.commons.IDemo;
@@ -27,8 +24,8 @@ public class SwitchPatternMatchingDemo implements IDemo {
     public void demo() {
         info("PATTERN MATCHING DEMO", "Example for 'switch pattern matching'\nintroduced in Java 17");
 
-        System.out.println("The variant from Java 17 is not valid in Java 20 anymore");
-        System.out.println("This demo is 'archived' and new variant is introduced form JDK 20+");
+        System.out.println("The variant from Java 17 is not valid in Java 21 anymore");
+        System.out.println("This demo is 'archived' and new variants were introduced in JDK 20+");
         
         // method formatViaSwitchPatternMatching() takes any java.lang.Object
         // as an argument and returns its java.lang.String representation based
@@ -46,7 +43,7 @@ public class SwitchPatternMatchingDemo implements IDemo {
         // System.out.println(formatViaSwitchPatternMatching("some long text")); // not working in JDK 19
         System.out.println(formatViaSwitchPatternMatching(null));
         System.out.println(formatViaSwitchPatternMatching(new Object()));
-         */
+        */
         
         System.out.println();
     }

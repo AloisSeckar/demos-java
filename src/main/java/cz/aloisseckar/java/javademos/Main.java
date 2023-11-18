@@ -16,6 +16,8 @@ import cz.aloisseckar.java.javademos.java17.sealed.SealedDemo;
 import cz.aloisseckar.java.javademos.java17.string12.String12Demo;
 import cz.aloisseckar.java.javademos.java17.textblock.TextBlockDemo;
 import cz.aloisseckar.java.javademos.java21.j21.J21Demo;
+import cz.aloisseckar.java.javademos.java21.pattern.PatternMatchingForSwitchDemo;
+import cz.aloisseckar.java.javademos.java21.pattern.RecordPatternsDemo;
 import cz.aloisseckar.java.javademos.java21.sequenced.SequencedCollectionsDemo;
 import cz.aloisseckar.java.javademos.java21.virtualthreads.VirtualThreadsDemo;
 import cz.aloisseckar.java.javademos.java21.scopedvalues.ScopedValuesDemo;
@@ -24,7 +26,7 @@ import cz.aloisseckar.java.javademos.java21.vectorapi.VectorAPIDemo;
 import java.util.ArrayList;
 
 /**
- * This application helps to show some new features from Java 11 and Java 20.
+ * This application helps to show some new features from Java 11 to Java 21.
  * 
  * The 'demoPool' array consists of simple IDemo interface implementations.
  * Code logic is being implemented inside .demo() methods.
@@ -84,6 +86,8 @@ public class Main {
 
         // Java 21
         demoPool.add(new VirtualThreadsDemo());
+        demoPool.add(new RecordPatternsDemo());
+        demoPool.add(new PatternMatchingForSwitchDemo());
         demoPool.add(new ScopedValuesDemo());
         demoPool.add(new VectorAPIDemo());
         demoPool.add(new SequencedCollectionsDemo());
