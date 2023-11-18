@@ -57,7 +57,7 @@ public class DeprecatedDemo implements IDemo {
         //    permission java.security.AllPermission;
         // };
         //
-        // read https://openjdk.java.net/jeps/411 to know more
+        // read https://openjdk.org/jeps/411 to know more
           
     }
     

@@ -8,9 +8,9 @@ import cz.aloisseckar.java.javademos.commons.IDemo;
  * data type within one command.
  *
  * REFERENCES:
- * Java 16 - https://openjdk.java.net/jeps/394 - Pattern Matching for instanceof
- * Java 15 - https://openjdk.java.net/jeps/375 - Pattern Matching for instanceof (Second Preview)
- * Java 14 - https://openjdk.java.net/jeps/305 - Pattern Matching for instanceof (Preview)
+ * Java 16 - https://openjdk.org/jeps/394 - Pattern Matching for instanceof
+ * Java 15 - https://openjdk.org/jeps/375 - Pattern Matching for instanceof (Second Preview)
+ * Java 14 - https://openjdk.org/jeps/305 - Pattern Matching for instanceof (Preview)
  * 
  * Further reading: 
  * https://www.agileconnection.com/article/using-new-pattern-matching-feature-java-16

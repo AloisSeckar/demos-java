@@ -116,7 +116,7 @@ public class VarDemo implements IDemo {
         
         // originally it wasn't allowed to use 'var' inside lambdas
         // now the only requirement is not to mix var and non-var declarations
-        // https://openjdk.java.net/jeps/323
+        // https://openjdk.org/jeps/323
         
         // simple functional interface to be implemented by our lambdas
         @FunctionalInterface

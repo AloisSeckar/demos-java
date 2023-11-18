@@ -23,7 +23,7 @@ public class SwitchDemo implements IDemo {
     public void demo() {
         info("SWITCH DEMO", "Examples for 'switch' enhancements\nintroduced in Java 14");
         
-        // code examples taken directly from https://openjdk.java.net/jeps/361
+        // code examples taken directly from https://openjdk.org/jeps/361
         
         // let's get random day of week
         // and return number of letters in its english name
