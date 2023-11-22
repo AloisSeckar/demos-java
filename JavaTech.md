@@ -21,3 +21,7 @@ https://micronaut.io/
 https://github.com/softwaremill/ox/
 - An experimental library for structured concurrency in Java 21.
 
+## Payara
+https://www.payara.fish/
+- Modern application server for Jakarta EE apps
+
