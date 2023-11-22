@@ -5,6 +5,8 @@ What is the Java world up to?
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2023-11-20`** | [Java and the String Odyssey: Navigating Changes from JDK 1 to JDK 21](https://www.unlogged.io/post/java-and-the-string-odyssey-navigating-changes-from-jdk-1-to-jdk-21) - an exhaustive history of working with Strings in Java |
+| **`2023-11-20`** | [JDK 22: The new features in Java 22](https://www.infoworld.com/article/3708329/jdk-22-the-new-features-in-java-22.html) - summing up what is about to be included in upcomming Java 22 in March 2024 |
 | **`2023-11-16`** | [Ways To Reduce JVM Docker Image Size](https://dzone.com/articles/ways-to-reduce-jvm-docker-image-size) - a practical step-by-step guide of stripping unnecessary burden from Dockerized Java containers |
 | **`2023-11-15`** | [The Resurrection of Virtual Threads](https://dzone.com/articles/the-resurrection-of-virtual-threads-unraveling-the) - a brief look into the history of Java Threads concepts |
 | **`2023-11-09`** | [J-Fall](https://jfall.nl/) conference in Ede, Netherlands |
