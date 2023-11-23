@@ -23,10 +23,59 @@ import cz.aloisseckar.java.javademos.commons.IDemo;
  */
 public class RecordPatternsDemo implements IDemo {
 
+    public record Position(int x, int y) {}
+
     @Override
     public void demo() {
         info("RECORD PATTERNS DEMO", "Example of 'Record Patterns'\nintroduced in Java 19");
 
-        // TODO
+        var testObject = new Object();
+        var testRecord = new Position(10, 20);
+
+        System.out.println("1) Records can be used with `pattern matching` for `instanceof`");
+        System.out.println("Test object: new Object()");
+        printWithInstanceof(testObject);
+        System.out.println("Test object: new Position(10, 20)");
+        printWithInstanceof(testRecord);
+        System.out.println();
+
+        System.out.println("2) Records can also be used with `pattern matching` for `switch`");
+        System.out.println("Test object: new Object()");
+        printWithSwitch(testObject);
+        System.out.println("Test object: new Position(10, 20)");
+        printWithSwitch(testRecord);
+        System.out.println();
     }
+
+    public static void printWithInstanceof(Object o) {
+        if (o instanceof Position p) {
+            System.out.println("Given `o` is a `Position` record");
+            // we have the record automatically unwrapped thanks to pattern matching
+            System.out.println("x = " + p.x());
+            System.out.println("y = " + p.y());
+        } else {
+            System.out.println("Given `o` is different object");
+        }
+    }
+    public static void printWithSwitch(Object o) {
+        switch (o) {
+            case Position p -> {
+                System.out.println("Given `o` is a `Position` record");
+                // we have the record automatically unwrapped thanks to pattern matching
+                System.out.println("x = " + p.x());
+                System.out.println("y = " + p.y());
+            }
+            /*
+            // this would be also possible to access values directly
+            // but only one such label can be active inside one switch
+            case Position(int x, int y) -> {
+                System.out.println("Given `o` is a `Position` record");
+                System.out.println("x = " + x);
+                System.out.println("y = " + y);
+             }
+            */
+            default -> System.out.println("Given `o` is different object");
+        }
+    }
+
 }
