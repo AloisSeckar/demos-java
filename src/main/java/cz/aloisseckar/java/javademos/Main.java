@@ -10,7 +10,6 @@ import cz.aloisseckar.java.javademos.java17.j16.J16Demo;
 import cz.aloisseckar.java.javademos.java17.newswitch.SwitchDemo;
 import cz.aloisseckar.java.javademos.java17.nullpointer.NullPointerDemo;
 import cz.aloisseckar.java.javademos.java17.pattern.InstanceofPatternMatchingDemo;
-import cz.aloisseckar.java.javademos.java17.pattern.SwitchPatternMatchingDemo;
 import cz.aloisseckar.java.javademos.java17.record.RecordDemo;
 import cz.aloisseckar.java.javademos.java17.sealed.SealedDemo;
 import cz.aloisseckar.java.javademos.java17.string12.String12Demo;
@@ -80,7 +79,6 @@ public class Main {
         demoPool.add(new J16Demo());
         demoPool.add(new RecordDemo());
         demoPool.add(new InstanceofPatternMatchingDemo());
-        demoPool.add(new SwitchPatternMatchingDemo());
         demoPool.add(new SealedDemo());
         demoPool.add(new DeprecatedDemo());
 
