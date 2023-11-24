@@ -23,20 +23,27 @@ import cz.aloisseckar.java.javademos.commons.IDemo;
  */
 public class RecordPatternsDemo implements IDemo {
 
-    public record Position(int x, int y) {}
+    // example record containing one number and one string
+    public record MyData(int number, String text) {}
+    // example "table" of records
+    public record MyTable(MyData first, MyData second) {}
 
     @Override
     public void demo() {
         info("RECORD PATTERNS DEMO", "Example of 'Record Patterns'\nintroduced in Java 19");
 
         var testObject = new Object();
-        var testRecord = new Position(10, 20);
+        var testRecord = new MyData(10, "hello");
+        var testTable = new MyTable(new MyData(1, "row1"), new MyData(2, "row2"));
 
         System.out.println("1) Records can be used with `pattern matching` for `instanceof`");
         System.out.println("Test object: new Object()");
         printWithInstanceof(testObject);
         System.out.println("Test object: new Position(10, 20)");
         printWithInstanceof(testRecord);
+        System.out.println();
+        System.out.println("Test object: new MyTable(new MyData(1, \"row1\"), new MyData(2, \"row2\"))");
+        printWithInstanceof(testTable);
         System.out.println();
 
         System.out.println("2) Records can also be used with `pattern matching` for `switch`");
@@ -45,35 +52,97 @@ public class RecordPatternsDemo implements IDemo {
         System.out.println("Test object: new Position(10, 20)");
         printWithSwitch(testRecord);
         System.out.println();
+        System.out.println("Test object: new MyTable(new MyData(1, \"row1\"), new MyData(2, \"row2\"))");
+        printWithSwitch(testTable);
+        System.out.println();
+
+        // NOTE
+        // in JEP 432 in JDK 20 it was possible use record patterns in loops,
+        // but it was decided to remove this feature, at least for now
+        //
+        //   for (MyData(int number, String text) : positions) {
+        //      // ...
+        //   }
+        //
     }
 
     public static void printWithInstanceof(Object o) {
-        if (o instanceof Position p) {
-            System.out.println("Given `o` is a `Position` record");
-            // we have the record automatically unwrapped thanks to pattern matching
-            System.out.println("x = " + p.x());
-            System.out.println("y = " + p.y());
-        } else {
-            System.out.println("Given `o` is different object");
+
+        // common pattern matching
+        // object is auto-typed to a record
+        /*
+        if (o instanceof MyData d) {
+            System.out.println("Given `o` is a `MyData` record");
+            System.out.println("number = " + d.number());
+            System.out.println("text = " + d.text());
+            return;
         }
+        if (o instanceof MyTable t) {
+            System.out.println("Given `o` is a `MyTable` record");
+            System.out.println("number 1 = " + t.first().number());
+            System.out.println("number 2 = " + t.second().number());
+            System.out.println("text 1 = " + t.first().text());
+            System.out.println("text 2 = " + t.second().text());
+            return;
+        }
+        */
+
+        // new record pattern matching
+        // the record instance can also be directly unwrapped
+        if (o instanceof MyData(int number, String text)) {
+            System.out.println("Given `o` is a `MyData` record");
+            System.out.println("number = " + number);
+            System.out.println("text = " + text);
+            return;
+        }
+        // even within nested records
+        if (o instanceof MyTable (MyData (int number1, String text1), MyData (int number2, String text2))) {
+            System.out.println("Given `o` is a `MyTable` record");
+            System.out.println("number 1 = " + number1);
+            System.out.println("number 2 = " + number2);
+            System.out.println("text 1 = " + text1);
+            System.out.println("text 2 = " + text2);
+            return;
+        }
+
+        System.out.println("Given `o` is different object");
     }
     public static void printWithSwitch(Object o) {
         switch (o) {
-            case Position p -> {
-                System.out.println("Given `o` is a `Position` record");
-                // we have the record automatically unwrapped thanks to pattern matching
-                System.out.println("x = " + p.x());
-                System.out.println("y = " + p.y());
-            }
+
+            // common pattern matching
+            // object is auto-typed to a record
             /*
-            // this would be also possible to access values directly
-            // but only one such label can be active inside one switch
-            case Position(int x, int y) -> {
-                System.out.println("Given `o` is a `Position` record");
-                System.out.println("x = " + x);
-                System.out.println("y = " + y);
-             }
+            case MyData d -> {
+                System.out.println("Given `o` is a `MyData` record");
+                System.out.println("number = " + d.number());
+                System.out.println("text = " + d.text());
+            }
+            case MyTable t -> {
+                System.out.println("Given `o` is a `MyTable` record");
+                System.out.println("number 1 = " + t.first().number());
+                System.out.println("number 2 = " + t.second().number());
+                System.out.println("text 1 = " + t.first().text());
+                System.out.println("text 2 = " + t.second().text());
+            }
             */
+
+            // new record pattern matching
+            // the record instance can also be directly unwrapped
+            case MyData(int number, String text) -> {
+                System.out.println("Given `o` is a `MyData` record");
+                System.out.println("number = " + number);
+                System.out.println("text = " + text);
+            }
+            // even within nested records
+            case MyTable (MyData (int number1, String text1), MyData (int number2, String text2)) -> {
+                System.out.println("Given `o` is a `MyTable` record");
+                System.out.println("number 1 = " + number1);
+                System.out.println("number 2 = " + number2);
+                System.out.println("text 1 = " + text1);
+                System.out.println("text 2 = " + text2);
+            }
+
             default -> System.out.println("Given `o` is different object");
         }
     }
