@@ -23,5 +23,12 @@ https://github.com/softwaremill/ox/
 
 ## Payara
 https://www.payara.fish/
-- Modern application server for Jakarta EE apps
+- Modern application server for Jakarta EE apps.
 
+## Infinispan
+https://infinispan.org/
+- Open-source in-memory key/value NoSQL data store backed by RedHat.
+
+## JBang
+https://www.jbang.dev/
+- Self-contained cross-platform Java demo applications runner.
