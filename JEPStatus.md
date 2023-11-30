@@ -1,16 +1,18 @@
 # JEP Status
 Latest changes on [OpenJDK JEP Index](https://openjdk.org/jeps/0)
 
-**Last updated: 2023-11-22**
+**Last updated: 2023-11-27**
 
 ## 2023 - November
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Change |
 | --- | :--  |
 | **`2023-11-22`**  | **JEP 458** - [Launch Multi-File Source-Code Programs](https://openjdk.org/jeps/458) - promoted from **Candidate** to **Proposed to target** |
+| **`2023-11-22`**  | **JEP 447** - [Statements before super(...) (Preview)](https://openjdk.org/jeps/447) - promoted from **Proposed to target** to **Targeted** |
 | **`2023-11-21`**  | **JEP 462** - [Structured Concurrency (Second Preview)](https://openjdk.org/jeps/447) - promoted from **Candidate** to **Proposed to target** |
 | **`2023-11-20`**  | **JEP 458** - [Launch Multi-File Source-Code Programs](https://openjdk.org/jeps/458) - demoted from **Proposed to target** to **Candidate** |
 | **`2023-11-17`**  | **JEP 461** - [Stream Gatherers (Preview)](https://openjdk.org/jeps/447) - promoted from **Candidate** to **Proposed to target** |
+| **`2023-11-17`**  | **JEP 459** - [String Templates (Second Preview)](https://openjdk.org/jeps/459) - promoted from **Targeted** to **Integrated** |
 | **`2023-11-17`**  | **JEP 455** - [Primitive types in Patterns, instanceof, and switch (Preview)](https://openjdk.org/jeps/455) - demoted from **Proposed to target** to **Candidate** |
 | **`2023-11-16`**  | **JEP 459** - [String Templates (Second Preview)](https://openjdk.org/jeps/459) - promoted from **Proposed to target** to **Targeted** |
 | **`2023-11-15`**  | **JEP 463** - [Implicitly Declared Classes and Instance Main Methods (Second Preview)](https://openjdk.org/jeps/463) - promoted from **Candidate** to **Proposed to target** |
