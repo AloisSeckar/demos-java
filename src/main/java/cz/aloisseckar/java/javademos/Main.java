@@ -19,6 +19,7 @@ import cz.aloisseckar.java.javademos.java21.pattern.PatternMatchingForSwitchDemo
 import cz.aloisseckar.java.javademos.java21.pattern.RecordPatternsDemo;
 import cz.aloisseckar.java.javademos.java21.sequenced.SequencedCollectionsDemo;
 import cz.aloisseckar.java.javademos.java21.stringtemplates.StringTemplatesDemo;
+import cz.aloisseckar.java.javademos.java21.unnamed.UnnamedPatternsAndVariablesDemo;
 import cz.aloisseckar.java.javademos.java21.virtualthreads.VirtualThreadsDemo;
 import cz.aloisseckar.java.javademos.java21.scopedvalues.ScopedValuesDemo;
 import cz.aloisseckar.java.javademos.java21.vectorapi.VectorAPIDemo;
@@ -92,6 +93,7 @@ public class Main {
         demoPool.add(new ScopedValuesDemo());
         demoPool.add(new SequencedCollectionsDemo());
         demoPool.add(new VectorAPIDemo());
+        demoPool.add(new UnnamedPatternsAndVariablesDemo());
         
         // run method .demo() on each entry to see the output
         demoPool.forEach(IDemo::demo);
