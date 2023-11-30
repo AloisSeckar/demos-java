@@ -17,7 +17,7 @@ import java.util.FormatProcessor;
 public class StringTemplatesDemo implements IDemo {
     @Override
     public void demo() {
-        info("STRING TEMPLATES DEMO", "Example of 'string templates' feature\nbeing previewed in Java 21");
+        info("STRING TEMPLATES DEMO", "Example of 'String Templates' feature\nbeing previewed in Java 21");
 
         // STR is a default implementation of StringTemplate
         // it is automatically injected in all classes without need of an explicit import

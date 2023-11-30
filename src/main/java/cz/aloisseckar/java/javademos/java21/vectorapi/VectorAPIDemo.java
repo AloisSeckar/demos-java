@@ -32,7 +32,7 @@ public class VectorAPIDemo implements IDemo {
 
     @Override
     public void demo() {
-        info("VECTOR API DEMO", "Examples for 'Vector API feature\nincluded in Java 20");
+        info("VECTOR API DEMO", "Examples for 'Vector API' feature\nincluded in Java 20");
 
         // demo task - calculating mass of a random rectangular prism - 100M times
         // TODO find better example...?
