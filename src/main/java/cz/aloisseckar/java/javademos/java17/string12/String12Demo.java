@@ -20,15 +20,24 @@ public class String12Demo implements IDemo {
     public void demo() {
         info("STRING J12 DEMO", "Examples for Java 12 new String methods");
 
-        // TODO add String::align demo
-        
-        // adds n-level indentation before the String
-        System.out.println("String.indent(n)");
+        // String::align
+        // NOTE: align() method was removed again before Java 12 was released
+        // through https://bugs.openjdk.org/browse/JDK-8215490
+
+        // String::indent
+        // Adjusts the indentation of each line of this string based on the value of n,
+        // and normalizes line termination characters.
+
+        // here we will intend "a" with 1, 2 and 3 spaces
+        System.out.println("String:indent");
         System.out.println("a".indent(1));
         System.out.println("a".indent(2));
         System.out.println("a".indent(3));
-        
-        // feeds the String to given Function that 'transforms' it to something new
+
+        // String::transform
+        // This method allows the application of a function to this string.
+        // The function should expect a single String argument and produce an R result.
+
         // here we are turning the original word 'hello' into 'transformed hello world!' text
         System.out.println("String.transform()");
         String result = "hello".transform(input -> "transformed " + input + " world!");
