@@ -1,6 +1,12 @@
 # JAVA NEWS
 What is the Java world up to?
 
+## 2023 - December
+
+| Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
+| --- | :--  |
+| **`2023-12-01`** | [Java 11 to 21: A Visual Guide for Seamless Migration](https://dzone.com/articles/java-11-to-21-a-visual-guide-for-seamless-migratio) - some tips to have in mind when migrating project from older Java version to to JDK 21 |
+
 ## 2023 - November
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
