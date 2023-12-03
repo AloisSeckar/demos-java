@@ -12,6 +12,7 @@ What is the Java world up to?
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
 | **`2023-11-30`** | [Virtual Threads: A Definite Advantage](https://dzone.com/articles/virtual-threads-a-definite-advantage) - practical tutorial showing work with 1M virtual threads |
+| **`2023-11-29`** | [Get started with Java's new structured concurrency model](https://www.infoworld.com/article/3711361/get-started-with-javas-new-structured-concurrency-model.html) - a closer look to the new Java 21 preview feature (JEP 453) |
 | **`2023-11-28`** | [Introducing Generational ZGC](https://inside.java/2023/11/28/gen-zgc-explainer/) - great article introducing the latest evolution of Java garbage collector ZGC |
 | **`2023-11-21`** | [JCON WORLD](https://2023.world.jcon.one/) - 3 days online conference with 100+ speakers |
 | **`2023-11-20`** | [Java and the String Odyssey: Navigating Changes from JDK 1 to JDK 21](https://www.unlogged.io/post/java-and-the-string-odyssey-navigating-changes-from-jdk-1-to-jdk-21) - an exhaustive history of working with Strings in Java |
