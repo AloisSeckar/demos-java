@@ -32,3 +32,7 @@ https://infinispan.org/
 ## JBang
 https://www.jbang.dev/
 - Self-contained cross-platform Java demo applications runner.
+
+## JDKMon
+https://github.com/HanSolo/JDKMon
+- Lightweight JavaFX tool for managing and updating different JDK installations.
