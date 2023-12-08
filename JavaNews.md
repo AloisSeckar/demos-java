@@ -5,6 +5,11 @@ What is the Java world up to?
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2023-12-19`** | [London Java Community Unconference](https://www.ljcunconf.co.uk/) conference in London, UK |
+| **`2023-12-07`** | [Problems With Finalizer](https://dzone.com/articles/problems-with-finalizer) - why not to use `Object.finalize()` (already deprecated in JDK 9 and marked for removal in JDK 18) |
+| **`2023-12-06`** | [When to use abstract classes vs. interfaces in Java](https://www.infoworld.com/article/2077421/when-to-use-abstract-classes-vs-interfaces-in-java.html) - hat makes the difference between those two and how to use them correcty |
+| **`2023-12-06`** | [JEP 457: Streamlining Java Development with the Class-File API](https://www.infoq.com/news/2023/12/jep-457-new-class-file-api/) - a closer look to an upcomming JDK 22 feature - **Class File API** |
+| **`2023-12-05`** | [JakartaOne Livestream 2023](https://jakartaone.org/2023/) online conference about **Jakarta EE** ecosystem |
 | **`2023-12-01`** | [Java 11 to 21: A Visual Guide for Seamless Migration](https://dzone.com/articles/java-11-to-21-a-visual-guide-for-seamless-migratio) - some tips to have in mind when migrating project from older Java version to to JDK 21 |
 
 ## 2023 - November
@@ -14,9 +19,11 @@ What is the Java world up to?
 | **`2023-11-30`** | [Virtual Threads: A Definite Advantage](https://dzone.com/articles/virtual-threads-a-definite-advantage) - practical tutorial showing work with 1M virtual threads |
 | **`2023-11-29`** | [Get started with Java's new structured concurrency model](https://www.infoworld.com/article/3711361/get-started-with-javas-new-structured-concurrency-model.html) - a closer look to the new Java 21 preview feature (JEP 453) |
 | **`2023-11-28`** | [Introducing Generational ZGC](https://inside.java/2023/11/28/gen-zgc-explainer/) - great article introducing the latest evolution of Java garbage collector ZGC |
+| **`2023-11-24`** | [String Templates in Java – why should you care?](https://blog.jetbrains.com/idea/2023/11/string-templates-in-java-why-should-you-care/) - a closer look to new Java 21 preview feature to manipulate with texts - **String templates** |
 | **`2023-11-21`** | [JCON WORLD](https://2023.world.jcon.one/) - 3 days online conference with 100+ speakers |
 | **`2023-11-20`** | [Java and the String Odyssey: Navigating Changes from JDK 1 to JDK 21](https://www.unlogged.io/post/java-and-the-string-odyssey-navigating-changes-from-jdk-1-to-jdk-21) - an exhaustive history of working with Strings in Java |
 | **`2023-11-20`** | [JDK 22: The new features in Java 22](https://www.infoworld.com/article/3708329/jdk-22-the-new-features-in-java-22.html) - summing up what is about to be included in upcomming Java 22 in March 2024 |
+| **`2023-11-19`** | [JHow do you know if a Java Collection is Mutable or Immutable?](https://medium.com/javarevisited/how-do-you-know-if-a-java-collection-is-mutable-or-immutable-b397dfc5d231) - an article to guide you around the world of Java collections and their (im)mutability |
 | **`2023-11-16`** | [Ways To Reduce JVM Docker Image Size](https://dzone.com/articles/ways-to-reduce-jvm-docker-image-size) - a practical step-by-step guide of stripping unnecessary burden from Dockerized Java containers |
 | **`2023-11-15`** | [The Resurrection of Virtual Threads](https://dzone.com/articles/the-resurrection-of-virtual-threads-unraveling-the) - a brief look into the history of Java Threads concepts |
 | **`2023-11-09`** | [J-Fall](https://jfall.nl/) conference in Ede, Netherlands |
