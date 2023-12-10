@@ -10,6 +10,7 @@ What is the Java world up to?
 | **`2023-12-06`** | [When to use abstract classes vs. interfaces in Java](https://www.infoworld.com/article/2077421/when-to-use-abstract-classes-vs-interfaces-in-java.html) - hat makes the difference between those two and how to use them correcty |
 | **`2023-12-06`** | [JEP 457: Streamlining Java Development with the Class-File API](https://www.infoq.com/news/2023/12/jep-457-new-class-file-api/) - a closer look to an upcomming JDK 22 feature - **Class File API** |
 | **`2023-12-05`** | [JakartaOne Livestream 2023](https://jakartaone.org/2023/) online conference about **Jakarta EE** ecosystem |
+| **`2023-12-05`** | [Don’t make Apache Kafka be your database](https://www.infoworld.com/article/3711181/dont-make-apache-kafka-your-database.html) - kind reminder that **Kafka** is not meant to be a database solution |
 | **`2023-12-01`** | [Java 11 to 21: A Visual Guide for Seamless Migration](https://dzone.com/articles/java-11-to-21-a-visual-guide-for-seamless-migratio) - some tips to have in mind when migrating project from older Java version to to JDK 21 |
 
 ## 2023 - November
