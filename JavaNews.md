@@ -6,6 +6,7 @@ What is the Java world up to?
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
 | **`2023-12-19`** | [London Java Community Unconference](https://www.ljcunconf.co.uk/) conference in London, UK |
+| **`2023-12-13`** | [Shenandoah GC Tuning](https://dzone.com/articles/shenandoah-gc-tuning) - introduction to Shenandoah garbage collector + info about available options |
 | **`2023-12-07`** | [Problems With Finalizer](https://dzone.com/articles/problems-with-finalizer) - why not to use `Object.finalize()` (already deprecated in JDK 9 and marked for removal in JDK 18) |
 | **`2023-12-06`** | [When to use abstract classes vs. interfaces in Java](https://www.infoworld.com/article/2077421/when-to-use-abstract-classes-vs-interfaces-in-java.html) - hat makes the difference between those two and how to use them correcty |
 | **`2023-12-06`** | [JEP 457: Streamlining Java Development with the Class-File API](https://www.infoq.com/news/2023/12/jep-457-new-class-file-api/) - a closer look to an upcomming JDK 22 feature - **Class File API** |
