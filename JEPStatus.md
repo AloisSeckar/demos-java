@@ -1,6 +1,6 @@
 # JEP Status
 Latest changes in JDK based on [OpenJDK JEP Index](https://openjdk.org/jeps/0)
-**Last updated: 2023-12-08**
+**Last updated: 2023-12-16**
 
 ## Java 22
 
@@ -10,14 +10,14 @@ Latest changes in JDK based on [OpenJDK JEP Index](https://openjdk.org/jeps/0)
 | **JEP 447**	- [Statements before super(...) (Preview)](https://openjdk.org/jeps/447) | [JDK-8300786](https://bugs.openjdk.org/browse/JDK-8300786) | `2023-01-23` | `2023-02-21` | `2023-04-19` | `2023-11-07` | `2023-11-22` | `2023-12-05` | `2023-12-05` | |
 | **JEP 454**	- [Foreign Function & Memory API](https://openjdk.org/jeps/454) | [JDK-8310626](https://bugs.openjdk.org/browse/JDK-8310626) | `2023-06-22` | `2023-06-29` | `2023-09-11` | `2023-09-28` | `2023-10-12` | `2023-10-12` | `2023-12-06` | |
 | **JEP 456**	- [Unnamed Variables & Patterns](https://openjdk.org/jeps/456) | [JDK-8311828](https://bugs.openjdk.org/browse/JDK-8311828) | `2023-07-10` | `2023-08-24` | `2023-09-25` | `2023-10-11` | `2023-10-27` | `2023-11-03` | `2023-12-05` | |
-| **JEP 457**	- [Class-File API (Preview)](https://openjdk.org/jeps/457) | [JDK-8280389](https://bugs.openjdk.org/browse/JDK-8280389) | `2022-01-20` | `2023-03-17` | `2023-09-26` | `2023-11-07` | `2023-11-28` | `2023-12-04` | | |
+| **JEP 457**	- [Class-File API (Preview)](https://openjdk.org/jeps/457) | [JDK-8280389](https://bugs.openjdk.org/browse/JDK-8280389) | `2022-01-20` | `2023-03-17` | `2023-09-26` | `2023-11-07` | `2023-11-28` | `2023-12-04` | `2023-12-11` | |
 | **JEP 458**	- [Launch Multi-File Source-Code Programs](https://openjdk.org/jeps/458) | [JDK-8304400](https://bugs.openjdk.org/browse/JDK-8304400) | `2023-03-17` | `2023-03-28` | `2023-10-03` | `2023-11-22` | `2023-12-01` | `2023-12-05` | `2023-12-05` | `2023-12-05` |
 | **JEP 459**	- [String Templates (Second Preview)](https://openjdk.org/jeps/459) | [JDK-8314219](https://bugs.openjdk.org/browse/JDK-8314219) | `2023-08-14` | `2023-09-29` | `2023-10-05` | `2023-11-03` | `2023-11-16` | `2023-11-17` | `2023-12-05` | |
 | **JEP 460**	- [Vector API (Seventh Incubator)](https://openjdk.org/jeps/460) | [JDK-8315945](https://bugs.openjdk.org/browse/JDK-8315945) | `2023-09-08` | `2023-09-18` | `2023-10-09` | `2023-10-26` | `2023-11-06` | `2023-11-07` | `2023-11-07` | `2023-11-07` |
 | **JEP 461**	- [Stream Gatherers (Preview)](https://openjdk.org/jeps/461) | [JDK-8317955](https://bugs.openjdk.org/browse/JDK-8317955) | `2023-10-11` | `2023-10-11` | `2023-10-26` | `2023-11-07` | `2023-11-29` | `2023-12-01` | `2023-12-07` | |
-| **JEP 462**	- [Structured Concurrency (Second Preview)](https://openjdk.org/jeps/462) | [JDK-8317302](https://bugs.openjdk.org/browse/JDK-8317302) | `2023-09-29` | `2023-10-19` | `2023-10-27` | `2023-11-21` | `2023-12-01` | `2023-12-01` | | |
+| **JEP 462**	- [Structured Concurrency (Second Preview)](https://openjdk.org/jeps/462) | [JDK-8317302](https://bugs.openjdk.org/browse/JDK-8317302) | `2023-09-29` | `2023-10-19` | `2023-10-27` | `2023-11-21` | `2023-12-01` | `2023-12-01` | `2023-12-09` | |
 | **JEP 463**	- [Implicitly Declared Classes and Instance Main Methods (Second Preview)](https://openjdk.org/jeps/463) | [JDK-8315398](https://bugs.openjdk.org/browse/JDK-8315398) | `2023-08-30` | `2023-10-12` | `2023-11-01` | `2023-11-15` | `2023-11-28` | `2023-11-30` | `2023-12-05` | |
-| **JEP 464**	- [Scoped Values (Second Preview)](https://openjdk.org/jeps/464) | [JDK-8315398](https://bugs.openjdk.org/browse/JDK-8315398) | `2023-10-26` | `2023-11-22` | `2023-11-29` | `2023-11-30` | `2023-12-07` | | | |
+| **JEP 464**	- [Scoped Values (Second Preview)](https://openjdk.org/jeps/464) | [JDK-8315398](https://bugs.openjdk.org/browse/JDK-8315398) | `2023-10-26` | `2023-11-22` | `2023-11-29` | `2023-11-30` | `2023-12-07` | `2023-12-08` | | |
 
 ## Java 21
 
