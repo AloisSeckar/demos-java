@@ -6,6 +6,8 @@ What is the Java world up to?
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
 | **`2023-12-19`** | [London Java Community Unconference](https://www.ljcunconf.co.uk/) conference in London, UK |
+| **`2023-12-15`** | [Spring Boot 3.2 Delivers Support for Virtual Threads and Modern RestClient and JdbcClient](https://www.infoq.com/news/2023/12/spring-boot-virtual-threads/) - introducing major changes in the latest evolution of [Spring Boot framework](https://spring.io/blog/2023/11/23/spring-boot-3-2-0-available-now/) |
+| **`2023-12-14`** | [Stream API Evolution: a Closer Look at JEP 461's Stream Gatherers](https://www.infoq.com/news/2023/12/stream-api-evolution/) - about new feature to be delivered in JDK 22 |
 | **`2023-12-13`** | [Shenandoah GC Tuning](https://dzone.com/articles/shenandoah-gc-tuning) - introduction to Shenandoah garbage collector + info about available options |
 | **`2023-12-07`** | [Problems With Finalizer](https://dzone.com/articles/problems-with-finalizer) - why not to use `Object.finalize()` (already deprecated in JDK 9 and marked for removal in JDK 18) |
 | **`2023-12-06`** | [When to use abstract classes vs. interfaces in Java](https://www.infoworld.com/article/2077421/when-to-use-abstract-classes-vs-interfaces-in-java.html) - hat makes the difference between those two and how to use them correcty |
