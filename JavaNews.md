@@ -5,6 +5,7 @@ What is the Java world up to?
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2023-12-21`** | [From J2EE to Jakarta EE](https://dzone.com/articles/from-j2ee-to-jakarta-ee) - about Jakarta EE role in Java ecosystem |
 | **`2023-12-19`** | [London Java Community Unconference](https://www.ljcunconf.co.uk/) conference in London, UK |
 | **`2023-12-16`** | [Java application latency reduction](https://medium.com/@parveen.saini2010/java-heap-memory-optimization-ce83c6844c35) - some practical tips and gotchas when comes to Java heap dump analysis |
 | **`2023-12-15`** | [Spring Boot 3.2 Delivers Support for Virtual Threads and Modern RestClient and JdbcClient](https://www.infoq.com/news/2023/12/spring-boot-virtual-threads/) - introducing major changes in the latest evolution of [Spring Boot framework](https://spring.io/blog/2023/11/23/spring-boot-3-2-0-available-now/) |
