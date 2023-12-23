@@ -5,6 +5,7 @@ What is the Java world up to?
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2023-12-22`** | [Secure Password Hashing in Java: Best Practices and Code Examples](https://dzone.com/articles/secure-password-hashing-in-java) - how to handle passwords in Java |
 | **`2023-12-21`** | [From J2EE to Jakarta EE](https://dzone.com/articles/from-j2ee-to-jakarta-ee) - about Jakarta EE role in Java ecosystem |
 | **`2023-12-19`** | [London Java Community Unconference](https://www.ljcunconf.co.uk/) conference in London, UK |
 | **`2023-12-16`** | [Java application latency reduction](https://medium.com/@parveen.saini2010/java-heap-memory-optimization-ce83c6844c35) - some practical tips and gotchas when comes to Java heap dump analysis |
