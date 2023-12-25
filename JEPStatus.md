@@ -1,6 +1,7 @@
 # JEP Status
 Latest changes in JDK based on [OpenJDK JEP Index](https://openjdk.org/jeps/0)
-**Last updated: 2023-12-16**
+
+**Last updated: 2023-12-25**
 
 ## Java 22
 
