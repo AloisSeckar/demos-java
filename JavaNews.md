@@ -5,6 +5,7 @@ What is the Java world up to?
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2023-12-28`** | [Migrating From Lombok to Records in Java](https://dzone.com/articles/migrating-from-lombok-to-records-in-java) - this is how you can replace Lombok annotations with Java 17+ native Records |
 | **`2023-12-24`** | [Composing Custom Annotations in Spring](https://dzone.com/articles/composing-custom-annotations-in-spring) - a brief tutorial about one of Spring Framework features |
 | **`2023-12-22`** | [Secure Password Hashing in Java: Best Practices and Code Examples](https://dzone.com/articles/secure-password-hashing-in-java) - how to handle passwords in Java |
 | **`2023-12-21`** | [From J2EE to Jakarta EE](https://dzone.com/articles/from-j2ee-to-jakarta-ee) - about Jakarta EE role in Java ecosystem |
