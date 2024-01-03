@@ -15,18 +15,18 @@ What is the Java world up to?
 | **`2023-12-28`** | [UTF-8 Validation in Java](https://www.baeldung.com/java-utf-8-validation) - how to work with UTF-8 encoded byte data in Java |
 | **`2023-12-28`** | [Migrating From Lombok to Records in Java](https://dzone.com/articles/migrating-from-lombok-to-records-in-java) - this is how you can replace Lombok annotations with Java 17+ native Records |
 | **`2023-12-24`** | [Composing Custom Annotations in Spring](https://dzone.com/articles/composing-custom-annotations-in-spring) - a brief tutorial about one of Spring Framework features |
-| **`2023-12-22`** | [Secure Password Hashing in Java: Best Practices and Code Examples](https://dzone.com/articles/secure-password-hashing-in-java) - how to handle passwords in Java |
+| **`2023-12-22`** | [Secure Password Hashing in Java](https://dzone.com/articles/secure-password-hashing-in-java) - how to handle passwords in Java |
 | **`2023-12-21`** | [From J2EE to Jakarta EE](https://dzone.com/articles/from-j2ee-to-jakarta-ee) - about Jakarta EE role in Java ecosystem |
 | **`2023-12-19`** | [London Java Community Unconference](https://www.ljcunconf.co.uk/) conference in London, UK |
 | **`2023-12-16`** | [Java application latency reduction](https://medium.com/@parveen.saini2010/java-heap-memory-optimization-ce83c6844c35) - some practical tips and gotchas when comes to Java heap dump analysis |
 | **`2023-12-15`** | [Spring Boot 3.2 Delivers Support for Virtual Threads and Modern RestClient and JdbcClient](https://www.infoq.com/news/2023/12/spring-boot-virtual-threads/) - introducing major changes in the latest evolution of [Spring Boot framework](https://spring.io/blog/2023/11/23/spring-boot-3-2-0-available-now/) |
-| **`2023-12-15`** | [JEP 423: Introducing Region Pinning to G1 Garbage Collector in OpenJDK](https://www.infoq.com/news/2023/12/region-pinning-to-g1-gc/) - about new feature to be delivered in JDK 22 |
-| **`2023-12-14`** | [Stream API Evolution: a Closer Look at JEP 461's Stream Gatherers](https://www.infoq.com/news/2023/12/stream-api-evolution/) - about new feature to be delivered in JDK 22 |
+| **`2023-12-15`** | [Introducing Region Pinning to G1 Garbage Collector in OpenJDK](https://www.infoq.com/news/2023/12/region-pinning-to-g1-gc/) - about new feature to be delivered in JDK 22 |
+| **`2023-12-14`** | [A closer Look at JEP 461's Stream Gatherers](https://www.infoq.com/news/2023/12/stream-api-evolution/) - about new feature to be delivered in JDK 22 |
 | **`2023-12-13`** | [Shenandoah GC Tuning](https://dzone.com/articles/shenandoah-gc-tuning) - introduction to Shenandoah garbage collector + info about available options |
 | **`2023-12-08`** | [The 2023.3 Versions of JetBrains Coding Tools Are Out!](https://blog.jetbrains.com/blog/2023/12/08/ready-for-an-update-the-2023-3-versions-of-jetbrains-coding-tools-are-out/) - new version of **IntelliJ IDEA** 2023.3 become available (among other SW tools) |
 | **`2023-12-07`** | [Problems With Finalizer](https://dzone.com/articles/problems-with-finalizer) - why not to use `Object.finalize()` (already deprecated in JDK 9 and marked for removal in JDK 18) |
 | **`2023-12-06`** | [When to use abstract classes vs. interfaces in Java](https://www.infoworld.com/article/2077421/when-to-use-abstract-classes-vs-interfaces-in-java.html) - hat makes the difference between those two and how to use them correcty |
-| **`2023-12-06`** | [JEP 457: Streamlining Java Development with the Class-File API](https://www.infoq.com/news/2023/12/jep-457-new-class-file-api/) - a closer look to an upcomming JDK 22 feature - **Class File API** |
+| **`2023-12-06`** | [Streamlining Java Development with the Class-File API](https://www.infoq.com/news/2023/12/jep-457-new-class-file-api/) - a closer look to an upcomming JDK 22 feature - **Class File API** |
 | **`2023-12-05`** | [JakartaOne Livestream 2023](https://jakartaone.org/2023/) online conference about **Jakarta EE** ecosystem |
 | **`2023-12-05`** | [Demystifying Virtual Thread Performance](https://dzone.com/articles/demystifying-virtual-thread-performance-unveiling) - another dive into Java 21 **Virtual threads** |
 | **`2023-12-05`** | [Don’t make Apache Kafka be your database](https://www.infoworld.com/article/3711181/dont-make-apache-kafka-your-database.html) - kind reminder that **Kafka** is not meant to be a database solution |
@@ -41,7 +41,7 @@ What is the Java world up to?
 | **`2023-11-28`** | [Introducing Generational ZGC](https://inside.java/2023/11/28/gen-zgc-explainer/) - great article introducing the latest evolution of Java garbage collector ZGC |
 | **`2023-11-24`** | [String Templates in Java – why should you care?](https://blog.jetbrains.com/idea/2023/11/string-templates-in-java-why-should-you-care/) - a closer look to new Java 21 preview feature to manipulate with texts - **String templates** |
 | **`2023-11-21`** | [JCON WORLD](https://2023.world.jcon.one/) - 3 days online conference with 100+ speakers |
-| **`2023-11-20`** | [Java and the String Odyssey: Navigating Changes from JDK 1 to JDK 21](https://www.unlogged.io/post/java-and-the-string-odyssey-navigating-changes-from-jdk-1-to-jdk-21) - an exhaustive history of working with Strings in Java |
+| **`2023-11-20`** | [Java and the String Odyssey](https://www.unlogged.io/post/java-and-the-string-odyssey-navigating-changes-from-jdk-1-to-jdk-21) - an exhaustive history of working with **Strings** in Java from JDK 1 to JDK 21 |
 | **`2023-11-20`** | [JDK 22: The new features in Java 22](https://www.infoworld.com/article/3708329/jdk-22-the-new-features-in-java-22.html) - summing up what is about to be included in upcomming Java 22 in March 2024 |
 | **`2023-11-19`** | [JHow do you know if a Java Collection is Mutable or Immutable?](https://medium.com/javarevisited/how-do-you-know-if-a-java-collection-is-mutable-or-immutable-b397dfc5d231) - an article to guide you around the world of Java collections and their (im)mutability |
 | **`2023-11-16`** | [Ways To Reduce JVM Docker Image Size](https://dzone.com/articles/ways-to-reduce-jvm-docker-image-size) - a practical step-by-step guide of stripping unnecessary burden from Dockerized Java containers |
@@ -61,7 +61,7 @@ What is the Java world up to?
 | **`2023-10-18`** | [Introducing the Oracle Java Platform Extension for Visual Studio Code](https://inside.java/2023/10/18/announcing-vscode-extension/) - new official VS Code extension for Java |
 | **`2023-10-13`** | [GraalVM Replaces the GraalVM Updater with Language Libraries](https://www.infoq.com/news/2023/10/graalvm-language-libraries/) - polyglot's language runtimes will be available as Maven dependencies instead of using proprietary tool (`gu`) |
 | **`2023-10-10`** | [How to Diagnose and Mitigate Pinning in Java’s Virtual Thread Execution](https://foojay.io/today/how-to-diagnose-and-mitigate-pinning-in-javas-virtual-thread-execution/) - potential performance problem with Virtual Threads explained with tips how to spot and fix it |
-| **`2023-10-06`** | [Java 21 and the Upcoming Jakarta EE 11: A New Era of Cloud Native Java](https://foojay.io/today/java-21-and-the-upcoming-jakarta-ee-11-a-new-era-of-cloud-native-java/) - what might be expected width Jakarta EE 11 scheduled for Q1/2024 |
+| **`2023-10-06`** | [A New Era of Cloud Native Java](https://foojay.io/today/java-21-and-the-upcoming-jakarta-ee-11-a-new-era-of-cloud-native-java/) - what might be expected width Jakarta EE 11 scheduled for Q1/2024 |
 | **`2023-10-06`** | [Java 22 begins to take shape](https://www.infoworld.com/article/3708329/java-22-begins-to-take-shape.html) - some news about the development around Java 22 |
 | **`2023-10-03`** | [Microsoft ships Java 21 builds](https://www.infoworld.com/article/3707711/microsoft-ships-java-21-builds.html) - Microsoft OpenJDK 21 builds will be available in Azure PaaS |
 
