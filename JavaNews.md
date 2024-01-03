@@ -1,10 +1,18 @@
 # JAVA NEWS
 What is the Java world up to?
 
+## 2024 - January
+
+| Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
+| --- | :--  |
+| **`2024-01-02`** | [Exploring Java Stream API's peek Method](https://dzone.com/articles/exploring-java-stream-apis-peek-method) - a closer look to `peek()` method from Java **Stream API** |
+
 ## 2023 - December
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2023-12-31`** | [Exploring Throttling in Java](https://dzone.com/articles/exploring-throttling-in-java-diverse-strategies-an) - practical examples how to pause Java threads to limit the number of executions |
+| **`2023-12-28`** | [UTF-8 Validation in Java](https://www.baeldung.com/java-utf-8-validation) - how to work with UTF-8 encoded byte data in Java |
 | **`2023-12-28`** | [Migrating From Lombok to Records in Java](https://dzone.com/articles/migrating-from-lombok-to-records-in-java) - this is how you can replace Lombok annotations with Java 17+ native Records |
 | **`2023-12-24`** | [Composing Custom Annotations in Spring](https://dzone.com/articles/composing-custom-annotations-in-spring) - a brief tutorial about one of Spring Framework features |
 | **`2023-12-22`** | [Secure Password Hashing in Java: Best Practices and Code Examples](https://dzone.com/articles/secure-password-hashing-in-java) - how to handle passwords in Java |
@@ -15,10 +23,12 @@ What is the Java world up to?
 | **`2023-12-15`** | [JEP 423: Introducing Region Pinning to G1 Garbage Collector in OpenJDK](https://www.infoq.com/news/2023/12/region-pinning-to-g1-gc/) - about new feature to be delivered in JDK 22 |
 | **`2023-12-14`** | [Stream API Evolution: a Closer Look at JEP 461's Stream Gatherers](https://www.infoq.com/news/2023/12/stream-api-evolution/) - about new feature to be delivered in JDK 22 |
 | **`2023-12-13`** | [Shenandoah GC Tuning](https://dzone.com/articles/shenandoah-gc-tuning) - introduction to Shenandoah garbage collector + info about available options |
+| **`2023-12-08`** | [The 2023.3 Versions of JetBrains Coding Tools Are Out!](https://blog.jetbrains.com/blog/2023/12/08/ready-for-an-update-the-2023-3-versions-of-jetbrains-coding-tools-are-out/) - new version of **IntelliJ IDEA** 2023.3 become available (among other SW tools) |
 | **`2023-12-07`** | [Problems With Finalizer](https://dzone.com/articles/problems-with-finalizer) - why not to use `Object.finalize()` (already deprecated in JDK 9 and marked for removal in JDK 18) |
 | **`2023-12-06`** | [When to use abstract classes vs. interfaces in Java](https://www.infoworld.com/article/2077421/when-to-use-abstract-classes-vs-interfaces-in-java.html) - hat makes the difference between those two and how to use them correcty |
 | **`2023-12-06`** | [JEP 457: Streamlining Java Development with the Class-File API](https://www.infoq.com/news/2023/12/jep-457-new-class-file-api/) - a closer look to an upcomming JDK 22 feature - **Class File API** |
 | **`2023-12-05`** | [JakartaOne Livestream 2023](https://jakartaone.org/2023/) online conference about **Jakarta EE** ecosystem |
+| **`2023-12-05`** | [Demystifying Virtual Thread Performance](https://dzone.com/articles/demystifying-virtual-thread-performance-unveiling) - another dive into Java 21 **Virtual threads** |
 | **`2023-12-05`** | [Don’t make Apache Kafka be your database](https://www.infoworld.com/article/3711181/dont-make-apache-kafka-your-database.html) - kind reminder that **Kafka** is not meant to be a database solution |
 | **`2023-12-01`** | [Java 11 to 21: A Visual Guide for Seamless Migration](https://dzone.com/articles/java-11-to-21-a-visual-guide-for-seamless-migratio) - some tips to have in mind when migrating project from older Java version to to JDK 21 |
 
@@ -75,10 +85,10 @@ What is the Java world up to?
 
 ## Further reading
 Stay updated with the following more dedicated sources:
-- https://inside.java/
-- https://blogs.oracle.com/java/
-- https://www.infoworld.com/category/java/
-
+- https://inside.java
+- https://blogs.oracle.com/java
+- https://www.infoworld.com/category/java
+- https://dzone.com/java
 
 ## Older, but still worth mentioning
 Various interesting articles I came across over the time:
@@ -87,6 +97,4 @@ Various interesting articles I came across over the time:
 | --- | :--  |
 | **2023-08-22** | [Exploring the design of Java’s new virtual threads](https://blogs.oracle.com/javamagazine/post/java-virtual-threads) - gain deeper insight and better understanding of one of the most anticipated feature of Java 21 - Virtual threads. |
 | **2023-07-11** | [Java 21 - Java 17 = 42 JEPs view](https://dev.to/pfilaretov42/java-21-java-17-42-jeps-view-ckk) - simple but useful list grouping the new features between Java 17 and Java 21 |
-| **`2020-12-17`** | [Troubleshooting Native Memory Leaks in Java Applications](https://poonamparhar.github.io/troubleshooting_native_memory_leaks/) - how to understand, diagnose and confirm leaks coming from native code interactions with memory
-|
-
+| **2020-12-17** | [Troubleshooting Native Memory Leaks in Java Applications](https://poonamparhar.github.io/troubleshooting_native_memory_leaks/) - how to understand, diagnose and confirm leaks coming from native code interactions with memory |
