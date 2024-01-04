@@ -5,6 +5,7 @@ What is the Java world up to?
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2024-01-03`** | [Demystifying Java's Compare-and-Swap]([https://dzone.com/articles/exploring-java-stream-apis-peek-method](https://dzone.com/articles/demystifying-javas-compare-and-swap-cas)) - deepdive into Java mechanism for atomic thread-safe values |
 | **`2024-01-02`** | [Exploring Java Stream API's peek Method](https://dzone.com/articles/exploring-java-stream-apis-peek-method) - a closer look to `peek()` method from Java **Stream API** |
 
 ## 2023 - December
