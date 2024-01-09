@@ -5,7 +5,12 @@ What is the Java world up to?
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2024-01-08`** | [Mastering Thread-Local Variables in Java](https://dzone.com/articles/mastering-thread-local-variables-in-java-a-compreh) - working with those in practical examples |
+| **`2024-01-07`** | [Introduction to Spring AI](https://www.baeldung.com/spring-ai) - now you can leverage AI generative prompts in [Spring Framework](https://spring.io/projects/spring-framework/) |
+| **`2024-01-06`** | [JDK22 - Gatherer](https://blog.soebes.io/posts/2024/01/2024-01-07-jdk-gatherer/) - another new thing coming soon in **Java 22** |
+| **`2024-01-04`** | [Architecting with Java Persistence](https://www.infoq.com/articles/architecting-java-persistence-patterns-and-strategies/) - an exhaustive insight into working with persistence in Java |
 | **`2024-01-03`** | [Demystifying Java's Compare-and-Swap](https://dzone.com/articles/demystifying-javas-compare-and-swap-cas) - deepdive into Java mechanism for atomic thread-safe values |
+| **`2024-01-02`** | [Meet SD4J: An Implementation of Stable Diffusion Inference in Java](https://www.marktechpost.com/2024/01/02/meet-sd4j-an-implementation-of-stable-diffusion-inference-in-java-that-can-generate-images-with-deep-learning/) - now you can prompt [Stable Diffusion](https://stability.ai/) from Java |
 | **`2024-01-02`** | [Exploring Java Stream API's peek Method](https://dzone.com/articles/exploring-java-stream-apis-peek-method) - a closer look to `peek()` method from Java **Stream API** |
 
 ## 2023 - December
