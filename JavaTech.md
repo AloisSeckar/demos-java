@@ -44,3 +44,11 @@ https://www.jbang.dev/
 ## JDKMon
 https://github.com/HanSolo/JDKMon
 - Lightweight JavaFX tool for managing and updating different JDK installations.
+
+## SD4J
+https://github.com/oracle-samples/sd4j
+- Implementation of Stable Diffusion inference running on top of ONNX Runtime, written in Java.
+
+## esProc SPL
+https://www.scudata.com/
+- Structured processing language for big-data manipulation and computing.  
