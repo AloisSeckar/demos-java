@@ -3,6 +3,12 @@ Latest changes in JDK based on [OpenJDK JEP Index](https://openjdk.org/jeps/0)
 
 **Last updated: 2024-01-10**
 
+## Java 23
+
+| JEP | Ticket | Draft | Sumbitted | Candidate | Proposed to target | Targeted | Integrated | Completed | Closed |
+| :-- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| **JEP 455**	- [Primitive types in Patterns, instanceof, and switch (Preview)](https://openjdk.org/jeps/455) | [JDK-8288476](https://bugs.openjdk.org/browse/JDK-8288476) | `2022-06-15` | `2023-02-21` | `2023-09-25` | `2024-01-04` | | | | |
+
 ## Java 22
 
 | JEP | Ticket | Draft | Sumbitted | Candidate | Proposed to target | Targeted | Integrated | Completed | Closed |
