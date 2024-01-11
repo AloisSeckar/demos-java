@@ -5,6 +5,8 @@ What is the Java world up to?
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2024-01-10`** | [Go-like selects using jox channels in Java](https://softwaremill.com/go-like-selects-using-jox-channels-in-java/) - a preview of new interesting technology from its author |
+| **`2024-01-09`** | [Dead Letter Queue for Kafka With Spring](https://www.baeldung.com/kafka-spring-dead-letter-queue) - learn how to implement DLQ mechanism for storing failed messages in **Spring Kafka** |
 | **`2024-01-08`** | [Mastering Thread-Local Variables in Java](https://dzone.com/articles/mastering-thread-local-variables-in-java-a-compreh) - working with those in practical examples |
 | **`2024-01-07`** | [Introduction to Spring AI](https://www.baeldung.com/spring-ai) - now you can leverage AI generative prompts in [Spring Framework](https://spring.io/projects/spring-framework/) |
 | **`2024-01-06`** | [JDK22 - Gatherer](https://blog.soebes.io/posts/2024/01/2024-01-07-jdk-gatherer/) - another new thing coming soon in **Java 22** |
@@ -25,6 +27,7 @@ What is the Java world up to?
 | **`2023-12-21`** | [From J2EE to Jakarta EE](https://dzone.com/articles/from-j2ee-to-jakarta-ee) - about Jakarta EE role in Java ecosystem |
 | **`2023-12-19`** | [London Java Community Unconference](https://www.ljcunconf.co.uk/) conference in London, UK |
 | **`2023-12-16`** | [Java application latency reduction](https://medium.com/@parveen.saini2010/java-heap-memory-optimization-ce83c6844c35) - some practical tips and gotchas when comes to Java heap dump analysis |
+| **`2023-12-15`** | [Introducing JavaScript support in MySQL](https://blogs.oracle.com/mysql/post/introducing-javascript-support-in-mysql) - thanks to **GraalVM** Oracle now ships possibility of storing and running JavaScript programs inside MySQL for enhanced data processing |
 | **`2023-12-15`** | [Spring Boot 3.2 Delivers Support for Virtual Threads and Modern RestClient and JdbcClient](https://www.infoq.com/news/2023/12/spring-boot-virtual-threads/) - introducing major changes in the latest evolution of [Spring Boot framework](https://spring.io/blog/2023/11/23/spring-boot-3-2-0-available-now/) |
 | **`2023-12-15`** | [Introducing Region Pinning to G1 Garbage Collector in OpenJDK](https://www.infoq.com/news/2023/12/region-pinning-to-g1-gc/) - about new feature to be delivered in JDK 22 |
 | **`2023-12-14`** | [A closer Look at JEP 461's Stream Gatherers](https://www.infoq.com/news/2023/12/stream-api-evolution/) - about new feature to be delivered in JDK 22 |
