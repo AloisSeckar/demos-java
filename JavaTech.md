@@ -28,6 +28,10 @@ https://micronaut.io/
 ## Ox
 https://github.com/softwaremill/ox/
 - An experimental library for structured concurrency in Java 21.
+- 
+## jox
+https://github.com/softwaremill/jox/
+- Fast and scalable channels designed for JDK 21 virtual threads.
 
 ## Payara
 https://www.payara.fish/
