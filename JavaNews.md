@@ -5,7 +5,9 @@ What is the Java world up to?
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
-| **`2024-01-10`** | [Go-like selects using jox channels in Java](https://softwaremill.com/go-like-selects-using-jox-channels-in-java/) - a preview of new interesting technology from its author |
+| **`2024-01-11`** | [The Best Ways to Learn Java](https://blog.jetbrains.com/idea/2024/01/the-best-ways-to-learn-java/) - list of sources to help you becoming proficient Java developer |
+| **`2024-01-11`** | [Jakarta EE Security: Using Identity Stores](https://dzone.com/articles/jakarta-ee-security-using-identity-stores) - overview of **Jakarta Security 3.0** with examples |
+| **`2024-01-10`** | [Go-like selects using jox channels in Java](https://softwaremill.com/go-like-selects-using-jox-channels-in-java/) - preview of new interesting technology from its author |
 | **`2024-01-09`** | [Dead Letter Queue for Kafka With Spring](https://www.baeldung.com/kafka-spring-dead-letter-queue) - learn how to implement DLQ mechanism for storing failed messages in **Spring Kafka** |
 | **`2024-01-08`** | [Mastering Thread-Local Variables in Java](https://dzone.com/articles/mastering-thread-local-variables-in-java-a-compreh) - working with those in practical examples |
 | **`2024-01-07`** | [Introduction to Spring AI](https://www.baeldung.com/spring-ai) - now you can leverage AI generative prompts in [Spring Framework](https://spring.io/projects/spring-framework/) |
