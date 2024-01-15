@@ -5,6 +5,8 @@ What is the Java world up to?
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2024-01-14`** | [Building Your Own Automatic Garbage Collector](https://dzone.com/articles/building-your-own-automatic-garbage-collector-a-gu) - this tutorial helps you understanding garbage collecting in Java better |
+| **`2024-01-12`** | [The Challenges and Pitfalls of Using Executors in Java](https://dzone.com/articles/the-challenges-and-pitfalls-of-using-executors-in) - how to work with **Executors framework** properly |
 | **`2024-01-11`** | [The Best Ways to Learn Java](https://blog.jetbrains.com/idea/2024/01/the-best-ways-to-learn-java/) - list of sources to help you becoming proficient Java developer |
 | **`2024-01-11`** | [Jakarta EE Security: Using Identity Stores](https://dzone.com/articles/jakarta-ee-security-using-identity-stores) - overview of **Jakarta Security 3.0** with examples |
 | **`2024-01-10`** | [Go-like selects using jox channels in Java](https://softwaremill.com/go-like-selects-using-jox-channels-in-java/) - preview of new interesting technology from its author |
