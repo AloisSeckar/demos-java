@@ -5,6 +5,7 @@ What is the Java world up to?
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2024-01-19`** | [Secure Spring REST With Spring Security and OAuth2](https://dzone.com/articles/secure-spring-rest-with-spring-security-and-oauth2) - tutorial about securing Spring application |
 | **`2024-01-15`** | [11 reasons the new Java is not like the old Java](https://www.infoworld.com/article/3711866/11-reasons-the-new-java-is-not-like-the-old-java.html) - non-exhaustive list of what is new and cool in recent JDK versions |
 | **`2024-01-14`** | [Building Your Own Automatic Garbage Collector](https://dzone.com/articles/building-your-own-automatic-garbage-collector-a-gu) - this tutorial helps you understanding garbage collecting in Java better |
 | **`2024-01-12`** | [The Challenges and Pitfalls of Using Executors in Java](https://dzone.com/articles/the-challenges-and-pitfalls-of-using-executors-in) - how to work with **Executors framework** properly |
