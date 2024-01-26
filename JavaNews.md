@@ -5,7 +5,13 @@ What is the Java world up to?
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2024-01-25`** | [Java 23 begins to take shape](https://www.infoworld.com/article/3712426/java-23-begins-to-take-shape.html) - first news about **JDK 23** scheduled for September 2024 |
+| **`2024-01-24`** | [Machine learning for Java developers: Algorithms for machine learning](https://www.infoworld.com/article/3224505/machine-learning-for-java-developers.html) - getting started with ML in Java environment |
+| **`2024-01-24`** | [28 Years Strong: Java's Journey](https://dev.to/shanu-kumawat/28-years-strong-javas-journey-41e7) - Java 1 was officialy released to public on **24th January, 1996** |
+| **`2024-01-23`** | [Speed up Java application startup time with AppCDS](https://developers.redhat.com/articles/2024/01/23/speed-java-application-startup-time-appcds#) - learn about 'Application class data sharing' and how to use it to optimize OpenJDK applications aimed for containers |
+| **`2024-01-23`** | [Oracle’s plans for Java in 2024](https://www.infoworld.com/article/3712441/oracles-plans-for-java-in-2024.html) - some insight into recent future of Java platform and what we can expect |
 | **`2024-01-19`** | [Secure Spring REST With Spring Security and OAuth2](https://dzone.com/articles/secure-spring-rest-with-spring-security-and-oauth2) - tutorial about securing Spring application |
+| **`2024-01-18`** | [Understanding Lazy Evaluation in Java Streams](https://dzone.com/articles/understanding-lazy-evaluation-in-java-streams) - tutorial about stream processing techniques with various examples |
 | **`2024-01-15`** | [11 reasons the new Java is not like the old Java](https://www.infoworld.com/article/3711866/11-reasons-the-new-java-is-not-like-the-old-java.html) - non-exhaustive list of what is new and cool in recent JDK versions |
 | **`2024-01-14`** | [Building Your Own Automatic Garbage Collector](https://dzone.com/articles/building-your-own-automatic-garbage-collector-a-gu) - this tutorial helps you understanding garbage collecting in Java better |
 | **`2024-01-12`** | [The Challenges and Pitfalls of Using Executors in Java](https://dzone.com/articles/the-challenges-and-pitfalls-of-using-executors-in) - how to work with **Executors framework** properly |
