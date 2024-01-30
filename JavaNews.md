@@ -5,6 +5,8 @@ What is the Java world up to?
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2024-01-29`** | [Java proposal would streamline record creation](https://www.infoworld.com/article/3712640/java-proposal-would-streamline-record-creation.html) - brand new JEP may allow swift creating of records from existing records |
+| **`2024-01-29`** | [The One Billion Row Challenge](https://www.infoq.com/news/2024/01/1brc-fast-java-processing/) - proof that Java is able to process file with 1 billion rows in under 3 seconds |
 | **`2024-01-25`** | [Java 23 begins to take shape](https://www.infoworld.com/article/3712426/java-23-begins-to-take-shape.html) - first news about **JDK 23** scheduled for September 2024 |
 | **`2024-01-24`** | [Machine learning for Java developers: Algorithms for machine learning](https://www.infoworld.com/article/3224505/machine-learning-for-java-developers.html) - getting started with ML in Java environment |
 | **`2024-01-24`** | [28 Years Strong: Java's Journey](https://dev.to/shanu-kumawat/28-years-strong-javas-journey-41e7) - Java 1 was officialy released to public on **24th January, 1996** |
