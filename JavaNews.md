@@ -5,6 +5,7 @@ What is the Java world up to?
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2024-01-31`** | [Java proposal would scrap sun.misc.Unsafe memory access](https://www.infoworld.com/article/3712663/java-proposal-would-scrap-sunmiscunsafe-memory-access.html) - another new JEP would mark many of current low-level memory access methods from JDK deprecated for removal |
 | **`2024-01-29`** | [Java proposal would streamline record creation](https://www.infoworld.com/article/3712640/java-proposal-would-streamline-record-creation.html) - brand new JEP may allow swift creating of records from existing records |
 | **`2024-01-29`** | [The One Billion Row Challenge](https://www.infoq.com/news/2024/01/1brc-fast-java-processing/) - proof that Java is able to process file with 1 billion rows in under 3 seconds |
 | **`2024-01-25`** | [Java 23 begins to take shape](https://www.infoworld.com/article/3712426/java-23-begins-to-take-shape.html) - first news about **JDK 23** scheduled for September 2024 |
