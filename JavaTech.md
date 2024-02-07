@@ -25,6 +25,10 @@ https://helidon.io/
 https://micronaut.io/
 - JVM-based fullstack microservice framework.
 
+## CheerpJ
+https://cheerpj.com/
+- A WebAssembly-based JVM for running Java apps in the browsers.
+
 ## Ox
 https://github.com/softwaremill/ox/
 - An experimental library for structured concurrency in Java 21.
