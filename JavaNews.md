@@ -1,11 +1,19 @@
 # JAVA NEWS
 What is the Java world up to?
 
+## 2024 - February
+
+| Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
+| --- | :--  |
+| **`2024-02-02`** | [Java Enhances Pattern Matching with Primitive Type Support in JEP 455](https://www.infoq.com/news/2024/02/java-enhances-pattern-matching/) - new feature about to arrive in **JDK 23** explained |
+| **`2024-02-01`** | [CheerpJ 3.0 now available](https://labs.leaningtech.com/blog/cheerpj-3.0) - fully re-written version of **CheerpJ** JVM now allows running even "very large" Java applications directly in browsers |
+
 ## 2024 - January
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
 | **`2024-01-31`** | [Java proposal would scrap sun.misc.Unsafe memory access](https://www.infoworld.com/article/3712663/java-proposal-would-scrap-sunmiscunsafe-memory-access.html) - another new JEP would mark many of current low-level memory access methods from JDK deprecated for removal |
+| **`2024-01-30`** | [Evolution of the Switch Construct in Java](https://blog.jetbrains.com/idea/2024/01/evolution-of-the-switch-construct-in-java-why-should-you-care/) - your guide through the changes of `switch` in Java that keep comming in the recent JDK versions |
 | **`2024-01-29`** | [Java proposal would streamline record creation](https://www.infoworld.com/article/3712640/java-proposal-would-streamline-record-creation.html) - brand new JEP may allow swift creating of records from existing records |
 | **`2024-01-29`** | [The One Billion Row Challenge](https://www.infoq.com/news/2024/01/1brc-fast-java-processing/) - proof that Java is able to process file with 1 billion rows in under 3 seconds |
 | **`2024-01-25`** | [Java 23 begins to take shape](https://www.infoworld.com/article/3712426/java-23-begins-to-take-shape.html) - first news about **JDK 23** scheduled for September 2024 |
@@ -15,6 +23,7 @@ What is the Java world up to?
 | **`2024-01-23`** | [Oracle’s plans for Java in 2024](https://www.infoworld.com/article/3712441/oracles-plans-for-java-in-2024.html) - some insight into recent future of Java platform and what we can expect |
 | **`2024-01-19`** | [Secure Spring REST With Spring Security and OAuth2](https://dzone.com/articles/secure-spring-rest-with-spring-security-and-oauth2) - tutorial about securing Spring application |
 | **`2024-01-18`** | [Understanding Lazy Evaluation in Java Streams](https://dzone.com/articles/understanding-lazy-evaluation-in-java-streams) - tutorial about stream processing techniques with various examples |
+| **`2024-01-16`** | [Stepping in 2024 with Powerful Java Language Features](https://inside.java/2024/01/16/wrapup-java-lang-features/) - examples of how to use **Java 21** features in your code |
 | **`2024-01-15`** | [11 reasons the new Java is not like the old Java](https://www.infoworld.com/article/3711866/11-reasons-the-new-java-is-not-like-the-old-java.html) - non-exhaustive list of what is new and cool in recent JDK versions |
 | **`2024-01-14`** | [Building Your Own Automatic Garbage Collector](https://dzone.com/articles/building-your-own-automatic-garbage-collector-a-gu) - this tutorial helps you understanding garbage collecting in Java better |
 | **`2024-01-12`** | [The Challenges and Pitfalls of Using Executors in Java](https://dzone.com/articles/the-challenges-and-pitfalls-of-using-executors-in) - how to work with **Executors framework** properly |
@@ -119,6 +128,7 @@ Various interesting articles I came across over the time:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
-| **2023-08-22** | [Exploring the design of Java’s new virtual threads](https://blogs.oracle.com/javamagazine/post/java-virtual-threads) - gain deeper insight and better understanding of one of the most anticipated feature of Java 21 - Virtual threads. |
+| **2023-09-22** | A categorized list of all Java and JVM features since JDK 8 to 21](https://advancedweb.hu/a-categorized-list-of-all-java-and-jvm-features-since-jdk-8-to-21/) - remain informed about JDK evolution (this article keeps being updated) |
+| **2023-08-22** | [Exploring the design of Java’s new virtual threads](https://blogs.oracle.com/javamagazine/post/java-virtual-threads) - gain deeper insight and better understanding of one of the most anticipated feature of Java 21 - Virtual threads |
 | **2023-07-11** | [Java 21 - Java 17 = 42 JEPs view](https://dev.to/pfilaretov42/java-21-java-17-42-jeps-view-ckk) - simple but useful list grouping the new features between Java 17 and Java 21 |
 | **2020-12-17** | [Troubleshooting Native Memory Leaks in Java Applications](https://poonamparhar.github.io/troubleshooting_native_memory_leaks/) - how to understand, diagnose and confirm leaks coming from native code interactions with memory |
