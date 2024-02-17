@@ -5,6 +5,14 @@ What is the Java world up to?
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2024-02-14`** | [Advanced profiling proposed for Java Flight Recorder](https://www.infoworld.com/article/3712811/advanced-profiling-proposed-for-java-flight-recorder.html) - new project **Slogsluft** will aim on improvements in profiling native code execution in Java |
+| **`2024-02-13`** | [Java Flight Recorder on Kubernetes](https://piotrminkowski.com/2024/02/13/java-flight-recorder-on-kubernetes/) - explorer how to monitor Java app performance in cloud environment with **Cryostat** tool |
+| **`2024-02-13`** | [JDK 22: The new features in Java 22](https://www.infoworld.com/article/3708329/jdk-22-the-new-features-in-java-22.html) - as **JDK 22** is now wrapped up, lets rewise what is on the way |
+| **`2024-02-12`** | [The Continuous Evolution of the Vector API](https://www.infoq.com/news/2024/02/multi-file-program-launching/) - **JEP 460** coming into **JDK 22** explained |
+| **`2024-02-07`** | [Spring Boot 3.2 and Spring Framework 6.1 Add Java 21, Virtual Threads, and CRaC](https://www.infoq.com/articles/spring-boot-3-2-spring-6-1/) - new JDK features are making their way to **Spring** |
+| **`2024-02-06`** | [Red Hat Extends Java Support in the Cloud with JBoss EAP 8](https://www.redhat.com/en/about/press-releases/red-hat-extends-java-support-cloud-jboss-enterprise-application-platform-8) - release announcement for **JBoss EAP 8** with better integration with **JakartaEE 10** |
+| **`2024-02-05`** | [An In-Depth Guide to Java's ExecutorService](https://dzone.com/articles/demystifying-java-executorservice-a-comprehensive) - what is **ExecutorService** and how to use it |
+| **`2024-02-05`** | [Introducing Multi-File Program Launching](https://www.infoq.com/news/2024/02/multi-file-program-launching/) - **JEP 458** coming into **JDK 22** explained |
 | **`2024-02-02`** | [Java Enhances Pattern Matching with Primitive Type Support in JEP 455](https://www.infoq.com/news/2024/02/java-enhances-pattern-matching/) - new feature about to arrive in **JDK 23** explained |
 | **`2024-02-01`** | [CheerpJ 3.0 now available](https://labs.leaningtech.com/blog/cheerpj-3.0) - fully re-written version of **CheerpJ** JVM now allows running even "very large" Java applications directly in browsers |
 
