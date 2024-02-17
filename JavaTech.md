@@ -41,6 +41,10 @@ https://github.com/softwaremill/jox/
 https://www.payara.fish/
 - Modern application server for Jakarta EE apps.
 
+## TornadoVM
+https://www.tornadovm.org/
+- JVM-plugin that allows automatically run Java programs on heterogeneous hardware.
+
 ## Infinispan
 https://infinispan.org/
 - Open-source in-memory key/value NoSQL data store backed by RedHat.
