@@ -5,6 +5,7 @@ What is the Java world up to?
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2024-02-26`** | [Modernizing Native Interfacing in Java 17](https://dzone.com/articles/foreign-function-amp-memory-api-modernizing-native) - delving into _Foreign Function and Memory API_ |
 | **`2024-02-22`** | [Java virtual threads hit with pinning issue](https://www.infoworld.com/article/3713220/java-virtual-threads-hit-with-pinning-issue.html) - Oracle is tackling the conditions that often cause problems with Virtual threads |
 | **`2024-02-20`** | [Oracle Graal Cloud Native 4.2.1 Brings Java 21 Support](https://www.infoq.com/news/2024/02/gcn-4-2-1/) - what's new in the latest release of **Graal Cloud Native**? |
 | **`2024-02-19`** | [Top 5 Trends for Data Streaming With Kafka and Flink in 2024](https://dzone.com/articles/top-5-trends-for-data-streaming) - topics you should focus on when working with data streams in Java |
