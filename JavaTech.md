@@ -49,6 +49,10 @@ https://www.tornadovm.org/
 https://infinispan.org/
 - Open-source in-memory key/value NoSQL data store backed by RedHat.
 
+## Cryostat
+https://cryostat.io/
+- Managed Java Flight Recorder records for Kubernetes environment backed by RedHat.
+
 ## JBang
 https://www.jbang.dev/
 - Self-contained cross-platform Java demo applications runner.
