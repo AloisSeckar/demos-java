@@ -1,11 +1,23 @@
 # JAVA NEWS
 What is the Java world up to?
 
+## 2024 - March
+
+| Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
+| --- | :--  |
+| **`2024-03-06`** | [Understanding Java’s new ScopedValue](https://www.infoworld.com/article/3713261/understanding-javas-new-scopedvalue.html) - closer look to `ScopedValue` being introduced in **JDK 22** |
+| **`2024-03-06`** | [Java developers wanted, report says](https://www.infoworld.com/article/3713288/java-developers-wanted-report-says.html) - Good news, everyone! We are not obsolete yet. |
+| **`2024-03-04`** | [JDK 22 and JDK 23: What We Know So Far](https://www.infoq.com/news/2024/03/java-22-so-far/) - info summary for two new Java versions being on the way this year by Michael Redlich |
+| **`2024-03-01`** | [Red Hat Extends Java Support in the Cloud with JBoss Enterprise Application Platform 8](https://www.redhat.com/en/about/press-releases/red-hat-extends-java-support-cloud-jboss-enterprise-application-platform-8) - improved Jakarta EE 10 compatibility and other new features in the latest JBoss EAP version 8 |
+
 ## 2024 - February
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
-| **`2024-02-26`** | [Modernizing Native Interfacing in Java 17](https://dzone.com/articles/foreign-function-amp-memory-api-modernizing-native) - delving into _Foreign Function and Memory API_ |
+| **`2024-02-29`** | [OpenJDK proposal would streamline Java records creation](https://www.infoworld.com/article/3713268/openjdk-proposal-would-streamline-java-records-creation.html) - introducing one of the latest **JEP 468** called `Derived record creation` |
+| **`2024-02-28`** | [Quarkus 3.8 - Our new LTS version](https://quarkus.io/blog/quarkus-3-8-released/) - press release from **Quarkus** team about their latest `3.8` version |
+| **`2024-02-27`** | [Upgrading to Java 21 Is Worth It](https://thenewstack.io/we-can-have-nice-things-upgrading-to-java-21-is-worth-it/) - a couple of good reasons for stepping forward in upgrading your projects to latest Java features |
+| **`2024-02-26`** | [Modernizing Native Interfacing in Java 17](https://dzone.com/articles/foreign-function-amp-memory-api-modernizing-native) - delving into `Foreign Function and Memory API` |
 | **`2024-02-22`** | [Java virtual threads hit with pinning issue](https://www.infoworld.com/article/3713220/java-virtual-threads-hit-with-pinning-issue.html) - Oracle is tackling the conditions that often cause problems with Virtual threads |
 | **`2024-02-20`** | [Oracle Graal Cloud Native 4.2.1 Brings Java 21 Support](https://www.infoq.com/news/2024/02/gcn-4-2-1/) - what's new in the latest release of **Graal Cloud Native**? |
 | **`2024-02-19`** | [Top 5 Trends for Data Streaming With Kafka and Flink in 2024](https://dzone.com/articles/top-5-trends-for-data-streaming) - topics you should focus on when working with data streams in Java |
