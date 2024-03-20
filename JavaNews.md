@@ -5,6 +5,8 @@ What is the Java world up to?
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2024-03-19`** | [JDK 22: The new features in Java 22](https://www.infoworld.com/article/3708329/jdk-22-the-new-features-in-java-22.html) - Java 22 release summary  |
+| **`2024-03-19`** | **JDK 22 release date**  |
 | **`2024-03-08`** | [Debugging Using JMX Revisited](https://dzone.com/articles/debugging-using-jmx-revisited) - **Java Management Extensions** (JMX) and how to start using it |
 | **`2024-03-07`** | [Harnessing the Power of SIMD With Java Vector API](https://dzone.com/articles/power-of-simd-with-java-vector-api) - **Single Instruction, Multiple Data** in Java world using **Vector API** |
 | **`2024-03-06`** | [Understanding Java’s new ScopedValue](https://www.infoworld.com/article/3713261/understanding-javas-new-scopedvalue.html) - closer look to `ScopedValue` being introduced in **JDK 22** |
