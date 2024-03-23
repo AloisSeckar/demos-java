@@ -1,7 +1,7 @@
 # JEP Status
 Latest changes in JDK based on [OpenJDK JEP Index](https://openjdk.org/jeps/0)
 
-**Last updated: 2024-02-13**
+**Last updated: 2024-02-23**
 
 ## Java 23
 
@@ -10,7 +10,7 @@ Latest changes in JDK based on [OpenJDK JEP Index](https://openjdk.org/jeps/0)
 | **JEP 455**	- [Primitive types in Patterns, instanceof, and switch (Preview)](https://openjdk.org/jeps/455) | [JDK-8288476](https://bugs.openjdk.org/browse/JDK-8288476) | `2022-06-15` | `2023-02-21` | `2023-09-25` | `2024-01-04` | `2024-01-23` | `2024-02-01` | | |
 
 ## Java 22
-JDK 22 is now feature complete
+JDK 22 was released `2024-03-19`.
 
 | JEP | Ticket | Draft | Sumbitted | Candidate | Proposed to target | Targeted | Integrated | Completed | Closed |
 | :-- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
