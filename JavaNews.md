@@ -5,6 +5,8 @@ What is the Java world up to?
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2024-03-26`** | [Oracle’s GraalVM backs Java 22](https://www.infoworld.com/article/3714602/oracle-graalvm-backs-java-22.html) - **JDK 22** is now available in **GraalVM** |
+| **`2024-03-25`** | [Hot code heap proposal would speed Java execution](https://www.infoworld.com/article/3714942/hot-code-heap-proposal-would-speed-java-execution.html) - introduction of a new JEP draft aiming for reducing application execution time |
 | **`2024-03-22`** | [Java 22 brings security enhancements](https://www.infoworld.com/article/3714769/java-22-brings-security-enhancements.html) - closer look to **JDK 22** security enhancements |
 | **`2024-03-20`** | [Getting cozy with Java's new, softer side](https://www.infoworld.com/article/3714282/getting-cozy-with-javas-new-softer-side.html) - a more retrospective summary pointing out cool Jave features that appeared in last years |
 | **`2024-03-19`** | [Java 22 is out – and Oracle is pushing its own extension for VS Code](https://devclass.com/2024/03/19/java-22-is-out-and-oracle-is-pushing-its-own-extension-for-vs-code-over-not-very-good-red-hat-alternative/) - apart from new JDK release, there is also **Java Platform Support** extension for VS Code |
