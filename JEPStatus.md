@@ -1,14 +1,16 @@
 # JEP Status
 Latest changes in JDK based on [OpenJDK JEP Index](https://openjdk.org/jeps/0)
 
-**Last updated: 2024-03-31**
+**Last updated: 2024-04-11**
 
 ## Java 23
 
 | JEP | Ticket | Draft | Sumbitted | Candidate | Proposed to target | Targeted | Integrated | Completed | Closed |
 | :-- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | **JEP 455**	- [Primitive types in Patterns, instanceof, and switch (Preview)](https://openjdk.org/jeps/455) | [JDK-8288476](https://bugs.openjdk.org/browse/JDK-8288476) | `2022-06-15` | `2023-02-21` | `2023-09-25` | `2024-01-04` | `2024-01-23` | `2024-02-01` | | |
-| **JEP 466**	- [Class-File API (Second Preview)](https://openjdk.org/jeps/466) | [JDK-8324965](https://bugs.openjdk.org/browse/JDK-8324965) | `2024-01-30` | `2024-02-15` | `2024-02-15` | `2024-03-18` | `2024-03-28` | | | |
+| **JEP 466**	- [Class-File API (Second Preview)](https://openjdk.org/jeps/466) | [JDK-8324965](https://bugs.openjdk.org/browse/JDK-8324965) | `2024-01-30` | `2024-02-15` | `2024-02-15` | `2024-03-18` | `2024-03-28` | `2024-04-09` | | |
+| **JEP 469**	- [Vector API (Eighth Incubator)](https://openjdk.org/jeps/469) | [JDK-8326878](https://bugs.openjdk.org/browse/JDK-8326878) | `2024-02-27` | `2024-02-27` | `2024-04-03` | `2024-04-09` | | | | |
+| **JEP 473**	- [Stream Gatherers (Second Preview)](https://openjdk.org/jeps/473) | [JDK-8327844](https://bugs.openjdk.org/browse/JDK-8327844) | `2024-03-11` | `2024-03-14` | `2024-04-05` | `2024-04-09` | | | | |
 
 ## Java 22
 JDK 22 was released `2024-03-19`.
