@@ -1,11 +1,16 @@
 # JAVA NEWS
 What is the Java world up to?
 
+## 2024 - April
+
+| Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
+| --- | :--  |
+| **`2024-04-10`** | [JDK 23: The new features in Java 23](https://www.infoworld.com/article/3714933/jdk-23-the-new-features-in-java-23.html) - shortly after releasing Java 22 there are already some news about **JDK 23** |
+
 ## 2024 - March
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
-| **`2024-03-29`** | [JDK 23: The new features in Java 23](https://www.infoworld.com/article/3714933/jdk-23-the-new-features-in-java-23.html) - with only half year till the release, there are already some news about **JDK 23** |
 | **`2024-03-28`** | [JDK 22: An average Java release, sort of](https://www.infoworld.com/article/3714684/jdk-22-an-average-java-release-sort-of.html) - another insight into **JDK 22** with examples |
 | **`2024-03-26`** | [How Spring and Java Shaped Internal Developer Platforms](https://thenewstack.io/how-spring-and-java-shaped-internal-developer-platforms/) - an interesting journey to not so distant past in the Java enterprise ecosystem |
 | **`2024-03-26`** | [Oracle’s GraalVM backs Java 22](https://www.infoworld.com/article/3714602/oracle-graalvm-backs-java-22.html) - **JDK 22** is now available in **GraalVM** |
