@@ -5,6 +5,7 @@ What is the Java world up to?
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2024-04-10`** | [Modernizing Testing Practices for Jakarta EE Projects](https://www.infoq.com/articles/jakartaee-testing-deep-dive/) - comprehensive guide for testing your **Jakarta EE** apps |
 | **`2024-04-10`** | [JDK 23: The new features in Java 23](https://www.infoworld.com/article/3714933/jdk-23-the-new-features-in-java-23.html) - shortly after releasing Java 22 there are already some news about **JDK 23** |
 
 ## 2024 - March
