@@ -5,6 +5,8 @@ What is the Java world up to?
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2024-04-17`** | [Java G1 fix would speed JIT compilation](https://www.infoworld.com/article/3715382/java-g1-fix-would-speed-jit-compilation.html) - preview of a brand new [JEP 475](https://openjdk.org/jeps/475) propospal |
+| **`2024-04-12`** | [Java Frameworks You Must Know in 2024](https://blog.jetbrains.com/idea/2024/04/java-frameworks-you-must-know-in-2024/) - a list of technologies you shouldn't miss out in Java world |
 | **`2024-04-10`** | [Modernizing Testing Practices for Jakarta EE Projects](https://www.infoq.com/articles/jakartaee-testing-deep-dive/) - comprehensive guide for testing your **Jakarta EE** apps |
 | **`2024-04-10`** | [JDK 23: The new features in Java 23](https://www.infoworld.com/article/3714933/jdk-23-the-new-features-in-java-23.html) - shortly after releasing Java 22 there are already some news about **JDK 23** |
 
