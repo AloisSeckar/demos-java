@@ -1,14 +1,28 @@
 # JAVA NEWS
 What is the Java world up to?
 
+## 2024 - May
+
+| Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
+| --- | :--  |
+| **`2024-05-01`** | [Java 17 is most-used LTS version of Java!](https://www.infoworld.com/article/3715425/java-17-is-most-used-lts-version-of-java-report.html) - remarks about **State of the Java Ecosystem 2024** survey results |
+
 ## 2024 - April
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2024-04-25`** | [WildFly 32 is released!](https://www.wildfly.org/news/2024/04/25/WildFly32-Released/) - newest version of this Java-based application server |
+| **`2024-04-24`** | [Java thriving after 30 years](https://www.theregister.com/2024/04/24/java_thriving_after_30_years/) - a little retrospective about the last years of Java and namely OpenJDK |
+| **`2024-04-23`** | [Java proposal would add exception case to switch](https://www.infoworld.com/article/3715343/java-proposal-would-add-exception-case-to-switch.html) - first preview of a fresh [JEP draft](https://openjdk.org/jeps/8323658) |
+| **`2024-04-23`** | [Oracle JDK Mission Control 9 adds dark theme, configurable JVM browser](https://www.infoworld.com/article/3715364/oracle-jdk-mission-control-9-adds-dark-theme-configurable-jvm-browser.html) - introducing newly released version of **JMC** |
+| **`2024-04-19`** | [Java proposal would streamline module package imports](https://www.infoworld.com/article/3715384/java-proposal-would-streamline-module-package-imports.html) - preview of a brand new [JEP 476](https://openjdk.org/jeps/476) propospal |
+| **`2024-04-18`** | [Java services hit hardest by third-party vulnerabilities](https://www.infoworld.com/article/3715264/java-services-hit-hardest-by-third-party-vulnerabilities-says-report.html) - remarks about **State of DevSecOps 2024** survey results |
 | **`2024-04-17`** | [Java G1 fix would speed JIT compilation](https://www.infoworld.com/article/3715382/java-g1-fix-would-speed-jit-compilation.html) - preview of a brand new [JEP 475](https://openjdk.org/jeps/475) propospal |
+| **`2024-04-17`** | [Critical Patch Update for April 2024 Now Available](https://blogs.oracle.com/ebstech/post/critical-patch-update-for-april-2024-now-available) - be sure not to miss those updates and apply them ASAP |
 | **`2024-04-12`** | [Java Frameworks You Must Know in 2024](https://blog.jetbrains.com/idea/2024/04/java-frameworks-you-must-know-in-2024/) - a list of technologies you shouldn't miss out in Java world |
 | **`2024-04-10`** | [Modernizing Testing Practices for Jakarta EE Projects](https://www.infoq.com/articles/jakartaee-testing-deep-dive/) - comprehensive guide for testing your **Jakarta EE** apps |
 | **`2024-04-10`** | [JDK 23: The new features in Java 23](https://www.infoworld.com/article/3714933/jdk-23-the-new-features-in-java-23.html) - shortly after releasing Java 22 there are already some news about **JDK 23** |
+| **`2024-04-09`** | [Devnexus 2024](https://devnexus.com/) - 3 days Java Ecosystem conference in Atlanta [USA] took place from 9th to 11th April, 2024 |
 
 ## 2024 - March
 
@@ -18,6 +32,7 @@ What is the Java world up to?
 | **`2024-03-26`** | [How Spring and Java Shaped Internal Developer Platforms](https://thenewstack.io/how-spring-and-java-shaped-internal-developer-platforms/) - an interesting journey to not so distant past in the Java enterprise ecosystem |
 | **`2024-03-26`** | [Oracle’s GraalVM backs Java 22](https://www.infoworld.com/article/3714602/oracle-graalvm-backs-java-22.html) - **JDK 22** is now available in **GraalVM** |
 | **`2024-03-25`** | [Hot code heap proposal would speed Java execution](https://www.infoworld.com/article/3714942/hot-code-heap-proposal-would-speed-java-execution.html) - introduction of a new JEP draft aiming for reducing application execution time |
+| **`2024-03-22`** | [JDK Mission Control 9.0.0 Released!](https://hirt.se/blog/?p=1477) - new version of this time profiling and diagnostics Java tool |
 | **`2024-03-22`** | [Java 22 brings security enhancements](https://www.infoworld.com/article/3714769/java-22-brings-security-enhancements.html) - closer look to **JDK 22** security enhancements |
 | **`2024-03-20`** | [Getting cozy with Java's new, softer side](https://www.infoworld.com/article/3714282/getting-cozy-with-javas-new-softer-side.html) - a more retrospective summary pointing out cool Jave features that appeared in last years |
 | **`2024-03-19`** | [JavaOne Returns to the San Francisco Bay Area!](https://inside.java/2024/03/19/announcing-javaone-2025/) - JavaOne conference 2025 will be held in Bay Area in 2025 to commemorate Java 30th anniversary |
