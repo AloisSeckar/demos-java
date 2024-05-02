@@ -1,16 +1,19 @@
 # JEP Status
 Latest changes in JDK based on [OpenJDK JEP Index](https://openjdk.org/jeps/0)
 
-**Last updated: 2024-04-11**
+**Last updated: 2024-05-02**
 
 ## Java 23
 
 | JEP | Ticket | Draft | Sumbitted | Candidate | Proposed to target | Targeted | Integrated | Completed | Closed |
 | :-- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| **JEP 455**	- [Primitive types in Patterns, instanceof, and switch (Preview)](https://openjdk.org/jeps/455) | [JDK-8288476](https://bugs.openjdk.org/browse/JDK-8288476) | `2022-06-15` | `2023-02-21` | `2023-09-25` | `2024-01-04` | `2024-01-23` | `2024-02-01` | | |
+| **JEP 455**	- [Primitive types in Patterns, instanceof, and switch (Preview)](https://openjdk.org/jeps/455) | [JDK-8288476](https://bugs.openjdk.org/browse/JDK-8288476) | `2022-06-15` | `2023-02-21` | `2023-09-25` | `2024-01-04` | `2024-01-23` | `2024-02-01` | `2024-04-15` | |
 | **JEP 466**	- [Class-File API (Second Preview)](https://openjdk.org/jeps/466) | [JDK-8324965](https://bugs.openjdk.org/browse/JDK-8324965) | `2024-01-30` | `2024-02-15` | `2024-02-15` | `2024-03-18` | `2024-03-28` | `2024-04-09` | | |
-| **JEP 469**	- [Vector API (Eighth Incubator)](https://openjdk.org/jeps/469) | [JDK-8326878](https://bugs.openjdk.org/browse/JDK-8326878) | `2024-02-27` | `2024-02-27` | `2024-04-03` | `2024-04-09` | | | | |
-| **JEP 473**	- [Stream Gatherers (Second Preview)](https://openjdk.org/jeps/473) | [JDK-8327844](https://bugs.openjdk.org/browse/JDK-8327844) | `2024-03-11` | `2024-03-14` | `2024-04-05` | `2024-04-09` | | | | |
+| **JEP 467**	- [Markdown Documentation Comments](https://openjdk.org/jeps/467) | [JDK-8316039](https://bugs.openjdk.org/browse/JDK-8316039) | `2023-09-11` | `2024-02-14` | `2024-04-27` | `2024-04-25` | | | | |
+| **JEP 469**	- [Vector API (Eighth Incubator)](https://openjdk.org/jeps/469) | [JDK-8326878](https://bugs.openjdk.org/browse/JDK-8326878) | `2024-02-27` | `2024-02-27` | `2024-04-03` | `2024-04-09` | `2024-04-17` | | | |
+| **JEP 473**	- [Stream Gatherers (Second Preview)](https://openjdk.org/jeps/473) | [JDK-8327844](https://bugs.openjdk.org/browse/JDK-8327844) | `2024-03-11` | `2024-03-14` | `2024-04-05` | `2024-04-09` | `2024-04-17` | `2024-04-30` | `2024-05-01` | |
+| **JEP 474**	- [ZGC: Generational Mode by Default](https://openjdk.org/jeps/474) | [JDK-8326667](https://bugs.openjdk.org/browse/JDK-8326667) | `2024-02-26` | `2024-03-19` | `2024-04-05` | `2024-04-23` | `2024-05-01` | | | |
+| **JEP 476**	- [Module Import Declarations (Preview)](https://openjdk.org/jeps/476) | [JDK-8315129](https://bugs.openjdk.org/browse/JDK-8315129) | `2023-08-28` | `2024-04-02` | `2024-04-17` | `2024-04-23` | | | | |
 
 ## Java 22
 JDK 22 was released `2024-03-19`.
