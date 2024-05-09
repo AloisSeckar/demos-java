@@ -5,6 +5,7 @@ What is the Java world up to?
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2024-05-08`** | [JDK 23: The new features in Java 23](https://www.infoworld.com/article/3714933/jdk-23-the-new-features-in-java-23.html) - what we know about **JDK 23** so far (article keep being updated) |
 | **`2024-05-01`** | [Java 17 is most-used LTS version of Java!](https://www.infoworld.com/article/3715425/java-17-is-most-used-lts-version-of-java-report.html) - remarks about **State of the Java Ecosystem 2024** survey results |
 
 ## 2024 - April
@@ -21,7 +22,6 @@ What is the Java world up to?
 | **`2024-04-17`** | [Critical Patch Update for April 2024 Now Available](https://blogs.oracle.com/ebstech/post/critical-patch-update-for-april-2024-now-available) - be sure not to miss those updates and apply them ASAP |
 | **`2024-04-12`** | [Java Frameworks You Must Know in 2024](https://blog.jetbrains.com/idea/2024/04/java-frameworks-you-must-know-in-2024/) - a list of technologies you shouldn't miss out in Java world |
 | **`2024-04-10`** | [Modernizing Testing Practices for Jakarta EE Projects](https://www.infoq.com/articles/jakartaee-testing-deep-dive/) - comprehensive guide for testing your **Jakarta EE** apps |
-| **`2024-04-10`** | [JDK 23: The new features in Java 23](https://www.infoworld.com/article/3714933/jdk-23-the-new-features-in-java-23.html) - shortly after releasing Java 22 there are already some news about **JDK 23** |
 | **`2024-04-09`** | [Devnexus 2024](https://devnexus.com/) - 3 days Java Ecosystem conference in Atlanta [USA] took place from 9th to 11th April, 2024 |
 
 ## 2024 - March
