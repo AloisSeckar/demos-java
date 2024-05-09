@@ -6,6 +6,8 @@ What is the Java world up to?
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
 | **`2024-05-08`** | [JDK 23: The new features in Java 23](https://www.infoworld.com/article/3714933/jdk-23-the-new-features-in-java-23.html) - what we know about **JDK 23** so far (article keep being updated) |
+| **`2024-05-06`** | [Infinispan Unveils 15.0.0 with an Advanced RESP Endpoint and Requires JDK 17](https://www.infoq.com/news/2024/05/infinispan-15/) - new version of key/value data store **Infinispan** was released |
+| **`2024-05-02`** | [What’s New in IntelliJ IDEA Ultimate 2024.1](https://blog.jetbrains.com/idea/2024/05/what-s-new-in-intellij-idea-ultimate-2024-1/) - the famous Java IDE comes up with new version with new features |
 | **`2024-05-01`** | [Java 17 is most-used LTS version of Java!](https://www.infoworld.com/article/3715425/java-17-is-most-used-lts-version-of-java-report.html) - remarks about **State of the Java Ecosystem 2024** survey results |
 
 ## 2024 - April
