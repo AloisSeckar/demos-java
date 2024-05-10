@@ -16,11 +16,11 @@ What is the Java world up to?
 | --- | :--  |
 | **`2024-04-25`** | [WildFly 32 is released!](https://www.wildfly.org/news/2024/04/25/WildFly32-Released/) - newest version of this Java-based application server |
 | **`2024-04-24`** | [Java thriving after 30 years](https://www.theregister.com/2024/04/24/java_thriving_after_30_years/) - a little retrospective about the last years of Java and namely OpenJDK |
-| **`2024-04-23`** | [Java proposal would add exception case to switch](https://www.infoworld.com/article/3715343/java-proposal-would-add-exception-case-to-switch.html) - first preview of a fresh [JEP draft](https://openjdk.org/jeps/8323658) |
+| **`2024-04-23`** | [Java proposal would add exception case to switch](https://www.infoworld.com/article/3715343/java-proposal-would-add-exception-case-to-switch.html) - first preview of a fresh **JEP 8323658** draft |
 | **`2024-04-23`** | [Oracle JDK Mission Control 9 adds dark theme, configurable JVM browser](https://www.infoworld.com/article/3715364/oracle-jdk-mission-control-9-adds-dark-theme-configurable-jvm-browser.html) - introducing newly released version of **JMC** |
-| **`2024-04-19`** | [Java proposal would streamline module package imports](https://www.infoworld.com/article/3715384/java-proposal-would-streamline-module-package-imports.html) - preview of a brand new [JEP 476](https://openjdk.org/jeps/476) propospal |
+| **`2024-04-19`** | [Java proposal would streamline module package imports](https://www.infoworld.com/article/3715384/java-proposal-would-streamline-module-package-imports.html) - preview of a brand new **JEP 476** propospal |
 | **`2024-04-18`** | [Java services hit hardest by third-party vulnerabilities](https://www.infoworld.com/article/3715264/java-services-hit-hardest-by-third-party-vulnerabilities-says-report.html) - remarks about **State of DevSecOps 2024** survey results |
-| **`2024-04-17`** | [Java G1 fix would speed JIT compilation](https://www.infoworld.com/article/3715382/java-g1-fix-would-speed-jit-compilation.html) - preview of a brand new [JEP 475](https://openjdk.org/jeps/475) propospal |
+| **`2024-04-17`** | [Java G1 fix would speed JIT compilation](https://www.infoworld.com/article/3715382/java-g1-fix-would-speed-jit-compilation.html) - preview of a brand new **JEP 475** propospal |
 | **`2024-04-17`** | [Critical Patch Update for April 2024 Now Available](https://blogs.oracle.com/ebstech/post/critical-patch-update-for-april-2024-now-available) - be sure not to miss those updates and apply them ASAP |
 | **`2024-04-12`** | [Java Frameworks You Must Know in 2024](https://blog.jetbrains.com/idea/2024/04/java-frameworks-you-must-know-in-2024/) - a list of technologies you shouldn't miss out in Java world |
 | **`2024-04-10`** | [Modernizing Testing Practices for Jakarta EE Projects](https://www.infoq.com/articles/jakartaee-testing-deep-dive/) - comprehensive guide for testing your **Jakarta EE** apps |
@@ -96,11 +96,11 @@ What is the Java world up to?
 | **`2024-01-10`** | [Go-like selects using jox channels in Java](https://softwaremill.com/go-like-selects-using-jox-channels-in-java/) - preview of new interesting technology from its author |
 | **`2024-01-09`** | [Dead Letter Queue for Kafka With Spring](https://www.baeldung.com/kafka-spring-dead-letter-queue) - learn how to implement DLQ mechanism for storing failed messages in **Spring Kafka** |
 | **`2024-01-08`** | [Mastering Thread-Local Variables in Java](https://dzone.com/articles/mastering-thread-local-variables-in-java-a-compreh) - working with those in practical examples |
-| **`2024-01-07`** | [Introduction to Spring AI](https://www.baeldung.com/spring-ai) - now you can leverage AI generative prompts in [Spring Framework](https://spring.io/projects/spring-framework/) |
+| **`2024-01-07`** | [Introduction to Spring AI](https://www.baeldung.com/spring-ai) - now you can leverage AI generative prompts in **Spring Framework** |
 | **`2024-01-06`** | [JDK22 - Gatherer](https://blog.soebes.io/posts/2024/01/2024-01-07-jdk-gatherer/) - another new thing coming soon in **Java 22** |
 | **`2024-01-04`** | [Architecting with Java Persistence](https://www.infoq.com/articles/architecting-java-persistence-patterns-and-strategies/) - an exhaustive insight into working with persistence in Java |
 | **`2024-01-03`** | [Demystifying Java's Compare-and-Swap](https://dzone.com/articles/demystifying-javas-compare-and-swap-cas) - deepdive into Java mechanism for atomic thread-safe values |
-| **`2024-01-02`** | [Meet SD4J: An Implementation of Stable Diffusion Inference in Java](https://www.marktechpost.com/2024/01/02/meet-sd4j-an-implementation-of-stable-diffusion-inference-in-java-that-can-generate-images-with-deep-learning/) - now you can prompt [Stable Diffusion](https://stability.ai/) from Java |
+| **`2024-01-02`** | [Meet SD4J: An Implementation of Stable Diffusion Inference in Java](https://www.marktechpost.com/2024/01/02/meet-sd4j-an-implementation-of-stable-diffusion-inference-in-java-that-can-generate-images-with-deep-learning/) - now you can prompt **Stable Diffusion** from Java |
 | **`2024-01-02`** | [Exploring Java Stream API's peek Method](https://dzone.com/articles/exploring-java-stream-apis-peek-method) - a closer look to `peek()` method from Java **Stream API** |
 
 ## 2023 - December
@@ -116,7 +116,7 @@ What is the Java world up to?
 | **`2023-12-19`** | [London Java Community Unconference](https://www.ljcunconf.co.uk/) conference in London, UK |
 | **`2023-12-16`** | [Java application latency reduction](https://medium.com/@parveen.saini2010/java-heap-memory-optimization-ce83c6844c35) - some practical tips and gotchas when comes to Java heap dump analysis |
 | **`2023-12-15`** | [Introducing JavaScript support in MySQL](https://blogs.oracle.com/mysql/post/introducing-javascript-support-in-mysql) - thanks to **GraalVM** Oracle now ships possibility of storing and running JavaScript programs inside MySQL for enhanced data processing |
-| **`2023-12-15`** | [Spring Boot 3.2 Delivers Support for Virtual Threads and Modern RestClient and JdbcClient](https://www.infoq.com/news/2023/12/spring-boot-virtual-threads/) - introducing major changes in the latest evolution of [Spring Boot framework](https://spring.io/blog/2023/11/23/spring-boot-3-2-0-available-now/) |
+| **`2023-12-15`** | [Spring Boot 3.2 Delivers Support for Virtual Threads and Modern RestClient and JdbcClient](https://www.infoq.com/news/2023/12/spring-boot-virtual-threads/) - introducing major changes in the latest evolution of **Spring Boot** framework |
 | **`2023-12-15`** | [Introducing Region Pinning to G1 Garbage Collector in OpenJDK](https://www.infoq.com/news/2023/12/region-pinning-to-g1-gc/) - about new feature to be delivered in JDK 22 |
 | **`2023-12-14`** | [A closer Look at JEP 461's Stream Gatherers](https://www.infoq.com/news/2023/12/stream-api-evolution/) - about new feature to be delivered in JDK 22 |
 | **`2023-12-13`** | [Shenandoah GC Tuning](https://dzone.com/articles/shenandoah-gc-tuning) - introduction to Shenandoah garbage collector + info about available options |
@@ -153,8 +153,8 @@ What is the Java world up to?
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
 | **`2023-10-27`** | [State of Java: Resilience amid licensing changes and security concerns](https://www.developer-tech.com/news/2023/oct/27/state-of-java-resilience-licensing-changes-security-concerns/) - a summary of Azul's annual survey among Java developers and users |
-| **`2023-10-27`** | [Red Hat Quarkus Java stack spruces up the dev UI](https://www.infoworld.com/article/3709551/red-hat-quarkus-java-stack-spruces-up-the-dev-ui.html) - new features in Quarkus build by Red Hat version 3.2 including new UI for Java developers |
-| **`2023-10-24`** | [Helidon 4 released!](https://medium.com/helidon/helidon-4-is-released-a06756e1562a) - Oracle's [Helidon 4](https://helidon.io/), a microservices' framework utilizing Java 21 virtual threads, was released for production |
+| **`2023-10-27`** | [Red Hat Quarkus Java stack spruces up the dev UI](https://www.infoworld.com/article/3709551/red-hat-quarkus-java-stack-spruces-up-the-dev-ui.html) - new features in **Quarkus** build by Red Hat version 3.2 including new UI for Java developers |
+| **`2023-10-24`** | [Helidon 4 released!](https://medium.com/helidon/helidon-4-is-released-a06756e1562a) - Oracle's **Helidon 4**, a microservices' framework utilizing **Java 21** virtual threads, was released for production |
 | **`2023-10-18`** | [Introducing the Oracle Java Platform Extension for Visual Studio Code](https://inside.java/2023/10/18/announcing-vscode-extension/) - new official VS Code extension for Java |
 | **`2023-10-13`** | [GraalVM Replaces the GraalVM Updater with Language Libraries](https://www.infoq.com/news/2023/10/graalvm-language-libraries/) - polyglot's language runtimes will be available as Maven dependencies instead of using proprietary tool (`gu`) |
 | **`2023-10-10`** | [How to Diagnose and Mitigate Pinning in Java’s Virtual Thread Execution](https://foojay.io/today/how-to-diagnose-and-mitigate-pinning-in-javas-virtual-thread-execution/) - potential performance problem with Virtual Threads explained with tips how to spot and fix it |
@@ -168,15 +168,15 @@ What is the Java world up to?
 | --- | :--  |
 | **`2023-09-29`** | [Microfrontends for Quarkus Microservices](https://dzone.com/articles/micro-frontends-for-quarkus-microservices) - a comprehensive history of the emergence of 'microfrontends' in context of Java world |
 | **`2023-09-28`** | [Java 22 could include computed constants, class-filed API](https://www.infoworld.com/article/3707728/java-22-could-include-computed-constants-class-filed-api.html) - what might be expected in forthcoming Java release |
-| **`2023-09-21`** | [Introducing GraalOS](https://blogs.oracle.com/java/post/introducing-graalos) - brand new application deployment technology using [GraalVM](https://www.graalvm.org/) was announced by Oracle |
+| **`2023-09-21`** | [Introducing GraalOS](https://blogs.oracle.com/java/post/introducing-graalos) - brand new application deployment technology using **GraalVM** was announced by Oracle |
 | **`2023-09-20`** | [Hello, Java 21](https://spring.io/blog/2023/09/20/hello-java-21) - Another Java 21 release summary, but also including some not so commonly mentioned features |
-| **`2023-09-19`** | [When Quarkus meets Virtual Threads](https://quarkus.io/blog/virtual-thread-1/) - Series-opening article about adopting Java 21 Virtual Threads in [Quarkus](https://quarkus.io/) |
-| **`2023-09-19`** | [GraalVM for JDK 21 is here!](https://medium.com/graalvm/graalvm-for-jdk-21-is-here-ee01177dd12d) - Announcement of a new version of [GraalVM](https://www.graalvm.org/) with Java 21 support |
+| **`2023-09-19`** | [When Quarkus meets Virtual Threads](https://quarkus.io/blog/virtual-thread-1/) - Series-opening article about adopting Java 21 Virtual Threads in **Quarkus** |
+| **`2023-09-19`** | [GraalVM for JDK 21 is here!](https://medium.com/graalvm/graalvm-for-jdk-21-is-here-ee01177dd12d) - Announcement of a new version of **GraalVM** with **Java 21** support |
 | **`2023-09-19`** | [The Arrival of Java 21!](https://inside.java/2023/09/19/the-arrival-of-java-21/) - Java 21 release summary with some interesting stats and figures |
 | **`2023-09-19`** | **JDK 21 release date**  |
 | **`2023-09-16`** | [Java 21 Launch Event](https://dev.java/community/java-21-launch/) - official 8-hour streaming event covering the Java 21 release day was announced |
 | **`2023-09-11`** | [LTS JDK 21 Features](https://dzone.com/articles/lts-jdk-21-features) - cool summary of Java 21 enhancements with example code snippets |
-| **`2023-09-05`** | [New Oracle GraalVM Container Images](https://blogs.oracle.com/java/post/new-oracle-graalvm-container-images) - Oracle now offers [GraalVM](https://www.graalvm.org/) jdk/native-image containers |
+| **`2023-09-05`** | [New Oracle GraalVM Container Images](https://blogs.oracle.com/java/post/new-oracle-graalvm-container-images) - Oracle now offers **GraalVM** `jdk/native-image` containers |
 | **`2023-09-01`** | [JDK 21 and JDK 22: What We Know So Far](https://www.infoq.com/news/2023/09/java-21-so-far/) - as the release of Java 21 knocks at the door, Michael Redlich prepared an exhaustive list of what is to be expected |
 
 
