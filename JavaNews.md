@@ -45,6 +45,7 @@ What is the Java world up to?
 | **`2024-03-12`** | [Mastering Exception Handling in Java Lambda Expressions](https://dzone.com/articles/mastering-exception-handling-in-java-lambda-expres) - learn different ways how to work with Exceptions inside Lambdas |
 | **`2024-03-08`** | [Debugging Using JMX Revisited](https://dzone.com/articles/debugging-using-jmx-revisited) - **Java Management Extensions** (JMX) and how to start using it |
 | **`2024-03-07`** | [Harnessing the Power of SIMD With Java Vector API](https://dzone.com/articles/power-of-simd-with-java-vector-api) - **Single Instruction, Multiple Data** in Java world using **Vector API** |
+| **`2024-03-06`** | [Bending pause times to your will with Generational ZGC](https://netflixtechblog.com/bending-pause-times-to-your-will-with-generational-zgc-256629c9386b) - **Netflix** experience with new Generational ZGC from **JDK 21** |
 | **`2024-03-06`** | [Understanding Java’s new ScopedValue](https://www.infoworld.com/article/3713261/understanding-javas-new-scopedvalue.html) - closer look to `ScopedValue` being introduced in **JDK 22** |
 | **`2024-03-06`** | [Java developers wanted, report says](https://www.infoworld.com/article/3713288/java-developers-wanted-report-says.html) - Good news, everyone! We are not obsolete yet. |
 | **`2024-03-04`** | [JDK 22 and JDK 23: What We Know So Far](https://www.infoq.com/news/2024/03/java-22-so-far/) - info summary for two new Java versions being on the way this year by Michael Redlich |
