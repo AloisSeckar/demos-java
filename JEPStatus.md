@@ -1,7 +1,7 @@
 # JEP Status
 Latest changes in JDK based on [OpenJDK JEP Index](https://openjdk.org/jeps/0)
 
-**Last updated: 2024-05-10**
+**Last updated: 2024-05-20**
 
 ## Java 23
 
@@ -14,6 +14,8 @@ Latest changes in JDK based on [OpenJDK JEP Index](https://openjdk.org/jeps/0)
 | **JEP 473**	- [Stream Gatherers (Second Preview)](https://openjdk.org/jeps/473) | [JDK-8327844](https://bugs.openjdk.org/browse/JDK-8327844) | `2024-03-11` | `2024-03-14` | `2024-04-05` | `2024-04-09` | `2024-04-17` | `2024-04-30` | `2024-05-01` | |
 | **JEP 474**	- [ZGC: Generational Mode by Default](https://openjdk.org/jeps/474) | [JDK-8326667](https://bugs.openjdk.org/browse/JDK-8326667) | `2024-02-26` | `2024-03-19` | `2024-04-05` | `2024-04-23` | `2024-05-01` | | | |
 | **JEP 476**	- [Module Import Declarations (Preview)](https://openjdk.org/jeps/476) | [JDK-8315129](https://bugs.openjdk.org/browse/JDK-8315129) | `2023-08-28` | `2024-04-02` | `2024-04-17` | `2024-04-23` | `2024-05-02` | `2024-05-06` | | |
+| **JEP 477**	- [Implicitly Declared Classes and Instance Main Methods (Third Preview)](https://openjdk.org/jeps/477) | [JDK-8323335](https://bugs.openjdk.org/browse/JDK-8323335) | `2024-01-09` | `2024-04-02` | `2024-05-07` | `2024-05-07` | | | | |
+| **JEP 480**	- [Structured Concurrency (Third Preview)](https://openjdk.org/jeps/480) | [JDK-8330818](https://bugs.openjdk.org/browse/JDK-8330818) | `2024-04-22` | `2024-04-26` | `2024-05-09` | `2024-05-19` | | | | |
 
 ## Java 22
 JDK 22 was released `2024-03-19`.
