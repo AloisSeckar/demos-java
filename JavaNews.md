@@ -5,6 +5,7 @@ What is the Java world up to?
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2024-05-16`** | [JCON EUROPE 2024](https://2024.europe.jcon.one/) - big Java conference took place from 13th to 16th May, 2024 in Cologne [GER] |
 | **`2024-05-14`** | [How to Use Java Streams for Working With Data](https://blog.jetbrains.com/idea/2024/05/easy-hacks-how-to-use-java-streams-for-working-with-data/) - tutorial for using **Streams**, a gamechanging feature introduced in **JDK 8** |
 | **`2024-05-14`** | [Oracle extends support for Java 11, Java on Solaris](https://www.infoworld.com/article/3715350/oracle-extends-support-for-java-11-java-on-solaris.html) - Java 11 will be supported longer than previously announced + couple of other news |
 | **`2024-05-08`** | [JDK 23: The new features in Java 23](https://www.infoworld.com/article/3714933/jdk-23-the-new-features-in-java-23.html) - what we know about **JDK 23** so far (article keep being updated) |
@@ -25,8 +26,8 @@ What is the Java world up to?
 | **`2024-04-17`** | [Java G1 fix would speed JIT compilation](https://www.infoworld.com/article/3715382/java-g1-fix-would-speed-jit-compilation.html) - preview of a brand new **JEP 475** propospal |
 | **`2024-04-17`** | [Critical Patch Update for April 2024 Now Available](https://blogs.oracle.com/ebstech/post/critical-patch-update-for-april-2024-now-available) - be sure not to miss those updates and apply them ASAP |
 | **`2024-04-12`** | [Java Frameworks You Must Know in 2024](https://blog.jetbrains.com/idea/2024/04/java-frameworks-you-must-know-in-2024/) - a list of technologies you shouldn't miss out in Java world |
+| **`2024-04-11`** | [Devnexus 2024](https://devnexus.com/) - 3 days Java Ecosystem conference in Atlanta [USA] took place from 9th to 11th April, 2024 |
 | **`2024-04-10`** | [Modernizing Testing Practices for Jakarta EE Projects](https://www.infoq.com/articles/jakartaee-testing-deep-dive/) - comprehensive guide for testing your **Jakarta EE** apps |
-| **`2024-04-09`** | [Devnexus 2024](https://devnexus.com/) - 3 days Java Ecosystem conference in Atlanta [USA] took place from 9th to 11th April, 2024 |
 
 ## 2024 - March
 
