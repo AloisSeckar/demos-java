@@ -5,10 +5,14 @@ What is the Java world up to?
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2024-05-23`** | [New Relic Release April 2024 Java Report](https://www.infoq.com/news/2024/05/new-relic-java-2024/) - the current state of the Java ecosystem based on **New Relic**'s JVM monitoring |
+| **`2024-05-22`** | [Eclipse OpenJ9 v0.45 Released For Supporting OpenJDK 22](https://www.phoronix.com/news/Eclipse-OpenJ9-0.45) - newest version of **OpenJ9** now supports newest **JDK 22** |
+| **`2024-05-22`** | [Graal Cloud Native IntelliJ IDEA Plugin](https://www.infoq.com/news/2024/05/graal-cloud-native-intellij/) - Oracle's new IDEA plugin allows cloud-agnostic projects based on **Micronaut** |
+| **`2024-05-21`** | [Java Enhances Documentation with Markdown Support](https://www.infoq.com/news/2024/05/jep467-markdown-in-javadoc/) - preview of an upcomming **JEP 467** targetted into **JDK 23** |
+| **`2024-05-21`** | [JDK 23: The new features in Java 23](https://www.infoworld.com/article/3714933/jdk-23-the-new-features-in-java-23.html) - what we know about **JDK 23** so far (article keep being updated) |
 | **`2024-05-16`** | [JCON EUROPE 2024](https://2024.europe.jcon.one/) - big Java conference took place from 13th to 16th May, 2024 in Cologne [GER] |
 | **`2024-05-14`** | [How to Use Java Streams for Working With Data](https://blog.jetbrains.com/idea/2024/05/easy-hacks-how-to-use-java-streams-for-working-with-data/) - tutorial for using **Streams**, a gamechanging feature introduced in **JDK 8** |
 | **`2024-05-14`** | [Oracle extends support for Java 11, Java on Solaris](https://www.infoworld.com/article/3715350/oracle-extends-support-for-java-11-java-on-solaris.html) - Java 11 will be supported longer than previously announced + couple of other news |
-| **`2024-05-08`** | [JDK 23: The new features in Java 23](https://www.infoworld.com/article/3714933/jdk-23-the-new-features-in-java-23.html) - what we know about **JDK 23** so far (article keep being updated) |
 | **`2024-05-06`** | [Infinispan Unveils 15.0.0 with an Advanced RESP Endpoint and Requires JDK 17](https://www.infoq.com/news/2024/05/infinispan-15/) - new version of key/value data store **Infinispan** was released |
 | **`2024-05-02`** | [What’s New in IntelliJ IDEA Ultimate 2024.1](https://blog.jetbrains.com/idea/2024/05/what-s-new-in-intellij-idea-ultimate-2024-1/) - the famous Java IDE comes up with new version with new features |
 | **`2024-05-01`** | [Java 17 is most-used LTS version of Java!](https://www.infoworld.com/article/3715425/java-17-is-most-used-lts-version-of-java-report.html) - remarks about **State of the Java Ecosystem 2024** survey results |
