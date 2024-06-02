@@ -121,7 +121,7 @@ What is the Java world up to?
 | **`2023-12-24`** | [Composing Custom Annotations in Spring](https://dzone.com/articles/composing-custom-annotations-in-spring) - a brief tutorial about one of Spring Framework features |
 | **`2023-12-22`** | [Secure Password Hashing in Java](https://dzone.com/articles/secure-password-hashing-in-java) - how to handle passwords in Java |
 | **`2023-12-21`** | [From J2EE to Jakarta EE](https://dzone.com/articles/from-j2ee-to-jakarta-ee) - about Jakarta EE role in Java ecosystem |
-| **`2023-12-19`** | [London Java Community Unconference](https://www.ljcunconf.co.uk/) conference in London, UK |
+| **`2023-12-19`** | [London Java Community Unconference](https://www.ljcunconf.co.uk/) - conference took place in London, UK |
 | **`2023-12-16`** | [Java application latency reduction](https://medium.com/@parveen.saini2010/java-heap-memory-optimization-ce83c6844c35) - some practical tips and gotchas when comes to Java heap dump analysis |
 | **`2023-12-15`** | [Introducing JavaScript support in MySQL](https://blogs.oracle.com/mysql/post/introducing-javascript-support-in-mysql) - thanks to **GraalVM** Oracle now ships possibility of storing and running JavaScript programs inside MySQL for enhanced data processing |
 | **`2023-12-15`** | [Spring Boot 3.2 Delivers Support for Virtual Threads and Modern RestClient and JdbcClient](https://www.infoq.com/news/2023/12/spring-boot-virtual-threads/) - introducing major changes in the latest evolution of **Spring Boot** framework |
@@ -132,7 +132,7 @@ What is the Java world up to?
 | **`2023-12-07`** | [Problems With Finalizer](https://dzone.com/articles/problems-with-finalizer) - why not to use `Object.finalize()` (already deprecated in JDK 9 and marked for removal in JDK 18) |
 | **`2023-12-06`** | [When to use abstract classes vs. interfaces in Java](https://www.infoworld.com/article/2077421/when-to-use-abstract-classes-vs-interfaces-in-java.html) - hat makes the difference between those two and how to use them correcty |
 | **`2023-12-06`** | [Streamlining Java Development with the Class-File API](https://www.infoq.com/news/2023/12/jep-457-new-class-file-api/) - a closer look to an upcomming JDK 22 feature - **Class File API** |
-| **`2023-12-05`** | [JakartaOne Livestream 2023](https://jakartaone.org/2023/) online conference about **Jakarta EE** ecosystem |
+| **`2023-12-05`** | [JakartaOne Livestream 2023](https://jakartaone.org/2023/) - online conference about **Jakarta EE** ecosystem |
 | **`2023-12-05`** | [Demystifying Virtual Thread Performance](https://dzone.com/articles/demystifying-virtual-thread-performance-unveiling) - another dive into Java 21 **Virtual threads** |
 | **`2023-12-05`** | [Don’t make Apache Kafka be your database](https://www.infoworld.com/article/3711181/dont-make-apache-kafka-your-database.html) - kind reminder that **Kafka** is not meant to be a database solution |
 | **`2023-12-01`** | [Java 11 to 21: A Visual Guide for Seamless Migration](https://dzone.com/articles/java-11-to-21-a-visual-guide-for-seamless-migratio) - some tips to have in mind when migrating project from older Java version to to JDK 21 |
@@ -151,8 +151,8 @@ What is the Java world up to?
 | **`2023-11-19`** | [JHow do you know if a Java Collection is Mutable or Immutable?](https://medium.com/javarevisited/how-do-you-know-if-a-java-collection-is-mutable-or-immutable-b397dfc5d231) - an article to guide you around the world of Java collections and their (im)mutability |
 | **`2023-11-16`** | [Ways To Reduce JVM Docker Image Size](https://dzone.com/articles/ways-to-reduce-jvm-docker-image-size) - a practical step-by-step guide of stripping unnecessary burden from Dockerized Java containers |
 | **`2023-11-15`** | [The Resurrection of Virtual Threads](https://dzone.com/articles/the-resurrection-of-virtual-threads-unraveling-the) - a brief look into the history of Java Threads concepts |
-| **`2023-11-09`** | [J-Fall](https://jfall.nl/) conference in Ede, Netherlands |
-| **`2023-11-08`** | [Java Days](https://www.javadays.cz/) conference in Prague, Czechia |
+| **`2023-11-09`** | [J-Fall](https://jfall.nl/) - conference in Ede, Netherlands |
+| **`2023-11-08`** | [Java Days](https://www.javadays.cz/) - conference in Prague, Czechia |
 | **`2023-11-08`** | [Oracle open-sources Jipher for FIPS-compliant SSL](https://www.infoworld.com/article/3710172/oracle-open-sources-jipher-for-fips-compliant-ssl.html) - Oracle's JCA cryptography provider is being opensourced |
 | **`2023-11-02`** | [Garbage Collection Analysis: OpenJDK and GraalVM](https://dzone.com/articles/garbage-collection-analysis-openjdk-and-graalvm) - practical comparation of GC performance in standard OpenJDK and in GraalVM |
 
