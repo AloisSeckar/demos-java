@@ -37,6 +37,10 @@ https://github.com/softwaremill/ox/
 https://github.com/softwaremill/jox/
 - Fast and scalable channels designed for JDK 21 virtual threads.
 
+## Jlama
+https://github.com/tjake/Jlama
+- A modern Java inference engine for LLMs.
+
 ## Payara
 https://www.payara.fish/
 - Modern application server for Jakarta EE apps.
