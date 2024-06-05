@@ -1,14 +1,20 @@
 # JAVA NEWS
 What is the Java world up to?
 
+## 2024 - June
+
+| Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
+| --- | :--  |
+| **`2024-06-02`** | [Jakarta EE 11 is getting shape](https://www.agilejava.eu/2024/06/02/hashtag-jakarta-ee-231/) - brief summary of the preparations for new specification of **Jakarta EE**  |
+
 ## 2024 - May
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2024-05-31`** | [Gradle 8.8 now supports Java 8](https://docs.gradle.org/8.8/release-notes.html) - newest JDK features are possible with **Gradle** build tool |
 | **`2024-05-31`** | [Spring I/O 2024](https://2024.springio.net/) - developer conference took place in Barcelona [ESP] |
 | **`2024-05-29`** | [JLama: The First Pure Java Model Inference Engine](https://www.infoq.com/news/2024/05/jlama-llm-inference-java/) - introduction to **JLama**, a Java-based LLM |
 | **`2024-05-27`** | [Enhanced Beginner Experience with Implicitly Declared Classes and Instance Main Methods](https://www.infoq.com/news/2024/05/jep477-implicit-classes-main) - preview of an upcomming **JEP 477** targetted into **JDK 23** |
-| **`2024-05-26`** | [Jakarta EE 11 is getting shape](https://www.agilejava.eu/2024/05/26/hashtag-jakarta-ee-230/) - brief summary of the preparations for new specification of **Jakarta EE**  |
 | **`2024-05-23`** | [Spring Boot 3.3.0 available now](https://spring.io/blog/2024/05/23/spring-boot-3-3-0-available-now) - new version of popular Java framework was released |
 | **`2024-05-23`** | [New Relic Release April 2024 Java Report](https://www.infoq.com/news/2024/05/new-relic-java-2024/) - the current state of the Java ecosystem based on **New Relic**'s JVM monitoring |
 | **`2024-05-22`** | [Eclipse OpenJ9 v0.45 Released For Supporting OpenJDK 22](https://www.phoronix.com/news/Eclipse-OpenJ9-0.45) - newest version of **OpenJ9** now supports newest **JDK 22** |
