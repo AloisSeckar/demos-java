@@ -5,6 +5,8 @@ What is the Java world up to?
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2024-06-06`** | [Rampdown Phase One: What's to Expect in JDK 23](https://www.infoq.com/news/2024/06/jdk-23-rampdown-phase-one/) - the final set of **JDK 23** features has **12** JEP items |
+| **`2024-06-06`** | [JDK 23: The new features in Java 23](https://www.infoworld.com/article/3714933/jdk-23-the-new-features-in-java-23.html) - what we know about **JDK 23** so far (article keep being updated) |
 | **`2024-06-02`** | [Jakarta EE 11 is getting shape](https://www.agilejava.eu/2024/06/02/hashtag-jakarta-ee-231/) - brief summary of the preparations for new specification of **Jakarta EE**  |
 
 ## 2024 - May
@@ -20,7 +22,6 @@ What is the Java world up to?
 | **`2024-05-22`** | [Eclipse OpenJ9 v0.45 Released For Supporting OpenJDK 22](https://www.phoronix.com/news/Eclipse-OpenJ9-0.45) - newest version of **OpenJ9** now supports newest **JDK 22** |
 | **`2024-05-22`** | [Graal Cloud Native IntelliJ IDEA Plugin](https://www.infoq.com/news/2024/05/graal-cloud-native-intellij/) - Oracle's new IDEA plugin allows cloud-agnostic projects based on **Micronaut** |
 | **`2024-05-21`** | [Java Enhances Documentation with Markdown Support](https://www.infoq.com/news/2024/05/jep467-markdown-in-javadoc/) - preview of an upcomming **JEP 467** targetted into **JDK 23** |
-| **`2024-05-21`** | [JDK 23: The new features in Java 23](https://www.infoworld.com/article/3714933/jdk-23-the-new-features-in-java-23.html) - what we know about **JDK 23** so far (article keep being updated) |
 | **`2024-05-17`** | [Java Runtimes: Insights From the Spring Boot Point of View](https://blog.jetbrains.com/idea/2024/05/java-runtimes-insights-from-the-spring-boot-point-of-view/) - a practical comparsion between different JVM distributions based on IDEA team metrics |
 | **`2024-05-16`** | [JCON EUROPE 2024](https://2024.europe.jcon.one/) - big Java conference took place from 13th to 16th May, 2024 in Cologne [GER] |
 | **`2024-05-14`** | [How to Use Java Streams for Working With Data](https://blog.jetbrains.com/idea/2024/05/easy-hacks-how-to-use-java-streams-for-working-with-data/) - tutorial for using **Streams**, a gamechanging feature introduced in **JDK 8** |
