@@ -7,6 +7,8 @@ What is the Java world up to?
 | --- | :--  |
 | **`2024-06-06`** | [Rampdown Phase One: What's to Expect in JDK 23](https://www.infoq.com/news/2024/06/jdk-23-rampdown-phase-one/) - the final set of **JDK 23** features has **12** JEP items |
 | **`2024-06-06`** | [JDK 23: The new features in Java 23](https://www.infoworld.com/article/3714933/jdk-23-the-new-features-in-java-23.html) - what we know about **JDK 23** so far (article keep being updated) |
+| **`2024-06-04`** | [Apache NetBeans 22 released](https://www.mail-archive.com/announce@apache.org/msg09231.html) - latest version of **NetBeans IDE** was released |
+| **`2024-06-04`** | [Quarkus Java framework adds dev extensions for observability](https://www.infoworld.com/article/3715504/quarkus-java-framework-adds-dev-extensions-for-observability.html) - what's new in latest **Quarkus** release **v3.11**? |
 | **`2024-06-02`** | [Jakarta EE 11 is getting shape](https://www.agilejava.eu/2024/06/02/hashtag-jakarta-ee-231/) - brief summary of the preparations for new specification of **Jakarta EE**  |
 
 ## 2024 - May
