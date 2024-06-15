@@ -5,6 +5,8 @@ What is the Java world up to?
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2024-06-12`** | [What's wrong with Java's sun.misc.Unsafe?](https://www.infoworld.com/article/3715492/whats-wrong-with-javas-sunmiscunsafe.html) - why **Unsafe** is about to be dropped from JVM and what to use instead |
+| **`2024-06-10`** | [Oracle Java police start knocking on Fortune 200's doors for first time](https://www.theregister.com/2024/06/10/fortune_200_oracle_java_audit/) - recent development in Oracle licensing policy towards big companies |
 | **`2024-06-06`** | [Rampdown Phase One: What's to Expect in JDK 23](https://www.infoq.com/news/2024/06/jdk-23-rampdown-phase-one/) - the final set of **JDK 23** features has **12** JEP items |
 | **`2024-06-06`** | [JDK 23: The new features in Java 23](https://www.infoworld.com/article/3714933/jdk-23-the-new-features-in-java-23.html) - what we know about **JDK 23** so far (article keep being updated) |
 | **`2024-06-04`** | [Apache NetBeans 22 released](https://www.mail-archive.com/announce@apache.org/msg09231.html) - latest version of **NetBeans IDE** was released |
