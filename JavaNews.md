@@ -5,6 +5,7 @@ What is the Java world up to?
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2024-06-19`** | [HTMX for Java with Spring Boot and Thymeleaf](https://www.infoworld.com/article/3715496/htmx-for-java-with-spring-boot-and-thymeleaf.html) - utilizing **HTMX** frontend in Java ecosystem |
 | **`2024-06-12`** | [What's wrong with Java's sun.misc.Unsafe?](https://www.infoworld.com/article/3715492/whats-wrong-with-javas-sunmiscunsafe.html) - why **Unsafe** is about to be dropped from JVM and what to use instead |
 | **`2024-06-11`** | [Moving Quarkus to a Foundation](https://quarkus.io/blog/quarkus-in-a-foundation/) - **Quarkus** cloud-native Java stack will be transferred to a yet-to-be-announced open source fundation |
 | **`2024-06-10`** | [Keycloak 25.0.0 released](https://www.keycloak.org/2024/06/keycloak-2500-released) - new version of **Keycloak** identity manager will support **JDK 21** instead of JDK 17 |
