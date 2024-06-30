@@ -6,6 +6,7 @@ What is the Java world up to?
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
 | **`2024-06-26`** | [Stream gatherers: A new way to manipulate Java streams](https://www.infoworld.com/article/3715621/stream-gatherers-a-new-way-to-manipulate-java-streams.html) - closer look to useful **JDK 22** feature **java.util.stream.Gatherers** interface |
+| **`2024-06-26`** | [OpenJDK proposal would bring value classes and objects to Java](https://www.infoworld.com/article/3715642/openjdk-proposal-would-bring-value-classes-and-objects-to-java.html) - four years old **JEP 401** was awaken from slumber and might appear in forthcomming versions of JDK |
 | **`2024-06-25`** | [Java’s Project Leyden arrives in early-access build](https://www.infoworld.com/article/3715562/javas-project-leyden-arrives-in-early-access-build.html) - anticipated Java side-project called **Leyden** entered the early access stage |
 | **`2024-06-24`** | [Preparing for the Removal of Unsafe Memory-Access Methods](https://www.infoq.com/news/2024/06/jep-456-removing-unsafe-methods/) - closer look to **JEP 471** and how to replace **sun.misc.Unsafe** |
 | **`2024-06-19`** | [HTMX for Java with Spring Boot and Thymeleaf](https://www.infoworld.com/article/3715496/htmx-for-java-with-spring-boot-and-thymeleaf.html) - utilizing **HTMX** frontend in Java ecosystem |
