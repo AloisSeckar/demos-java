@@ -1,14 +1,23 @@
 # JAVA NEWS
 What is the Java world up to?
 
+## 2024 - July
+
+| Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
+| --- | :--  |
+| **`2024-07-02`** | [How to describe Java code with annotations](https://www.infoworld.com/article/3543240/how-to-describe-java-code-with-annotations.html) - this tutorial will teach you using custom Java annotations |
+| **`2024-07-02`** | [Java in Education Initiative Aims to Empower the Next Generation of Developers](https://www.infoq.com/news/2024/07/java-education-initiative/) - introducing the project dedicated to promote Java in education |
+
 ## 2024 - June
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
 | **`2024-06-26`** | [Stream gatherers: A new way to manipulate Java streams](https://www.infoworld.com/article/3715621/stream-gatherers-a-new-way-to-manipulate-java-streams.html) - closer look to useful **JDK 22** feature **java.util.stream.Gatherers** interface |
 | **`2024-06-26`** | [OpenJDK proposal would bring value classes and objects to Java](https://www.infoworld.com/article/3715642/openjdk-proposal-would-bring-value-classes-and-objects-to-java.html) - four years old **JEP 401** was awaken from slumber and might appear in forthcomming versions of JDK |
+| **`2024-06-25`** | [Transactional Outbox pattern with Spring Boot](https://www.wimdeblauwe.com/blog/2024/06/25/transactional-outbox-pattern-with-spring-boot/) - understanding one of the microservices' patterns and usin it in **Spring Boot** |
 | **`2024-06-25`** | [Java’s Project Leyden arrives in early-access build](https://www.infoworld.com/article/3715562/javas-project-leyden-arrives-in-early-access-build.html) - anticipated Java side-project called **Leyden** entered the early access stage |
 | **`2024-06-24`** | [Preparing for the Removal of Unsafe Memory-Access Methods](https://www.infoq.com/news/2024/06/jep-456-removing-unsafe-methods/) - closer look to **JEP 471** and how to replace **sun.misc.Unsafe** |
+| **`2024-06-20`** | [What is Spring Modulith? Introduction to modular monoliths](https://bell-sw.com/blog/what-is-spring-modulith-introduction-to-modular-monoliths/) - how to use **Spring Modulith** project for modular **Spring Boot** apps |
 | **`2024-06-19`** | [HTMX for Java with Spring Boot and Thymeleaf](https://www.infoworld.com/article/3715496/htmx-for-java-with-spring-boot-and-thymeleaf.html) - utilizing **HTMX** frontend in Java ecosystem |
 | **`2024-06-12`** | [What's wrong with Java's sun.misc.Unsafe?](https://www.infoworld.com/article/3715492/whats-wrong-with-javas-sunmiscunsafe.html) - why **Unsafe** is about to be dropped from JVM and what to use instead |
 | **`2024-06-11`** | [Moving Quarkus to a Foundation](https://quarkus.io/blog/quarkus-in-a-foundation/) - **Quarkus** cloud-native Java stack will be transferred to a yet-to-be-announced open source fundation |
