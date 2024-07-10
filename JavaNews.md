@@ -5,6 +5,9 @@ What is the Java world up to?
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2024-07-09`** | [How To Use the H2 Database With Spring Boot](https://dzone.com/articles/how-to-use-the-h2-database-with-spring-boot) - step-by-step tutorial for including **H2** into **Spring Boot** app |
+| **`2024-07-08`** | [Top 7 Techniques to Optimize Caching in Spring Boot](https://digma.ai/top-7-techniques-to-optimize-caching-in-spring-boot/) - although being a PR article, this text helps understanding caching better |
+| **`2024-07-03`** | [Reducing Testcontainers Execution Time with JUnit 5 Callbacks](https://rieckpil.de/reducing-testcontainers-execution-time-with-junit-5-callbacks/) - ways to improve performance and DX while testing Java container applications |
 | **`2024-07-02`** | [How to describe Java code with annotations](https://www.infoworld.com/article/3543240/how-to-describe-java-code-with-annotations.html) - this tutorial will teach you using custom Java annotations |
 | **`2024-07-02`** | [Java in Education Initiative Aims to Empower the Next Generation of Developers](https://www.infoq.com/news/2024/07/java-education-initiative/) - introducing the project dedicated to promote Java in education |
 
