@@ -5,6 +5,11 @@ What is the Java world up to?
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2024-07-15`** | [JEP 472: Prepare to Restrict the Use of JNI in JDK 24](https://www.infoq.com/news/2024/07/jep-472-restrict-jni-jdk-24/) - introduction of new **JEP 472** which is now _proposed to target_ in **JDK 24** |
+| **`2024-07-14`** | [Spring Security 6.3 – What’s New](https://www.baeldung.com/spring-security-6-3) - title already says it all |
+| **`2024-07-13`** | [Maven Spotless Plugin for Java](https://www.baeldung.com/java-maven-spotless-plugin) - what is **Maven Spotless Plugin** and how to use it for improving code formatting |
+| **`2024-07-12`** | [More Performant Integration Tests With Kafka Using GraalVM](https://medium.com/@avvero.abernathy/how-to-reduce-memory-consumption-in-integration-tests-with-kafka-using-graalvm-de2393f7fe8a) - learn how to build **EmbeddedKafka** native image with **GraalVM** for faster and less resource-consumning tests |
+| **`2024-07-11`** | [Java Virtual Threads: a Case Study](https://www.infoq.com/articles/java-virtual-threads-a-case-study/) - performance tests showing that **Open Liberty** thread pooling system is currently still better than **JDK 21** Virtual Threads |
 | **`2024-07-09`** | [How To Use the H2 Database With Spring Boot](https://dzone.com/articles/how-to-use-the-h2-database-with-spring-boot) - step-by-step tutorial for including **H2** into **Spring Boot** app |
 | **`2024-07-08`** | [Top 7 Techniques to Optimize Caching in Spring Boot](https://digma.ai/top-7-techniques-to-optimize-caching-in-spring-boot/) - although being a PR article, this text helps understanding caching better |
 | **`2024-07-03`** | [Reducing Testcontainers Execution Time with JUnit 5 Callbacks](https://rieckpil.de/reducing-testcontainers-execution-time-with-junit-5-callbacks/) - ways to improve performance and DX while testing Java container applications |
