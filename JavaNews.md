@@ -5,6 +5,11 @@ What is the Java world up to?
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2024-07-23`** | [JUnit 5 Custom TestListeners](https://dzone.com/articles/junit-5-listeners) - how to improve tests running in your CI/CD pipelines |
+| **`2024-07-22`** | [JEP 481: Third Preview of Scoped Values API Brings Key Enhancements in JDK 23](https://www.infoq.com/news/2024/07/jep-481-enhanced-scoped-values/) - introduction of new **JEP 481** which is now _completed_ in **JDK 23** |
+| **`2024-07-22`** | [Spring Ecosystem Delivers Numerous Milestone Releases](https://www.infoq.com/news/2024/07/spring-releases-jul15-2024/) - latest development around **Spring**, the popular family of Java libraries |
+| **`2024-07-18`** | [How To Think Simple In Java](https://dzone.com/articles/how-to-think-simple-in-java) - a summary full of useful tips for being a better Java programmer |
+| **`2024-07-17`** | [JSpecify 1.0.0 released](https://jspecify.dev/blog/release-1.0.0/) - the group focusing on standardizing JVM annotations have finalized the first four nullness annotations |
 | **`2024-07-15`** | [JEP 472: Prepare to Restrict the Use of JNI in JDK 24](https://www.infoq.com/news/2024/07/jep-472-restrict-jni-jdk-24/) - introduction of new **JEP 472** which is now _proposed to target_ in **JDK 24** |
 | **`2024-07-14`** | [Spring Security 6.3 – What’s New](https://www.baeldung.com/spring-security-6-3) - title already says it all |
 | **`2024-07-13`** | [Maven Spotless Plugin for Java](https://www.baeldung.com/java-maven-spotless-plugin) - what is **Maven Spotless Plugin** and how to use it for improving code formatting |
