@@ -1,7 +1,6 @@
 package cz.aloisseckar.java.javademos.java17.deprecated;
 
 import cz.aloisseckar.java.javademos.commons.IDemo;
-import java.applet.Applet;
 
 /**
  * This class just showing some examples of deprecated APIs from Java 17 Platform.
@@ -31,21 +30,21 @@ public class DeprecatedDemo implements IDemo {
         
         // natural primitive-wrapping classes' constructors 
         // @Deprecated(since="9", forRemoval = true)
-        var i = new Integer("5");
+        // var i = new Integer("5");
         // use static factory method instead
-        var j = Integer.valueOf("5");
+        // var j = Integer.valueOf("5");
         
         
         // Applet API
         // @deprecated + forRemoval = true
-        Applet lastTryOfApplet = new Applet();
+        // Applet lastTryOfApplet = new Applet();
         // DO NOT seek for replacement, do it differently
         // https://www.oracle.com/technetwork/java/javase/migratingfromapplets-2872444.pdf
         
         
         // SecurityManager 
         // @Deprecated(since="17", forRemoval=true)
-        SecurityManager secMan = new SecurityManager();
+        // SecurityManager secMan = new SecurityManager();
         //
         // disabled by default and not widely used
         // however, can be found e.g. in Tomcat or ElasticSearch
@@ -58,7 +57,7 @@ public class DeprecatedDemo implements IDemo {
         // };
         //
         // read https://openjdk.org/jeps/411 to know more
-          
+        //
     }
     
 }
