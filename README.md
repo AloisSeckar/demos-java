@@ -1,13 +1,11 @@
-# Java demos - new language features from Java 11 to 21
+# Java demos - new language features from Java 11 to 22
 
-This application helps to show some new features being introduced in Java versions until Java 21.
+This application helps to show some new features being introduced in Java versions until Java 22.
 
 All relevant info is written down in comments inside sources.
 
 ## Prerequisites 
-This project requires **Java JDK 21** to run. I namely use [GraalVM for JDK 21](https://medium.com/graalvm/graalvm-for-jdk-21-is-here-ee01177dd12d) for development and testing.
-
-The 'UnnamedPatternsAndVariablesDemo' requires at least **JDK 21.0.1** update due to potential issues with compilation in the initial Java 21 version.
+This project requires **Java JDK 22** to run. I namely use [GraalVM for JDK 22](https://www.graalvm.org/release-notes/JDK_22/) for development and testing.
 
 ## Usage
 Checkout the project and explore the files in your favorite IDE.

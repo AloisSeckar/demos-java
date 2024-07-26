@@ -7,10 +7,10 @@
     <packaging>jar</packaging>
     
     <properties>
-        <java.version>21</java.version>
+        <java.version>22</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>21</maven.compiler.source>
-        <maven.compiler.target>21</maven.compiler.target>
+        <maven.compiler.source>22</maven.compiler.source>
+        <maven.compiler.target>22</maven.compiler.target>
     </properties>
     
     <dependencies>
@@ -18,7 +18,7 @@
             <!-- for simplier getter/setter/constructor declarations -->
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-            <version>1.18.30</version>
+            <version>1.18.34</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>
@@ -29,7 +29,7 @@
                 <!-- adding MANIFEST.MF to .jar -->
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
-                <version>3.3.0</version>
+                <version>3.4.2</version>
                 <configuration>
                     <archive>
                         <manifest>
@@ -41,9 +41,9 @@
             <plugin>
                 <!-- responsible for performing .jar build -->
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.11.0</version>
+                <version>3.13.0</version>
                 <configuration>
-                    <release>21</release>
+                    <release>22</release>
                     <compilerArgs>
                         <!-- allows 'preview' features -->
                         <arg>--enable-preview</arg>
