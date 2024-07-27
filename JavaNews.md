@@ -14,6 +14,9 @@ Stay up-to-date with the following even more dedicated websites:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2024-07-26`** | [Is Java Still Relevant Nowadays?](https://blog.jetbrains.com/idea/2024/07/is-java-still-relevant-nowadays/) - if you like graphs and stats, you might find this interesting |
+| **`2024-07-25`** | [Oracle's Java pricing brews bitter taste, subscribers spill over to OpenJDK](https://www.theregister.com/2024/07/25/oracle_java_licensing_changes/) - it looks like most customers won't like to pay for Oracle Java... |
+| **`2024-07-24`** | [The Hidden Costs of Lombok in Enterprise Java Solutions](https://dzone.com/articles/hidden-costs-of-lombok-in-enterprise-java-solutions) - is **Lombok** really the best solution for your project? |
 | **`2024-07-23`** | [JUnit 5 Custom TestListeners](https://dzone.com/articles/junit-5-listeners) - how to improve tests running in your CI/CD pipelines |
 | **`2024-07-22`** | [JEP 481: Third Preview of Scoped Values API Brings Key Enhancements in JDK 23](https://www.infoq.com/news/2024/07/jep-481-enhanced-scoped-values/) - introduction of new **JEP 481** which is now _completed_ in **JDK 23** |
 | **`2024-07-22`** | [Spring Ecosystem Delivers Numerous Milestone Releases](https://www.infoq.com/news/2024/07/spring-releases-jul15-2024/) - latest development around **Spring**, the popular family of Java libraries |
