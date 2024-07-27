@@ -53,6 +53,14 @@ https://www.tornadovm.org/
 https://infinispan.org/
 - Open-source in-memory key/value NoSQL data store backed by RedHat.
 
+## Testcontainers
+https://java.testcontainers.org/
+- Open-source Java library for testing in container environments.
+
+## Arquillian
+https://arquillian.org/
+- Innovative and highly extensible testing platform for the JVM backet by RetHat.
+
 ## Cryostat
 https://cryostat.io/
 - Managed Java Flight Recorder records for Kubernetes environment backed by RedHat.
