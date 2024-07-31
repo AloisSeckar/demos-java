@@ -14,10 +14,14 @@ Stay up-to-date with the following even more dedicated websites:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2024-07-30`** | [Java 21 Virtual Threads - Dude, Where’s My Lock?](https://netflixtechblog.com/java-21-virtual-threads-dude-wheres-my-lock-3052540e231d) - how **Netflix** developers clash with interesting virtual threads related bug in one of their app |
+| **`2024-07-29`** | [How To Achieve High GC Throughput](https://dzone.com/articles/how-to-achieve-high-gc-throughput) - common problems with garbage collection in Java and how to deal with them |
+| **`2024-07-29`** | [Get ready for more Java licensing changes](https://www.infoworld.com/article/3478122/get-ready-for-more-java-licensing-changes.html) - article explaining why **Oracle JDK 17** will no longer be free after September 2024 |
 | **`2024-07-26`** | [Is Java Still Relevant Nowadays?](https://blog.jetbrains.com/idea/2024/07/is-java-still-relevant-nowadays/) - if you like graphs and stats, you might find this interesting |
 | **`2024-07-25`** | [Oracle's Java pricing brews bitter taste, subscribers spill over to OpenJDK](https://www.theregister.com/2024/07/25/oracle_java_licensing_changes/) - it looks like most customers won't like to pay for Oracle Java... |
 | **`2024-07-24`** | [The Hidden Costs of Lombok in Enterprise Java Solutions](https://dzone.com/articles/hidden-costs-of-lombok-in-enterprise-java-solutions) - is **Lombok** really the best solution for your project? |
 | **`2024-07-23`** | [JUnit 5 Custom TestListeners](https://dzone.com/articles/junit-5-listeners) - how to improve tests running in your CI/CD pipelines |
+| **`2024-07-23`** | [WildFly 33 is released](https://www.wildfly.org/news/2024/07/23/WildFly33-Released/) - newest version of **WildFly** Java application server |
 | **`2024-07-22`** | [JEP 481: Third Preview of Scoped Values API Brings Key Enhancements in JDK 23](https://www.infoq.com/news/2024/07/jep-481-enhanced-scoped-values/) - introduction of new **JEP 481** which is now _completed_ in **JDK 23** |
 | **`2024-07-22`** | [Spring Ecosystem Delivers Numerous Milestone Releases](https://www.infoq.com/news/2024/07/spring-releases-jul15-2024/) - latest development around **Spring**, the popular family of Java libraries |
 | **`2024-07-18`** | [How To Think Simple In Java](https://dzone.com/articles/how-to-think-simple-in-java) - a summary full of useful tips for being a better Java programmer |
