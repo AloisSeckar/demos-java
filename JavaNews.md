@@ -10,6 +10,13 @@ Stay up-to-date with the following even more dedicated websites:
 - https://www.baeldung.com/
 
 
+## 2024 - August
+
+| Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
+| --- | :--  |
+| **`2024-08-07`** | [Ahead-of-time class loading proposal would speed Java startups](https://www.infoworld.com/article/3482187/ahead-of-time-class-loading-proposal-would-speed-java-startups.html) - introduction of new **JEP 487** which is now in _candidate_ status |
+| **`2024-08-06`** | [How To Protect Your Java Against Licensing Liability Risks](https://thenewstack.io/how-to-protect-your-java-against-licensing-liability-risks/) - be aware that Oracle JDK that falls under licensing terms and fees may appear in your system in various ways... |
+
 ## 2024 - July
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
