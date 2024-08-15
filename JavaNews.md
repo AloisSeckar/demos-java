@@ -14,6 +14,10 @@ Stay up-to-date with the following even more dedicated websites:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2024-08-14`** | [Functional programming with Java collections](https://www.infoworld.com/article/3481596/functional-programming-with-java-collections.html) - examples of functional programming operations in Java collections using lambdas |
+| **`2024-08-12`** | [Java Concurrency: The Happens-Before Guarantee](https://dzone.com/articles/java-concurrency-the-happens-before-guarantee) - learn more about reorderings and multi-threaded codebases and how Java helps you with its guarantees |
+| **`2024-08-12`** | [JSpecify 1.0.0 and Nullability in Java](https://www.infoq.com/news/2024/08/jspecify-java-nullability/) - deeper look at **JSpecify**  released earlier this year and its (future) role in Java ecosystem |
+| **`2024-08-08`** | [Hibernate 6.6.0 released](https://in.relation.to/2024/08/08/orm-660/) - version **6.6.0.Final** of **Hibernate** ORM was released |
 | **`2024-08-07`** | [Ahead-of-time class loading proposal would speed Java startups](https://www.infoworld.com/article/3482187/ahead-of-time-class-loading-proposal-would-speed-java-startups.html) - introduction of new **JEP 487** which is now in _candidate_ status |
 | **`2024-08-06`** | [How To Protect Your Java Against Licensing Liability Risks](https://thenewstack.io/how-to-protect-your-java-against-licensing-liability-risks/) - be aware that Oracle JDK that falls under licensing terms and fees may appear in your system in various ways... |
 
@@ -26,8 +30,10 @@ Stay up-to-date with the following even more dedicated websites:
 | **`2024-07-29`** | [Get ready for more Java licensing changes](https://www.infoworld.com/article/3478122/get-ready-for-more-java-licensing-changes.html) - article explaining why **Oracle JDK 17** will no longer be free after September 2024 |
 | **`2024-07-27`** | [Understanding JVM Memory Layout with OpenJDK24’s New VM Option](https://foojay.io/today/understanding-jvm-memory-layout-with-openjdk24s-new-printmemorymapatexit-vm-option/) - exploring new HotSpot JVM option **PrintMemoryMapAtExit** |
 | **`2024-07-26`** | [Is Java Still Relevant Nowadays?](https://blog.jetbrains.com/idea/2024/07/is-java-still-relevant-nowadays/) - if you like graphs and stats, you might find this interesting |
+| **`2024-07-25`** | [Improving Maven build times](https://blog.picnic.nl/improving-maven-build-times-f117d11cabdc) - practical tips for building your projects faster with **Maven** |
 | **`2024-07-25`** | [Generating HTTP clients in Spring Boot application from OpenAPI spec](https://maciejwalkowiak.com/blog/spring-boot-openapi-generate-client/) - tutorial about using **OpenAPI** REST definition to create a **Spring Boot** client |
 | **`2024-07-25`** | [Oracle's Java pricing brews bitter taste, subscribers spill over to OpenJDK](https://www.theregister.com/2024/07/25/oracle_java_licensing_changes/) - it looks like most customers won't like to pay for Oracle Java... |
+| **`2024-07-25`** | [Java 23: What’s new?](https://www.loicmathieu.fr/wordpress/en/informatique/java-23-quoi-de-neuf/) - another summary of features being introduced in **JDK 23** |
 | **`2024-07-24`** | [The Hidden Costs of Lombok in Enterprise Java Solutions](https://dzone.com/articles/hidden-costs-of-lombok-in-enterprise-java-solutions) - is **Lombok** really the best solution for your project? |
 | **`2024-07-23`** | [JUnit 5 Custom TestListeners](https://dzone.com/articles/junit-5-listeners) - how to improve tests running in your CI/CD pipelines |
 | **`2024-07-23`** | [WildFly 33 is released](https://www.wildfly.org/news/2024/07/23/WildFly33-Released/) - newest version of **WildFly** Java application server |
@@ -41,6 +47,7 @@ Stay up-to-date with the following even more dedicated websites:
 | **`2024-07-13`** | [Maven Spotless Plugin for Java](https://www.baeldung.com/java-maven-spotless-plugin) - what is **Maven Spotless Plugin** and how to use it for improving code formatting |
 | **`2024-07-12`** | [More Performant Integration Tests With Kafka Using GraalVM](https://medium.com/@avvero.abernathy/how-to-reduce-memory-consumption-in-integration-tests-with-kafka-using-graalvm-de2393f7fe8a) - learn how to build **EmbeddedKafka** native image with **GraalVM** for faster and less resource-consumning tests |
 | **`2024-07-11`** | [Java Virtual Threads: a Case Study](https://www.infoq.com/articles/java-virtual-threads-a-case-study/) - performance tests showing that **Open Liberty** thread pooling system is currently still better than **JDK 21** Virtual Threads |
+| **`2024-07-10`** | [9 Best Java Profilers to Use in 2024](https://foojay.io/today/9-best-java-profilers-to-use-in-2024/) - list of tools you can use for profiling your apps |
 | **`2024-07-09`** | [How To Use the H2 Database With Spring Boot](https://dzone.com/articles/how-to-use-the-h2-database-with-spring-boot) - step-by-step tutorial for including **H2** into **Spring Boot** app |
 | **`2024-07-08`** | [Top 7 Techniques to Optimize Caching in Spring Boot](https://digma.ai/top-7-techniques-to-optimize-caching-in-spring-boot/) - although being a PR article, this text helps understanding caching better |
 | **`2024-07-03`** | [Reducing Testcontainers Execution Time with JUnit 5 Callbacks](https://rieckpil.de/reducing-testcontainers-execution-time-with-junit-5-callbacks/) - ways to improve performance and DX while testing Java container applications |
