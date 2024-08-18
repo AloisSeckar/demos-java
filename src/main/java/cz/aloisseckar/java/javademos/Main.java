@@ -23,6 +23,7 @@ import cz.aloisseckar.java.javademos.java21.unnamed.UnnamedPatternsAndVariablesD
 import cz.aloisseckar.java.javademos.java21.virtualthreads.VirtualThreadsDemo;
 import cz.aloisseckar.java.javademos.java21.scopedvalues.ScopedValuesDemo;
 import cz.aloisseckar.java.javademos.java21.vectorapi.VectorAPIDemo;
+import cz.aloisseckar.java.javademos.java22.jep447.StatementsBeforeSuperDemo;
 
 import java.util.ArrayList;
 
@@ -94,6 +95,9 @@ public class Main {
         demoPool.add(new SequencedCollectionsDemo());
         demoPool.add(new VectorAPIDemo());
         demoPool.add(new UnnamedPatternsAndVariablesDemo());
+
+        // Java 22
+        demoPool.add(new StatementsBeforeSuperDemo());
         
         // run method .demo() on each entry to see the output
         demoPool.forEach(IDemo::demo);
