@@ -24,6 +24,7 @@ import cz.aloisseckar.java.javademos.java21.virtualthreads.VirtualThreadsDemo;
 import cz.aloisseckar.java.javademos.java21.scopedvalues.ScopedValuesDemo;
 import cz.aloisseckar.java.javademos.java21.vectorapi.VectorAPIDemo;
 import cz.aloisseckar.java.javademos.java22.jep447.StatementsBeforeSuperDemo;
+import cz.aloisseckar.java.javademos.java22.jep423.RegionPinningForG1;
 
 import java.util.ArrayList;
 
@@ -98,6 +99,7 @@ public class Main {
 
         // Java 22
         demoPool.add(new StatementsBeforeSuperDemo());
+        demoPool.add(new RegionPinningForG1());
         
         // run method .demo() on each entry to see the output
         demoPool.forEach(IDemo::demo);
