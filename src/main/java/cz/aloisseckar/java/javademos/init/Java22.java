@@ -2,7 +2,7 @@ package cz.aloisseckar.java.javademos.init;
 
 import cz.aloisseckar.java.javademos.commons.IDemo;
 import cz.aloisseckar.java.javademos.java22.jep423.RegionPinningForG1;
-import cz.aloisseckar.java.javademos.java22.jep447.StatementsBeforeSuperDemo;
+import cz.aloisseckar.java.javademos.java22.jep447.StatementsBeforeSuper;
 
 import java.util.ArrayList;
 
@@ -16,7 +16,7 @@ public class Java22 {
 
         // feel free to comment out demos you are not interested in right now
         java22DemoPool.add(new RegionPinningForG1());
-        java22DemoPool.add(new StatementsBeforeSuperDemo());
+        java22DemoPool.add(new StatementsBeforeSuper());
 
         return java22DemoPool;
     }

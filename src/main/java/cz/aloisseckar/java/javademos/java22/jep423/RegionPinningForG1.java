@@ -4,7 +4,7 @@ import cz.aloisseckar.java.javademos.commons.IDemo;
 
 /**
  * <p>
- *   This class shows new preview feature from JDK 22 <strong>Region Pinning for G1</strong> (JEP 423)
+ *   Demo for JDK 22 feature <strong>Region Pinning for G1</strong> (JEP 423)
  * </p>
  * <p>
  *   Further reading:
