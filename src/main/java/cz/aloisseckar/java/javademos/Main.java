@@ -1,36 +1,12 @@
 package cz.aloisseckar.java.javademos;
 
 import cz.aloisseckar.java.javademos.commons.IDemo;
-import cz.aloisseckar.java.javademos.java11.http.HttpDemo;
-import cz.aloisseckar.java.javademos.java11.j9.J9Demo;
-import cz.aloisseckar.java.javademos.java11.string11.String11Demo;
-import cz.aloisseckar.java.javademos.java11.var.VarDemo;
-import cz.aloisseckar.java.javademos.java17.deprecated.DeprecatedDemo;
-import cz.aloisseckar.java.javademos.java17.j16.J16Demo;
-import cz.aloisseckar.java.javademos.java17.newswitch.SwitchDemo;
-import cz.aloisseckar.java.javademos.java17.nullpointer.NullPointerDemo;
-import cz.aloisseckar.java.javademos.java17.pattern.InstanceofPatternMatchingDemo;
-import cz.aloisseckar.java.javademos.java17.record.RecordDemo;
-import cz.aloisseckar.java.javademos.java17.sealed.SealedDemo;
-import cz.aloisseckar.java.javademos.java17.string12.String12Demo;
-import cz.aloisseckar.java.javademos.java17.textblock.TextBlockDemo;
-import cz.aloisseckar.java.javademos.java21.j21.J21Demo;
-import cz.aloisseckar.java.javademos.java21.pattern.PatternMatchingForSwitchDemo;
-import cz.aloisseckar.java.javademos.java21.pattern.RecordPatternsDemo;
-import cz.aloisseckar.java.javademos.java21.sequenced.SequencedCollectionsDemo;
-import cz.aloisseckar.java.javademos.java21.stringtemplates.StringTemplatesDemo;
-import cz.aloisseckar.java.javademos.java21.unnamed.UnnamedPatternsAndVariablesDemo;
-import cz.aloisseckar.java.javademos.java21.virtualthreads.VirtualThreadsDemo;
-import cz.aloisseckar.java.javademos.java21.scopedvalues.ScopedValuesDemo;
-import cz.aloisseckar.java.javademos.java21.vectorapi.VectorAPIDemo;
-import cz.aloisseckar.java.javademos.java22.jep447.StatementsBeforeSuperDemo;
-import cz.aloisseckar.java.javademos.java22.jep423.RegionPinningForG1;
+import cz.aloisseckar.java.javademos.init.*;
 
 import java.util.ArrayList;
 
 /**
  * This application helps to show some new features from Java 11 to Java 21.
- * 
  * The 'demoPool' array consists of simple IDemo interface implementations.
  * Code logic is being implemented inside .demo() methods.
  * 
@@ -64,42 +40,15 @@ public class Main {
         
         var demoPool = new ArrayList<IDemo>();
         
-        // you may find useful to comment out all entries except the one
+        // you may find useful to comment out other JDKs except the one
         // you are about to examine
         // it may be confusing to search the actual output of particular
         // demo class implementation you are currently interested in
 
-        // Java 11
-        demoPool.add(new J9Demo());
-        demoPool.add(new VarDemo());
-        demoPool.add(new HttpDemo());
-        demoPool.add(new String11Demo());
-        
-        // Java 17
-        demoPool.add(new String12Demo());
-        demoPool.add(new SwitchDemo());
-        demoPool.add(new NullPointerDemo());
-        demoPool.add(new TextBlockDemo());
-        demoPool.add(new J16Demo());
-        demoPool.add(new RecordDemo());
-        demoPool.add(new InstanceofPatternMatchingDemo());
-        demoPool.add(new SealedDemo());
-        demoPool.add(new DeprecatedDemo());
-
-        // Java 21
-        demoPool.add(new J21Demo());
-        demoPool.add(new StringTemplatesDemo());
-        demoPool.add(new VirtualThreadsDemo());
-        demoPool.add(new RecordPatternsDemo());
-        demoPool.add(new PatternMatchingForSwitchDemo());
-        demoPool.add(new ScopedValuesDemo());
-        demoPool.add(new SequencedCollectionsDemo());
-        demoPool.add(new VectorAPIDemo());
-        demoPool.add(new UnnamedPatternsAndVariablesDemo());
-
-        // Java 22
-        demoPool.add(new StatementsBeforeSuperDemo());
-        demoPool.add(new RegionPinningForG1());
+        demoPool.addAll(Java11.getDemos());
+        demoPool.addAll(Java17.getDemos());
+        demoPool.addAll(Java21.getDemos());
+        demoPool.addAll(Java22.getDemos());
         
         // run method .demo() on each entry to see the output
         demoPool.forEach(IDemo::demo);
