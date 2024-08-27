@@ -14,6 +14,10 @@ Stay up-to-date with the following even more dedicated websites:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2024-08-27`** | [IBM Semeru Runtimes for Java includes FIPS 140-3 certified cryptography](https://foojay.io/today/ibm-semeru-java-fips140-3-cryptographic-standard/) - enhanced security in IBM's Java distribution |
+| **`2024-08-26`** | [Are Critical Vulnerabilities Lurking in Your Java Ecosystem?](https://foojay.io/today/are-critical-vulnerabilities-lurking-in-your-java-ecosystem) - tl;dr: Yes. But what are the main reasons and what can you do? |
+| **`2024-08-22`** | [JDK 23 and JDK 24: What We Know So Far](https://www.infoq.com/news/2024/08/java-23-so-far/) - as JDK 23 release date is approaching, there is an overview of current JEPs and drafts |
+| **`2024-08-20`** | [Azure Functions in Java](https://www.baeldung.com/java-azure-functions) - tutorial for using Azure Functions in your Java programs |
 | **`2024-08-14`** | [Functional programming with Java collections](https://www.infoworld.com/article/3481596/functional-programming-with-java-collections.html) - examples of functional programming operations in Java collections using lambdas |
 | **`2024-08-12`** | [Java Concurrency: The Happens-Before Guarantee](https://dzone.com/articles/java-concurrency-the-happens-before-guarantee) - learn more about reorderings and multi-threaded codebases and how Java helps you with its guarantees |
 | **`2024-08-12`** | [JSpecify 1.0.0 and Nullability in Java](https://www.infoq.com/news/2024/08/jspecify-java-nullability/) - deeper look at **JSpecify**  released earlier this year and its (future) role in Java ecosystem |
@@ -63,9 +67,11 @@ Stay up-to-date with the following even more dedicated websites:
 | **`2024-06-25`** | [Transactional Outbox pattern with Spring Boot](https://www.wimdeblauwe.com/blog/2024/06/25/transactional-outbox-pattern-with-spring-boot/) - understanding one of the microservices' patterns and usin it in **Spring Boot** |
 | **`2024-06-25`** | [Java’s Project Leyden arrives in early-access build](https://www.infoworld.com/article/3715562/javas-project-leyden-arrives-in-early-access-build.html) - anticipated Java side-project called **Leyden** entered the early access stage |
 | **`2024-06-24`** | [Preparing for the Removal of Unsafe Memory-Access Methods](https://www.infoq.com/news/2024/06/jep-456-removing-unsafe-methods/) - closer look to **JEP 471** and how to replace **sun.misc.Unsafe** |
+| **`2024-06-20`** | [What Happened to Java's String Templates?](https://nipafx.dev/inside-java-newscast-71/) - reasons for dropping **String templates** preview out of **JDK 23** |
 | **`2024-06-20`** | [What is Spring Modulith? Introduction to modular monoliths](https://bell-sw.com/blog/what-is-spring-modulith-introduction-to-modular-monoliths/) - how to use **Spring Modulith** project for modular **Spring Boot** apps |
 | **`2024-06-19`** | [HTMX for Java with Spring Boot and Thymeleaf](https://www.infoworld.com/article/3715496/htmx-for-java-with-spring-boot-and-thymeleaf.html) - utilizing **HTMX** frontend in Java ecosystem |
 | **`2024-06-12`** | [What's wrong with Java's sun.misc.Unsafe?](https://www.infoworld.com/article/3715492/whats-wrong-with-javas-sunmiscunsafe.html) - why **Unsafe** is about to be dropped from JVM and what to use instead |
+| **`2024-06-11`** | [Understanding Region Pinning in G1 GC](https://www.kosmadunikowski.com/posts/understanding-region-pinning-in-g1-gc/) - more background on **JEP 423** introduced in recent **JDK 22** |
 | **`2024-06-11`** | [Moving Quarkus to a Foundation](https://quarkus.io/blog/quarkus-in-a-foundation/) - **Quarkus** cloud-native Java stack will be transferred to a yet-to-be-announced open source fundation |
 | **`2024-06-10`** | [Keycloak 25.0.0 released](https://www.keycloak.org/2024/06/keycloak-2500-released) - new version of **Keycloak** identity manager will support **JDK 21** instead of JDK 17 |
 | **`2024-06-10`** | [Oracle Java police start knocking on Fortune 200's doors for first time](https://www.theregister.com/2024/06/10/fortune_200_oracle_java_audit/) - recent development in Oracle licensing policy towards big companies |
