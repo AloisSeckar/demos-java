@@ -9,11 +9,18 @@ Stay up-to-date with the following even more dedicated websites:
 - https://dzone.com/java
 - https://www.baeldung.com/
 
+## 2024 - August
+
+| Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
+| --- | :--  |
+| **`2024-09-02`** | [Java 23: What’s New?](https://foojay.io/today/java-23-whats-new/) - **JDK 23** release date is approaching, so it is time to sumarize its contents |
 
 ## 2024 - August
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2024-08-29`** | [Spring Boot CDS support and Project Leyden anticipation](https://spring.io/blog/2024/08/29/spring-boot-cds-support-and-project-leyden-anticipation) - cool new features in Spring Boot **3.3** |
+| **`2024-08-29`** | [Get Recognized for your Cloud-Native Java Development Skills](https://foojay.io/today/get-recognized-for-your-cloud-native-java-development-skills-with-this-new-badge/) - IBM offers new badge for free **Open Liberty** exam |
 | **`2024-08-27`** | [IBM Semeru Runtimes for Java includes FIPS 140-3 certified cryptography](https://foojay.io/today/ibm-semeru-java-fips140-3-cryptographic-standard/) - enhanced security in IBM's Java distribution |
 | **`2024-08-26`** | [Are Critical Vulnerabilities Lurking in Your Java Ecosystem?](https://foojay.io/today/are-critical-vulnerabilities-lurking-in-your-java-ecosystem) - tl;dr: Yes. But what are the main reasons and what can you do? |
 | **`2024-08-22`** | [JDK 23 and JDK 24: What We Know So Far](https://www.infoq.com/news/2024/08/java-23-so-far/) - as JDK 23 release date is approaching, there is an overview of current JEPs and drafts |
@@ -171,6 +178,7 @@ Stay up-to-date with the following even more dedicated websites:
 | --- | :--  |
 | **`2024-01-31`** | [Java proposal would scrap sun.misc.Unsafe memory access](https://www.infoworld.com/article/3712663/java-proposal-would-scrap-sunmiscunsafe-memory-access.html) - another new JEP would mark many of current low-level memory access methods from JDK deprecated for removal |
 | **`2024-01-30`** | [Evolution of the Switch Construct in Java](https://blog.jetbrains.com/idea/2024/01/evolution-of-the-switch-construct-in-java-why-should-you-care/) - your guide through the changes of `switch` in Java that keep comming in the recent JDK versions |
+| **`2024-01-30`** | [A deep dive into Java 21’s key features](https://medium.com/capital-one-tech/java-programming-a-deep-dive-into-java-21s-key-features-8776f75bc6b8) - **JDK 21** in the broader context of Java evolution |
 | **`2024-01-29`** | [Java proposal would streamline record creation](https://www.infoworld.com/article/3712640/java-proposal-would-streamline-record-creation.html) - brand new JEP may allow swift creating of records from existing records |
 | **`2024-01-29`** | [The One Billion Row Challenge](https://www.infoq.com/news/2024/01/1brc-fast-java-processing/) - proof that Java is able to process file with 1 billion rows in under 3 seconds |
 | **`2024-01-25`** | [Java 23 begins to take shape](https://www.infoworld.com/article/3712426/java-23-begins-to-take-shape.html) - first news about **JDK 23** scheduled for September 2024 |
