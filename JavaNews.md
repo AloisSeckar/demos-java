@@ -13,6 +13,7 @@ Stay up-to-date with the following even more dedicated websites:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2024-09-17`** | [The Arrival of Java 23](https://blogs.oracle.com/java/post/the-arrival-of-java-23) - the **Day** is here, **JDK 23** was officially released |
 | **`2024-09-02`** | [Java 23: What’s New?](https://foojay.io/today/java-23-whats-new/) - **JDK 23** release date is approaching, so it is time to sumarize its contents |
 
 ## 2024 - August
