@@ -13,7 +13,12 @@ Stay up-to-date with the following even more dedicated websites:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2024-09-17`** | [Spring AI Transforms Java for GenAI App Delivery](https://thenewstack.io/spring-ai-transforms-java-for-genai-app-delivery/) - you are not required to use Python for AI tasks anymore - there is a Java solution too! |
+| **`2024-09-17`** | [Java 23 Has Arrived](https://foojay.io/today/java-23-has-arrived-and-it-brings-a-truckload-of-changes/) - an alternative summary of the new features in **JDK 23** |
 | **`2024-09-17`** | [The Arrival of Java 23](https://blogs.oracle.com/java/post/the-arrival-of-java-23) - the **Day** is here, **JDK 23** was officially released |
+| **`2024-09-13`** | [Introduction to Htmx for Spring Boot Developers](https://blog.jetbrains.com/idea/2024/09/introduction-to-htmx-for-spring-boot-developers/) - exploring the possible alternative to JavaScript frontends |
+| **`2024-09-12`** | [Understanding Floating-Point Precision Issues in Java](https://dzone.com/articles/understanding-floating-points-number-in-java) - the storiy behind infamous 0.1  0.2 = 0.30000000000000004 example |
+| **`2024-09-09`** | [JDK 23: What to Expect?](https://www.unlogged.io/post/jdk-23-what-to-expect) - another preview of the upcomming JDK version |
 | **`2024-09-02`** | [Java 23: What’s New?](https://foojay.io/today/java-23-whats-new/) - **JDK 23** release date is approaching, so it is time to sumarize its contents |
 
 ## 2024 - August
@@ -22,6 +27,7 @@ Stay up-to-date with the following even more dedicated websites:
 | --- | :--  |
 | **`2024-08-29`** | [Spring Boot CDS support and Project Leyden anticipation](https://spring.io/blog/2024/08/29/spring-boot-cds-support-and-project-leyden-anticipation) - cool new features in Spring Boot **3.3** |
 | **`2024-08-29`** | [Get Recognized for your Cloud-Native Java Development Skills](https://foojay.io/today/get-recognized-for-your-cloud-native-java-development-skills-with-this-new-badge/) - IBM offers new badge for free **Open Liberty** exam |
+| **`2024-08-28`** | [SpringOne]([https://foojay.io/today/get-recognized-for-your-cloud-native-java-development-skills-with-this-new-badge/](https://springone.io/)) conference took place online between 26th and 28th August |
 | **`2024-08-27`** | [IBM Semeru Runtimes for Java includes FIPS 140-3 certified cryptography](https://foojay.io/today/ibm-semeru-java-fips140-3-cryptographic-standard/) - enhanced security in IBM's Java distribution |
 | **`2024-08-26`** | [Are Critical Vulnerabilities Lurking in Your Java Ecosystem?](https://foojay.io/today/are-critical-vulnerabilities-lurking-in-your-java-ecosystem) - tl;dr: Yes. But what are the main reasons and what can you do? |
 | **`2024-08-22`** | [JDK 23 and JDK 24: What We Know So Far](https://www.infoq.com/news/2024/08/java-23-so-far/) - as JDK 23 release date is approaching, there is an overview of current JEPs and drafts |
