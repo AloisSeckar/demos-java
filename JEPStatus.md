@@ -1,7 +1,7 @@
 # JEP Status
 Latest changes in JDK based on [OpenJDK JEP Index](https://openjdk.org/jeps/0)
 
-**Last updated: 2024-08-15**
+**Last updated: 2024-09-18**
 
 ## Java 24
 
@@ -11,11 +11,13 @@ Latest changes in JDK based on [OpenJDK JEP Index](https://openjdk.org/jeps/0)
 
 ## Java 23
 
+JDK 23 was released `2024-09-17`.
+
 | JEP | Ticket | Draft | Sumbitted | Candidate | Proposed to target | Targeted | Integrated | Completed | Closed |
 | :-- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | **JEP 455**	- [Primitive types in Patterns, instanceof, and switch (Preview)](https://openjdk.org/jeps/455) | [JDK-8288476](https://bugs.openjdk.org/browse/JDK-8288476) | `2022-06-15` | `2023-02-21` | `2023-09-25` | `2024-01-04` | `2024-01-23` | `2024-02-01` | `2024-04-15` | `2024-07-16` |
 | **JEP 466**	- [Class-File API (Second Preview)](https://openjdk.org/jeps/466) | [JDK-8324965](https://bugs.openjdk.org/browse/JDK-8324965) | `2024-01-30` | `2024-02-15` | `2024-02-15` | `2024-03-18` | `2024-03-28` | `2024-04-09` | `2024-06-04` | `2024-07-16` |
-| **JEP 467**	- [Markdown Documentation Comments](https://openjdk.org/jeps/467) | [JDK-8316039](https://bugs.openjdk.org/browse/JDK-8316039) | `2023-09-11` | `2024-02-14` | `2024-04-27` | `2024-04-25` | `2024-05-06` | `2024-05-22` | `2024-05-22` | |
+| **JEP 467**	- [Markdown Documentation Comments](https://openjdk.org/jeps/467) | [JDK-8316039](https://bugs.openjdk.org/browse/JDK-8316039) | `2023-09-11` | `2024-02-14` | `2024-04-27` | `2024-04-25` | `2024-05-06` | `2024-05-22` | `2024-05-22` | `2024-08-26` |
 | **JEP 469**	- [Vector API (Eighth Incubator)](https://openjdk.org/jeps/469) | [JDK-8326878](https://bugs.openjdk.org/browse/JDK-8326878) | `2024-02-27` | `2024-02-27` | `2024-04-03` | `2024-04-09` | `2024-04-17` | `2024-05-20` | `2024-05-20` | `2024-07-15` |
 | **JEP 471**	- [Deprecate the Memory-Access Methods in sun.misc.Unsafe for Removal](https://openjdk.org/jeps/471) | [JDK-8323072](https://bugs.openjdk.org/browse/JDK-8323072) | `2024-01-05` | `2024-01-24` | `2024-05-03` | `2024-05-20` | `2024-05-28` | `2024-05-29` | `2024-05-31` | `2024-05-31` |
 | **JEP 473**	- [Stream Gatherers (Second Preview)](https://openjdk.org/jeps/473) | [JDK-8327844](https://bugs.openjdk.org/browse/JDK-8327844) | `2024-03-11` | `2024-03-14` | `2024-04-05` | `2024-04-09` | `2024-04-17` | `2024-04-30` | `2024-05-01` | `2024-07-29` |
@@ -23,7 +25,7 @@ Latest changes in JDK based on [OpenJDK JEP Index](https://openjdk.org/jeps/0)
 | **JEP 476**	- [Module Import Declarations (Preview)](https://openjdk.org/jeps/476) | [JDK-8315129](https://bugs.openjdk.org/browse/JDK-8315129) | `2023-08-28` | `2024-04-02` | `2024-04-17` | `2024-04-23` | `2024-05-02` | `2024-05-06` | `2024-06-05` | `2024-07-08` |
 | **JEP 477**	- [Implicitly Declared Classes and Instance Main Methods (Third Preview)](https://openjdk.org/jeps/477) | [JDK-8323335](https://bugs.openjdk.org/browse/JDK-8323335) | `2024-01-09` | `2024-04-02` | `2024-05-07` | `2024-05-07` | `2024-05-22` | `2024-05-28` | `2024-06-05` | `2024-07-08` |
 | **JEP 480**	- [Structured Concurrency (Third Preview)](https://openjdk.org/jeps/480) | [JDK-8330818](https://bugs.openjdk.org/browse/JDK-8330818) | `2024-04-22` | `2024-04-26` | `2024-05-09` | `2024-05-19` | `2024-05-28` | `2024-05-28` | `2024-06-07` | `2024-07-16` |
-| **JEP 481**	- [Scoped Values (Third Preview)](https://openjdk.org/jeps/481) | [JDK-8331056](https://bugs.openjdk.org/browse/JDK-8331056) | `2024-04-24` | `2024-04-26` | `2024-05-14` | `2024-05-21` | `2024-05-30` | `2024-05-30` | `2024-06-07` | |
+| **JEP 481**	- [Scoped Values (Third Preview)](https://openjdk.org/jeps/481) | [JDK-8331056](https://bugs.openjdk.org/browse/JDK-8331056) | `2024-04-24` | `2024-04-26` | `2024-05-14` | `2024-05-21` | `2024-05-30` | `2024-05-30` | `2024-06-07` | `2024-08-15` |
 | **JEP 482**	- [Flexible Constructor Bodies (Second Preview)](https://openjdk.org/jeps/482) | [JDK-8325803](https://bugs.openjdk.org/browse/JDK-8325803) | `2024-02-13` | `2024-04-03` | `2024-05-14` | `2024-05-20` | `2024-05-28` | `2024-05-28` | `2024-06-05` | `2024-07-08` |
 
 ## Java 22
