@@ -13,8 +13,11 @@ Stay up-to-date with the following even more dedicated websites:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2024-09-18`** | [Can Java rival Python in AI development?](https://www.infoworld.com/article/3523744/can-java-rival-python-in-ai-development.html) - broader picture of current state of AI in Java |
+| **`2024-09-18`** | [Welcome, GraalVM for JDK 23!](https://medium.com/graalvm/welcome-graalvm-for-jdk-23-203928491b2b) - Java 23 is available in latest **GraalVM** version |
 | **`2024-09-17`** | [Spring AI Transforms Java for GenAI App Delivery](https://thenewstack.io/spring-ai-transforms-java-for-genai-app-delivery/) - you are not required to use Python for AI tasks anymore - there is a Java solution too! |
 | **`2024-09-17`** | [Java 23 Has Arrived](https://foojay.io/today/java-23-has-arrived-and-it-brings-a-truckload-of-changes/) - an alternative summary of the new features in **JDK 23** |
+| **`2024-09-17`** | [Java 23 and IntelliJ IDEA](https://blog.jetbrains.com/idea/2024/09/java-23-and-intellij-idea/) - Java 23 is already available in the newest version of JetBrains' **IDEA 2024.2** |
 | **`2024-09-17`** | [The Arrival of Java 23](https://blogs.oracle.com/java/post/the-arrival-of-java-23) - the **Day** is here, **JDK 23** was officially released |
 | **`2024-09-13`** | [Introduction to Htmx for Spring Boot Developers](https://blog.jetbrains.com/idea/2024/09/introduction-to-htmx-for-spring-boot-developers/) - exploring the possible alternative to JavaScript frontends |
 | **`2024-09-12`** | [Understanding Floating-Point Precision Issues in Java](https://dzone.com/articles/understanding-floating-points-number-in-java) - the storiy behind infamous 0.1  0.2 = 0.30000000000000004 example |
