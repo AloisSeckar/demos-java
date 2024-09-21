@@ -1,7 +1,7 @@
 package cz.aloisseckar.java.javademos.java21.stringtemplates;
 
 import cz.aloisseckar.java.javademos.commons.IDemo;
-import java.util.FormatProcessor;
+// import java.util.FormatProcessor;
 
 /**
  * This class shows 'String Templates' introduced in Java 21 as a preview feature.
@@ -18,7 +18,8 @@ public class StringTemplatesDemo implements IDemo {
     @Override
     public void demo() {
         info("STRING TEMPLATES DEMO", "Example of 'String Templates' feature\nbeing previewed in Java 21");
-
+        System.out.println("String Templates were removed in JDK 23");
+        /*
         // STR is a default implementation of StringTemplate
         // it is automatically injected in all classes without need of an explicit import
         int a = 1;
@@ -45,6 +46,6 @@ public class StringTemplatesDemo implements IDemo {
         }
         """;
         System.out.println(json);
-
+         */
     }
 }

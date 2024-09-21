@@ -13,6 +13,12 @@ public class NullPointerLevel3 {
     
     @Getter
     private final NullPointerLevel4 level4;
+
+    // EXPLICIT getter
+    // TODO delete when lombok fixed for JDK 23
+    public NullPointerLevel4 getLevel4() {
+        return level4;
+    }
     
     public NullPointerLevel3() {
         // here is our design flaw

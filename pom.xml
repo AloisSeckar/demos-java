@@ -7,10 +7,10 @@
     <packaging>jar</packaging>
     
     <properties>
-        <java.version>22</java.version>
+        <java.version>23</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>22</maven.compiler.source>
-        <maven.compiler.target>22</maven.compiler.target>
+        <maven.compiler.source>23</maven.compiler.source>
+        <maven.compiler.target>23</maven.compiler.target>
     </properties>
     
     <dependencies>
@@ -43,7 +43,7 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.13.0</version>
                 <configuration>
-                    <release>22</release>
+                    <release>23</release>
                     <compilerArgs>
                         <!-- allows 'preview' features -->
                         <arg>--enable-preview</arg>
@@ -56,8 +56,8 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
-                    <source>22</source>
-                    <target>22</target>
+                    <source>23</source>
+                    <target>23</target>
                     <compilerArgs>--enable-preview</compilerArgs>
                 </configuration>
             </plugin>

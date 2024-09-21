@@ -1,11 +1,11 @@
-# Java demos - new language features from Java 11 to 22
+# Java demos - new language features from Java 11 to 23
 
-This application helps to show some new features being introduced in Java versions until Java 22.
+This application helps to show some new features being introduced in Java versions until Java 23.
 
 All relevant info is written down in comments inside sources.
 
 ## Prerequisites 
-This project requires **Java JDK 22** to run. I namely use [GraalVM for JDK 22](https://www.graalvm.org/release-notes/JDK_22/) for development and testing.
+This project requires **Java JDK 23** to run. I namely use [GraalVM for JDK 23](https://www.graalvm.org/release-notes/JDK_23/) for development and testing.
 
 ## Usage
 Checkout the project and explore the files in your favorite IDE.

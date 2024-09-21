@@ -13,6 +13,12 @@ public class NullPointerLevel2 {
     
     @Getter
     private final NullPointerLevel3 level3;
+
+    // EXPLICIT getter
+    // TODO delete when lombok fixed for JDK 23
+    public NullPointerLevel3 getLevel3() {
+        return level3;
+    }
     
     public NullPointerLevel2() {
         // this is still ok, nested member is properly initialized
