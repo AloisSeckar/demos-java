@@ -103,7 +103,7 @@ Stay up-to-date with the following even more dedicated websites:
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
 | **`2024-05-31`** | [Gradle 8.8 now supports Java 8](https://docs.gradle.org/8.8/release-notes.html) - newest JDK features are possible with **Gradle** build tool |
-| **`2024-05-31`** | [Spring I/O 2024](https://2024.springio.net/) - developer conference took place in Barcelona [ESP] |
+| **`2024-05-31`** | [Spring I/O 2024](https://2024.springio.net/) - developer conference took place in Barcelona (ESP) |
 | **`2024-05-29`** | [JLama: The First Pure Java Model Inference Engine](https://www.infoq.com/news/2024/05/jlama-llm-inference-java/) - introduction to **JLama**, a Java-based LLM |
 | **`2024-05-27`** | [Enhanced Beginner Experience with Implicitly Declared Classes and Instance Main Methods](https://www.infoq.com/news/2024/05/jep477-implicit-classes-main) - preview of an upcomming **JEP 477** targetted into **JDK 23** |
 | **`2024-05-23`** | [Spring Boot 3.3.0 available now](https://spring.io/blog/2024/05/23/spring-boot-3-3-0-available-now) - new version of popular Java framework was released |
@@ -112,7 +112,7 @@ Stay up-to-date with the following even more dedicated websites:
 | **`2024-05-22`** | [Graal Cloud Native IntelliJ IDEA Plugin](https://www.infoq.com/news/2024/05/graal-cloud-native-intellij/) - Oracle's new IDEA plugin allows cloud-agnostic projects based on **Micronaut** |
 | **`2024-05-21`** | [Java Enhances Documentation with Markdown Support](https://www.infoq.com/news/2024/05/jep467-markdown-in-javadoc/) - preview of an upcomming **JEP 467** targetted into **JDK 23** |
 | **`2024-05-17`** | [Java Runtimes: Insights From the Spring Boot Point of View](https://blog.jetbrains.com/idea/2024/05/java-runtimes-insights-from-the-spring-boot-point-of-view/) - a practical comparsion between different JVM distributions based on IDEA team metrics |
-| **`2024-05-16`** | [JCON EUROPE 2024](https://2024.europe.jcon.one/) - big Java conference took place from 13th to 16th May, 2024 in Cologne [GER] |
+| **`2024-05-16`** | [JCON EUROPE 2024](https://2024.europe.jcon.one/) - big Java conference took place from 13th to 16th May, 2024 in Cologne (GER) |
 | **`2024-05-14`** | [How to Use Java Streams for Working With Data](https://blog.jetbrains.com/idea/2024/05/easy-hacks-how-to-use-java-streams-for-working-with-data/) - tutorial for using **Streams**, a gamechanging feature introduced in **JDK 8** |
 | **`2024-05-14`** | [Oracle extends support for Java 11, Java on Solaris](https://www.infoworld.com/article/3715350/oracle-extends-support-for-java-11-java-on-solaris.html) - Java 11 will be supported longer than previously announced + couple of other news |
 | **`2024-05-06`** | [Infinispan Unveils 15.0.0 with an Advanced RESP Endpoint and Requires JDK 17](https://www.infoq.com/news/2024/05/infinispan-15/) - new version of key/value data store **Infinispan** was released |
