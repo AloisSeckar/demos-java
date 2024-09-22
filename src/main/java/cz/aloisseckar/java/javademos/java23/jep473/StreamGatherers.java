@@ -16,6 +16,6 @@ import cz.aloisseckar.java.javademos.commons.IDemo;
 public class StreamGatherers implements IDemo {
     @Override
     public void demo() {
-        info("JEP 473 - Stream Gatherers (Second Preview)", "See StreamGatherers class for further info");
+        info(473);
     }
 }

@@ -16,6 +16,6 @@ import cz.aloisseckar.java.javademos.commons.IDemo;
 public class ClassFileAPI implements IDemo {
     @Override
     public void demo() {
-        info("JEP 466 - Class-File API (Second Preview)", "See ClassFileAPI class for further info");
+        info(466);
     }
 }

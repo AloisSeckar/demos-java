@@ -16,6 +16,6 @@ import cz.aloisseckar.java.javademos.commons.IDemo;
 public class ImplicitlyDeclaredClasses implements IDemo {
     @Override
     public void demo() {
-        info("JEP 477 - Implicitly Declared Classes and Instance Main Methods (Third Preview)", "See ImplicitlyDeclaredClasses class for further info");
+        info(477);
     }
 }

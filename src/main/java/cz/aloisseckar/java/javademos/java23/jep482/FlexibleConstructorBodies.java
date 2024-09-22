@@ -16,6 +16,6 @@ import cz.aloisseckar.java.javademos.commons.IDemo;
 public class FlexibleConstructorBodies implements IDemo {
     @Override
     public void demo() {
-        info("JEP 482 - Flexible Constructor Bodies (Second Preview)", "See FlexibleConstructorBodies class for further info");
+        info(482);
     }
 }

@@ -16,6 +16,6 @@ import cz.aloisseckar.java.javademos.commons.IDemo;
 public class StructuredConcurrency implements IDemo {
     @Override
     public void demo() {
-        info("JEP 480 - Structured Concurrency (Third Preview)", "See StructuredConcurrency class for further info");
+        info(480);
     }
 }

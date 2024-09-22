@@ -16,6 +16,6 @@ import cz.aloisseckar.java.javademos.commons.IDemo;
 public class ModuleImportDeclarations implements IDemo {
     @Override
     public void demo() {
-        info("JEP 476 - Module Import Declarations (Preview)", "See ModuleImportDeclarations class for further info");
+        info(476);
     }
 }

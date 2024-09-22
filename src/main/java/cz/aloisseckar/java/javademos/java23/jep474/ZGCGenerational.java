@@ -16,6 +16,6 @@ import cz.aloisseckar.java.javademos.commons.IDemo;
 public class ZGCGenerational implements IDemo {
     @Override
     public void demo() {
-        info("JEP 474 - ZGC: Generational Mode by Default", "See ZGCGenerational class for further info");
+        info(474);
     }
 }

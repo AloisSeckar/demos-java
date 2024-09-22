@@ -16,6 +16,6 @@ import cz.aloisseckar.java.javademos.commons.IDemo;
 public class ScopedValues implements IDemo {
     @Override
     public void demo() {
-        info("JEP 481 - Scoped Values (Third Preview)", "See ScopedValues class for further info");
+        info(481);
     }
 }

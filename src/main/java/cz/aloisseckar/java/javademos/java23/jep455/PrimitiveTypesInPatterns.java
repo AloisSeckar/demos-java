@@ -16,6 +16,6 @@ import cz.aloisseckar.java.javademos.commons.IDemo;
 public class PrimitiveTypesInPatterns implements IDemo {
     @Override
     public void demo() {
-        info("JEP 455 - Primitive Types in Patterns, instanceof, and switch (Preview)", "See PrimitiveTypesInPatterns class for further info");
+        info(455);
     }
 }

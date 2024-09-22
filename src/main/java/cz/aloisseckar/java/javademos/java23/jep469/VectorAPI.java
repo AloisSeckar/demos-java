@@ -16,6 +16,6 @@ import cz.aloisseckar.java.javademos.commons.IDemo;
 public class VectorAPI implements IDemo {
     @Override
     public void demo() {
-        info("JEP 469 - Vector API (Eighth Incubator)", "See VectorAPI class for further info");
+        info(469);
     }
 }

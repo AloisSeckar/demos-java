@@ -18,7 +18,7 @@ import cz.aloisseckar.java.javademos.commons.IDemo;
 public class MarkdownComments implements IDemo {
     @Override
     public void demo() {
-        info("JEP 467 - Markdown Documentation Comments", "Markdown is now allowed in Java comments. See MarkdownComments.java class for further info");
+        info(467);
     }
 
     // Markdown syntax is now possible in Javadoc comments

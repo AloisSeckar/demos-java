@@ -28,6 +28,7 @@ package cz.aloisseckar.java.javademos.commons;
 public interface IDemo {
     
     /// Header recommended to be displayed at the beginning of each demo's output.
+    ///
     /// @param demoName Name of the demo feature
     /// @param demoDscr Description of the purpose
     default void info(String demoName, String demoDscr) {
@@ -37,6 +38,21 @@ public interface IDemo {
         System.out.println(demoDscr);
         System.out.println("-------------------------------------------------");
         System.out.println();
+    }
+
+    /// Header recommended to be displayed at the beginning of each demo's output.
+    ///
+    /// This method accepts intended number of JEP and looks for data in DEMO_INFO map.
+    ///
+    /// @param jepNumber JEP number to be displayed
+    /// @see DemoInfo#DEMO_INFO
+    default void info (int jepNumber) {
+        var demoInfo = DemoInfo.DEMO_INFO.get(jepNumber);
+        if (demoInfo != null) {
+            info(demoInfo.name(), demoInfo.dscr());
+        } else {
+            info (String.valueOf(jepNumber), "No description available");
+        }
     }
     
     /// Method to perform the actual work for each demo feature.

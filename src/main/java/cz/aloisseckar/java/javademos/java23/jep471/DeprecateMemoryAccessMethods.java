@@ -16,6 +16,6 @@ import cz.aloisseckar.java.javademos.commons.IDemo;
 public class DeprecateMemoryAccessMethods implements IDemo {
     @Override
     public void demo() {
-        info("JEP 471 - Deprecate the Memory-Access Methods in sun.misc.Unsafe for Removal", "See DeprecateMemoryAccessMethods class for further info");
+        info(471);
     }
 }
