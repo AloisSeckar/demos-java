@@ -1,34 +1,35 @@
 package cz.aloisseckar.java.javademos.commons;
 
-/**
- * Simple interface to unify the process.
- * Override method 'demo()' in your implementation and include new instance
- * into demoPool in Main.java
- *
- * @author alois.seckar@gmail.com
- *
- * -----
- *
- * TEMPLATE for demo implementation class JavaDocs:
- *
- *  * This class shows new <<INSERT FEATURE>> introduced in Java <<JDK VERSION>>
- *  *
- *  * REFERENCES:
- *  * Java <<JDK VERSION>> - <<link to relevant JEP or JBC>> - <<TITLE from linked page>>
- *  *
- *  * Further reading:
- *  * <<LINK to interesting article or tutorial>>
- *  *
- *  * @author alois.seckar@gmail.com
- *
- */
+/// Simple interface to unify the demo building process.
+///
+/// Override method 'demo()' in your implementation and include new instance
+/// into demoPool in Main.java
+///
+/// Last review: 2024-09-22
+///
+/// TEMPLATE for demo implementation class JavaDocs:
+/// ```
+/// /// Demo for JDK <VER> feature **<JEP_NAME>** (JEP <NUM>)
+/// ///
+/// /// Status: [Stable|Preview|Incubator]
+/// ///
+/// /// Evolution:
+/// /// - JDK <VER>: [JEP <NUM> - <JEP_NAME>](https://openjdk.org/jeps/<NUM>)
+/// /// - (repeat 1-n)
+/// ///
+/// /// Further Reading:
+/// /// - [<ARTICLE_TITLE>](<ARTICLE_URL>)
+/// /// - (repeat 1-n)
+/// ///
+/// /// @author alois.seckar@gmail.com
+/// ```
+///
+/// @author alois.seckar@gmail.com
 public interface IDemo {
     
-    /**
-     * Header recommended to display at the beginning of each demo's output.
-     * @param demoName Name of the demo feature
-     * @param demoDscr Description of the purpose
-     */
+    /// Header recommended to be displayed at the beginning of each demo's output.
+    /// @param demoName Name of the demo feature
+    /// @param demoDscr Description of the purpose
     default void info(String demoName, String demoDscr) {
         System.out.println();
         System.out.println("-------------------------------------------------");
@@ -38,9 +39,7 @@ public interface IDemo {
         System.out.println();
     }
     
-    /**
-     * Method to perform the actual work for each demo feature.
-     */
+    /// Method to perform the actual work for each demo feature.
     void demo();
     
 }
