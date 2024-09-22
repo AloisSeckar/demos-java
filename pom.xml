@@ -40,6 +40,7 @@
             </plugin>
             <plugin>
                 <!-- responsible for performing .jar build -->
+                <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.13.0</version>
                 <configuration>
@@ -52,6 +53,24 @@
                         <!-- allows newest 'incubator' features -->
                         <arg>--add-modules=jdk.incubator.vector</arg>
                     </compilerArgs>
+                </configuration>
+            </plugin>
+            <plugin>
+                <!-- responsible for generating Javadocs in HTML format -->
+                <!-- standalone command: mvn clean javadoc:javadoc -->
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-javadoc-plugin</artifactId>
+                <version>3.10.0</version>
+                <configuration>
+                    <source>23</source>
+                    <additionalOptions>
+                        <!-- allows 'preview' features -->
+                        <additionalOption>--enable-preview</additionalOption>
+                        <!-- allows newest 'incubator' features -->
+                        <additionalOption>--add-modules=jdk.incubator.vector</additionalOption>
+                        <!-- to skip errors for lombok-generated constructors -->
+                        <additionalOption>-Xdoclint:none</additionalOption>
+                    </additionalOptions>
                 </configuration>
             </plugin>
         </plugins>
