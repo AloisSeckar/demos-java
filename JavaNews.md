@@ -9,6 +9,10 @@ Stay up-to-date with the following even more dedicated websites:
 - https://dzone.com/java
 - https://www.baeldung.com/
 
+## Events
+Check where can you meet fellow Java enthusiasts at:
+- https://javaconferences.org/
+
 ## 2024 - August
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
