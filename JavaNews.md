@@ -17,7 +17,10 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2024-09-24`** | [Java 23 highlights crypto performance and security](https://www.infoworld.com/article/3537127/java-23-highlights-crypto-performance-and-security.html) - what is new in **JDK 23** from security perspective |
 | **`2024-09-18`** | [Can Java rival Python in AI development?](https://www.infoworld.com/article/3523744/can-java-rival-python-in-ai-development.html) - broader picture of current state of AI in Java |
+| **`2024-09-18`** | [Liberica JDK 23 is released](https://bell-sw.com/blog/liberica-jdk-23-is-released/) - **BellSoft** released their implementation of JDK 23 |
+| **`2024-09-18`** | [Amazon Corretto 23 is now generally available](https://aws.amazon.com/about-aws/whats-new/2024/09/amazon-corretto-23-generally-available/) - **Amazon** released their implementation of JDK 23 |
 | **`2024-09-18`** | [Welcome, GraalVM for JDK 23!](https://medium.com/graalvm/welcome-graalvm-for-jdk-23-203928491b2b) - Java 23 is available in latest **GraalVM** version |
 | **`2024-09-17`** | [Spring AI Transforms Java for GenAI App Delivery](https://thenewstack.io/spring-ai-transforms-java-for-genai-app-delivery/) - you are not required to use Python for AI tasks anymore - there is a Java solution too! |
 | **`2024-09-17`** | [Java 23 Has Arrived](https://foojay.io/today/java-23-has-arrived-and-it-brings-a-truckload-of-changes/) - an alternative summary of the new features in **JDK 23** |
@@ -88,6 +91,7 @@ Check where can you meet fellow Java enthusiasts at:
 | **`2024-06-25`** | [Transactional Outbox pattern with Spring Boot](https://www.wimdeblauwe.com/blog/2024/06/25/transactional-outbox-pattern-with-spring-boot/) - understanding one of the microservices' patterns and usin it in **Spring Boot** |
 | **`2024-06-25`** | [Java’s Project Leyden arrives in early-access build](https://www.infoworld.com/article/3715562/javas-project-leyden-arrives-in-early-access-build.html) - anticipated Java side-project called **Leyden** entered the early access stage |
 | **`2024-06-24`** | [Preparing for the Removal of Unsafe Memory-Access Methods](https://www.infoq.com/news/2024/06/jep-456-removing-unsafe-methods/) - closer look to **JEP 471** and how to replace **sun.misc.Unsafe** |
+| **`2024-06-22`** | [Accelerate Spring Boot APP Start Time](https://gaetanopiazzolla.github.io/java/springboot/2024/06/22/fast-boot.html) - useful tips for optimizing and speeding-up loading of your **Spring Boot** apps |
 | **`2024-06-20`** | [What Happened to Java's String Templates?](https://nipafx.dev/inside-java-newscast-71/) - reasons for dropping **String templates** preview out of **JDK 23** |
 | **`2024-06-20`** | [What is Spring Modulith? Introduction to modular monoliths](https://bell-sw.com/blog/what-is-spring-modulith-introduction-to-modular-monoliths/) - how to use **Spring Modulith** project for modular **Spring Boot** apps |
 | **`2024-06-19`** | [HTMX for Java with Spring Boot and Thymeleaf](https://www.infoworld.com/article/3715496/htmx-for-java-with-spring-boot-and-thymeleaf.html) - utilizing **HTMX** frontend in Java ecosystem |
