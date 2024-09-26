@@ -17,6 +17,8 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2024-09-25`** | [Factory Pattern with Flexible Constructor Bodies with JEP-482](https://foojay.io/today/exploring-new-features-in-jdk-23-factory-pattern-with-flexible-constructor-bodies-with-jep-482/) - how to leverage recent **JEP-482** introduced in **JDK 23** together with factory pattern |
+| **`2024-09-25`** | [IntelliJ IDEA 2024.2.3 Is Out](https://blog.jetbrains.com/idea/2024/09/intellij-idea-2024-2-3/) - JetBrains revealed the last iteration of their Java IDE |
 | **`2024-09-24`** | [Java 23 highlights crypto performance and security](https://www.infoworld.com/article/3537127/java-23-highlights-crypto-performance-and-security.html) - what is new in **JDK 23** from security perspective |
 | **`2024-09-18`** | [Can Java rival Python in AI development?](https://www.infoworld.com/article/3523744/can-java-rival-python-in-ai-development.html) - broader picture of current state of AI in Java |
 | **`2024-09-18`** | [Liberica JDK 23 is released](https://bell-sw.com/blog/liberica-jdk-23-is-released/) - **BellSoft** released their implementation of JDK 23 |
