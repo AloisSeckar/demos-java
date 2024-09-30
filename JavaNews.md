@@ -17,11 +17,13 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2024-09-27`** | [Is Spring AI Strong Enough for AI?](https://dzone.com/articles/is-spring-ai-strong-enough-for-ai) - summary of **Spring AI** capabilities + comparsion with Python-based tools |
 | **`2024-09-26`** | [Java for AI](https://dzone.com/articles/java-for-artificial-intelligence) - some info, overview of options and even demo of **Weka** AI tool |
 | **`2024-09-25`** | [Factory Pattern with Flexible Constructor Bodies with JEP-482](https://foojay.io/today/exploring-new-features-in-jdk-23-factory-pattern-with-flexible-constructor-bodies-with-jep-482/) - how to leverage recent **JEP-482** introduced in **JDK 23** together with factory pattern |
 | **`2024-09-25`** | [IntelliJ IDEA 2024.2.3 Is Out](https://blog.jetbrains.com/idea/2024/09/intellij-idea-2024-2-3/) - JetBrains revealed the last iteration of their Java IDE |
 | **`2024-09-24`** | [How JPA works from your Java code to the Database](https://robertniestroj.hashnode.dev/how-jpa-works-from-your-java-code-to-the-database) - insightful explanation of what is between ORM in application and the actual SQL |
 | **`2024-09-24`** | [Java 23 highlights crypto performance and security](https://www.infoworld.com/article/3537127/java-23-highlights-crypto-performance-and-security.html) - what is new in **JDK 23** from security perspective |
+| **`2024-09-23`** | [Quarkus joins Commonhaus](https://www.commonhaus.org/activity/200.html) - **Quarkus** project became part of The Commonhaus Foundation for opensource projects |
 | **`2024-09-18`** | [Can Java rival Python in AI development?](https://www.infoworld.com/article/3523744/can-java-rival-python-in-ai-development.html) - broader picture of current state of AI in Java |
 | **`2024-09-18`** | [Liberica JDK 23 is released](https://bell-sw.com/blog/liberica-jdk-23-is-released/) - **BellSoft** released their implementation of JDK 23 |
 | **`2024-09-18`** | [Amazon Corretto 23 is now generally available](https://aws.amazon.com/about-aws/whats-new/2024/09/amazon-corretto-23-generally-available/) - **Amazon** released their implementation of JDK 23 |
@@ -146,6 +148,7 @@ Check where can you meet fellow Java enthusiasts at:
 | **`2024-04-12`** | [Java Frameworks You Must Know in 2024](https://blog.jetbrains.com/idea/2024/04/java-frameworks-you-must-know-in-2024/) - a list of technologies you shouldn't miss out in Java world |
 | **`2024-04-11`** | [Devnexus 2024](https://devnexus.com/) - 3 days Java Ecosystem conference in Atlanta [USA] took place from 9th to 11th April, 2024 |
 | **`2024-04-10`** | [Modernizing Testing Practices for Jakarta EE Projects](https://www.infoq.com/articles/jakartaee-testing-deep-dive/) - comprehensive guide for testing your **Jakarta EE** apps |
+| **`2024-04-09`** | [Commonhaus Foundation: Now Open!](https://www.commonhaus.org/activity/123.html) - new organization for helping (Java-based) open source projects was established |
 
 ## 2024 - March
 
