@@ -13,7 +13,14 @@ Stay up-to-date with the following even more dedicated websites:
 Check where can you meet fellow Java enthusiasts at:
 - https://javaconferences.org/
 
-## 2024 - August
+## 2024 - October
+
+| Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
+| --- | :--  |
+| **`2024-10-01`** | [JRuby 10 due to arrive in early-2025](https://www.infoworld.com/article/3542893/jruby-10-due-to-arrive-in-early-2025.html) - new **Ruby for JVM** implementation including latest Java 17 and 21 features is on the way |
+| **`2024-10-01`** | [The new features in Java 24](https://www.infoworld.com/article/3491404/jdk-24-the-new-features-in-java-24.html) - with recent release of JDK 23, works on upcomming **JDK 24** began |
+
+## 2024 - September
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
