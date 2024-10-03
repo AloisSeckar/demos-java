@@ -33,7 +33,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>cz.aloisseckar.java.javademos.Main</mainClass>
+                            <mainClass>org.javademos.Main</mainClass>
                         </manifest>
                     </archive>
                 </configuration>

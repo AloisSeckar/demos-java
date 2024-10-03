@@ -1,0 +1,28 @@
+package org.javademos.java17.nullpointer;
+
+import lombok.Getter;
+
+/**
+ * Simple class to show 'helpful' NullPointerExceptions from Java 14.
+ * Here we have 4-level nested class structure and somewhere on the way
+ * one element is 'null', so invoking method on it will raise 'NullPointer'.
+ * 
+ * @author alois.seckar@gmail.com
+ */
+public class NullPointerLevel2 {
+    
+    @Getter
+    private final NullPointerLevel3 level3;
+
+    // EXPLICIT getter
+    // TODO delete when lombok fixed for JDK 23
+    public NullPointerLevel3 getLevel3() {
+        return level3;
+    }
+    
+    public NullPointerLevel2() {
+        // this is still ok, nested member is properly initialized
+        level3 = new NullPointerLevel3();
+    }
+    
+}
