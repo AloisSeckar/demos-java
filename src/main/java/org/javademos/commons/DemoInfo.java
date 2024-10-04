@@ -9,6 +9,15 @@ public class DemoInfo {
     public record DemoInfoData(String name, String dscr) {}
 
     public static Map<Integer, DemoInfoData> DEMO_INFO = Map.ofEntries(
+            // JDK 22
+            Map.entry(423, new DemoInfoData(
+                    "JEP 423 - Region Pinning for G1",
+                    "No executable code, see RegionPinningForG1 class for further info"
+            )),
+            Map.entry(447, new DemoInfoData(
+                    "JEP 447 - Statements before super(...)",
+                    "Since Java 22, super() it is no longer required\nto be placed as first statement in constructor"
+            )),
             // JDK 23
             Map.entry(455, new DemoInfoData(
                     "JEP 455 - Primitive Types in Patterns, instanceof, and switch (Preview)",
