@@ -12,8 +12,8 @@ This originally started as a presentation for my work colleagues when **Java 17*
 
 Originally there were only a few cherry-picked demos for features I find most interesting and relevant. Now the ambition is to cover up **all JEPs since the release of Java 9 on 21 September 2017**. Currently, we are in the process of building the full structure.
 
-- Under `org.javademos` there is/will be a package for each java release, eg. `java23`. 
-- Each such _"release package"_ contains sub-folders for JEPs included in it, eg. `java23\jep455`.
+- Under `org.javademos` there is/will be a package for each java release, e.g. `java23`. 
+- Each such _"release package"_ contains sub-folders for JEPs included in it, e.g. `java23\jep455`.
 - Every _"JEP package"_ contains **one** implementation of `org.javademos.commons.IDemo`, which is a simple interface designed to incorporate all demos together - see [the source](/src/main/java/org/javademos/commons/IDemo.java) for more info. Implementation class name is arbitrary, but should be based on the JEP name.
 - Folder `org.javademos.init` contains helper classes, one for each JDK version, that were introduced mostly to reduce number of imports in the `Main.java` class.
 

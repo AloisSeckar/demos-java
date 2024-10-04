@@ -59,7 +59,7 @@ https://java.testcontainers.org/
 
 ## Arquillian
 https://arquillian.org/
-- Innovative and highly extensible testing platform for the JVM backet by RetHat.
+- Innovative and highly extensible testing platform for the JVM backed by RetHat.
 
 ## Cryostat
 https://cryostat.io/
