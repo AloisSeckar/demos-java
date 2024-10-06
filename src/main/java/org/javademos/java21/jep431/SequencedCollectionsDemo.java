@@ -1,4 +1,4 @@
-package org.javademos.java21.sequenced;
+package org.javademos.java21.jep431;
 
 import org.javademos.commons.IDemo;
 

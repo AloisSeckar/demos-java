@@ -3,7 +3,7 @@ package org.javademos.java17.pattern;
 import org.javademos.commons.IDemo;
 
 /**
- * This class shows new 'instanceof pattern matching' concept from Java 16.
+ * This class shows new 'instanceof jep441 matching' concept from Java 16.
  * The basic idea is to allow 'instanceof' check and re-casting to respective
  * data type within one command.
  *
@@ -21,7 +21,7 @@ public class InstanceofPatternMatchingDemo implements IDemo {
 
     @Override
     public void demo() {
-        info("PATTERN MATCHING DEMO", "Example of 'instanceof pattern matching'\nintroduced in Java 14");
+        info("PATTERN MATCHING DEMO", "Example of 'instanceof jep441 matching'\nintroduced in Java 14");
 
         Object x = 5;
         System.out.println("X is: " + x);

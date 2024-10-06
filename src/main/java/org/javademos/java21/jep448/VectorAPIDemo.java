@@ -1,4 +1,4 @@
-package org.javademos.java21.vectorapi;
+package org.javademos.java21.jep448;
 
 import org.javademos.commons.IDemo;
 import jdk.incubator.vector.FloatVector;

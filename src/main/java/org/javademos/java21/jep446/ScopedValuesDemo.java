@@ -1,4 +1,4 @@
-package org.javademos.java21.scopedvalues;
+package org.javademos.java21.jep446;
 
 import org.javademos.commons.IDemo;
 

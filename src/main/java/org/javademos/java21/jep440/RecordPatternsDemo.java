@@ -1,15 +1,16 @@
-package org.javademos.java21.pattern;
+package org.javademos.java21.jep440;
 
 import org.javademos.commons.IDemo;
 import org.javademos.java17.pattern.InstanceofPatternMatchingDemo;
 import org.javademos.java17.record.RecordDemo;
+import org.javademos.java21.jep441.PatternMatchingForSwitchDemo;
 
 /**
  * This class shows the new 'Record Patterns' feature available in Java 21.
  * The purpose is to allow deconstructing of Java records.
  * @see RecordDemo
  *
- * It can also be used in conjunction with 'instanceof' and 'switch' pattern matching checks.
+ * It can also be used in conjunction with 'instanceof' and 'switch' jep441 matching checks.
  * @see InstanceofPatternMatchingDemo
  * @see PatternMatchingForSwitchDemo
  *
@@ -38,7 +39,7 @@ public class RecordPatternsDemo implements IDemo {
         var testRecord = new MyData(10, "hello");
         var testTable = new MyTable(new MyData(1, "row1"), new MyData(2, "row2"));
 
-        System.out.println("1) Records can be used with `pattern matching` for `instanceof`");
+        System.out.println("1) Records can be used with `jep441 matching` for `instanceof`");
         System.out.println("Test object: new Object()");
         printWithInstanceof(testObject);
         System.out.println("Test object: new Position(10, 20)");
@@ -48,7 +49,7 @@ public class RecordPatternsDemo implements IDemo {
         printWithInstanceof(testTable);
         System.out.println();
 
-        System.out.println("2) Records can also be used with `pattern matching` for `switch`");
+        System.out.println("2) Records can also be used with `jep441 matching` for `switch`");
         System.out.println("Test object: new Object()");
         printWithSwitch(testObject);
         System.out.println("Test object: new Position(10, 20)");
@@ -70,7 +71,7 @@ public class RecordPatternsDemo implements IDemo {
 
     public static void printWithInstanceof(Object o) {
 
-        // common pattern matching
+        // common jep441 matching
         // object is auto-typed to a record
         /*
         if (o instanceof MyData d) {
@@ -89,7 +90,7 @@ public class RecordPatternsDemo implements IDemo {
         }
         */
 
-        // new record pattern matching
+        // new record jep441 matching
         // the record instance can also be directly unwrapped
         if (o instanceof MyData(int number, String text)) {
             System.out.println("Given `o` is a `MyData` record");
@@ -112,7 +113,7 @@ public class RecordPatternsDemo implements IDemo {
     public static void printWithSwitch(Object o) {
         switch (o) {
 
-            // common pattern matching
+            // common jep441 matching
             // object is auto-typed to a record
             /*
             case MyData d -> {
@@ -129,7 +130,7 @@ public class RecordPatternsDemo implements IDemo {
             }
             */
 
-            // new record pattern matching
+            // new record jep441 matching
             // the record instance can also be directly unwrapped
             case MyData(int number, String text) -> {
                 System.out.println("Given `o` is a `MyData` record");

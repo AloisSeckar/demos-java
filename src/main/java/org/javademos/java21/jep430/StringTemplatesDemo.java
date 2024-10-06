@@ -1,4 +1,4 @@
-package org.javademos.java21.stringtemplates;
+package org.javademos.java21.jep430;
 
 import org.javademos.commons.IDemo;
 // import java.util.FormatProcessor;

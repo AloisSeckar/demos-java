@@ -1,4 +1,4 @@
-package org.javademos.java21.pattern;
+package org.javademos.java21.jep441;
 
 import org.javademos.commons.IDemo;
 
@@ -27,7 +27,7 @@ public class PatternMatchingForSwitchDemo implements IDemo {
         // as an argument and returns its java.lang.String representation based
         // on rules introduced for each data type
 
-        // before switch pattern matching there would be a lot of 'if-then-else'
+        // before switch jep441 matching there would be a lot of 'if-then-else'
         // commands together with 'instanceof' checks and re-casting
         // now the syntax is much shorter, cleaner and more compact
 

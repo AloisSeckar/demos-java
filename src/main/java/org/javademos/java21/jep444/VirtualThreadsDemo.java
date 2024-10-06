@@ -1,4 +1,4 @@
-package org.javademos.java21.virtualthreads;
+package org.javademos.java21.jep444;
 
 import org.javademos.commons.IDemo;
 

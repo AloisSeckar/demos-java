@@ -1,4 +1,4 @@
-package org.javademos.java21.unnamed;
+package org.javademos.java21.jep443;
 
 import org.javademos.commons.IDemo;
 
@@ -41,7 +41,7 @@ public class UnnamedPatternsAndVariablesDemo implements IDemo {
             System.out.println(Integer.parseInt(str));
         } catch (NumberFormatException _) {
             // marked as underscore such pseudo-variable is being ignored
-            System.out.println("Not a number (unnamed exception)");
+            System.out.println("Not a number (jep443 exception)");
             // it is not possible to reference it
             // System.err.println(_); // compiler error - Using '_' as a reference is not allowed
         }

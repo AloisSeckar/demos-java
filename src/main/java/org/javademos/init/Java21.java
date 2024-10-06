@@ -1,15 +1,15 @@
 package org.javademos.init;
 
 import org.javademos.commons.IDemo;
-import org.javademos.java21.j21.J21Demo;
-import org.javademos.java21.pattern.PatternMatchingForSwitchDemo;
-import org.javademos.java21.pattern.RecordPatternsDemo;
-import org.javademos.java21.scopedvalues.ScopedValuesDemo;
-import org.javademos.java21.sequenced.SequencedCollectionsDemo;
-import org.javademos.java21.stringtemplates.StringTemplatesDemo;
-import org.javademos.java21.unnamed.UnnamedPatternsAndVariablesDemo;
-import org.javademos.java21.vectorapi.VectorAPIDemo;
-import org.javademos.java21.virtualthreads.VirtualThreadsDemo;
+import org.javademos.java21.extras.J21Demo;
+import org.javademos.java21.jep430.StringTemplatesDemo;
+import org.javademos.java21.jep431.SequencedCollectionsDemo;
+import org.javademos.java21.jep440.RecordPatternsDemo;
+import org.javademos.java21.jep441.PatternMatchingForSwitchDemo;
+import org.javademos.java21.jep443.UnnamedPatternsAndVariablesDemo;
+import org.javademos.java21.jep444.VirtualThreadsDemo;
+import org.javademos.java21.jep446.ScopedValuesDemo;
+import org.javademos.java21.jep448.VectorAPIDemo;
 
 import java.util.ArrayList;
 

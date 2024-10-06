@@ -1,4 +1,4 @@
-package org.javademos.java21.j21;
+package org.javademos.java21.extras;
 
 import org.javademos.commons.IDemo;
 
