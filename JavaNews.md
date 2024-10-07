@@ -17,6 +17,8 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2024-10-04`** | [Null object pattern to avoid null pointer exception with JEP-455](https://foojay.io/today/exploring-new-features-in-jdk-23-null-object-pattern-to-avoid-null-pointer-exception-with-jep-455/) - how can you put new capabilities of pattern matching in **Java 23** in a good use |
+| **`2024-10-03`** | [Spring Boot on Kubernetes with Eclipse JKube](https://piotrminkowski.com/2024/10/03/spring-boot-on-kubernetes-with-eclipse-jkube/) - tutorial for running cloud-based Spring Boot apps |
 | **`2024-10-01`** | [JRuby 10 due to arrive in early-2025](https://www.infoworld.com/article/3542893/jruby-10-due-to-arrive-in-early-2025.html) - new **Ruby for JVM** implementation including latest Java 17 and 21 features is on the way |
 | **`2024-10-01`** | [The new features in Java 24](https://www.infoworld.com/article/3491404/jdk-24-the-new-features-in-java-24.html) - with recent release of JDK 23, works on upcomming **JDK 24** began |
 
