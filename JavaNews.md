@@ -18,7 +18,9 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2024-10-17** | [Easily containerize Java applications with cloud native buildpacks](https://foojay.io/today/easily-containerize-java-applications-with-cloud-native-buildpacks/) - introduction to a SW tool dedicated to make deploying Java in containers easier |
 | **`2024-10-04`** | [Null object pattern to avoid null pointer exception with JEP-455](https://foojay.io/today/exploring-new-features-in-jdk-23-null-object-pattern-to-avoid-null-pointer-exception-with-jep-455/) - how can you put new capabilities of pattern matching in **Java 23** in a good use |
+| **`2024-10-03`** | [JAX London](https://jaxlondon.com/) conference took place in **London, UK** between 30th September and 3rd October |
 | **`2024-10-03`** | [Spring Boot on Kubernetes with Eclipse JKube](https://piotrminkowski.com/2024/10/03/spring-boot-on-kubernetes-with-eclipse-jkube/) - tutorial for running cloud-based Spring Boot apps |
 | **`2024-10-01`** | [JRuby 10 due to arrive in early-2025](https://www.infoworld.com/article/3542893/jruby-10-due-to-arrive-in-early-2025.html) - new **Ruby for JVM** implementation including latest Java 17 and 21 features is on the way |
 | **`2024-10-01`** | [The new features in Java 24](https://www.infoworld.com/article/3491404/jdk-24-the-new-features-in-java-24.html) - with recent release of JDK 23, works on upcomming **JDK 24** began |
@@ -28,6 +30,7 @@ Check where can you meet fellow Java enthusiasts at:
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
 | **`2024-09-27`** | [Is Spring AI Strong Enough for AI?](https://dzone.com/articles/is-spring-ai-strong-enough-for-ai) - summary of **Spring AI** capabilities + comparsion with Python-based tools |
+| **`2024-09-26`** | [JConf.dev](https://2024.jconf.dev/) conference took place in **Dallas, TX, USA** between 24th and 26th September |
 | **`2024-09-26`** | [Java for AI](https://dzone.com/articles/java-for-artificial-intelligence) - some info, overview of options and even demo of **Weka** AI tool |
 | **`2024-09-25`** | [Factory Pattern with Flexible Constructor Bodies with JEP-482](https://foojay.io/today/exploring-new-features-in-jdk-23-factory-pattern-with-flexible-constructor-bodies-with-jep-482/) - how to leverage recent **JEP-482** introduced in **JDK 23** together with factory pattern |
 | **`2024-09-25`** | [IntelliJ IDEA 2024.2.3 Is Out](https://blog.jetbrains.com/idea/2024/09/intellij-idea-2024-2-3/) - JetBrains revealed the last iteration of their Java IDE |
@@ -53,7 +56,7 @@ Check where can you meet fellow Java enthusiasts at:
 | --- | :--  |
 | **`2024-08-29`** | [Spring Boot CDS support and Project Leyden anticipation](https://spring.io/blog/2024/08/29/spring-boot-cds-support-and-project-leyden-anticipation) - cool new features in Spring Boot **3.3** |
 | **`2024-08-29`** | [Get Recognized for your Cloud-Native Java Development Skills](https://foojay.io/today/get-recognized-for-your-cloud-native-java-development-skills-with-this-new-badge/) - IBM offers new badge for free **Open Liberty** exam |
-| **`2024-08-28`** | [SpringOne]([https://foojay.io/today/get-recognized-for-your-cloud-native-java-development-skills-with-this-new-badge/](https://springone.io/)) conference took place online between 26th and 28th August |
+| **`2024-08-28`** | [SpringOne](https://springone.io/) conference took place online between 26th and 28th August |
 | **`2024-08-27`** | [IBM Semeru Runtimes for Java includes FIPS 140-3 certified cryptography](https://foojay.io/today/ibm-semeru-java-fips140-3-cryptographic-standard/) - enhanced security in IBM's Java distribution |
 | **`2024-08-26`** | [Are Critical Vulnerabilities Lurking in Your Java Ecosystem?](https://foojay.io/today/are-critical-vulnerabilities-lurking-in-your-java-ecosystem) - tl;dr: Yes. But what are the main reasons and what can you do? |
 | **`2024-08-22`** | [JDK 23 and JDK 24: What We Know So Far](https://www.infoq.com/news/2024/08/java-23-so-far/) - as JDK 23 release date is approaching, there is an overview of current JEPs and drafts |
