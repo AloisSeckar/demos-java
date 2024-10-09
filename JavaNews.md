@@ -5,9 +5,10 @@ What is the Java world up to?
 Stay up-to-date with the following even more dedicated websites:
 - https://inside.java
 - https://blogs.oracle.com/java
-- https://www.infoworld.com/category/java
+- https://infoworld.com/category/java
 - https://dzone.com/java
-- https://www.baeldung.com/
+- https://baeldung.com/
+- https://foojay.io/
 
 ## Events
 Check where can you meet fellow Java enthusiasts at:
