@@ -18,9 +18,7 @@ import java.util.ArrayList;
 
 public class Java23 {
 
-    /**
-     * @return list of demos available for JDK 23
-     */
+    /// @return list of demos available for JDK 23
     public static ArrayList<IDemo> getDemos() {
         var java23DemoPool = new ArrayList<IDemo>();
 

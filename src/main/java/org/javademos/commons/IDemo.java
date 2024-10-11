@@ -45,9 +45,9 @@ public interface IDemo {
     /// This method accepts intended number of JEP and looks for data in DEMO_INFO map.
     ///
     /// @param jepNumber JEP number to be displayed
-    /// @see DemoInfo#DEMO_INFO
+    /// @see JEPInfo#JEP_INFO
     default void info (int jepNumber) {
-        var demoInfo = DemoInfo.DEMO_INFO.get(jepNumber);
+        var demoInfo = JEPInfo.JEP_INFO.get(jepNumber);
         if (demoInfo != null) {
             info(demoInfo.name(), demoInfo.dscr());
         } else {
