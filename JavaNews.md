@@ -18,7 +18,9 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
-| **`2024-10-17** | [Easily containerize Java applications with cloud native buildpacks](https://foojay.io/today/easily-containerize-java-applications-with-cloud-native-buildpacks/) - introduction to a SW tool dedicated to make deploying Java in containers easier |
+| **`2024-10-11`** | [EclipseStore 2.0: Stable, Robust, Production-Proven](https://microstream.one/blog/2024/10/11/eclipsestore-2-0-stable-robust-production-ready/) - persistence layer for Eclipse community was released |
+| **`2024-10-07`** | [Easily containerize Java applications with cloud native buildpacks](https://foojay.io/today/easily-containerize-java-applications-with-cloud-native-buildpacks/) - introduction to a SW tool dedicated to make deploying Java in containers easier |
+| **`2024-10-07`** | [Apache Software Foundation Announces Apache Tomcat 11.0](https://news.apache.org/foundation/entry/apache-software-foundation-announces-apache-tomcat-11-0) - after a series of milestone releases, **Tomcat 11** is finally out |
 | **`2024-10-04`** | [Null object pattern to avoid null pointer exception with JEP-455](https://foojay.io/today/exploring-new-features-in-jdk-23-null-object-pattern-to-avoid-null-pointer-exception-with-jep-455/) - how can you put new capabilities of pattern matching in **Java 23** in a good use |
 | **`2024-10-03`** | [JAX London](https://jaxlondon.com/) conference took place in **London, UK** between 30th September and 3rd October |
 | **`2024-10-03`** | [Spring Boot on Kubernetes with Eclipse JKube](https://piotrminkowski.com/2024/10/03/spring-boot-on-kubernetes-with-eclipse-jkube/) - tutorial for running cloud-based Spring Boot apps |
