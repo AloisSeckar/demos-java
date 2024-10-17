@@ -18,6 +18,8 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2024-10-15`** | [Challenges With Java's Calendar and JDK Date/Time APIs](https://dzone.com/articles/mastering-date-time-apis-challenges-with-javas) - working with date and time in Java with examples |
+| **`2024-10-15`** | [Gatherers upgrades pipeline design pattern JEP-461](https://foojay.io/today/exploring-new-features-in-jdk-23-gatherers-upgrades-pipeline-design-pattern-jep-461/) - improved working with streams in **JDK 23** thanks to **JEP-461** |
 | **`2024-10-11`** | [EclipseStore 2.0: Stable, Robust, Production-Proven](https://microstream.one/blog/2024/10/11/eclipsestore-2-0-stable-robust-production-ready/) - persistence layer for Eclipse community was released |
 | **`2024-10-07`** | [Easily containerize Java applications with cloud native buildpacks](https://foojay.io/today/easily-containerize-java-applications-with-cloud-native-buildpacks/) - introduction to a SW tool dedicated to make deploying Java in containers easier |
 | **`2024-10-07`** | [Apache Software Foundation Announces Apache Tomcat 11.0](https://news.apache.org/foundation/entry/apache-software-foundation-announces-apache-tomcat-11-0) - after a series of milestone releases, **Tomcat 11** is finally out |
