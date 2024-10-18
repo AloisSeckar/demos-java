@@ -1,4 +1,4 @@
-package org.javademos.java21.jep456;
+package org.javademos.java22.jep456;
 
 import org.javademos.commons.IDemo;
 import java.util.List;
