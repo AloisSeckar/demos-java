@@ -3,6 +3,7 @@ package org.javademos.init;
 import org.javademos.commons.IDemo;
 import org.javademos.java22.jep423.RegionPinningForG1;
 import org.javademos.java22.jep447.StatementsBeforeSuper;
+import org.javademos.java22.jep456.UnnamedPatternsAndVariablesDemo;
 
 import java.util.ArrayList;
 
@@ -17,6 +18,7 @@ public class Java22 {
         // feel free to comment out demos you are not interested in right now
         java22DemoPool.add(new RegionPinningForG1());
         java22DemoPool.add(new StatementsBeforeSuper());
+        java22DemoPool.add(new UnnamedPatternsAndVariablesDemo());
 
         return java22DemoPool;
     }
