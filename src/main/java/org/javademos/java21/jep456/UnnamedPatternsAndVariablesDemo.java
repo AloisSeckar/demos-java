@@ -9,7 +9,7 @@ import java.util.LinkedList;
  * This class demonstrates new features called 'Unnamed Patterns and Variables'.
  *
  * REFERENCES:
- * Java 21 - https://openjdk.org/jeps/456 - Unnamed Patterns and Variables (Preview)
+ * Java 22 - https://openjdk.org/jeps/456 - Unnamed Patterns and Variables (Preview)
  *
  * Further reading:
  * https://www.baeldung.com/java-unnamed-patterns-variables
