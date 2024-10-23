@@ -18,6 +18,8 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2024-10-18`** | [Deep dive into bits, bytes, shorts, ints, longs, signed, and unsigned with Java](https://foojay.io/today/deep-dive-into-bits-bytes-shorts-ints-longs-signed-and-unsigned-with-java/) - working with numbers in Java from unconventional point of view |
+| **`2024-10-17`** | [WildFly 34 is released](https://www.wildfly.org/news/2024/10/17/WildFly34-Released/) - newest version of **WildFly** Java application server |
 | **`2024-10-15`** | [Challenges With Java's Calendar and JDK Date/Time APIs](https://dzone.com/articles/mastering-date-time-apis-challenges-with-javas) - working with date and time in Java with examples |
 | **`2024-10-15`** | [Gatherers upgrades pipeline design pattern JEP-461](https://foojay.io/today/exploring-new-features-in-jdk-23-gatherers-upgrades-pipeline-design-pattern-jep-461/) - improved working with streams in **JDK 23** thanks to **JEP-461** |
 | **`2024-10-11`** | [EclipseStore 2.0: Stable, Robust, Production-Proven](https://microstream.one/blog/2024/10/11/eclipsestore-2-0-stable-robust-production-ready/) - persistence layer for Eclipse community was released |
