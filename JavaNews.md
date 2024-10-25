@@ -18,6 +18,8 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2024-10-23`** | [Just-Write-And-Run prototyping with JEP-477 not only for beginners](https://foojay.io/today/exploring-new-features-in-jdk-23-just-write-and-run-prototyping-with-jep-477-not-only-for-beginners/) - declaring small Java programs is now much easier |
+| **`2024-10-22`** | [Java proposal would shrink JDK by 25%](https://www.infoworld.com/article/3578589/java-proposal-would-shrink-jdk-by-25.html) - new **JEP 493** is aiming for reducing Java size by enhanced use of **jlink** for runtime files |
 | **`2024-10-18`** | [Deep dive into bits, bytes, shorts, ints, longs, signed, and unsigned with Java](https://foojay.io/today/deep-dive-into-bits-bytes-shorts-ints-longs-signed-and-unsigned-with-java/) - working with numbers in Java from unconventional point of view |
 | **`2024-10-17`** | [WildFly 34 is released](https://www.wildfly.org/news/2024/10/17/WildFly34-Released/) - newest version of **WildFly** Java application server |
 | **`2024-10-15`** | [Challenges With Java's Calendar and JDK Date/Time APIs](https://dzone.com/articles/mastering-date-time-apis-challenges-with-javas) - working with date and time in Java with examples |
