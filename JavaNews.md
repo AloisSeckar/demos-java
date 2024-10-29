@@ -18,6 +18,7 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2024-10-24`** | [What's New in Apache Pulsar 4.0](https://pulsar.apache.org/blog/2024/10/24/announcing-apache-pulsar-4-0/) - new major version of performant server-to-server messaging tool |
 | **`2024-10-23`** | [Just-Write-And-Run prototyping with JEP-477 not only for beginners](https://foojay.io/today/exploring-new-features-in-jdk-23-just-write-and-run-prototyping-with-jep-477-not-only-for-beginners/) - declaring small Java programs is now much easier |
 | **`2024-10-22`** | [Java proposal would shrink JDK by 25%](https://www.infoworld.com/article/3578589/java-proposal-would-shrink-jdk-by-25.html) - new **JEP 493** is aiming for reducing Java size by enhanced use of **jlink** for runtime files |
 | **`2024-10-18`** | [Deep dive into bits, bytes, shorts, ints, longs, signed, and unsigned with Java](https://foojay.io/today/deep-dive-into-bits-bytes-shorts-ints-longs-signed-and-unsigned-with-java/) - working with numbers in Java from unconventional point of view |
@@ -50,6 +51,7 @@ Check where can you meet fellow Java enthusiasts at:
 | **`2024-09-18`** | [Amazon Corretto 23 is now generally available](https://aws.amazon.com/about-aws/whats-new/2024/09/amazon-corretto-23-generally-available/) - **Amazon** released their implementation of JDK 23 |
 | **`2024-09-18`** | [Welcome, GraalVM for JDK 23!](https://medium.com/graalvm/welcome-graalvm-for-jdk-23-203928491b2b) - Java 23 is available in latest **GraalVM** version |
 | **`2024-09-17`** | [Spring AI Transforms Java for GenAI App Delivery](https://thenewstack.io/spring-ai-transforms-java-for-genai-app-delivery/) - you are not required to use Python for AI tasks anymore - there is a Java solution too! |
+| **`2024-09-23`** | [JavaFX 23 is here](https://gluonhq.com/javafx-23-is-here/) - up-to-date version of **JavaFX** was also released the same day as **JDK 23** |
 | **`2024-09-17`** | [Java 23 Has Arrived](https://foojay.io/today/java-23-has-arrived-and-it-brings-a-truckload-of-changes/) - an alternative summary of the new features in **JDK 23** |
 | **`2024-09-17`** | [Java 23 and IntelliJ IDEA](https://blog.jetbrains.com/idea/2024/09/java-23-and-intellij-idea/) - Java 23 is already available in the newest version of JetBrains' **IDEA 2024.2** |
 | **`2024-09-17`** | [The Arrival of Java 23](https://blogs.oracle.com/java/post/the-arrival-of-java-23) - the **Day** is here, **JDK 23** was officially released |
