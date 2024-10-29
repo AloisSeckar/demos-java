@@ -16,6 +16,10 @@ https://kafka.apache.org/
 ## Apache Cassandra
 https://quarkus.io/
 - Distributed scalable NoSQL database written in Java.
+- 
+## Apache Pulsar
+https://pulsar.apache.org/
+- Performant server-to-server messaging platform.
 
 ## Helidon
 https://helidon.io/
