@@ -1,15 +1,23 @@
 # JEP Status
 Latest changes in JDK based on [OpenJDK JEP Index](https://openjdk.org/jeps/0)
 
-**Last updated: 2024-09-30**
+**Last updated: 2024-10-30**
 
 ## Java 24
 
 | JEP | Ticket | Draft | Sumbitted | Candidate | Proposed to target | Targeted | Integrated | Completed | Closed |
 | :-- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| **JEP 472**	- [Prepare to Restrict the Use of JNI](https://openjdk.org/jeps/472) | [JDK-8307341](https://bugs.openjdk.org/browse/JDK-8307341) | `2023-05-03` | `2023-12-06` | `2024-05-03` | `2024-06-14` | `2024-07-16` | | | |
-| **JEP 475**	- [Late Barrier Expansion for G1](https://openjdk.org/jeps/475) | [JDK-8322295](https://bugs.openjdk.org/browse/JDK-8322295) | `2023-12-18` | `2023-03-13` | `2024-04-09` | `2024-09-25` | | | | |
-| **JEP 484**	- [Class-File API](https://openjdk.org/jeps/484) | [JDK-8334712](https://bugs.openjdk.org/browse/JDK-8334712) | `2024-06-21` | `2024-07-15` | `2024-08-27` | `2024-09-30` | | | | |
+| **JEP 404**	- [Generational Shenandoah (Experimental)](https://openjdk.org/jeps/404) | [JDK-8260865](https://bugs.openjdk.org/browse/JDK-8260865) | `2021-02-01` | `2021-03-11` | `2023-06-16` | `2024-10-21` | | | | |
+| **JEP 472**	- [Prepare to Restrict the Use of JNI](https://openjdk.org/jeps/472) | [JDK-8307341](https://bugs.openjdk.org/browse/JDK-8307341) | `2023-05-03` | `2023-12-06` | `2024-05-03` | `2024-06-14` | `2024-07-16` | `2024-09-23` | | |
+| **JEP 475**	- [Late Barrier Expansion for G1](https://openjdk.org/jeps/475) | [JDK-8322295](https://bugs.openjdk.org/browse/JDK-8322295) | `2023-12-18` | `2023-03-13` | `2024-04-09` | `2024-09-25` | `2024-10-02` | `2024-10-07` | `2024-10-16` | |
+| **JEP 478**	- [Key Derivation Function API (Preview)](https://openjdk.org/jeps/478) | [JDK-8189808](https://bugs.openjdk.org/browse/JDK-8189808) | `2017-10-23` | `2024-03-22` | `2024-05-07` | `2024-10-23` | | | | |
+| **JEP 484**	- [Class-File API](https://openjdk.org/jeps/484) | [JDK-8334712](https://bugs.openjdk.org/browse/JDK-8334712) | `2024-06-21` | `2024-07-15` | `2024-08-27` | `2024-09-30` | `2024-10-08` | | | |
+| **JEP 485**	- [Stream Gatherers](https://openjdk.org/jeps/485) | [JDK-8335899](https://bugs.openjdk.org/browse/JDK-8335899) | `2024-07-08` | `2024-08-30` | `2024-09-02` | `2024-10-15` | `2024-10-24` | | | |
+| **JEP 487**	- [Scoped Values (Fourth Preview)](https://openjdk.org/jeps/487) | [JDK-8338456](https://bugs.openjdk.org/browse/JDK-8338456) | `2024-08-15` | `2024-09-02` | `2024-09-30` | `2024-10-23`| | | | |
+| **JEP 488**	- [Primitive Types in Patterns, instanceof, and switch (Second Preview)](https://openjdk.org/jeps/488) | [JDK-8335876](https://bugs.openjdk.org/browse/JDK-8335876) | `2024-07-08` | `2024-09-24` | `2024-09-30` | `2024-10-28` | | | | |
+| **JEP 489**	- [Vector API (Ninth Incubator)](https://openjdk.org/jeps/489) | [JDK-8340841](https://bugs.openjdk.org/browse/JDK-8340841) | `2024-09-24` | `2024-09-27` | `2024-09-30` | `2024-10-01` | `2024-10-10` | | | |
+| **JEP 490**	- [ZGC: Remove the Non-Generational Mode](https://openjdk.org/jeps/490) | [JDK-8335850](https://bugs.openjdk.org/browse/JDK-8335850) | `2024-07-08` | `2024-10-01` | `2024-10-07` | `2024-10-18` | | | | |
+| **JEP 493**	- [Linking Run-Time Images without JMODs](https://openjdk.org/jeps/493) | [JDK-8333799](https://bugs.openjdk.org/browse/JDK-8333799) | `2024-06-07` | `2024-09-17` | `2024-10-21` | `2024-10-25` | | | | |
 
 ## Java 23
 
