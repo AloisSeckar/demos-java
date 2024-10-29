@@ -16,7 +16,7 @@ https://kafka.apache.org/
 ## Apache Cassandra
 https://quarkus.io/
 - Distributed scalable NoSQL database written in Java.
-- 
+
 ## Apache Pulsar
 https://pulsar.apache.org/
 - Performant server-to-server messaging platform.
@@ -36,7 +36,7 @@ https://cheerpj.com/
 ## Ox
 https://github.com/softwaremill/ox/
 - An experimental library for structured concurrency in Java 21.
-- 
+
 ## jox
 https://github.com/softwaremill/jox/
 - Fast and scalable channels designed for JDK 21 virtual threads.
