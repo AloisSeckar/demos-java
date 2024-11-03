@@ -18,6 +18,8 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2024-10-31`** | [Java: Where the Wild Things Aren’t](https://thenewstack.io/java-where-the-wild-things-arent/) - overview of security handling improvements in Java ecosystem over a past few years |
+| **`2024-10-31`** | [Module Design Pattern with JEP-476](https://foojay.io/today/exploring-new-features-in-jdk-23-module-design-pattern-with-jep-476/) - **JEP 476** ability of importing the whole module can improve Java app design |
 | **`2024-10-24`** | [What's New in Apache Pulsar 4.0](https://pulsar.apache.org/blog/2024/10/24/announcing-apache-pulsar-4-0/) - new major version of performant server-to-server messaging tool |
 | **`2024-10-23`** | [Just-Write-And-Run prototyping with JEP-477 not only for beginners](https://foojay.io/today/exploring-new-features-in-jdk-23-just-write-and-run-prototyping-with-jep-477-not-only-for-beginners/) - declaring small Java programs is now much easier |
 | **`2024-10-22`** | [Java proposal would shrink JDK by 25%](https://www.infoworld.com/article/3578589/java-proposal-would-shrink-jdk-by-25.html) - new **JEP 493** is aiming for reducing Java size by enhanced use of **jlink** for runtime files |
