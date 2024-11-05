@@ -14,6 +14,12 @@ Stay up-to-date with the following even more dedicated websites:
 Check where can you meet fellow Java enthusiasts at:
 - https://javaconferences.org/
 
+## 2024 - November
+
+| Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
+| --- | :--  |
+| **`2024-11-05`** | [Java Evolves to Tackle Virtual Threads Pinning with JEP 491](https://www.infoq.com/news/2024/11/java-evolves-tackle-pinning/) - future evolution of **virtual threads** is planned to be included in **JDK 24** |
+
 ## 2024 - October
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
