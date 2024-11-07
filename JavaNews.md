@@ -18,6 +18,7 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2024-11-06`** | [12 Java Enhancement Proposals changing Java](https://www.infoworld.com/article/3598939/12-java-enhancement-proposals-changing-java.html) - a brief look at some JEPs that may make it into future JDK versions |
 | **`2024-11-05`** | [Java Evolves to Tackle Virtual Threads Pinning with JEP 491](https://www.infoq.com/news/2024/11/java-evolves-tackle-pinning/) - future evolution of **virtual threads** is planned to be included in **JDK 24** |
 
 ## 2024 - October
