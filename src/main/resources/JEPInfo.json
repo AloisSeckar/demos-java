@@ -45,7 +45,7 @@
     "jep": 471,
     "info": {
       "name": "JEP 471 - Deprecate the Memory-Access Methods in sun.misc.Unsafe for Removal",
-      "dscr": "See DeprecateMemoryAccessMethods class for further info"
+      "dscr": "No executable code, see DeprecateMemoryAccessMethods class for further info"
     }
   },
   {
