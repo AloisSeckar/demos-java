@@ -4,12 +4,10 @@ import org.javademos.commons.IDemo;
 
 /// Demo for JDK 22 feature **Region Pinning for G1** (JEP 423)
 ///
-/// Status: Stable
-///
-/// Evolution:
+/// JEP history:
 /// - JDK 22: [JEP 423 - Region Pinning for G1](https://openjdk.org/jeps/423)
 ///
-/// Further Reading:
+/// Further reading:
 /// - [Understanding Region Pinning in G1 GC](https://www.kosmadunikowski.com/posts/understanding-region-pinning-in-g1-gc/)
 ///
 /// @author alois.seckar@gmail.com

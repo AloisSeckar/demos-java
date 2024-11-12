@@ -4,12 +4,10 @@ import org.javademos.commons.IDemo;
 
 /// Demo for JDK 22 feature **Statements before super(...)** (JEP 447)
 ///
-/// Status: Preview
-///
-/// Evolution:
+/// JEP history:
 /// - JDK 22: [JEP 447 - Statements before super(...)](https://openjdk.org/jeps/447)
 ///
-/// Further Reading:
+/// Further reading:
 /// - [Constructor Makeover in Java 22](https://blog.jetbrains.com/idea/2024/02/constructor-makeover-in-java-22/)
 ///
 /// @author alois.seckar@gmail.com

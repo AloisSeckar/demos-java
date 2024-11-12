@@ -7,13 +7,11 @@ import java.util.LinkedList;
 
 /// Demo for JDK 22 feature **Unnamed Patterns and Variables** (JEP 456)
 ///
-/// Status: Stable
-///
-/// Evolution:
+/// JEP history:
 /// - JDK 22: [JEP 456 - Unnamed Patterns and Variables](https://openjdk.org/jeps/456)
 /// - JDK 21: [JEP 443 - Unnamed Patterns and Variables (preview)](https://openjdk.org/jeps/443)
 ///
-/// Further Reading:
+/// Further reading:
 /// - [Unnamed Patterns and Variables in Java](https://www.baeldung.com/java-unnamed-patterns-variables)
 ///
 /// @author [Krushit Babariya](https://github.com/Krushit-Babariya)

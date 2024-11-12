@@ -5,22 +5,21 @@ package org.javademos.commons;
 /// Override method 'demo()' in your implementation and include new instance
 /// into demoPool in Main.java
 ///
-/// Last review: 2024-09-22
+/// Last review: 2024-11-12
 ///
 /// TEMPLATE for demo implementation class JavaDocs:
 /// ```
 /// /// Demo for JDK <VER> feature **<JEP_NAME>** (JEP <NUM>)
 /// ///
-/// /// Status: [Stable|Preview|Incubator]
-/// ///
-/// /// Evolution:
+/// /// JEP history:
 /// /// - JDK <VER>: [JEP <NUM> - <JEP_NAME>](https://openjdk.org/jeps/<NUM>)
 /// /// - (repeat 1-n)
 /// ///
-/// /// Further Reading:
+/// /// Further reading:
 /// /// - [<ARTICLE_TITLE>](<ARTICLE_URL>)
 /// /// - (repeat 1-n)
 /// ///
+/// /// @see <RELEVANT_CLASS>
 /// /// @author alois.seckar@gmail.com
 /// ```
 ///

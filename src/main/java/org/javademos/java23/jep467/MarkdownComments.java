@@ -4,12 +4,10 @@ import org.javademos.commons.IDemo;
 
 /// Demo for JDK 23 feature **Markdown Documentation Comments** (JEP 467)
 ///
-/// Status: Stable
-///
-/// Evolution:
+/// JEP history:
 /// - JDK 23: [JEP 467 - Markdown Documentation Comments](https://openjdk.org/jeps/467)
 ///
-/// Further Reading:
+/// Further reading:
 /// - [Java Enhances Documentation with Markdown Support](https://www.infoq.com/news/2024/05/jep467-markdown-in-javadoc/)
 ///
 /// @author alois.seckar@gmail.com

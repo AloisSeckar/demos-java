@@ -4,12 +4,10 @@ import org.javademos.commons.IDemo;
 
 /// Demo for JDK 23 feature **Deprecate the Memory-Access Methods in sun.misc.Unsafe for Removal** (JEP 471)
 ///
-/// Status: Stable
-///
-/// Evolution:
+/// JEP history:
 /// - JDK 23: [JEP 471 - Deprecate the Memory-Access Methods in sun.misc.Unsafe for Removal](https://openjdk.org/jeps/471)
 ///
-/// Further Reading:
+/// Further reading:
 /// - [Embracing Safer Memory Access with JEP 471](https://foojay.io/today/unsafe-is-finally-going-away-embracing-safer-memory-access-with-jep-471/)
 ///
 /// @see sun.misc.Unsafe

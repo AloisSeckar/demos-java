@@ -6,10 +6,10 @@ import org.javademos.commons.IDemo;
 ///
 /// **New version of this JEP exists: JEP 456 in JDK 22**
 ///
-/// Evolution:
+/// JEP history:
 /// - JDK 21: [JEP 443 - Unnamed Patterns and Variables (preview)](https://openjdk.org/jeps/443)
 ///
-/// Further Reading:
+/// Further reading:
 /// - [Unnamed Patterns and Variables in Java](https://www.baeldung.com/java-unnamed-patterns-variables)
 ///
 ///  NOTE:
