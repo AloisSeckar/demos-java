@@ -2,22 +2,24 @@ package org.javademos.java21.jep443;
 
 import org.javademos.commons.IDemo;
 
-/**
- * This class demonstrates new feature called 'Unnamed Patterns and Variables'.
- *
- * REFERENCES:
- * Java 21 - https://openjdk.org/jeps/443 - Unnamed Patterns and Variables (Preview)
- *
- * Further reading:
- * https://www.baeldung.com/java-unnamed-patterns-variables
- *
- * NOTE:
- * This demo REQUIRES at least JDK 21.0.1 to run.
- * Initial version of JDK 21 has some issue that may cause compilation to fail.
- * https://softwaregarden.dev/en/posts/new-java/curious-case-of-jep443/
- *
- * @author alois.seckar@gmail.com
- */
+/// Demo for JDK 21 feature **Unnamed Patterns and Variables (preview)** (JEP 443)
+///
+/// **New version of this JEP exists: JEP 456 in JDK 22**
+///
+/// Evolution:
+/// - JDK 21: [JEP 443 - Unnamed Patterns and Variables (preview)](https://openjdk.org/jeps/443)
+///
+/// Further Reading:
+/// - [Unnamed Patterns and Variables in Java](https://www.baeldung.com/java-unnamed-patterns-variables)
+///
+///  NOTE:
+///  * This demo REQUIRES at least JDK 21.0.1 to run.
+///  * Initial version of JDK 21 has some issue that may cause compilation to fail.
+///  * https://softwaregarden.dev/en/posts/new-java/curious-case-of-jep443/
+///
+/// @see org.javademos.java22.jep456.UnnamedPatternsAndVariablesDemo
+/// @author [Krushit Babariya](https://github.com/Krushit-Babariya)
+///
 public class UnnamedPatternsAndVariablesDemo implements IDemo {
     @Override
     public void demo() {

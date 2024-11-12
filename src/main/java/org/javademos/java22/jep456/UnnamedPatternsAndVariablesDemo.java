@@ -5,17 +5,19 @@ import java.util.List;
 import java.util.Queue;
 import java.util.LinkedList;
 
-/**
- * This class demonstrates new features called 'Unnamed Patterns and Variables'.
- *
- * REFERENCES:
- * Java 22 - https://openjdk.org/jeps/456 - Unnamed Patterns and Variables (Preview)
- *
- * Further reading:
- * https://www.baeldung.com/java-unnamed-patterns-variables
- *
- * @author ---
- */
+/// Demo for JDK 22 feature **Unnamed Patterns and Variables** (JEP 456)
+///
+/// Status: Stable
+///
+/// Evolution:
+/// - JDK 22: [JEP 456 - Unnamed Patterns and Variables](https://openjdk.org/jeps/456)
+/// - JDK 21: [JEP 443 - Unnamed Patterns and Variables (preview)](https://openjdk.org/jeps/443)
+///
+/// Further Reading:
+/// - [Unnamed Patterns and Variables in Java](https://www.baeldung.com/java-unnamed-patterns-variables)
+///
+/// @author [Krushit Babariya](https://github.com/Krushit-Babariya)
+///
 public class UnnamedPatternsAndVariablesDemo implements IDemo {
     @Override
     public void demo() {
