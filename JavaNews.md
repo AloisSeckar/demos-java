@@ -18,6 +18,9 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2024-11-13`** | [JavaDays 2024](https://javadays.cz/) conference took place at **Prague, CZE** between 12th and 13th November |
+| **`2024-11-08`** | [Java proposals would boost resistance to quantum computing attacks](https://www.infoworld.com/article/3601103/java-proposals-would-boost-resistance-to-quantum-computing-attacks.html) - new **JEP 496** and **JEP 497** are intented to prepare Java for quantum computers |
+| **`2024-11-07`** | [J-Fall 2024](https://javadays.cz/) conference took place at **Ede, NED** on 7th November |
 | **`2024-11-06`** | [12 Java Enhancement Proposals changing Java](https://www.infoworld.com/article/3598939/12-java-enhancement-proposals-changing-java.html) - a brief look at some JEPs that may make it into future JDK versions |
 | **`2024-11-05`** | [Java Evolves to Tackle Virtual Threads Pinning with JEP 491](https://www.infoq.com/news/2024/11/java-evolves-tackle-pinning/) - future evolution of **virtual threads** is planned to be included in **JDK 24** |
 
