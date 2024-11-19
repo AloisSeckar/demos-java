@@ -18,6 +18,8 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2024-11-14`** | [Micronaut Framework 4.7.0 Released](https://micronaut.io/2024/11/14/micronaut-framework-4-7-0-released/) - new version of microservice-focused Java framework **Micronaut** |
+| **`2024-11-14`** | [Spring Framework 6.2.0 Available Now](https://spring.io/blog/2024/11/14/spring-framework-6-2-0-available-now) - new version of famous Java framework **Spring** |
 | **`2024-11-13`** | [JavaDays 2024](https://javadays.cz/) conference took place at **Prague, CZE** between 12th and 13th November |
 | **`2024-11-08`** | [Java proposals would boost resistance to quantum computing attacks](https://www.infoworld.com/article/3601103/java-proposals-would-boost-resistance-to-quantum-computing-attacks.html) - new **JEP 496** and **JEP 497** are intented to prepare Java for quantum computers |
 | **`2024-11-07`** | [J-Fall 2024](https://javadays.cz/) conference took place at **Ede, NED** on 7th November |
@@ -44,6 +46,7 @@ Check where can you meet fellow Java enthusiasts at:
 | **`2024-10-03`** | [JAX London](https://jaxlondon.com/) conference took place in **London, UK** between 30th September and 3rd October |
 | **`2024-10-03`** | [Spring Boot on Kubernetes with Eclipse JKube](https://piotrminkowski.com/2024/10/03/spring-boot-on-kubernetes-with-eclipse-jkube/) - tutorial for running cloud-based Spring Boot apps |
 | **`2024-10-01`** | [JRuby 10 due to arrive in early-2025](https://www.infoworld.com/article/3542893/jruby-10-due-to-arrive-in-early-2025.html) - new **Ruby for JVM** implementation including latest Java 17 and 21 features is on the way |
+| **`2024-10-01`** | [From Spring Framework 6.2 to 7.0](https://spring.io/blog/2024/10/01/from-spring-framework-6-2-to-7-0) - plans for **Spring** framework for the next year |
 | **`2024-10-01`** | [The new features in Java 24](https://www.infoworld.com/article/3491404/jdk-24-the-new-features-in-java-24.html) - with recent release of JDK 23, works on upcomming **JDK 24** began |
 
 ## 2024 - September
