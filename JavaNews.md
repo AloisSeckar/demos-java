@@ -14,10 +14,19 @@ Stay up-to-date with the following even more dedicated websites:
 Check where can you meet fellow Java enthusiasts at:
 - https://javaconferences.org/
 
+## 2024 - December
+
+| Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
+| --- | :--  |
+| **`2024-12-04`** | [Oracle Ships GraalVM Java JIT Compiler - but Only in Its Own JDK](https://www.infoq.com/news/2024/12/oracle-jdk-graalvm-jit-compiler/) - current state of Java JIT compilers |
+
 ## 2024 - November
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2024-11-28`** | [Modern Alternatives to Quartz Scheduler](https://foojay.io/today/task-schedulers-in-java-modern-alternatives-to-quartz-scheduler/) - options for automating periodical tasks in Java |
+| **`2024-11-22`** | [What's new in Spring Modulith 1.3?](https://spring.io/blog/2024/11/22/whats-new-in-spring-modulith-1-3) - popular framework supporting modulith architecture in Java apps has a new version |
+| **`2024-11-18`** | [Secure Java applications: A deep look into 3 different issues](https://developers.redhat.com/articles/2024/11/18/secure-java-applications-deep-look-3-different-issues) - understanding and preventing some common Java security vulnerabilities |
 | **`2024-11-14`** | [Micronaut Framework 4.7.0 Released](https://micronaut.io/2024/11/14/micronaut-framework-4-7-0-released/) - new version of microservice-focused Java framework **Micronaut** |
 | **`2024-11-14`** | [Spring Framework 6.2.0 Available Now](https://spring.io/blog/2024/11/14/spring-framework-6-2-0-available-now) - new version of famous Java framework **Spring** |
 | **`2024-11-13`** | [JavaDays 2024](https://javadays.cz/) conference took place at **Prague, CZE** between 12th and 13th November |
