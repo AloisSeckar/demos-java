@@ -18,6 +18,7 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2024-12-04`** | [Prevent LDAP injection in Java with SpringBoot](https://foojay.io/today/prevent-ldap-injection-in-java-with-springboot/) - how to avoid one common and serious security flaw |
 | **`2024-12-04`** | [Oracle Ships GraalVM Java JIT Compiler - but Only in Its Own JDK](https://www.infoq.com/news/2024/12/oracle-jdk-graalvm-jit-compiler/) - current state of Java JIT compilers |
 
 ## 2024 - November
@@ -30,6 +31,7 @@ Check where can you meet fellow Java enthusiasts at:
 | **`2024-11-14`** | [Micronaut Framework 4.7.0 Released](https://micronaut.io/2024/11/14/micronaut-framework-4-7-0-released/) - new version of microservice-focused Java framework **Micronaut** |
 | **`2024-11-14`** | [Spring Framework 6.2.0 Available Now](https://spring.io/blog/2024/11/14/spring-framework-6-2-0-available-now) - new version of famous Java framework **Spring** |
 | **`2024-11-13`** | [JavaDays 2024](https://javadays.cz/) conference took place at **Prague, CZE** between 12th and 13th November |
+| **`2024-11-09`** | [Some Common Java Gotchas](https://blog.vanillajava.blog/2024/11/some-common-java-gotchas.html) - short but handy reminder to avoid silly bugs |
 | **`2024-11-08`** | [Java proposals would boost resistance to quantum computing attacks](https://www.infoworld.com/article/3601103/java-proposals-would-boost-resistance-to-quantum-computing-attacks.html) - new **JEP 496** and **JEP 497** are intented to prepare Java for quantum computers |
 | **`2024-11-07`** | [J-Fall 2024](https://javadays.cz/) conference took place at **Ede, NED** on 7th November |
 | **`2024-11-06`** | [12 Java Enhancement Proposals changing Java](https://www.infoworld.com/article/3598939/12-java-enhancement-proposals-changing-java.html) - a brief look at some JEPs that may make it into future JDK versions |
