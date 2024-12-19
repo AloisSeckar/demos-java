@@ -59,7 +59,7 @@
     "jep": 474,
     "info": {
       "name": "JEP 474 - ZGC: Generational Mode by Default",
-      "dscr": "See ZGCGenerational class for further info"
+      "dscr": "No executable code, see ZGCGenerational class for further info"
     }
   },
   {
