@@ -2,13 +2,9 @@ package org.javademos.commons;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.io.*;
+import java.text.MessageFormat;
+import java.util.*;
 
 public class JEPInfo {
 
@@ -22,22 +18,26 @@ public class JEPInfo {
     private static Map<Integer, JEPDataInfo> getAllEntries() {
         var jeps = new HashMap<Integer, JEPDataInfo>();
 
-        try (InputStream inputStream = JEPInfo.class.getResourceAsStream("/JEPInfo.json")) {
-            if (inputStream != null) {
-                try (BufferedReader br = new BufferedReader(new InputStreamReader(inputStream))) {
-                    var JEPListType = new TypeToken<List<JEPData>>() {
-                    }.getType();
-                    var gson = new Gson();
-                    List<JEPData> data = gson.fromJson(br, JEPListType);
-                    data.forEach(d -> jeps.put(d.jep(), d.info()));
-                } catch (IOException e) {
-                    e.printStackTrace(System.out);
+        var sources = Arrays.asList(22, 23);
+        for (Integer src : sources) {
+            var srcFile = MessageFormat.format("/JDK{0}Info.json", src);
+            try (InputStream inputStream = JEPInfo.class.getResourceAsStream(srcFile)) {
+                if (inputStream != null) {
+                    try (BufferedReader br = new BufferedReader(new InputStreamReader(inputStream))) {
+                        var JEPListType = new TypeToken<List<JEPData>>() {
+                        }.getType();
+                        var gson = new Gson();
+                        List<JEPData> data = gson.fromJson(br, JEPListType);
+                        data.forEach(d -> jeps.put(d.jep(), d.info()));
+                    } catch (IOException e) {
+                        e.printStackTrace(System.out);
+                    }
+                } else {
+                    System.err.println(MessageFormat.format("InputStream {0} is null", src));
                 }
-            } else {
-                System.err.println("InputStream /JEPInfo.json is null");
+            } catch (IOException e) {
+                e.printStackTrace(System.out);
             }
-        } catch (IOException e) {
-            e.printStackTrace(System.out);
         }
 
         return jeps;

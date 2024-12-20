@@ -1,0 +1,16 @@
+[
+  {
+    "jep": 423,
+    "info": {
+      "name": "JEP 423 - Region Pinning for G1",
+      "dscr": "No executable code, see RegionPinningForG1 class for further info"
+    }
+  },
+  {
+    "jep": 447,
+    "info": {
+      "name": "JEP 447 - Statements before super(...)",
+      "dscr": "Since Java 22, super() it is no longer required\\nto be placed as first statement in constructor"
+    }
+  }
+]
