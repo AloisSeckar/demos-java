@@ -1,0 +1,9 @@
+[
+  {
+    "jep": 439,
+    "info": {
+      "name": "JEP 439 - Generational ZGC",
+      "dscr": "No executable code, see GenerationalZGC21.java for further info"
+    }
+  }
+]

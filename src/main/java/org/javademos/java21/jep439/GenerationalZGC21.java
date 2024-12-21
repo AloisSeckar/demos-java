@@ -1,29 +1,26 @@
-package org.javademos.java23.jep474;
+package org.javademos.java21.jep439;
 
 import org.javademos.commons.IDemo;
 
-/// Demo for JDK 23 feature **ZGC: Generational Mode by Default** (JEP 474)
+/// Demo for JDK 21 feature **Generational ZGC** (JEP 439)
 ///
 /// JEP history:
-/// - JDK 23: [JEP 474 - Generational Mode by Default](https://openjdk.org/jeps/474)
+/// - JDK 21: [JEP 439 - Generational Mode by Default](https://openjdk.org/jeps/439)
 ///
 /// Further reading:
-/// - [Generational Mode Now Standard for ZGC in Java](https://www.infoq.com/news/2024/05/java-zgc-update/)
 /// - [Introducing Generational ZGC](https://inside.java/2023/11/28/gen-zgc-explainer/)
 ///
 /// @author alois.seckar@gmail.com
 
-public class ZGCGenerational implements IDemo {
+public class GenerationalZGC21 implements IDemo {
     @Override
     public void demo() {
-        info(474);
+        info(439);
 
         // ZGC garbage collector was introduced by JEP 333 (Java 11) and made
         // production-ready via JEP 377 (Java 15).
-        // Further evolution - Generational ZGC - appeared in JEP 439 (Java 21).
-        // Now this mode is being marked default in favor over the older solution.
-        // Non-generational mode is now deprecated and has to be explicitly turned
-        // on via `-XX:+UseZGC -XX:-ZGenerational` (will show warnings).
+        // This is the further evolution - Generational ZGC.
+        // It can be turned on via `-XX:+UseZGC -XX:+ZGenerational`.
 
         // ZGC is intended to manage very large memory heaps (up to 16TB) with low
         // latency achieved by strong concurrency in exchange for consuming relatively

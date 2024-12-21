@@ -4,6 +4,7 @@ import org.javademos.commons.IDemo;
 import org.javademos.java21.extras.J21Demo;
 import org.javademos.java21.jep430.StringTemplatesDemo;
 import org.javademos.java21.jep431.SequencedCollectionsDemo;
+import org.javademos.java21.jep439.GenerationalZGC21;
 import org.javademos.java21.jep440.RecordPatternsDemo;
 import org.javademos.java21.jep441.PatternMatchingForSwitchDemo;
 import org.javademos.java21.jep443.UnnamedPatternsAndVariablesDemo;
@@ -31,6 +32,7 @@ public class Java21 {
         java21DemoPool.add(new SequencedCollectionsDemo());
         java21DemoPool.add(new VectorAPIDemo());
         java21DemoPool.add(new UnnamedPatternsAndVariablesDemo());
+        java21DemoPool.add(new GenerationalZGC21());
 
         return java21DemoPool;
     }
