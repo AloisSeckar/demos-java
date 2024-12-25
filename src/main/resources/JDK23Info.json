@@ -73,7 +73,7 @@
     "jep": 481,
     "info": {
       "name": "JEP 481 - Scoped Values (Third Preview)",
-      "dscr": "See ScopedValues class for further info"
+      "dscr": "Scoped Values enable a method to share immutable data both within a thread and in child threads"
     }
   },
   {

@@ -9,7 +9,7 @@ import org.javademos.commons.IDemo;
 /// - JDK 23: [JEP 482 - Flexible Constructor Bodies (Second Preview)](https://openjdk.org/jeps/482)
 /// - JDK 22: [JEP 447 - Statements before super(...) (Preview)](https://openjdk.org/jeps/447)
 ///
-/// - Will have new implementation in JDK 23 via [JEP 492](https://openjdk.org/jeps/492)
+/// Will have a new implementation in JDK 23 via [JEP 492](https://openjdk.org/jeps/492)
 ///
 /// Further reading:
 /// - [Flexible Constructors in Java](https://medium.com/@nabeeltariqbhatti/flexible-constructors-in-java-e882a98de46c)

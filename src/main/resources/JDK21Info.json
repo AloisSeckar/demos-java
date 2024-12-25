@@ -5,5 +5,12 @@
       "name": "JEP 439 - Generational ZGC",
       "dscr": "No executable code, see GenerationalZGC21.java for further info"
     }
+  },
+  {
+    "jep": 464,
+    "info": {
+      "name": "JEP 446 - Scoped Values (Preview)",
+      "dscr": "Implementation moved into `org.javademos.java23.jep481.ScopedValues` (JEP 481)"
+    }
   }
 ]
