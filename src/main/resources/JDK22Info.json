@@ -10,7 +10,7 @@
     "jep": 447,
     "info": {
       "name": "JEP 447 - Statements before super(...)",
-      "dscr": "Since Java 22, super() it is no longer required\\nto be placed as first statement in constructor"
+      "dscr": "Implementation moved into `org.javademos.java23.jep482.FlexibleConstructorBodies` (JEP 482)"
     }
   }
 ]

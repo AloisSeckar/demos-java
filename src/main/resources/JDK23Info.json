@@ -80,7 +80,7 @@
     "jep": 482,
     "info": {
       "name": "JEP 482 - Flexible Constructor Bodies (Second Preview)",
-      "dscr": "See FlexibleConstructorBodies class for further info"
+      "dscr": "Since Java 22, super() is no longer required to be placed as first statement in constructor"
     }
   }
 ]
