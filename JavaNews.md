@@ -18,6 +18,8 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2024-12-25`** | [Ulyp: Recording Java Execution Flow for Faster Debugging](https://dzone.com/articles/ulyp-recording-java-execution-flow-for-faster-debugging) - an introduction to open-source code flow visualization tool **Ulyp** |
+| **`2024-12-24`** | [JavaOne: A Lifetime of Java Learning in Three Days](https://inside.java/2024/12/24/javaone-lifetime-of-learning/) - an invitation to the upcomming **JavaOne** conference |
 | **`2024-12-20`** | [Introduction to AutoMQ: A Cost-Effective Kafka Alternative](https://www.baeldung.com/automq-kafka-alternative) - explore possible alternative to an established market leader |
 | **`2024-12-20`** | [Apache TomEE 10.0.0 is Now Generally Available](https://www.linkedin.com/posts/richard-zowalla-5b2572155_release-integrity-activity-7275959780534358016--lUt/) - new major version of **Apache TomEE** (Tomcat with Jakarta EE support) was released after 2 years of development |
 | **`2024-12-19`** | [Queues in Apache Kafka: Enhancing Message Processing and Scalability](https://www.confluent.io/blog/queues-on-kafka/) - working with queues in **Apache Kafka** in Confluent |
