@@ -10,7 +10,7 @@ import org.javademos.commons.IDemo;
 /// - JDK 21: [JEP 446 - Scoped Values (Preview)](https://openjdk.org/jeps/446)
 /// - JDK 20: [JEP 429 - Scoped Values (Incubator)](https://openjdk.org/jeps/429)
 ///
-/// Will have a new implementation in JDK 23 via [JEP 487](https://openjdk.org/jeps/487)
+/// Will have a new implementation in JDK 24 via [JEP 487](https://openjdk.org/jeps/487)
 ///
 /// Further reading:
 /// - [Third Preview of Scoped Values API Brings Key Enhancements in JDK 23](https://www.infoq.com/news/2024/07/jep-481-enhanced-scoped-values/)
