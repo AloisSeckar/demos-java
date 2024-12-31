@@ -52,7 +52,7 @@
     "jep": 476,
     "info": {
       "name": "JEP 476 - Module Import Declarations (Preview)",
-      "dscr": "See ModuleImportDeclarations class for further info"
+      "dscr": "Java now allows 'import module <x>' statement to simplify import declarations"
     }
   },
   {

@@ -192,6 +192,7 @@ Check where can you meet fellow Java enthusiasts at:
 | **`2024-05-16`** | [JCON EUROPE 2024](https://2024.europe.jcon.one/) - big Java conference took place from 13th to 16th May, 2024 in Cologne (GER) |
 | **`2024-05-14`** | [How to Use Java Streams for Working With Data](https://blog.jetbrains.com/idea/2024/05/easy-hacks-how-to-use-java-streams-for-working-with-data/) - tutorial for using **Streams**, a gamechanging feature introduced in **JDK 8** |
 | **`2024-05-14`** | [Oracle extends support for Java 11, Java on Solaris](https://www.infoworld.com/article/3715350/oracle-extends-support-for-java-11-java-on-solaris.html) - Java 11 will be supported longer than previously announced + couple of other news |
+| **`2024-05-13`** | [Simplifying Java Development with Module Import](https://www.infoq.com/news/2024/05/simplifying-java-module-import/) - preview of an upcomming **JEP 476** targetted into **JDK 23** |
 | **`2024-05-06`** | [Infinispan Unveils 15.0.0 with an Advanced RESP Endpoint and Requires JDK 17](https://www.infoq.com/news/2024/05/infinispan-15/) - new version of key/value data store **Infinispan** was released |
 | **`2024-05-03`** | [Generational Mode Now Standard for ZGC in Java](https://www.infoq.com/news/2024/05/java-zgc-update/) - introducing **JEP 474** heading for JDK 23 |
 | **`2024-05-02`** | [What’s New in IntelliJ IDEA Ultimate 2024.1](https://blog.jetbrains.com/idea/2024/05/what-s-new-in-intellij-idea-ultimate-2024-1/) - the famous Java IDE comes up with new version with new features |
