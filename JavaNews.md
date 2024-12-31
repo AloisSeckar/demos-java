@@ -20,6 +20,7 @@ Check where can you meet fellow Java enthusiasts at:
 | --- | :--  |
 | **`2024-12-25`** | [Ulyp: Recording Java Execution Flow for Faster Debugging](https://dzone.com/articles/ulyp-recording-java-execution-flow-for-faster-debugging) - an introduction to open-source code flow visualization tool **Ulyp** |
 | **`2024-12-24`** | [JavaOne: A Lifetime of Java Learning in Three Days](https://inside.java/2024/12/24/javaone-lifetime-of-learning/) - an invitation to the upcomming **JavaOne** conference |
+| **`2024-12-23`** | [Apache Camel 3 - End of Life](https://camel.apache.org/blog/2024/12/camel3-eol/) - version 3.x of **Apache Camel** got it final update **3.22.3** and will not be actively maintained in 2025 and on |
 | **`2024-12-20`** | [Introduction to AutoMQ: A Cost-Effective Kafka Alternative](https://www.baeldung.com/automq-kafka-alternative) - explore possible alternative to an established market leader |
 | **`2024-12-20`** | [Apache TomEE 10.0.0 is Now Generally Available](https://www.linkedin.com/posts/richard-zowalla-5b2572155_release-integrity-activity-7275959780534358016--lUt/) - new major version of **Apache TomEE** (Tomcat with Jakarta EE support) was released after 2 years of development |
 | **`2024-12-19`** | [Queues in Apache Kafka: Enhancing Message Processing and Scalability](https://www.confluent.io/blog/queues-on-kafka/) - working with queues in **Apache Kafka** in Confluent |
@@ -27,6 +28,8 @@ Check where can you meet fellow Java enthusiasts at:
 | **`2024-12-18`** | [Translating Java to Kotlin at Scale](https://engineering.fb.com/2024/12/18/android/translating-java-to-kotlin-at-scale/) - practical experience with shifting from Java to Kotlin in Meta |
 | **`2024-12-16`** | [Testing Spring Boot Applications Using Testcontainers](https://blog.jetbrains.com/idea/2024/12/testing-spring-boot-applications-using-testcontainers/) - practical guide for using **Testcontainers** for Spring Boot |
 | **`2024-12-12`** | [Java Applet API heads for the exit](https://www.infoworld.com/article/3623579/java-applet-api-heads-for-the-exit.html) - new JEP aims for final removal Java Applet API from JDK |
+| **`2024-12-11`** | [Java in the Small](https://www.javaadvent.com/2024/12/java-in-the-small.html) - collection of tips for optimizing small Java programs |
+| **`2024-12-11`** | [Announcing Spring AI MCP: A Java SDK for the Model Context Protocol](https://spring.io/blog/2024/12/11/spring-ai-mcp-announcement) - new technology from **Spring** team for AI world |
 | **`2024-12-05`** | [JDK 24: The new features in Java 24](https://www.infoworld.com/article/3491404/jdk-24-the-new-features-in-java-24.html) - overview of new things about to appear in next year's **JDK 24** release |
 | **`2024-12-04`** | [Prevent LDAP injection in Java with SpringBoot](https://foojay.io/today/prevent-ldap-injection-in-java-with-springboot/) - how to avoid one common and serious security flaw |
 | **`2024-12-04`** | [Oracle Ships GraalVM Java JIT Compiler - but Only in Its Own JDK](https://www.infoq.com/news/2024/12/oracle-jdk-graalvm-jit-compiler/) - current state of Java JIT compilers |
