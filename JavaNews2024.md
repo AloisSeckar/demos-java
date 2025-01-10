@@ -81,6 +81,7 @@ What was the Java world up to in 2024?
 | **`2024-09-18`** | [Welcome, GraalVM for JDK 23!](https://medium.com/graalvm/welcome-graalvm-for-jdk-23-203928491b2b) - Java 23 is available in latest **GraalVM** version |
 | **`2024-09-17`** | [Spring AI Transforms Java for GenAI App Delivery](https://thenewstack.io/spring-ai-transforms-java-for-genai-app-delivery/) - you are not required to use Python for AI tasks anymore - there is a Java solution too! |
 | **`2024-09-23`** | [JavaFX 23 is here](https://gluonhq.com/javafx-23-is-here/) - up-to-date version of **JavaFX** was also released the same day as **JDK 23** |
+| **`2024-09-17`** | [Primitive Types in Patterns, instanceof, and switch in Java 23](https://softwaremill.com/primitive-types-in-patterns-instanceof-and-switch-in-java-23/) - closer look to **JEP ¨455** and what it brings |
 | **`2024-09-17`** | [Java 23 Has Arrived](https://foojay.io/today/java-23-has-arrived-and-it-brings-a-truckload-of-changes/) - an alternative summary of the new features in **JDK 23** |
 | **`2024-09-17`** | [Java 23 and IntelliJ IDEA](https://blog.jetbrains.com/idea/2024/09/java-23-and-intellij-idea/) - Java 23 is already available in the newest version of JetBrains' **IDEA 2024.2** |
 | **`2024-09-17`** | [The Arrival of Java 23](https://blogs.oracle.com/java/post/the-arrival-of-java-23) - the **Day** is here, **JDK 23** was officially released |

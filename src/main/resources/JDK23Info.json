@@ -3,7 +3,7 @@
     "jep": 455,
     "info": {
       "name": "JEP 455 - Primitive Types in Patterns, instanceof, and switch (Preview)",
-      "dscr": "See PrimitiveTypesInPatterns class for further info"
+      "dscr": "It is now possible to use primitive data types for pattern matching"
     }
   },
   {
