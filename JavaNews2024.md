@@ -14,9 +14,14 @@ What was the Java world up to in 2024?
 | **`2024-12-18`** | [InfoQ Java Trends Report - December 2024](https://www.infoq.com/articles/java-trends-report-2024/) - trends and versions/technology usage based on latest survey |
 | **`2024-12-18`** | [Translating Java to Kotlin at Scale](https://engineering.fb.com/2024/12/18/android/translating-java-to-kotlin-at-scale/) - practical experience with shifting from Java to Kotlin in Meta |
 | **`2024-12-16`** | [Testing Spring Boot Applications Using Testcontainers](https://blog.jetbrains.com/idea/2024/12/testing-spring-boot-applications-using-testcontainers/) - practical guide for using **Testcontainers** for Spring Boot |
+| **`2024-12-16`** | [Post-Quantum Cryptography in Java](https://www.infoq.com/news/2024/12/java-post-quantum/) - the reason why Java needs paired **JEP 496** and **JEP 497** |
+| **`2024-12-15`** | [How JVM handles exceptions](https://nataliiadziubenko.com/2024/12/15/how-jvm-handles-exceptions.html) - a deep-dive under the hood of JVM to understand try-catch-finally better |
 | **`2024-12-12`** | [Java Applet API heads for the exit](https://www.infoworld.com/article/3623579/java-applet-api-heads-for-the-exit.html) - new JEP aims for final removal Java Applet API from JDK |
 | **`2024-12-11`** | [Java in the Small](https://www.javaadvent.com/2024/12/java-in-the-small.html) - collection of tips for optimizing small Java programs |
 | **`2024-12-11`** | [Announcing Spring AI MCP: A Java SDK for the Model Context Protocol](https://spring.io/blog/2024/12/11/spring-ai-mcp-announcement) - new technology from **Spring** team for AI world |
+| **`2024-12-11`** | [JDK 24: Retiring the Security Manager](https://inside.java/2024/12/11/quality-heads-up/) - explaining **JEP 486** delivered in JDK 24 |
+| **`2024-12-10`** | [JDK 24: Security Properties Files Inclusion](https://inside.java/2024/12/10/quality-heads-up/) - introducing the new way of managing security configuration in JDK 24 |
+| **`2024-12-09`** | [JDK 24: Prepares Restricted Native Access](https://inside.java/2024/12/09/quality-heads-up/) - explaining **JEP 472** delivered in JDK 24 |
 | **`2024-12-05`** | [JDK 24: The new features in Java 24](https://www.infoworld.com/article/3491404/jdk-24-the-new-features-in-java-24.html) - overview of new things about to appear in next year's **JDK 24** release |
 | **`2024-12-04`** | [Prevent LDAP injection in Java with SpringBoot](https://foojay.io/today/prevent-ldap-injection-in-java-with-springboot/) - how to avoid one common and serious security flaw |
 | **`2024-12-04`** | [Oracle Ships GraalVM Java JIT Compiler - but Only in Its Own JDK](https://www.infoq.com/news/2024/12/oracle-jdk-graalvm-jit-compiler/) - current state of Java JIT compilers |
