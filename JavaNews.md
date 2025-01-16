@@ -18,6 +18,7 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2024-01-16`** | [Reflections on 2024: A Remarkable Year for OmniFish, GlassFish, Piranha, and Jakarta EE](https://foojay.io/today/reflections-on-2024-a-remarkable-year-for-omnifish-glassfish-piranha-and-jakarta-ee/) - looking back at the last year in (part of the) Java ecosystem |
 | **`2024-01-09`** | [WildFly 35 is released](https://www.wildfly.org/news/2025/01/09/WildFly35Released/) - new version of WildFly app server supporting MicroProfile 7.0 and Jakarta EE 11 Core Profile specifications |
 | **`2024-01-08`** | [GlassFish update fixes restart hangs, random 403 responses](https://www.infoworld.com/article/3635392/glassfish-update-fixes-restart-hangs-random-403-responses.html) - Eclipse's Java application server GlassFish version 7 got a new patch relase |
 | **`2024-01-07`** | [The Countdown to JavaOne 2025 is On!](https://inside.java/2025/01/07/the-countdown-to-javaone-2025/) - an official reminder that the biggest Java conference is approaching |
