@@ -18,6 +18,8 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2024-01-25`** | [The OpenJDK’s plans for Java in 2025](https://www.infoworld.com/article/3808114/the-openjdks-plans-for-java-in-2025.html) - what can we expect this year in Java? |
+| **`2024-01-23`** | [Spring Milestones to Maven Central](https://spring.io/blog/2025/01/21/milestones-to-central) - **Spring** is moving their "preview" artifacts from a custom repository into Maven Central |
 | **`2024-01-16`** | [Reflections on 2024: A Remarkable Year for OmniFish, GlassFish, Piranha, and Jakarta EE](https://foojay.io/today/reflections-on-2024-a-remarkable-year-for-omnifish-glassfish-piranha-and-jakarta-ee/) - looking back at the last year in (part of the) Java ecosystem |
 | **`2024-01-09`** | [WildFly 35 is released](https://www.wildfly.org/news/2025/01/09/WildFly35Released/) - new version of WildFly app server supporting MicroProfile 7.0 and Jakarta EE 11 Core Profile specifications |
 | **`2024-01-08`** | [GlassFish update fixes restart hangs, random 403 responses](https://www.infoworld.com/article/3635392/glassfish-update-fixes-restart-hangs-random-403-responses.html) - Eclipse's Java application server GlassFish version 7 got a new patch relase |
