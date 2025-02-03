@@ -18,6 +18,10 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2024-01-30`** | [State of Java report shows strong migration from Java 8, rise of Apache Spark](https://devclass.com/2025/01/30/state-of-java-report-shows-strong-migration-from-java-8-rise-of-apache-spark/) - another look at Azul's "State of Java" results |
+| **`2024-01-29`** | [Evolution of Java Ecosystem for Integrating AI](https://inside.java/2025/01/29/evolution-of-java-ecosystem-for-integrating-ai/) - explore current possibilities of AI in Java |
+| **`2024-01-28`** | [Java-based organizations mostly use Java for AI development](https://www.infoworld.com/article/3810885/java-based-organizations-mostly-use-java-for-ai-development-report.html) - an interpretation of Azul's "State of Java" summing up the most interesting results |
+| **`2024-01-28`** | [Azul 2025 State of Java Survey & Report](https://www.azul.com/newsroom/azul-2025-state-of-java-survey-report/) - **Azul** unveils its annual "State of Java" |
 | **`2024-01-25`** | [The OpenJDK’s plans for Java in 2025](https://www.infoworld.com/article/3808114/the-openjdks-plans-for-java-in-2025.html) - what can we expect this year in Java? |
 | **`2024-01-23`** | [Spring Milestones to Maven Central](https://spring.io/blog/2025/01/21/milestones-to-central) - **Spring** is moving their "preview" artifacts from a custom repository into Maven Central |
 | **`2024-01-16`** | [Reflections on 2024: A Remarkable Year for OmniFish, GlassFish, Piranha, and Jakarta EE](https://foojay.io/today/reflections-on-2024-a-remarkable-year-for-omnifish-glassfish-piranha-and-jakarta-ee/) - looking back at the last year in (part of the) Java ecosystem |
