@@ -77,6 +77,10 @@ https://www.jbang.dev/
 https://github.com/HanSolo/JDKMon
 - Lightweight JavaFX tool for managing and updating different JDK installations.
 
+## LangChain4J
+https://docs.langchain4j.dev/
+- Simplified integrations of LLMs into Java applications.
+
 ## SD4J
 https://github.com/oracle-samples/sd4j
 - Implementation of Stable Diffusion inference running on top of ONNX Runtime, written in Java.
