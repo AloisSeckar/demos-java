@@ -14,6 +14,12 @@ Stay up-to-date with the following even more dedicated websites:
 Check where can you meet fellow Java enthusiasts at:
 - https://javaconferences.org/
 
+## 2025 - February
+
+| Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
+| --- | :--  |
+| **`2024-02-03`** | [Join the Celebration of 30 Years of Java](https://foojay.io/today/join-the-celebration-of-30-years-of-java/) - there will be a virtual event to commemorate the upcomming anniversary of Java |
+
 ## 2025 - January
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
