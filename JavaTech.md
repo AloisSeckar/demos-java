@@ -21,6 +21,10 @@ https://quarkus.io/
 https://pulsar.apache.org/
 - Performant server-to-server messaging platform.
 
+## Apache Spark
+https://spark.apache.org/
+- Unified analytics engine for large-scale data processing.
+
 ## Helidon
 https://helidon.io/
 - Cloud-native set of Java libraries for writing microservices utilizing Java virtual threads.
