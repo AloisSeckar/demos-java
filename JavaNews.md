@@ -18,13 +18,18 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2024-02-10`** | [Where's Java Going In 2025?](https://www.i-programmer.info/programming/178-java/17816-wheres-java-going-in-2025.html) - some takeaways and ideas based on last "State of java" survey |
+| **`2024-02-05`** | [CheerpJ 3.1: JVM in WebAssembly and our roadmap for modern Java in the browser](https://labs.leaningtech.com/blog/cheerpj-3.1) - recap and planned evolution of the **CheerpJ** tool |
+| **`2024-02-03`** | [Java Stream API: 3 Things Every Developer Should Know About](https://dzone.com/articles/java-stream-api-things-developer-should-know) - useful reminder of important things to have in mind when working with Java streams |
 | **`2024-02-03`** | [Join the Celebration of 30 Years of Java](https://foojay.io/today/join-the-celebration-of-30-years-of-java/) - there will be a virtual event to commemorate the upcomming anniversary of Java |
 
 ## 2025 - January
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2024-01-31`** | [Top Java Conferences and Events in 2025](https://blog.jetbrains.com/idea/2025/01/top-java-conferences-and-events-in-2025/) - selection of most prominent Java events around the world for this year |
 | **`2024-01-30`** | [State of Java report shows strong migration from Java 8, rise of Apache Spark](https://devclass.com/2025/01/30/state-of-java-report-shows-strong-migration-from-java-8-rise-of-apache-spark/) - another look at Azul's "State of Java" results |
+| **`2024-01-29`** | [Introducing Model Context Protocol servers project](https://quarkus.io/blog/introducing-mcp-servers/) - newest **Quarkus** team's addition into connecting AI models with Java applications |
 | **`2024-01-29`** | [Evolution of Java Ecosystem for Integrating AI](https://inside.java/2025/01/29/evolution-of-java-ecosystem-for-integrating-ai/) - explore current possibilities of AI in Java |
 | **`2024-01-28`** | [Java-based organizations mostly use Java for AI development](https://www.infoworld.com/article/3810885/java-based-organizations-mostly-use-java-for-ai-development-report.html) - an interpretation of Azul's "State of Java" summing up the most interesting results |
 | **`2024-01-28`** | [Azul 2025 State of Java Survey & Report](https://www.azul.com/newsroom/azul-2025-state-of-java-survey-report/) - **Azul** unveils its annual "State of Java" |
