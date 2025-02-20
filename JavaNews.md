@@ -18,6 +18,7 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2025-02-14`** | [Introducing the Model Context Protocol Java SDK](https://spring.io/blog/2025/02/14/mcp-java-sdk-released-2) - how MCP goes along with Spring |
 | **`2025-02-13`** | [JDK 24 and JDK 25: What We Know So Far](https://www.infoq.com/news/2025/02/java-24-so-far/) - insight into current state of the upcomming JDK releases |
 | **`2025-02-10`** | [Where's Java Going In 2025?](https://www.i-programmer.info/programming/178-java/17816-wheres-java-going-in-2025.html) - some takeaways and ideas based on last "State of java" survey |
 | **`2024-02-05`** | [Jfokus 2025](https://www.jfokus.se/) conference took place at **Stockholm, SWE** between 2nd and 4th February |
