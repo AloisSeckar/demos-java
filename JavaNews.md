@@ -18,8 +18,14 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2025-02-27`** | [Introduction to ActiveJ](https://www.baeldung.com/activej) - learn about the framework for high-performance apps |
+| **`2025-02-26`** | [Java 24 : What’s New?](https://foojay.io/today/java-24-whats-new/) - new JDK version is knocking at the door |
+| **`2025-02-25`** | [Java 24: Build Games, Prototypes, Utilities, and More—With Less Boilerplate](https://blog.jetbrains.com/idea/2025/02/java-24-build-games-prototypes-utilities-and-more-with-less-boilerplate/) - introducing some features that will land in **JDK 24** |
+| **`2025-02-21`** | [Apache NetBeans 25 Released](https://netbeans.apache.org/front/main/blogs/entry/announce-apache-netbeans-25-released/) - the last version of Java IDE is out |
+| **`2025-02-20`** | [Pi4J Welcomes Java 21 on the Raspberry Pi](https://foojay.io/today/pi4j-welcomes-java-21-on-the-raspberry-pi/) - **JDK 21** made it into Rapsberry Pi world |
 | **`2025-02-14`** | [Introducing the Model Context Protocol Java SDK](https://spring.io/blog/2025/02/14/mcp-java-sdk-released-2) - how MCP goes along with Spring |
 | **`2025-02-13`** | [JDK 24 and JDK 25: What We Know So Far](https://www.infoq.com/news/2025/02/java-24-so-far/) - insight into current state of the upcomming JDK releases |
+| **`2025-02-11`** | [Micronaut Framework 4.7.0 Provides Integration with LangChain4j and Graal Languages](https://www.infoq.com/news/2025/02/micronaut-langchain4j/) - what is new in latest version of **Micronaut** framework |
 | **`2025-02-10`** | [Where's Java Going In 2025?](https://www.i-programmer.info/programming/178-java/17816-wheres-java-going-in-2025.html) - some takeaways and ideas based on last "State of java" survey |
 | **`2024-02-05`** | [Jfokus 2025](https://www.jfokus.se/) conference took place at **Stockholm, SWE** between 2nd and 4th February |
 | **`2025-02-05`** | [CheerpJ 3.1: JVM in WebAssembly and our roadmap for modern Java in the browser](https://labs.leaningtech.com/blog/cheerpj-3.1) - recap and planned evolution of the **CheerpJ** tool |
