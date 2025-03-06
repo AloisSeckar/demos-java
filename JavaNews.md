@@ -14,6 +14,13 @@ Stay up-to-date with the following even more dedicated websites:
 Check where can you meet fellow Java enthusiasts at:
 - https://javaconferences.org/
 
+## 2025 - March
+
+| Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
+| --- | :--  |
+| **`2025-03-05`** | [Actuator Enhancements: Spring Framework 6.2 and Spring Boot 3.4](https://dzone.com/articles/actuator-enhancements-spring-framework-spring-boot) - improvements for observability and monitoring in latest Spring (Boot) editions |
+| **`2025-03-03`** | [The most relevant new features in JDK 24](https://www.infoworld.com/article/3830643/the-most-relevant-new-features-in-jdk-24.html) - Java 24 will be a big release (24 JEPs), what deserves the most attention? |
+
 ## 2025 - February
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
