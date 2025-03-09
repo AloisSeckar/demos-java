@@ -18,7 +18,9 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2025-03-05`** | [The best Java and JVM language frameworks](https://www.infoworld.com/article/3836016/the-best-java-and-jvm-language-frameworks.html) - did you heard about all of them? |
 | **`2025-03-05`** | [Actuator Enhancements: Spring Framework 6.2 and Spring Boot 3.4](https://dzone.com/articles/actuator-enhancements-spring-framework-spring-boot) - improvements for observability and monitoring in latest Spring (Boot) editions |
+| **`2025-03-04`** | [JDK 25 kicks off with a stable values API](https://www.infoworld.com/article/3837990/jdk-25-kicks-off-with-a-stable-values-api.html) - the first feature proposed to be included in Java 25 in September |
 | **`2025-03-03`** | [The most relevant new features in JDK 24](https://www.infoworld.com/article/3830643/the-most-relevant-new-features-in-jdk-24.html) - Java 24 will be a big release (24 JEPs), what deserves the most attention? |
 
 ## 2025 - February
