@@ -18,6 +18,13 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2025-03-14`** | [The new features in Java 25](https://www.infoworld.com/article/3846172/jdk-25-the-new-features-in-java-25.html) - there are already first new features aimed to be a part of **JDK 25** |
+| **`2025-03-13`** | [Java hiring plans slip, survey says](https://www.infoworld.com/article/3845502/java-hiring-plans-slip-survey-says.html) - the state of Java developers' market based on a current survey |
+| **`2025-03-13`** | [The First NoSQL Specification for Jakarta EE is Here!](https://www.linkedin.com/pulse/jakarta-nosql-10-first-specification-ee-here-otavio-santana-83igf/) - the specification for **Jakarta NoSQL 1.0** was released |
+| **`2025-03-12`** | [How to Improve JVM-Based Application Startup Time?](https://softwaremill.com/how-to-improve-jvm-based-application-startup-time/) - some options available for getting Java apps up and running in shorter time |
+| **`2025-03-12`** | [Oracle’s Java Platform Extension for Visual Studio Code Passes 2.5 Million Downloads!](https://inside.java/2025/03/12/vscode-extension-update/) - a milestone for the official VS Code extension for Java |
+| **`2025-03-12`** | [What's new in Java 24](https://pvs-studio.com/en/blog/posts/java/1233/) - a summary of new features in the upcomming **JDK 24** |
+| **`2025-03-11`** | [Path Traversal Vulnerability in DJL and Its Impact on Java AI Development](https://foojay.io/today/path-traversal-vulnerability-in-deep-java-library-djl-and-its-impact-on-java-ai-development/) - explanation of the recent CVE-2025-0851 vulnerability discovered in major Java AI library |
 | **`2025-03-05`** | [The best Java and JVM language frameworks](https://www.infoworld.com/article/3836016/the-best-java-and-jvm-language-frameworks.html) - did you heard about all of them? |
 | **`2025-03-05`** | [Actuator Enhancements: Spring Framework 6.2 and Spring Boot 3.4](https://dzone.com/articles/actuator-enhancements-spring-framework-spring-boot) - improvements for observability and monitoring in latest Spring (Boot) editions |
 | **`2025-03-04`** | [JDK 25 kicks off with a stable values API](https://www.infoworld.com/article/3837990/jdk-25-kicks-off-with-a-stable-values-api.html) - the first feature proposed to be included in Java 25 in September |
