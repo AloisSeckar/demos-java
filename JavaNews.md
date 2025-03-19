@@ -18,6 +18,10 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2025-03-18`** | [Project Leyden Ships Third Option for Faster Application Start](https://www.infoq.com/news/2025/03/java-24-leyden-ships/) - a closer look to new JDK feature **JEP 483** |
+| **`2025-03-18`** | [Java 24 Rolls Out Today! Find Out Why It’s Aptly Named](https://foojay.io/today/java-24-rolls-out-today-find-out-why-its-aptly-named/) - with 24 JEPs included, **JDK 24** is one of the biggest releases |
+| **`2025-03-18`** | [Welcome, GraalVM for JDK 24!](https://medium.com/graalvm/welcome-graalvm-for-jdk-24-7c829fe98ea1) - unsurprisingly, new version of **GraalVM** compatible with the latest **JDK 24** is also available since today |
+| **`2025-03-18`** | [The Arrival of Java 24](https://blogs.oracle.com/java/post/the-arrival-of-java-24) - today's release announcement of **JDK 24** from **Oracle** blog |
 | **`2025-03-14`** | [The new features in Java 25](https://www.infoworld.com/article/3846172/jdk-25-the-new-features-in-java-25.html) - there are already first new features aimed to be a part of **JDK 25** |
 | **`2025-03-13`** | [Java hiring plans slip, survey says](https://www.infoworld.com/article/3845502/java-hiring-plans-slip-survey-says.html) - the state of Java developers' market based on a current survey |
 | **`2025-03-13`** | [The First NoSQL Specification for Jakarta EE is Here!](https://www.linkedin.com/pulse/jakarta-nosql-10-first-specification-ee-here-otavio-santana-83igf/) - the specification for **Jakarta NoSQL 1.0** was released |
