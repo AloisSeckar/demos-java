@@ -1,13 +1,14 @@
 # JEP Status
 Latest changes in JDK based on [OpenJDK JEP Index](https://openjdk.org/jeps/0)
 
-**Last updated: 2025-03-03**
+**Last updated: 2025-03-19**
 
 ## Java 25
 
 | JEP | Ticket | Draft | Sumbitted | Candidate | Proposed | Targeted | Integrated | Completed | Closed |
 | :-- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| **JEP 502**	- [Stable Values (Preview)](https://openjdk.org/jeps/502) | [JDK-8312611](https://bugs.openjdk.org/browse/JDK-8312611) | `2023-07-24` | `2024-10-10` | `2025-01-22` | `2025-02-27` | | | | |
+| **JEP 503**	- [Remove the 32-bit x86 Port](https://openjdk.org/jeps/503) | [JDK-8345168](https://bugs.openjdk.org/browse/JDK-8345168) | `2024-11-28` | `2024-12-10` | `2025-02-26` | `2025-03-04` | | | | |
+| **JEP 502**	- [Stable Values (Preview)](https://openjdk.org/jeps/502) | [JDK-8312611](https://bugs.openjdk.org/browse/JDK-8312611) | `2023-07-24` | `2024-10-10` | `2025-01-22` | `2025-02-27` | `2025-03-11` | | | |
 
 ## Java 24
 
