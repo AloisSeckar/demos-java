@@ -18,6 +18,9 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2025-03-19`** | [Performance Improvements in JDK 24](https://inside.java/2025/03/19/performance-improvements-in-jdk24/) - recap made by two skilled engineers from OpenJDK team |
+| **`2025-03-18`** | [Java 24 and IntelliJ IDEA](https://blog.jetbrains.com/idea/2025/03/java-24-and-intellij-idea/) - were they ready for JDK 24 in JetBrains? Yes, they were! |
+| **`2025-03-18`** | [Java 24 Delivers New Experimental and Many Final Features](https://www.infoq.com/news/2025/03/java24-released/) - yet another overview of what is new in the biggest Java update since JDK 9 |
 | **`2025-03-18`** | [Project Leyden Ships Third Option for Faster Application Start](https://www.infoq.com/news/2025/03/java-24-leyden-ships/) - a closer look to new JDK feature **JEP 483** |
 | **`2025-03-18`** | [Java 24 Rolls Out Today! Find Out Why It’s Aptly Named](https://foojay.io/today/java-24-rolls-out-today-find-out-why-its-aptly-named/) - with 24 JEPs included, **JDK 24** is one of the biggest releases |
 | **`2025-03-18`** | [Welcome, GraalVM for JDK 24!](https://medium.com/graalvm/welcome-graalvm-for-jdk-24-7c829fe98ea1) - unsurprisingly, new version of **GraalVM** compatible with the latest **JDK 24** is also available since today |
