@@ -199,6 +199,7 @@ What was the Java world up to in 2024?
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
 | **`2024-04-25`** | [WildFly 32 is released!](https://www.wildfly.org/news/2024/04/25/WildFly32-Released/) - newest version of this Java-based application server |
+| **`2024-04-24`** | [Top 10 Tools for Kafka Engineers](https://thenewstack.io/top-10-tools-for-kafka-engineers/) - list of interesting technologies built around **Apache Kafka** |
 | **`2024-04-24`** | [Java thriving after 30 years](https://www.theregister.com/2024/04/24/java_thriving_after_30_years/) - a little retrospective about the last years of Java and namely OpenJDK |
 | **`2024-04-23`** | [Java proposal would add exception case to switch](https://www.infoworld.com/article/3715343/java-proposal-would-add-exception-case-to-switch.html) - first preview of a fresh **JEP 8323658** draft |
 | **`2024-04-23`** | [Oracle JDK Mission Control 9 adds dark theme, configurable JVM browser](https://www.infoworld.com/article/3715364/oracle-jdk-mission-control-9-adds-dark-theme-configurable-jvm-browser.html) - introducing newly released version of **JMC** |
