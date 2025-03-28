@@ -18,7 +18,12 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2025-03-25`** | [Introduction to OSHI](https://www.baeldung.com/java-oshi) - learn about library for fetching system-level details without any native dependencies |
+| **`2025-03-25`** | [Oracle releases ML-optimized GraalVM for JDK 24](https://www.infoworld.com/article/3853988/oracle-releases-ml-optimized-graalvm-for-jdk-24.html) - new **GraalVM** is promising faster performance and improved efficiency for Java-based machine learning workloads |
+| **`2025-03-24`** | [The New Look and Feel of Apache Kafka 4.0](https://thenewstack.io/the-new-look-and-feel-of-apache-kafka-4-0/) - new **Apache Kafka** 4.0 includes revamped interface and enhanced performance features |
+| **`2024-03-20`** | [JavaOne 2025](https://www.oracle.com/javaone/) conference took place at **Redwood Shores, CA, USA** between 18th and 20th March |
 | **`2025-03-19`** | [Performance Improvements in JDK 24](https://inside.java/2025/03/19/performance-improvements-in-jdk24/) - recap made by two skilled engineers from OpenJDK team |
+| **`2025-03-18`** | [Apache Kafka 4.0.0 Release Announcement](https://kafka.apache.org/blog#apache_kafka_400_release_announcement) - new major version of famous event streaming solution **Kafka** is out |
 | **`2025-03-18`** | [Java 24 and IntelliJ IDEA](https://blog.jetbrains.com/idea/2025/03/java-24-and-intellij-idea/) - were they ready for JDK 24 in JetBrains? Yes, they were! |
 | **`2025-03-18`** | [Java 24 Delivers New Experimental and Many Final Features](https://www.infoq.com/news/2025/03/java24-released/) - yet another overview of what is new in the biggest Java update since JDK 9 |
 | **`2025-03-18`** | [Project Leyden Ships Third Option for Faster Application Start](https://www.infoq.com/news/2025/03/java-24-leyden-ships/) - a closer look to new JDK feature **JEP 483** |
