@@ -14,6 +14,12 @@ Stay up-to-date with the following even more dedicated websites:
 Check where can you meet fellow Java enthusiasts at:
 - https://javaconferences.org/
 
+## 2025 - April
+
+| Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
+| --- | :--  |
+| **`2025-04-01`** | [Java plan prepares to restrict final field mutation](https://www.infoworld.com/article/3951101/java-plan-prepares-to-restrict-final-field-mutation.html) - introducing new JEP draft "Prepare to Make Final Mean Final"  |
+
 ## 2025 - March
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
