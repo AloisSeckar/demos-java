@@ -18,7 +18,13 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
-| **`2025-04-01`** | [Java plan prepares to restrict final field mutation](https://www.infoworld.com/article/3951101/java-plan-prepares-to-restrict-final-field-mutation.html) - introducing new JEP draft "Prepare to Make Final Mean Final"  |
+| **`2025-04-10`** | [Markdown in Java Docs? Shut Up and Take My Comments!](https://blog.jetbrains.com/idea/2025/04/markdown-in-java-docs-shut-up-and-take-my-comments/) - since Java 23 you can use Markdown syntax in your comments |
+| **`2025-04-08`** | [Kafka 4.0: KRaft Simplifies Architecture](https://www.infoq.com/news/2025/04/kafka-4-kraft-architecture/) - summary of changes introduced in the new major version of Apache Kafka |
+| **`2025-04-04`** | [New Null Checks in Inner Class Constructors](https://inside.java/2025/04/04/quality-heads-up/) - OpenJDK Quality Group informs about changes planned for JDK 25 |
+| **`2025-04-03`** | [Six JDK 24 Features You Should Know About](https://foojay.io/today/six-jdk-24-features-you-should-know-about/) - there are 24 major JEP changes in Java 24, which are the most interesting ones? |
+| **`2025-04-03`** | [JavaLand 2025](https://www.javaland.eu/en/recollections/javaland-2025/) conference took place at **Nürburgring, GER** between 1st and 3rd April |
+| **`2025-04-01`** | [JDK 24 G1/Parallel/Serial GC changes](https://tschatzl.github.io/2025/04/01/jdk24-g1-serial-parallel-gc-changes.html) - what is new in Garbage Collecting in Java 24 and what is planned for the future |
+| **`2025-04-01`** | [Java plan prepares to restrict final field mutation](https://www.infoworld.com/article/3951101/java-plan-prepares-to-restrict-final-field-mutation.html) - introducing new JEP draft "Prepare to Make Final Mean Final" |
 
 ## 2025 - March
 
@@ -43,6 +49,7 @@ Check where can you meet fellow Java enthusiasts at:
 | **`2025-03-12`** | [Oracle’s Java Platform Extension for Visual Studio Code Passes 2.5 Million Downloads!](https://inside.java/2025/03/12/vscode-extension-update/) - a milestone for the official VS Code extension for Java |
 | **`2025-03-12`** | [What's new in Java 24](https://pvs-studio.com/en/blog/posts/java/1233/) - a summary of new features in the upcomming **JDK 24** |
 | **`2025-03-11`** | [Path Traversal Vulnerability in DJL and Its Impact on Java AI Development](https://foojay.io/today/path-traversal-vulnerability-in-deep-java-library-djl-and-its-impact-on-java-ai-development/) - explanation of the recent CVE-2025-0851 vulnerability discovered in major Java AI library |
+| **`2025-03-06`** | [Devnexus 2025](https://devnexus.com/) conference took place at **Atlanta, USA** between 4th and 6th March |
 | **`2025-03-05`** | [The best Java and JVM language frameworks](https://www.infoworld.com/article/3836016/the-best-java-and-jvm-language-frameworks.html) - did you heard about all of them? |
 | **`2025-03-05`** | [Actuator Enhancements: Spring Framework 6.2 and Spring Boot 3.4](https://dzone.com/articles/actuator-enhancements-spring-framework-spring-boot) - improvements for observability and monitoring in latest Spring (Boot) editions |
 | **`2025-03-04`** | [JDK 25 kicks off with a stable values API](https://www.infoworld.com/article/3837990/jdk-25-kicks-off-with-a-stable-values-api.html) - the first feature proposed to be included in Java 25 in September |
@@ -61,7 +68,7 @@ Check where can you meet fellow Java enthusiasts at:
 | **`2025-02-13`** | [JDK 24 and JDK 25: What We Know So Far](https://www.infoq.com/news/2025/02/java-24-so-far/) - insight into current state of the upcomming JDK releases |
 | **`2025-02-11`** | [Micronaut Framework 4.7.0 Provides Integration with LangChain4j and Graal Languages](https://www.infoq.com/news/2025/02/micronaut-langchain4j/) - what is new in latest version of **Micronaut** framework |
 | **`2025-02-10`** | [Where's Java Going In 2025?](https://www.i-programmer.info/programming/178-java/17816-wheres-java-going-in-2025.html) - some takeaways and ideas based on last "State of java" survey |
-| **`2024-02-05`** | [Jfokus 2025](https://www.jfokus.se/) conference took place at **Stockholm, SWE** between 2nd and 4th February |
+| **`2025-02-05`** | [Jfokus 2025](https://www.jfokus.se/) conference took place at **Stockholm, SWE** between 2nd and 4th February |
 | **`2025-02-05`** | [CheerpJ 3.1: JVM in WebAssembly and our roadmap for modern Java in the browser](https://labs.leaningtech.com/blog/cheerpj-3.1) - recap and planned evolution of the **CheerpJ** tool |
 | **`2025-02-03`** | [Java Stream API: 3 Things Every Developer Should Know About](https://dzone.com/articles/java-stream-api-things-developer-should-know) - useful reminder of important things to have in mind when working with Java streams |
 | **`2025-02-03`** | [Join the Celebration of 30 Years of Java](https://foojay.io/today/join-the-celebration-of-30-years-of-java/) - there will be a virtual event to commemorate the upcomming anniversary of Java |
