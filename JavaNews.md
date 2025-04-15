@@ -18,6 +18,7 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2025-04-10`** | [WildFly 36 is released](https://www.wildfly.org/news/2025/04/10/WildFly36Released/) - new version of WildFly app server was released |
 | **`2025-04-10`** | [Markdown in Java Docs? Shut Up and Take My Comments!](https://blog.jetbrains.com/idea/2025/04/markdown-in-java-docs-shut-up-and-take-my-comments/) - since Java 23 you can use Markdown syntax in your comments |
 | **`2025-04-08`** | [Kafka 4.0: KRaft Simplifies Architecture](https://www.infoq.com/news/2025/04/kafka-4-kraft-architecture/) - summary of changes introduced in the new major version of Apache Kafka |
 | **`2025-04-04`** | [New Null Checks in Inner Class Constructors](https://inside.java/2025/04/04/quality-heads-up/) - OpenJDK Quality Group informs about changes planned for JDK 25 |
