@@ -18,11 +18,16 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2025-04-18`** | [Async file IO with Java and io_uring](https://foojay.io/today/async-file-io-with-java-and-io_uring/) - how to use features from Project Panama and Linux library io_uringt to increase performance of Virtual Threads for IO operations |
+| **`2025-04-17`** | [Enter the parallel universe of Java’s Vector API](https://www.infoworld.com/article/3963958/enter-the-parallel-universe-of-javas-vector-api.html) - a closer look to Vector API which is incubating over last few JDK versions |
+| **`2025-04-16`** | [IntelliJ IDEA 2025.1 Is Out!](https://blog.jetbrains.com/idea/2025/04/intellij-idea-2025-1/) - newest iteration of IDEA Java IDE is here, supporting Java 24 and more |
+| **`2025-04-15`** | [JRuby 10 brings faster startup times](https://www.infoworld.com/article/3963151/jruby-10-brings-faster-startup-times.html) - new version of JRuby - a Ruby for JVM - was released, with Java 21 support and other features |
 | **`2025-04-10`** | [WildFly 36 is released](https://www.wildfly.org/news/2025/04/10/WildFly36Released/) - new version of WildFly app server was released |
 | **`2025-04-10`** | [Markdown in Java Docs? Shut Up and Take My Comments!](https://blog.jetbrains.com/idea/2025/04/markdown-in-java-docs-shut-up-and-take-my-comments/) - since Java 23 you can use Markdown syntax in your comments |
 | **`2025-04-08`** | [Kafka 4.0: KRaft Simplifies Architecture](https://www.infoq.com/news/2025/04/kafka-4-kraft-architecture/) - summary of changes introduced in the new major version of Apache Kafka |
 | **`2025-04-04`** | [New Null Checks in Inner Class Constructors](https://inside.java/2025/04/04/quality-heads-up/) - OpenJDK Quality Group informs about changes planned for JDK 25 |
 | **`2025-04-03`** | [Six JDK 24 Features You Should Know About](https://foojay.io/today/six-jdk-24-features-you-should-know-about/) - there are 24 major JEP changes in Java 24, which are the most interesting ones? |
+| **`2025-04-03`** | [Sonatype warns of 18,000 open source malware packages](https://www.infoworld.com/article/3953841/sonatype-warns-of-18000-open-source-malware-packages.html) - be careful what you download from popular package repositores |
 | **`2025-04-03`** | [JavaLand 2025](https://www.javaland.eu/en/recollections/javaland-2025/) conference took place at **Nürburgring, GER** between 1st and 3rd April |
 | **`2025-04-01`** | [JDK 24 G1/Parallel/Serial GC changes](https://tschatzl.github.io/2025/04/01/jdk24-g1-serial-parallel-gc-changes.html) - what is new in Garbage Collecting in Java 24 and what is planned for the future |
 | **`2025-04-01`** | [Java plan prepares to restrict final field mutation](https://www.infoworld.com/article/3951101/java-plan-prepares-to-restrict-final-field-mutation.html) - introducing new JEP draft "Prepare to Make Final Mean Final" |
@@ -31,6 +36,7 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2025-03-27`** | [How to Create JavaFX Native Images](https://bell-sw.com/blog/how-to-create-javafx-native-images/) - how to speed-up JavaFX with native builds for GraalVM |
 | **`2025-03-25`** | [Introduction to OSHI](https://www.baeldung.com/java-oshi) - learn about library for fetching system-level details without any native dependencies |
 | **`2025-03-25`** | [Oracle releases ML-optimized GraalVM for JDK 24](https://www.infoworld.com/article/3853988/oracle-releases-ml-optimized-graalvm-for-jdk-24.html) - new **GraalVM** is promising faster performance and improved efficiency for Java-based machine learning workloads |
 | **`2025-03-24`** | [The New Look and Feel of Apache Kafka 4.0](https://thenewstack.io/the-new-look-and-feel-of-apache-kafka-4-0/) - new **Apache Kafka** 4.0 includes revamped interface and enhanced performance features |
