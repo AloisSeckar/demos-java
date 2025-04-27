@@ -35,6 +35,7 @@ What was the Java world up to in 2023?
 | **`2023-11-29`** | [Get started with Java's new structured concurrency model](https://www.infoworld.com/article/3711361/get-started-with-javas-new-structured-concurrency-model.html) - a closer look to the new Java 21 preview feature (JEP 453) |
 | **`2023-11-28`** | [Introducing Generational ZGC](https://inside.java/2023/11/28/gen-zgc-explainer/) - great article introducing the latest evolution of Java garbage collector ZGC |
 | **`2023-11-24`** | [String Templates in Java – why should you care?](https://blog.jetbrains.com/idea/2023/11/string-templates-in-java-why-should-you-care/) - a closer look to new Java 21 preview feature to manipulate with texts - **String templates** |
+| **`2023-11-22`** | [Project Valhalla: A look inside Java’s epic refactor](https://www.infoworld.com/article/2337986/project-valhalla-a-look-inside-javas-epic-refactor.html) - what is about to come to improve Java through the project called **Valhalla** |
 | **`2023-11-21`** | [JCON WORLD](https://2023.world.jcon.one/) - 3 days online conference with 100+ speakers |
 | **`2023-11-20`** | [Java and the String Odyssey](https://www.unlogged.io/post/java-and-the-string-odyssey-navigating-changes-from-jdk-1-to-jdk-21) - an exhaustive history of working with **Strings** in Java from JDK 1 to JDK 21 |
 | **`2023-11-20`** | [JDK 22: The new features in Java 22](https://www.infoworld.com/article/3708329/jdk-22-the-new-features-in-java-22.html) - summing up what is about to be included in upcomming Java 22 in March 2024 |
