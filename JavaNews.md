@@ -18,6 +18,10 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2025-04-23`** | [LittleHorse, a Java Workflow Engine for Distributed Systems Orchestration](https://www.infoq.com/news/2025/04/littlehorse/) - an introduction into **LittleHorse** tool |
+| **`2025-04-22`** | [Jakarta EE 11 Web Profile Released, Enabled by Eclipse GlassFish](https://foojay.io/today/jakarta-ee-11-web-profile-released-enabled-by-eclipse-glassfish/) - **GlassFish** is now the first implementation compatible with Jakarta EE 11 Web Profile specification |
+| **`2025-04-22`** | [GraalVM (Finally) Gets Java for WebAssembly](https://thenewstack.io/graalvm-finally-gets-java-for-webassembly/) - **GraalVM** now works well with **Wasm** for better interoperability with other languages |
+| **`2025-04-20`** | [Introduction to Apache Kylin](https://www.baeldung.com/apache-kylin-intro) - an introduction into **Kylin**, an OLAP engine to work with big data |
 | **`2025-04-18`** | [Async file IO with Java and io_uring](https://foojay.io/today/async-file-io-with-java-and-io_uring/) - how to use features from Project Panama and Linux library io_uringt to increase performance of Virtual Threads for IO operations |
 | **`2025-04-17`** | [Enter the parallel universe of Java’s Vector API](https://www.infoworld.com/article/3963958/enter-the-parallel-universe-of-javas-vector-api.html) - a closer look to Vector API which is incubating over last few JDK versions |
 | **`2025-04-16`** | [IntelliJ IDEA 2025.1 Is Out!](https://blog.jetbrains.com/idea/2025/04/intellij-idea-2025-1/) - newest iteration of IDEA Java IDE is here, supporting Java 24 and more |
