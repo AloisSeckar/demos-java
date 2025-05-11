@@ -14,13 +14,24 @@ Stay up-to-date with the following even more dedicated websites:
 Check where can you meet fellow Java enthusiasts at:
 - https://javaconferences.org/
 
+## 2025 - May
+
+| Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
+| --- | :--  |
+| **`2025-05-09`** | [JBang Jash Brings Streamlined Process Execution to Java](https://www.infoq.com/news/2025/05/jbang-jash/) - an introduction into new Java library designed to simplify the execution of external processes and shell commands |
+| **`2025-05-25`** | [Instance Main Methods Move from Preview to Final in JDK 25](https://www.infoq.com/news/2025/05/jdk25-instance-main-methods/) - new **JEP 512** will be delivered in **JDK 25** |
+
+
 ## 2025 - April
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2025-04-29`** | [Apache Tomcat Vulnerability Let Attackers Bypass Rules & Trigger DoS Condition](https://cybersecuritynews.com/apache-tomcat-vulnerability-let-bypass-rules/) - leading Java application server **Tomcat** was once again hit by a high severity vulnerability |
+| **`2025-04-29`** | [Announcing Jipher: Java Cryptographic Service Provider for FIPS Environments](https://blogs.oracle.com/java/post/jipher-java-cryptographic-service-provider-for-fips-environments) - official release statement for the new cryptographic tool by Oracle |
 | **`2025-04-23`** | [LittleHorse, a Java Workflow Engine for Distributed Systems Orchestration](https://www.infoq.com/news/2025/04/littlehorse/) - an introduction into **LittleHorse** tool |
 | **`2025-04-22`** | [Jakarta EE 11 Web Profile Released, Enabled by Eclipse GlassFish](https://foojay.io/today/jakarta-ee-11-web-profile-released-enabled-by-eclipse-glassfish/) - **GlassFish** is now the first implementation compatible with Jakarta EE 11 Web Profile specification |
 | **`2025-04-22`** | [GraalVM (Finally) Gets Java for WebAssembly](https://thenewstack.io/graalvm-finally-gets-java-for-webassembly/) - **GraalVM** now works well with **Wasm** for better interoperability with other languages |
+| **`2025-04-21`** | [Spring Cloud Data Flow End of Open-Source](https://spring.io/blog/2025/04/21/spring-cloud-data-flow-commercial) - Spring team about to stop supporting open-source variant of Spring Cloud Data Flow in favor of commercial **Tanzu Spring** solution |
 | **`2025-04-20`** | [Introduction to Apache Kylin](https://www.baeldung.com/apache-kylin-intro) - an introduction into **Kylin**, an OLAP engine to work with big data |
 | **`2025-04-18`** | [Async file IO with Java and io_uring](https://foojay.io/today/async-file-io-with-java-and-io_uring/) - how to use features from Project Panama and Linux library io_uringt to increase performance of Virtual Threads for IO operations |
 | **`2025-04-17`** | [Enter the parallel universe of Java’s Vector API](https://www.infoworld.com/article/3963958/enter-the-parallel-universe-of-javas-vector-api.html) - a closer look to Vector API which is incubating over last few JDK versions |
