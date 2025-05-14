@@ -18,9 +18,9 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2025-05-12`** | [JEP 505 Delivers Fifth Preview of Java's Structured Concurrency with Key API Refinements](https://www.infoq.com/news/2025/05/jep-505-concurrency-preview-5/) - a closer look on **JEP 505** being targeted into **JDK 25** |
 | **`2025-05-09`** | [JBang Jash Brings Streamlined Process Execution to Java](https://www.infoq.com/news/2025/05/jbang-jash/) - an introduction into new Java library designed to simplify the execution of external processes and shell commands |
-| **`2025-05-25`** | [Instance Main Methods Move from Preview to Final in JDK 25](https://www.infoq.com/news/2025/05/jdk25-instance-main-methods/) - new **JEP 512** will be delivered in **JDK 25** |
-
+| **`2025-05-05`** | [Instance Main Methods Move from Preview to Final in JDK 25](https://www.infoq.com/news/2025/05/jdk25-instance-main-methods/) - new **JEP 512** will be delivered in **JDK 25** |
 
 ## 2025 - April
 
