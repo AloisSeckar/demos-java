@@ -38,6 +38,7 @@ What was the Java world up to in 2024?
 | **`2024-11-18`** | [Secure Java applications: A deep look into 3 different issues](https://developers.redhat.com/articles/2024/11/18/secure-java-applications-deep-look-3-different-issues) - understanding and preventing some common Java security vulnerabilities |
 | **`2024-11-14`** | [Micronaut Framework 4.7.0 Released](https://micronaut.io/2024/11/14/micronaut-framework-4-7-0-released/) - new version of microservice-focused Java framework **Micronaut** |
 | **`2024-11-14`** | [Spring Framework 6.2.0 Available Now](https://spring.io/blog/2024/11/14/spring-framework-6-2-0-available-now) - new version of famous Java framework **Spring** |
+| **`2024-11-13`** | [Java 24 to Reduce Object Header Size and Save Memory](https://www.infoq.com/news/2024/11/compact-headers-java24/) - a closer look at **JEP 450** delivered in JDK 24 |
 | **`2024-11-13`** | [JavaDays 2024](https://javadays.cz/) conference took place at **Prague, CZE** between 12th and 13th November |
 | **`2024-11-09`** | [Some Common Java Gotchas](https://blog.vanillajava.blog/2024/11/some-common-java-gotchas.html) - short but handy reminder to avoid silly bugs |
 | **`2024-11-08`** | [Java proposals would boost resistance to quantum computing attacks](https://www.infoworld.com/article/3601103/java-proposals-would-boost-resistance-to-quantum-computing-attacks.html) - new **JEP 496** and **JEP 497** are intented to prepare Java for quantum computers |
