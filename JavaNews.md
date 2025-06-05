@@ -14,10 +14,33 @@ Stay up-to-date with the following even more dedicated websites:
 Check where can you meet fellow Java enthusiasts at:
 - https://javaconferences.org/
 
+## 2025 - June
+
+| Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
+| --- | :--  |
+| **`2025-06-04`** | [Java’s Structured Concurrency: Finally Finding Its Footing](https://foojay.io/today/javas-structured-concurrency-finally-finding-its-footing/) - a closer look at **JEP 505** heading into **JDK 25** |
+
 ## 2025 - May
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2025-05-30`** | [CheerpJ WebAssembly JVM previews Java 17 support](https://www.infoworld.com/article/3999644/cheerpj-webassembly-jvm-previews-java-17-support.html) - tool for running Java in browsers **CheerpJ 4.1** is supporting **JDK 17** |
+| **`2025-05-30`** | [Apache Tomcat CGI Servlet Vulnerability Allows Security Constraint Bypass](https://cybersecuritynews.com/apache-tomcat-cgi-servlet-vulnerability/) - another **Tomcat** vulnerability was detected and fixed |
+| **`2025-05-28`** | [JDK 25: The new features in Java 25](https://www.infoworld.com/article/3846172/jdk-25-the-new-features-in-java-25.html) - periodicaly updated preview of upcoming Java LTS version |
+| **`2025-05-27`** | [How Java Sparked an Open Source Revolution 30 Years Ago](https://thenewstack.io/how-java-sparked-an-open-source-revolution-30-years-ago/) - Java is more than just another programming language |
+| **`2025-05-23`** | [Java turns 30, and there’s no stopping it now](https://www.infoworld.com/article/3993579/java-turns-30-and-theres-no-stopping-it-now.html) - happy birthday, dear Java! |
+| **`2025-05-23`** | [Spring Boot 3.5 Delivers Improved Configuration, Containers, and SSL, Shortens Free Support](https://www.infoq.com/news/2025/05/spring-boot-3-5/) - what is new in **Spring Boot 3.5**? |
+| **`2025-05-22`** | [Embabel: A New Agent Platform For the JVM](https://medium.com/@springrod/embabel-a-new-agent-platform-for-the-jvm-1c83402e0014) - an introduction of a new open-source framework for AI agents on JVMs |
+| **`2025-05-22`** | [Spring Boot 3.5.0 available now](https://spring.io/blog/2025/05/22/spring-boot-3-5-0-available-now) - new significant release for this most popular Java framework |
+| **`2025-05-21`** | [Google releases agent development kits for Python and Java](https://www.infoworld.com/article/3992434/google-releases-agent-development-kits-for-python-and-java.html) - creating AI agents is now easier thanks to those aspiring tooling |
+| **`2025-05-20`** | [Announcing Azure Command Launcher for Java](https://devblogs.microsoft.com/java/announcing-azure-command-launcher-for-java/) - MicroSoft unveils **jaz**, JVM launcher optimized for Azure |
+| **`2025-05-20`** | [Announcing Eclipse Data Grid for Distributed EclipseStore Applications](https://microstream.one/blog/2025/05/20/announcing-eclipse-data-grid-for-distributed-eclipsestore-applications/) - new OS solution for seamless replication and distribution of native Java object graphs across multiple JVMs in a cluster |
+| **`2025-05-20`** | [Spring AI 1.0 Released, Streamlines AI Application Development with Broad Model Support](https://www.infoq.com/news/2025/05/spring-ai-1-0-streamlines-apps/) - what is included in this new **Spring AI 1.0**? |
+| **`2025-05-20`** | [Spring AI 1.0 GA Released](https://spring.io/blog/2025/05/20/spring-ai-1-0-GA-released) - AI tooling for Spring framework was released |
+| **`2025-05-19`** | [Hibernate 7.0.0.Final](https://in.relation.to/2025/05/19/orm-70/) - popular ORM solution for Java apps gets new major version |
+| **`2025-05-16`** | [Using Python Libraries in Java](https://dzone.com/articles/using-python-libraries-in-java) - check how it is possible to make a fusion of Python and Java |
+| **`2025-05-16`** | [Spring Data 2025.0.0 goes GA](https://spring.io/blog/2025/05/16/spring-data-2025-0-goes-ga) - 2025 iteration of Spring Data was released |
+| **`2025-05-15`** | [Eclipse Vert.x 5 released](https://vertx.io/blog/eclipse-vert-x-5-released/) - new major version of Eclipse's event driven framework is available  |
 | **`2025-05-12`** | [JEP 505 Delivers Fifth Preview of Java's Structured Concurrency with Key API Refinements](https://www.infoq.com/news/2025/05/jep-505-concurrency-preview-5/) - a closer look on **JEP 505** being targeted into **JDK 25** |
 | **`2025-05-09`** | [JBang Jash Brings Streamlined Process Execution to Java](https://www.infoq.com/news/2025/05/jbang-jash/) - an introduction into new Java library designed to simplify the execution of external processes and shell commands |
 | **`2025-05-05`** | [Instance Main Methods Move from Preview to Final in JDK 25](https://www.infoq.com/news/2025/05/jdk25-instance-main-methods/) - new **JEP 512** will be delivered in **JDK 25** |
