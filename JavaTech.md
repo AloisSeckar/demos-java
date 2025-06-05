@@ -24,6 +24,10 @@ https://pulsar.apache.org/
 ## Apache Spark
 https://spark.apache.org/
 - Unified analytics engine for large-scale data processing.
+- 
+## Eclipse DataGrid
+https://spark.apache.org/
+- Unified analytics engine for large-scale data processing.
 
 ## Helidon
 https://helidon.io/
@@ -84,6 +88,10 @@ https://github.com/HanSolo/JDKMon
 ## LangChain4J
 https://docs.langchain4j.dev/
 - Simplified integrations of LLMs into Java applications.
+
+## Embabel Agent
+https://github.com/embabel/embabel-agent
+- Framework for AI agents in JVM environments
 
 ## SD4J
 https://github.com/oracle-samples/sd4j
