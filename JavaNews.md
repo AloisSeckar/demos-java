@@ -18,6 +18,8 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2025-06-06`** | [Hibernate Search 8.0.0.Final is out](https://in.relation.to/2025/06/06/hibernate-search-8-0-0-Final/) - following recent **Hibernate v7** release there is a new release of the full-text search tool |
+| **`2025-06-05`** | [JDK 26 - build 0](https://github.com/openjdk/jdk/releases/tag/jdk-26%2B0) - the very first build of **JDK 26** (release March 2026) was published |
 | **`2025-06-04`** | [Java’s Structured Concurrency: Finally Finding Its Footing](https://foojay.io/today/javas-structured-concurrency-finally-finding-its-footing/) - a closer look at **JEP 505** heading into **JDK 25** |
 
 ## 2025 - May
