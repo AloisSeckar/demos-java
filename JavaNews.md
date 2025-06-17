@@ -18,8 +18,12 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2025-06-14`** | [Meet Embabel: A Framework for Building AI Agents With Java](https://thenewstack.io/meet-embabel-a-framework-for-building-ai-agents-with-java/) - closer look to a new open-source solution for AI Agents in Java |
+| **`2025-06-13`** | [Async Programming in Java Repositories](https://thenewstack.io/async-programming-in-java-repositories/) - how to use **repository pattern** asynchronously |
+| **`2025-06-10`** | [Text Blocks in Java: Perfect for Multiline Strings](https://blog.jetbrains.com/idea/2025/06/text-blocks-in-java-perfect-for-multiline-strings/) - detailed overview of "text blocks" feature that has been first added into **JDK 15** |
 | **`2025-06-06`** | [Hibernate Search 8.0.0.Final is out](https://in.relation.to/2025/06/06/hibernate-search-8-0-0-Final/) - following recent **Hibernate v7** release there is a new release of the full-text search tool |
 | **`2025-06-05`** | [JDK 26 - build 0](https://github.com/openjdk/jdk/releases/tag/jdk-26%2B0) - the very first build of **JDK 26** (release March 2026) was published |
+| **`2025-06-04`** | [Project Crema: Open World for Native Image](https://github.com/oracle/graal/issues/11327) - an announcement of new interesting development in **GraalVM** ecosystem |
 | **`2025-06-04`** | [Java’s Structured Concurrency: Finally Finding Its Footing](https://foojay.io/today/javas-structured-concurrency-finally-finding-its-footing/) - a closer look at **JEP 505** heading into **JDK 25** |
 
 ## 2025 - May
