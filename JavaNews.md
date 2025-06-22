@@ -5,6 +5,7 @@ What is the Java world up to?
 Stay up-to-date with the following even more dedicated websites:
 - https://inside.java
 - https://blogs.oracle.com/java
+- https://javapro.io/
 - https://infoworld.com/category/java
 - https://dzone.com/java
 - https://baeldung.com/
@@ -30,6 +31,7 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2025-05-30`** | [JCON EUROPE 2025 raises the bar for Java events](https://javapro.io/2025/05/30/cinema-code-community-jcon-europe-2025-a-new-era-for-java-events/) - report from one of the biggest Java conferences |
 | **`2025-05-30`** | [CheerpJ WebAssembly JVM previews Java 17 support](https://www.infoworld.com/article/3999644/cheerpj-webassembly-jvm-previews-java-17-support.html) - tool for running Java in browsers **CheerpJ 4.1** is supporting **JDK 17** |
 | **`2025-05-30`** | [Apache Tomcat CGI Servlet Vulnerability Allows Security Constraint Bypass](https://cybersecuritynews.com/apache-tomcat-cgi-servlet-vulnerability/) - another **Tomcat** vulnerability was detected and fixed |
 | **`2025-05-28`** | [JDK 25: The new features in Java 25](https://www.infoworld.com/article/3846172/jdk-25-the-new-features-in-java-25.html) - periodicaly updated preview of upcoming Java LTS version |
@@ -47,8 +49,10 @@ Check where can you meet fellow Java enthusiasts at:
 | **`2025-05-16`** | [Using Python Libraries in Java](https://dzone.com/articles/using-python-libraries-in-java) - check how it is possible to make a fusion of Python and Java |
 | **`2025-05-16`** | [Spring Data 2025.0.0 goes GA](https://spring.io/blog/2025/05/16/spring-data-2025-0-goes-ga) - 2025 iteration of Spring Data was released |
 | **`2025-05-15`** | [Eclipse Vert.x 5 released](https://vertx.io/blog/eclipse-vert-x-5-released/) - new major version of Eclipse's event driven framework is available  |
+| **`2025-05-15`** | [JCON EUROPE](https://2025.europe.jcon.one/) 30th anniversary Java conference took place in **Cologne, GER** between 12th and 15th May |
 | **`2025-05-12`** | [JEP 505 Delivers Fifth Preview of Java's Structured Concurrency with Key API Refinements](https://www.infoq.com/news/2025/05/jep-505-concurrency-preview-5/) - a closer look on **JEP 505** being targeted into **JDK 25** |
 | **`2025-05-09`** | [JBang Jash Brings Streamlined Process Execution to Java](https://www.infoq.com/news/2025/05/jbang-jash/) - an introduction into new Java library designed to simplify the execution of external processes and shell commands |
+| **`2025-05-09`** | [Devoxx UK](https://www.devoxx.co.uk/) (not only) Java conference took place in **London, GBR** between 7th and 9th May |
 | **`2025-05-05`** | [Instance Main Methods Move from Preview to Final in JDK 25](https://www.infoq.com/news/2025/05/jdk25-instance-main-methods/) - new **JEP 512** will be delivered in **JDK 25** |
 
 ## 2025 - April
