@@ -19,6 +19,13 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2025-06-26`** | [Inside Java’s Language Renaissance](https://thenewstack.io/inside-javas-language-renaissance/) - another summary of the key changes that made it into JDK in the recent versions |
+| **`2025-06-26`** | [Revitalizing Legacy Code](https://javapro.io/2025/06/26/revitalizing-legacy-code/) - considerations, challenges and possible approaches when dealing with legacy Java code in 2025 |
+| **`2025-06-25`** | [Jakarta EE 11: Empowering Enterprise Java Developers with Enhanced Productivity and Performance](https://blogs.eclipse.org/post/tatjana-obradovic/jakarta-ee-11-empowering-enterprise-java-developers-enhanced-productivity) - comments on the anticipated release of new **Jakarta EE** platform version |
+| **`2025-06-24`** | [Benchmarking and profiling Java with JMH](https://foojay.io/today/benchmarking-and-profiling-java-with-jmh/) - using **Java Microbenchmark Harness** fir measuring performance of Java apps |
+| **`2025-06-23`** | [From Java 8 to Java 21: How the Evolution Changed My Developer Workflow](https://dzone.com/articles/java-evolution-changed-developer-workflow) - why you should update from **Java 8** to **Java 21** if you haven't already |
+| **`2025-06-19`** | [Effective Exception Handling in Java and Spring Boot Applications](https://javapro.io/2025/06/19/java-and-databases-from-sql-to-jpa-and-nosql) - centralized exception handlers in **Spring Boot** via @ControllerAdvice and @ExceptionHandler |
+| **`2025-06-17`** | [Java and Databases: From SQL to JPA and NoSQL](https://dzone.com/articles/effective-exception-handling-java-spring-boot-application) - this retrospective focuses on the history of DB interactions in Java universe |
 | **`2025-06-14`** | [Meet Embabel: A Framework for Building AI Agents With Java](https://thenewstack.io/meet-embabel-a-framework-for-building-ai-agents-with-java/) - closer look to a new open-source solution for AI Agents in Java |
 | **`2025-06-13`** | [Async Programming in Java Repositories](https://thenewstack.io/async-programming-in-java-repositories/) - how to use **repository pattern** asynchronously |
 | **`2025-06-10`** | [Text Blocks in Java: Perfect for Multiline Strings](https://blog.jetbrains.com/idea/2025/06/text-blocks-in-java-perfect-for-multiline-strings/) - detailed overview of "text blocks" feature that has been first added into **JDK 15** |
