@@ -19,16 +19,21 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2025-07-08`** | [A visual chronicle of the JDK’s journey](https://javapro.io/2025/07/08/a-visual-chronicle-of-the-jdks-journey/) - an unorthodox look at the Java history throughout versions since Java 7 |
+| **`2025-07-03`** | [Azul Introduces 100 – 1000x More Accurate In-Production Java Vulnerability Detection](https://javapro.io/2025/07/03/azul-introduces-100-1000x-more-accurate-in-production-java-vulnerability-detection/) - Azul Vunlerability Detection radically improves threat reporting to DevOps teams |
+| **`2025-07-03`** | [Sunsetting legacy config classes in Quarkus](https://quarkus.io/blog/legacy-config-classes-sunsetting/) - be aware of important breaking changes in upcomming **Quarkus** versions |
 | **`2025-07-01`** | [Introducing Canonical builds of OpenJDK](https://canonical.com/blog/introducing-canonical-builds-of-openjdk) - JDK builds tailored for Ubuntu and the world of containers |
 
 ## 2025 - June
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
-| **`2025-06-26`** | [Quarkus and WildFly teams from Red Hat collaborating with Google on launch of Agent2Agent Java SDK](https://quarkus.io/blog/a2a-project-launches-java-sdk/) - new move on the AI agents field for Java |
+| **`2025-06-30`** | [What's new for JFR in JDK 25](https://egahlin.github.io/2025/05/31/whats-new-in-jdk-25.html) - upcomming enhancements and changes for **Java Flight Recorder** tool |
+| **`2025-06-27`** | [Quarkus and WildFly teams from Red Hat collaborating with Google on launch of Agent2Agent Java SDK](https://quarkus.io/blog/a2a-project-launches-java-sdk/) - new move on the AI agents field for Java |
 | **`2025-06-26`** | [Inside Java’s Language Renaissance](https://thenewstack.io/inside-javas-language-renaissance/) - another summary of the key changes that made it into JDK in the recent versions |
 | **`2025-06-26`** | [Revitalizing Legacy Code](https://javapro.io/2025/06/26/revitalizing-legacy-code/) - considerations, challenges and possible approaches when dealing with legacy Java code in 2025 |
 | **`2025-06-26`** | [The Eclipse Foundation’s Jakarta EE Working Group Announces Jakarta EE 11 Release](https://newsroom.eclipse.org/news/announcements/eclipse-foundation%E2%80%99s-jakarta-ee-working-group-announces-jakarta-ee-11-release) - press release for **Jakarta EE 11** with key features and comments from enterprise community |
+| **`2025-06-25`** | [Demystifying Spring Boot With Spring Debugger(https://blog.jetbrains.com/idea/2025/06/demystifying-spring-boot-with-spring-debugger/) - did you know Spring Boot can be effectively debugged using this tool? |
 | **`2025-06-25`** | [Jakarta EE 11: Empowering Enterprise Java Developers with Enhanced Productivity and Performance](https://blogs.eclipse.org/post/tatjana-obradovic/jakarta-ee-11-empowering-enterprise-java-developers-enhanced-productivity) - comments on the anticipated release of new **Jakarta EE** platform version |
 | **`2025-06-24`** | [Benchmarking and profiling Java with JMH](https://foojay.io/today/benchmarking-and-profiling-java-with-jmh/) - using **Java Microbenchmark Harness** fir measuring performance of Java apps |
 | **`2025-06-23`** | [From Java 8 to Java 21: How the Evolution Changed My Developer Workflow](https://dzone.com/articles/java-evolution-changed-developer-workflow) - why you should update from **Java 8** to **Java 21** if you haven't already |
