@@ -19,7 +19,9 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2025-07-11`** | [Payara Launches Payara Qube](https://javapro.io/2025/07/11/payara-launches-payara-qube-a-breakthrough-java-platform/) - announcement of new automated zero-maintenance platform for Java enterprise apps |
 | **`2025-07-08`** | [A visual chronicle of the JDK’s journey](https://javapro.io/2025/07/08/a-visual-chronicle-of-the-jdks-journey/) - an unorthodox look at the Java history throughout versions since Java 7 |
+| **`2025-07-07`** | [JobRunr and JobRunr Pro v8.0.0](https://www.jobrunr.io/en/blog/v8-release/) - new major version of Java backend processing library was released |
 | **`2025-07-03`** | [Azul Introduces 100 – 1000x More Accurate In-Production Java Vulnerability Detection](https://javapro.io/2025/07/03/azul-introduces-100-1000x-more-accurate-in-production-java-vulnerability-detection/) - Azul Vunlerability Detection radically improves threat reporting to DevOps teams |
 | **`2025-07-03`** | [Sunsetting legacy config classes in Quarkus](https://quarkus.io/blog/legacy-config-classes-sunsetting/) - be aware of important breaking changes in upcomming **Quarkus** versions |
 | **`2025-07-01`** | [Introducing Canonical builds of OpenJDK](https://canonical.com/blog/introducing-canonical-builds-of-openjdk) - JDK builds tailored for Ubuntu and the world of containers |
