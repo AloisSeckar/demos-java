@@ -19,6 +19,8 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2025-07-18`** | [IntelliJ IDE Gets New Free Features With Edition Merge](https://www.howtogeek.com/intellij-is-merging/) - JetBrains are unifying Community and Ultimate edition of IntelliJ IDEA into one piece of software to reduce confusion and making things easier |
+| **`2025-07-16`** | [Java 25 to change Windows file operation behaviors](https://www.infoworld.com/article/4007824/java-25-to-change-windows-file-operation-behaviors.html) - there will be two changes of how **File** class behaves on Windows systems in **Java 25** |
 | **`2025-07-16`** | [Oracle’s Java licensing shift sparks mass migration to open source](https://www.infoworld.com/article/4023168/oracles-java-licensing-shift-sparks-mass-migration-to-open-source.html) - enterprise customers apparently tend not to like and accept new pay-per-user system and seek alternative JDKs |
 | **`2025-07-11`** | [Payara Launches Payara Qube](https://javapro.io/2025/07/11/payara-launches-payara-qube-a-breakthrough-java-platform/) - announcement of new automated zero-maintenance platform for Java enterprise apps |
 | **`2025-07-08`** | [A visual chronicle of the JDK’s journey](https://javapro.io/2025/07/08/a-visual-chronicle-of-the-jdks-journey/) - an unorthodox look at the Java history throughout versions since Java 7 |
