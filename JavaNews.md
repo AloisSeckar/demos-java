@@ -19,9 +19,14 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2025-07-29`** | [Is Java Cloud Native?](https://javapro.io/2025/07/29/is-java-cloud-native/) - what can Java offer to cloud native development and why it is a good choice in 2025 |
+| **`2025-07-28`** | [Milestone Releases of Boot, Security, Auth Server, GraphQL, Kafka, Pulsar](https://www.infoq.com/news/2025/07/spring-news-roundup-jul21-2025/) - there are bunch of milestone releases for new upcoming major versions of **Spring** solutions |
+| **`2025-07-24`** | [Cloud-Native Design With Zero Trust Architecture](https://dzone.com/articles/microservices-cloud-native-design-zero-trust-architecture) - how to tighten security in microservices |
+| **`2025-07-23`** | [Level up your Java Code by embracing new features in a safe way](https://foojay.io/today/java-22-to-24-level-up-your-java-code-by-embracing-new-features-in-a-safe-way/) - how to use new Java lang features in terms of recommended **SonarCube** syntax rules |
 | **`2025-07-18`** | [IntelliJ IDE Gets New Free Features With Edition Merge](https://www.howtogeek.com/intellij-is-merging/) - JetBrains are unifying Community and Ultimate edition of IntelliJ IDEA into one piece of software to reduce confusion and making things easier |
 | **`2025-07-16`** | [Java 25 to change Windows file operation behaviors](https://www.infoworld.com/article/4007824/java-25-to-change-windows-file-operation-behaviors.html) - there will be two changes of how **File** class behaves on Windows systems in **Java 25** |
 | **`2025-07-16`** | [Oracle’s Java licensing shift sparks mass migration to open source](https://www.infoworld.com/article/4023168/oracles-java-licensing-shift-sparks-mass-migration-to-open-source.html) - enterprise customers apparently tend not to like and accept new pay-per-user system and seek alternative JDKs |
+| **`2025-07-14`** | [Eclipse Data Grid is Available as Open-Source](https://microstream.one/blog/2025/07/14/eclipse-data-grid-is-available-as-open-source/) - modern data processing layer becomes open-sourced |
 | **`2025-07-11`** | [Payara Launches Payara Qube](https://javapro.io/2025/07/11/payara-launches-payara-qube-a-breakthrough-java-platform/) - announcement of new automated zero-maintenance platform for Java enterprise apps |
 | **`2025-07-08`** | [A visual chronicle of the JDK’s journey](https://javapro.io/2025/07/08/a-visual-chronicle-of-the-jdks-journey/) - an unorthodox look at the Java history throughout versions since Java 7 |
 | **`2025-07-07`** | [JobRunr and JobRunr Pro v8.0.0](https://www.jobrunr.io/en/blog/v8-release/) - new major version of Java backend processing library was released |
