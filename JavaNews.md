@@ -15,11 +15,25 @@ Stay up-to-date with the following even more dedicated websites:
 Check where can you meet fellow Java enthusiasts at:
 - https://javaconferences.org/
 
+## 2025 - August
+
+| Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
+| --- | :--  |
+| **`2025-08-04`** | [Why Java is Still Worth Learning in 2025](https://foojay.io/today/why-java-is-still-worth-learning-in-2025-a-developers-25-year-journey/) - a personal retrospective of 25 years with Java |
+
 ## 2025 - July
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2025-07-31`** | [JVM Iceberg – Modern Performance Edition](https://javapro.io/2025/07/31/jvm-iceberg-modern-performance-edition/) - what performance-related tools are available inside JVM |
+| **`2025-07-31`** | [Basic and advanced pattern matching in Java](https://www.infoworld.com/article/4026690/basic-and-advanced-pattern-matching-in-java.html) - comprehensive tutorial for up-to-date capabilities of pattern matching that keeps evolving in Java |
+| **`2025-07-31`** | [Gradle 9.0.0 released](https://github.com/gradle/gradle/releases/tag/v9.0.0) - new major version of Java build tool **Gradle** was released |
+| **`2025-07-30`** | [How to Avoid Busy-Waiting in Java](https://www.baeldung.com/java-busy-waiting-alternatives) -improving multi-threading performance with modern Java methods |
+| **`2025-07-29`** | [Just Be Lazy](https://inside.java/2025/07/29/just-be-lazy/) - example usage of **JEP 502** that is coming into **Java 25** |
+| **`2025-07-29`** | [Jakarta EE 11 Overview: Virtual Threads, Records, and the Future of Persistence](https://www.infoq.com/articles/jakarta-ee-11-overview/) - what does recent version of Jakarta EE include? |
+| **`2025-07-29`** | [Java is dead: Long live Java!](https://www.cio.com/article/4029595/java-is-dead-long-live-java.html) - another retrospective on Java 30 years journey and how it looks today |
 | **`2025-07-29`** | [Is Java Cloud Native?](https://javapro.io/2025/07/29/is-java-cloud-native/) - what can Java offer to cloud native development and why it is a good choice in 2025 |
+| **`2025-07-28`** | [EclipseStore 3 with GigaMap is Now Available](https://microstream.one/blog/2025/07/28/eclipsestore-3-is-now-available/) - new major version of Java persistence layer **EclipseStore** is available |
 | **`2025-07-28`** | [Milestone Releases of Boot, Security, Auth Server, GraphQL, Kafka, Pulsar](https://www.infoq.com/news/2025/07/spring-news-roundup-jul21-2025/) - there are bunch of milestone releases for new upcoming major versions of **Spring** solutions |
 | **`2025-07-24`** | [Cloud-Native Design With Zero Trust Architecture](https://dzone.com/articles/microservices-cloud-native-design-zero-trust-architecture) - how to tighten security in microservices |
 | **`2025-07-23`** | [Level up your Java Code by embracing new features in a safe way](https://foojay.io/today/java-22-to-24-level-up-your-java-code-by-embracing-new-features-in-a-safe-way/) - how to use new Java lang features in terms of recommended **SonarCube** syntax rules |
