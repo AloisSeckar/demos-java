@@ -19,6 +19,9 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2025-08-11`** | [New Features in Jakarta EE 11, with Examples](https://foojay.io/today/new-features-in-jakarta-ee-11-with-examples/) - overview of new things in recent Jakarta EE release with practical code snippets |
+| **`2025-08-07`** | [Fixing the Billion-Dollar Mistake](https://javapro.io/2025/08/07/fixing-the-billion-dollar-mistake/) - the past, the present and the future of **NullPointerException** |
+| **`2025-08-04`** | [WildFly 37 is released](https://www.wildfly.org/news/2025/08/04/WildFly-37-is-released/) - new version of WildFly app server was released |
 | **`2025-08-04`** | [Why Java is Still Worth Learning in 2025](https://foojay.io/today/why-java-is-still-worth-learning-in-2025-a-developers-25-year-journey/) - a personal retrospective of 25 years with Java |
 
 ## 2025 - July
