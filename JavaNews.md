@@ -19,7 +19,11 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2025-08-15`** | [Infusing AI into Your Java applications](https://www.infoq.com/articles/infusing-ai-java/) - AI works well with Java, learn how |
+| **`2025-08-13`** | [Observability landscape in Java](https://javapro.io/2025/08/13/observability-landscape-in-java/) - history, present and future of monitoring tools in Java |
+| **`2025-08-13`** | [A Practical Guide to Null-Safety in Java With JSpecify](https://www.baeldung.com/java-jspecify-null-safety) - how to use **JSpecify** annotations to prevent runtime NullPointerExceptions |
 | **`2025-08-12`** | [Jakarta EE 12 Will Focus on Consistency and Configuration](https://www.infoq.com/news/2025/08/jakarta-ee-12-consistency/) - with version 11 released recently, work on next version is already in progress |
+| **`2025-08-11`** | [Preparing for Spring Framework 7 and Spring Boot 4](https://foojay.io/today/preparing-for-spring-framework-7-and-spring-boot-4/) - with series of milestone releases made already, new major versions are about to hit **Spring** ecosystem soon |
 | **`2025-08-11`** | [New Features in Jakarta EE 11, with Examples](https://foojay.io/today/new-features-in-jakarta-ee-11-with-examples/) - overview of new things in recent Jakarta EE release with practical code snippets |
 | **`2025-08-07`** | [Fixing the Billion-Dollar Mistake](https://javapro.io/2025/08/07/fixing-the-billion-dollar-mistake/) - the past, the present and the future of **NullPointerException** |
 | **`2025-08-04`** | [WildFly 37 is released](https://www.wildfly.org/news/2025/08/04/WildFly-37-is-released/) - new version of WildFly app server was released |
@@ -41,6 +45,7 @@ Check where can you meet fellow Java enthusiasts at:
 | **`2025-07-28`** | [Milestone Releases of Boot, Security, Auth Server, GraphQL, Kafka, Pulsar](https://www.infoq.com/news/2025/07/spring-news-roundup-jul21-2025/) - there are bunch of milestone releases for new upcoming major versions of **Spring** solutions |
 | **`2025-07-24`** | [Cloud-Native Design With Zero Trust Architecture](https://dzone.com/articles/microservices-cloud-native-design-zero-trust-architecture) - how to tighten security in microservices |
 | **`2025-07-23`** | [Level up your Java Code by embracing new features in a safe way](https://foojay.io/today/java-22-to-24-level-up-your-java-code-by-embracing-new-features-in-a-safe-way/) - how to use new Java lang features in terms of recommended **SonarCube** syntax rules |
+| **`2025-07-22`** | [Java Applet API removal slated for JDK 26](https://www.infoworld.com/article/4026031/java-applet-api-removal-slated-for-jdk-26.html) - **JEP 504** is going to future Java 26 release |
 | **`2025-07-18`** | [IntelliJ IDE Gets New Free Features With Edition Merge](https://www.howtogeek.com/intellij-is-merging/) - JetBrains are unifying Community and Ultimate edition of IntelliJ IDEA into one piece of software to reduce confusion and making things easier |
 | **`2025-07-16`** | [Java 25 to change Windows file operation behaviors](https://www.infoworld.com/article/4007824/java-25-to-change-windows-file-operation-behaviors.html) - there will be two changes of how **File** class behaves on Windows systems in **Java 25** |
 | **`2025-07-16`** | [Oracle’s Java licensing shift sparks mass migration to open source](https://www.infoworld.com/article/4023168/oracles-java-licensing-shift-sparks-mass-migration-to-open-source.html) - enterprise customers apparently tend not to like and accept new pay-per-user system and seek alternative JDKs |
