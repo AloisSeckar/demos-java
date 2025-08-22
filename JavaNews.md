@@ -19,6 +19,8 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2025-08-22`** | [JDK 25 and JDK 26: What We Know So Far](https://www.infoq.com/news/2025/08/java-25-so-far/) - up-to-date info about the state of upcoming two JDK versions |
+| **`2025-08-18`** | [New Java Benchmark for Coding LLMs puts GPT-5 at the top](https://foojay.io/today/new-java-benchmark-for-coding-llms-puts-gpt-5-at-the-top/) - comparsion of available AIs via **Brokk Power Ranking** |
 | **`2025-08-15`** | [Infusing AI into Your Java applications](https://www.infoq.com/articles/infusing-ai-java/) - AI works well with Java, learn how |
 | **`2025-08-13`** | [Observability landscape in Java](https://javapro.io/2025/08/13/observability-landscape-in-java/) - history, present and future of monitoring tools in Java |
 | **`2025-08-13`** | [A Practical Guide to Null-Safety in Java With JSpecify](https://www.baeldung.com/java-jspecify-null-safety) - how to use **JSpecify** annotations to prevent runtime NullPointerExceptions |
