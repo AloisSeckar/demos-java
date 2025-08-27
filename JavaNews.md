@@ -19,6 +19,7 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2025-08-22`** | [The role of Quarkus in the modern Java ecosystem](https://javapro.io/2025/08/22/the-role-of-quarkus-in-the-modern-java-ecosystem/) - cloud-native framework **Quarkus** has already established itself on the Java map |
 | **`2025-08-22`** | [JDK 25 and JDK 26: What We Know So Far](https://www.infoq.com/news/2025/08/java-25-so-far/) - up-to-date info about the state of upcoming two JDK versions |
 | **`2025-08-18`** | [New Java Benchmark for Coding LLMs puts GPT-5 at the top](https://foojay.io/today/new-java-benchmark-for-coding-llms-puts-gpt-5-at-the-top/) - comparsion of available AIs via **Brokk Power Ranking** |
 | **`2025-08-15`** | [Infusing AI into Your Java applications](https://www.infoq.com/articles/infusing-ai-java/) - AI works well with Java, learn how |
