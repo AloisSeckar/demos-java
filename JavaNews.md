@@ -15,11 +15,18 @@ Stay up-to-date with the following even more dedicated websites:
 Check where can you meet fellow Java enthusiasts at:
 - https://javaconferences.org/
 
+## 2025 - September
+
+| Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
+| --- | :--  |
+| **`2025-09-02`** | [The Road to GA - Introduction](https://spring.io/blog/2025/09/02/road_to_ga_introduction) - steps remaining to fullfil before new major versions of **Spring** ecosystem tools scheduled for November |
+
 ## 2025 - August
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
 | **`2025-08-26`** | [How to speed up Maven builds](https://javapro.io/2025/08/26/how-to-speed-up-maven-builds/) - practical tips for making **Maven** builds faster and more effective |
+| **`2025-08-24`** | [Apache Groovy 5.0.0 Released](https://www.mail-archive.com/announce@apache.org/msg10311.html) - new major version of **Groovy** language is out |
 | **`2025-08-22`** | [The role of Quarkus in the modern Java ecosystem](https://javapro.io/2025/08/22/the-role-of-quarkus-in-the-modern-java-ecosystem/) - cloud-native framework **Quarkus** has already established itself on the Java map |
 | **`2025-08-22`** | [JDK 25 and JDK 26: What We Know So Far](https://www.infoq.com/news/2025/08/java-25-so-far/) - up-to-date info about the state of upcoming two JDK versions |
 | **`2025-08-18`** | [New Java Benchmark for Coding LLMs puts GPT-5 at the top](https://foojay.io/today/new-java-benchmark-for-coding-llms-puts-gpt-5-at-the-top/) - comparsion of available AIs via **Brokk Power Ranking** |
