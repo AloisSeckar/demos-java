@@ -19,6 +19,12 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2025-09-11`** | [JBang, the awesome Java file runner](https://javapro.io/2025/09/11/jbang-the-awesome-java-file-runner-%F0%9F%92%A5/) - introduction to **JBang** tool |
+| **`2025-09-10`** | [Optimizing Spring Integration Tests at Scale](https://www.baeldung.com/spring-integration-test-optimize) - practical guide for scaling tests in **Spring** |
+| **`2025-09-10`** | [What's new in Java 25](https://pvs-studio.com/en/blog/posts/java/1284/) - new LTS version of JDK will be released in a few days with following features |
+| **`2025-09-08`** | [Groovy 5 expands Java and JDK support](https://www.infoworld.com/article/4053204/groovy-5-expands-java-and-jdk-support.html) - what is new in recently released **Groovy** v5 |
+| **`2025-09-04`** | [JavaZone2025](https://2025.javazone.no/en) conference took place in **Lillestrøm, NOR** between 3rd and 4th September |
+| **`2025-09-03`** | [The new features in Java 26](https://www.infoworld.com/article/4050993/jdk-26-the-new-features-in-java-26.html) - while **JDK 25** is being finalized, the next in the line **Java 26** is being shaped |
 | **`2025-09-02`** | [The Road to GA - Introduction](https://spring.io/blog/2025/09/02/road_to_ga_introduction) - steps remaining to fullfil before new major versions of **Spring** ecosystem tools scheduled for November |
 
 ## 2025 - August
@@ -29,10 +35,12 @@ Check where can you meet fellow Java enthusiasts at:
 | **`2025-08-24`** | [Apache Groovy 5.0.0 Released](https://www.mail-archive.com/announce@apache.org/msg10311.html) - new major version of **Groovy** language is out |
 | **`2025-08-22`** | [The role of Quarkus in the modern Java ecosystem](https://javapro.io/2025/08/22/the-role-of-quarkus-in-the-modern-java-ecosystem/) - cloud-native framework **Quarkus** has already established itself on the Java map |
 | **`2025-08-22`** | [JDK 25 and JDK 26: What We Know So Far](https://www.infoq.com/news/2025/08/java-25-so-far/) - up-to-date info about the state of upcoming two JDK versions |
+| **`2025-08-18`** | [You Can Build Better AI Agents in Java Than Python](https://medium.com/@springrod/you-can-build-better-ai-agents-in-java-than-python-868eaf008493) - gentle reminder that Java has its solid place in the AI world |
 | **`2025-08-18`** | [New Java Benchmark for Coding LLMs puts GPT-5 at the top](https://foojay.io/today/new-java-benchmark-for-coding-llms-puts-gpt-5-at-the-top/) - comparsion of available AIs via **Brokk Power Ranking** |
 | **`2025-08-15`** | [Infusing AI into Your Java applications](https://www.infoq.com/articles/infusing-ai-java/) - AI works well with Java, learn how |
 | **`2025-08-13`** | [Observability landscape in Java](https://javapro.io/2025/08/13/observability-landscape-in-java/) - history, present and future of monitoring tools in Java |
 | **`2025-08-13`** | [A Practical Guide to Null-Safety in Java With JSpecify](https://www.baeldung.com/java-jspecify-null-safety) - how to use **JSpecify** annotations to prevent runtime NullPointerExceptions |
+| **`2025-08-12`** | [JDK 25 G1/Parallel/Serial GC changes](https://tschatzl.github.io/2025/08/12/jdk25-g1-serial-parallel-gc-changes.html) - what will **Java 25** bring into garbage collecting |
 | **`2025-08-12`** | [Jakarta EE 12 Will Focus on Consistency and Configuration](https://www.infoq.com/news/2025/08/jakarta-ee-12-consistency/) - with version 11 released recently, work on next version is already in progress |
 | **`2025-08-11`** | [Preparing for Spring Framework 7 and Spring Boot 4](https://foojay.io/today/preparing-for-spring-framework-7-and-spring-boot-4/) - with series of milestone releases made already, new major versions are about to hit **Spring** ecosystem soon |
 | **`2025-08-11`** | [New Features in Jakarta EE 11, with Examples](https://foojay.io/today/new-features-in-jakarta-ee-11-with-examples/) - overview of new things in recent Jakarta EE release with practical code snippets |
