@@ -19,6 +19,9 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2025-09-16`** | [Java 25 LTS and IntelliJ IDEA](https://blog.jetbrains.com/idea/2025/09/java-25-lts-and-intellij-idea/) - new Java from the point of view of the most popular IDE vendor |
+| **`2025-09-16`** | [Here’s Java 25, Ready to Perform to the Limit](https://foojay.io/today/heres-java-25-ready-to-perform-to-the-limit/) - summary of the new Java |
+| **`2025-09-16`** | [Oracle Releases Java 25](https://www.oracle.com/news/announcement/oracle-releases-java-25-2025-09-16/) - another half a year has passed and there is new **JDK** version, this time LTS one |
 | **`2025-09-11`** | [JBang, the awesome Java file runner](https://javapro.io/2025/09/11/jbang-the-awesome-java-file-runner-%F0%9F%92%A5/) - introduction to **JBang** tool |
 | **`2025-09-10`** | [Optimizing Spring Integration Tests at Scale](https://www.baeldung.com/spring-integration-test-optimize) - practical guide for scaling tests in **Spring** |
 | **`2025-09-10`** | [What's new in Java 25](https://pvs-studio.com/en/blog/posts/java/1284/) - new LTS version of JDK will be released in a few days with following features |
