@@ -19,6 +19,8 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2025-09-23`** | [JavaFX 25 Highlights](https://inside.java/2025/09/23/javafx-25/) - what's new in the freshly released latest version of **JavaFX** |
+| **`2025-09-23`** | [Modernizing Java projects with GitHub Copilot agent mode](https://github.blog/ai-and-ml/github-copilot/a-step-by-step-guide-to-modernizing-java-projects-with-github-copilot-agent-mode/) - migrating old codebase to modern Java is now easier than ever |
 | **`2025-09-16`** | [ADK for Java opening up to third-party language models](https://developers.googleblog.com/en/adk-for-java-opening-up-to-third-party-language-models-via-langchain4j-integration/) - via intgration with **LangChain4j** it will be possible to use custom LLMs in Google’s **Agent Development Kit** |
 | **`2025-09-16`** | [Java 25 LTS and IntelliJ IDEA](https://blog.jetbrains.com/idea/2025/09/java-25-lts-and-intellij-idea/) - new Java from the point of view of the most popular IDE vendor |
 | **`2025-09-16`** | [Here’s Java 25, Ready to Perform to the Limit](https://foojay.io/today/heres-java-25-ready-to-perform-to-the-limit/) - summary of the new Java |
