@@ -13,7 +13,9 @@ Checkout the project and explore the files in your favorite IDE.
 You can also `mvn clean install` the project and then just run `java --enable-preview --add-modules=jdk.incubator.vector -jar target\JavaDemos-25.0.jar`.
 But you may miss some important context and information without reading the comments in the source code. 
 
-Note that `--enable-preview` and `--add-modules` options are necessary to make the newest Java language features available.
+Using `--enable-preview` and `--add-modules` options is necessary to make the newest Java language features available.
+
+**Note:** Until `Maven 3.9.12` is released, you would see warning about `Guice` library using deprecated `sun.misc.Unsafe` class when running Maven install. This is [known and about to be fixed](https://github.com/apache/maven/issues/10312).
 
 ## Contributing
 You can help making this project better!
