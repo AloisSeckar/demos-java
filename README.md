@@ -1,16 +1,16 @@
-# Java demos - new language features from Java 11 to 23
+# Java demos - new language features from Java 11 to 25
 
-This application helps to show some new features being introduced in Java versions until Java 23.
+This application helps to show some new features being introduced in Java versions until Java 25.
 
 All relevant info is written down in comments inside sources.
 
-## Prerequisites 
-This project requires **Java JDK 23** to run. I namely use [GraalVM for JDK 23](https://www.graalvm.org/release-notes/JDK_23/) for development and testing.
+## Prerequisites
+This project requires **Java JDK 25** to run. I namely use [GraalVM for JDK 25](https://www.graalvm.org/release-notes/JDK_25/) for development and testing.
 
 ## Usage
 Checkout the project and explore the files in your favorite IDE.
 
-You can also `mvn clean install` the project and then just run `java --enable-preview --add-modules=jdk.incubator.vector -jar target\JavaDemos-23.0.jar`. 
+You can also `mvn clean install` the project and then just run `java --enable-preview --add-modules=jdk.incubator.vector -jar target\JavaDemos-25.0.jar`.
 But you may miss some important context and information without reading the comments in the source code. 
 
 Note that `--enable-preview` and `--add-modules` options are necessary to make the newest Java language features available.
