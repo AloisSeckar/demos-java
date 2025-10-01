@@ -13,4 +13,12 @@
       "dscr": "Preview support for reading and writing PEM-encoded cryptographic objects; see PemEncodings.java"
     }
   }
+  ,
+  {
+    "jep": 518,
+    "info": {
+      "name": "JEP 518 - JFR Cooperative Sampling",
+      "dscr": "Introduce cooperative sampling in Java Flight Recorder to reduce bias and overhead; see JFRCooperativeSampling.java"
+    }
+  }
 ]
