@@ -1,0 +1,12 @@
+⚙️ Key Changes in JDK 25
+
+No Experimental Flags Needed: The -XX:+UnlockExperimentalVMOptions flag is no longer required to enable generational mode. Users can now enable it directly with:
+
+
+-XX:+UseShenandoahGC -XX:ShenandoahGCMode=generational
+
+This change simplifies the command-line configuration for users.
+
+Default Mode Remains Single Generation: The default behavior of Shenandoah continues to be single-generation mode. Users must explicitly specify -XX:ShenandoahGCMode=generational to enable the generational mode.
+
+Extensive Testing and Stability: The generational mode has undergone rigorous testing across multiple platforms and workloads, including DaCapo, SPECjbb2015, SPECjvm2008, and Heapothesys, demonstrating significant performance and stability improvements.
