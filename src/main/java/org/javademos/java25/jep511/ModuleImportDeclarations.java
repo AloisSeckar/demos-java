@@ -2,6 +2,8 @@ package org.javademos.java25.jep511;
 
 import org.javademos.commons.IDemo;
 
+import module java.base;
+
 /// Demo for JDK 25 feature **Module Import Declarations** (JEP 511)
 ///
 /// JEP history:
@@ -19,6 +21,18 @@ public class ModuleImportDeclarations implements IDemo {
     @Override
     public void demo() {
         info(511);
+
+        System.out.println("using 'import module java.base;' to bring exported types into scope");
+        System.out.println("no explicit package imports for List/ArrayList/Arrays/Math/Path are needed\n");
+
+        // examples of types from multiple packages within module java.base
+        List<String> values = new ArrayList<>(Arrays.asList("a", "b", "c"));
+        System.out.println("values: " + values);
+        System.out.println("random: " + Math.random());
+        System.out.println("path:   " + Path.of("/tmp"));
+
+        // in case of name conflicts across modules, add explicit class imports
+        // or use fully-qualified names for the ambiguous types
     }
 
 }
