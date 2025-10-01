@@ -37,3 +37,16 @@ Check the [contribution guide](/CONTRIBUTING.md) or contact me directly for more
 
 ## Extra - JEP Status
 [JEP Status](JEPStatus.md) is my tracker of changes in [OpenJDK JEP Index](https://openjdk.org/jeps/0) since 09/2023.
+
+
+
+## JEP 519: Compact Object Headers Demo
+
+This demo showcases JEP 519, which introduces compact object headers in Java 25. The demo creates many small objects to demonstrate memory efficiency improvements.
+
+To run:
+
+```bash
+javac com/example/jep519/CompactObjectHeaderDemo.java
+java com.example.jep519.CompactObjectHeaderDemo
+
