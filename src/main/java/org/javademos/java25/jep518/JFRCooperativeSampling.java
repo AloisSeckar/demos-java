@@ -18,18 +18,13 @@ public class JFRCooperativeSampling implements IDemo {
     public void demo() {
         info(518);
 
-        System.out.println("this jep introduces cooperative sampling for java flight recorder (jfr).");
-        System.out.println("it enables the jvm and java libraries to participate in sampling decisions,");
-        System.out.println("reducing safepoint bias and overhead compared to purely timer-based sampling.");
-        System.out.println();
-
-        System.out.println("key ideas:");
-        System.out.println("- jvm cooperates by sampling at allocation and other yield points.");
-        System.out.println("- libraries can expose sampling hooks to mark interesting regions.");
-        System.out.println("- improves representativeness of profiles on highly concurrent workloads.");
-        System.out.println();
-
-        System.out.println("note: there is no public java se api to call here; this is a jvm/jfr runtime change.");
-        System.out.println("use `jfr` tooling (e.g., `jcmd <pid> JFR.start` and `jfr print`) to observe behavior under load.");
+        // explanation:
+        // jep 518 introduces cooperative sampling for java flight recorder (jfr).
+        // the jvm and java libraries participate in sampling decisions to reduce
+        // safepoint bias and profiling overhead compared to timer-only sampling.
+        //
+        // this is a jvm/jfr runtime change; there is no public java se api call
+        // to demonstrate here. to observe behavior, run a workload and capture
+        // a jfr recording using tooling like `jcmd <pid> JFR.start` and analyze it.
     }
 }
