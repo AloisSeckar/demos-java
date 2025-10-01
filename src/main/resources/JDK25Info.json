@@ -1,0 +1,9 @@
+[
+  {
+    "jep": 511,
+    "info": {
+      "name": "JEP 511 - Module Import Declarations",
+      "dscr": "Java 25 finalizes module import declarations; see ModuleImportDeclarations.java for details"
+    }
+  }
+]
