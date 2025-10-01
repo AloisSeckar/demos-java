@@ -12,7 +12,7 @@ import org.javademos.commons.IDemo;
 /// Further reading:
 /// - [Simplifying Java Development with Module Import](https://www.infoq.com/news/2024/05/simplifying-java-module-import/)
 ///
-/// @author alois.seckar@gmail.com
+/// @author Arjun Vijay Prakash @ArjunCodess
 
 public class ModuleImportDeclarations implements IDemo {
 
