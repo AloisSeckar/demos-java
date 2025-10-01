@@ -21,6 +21,9 @@ public class Java25 {
         // JEP 470
         java25DemoPool.add(new PemEncodings());
 
+          // JEP 519
+        java25DemoPool.add(new CompactObjectHeaderDemo());
+
         return java25DemoPool;
     }
 
