@@ -2,6 +2,7 @@ package org.javademos.init;
 
 import org.javademos.commons.IDemo;
 import org.javademos.java25.jep511.ModuleImportDeclarations;
+import org.javademos.java25.jep515.AheadOfTimeMethodProfiling;
 import org.javademos.java25.jep470.PemEncodings;
 import org.javademos.java25.jep518.JFRCooperativeSampling;
 import org.javademos.java25.jep509.CpuTimeProfilingDemo;
@@ -26,6 +27,8 @@ public class Java25 {
         java25DemoPool.add(new JFRCooperativeSampling());
         // JEP 509
         java25DemoPool.add(new CpuTimeProfilingDemo());
+        // JEP 515
+        java25DemoPool.add(new AheadOfTimeMethodProfiling());
 
         return java25DemoPool;
     }
