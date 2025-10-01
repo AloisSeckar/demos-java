@@ -5,5 +5,12 @@
       "name": "JEP 511 - Module Import Declarations",
       "dscr": "Java 25 finalizes module import declarations; see ModuleImportDeclarations.java for details"
     }
+  },
+  {
+    "jep": 470,
+    "info": {
+      "name": "JEP 470 - PEM Encodings of Cryptographic Objects (Preview)",
+      "dscr": "Preview support for reading and writing PEM-encoded cryptographic objects; see PemEncodings.java"
+    }
   }
 ]

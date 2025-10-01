@@ -19,6 +19,8 @@ public class PemEncodings implements IDemo {
     public void demo() {
         info(470);
 
+        // todo: consider adding a real pem encode/decode sample using jdk 25 preview apis
+
         // the actual crypto apis for pem encoding/decoding are part of the preview jdk 25 api surface.
         // to keep this demo portable across environments and jdks, we only print guidance here.
         System.out.println("this demo illustrates the new pem encoding/decoding support introduced in jdk 25 (preview).");
