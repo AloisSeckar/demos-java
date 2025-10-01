@@ -4,6 +4,7 @@ import org.javademos.commons.IDemo;
 import org.javademos.java25.jep511.ModuleImportDeclarations;
 import org.javademos.java25.jep470.PemEncodings;
 import org.javademos.java25.jep518.JFRCooperativeSampling;
+import org.javademos.java25.jep509.CpuTimeProfilingDemo;
 
 import java.util.ArrayList;
 
@@ -23,6 +24,8 @@ public class Java25 {
         java25DemoPool.add(new PemEncodings());
         // JEP 518
         java25DemoPool.add(new JFRCooperativeSampling());
+        // JEP 509
+        java25DemoPool.add(new CpuTimeProfilingDemo());
 
         return java25DemoPool;
     }
