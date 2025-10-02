@@ -9,7 +9,7 @@ import org.javademos.java25.jep518.JFRCooperativeSampling;
 import org.javademos.java25.jep509.CpuTimeProfilingDemo;
 import org.javademos.java25.jep508.VectorApiDemo;
 import org.javademos.java25.jep506.ScopedValuesDemo;
-
+import org.javademos.java25.jep503.Remove32BitX86Demo;
 import org.javademos.java25.jep502.StableValuesDemo;
 
 
@@ -52,6 +52,8 @@ public class Java25 {
         //JEP 502
         java25DemoPool.add(new StableValuesDemo());
 
+        //JEP 503
+     java25DemoPool.add(new Remove32BitX86Demo());
 
         return java25DemoPool;
     }
