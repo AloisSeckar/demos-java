@@ -12,6 +12,17 @@
       "name": "JEP 470 - PEM Encodings of Cryptographic Objects (Preview)",
       "dscr": "Preview support for reading and writing PEM-encoded cryptographic objects; see PemEncodings.java"
     }
+
+    },
+  {
+    "jep": 519,
+    "info": {
+      "name": "JEP 519 -  Compact Object Headers",
+      "dscr": "Adds a demo for JEP 519 — Class-File API, showcasing how to parse, inspect, and generate Java class files programmatically.; see CompactObjectHeaderDemo.java "
+    }
+  }
+]
+
   },
   {
     "jep": 518,
@@ -35,5 +46,6 @@
     }
   }
 ]
+
 
 
