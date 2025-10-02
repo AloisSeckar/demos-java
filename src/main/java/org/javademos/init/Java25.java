@@ -2,6 +2,7 @@ package org.javademos.init;
 
 import org.javademos.commons.IDemo;
 import org.javademos.java25.jep511.ModuleImportDeclarations;
+import org.javademos.java25.jep505.StructuredConcurrencyDemo;
 import org.javademos.java25.jep515.AheadOfTimeMethodProfiling;
 import org.javademos.java25.jep514.AheadOfTimeCLI; 
 import org.javademos.java25.jep470.PemEncodings;
@@ -26,6 +27,8 @@ public class Java25 {
 
         // JEP 511
         java25DemoPool.add(new ModuleImportDeclarations());
+        // JEP 505
+        java25DemoPool.add(new StructuredConcurrencyDemo());
         // JEP 470
         java25DemoPool.add(new PemEncodings());
         // JEP 518
