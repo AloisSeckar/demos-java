@@ -9,6 +9,7 @@ import org.javademos.java25.jep518.JFRCooperativeSampling;
 import org.javademos.java25.jep509.CpuTimeProfilingDemo;
 import org.javademos.java25.jep508.VectorApiDemo;
 import org.javademos.java25.jep506.ScopedValuesDemo;
+import org.javademos.java25.jep506.StableValuesDemo;
 
 
 
@@ -44,6 +45,9 @@ public class Java25 {
 
         //JEP 506
         java25DemoPool.add(new ScopedValuesDemo());
+
+        //JEP 502
+        java25DemoPool.add(new StableValuesDemo());
 
 
 
