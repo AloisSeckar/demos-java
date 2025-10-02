@@ -9,7 +9,7 @@ import org.javademos.java25.jep518.JFRCooperativeSampling;
 import org.javademos.java25.jep509.CpuTimeProfilingDemo;
 import org.javademos.java25.jep508.VectorApiDemo;
 import org.javademos.java25.jep506.ScopedValuesDemo;
-import org.javademos.java25.jep506.StableValuesDemo;
+import org.javademos.java25.jep502.StableValuesDemo;
 
 
 
