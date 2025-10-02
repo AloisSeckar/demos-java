@@ -51,14 +51,22 @@
     "info": {
       "name": "JEP 515 - Ahead-of-Time Method Profiling",
       "dscr": "Demonstrates Ahead-of-Time Method Profiling which improves warmup time; see AheadOfTimeMethodProfiling.java"
-    }
+    },
     {
   "jep": 506,
   "info": {
     "name": "JEP 506 - Scoped Values",
     "dscr": "Scoped Values provide a safe, immutable alternative to thread-local variables; see ScopedValuesDemo.java"
   }
+},
+{
+  "jep": 502,
+  "info": {
+    "name": "JEP 502 - Stable Values (Preview)",
+    "dscr": "Stable Values offer an immutable data abstraction for performance and safety; see StableValuesDemo.java"
+  }
 }
+
 
   }
 ]
