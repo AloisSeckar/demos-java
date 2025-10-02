@@ -1,5 +1,12 @@
 [
   {
+    "jep": 507,
+    "info": {
+      "name": "JEP 507 - Primitive Types in Patterns, instanceof, and switch (Third Preview)",
+      "dscr": "Demonstrates primitive type patterns in instanceof and switch; see PrimitivePatterns507.java"
+    }
+  },
+  {
     "jep": 511,
     "info": {
       "name": "JEP 511 - Module Import Declarations",
