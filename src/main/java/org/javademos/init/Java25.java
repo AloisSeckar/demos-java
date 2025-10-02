@@ -8,8 +8,7 @@ import org.javademos.java25.jep519.CompactObjectHeaderDemo;
 import org.javademos.java25.jep518.JFRCooperativeSampling;
 import org.javademos.java25.jep509.CpuTimeProfilingDemo;
 import org.javademos.java25.jep508.VectorApiDemo;
-
-
+import org.javademos.java25.jep507.PrimitiveTypesDemo;
 
 import java.util.ArrayList;
 
@@ -31,6 +30,8 @@ public class Java25 {
         java25DemoPool.add(new JFRCooperativeSampling());
         // JEP 509
         java25DemoPool.add(new CpuTimeProfilingDemo());
+        // JEP 507
+        java25DemoPool.add(new PrimitiveTypesDemo());
         // JEP 515
         java25DemoPool.add(new AheadOfTimeMethodProfiling());
 
