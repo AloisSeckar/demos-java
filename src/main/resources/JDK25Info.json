@@ -4,6 +4,10 @@
     "info": {
       "name": "JEP 507 - Primitive Types in Patterns, instanceof, and switch (Third Preview)",
       "dscr": "Demonstrates primitive type patterns in instanceof and switch; see PrimitiveTypesDemo.java"
+    "jep": 510,
+    "info": {
+      "name": "JEP 510 - Key Derivation Function API",
+      "dscr": "Standard API for Key Derivation Functions (KDFs) in Java; see KeyDerivationFunctionDemo.java for usage."
     }
   },
   {

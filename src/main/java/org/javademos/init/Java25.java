@@ -1,15 +1,18 @@
 package org.javademos.init;
 
 import org.javademos.commons.IDemo;
-import org.javademos.java25.jep511.ModuleImportDeclarations;
-import org.javademos.java25.jep515.AheadOfTimeMethodProfiling;
-import org.javademos.java25.jep514.AheadOfTimeCLI; 
 import org.javademos.java25.jep470.PemEncodings;
-import org.javademos.java25.jep519.CompactObjectHeaderDemo;
+import org.javademos.java25.jep508.VectorApiDemo;
+import org.javademos.java25.jep509.CpuTimeProfilingDemo;
+import org.javademos.java25.jep510.KeyDerivationFunctionDemo;
+import org.javademos.java25.jep511.ModuleImportDeclarations;
+import org.javademos.java25.jep514.AheadOfTimeCLI;
+import org.javademos.java25.jep515.AheadOfTimeMethodProfiling;
 import org.javademos.java25.jep518.JFRCooperativeSampling;
 import org.javademos.java25.jep509.CpuTimeProfilingDemo;
 import org.javademos.java25.jep508.VectorApiDemo;
 import org.javademos.java25.jep507.PrimitiveTypesDemo;
+import org.javademos.java25.jep519.CompactObjectHeaderDemo;
 import org.javademos.java25.jep506.ScopedValuesDemo;
 import org.javademos.java25.jep502.StableValuesDemo;
 
@@ -38,11 +41,13 @@ public class Java25 {
         // JEP 515
         java25DemoPool.add(new AheadOfTimeMethodProfiling());
         // JEP 514
-        java25DemoPool.add(new AheadOfTimeCLI()); // <- added demo
+        java25DemoPool.add(new AheadOfTimeCLI());
         // JEP 519
         java25DemoPool.add(new CompactObjectHeaderDemo());
         // JEP 508
         java25DemoPool.add(new VectorApiDemo());
+        // JEP 510
+        java25DemoPool.add(new KeyDerivationFunctionDemo());
         // JEP 506
         java25DemoPool.add(new ScopedValuesDemo());
         // JEP 502
