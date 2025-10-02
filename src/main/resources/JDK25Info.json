@@ -1,5 +1,16 @@
 [
   {
+    "jep": 507,
+    "info": {
+      "name": "JEP 507 - Primitive Types in Patterns, instanceof, and switch (Third Preview)",
+      "dscr": "Demonstrates primitive type patterns in instanceof and switch; see PrimitiveTypesDemo.java"
+    "jep": 510,
+    "info": {
+      "name": "JEP 510 - Key Derivation Function API",
+      "dscr": "Standard API for Key Derivation Functions (KDFs) in Java; see KeyDerivationFunctionDemo.java for usage."
+    }
+  },
+  {
     "jep": 511,
     "info": {
       "name": "JEP 511 - Module Import Declarations",
@@ -12,17 +23,13 @@
       "name": "JEP 470 - PEM Encodings of Cryptographic Objects (Preview)",
       "dscr": "Preview support for reading and writing PEM-encoded cryptographic objects; see PemEncodings.java"
     }
-
-    },
+  },
   {
     "jep": 519,
     "info": {
-      "name": "JEP 519 -  Compact Object Headers",
-      "dscr": "Adds a demo for JEP 519 — Class-File API, showcasing how to parse, inspect, and generate Java class files programmatically.; see CompactObjectHeaderDemo.java "
+      "name": "JEP 519 - Compact Object Headers",
+      "dscr": "Adds a demo for JEP 519 — Class-File API, showcasing how to parse, inspect, and generate Java class files programmatically; see CompactObjectHeaderDemo.java"
     }
-  }
-]
-
   },
   {
     "jep": 518,
@@ -37,14 +44,13 @@
       "name": "JEP 509 - JFR CPU-Time Profiling",
       "dscr": "Demonstrates experimental CPU-Time Profiling using JFR; see CpuTimeProfilingDemo.java"
     }
-  }
-      {
+  },
+  {
     "jep": 508,
     "info": {
       "name": "Vector API (Tenth Incubator)",
-      "dscr": "Demo: vectorized float-array addition using jdk.incubator.vector (JEP 508). Compare vector vs scalar."
+      "dscr": "Demo: vectorized float-array addition using jdk.incubator.vector (JEP 508). Compare vector vs scalar; see VectorApiDemo.java"
     }
-  
   },
   {
     "jep": 515,
@@ -53,25 +59,6 @@
       "dscr": "Demonstrates Ahead-of-Time Method Profiling which improves warmup time; see AheadOfTimeMethodProfiling.java"
     }
     },
-
-    
-
-    {
-  "jep": 506,
-  "info": {
-    "name": "JEP 506 - Scoped Values",
-    "dscr": "Scoped Values provide a safe, immutable alternative to thread-local variables; see ScopedValuesDemo.java"
-  }
-
-},
-{
-  "jep": 502,
-  "info": {
-    "name": "JEP 502 - Stable Values (Preview)",
-    "dscr": "Stable Values offer an immutable data abstraction for performance and safety; see StableValuesDemo.java"
-  }
-
-},
 {
   "jep": 503,
   "info": {
@@ -79,14 +66,26 @@
     "dscr": "Removes the legacy 32-bit x86 port from the JDK to reduce maintenance burden; see Remove32BitX86Demo.java"
   }
 
-}
-
-
-
-
-
+  },
+  {
+    "jep": 514,
+    "info": {
+      "name": "JEP 514 - Ahead-of-Time Command-Line Ergonomics",
+      "dscr": "Shows simplified and ergonomic CLI commands for Ahead-of-Time compilation; see AheadOfTimeCLI.java"
+    }
+  },
+  {
+    "jep": 506,
+    "info": {
+      "name": "JEP 506 - Scoped Values",
+      "dscr": "Scoped Values provide a safe, immutable alternative to thread-local variables; see ScopedValuesDemo.java"
+    }
+  },
+  {
+    "jep": 502,
+    "info": {
+      "name": "JEP 502 - Stable Values (Preview)",
+      "dscr": "Stable Values offer an immutable data abstraction for performance and safety; see StableValuesDemo.java"
+    }
   }
 ]
-
-
-
