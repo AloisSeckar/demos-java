@@ -29,6 +29,7 @@
             <scope>compile</scope>
         </dependency>
         <dependency>
+            <!-- used in JEP 519 demo -->
             <groupId>org.openjdk.jol</groupId>
             <artifactId>jol-core</artifactId>
             <version>0.17</version>
@@ -45,12 +46,13 @@
                 <configuration>
                     <source>25</source>
                     <target>25</target>
-                    <release>25</release>
                     <compilerArgs>
                         <!-- allows 'preview' features -->
                         <arg>--enable-preview</arg>
                         <!-- allows newest 'incubator' features -->
                         <arg>--add-modules=jdk.incubator.vector</arg>
+                        <!-- allows access to internal JDK APIs for @Stable annotation -->
+                        <arg>--add-exports=java.base/jdk.internal.vm.annotation=ALL-UNNAMED</arg>
                     </compilerArgs>
                 </configuration>
             </plugin>

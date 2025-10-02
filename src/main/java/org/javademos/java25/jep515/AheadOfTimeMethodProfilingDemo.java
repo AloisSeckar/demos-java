@@ -15,7 +15,7 @@ import java.util.stream.Collectors;
 ///
 /// @author Shivansh @Shivansh-22866
 
-public class AheadOfTimeMethodProfiling implements IDemo {
+public class AheadOfTimeMethodProfilingDemo implements IDemo {
 
 
     @Override

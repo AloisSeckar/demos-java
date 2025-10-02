@@ -3,11 +3,23 @@ package org.javademos.java25.jep507;
 import org.javademos.commons.IDemo;
 
 /**
- * JEP 507 demo — Primitive Types in Patterns, instanceof, and switch (Third
- * Preview)
+ * JEP 507 demo — )
  * <p>
  * Compile and run with --enable-preview (JDK 25).
  */
+
+/// Demo for JDK 25 feature **Primitive Types in Patterns, instanceof, and switch (Third Preview)** (JEP 507)
+///
+/// JEP history:
+/// - JDK 25: [JEP 507 - Primitive Types in Patterns, instanceof, and switch (Third Preview)](https://openjdk.org/jeps/507)
+/// - JDK 24: [JEP 488 - Primitive Types in Patterns, instanceof, and switch (Second Preview)](https://openjdk.org/jeps/488)
+/// - JDK 23: [JEP 455 - Primitive Types in Patterns, instanceof, and switch (Preview)](https://openjdk.org/jeps/455)
+///
+/// Further reading:
+/// - https://openjdk.org/jeps/507
+///
+/// Author: Prathamesh @tpmsh
+
 public class PrimitiveTypesDemo implements IDemo {
 
     // Simple record with a double component to demo nested primitive patterns

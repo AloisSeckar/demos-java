@@ -7,22 +7,24 @@ import jdk.incubator.vector.VectorSpecies;
 /// Demo for JDK 25 feature **Vector API** (JEP 508)
 ///
 /// ### JEP history
-/// - JDK 16: [JEP 338 - Vector API (Incubator)](https://openjdk.org/jeps/338)
-/// - JDK 17: [JEP 414 - Vector API (Second Incubator)](https://openjdk.org/jeps/414)
-/// - JDK 18: [JEP 417 - Vector API (Third Incubator)](https://openjdk.org/jeps/417)
-/// - JDK 19: [JEP 426 - Vector API (Fourth Incubator)](https://openjdk.org/jeps/426)
-/// - JDK 20: [JEP 438 - Vector API (Fifth Incubator)](https://openjdk.org/jeps/438)
-/// - JDK 21: [JEP 448 - Vector API (Sixth Incubator)](https://openjdk.org/jeps/448)
-/// - JDK 22: [JEP 460 - Vector API (Seventh Incubator)](https://openjdk.org/jeps/460)
-/// - JDK 23: [JEP 471 - Vector API (Eighth Incubator)](https://openjdk.org/jeps/471)
-/// - JDK 24: [JEP 477 - Vector API (Ninth Incubator)](https://openjdk.org/jeps/477)
 /// - JDK 25: [JEP 508 - Vector API (Tenth Incubator)](https://openjdk.org/jeps/508)
+/// - JDK 24: [JEP 477 - Vector API (Ninth Incubator)](https://openjdk.org/jeps/477)
+/// - JDK 23: [JEP 471 - Vector API (Eighth Incubator)](https://openjdk.org/jeps/471)
+/// - JDK 22: [JEP 460 - Vector API (Seventh Incubator)](https://openjdk.org/jeps/460)
+/// - JDK 21: [JEP 448 - Vector API (Sixth Incubator)](https://openjdk.org/jeps/448)
+/// - JDK 20: [JEP 438 - Vector API (Fifth Incubator)](https://openjdk.org/jeps/438)
+/// - JDK 19: [JEP 426 - Vector API (Fourth Incubator)](https://openjdk.org/jeps/426)
+/// - JDK 18: [JEP 417 - Vector API (Third Incubator)](https://openjdk.org/jeps/417)
+/// - JDK 17: [JEP 414 - Vector API (Second Incubator)](https://openjdk.org/jeps/414)
+/// - JDK 16: [JEP 338 - Vector API (Incubator)](https://openjdk.org/jeps/338)
 ///
 /// ### Further reading
 /// - [Inside Java – Vector API Deep Dive](https://inside.java/)
 ///
 /// @see jdk.incubator.vector.FloatVector
 /// @see jdk.incubator.vector.VectorSpecies
+///
+/// @author @CodeSakshamY
 
 public class VectorApiDemo implements IDemo {
 

@@ -13,6 +13,9 @@ import org.javademos.commons.IDemo;
 /// - [Inside Java - JEP Café: Compact Object Headers](https://inside.java/2024/06/18/jepcafe-compactobjectheaders/)
 ///
 /// @see java.lang.Object
+///
+/// @author @CodeSakshamY
+
 public class CompactObjectHeaderDemo implements IDemo {
 
     private static final int SAMPLE_COUNT = 5_000_000;

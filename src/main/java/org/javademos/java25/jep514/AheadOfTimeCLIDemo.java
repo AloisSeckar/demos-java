@@ -14,7 +14,8 @@ import org.javademos.commons.IDemo;
 /// It simulates a CLI workflow with simplified commands and helpful feedback.
 ///
 /// @author Shivansh @Shivansh-22866
-public class AheadOfTimeCLI implements IDemo {
+
+public class AheadOfTimeCLIDemo implements IDemo {
 
     @Override
     public void demo() {

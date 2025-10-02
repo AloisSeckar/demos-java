@@ -12,7 +12,7 @@ import org.javademos.commons.IDemo;
 ///
 /// @author Arjun Vijay Prakash @ArjunCodess
 
-public class JFRCooperativeSampling implements IDemo {
+public class JFRCooperativeSamplingDemo implements IDemo {
 
     @Override
     public void demo() {

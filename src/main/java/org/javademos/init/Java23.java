@@ -2,6 +2,8 @@ package org.javademos.init;
 
 import org.javademos.commons.IDemo;
 import org.javademos.java23.jep455.PrimitiveTypesInPatterns;
+import org.javademos.java23.jep460.JEP460VectorApiDemo;
+import org.javademos.java23.jep463.ImplicitlyDeclaredClassesDemo;
 import org.javademos.java23.jep466.ClassFileAPI;
 import org.javademos.java23.jep467.MarkdownComments;
 import org.javademos.java23.jep469.VectorAPI;
@@ -26,6 +28,10 @@ public class Java23 {
 
         // JEP 455
         java23DemoPool.add(new PrimitiveTypesInPatterns());
+        // JEP 460
+        java23DemoPool.add(new JEP460VectorApiDemo());
+        // JEP 463
+        java23DemoPool.add(new ImplicitlyDeclaredClassesDemo());
         // JEP 466
         java23DemoPool.add(new ClassFileAPI());
         // JEP 467
