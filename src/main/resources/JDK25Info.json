@@ -26,6 +26,13 @@
       "name": "JEP 509 - JFR CPU-Time Profiling",
       "dscr": "Demonstrates experimental CPU-Time Profiling using JFR; see CpuTimeProfilingDemo.java"
     }
+  },
+  {
+    "jep": 515,
+    "info": {
+      "name": "JEP 515 - Ahead-of-Time Method Profiling",
+      "dscr": "Demonstrates Ahead-of-Time Method Profiling which improves warmup time; see AheadOfTimeMethodProfiling.java"
+    }
   }
 ]
 
