@@ -1,5 +1,16 @@
 [
   {
+    "jep": 507,
+    "info": {
+      "name": "JEP 507 - Primitive Types in Patterns, instanceof, and switch (Third Preview)",
+      "dscr": "Demonstrates primitive type patterns in instanceof and switch; see PrimitiveTypesDemo.java"
+    "jep": 510,
+    "info": {
+      "name": "JEP 510 - Key Derivation Function API",
+      "dscr": "Standard API for Key Derivation Functions (KDFs) in Java; see KeyDerivationFunctionDemo.java for usage."
+    }
+  },
+  {
     "jep": 511,
     "info": {
       "name": "JEP 511 - Module Import Declarations",
@@ -47,6 +58,14 @@
       "name": "JEP 515 - Ahead-of-Time Method Profiling",
       "dscr": "Demonstrates Ahead-of-Time Method Profiling which improves warmup time; see AheadOfTimeMethodProfiling.java"
     }
+    },
+{
+  "jep": 503,
+  "info": {
+    "name": "JEP 503 - Remove the 32-bit x86 Port",
+    "dscr": "Removes the legacy 32-bit x86 port from the JDK to reduce maintenance burden; see Remove32BitX86Demo.java"
+  }
+
   },
   {
     "jep": 514,
