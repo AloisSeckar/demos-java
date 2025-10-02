@@ -3,7 +3,7 @@ package org.javademos.init;
 import org.javademos.commons.IDemo;
 import org.javademos.java25.jep511.ModuleImportDeclarations;
 import org.javademos.java25.jep470.PemEncodings;
-import org.javademos.java25.jep4519.CompactObjectHeaderDemo;
+import org.javademos.java25.jep519.CompactObjectHeaderDemo;
 
 import java.util.ArrayList;
 
