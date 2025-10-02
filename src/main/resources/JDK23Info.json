@@ -7,6 +7,13 @@
     }
   },
   {
+    "jep": 463,
+    "info": {
+      "name": "JEP 463 - Implicitly Declared Classes and Instance Main Methods (Second Preview)",
+      "dscr": "See ImplicitlyDeclaredClassesDemo class for further info"
+    }
+  },
+  {
     "jep": 466,
     "info": {
       "name": "JEP 466 - Class-File API (Second Preview)",
