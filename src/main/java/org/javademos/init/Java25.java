@@ -15,6 +15,7 @@ import org.javademos.java25.jep514.AheadOfTimeCLIDemo;
 import org.javademos.java25.jep515.AheadOfTimeMethodProfilingDemo;
 import org.javademos.java25.jep518.JFRCooperativeSamplingDemo;
 import org.javademos.java25.jep519.CompactObjectHeaderDemo;
+import org.javademos.java25.jep458.LaunchMultiFileSourceDemo;
 
 import java.util.ArrayList;
 
@@ -30,6 +31,8 @@ public class Java25 {
 
         // JEP 470
         java25DemoPool.add(new PemEncodingsDemo());
+        // JEP 458
+        java25DemoPool.add(new LaunchMultiFileSourceDemo());
         // JEP 502
         java25DemoPool.add(new StableValuesDemo());
         //JEP 503
