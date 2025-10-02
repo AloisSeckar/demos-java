@@ -27,7 +27,13 @@
       "name": "JEP 519 -  Compact Object Headers",
       "dscr": "Adds a demo for JEP 519 — Class-File API, showcasing how to parse, inspect, and generate Java class files programmatically.; see CompactObjectHeaderDemo.java "
     }
-  } ,
+  } ,{
+    "jep": 520,
+    "info": {
+      "name": "JEP 520 - JFR Method Timing & Tracing",
+      "dscr": "Demonstrates JFR method-level timing and tracing; see JFRMethodTimingTracingDemo.java for details."
+    }
+  },
   {
     "jep": 518,
     "info": {
@@ -75,12 +81,6 @@
     "dscr": "Stable Values offer an immutable data abstraction for performance and safety; see StableValuesDemo.java"
   }
 }
-
-
-
-
-
-  }
 ]
 
 

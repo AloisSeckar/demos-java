@@ -11,6 +11,7 @@ import org.javademos.java25.jep518.JFRCooperativeSampling;
 import org.javademos.java25.jep519.CompactObjectHeaderDemo;
 import org.javademos.java25.jep506.ScopedValuesDemo;
 import org.javademos.java25.jep502.StableValuesDemo;
+import org.javademos.java25.jep520.JFRMethodTimingTracingDemo;
 
 import java.util.ArrayList;
 
@@ -36,6 +37,8 @@ public class Java25 {
         java25DemoPool.add(new AheadOfTimeMethodProfiling());
         // JEP 519
         java25DemoPool.add(new CompactObjectHeaderDemo());
+        // JEP 520
+        java25DemoPool.add(new JFRMethodTimingTracingDemo());
         // JEP 508
         java25DemoPool.add(new VectorApiDemo());
         // JEP 510
