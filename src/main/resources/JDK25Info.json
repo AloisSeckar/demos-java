@@ -86,6 +86,14 @@
     "info": {
       "name": "JEP 502 - Stable Values (Preview)",
       "dscr": "Stable Values offer an immutable data abstraction for performance and safety; see StableValuesDemo.java"
-    }
+    },
+    {
+  "jep": 521,
+  "info": {
+    "name": "JEP 521 - Generational Shenandoah",
+    "dscr": "Enhances Shenandoah GC with generational collection, improving performance and pause times by treating short-lived and long-lived objects differently; see GenerationalShenandoahDemo.java"
+  }
+}
+
   }
 ]
