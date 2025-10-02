@@ -21,29 +21,54 @@ public class GenerationalShenandoahDemo implements IDemo {
 
         System.out.println("=== Generational Shenandoah Demo ===");
 
-        System.out.println("This demo simulates object allocation to trigger GC activity.");
-        System.out.println("Run with JVM options to enable Shenandoah:");
-        System.out.println("  -XX:+UseShenandoahGC -XX:+UnlockExperimentalVMOptions -XX:+UseShenandoahGenerational\n");
+        // Print JVM info (helps see which GC is running)
+        System.out.println("Running JVM: " + System.getProperty("java.vm.name"));
+        System.out.println("JVM Info: " + System.getProperty("java.vm.info"));
+        System.out.println("Java Version: " + System.getProperty("java.version") + "\n");
 
-        // Simulate GC pressure
+        System.out.println("➡ Run with different JVM flags to compare:");
+        System.out.println("  G1GC (default): java -Xmx512m GenerationalShenandoahDemo");
+        System.out.println("  Shenandoah GC: java -XX:+UseShenandoahGC GenerationalShenandoahDemo");
+        System.out.println("  Generational Shenandoah: java -XX:+UseShenandoahGC "
+                + "-XX:+UnlockExperimentalVMOptions -XX:+UseShenandoahGenerational GenerationalShenandoahDemo\n");
+
+        // -------------------------------------------------
+        // Allocation pressure benchmark
+        System.out.println("=== Allocation Pressure Test ===");
+        Runtime runtime = Runtime.getRuntime();
+
         try {
-            for (int i = 0; i < 10; i++) {
-                byte[][] allocations = new byte[1000][];
-                for (int j = 0; j < allocations.length; j++) {
-                    allocations[j] = new byte[1024 * 100]; // 100 KB blocks
+            long beforeUsed = runtime.totalMemory() - runtime.freeMemory();
+            long start = System.currentTimeMillis();
+
+            for (int round = 1; round <= 5; round++) {
+                byte[][] allocations = new byte[2000][];
+                for (int i = 0; i < allocations.length; i++) {
+                    allocations[i] = new byte[128 * 1024]; // 128 KB blocks
                 }
-                System.out.println("Iteration " + i + " completed allocations.");
-                Thread.sleep(200);
+                System.out.printf("Round %d: Allocated %,d objects%n", round, allocations.length);
+                Thread.sleep(300);
             }
+
+            long end = System.currentTimeMillis();
+            long afterUsed = runtime.totalMemory() - runtime.freeMemory();
+
+            System.out.printf("%nApprox memory used: %.2f MB%n",
+                    (afterUsed - beforeUsed) / (1024.0 * 1024.0));
+            System.out.printf("Elapsed time: %d ms%n", (end - start));
+
         } catch (InterruptedException e) {
             Thread.currentThread().interrupt();
         }
 
+        // -------------------------------------------------
+        // Explanation
         System.out.println("\nExplanation:");
-        System.out.println("- Shenandoah GC focuses on reducing pause times.");
-        System.out.println("- Generational Shenandoah improves performance by separating short-lived and long-lived objects.");
-        System.out.println("- Short-lived objects are collected faster in the young generation.");
-        System.out.println("- Long-lived objects remain in the old generation with less frequent scans.");
-        System.out.println("\nTip: Use `-Xlog:gc*` to observe GC behavior in the logs.");
+        System.out.println("- Shenandoah GC minimizes pause times by concurrent compaction.");
+        System.out.println("- Generational Shenandoah separates short-lived and long-lived objects.");
+        System.out.println("- Young gen: frequent, fast collections.");
+        System.out.println("- Old gen: infrequent, reducing overhead.");
+        System.out.println("\n➡ Compare GC logs with:");
+        System.out.println("   -Xlog:gc*");
     }
 }
