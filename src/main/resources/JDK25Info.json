@@ -37,6 +37,14 @@
       "name": "JEP 509 - JFR CPU-Time Profiling",
       "dscr": "Demonstrates experimental CPU-Time Profiling using JFR; see CpuTimeProfilingDemo.java"
     }
+  }
+      {
+    "jep": 508,
+    "info": {
+      "name": "Vector API (Tenth Incubator)",
+      "dscr": "Demo: vectorized float-array addition using jdk.incubator.vector (JEP 508). Compare vector vs scalar."
+    }
+  
   },
   {
     "jep": 515,
