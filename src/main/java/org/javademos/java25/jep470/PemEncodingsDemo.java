@@ -14,7 +14,7 @@ import org.javademos.commons.IDemo;
 ///
 /// @author Arjun Vijay Prakash @ArjunCodess
 
-public class PemEncodings implements IDemo {
+public class PemEncodingsDemo implements IDemo {
     @Override
     public void demo() {
         info(470);

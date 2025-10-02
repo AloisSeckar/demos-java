@@ -7,18 +7,20 @@ import jdk.jfr.Configuration;
 import java.nio.file.Path;
 
 /// Demo for JDK 25 feature **JFR CPU-Time Profiling** (JEP 509)
+///
 /// JEP history:
 /// - JDK 25: JEP 509 - JFR CPU-Time Profiling (Experimental)
 ///
 /// Further reading:
 /// - https://openjdk.org/jeps/509
 ///
-/// Author: Your Name @yourgithub
+/// Author: @adityamep
+
 public class CpuTimeProfilingDemo implements IDemo {
 
     @Override
     public void demo() {
-        info(509); // prints JEP info if utility available
+        info(509);
 
         System.out.println("Starting JFR CPU-Time Profiling demo...");
 

@@ -8,9 +8,12 @@ import org.javademos.commons.IDemo;
 /// - JDK 25: [JEP 502 - Stable Values (Preview)](https://openjdk.org/jeps/502)  
 ///
 /// ### Further reading
-/// - [Inside Java – Stable Values Preview](https://inside.java/)
+/// - [JEP 502 - Stable Values. New Feature of Java 25 Explained](https://softwaremill.com/jep-502-stable-values-new-feature-of-java-25-explained/)
 ///
 /// @see jdk.internal.vm.annotation.Stable
+///
+/// @author @CodeSakshamY
+
 public class StableValuesDemo implements IDemo {
 
     // A stable value example: a cached, immutable array

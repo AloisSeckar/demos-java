@@ -8,10 +8,15 @@ import javax.crypto.spec.PBEKeySpec;
 import javax.crypto.SecretKeyFactory;
 import java.util.Base64;
 
-/**
- * Demo for JEP 510 - Key Derivation Function API (Java 25)
- * This demo shows how to use the new Key Derivation Function API to derive a key from a password.
- */
+/// Demo for JDK 25 feature **Key Derivation Function API** (JEP 510)
+///
+/// JEP history:
+/// - JDK 24: [JEP 478 - Key Derivation Function API (Preview)](https://openjdk.org/jeps/478)
+/// Further reading:
+/// - [JEP 510: Key Derivation Function API @ daily.dev](https://app.daily.dev/posts/jep-510-key-derivation-function-api-18iteuevj)
+///
+/// @author Kishan Singh @Kishan_Singh
+
 public class KeyDerivationFunctionDemo implements IDemo {
     @Override
     public void demo() {
