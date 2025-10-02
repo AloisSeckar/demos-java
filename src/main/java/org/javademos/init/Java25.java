@@ -7,6 +7,7 @@ import org.javademos.java25.jep470.PemEncodings;
 import org.javademos.java25.jep519.CompactObjectHeaderDemo;
 import org.javademos.java25.jep518.JFRCooperativeSampling;
 import org.javademos.java25.jep509.CpuTimeProfilingDemo;
+import org.javademos.java25.jep508.VectorApiDemo;
 
 
 import java.util.ArrayList;
@@ -34,6 +35,8 @@ public class Java25 {
 
           // JEP 519
         java25DemoPool.add(new CompactObjectHeaderDemo());
+        //JEP 508
+        java25DemoPool.add(new VectorApiDemo());
 
         return java25DemoPool;
     }
