@@ -14,6 +14,7 @@ import org.javademos.java25.jep508.VectorApiDemo;
 import org.javademos.java25.jep507.PrimitiveTypesDemo;
 import org.javademos.java25.jep519.CompactObjectHeaderDemo;
 import org.javademos.java25.jep506.ScopedValuesDemo;
+import org.javademos.java25.jep503.Remove32BitX86Demo;
 import org.javademos.java25.jep502.StableValuesDemo;
 
 import java.util.ArrayList;
@@ -52,6 +53,8 @@ public class Java25 {
         java25DemoPool.add(new ScopedValuesDemo());
         // JEP 502
         java25DemoPool.add(new StableValuesDemo());
+        //JEP 503
+        java25DemoPool.add(new Remove32BitX86Demo());
 
         return java25DemoPool;
     }
