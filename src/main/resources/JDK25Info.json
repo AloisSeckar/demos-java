@@ -1,5 +1,12 @@
 [
   {
+    "jep": 510,
+    "info": {
+      "name": "JEP 510 - Key Derivation Function API",
+      "dscr": "Standard API for Key Derivation Functions (KDFs) in Java; see KeyDerivationFunctionDemo.java for usage."
+    }
+  },
+  {
     "jep": 511,
     "info": {
       "name": "JEP 511 - Module Import Declarations",
