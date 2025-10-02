@@ -8,7 +8,7 @@ import org.javademos.java25.jep519.CompactObjectHeaderDemo;
 import org.javademos.java25.jep518.JFRCooperativeSampling;
 import org.javademos.java25.jep509.CpuTimeProfilingDemo;
 import org.javademos.java25.jep508.VectorApiDemo;
-
+import org.javademos.java25.jep506.ScopedValuesDemo;
 
 
 import java.util.ArrayList;
@@ -39,6 +39,9 @@ public class Java25 {
 
         //JEP 508
         java25DemoPool.add(new VectorApiDemo());
+
+        //JEP 506
+        java25DemoPool.add(new ScopedValuesDemo());
 
 
 
