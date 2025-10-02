@@ -9,6 +9,17 @@ import java.lang.foreign.FunctionDescriptor;
 import java.lang.foreign.Linker;
 import java.lang.invoke.MethodHandle;
 
+/// Demo for JDK 22 feature **Foreign Function & Memory API** (JEP 454)
+///
+/// JEP history:
+/// - JDK 22: [JEP 454 - Foreign Function & Memory API](https://openjdk.org/jeps/454)
+///
+/// Further reading:
+/// - [Inside Java: Foreign Function & Memory API](https://inside.java/2024/02/foreign-function-memory-api/)
+/// - [Baeldung: Guide to Foreign Function & Memory API](https://www.baeldung.com/java-foreign-function-memory-api)
+///
+/// @author kishansingh956196@example.com
+
 public class ForeignFunctionMemoryDemo implements IDemo {
     @Override
     public void demo() {
