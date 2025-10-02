@@ -5,6 +5,7 @@ import org.javademos.java22.jep423.RegionPinningForG1;
 import org.javademos.java22.jep447.StatementsBeforeSuper;
 import org.javademos.java22.jep456.UnnamedPatternsAndVariablesDemo;
 import org.javademos.java22.jep464.ScopedValues;
+import org.javademos.java22.jep454.ForeignFunctionMemoryDemo;
 
 import java.util.ArrayList;
 
@@ -21,7 +22,8 @@ public class Java22 {
         java22DemoPool.add(new StatementsBeforeSuper());
         java22DemoPool.add(new UnnamedPatternsAndVariablesDemo());
         java22DemoPool.add(new ScopedValues());
-
+        java22DemoPool.add(new ForeignFunctionMemoryDemo());
+        
         return java22DemoPool;
     }
 
