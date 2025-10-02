@@ -12,6 +12,7 @@
       "name": "JEP 470 - PEM Encodings of Cryptographic Objects (Preview)",
       "dscr": "Preview support for reading and writing PEM-encoded cryptographic objects; see PemEncodings.java"
     }
+
     },
   {
     "jep": 519,
@@ -21,3 +22,30 @@
     }
   }
 ]
+
+  },
+  {
+    "jep": 518,
+    "info": {
+      "name": "JEP 518 - JFR Cooperative Sampling",
+      "dscr": "Introduce cooperative sampling in Java Flight Recorder to reduce bias and overhead; see JFRCooperativeSampling.java"
+    }
+  },
+  {
+    "jep": 509,
+    "info": {
+      "name": "JEP 509 - JFR CPU-Time Profiling",
+      "dscr": "Demonstrates experimental CPU-Time Profiling using JFR; see CpuTimeProfilingDemo.java"
+    }
+  },
+  {
+    "jep": 515,
+    "info": {
+      "name": "JEP 515 - Ahead-of-Time Method Profiling",
+      "dscr": "Demonstrates Ahead-of-Time Method Profiling which improves warmup time; see AheadOfTimeMethodProfiling.java"
+    }
+  }
+]
+
+
+
