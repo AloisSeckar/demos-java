@@ -38,7 +38,11 @@ public class Java25 {
         java25DemoPool.add(new CompactObjectHeaderDemo());
 
         //JEP 508
-        java25DemoPool.add(new VectorApiDemo());
+
+  java25DemoPool.add(new VectorApiDemo());
+
+  // JEP 510
+  java25DemoPool.add(new org.javademos.java25.jep510.KeyDerivationFunctionDemo());
 
 
 
