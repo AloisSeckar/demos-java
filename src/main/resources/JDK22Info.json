@@ -19,5 +19,11 @@
       "name": "JEP 464 - Scoped Values (Second Preview)",
       "dscr": "Implementation moved into `org.javademos.java23.jep481.ScopedValues` (JEP 481)"
     }
+  }, {
+    "jep": 454,
+    "info": {
+      "name": "JEP 454 - Foreign Function & Memory API",
+      "dscr": "Demonstrates calling C library function 'strlen' using Java's Foreign Function & Memory API."
+    }
   }
 ]
