@@ -70,6 +70,7 @@
     "name": "JEP 502 - Stable Values (Preview)",
     "dscr": "Stable Values offer an immutable data abstraction for performance and safety; see StableValuesDemo.java"
   }
+
 },
 {
   "jep": 503,
@@ -77,6 +78,7 @@
     "name": "JEP 503 - Remove the 32-bit x86 Port",
     "dscr": "Removes the legacy 32-bit x86 port from the JDK to reduce maintenance burden; see Remove32BitX86Demo.java"
   }
+
 }
 
 

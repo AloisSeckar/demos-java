@@ -13,6 +13,9 @@ import org.javademos.java25.jep503.Remove32BitX86Demo;
 import org.javademos.java25.jep502.StableValuesDemo;
 
 
+import org.javademos.java25.jep502.StableValuesDemo;
+
+
 
 
 import java.util.ArrayList;
@@ -52,8 +55,11 @@ public class Java25 {
         //JEP 502
         java25DemoPool.add(new StableValuesDemo());
 
+
         //JEP 503
      java25DemoPool.add(new Remove32BitX86Demo());
+
+
 
         return java25DemoPool;
     }
