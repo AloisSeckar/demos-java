@@ -89,5 +89,12 @@
       "name": "JEP 482 - Flexible Constructor Bodies (Second Preview)",
       "dscr": "Since Java 22, super() is no longer required to be placed as first statement in constructor"
     }
+  },
+  {
+    "jep": 460,
+    "info": {
+      "name": "JEP 460 - Vector API (Seventh Incubator)",
+      "dscr": "Demonstrates SIMD vector computations using the Vector API. See JEP460VectorApiDemo.java for code."
+    }
   }
 ]

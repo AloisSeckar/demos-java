@@ -2,6 +2,8 @@ package org.javademos.init;
 
 import org.javademos.commons.IDemo;
 import org.javademos.java23.jep455.PrimitiveTypesInPatterns;
+import org.javademos.java23.jep460.JEP460VectorApiDemo;
+import org.javademos.java23.jep463.ImplicitlyDeclaredClassesDemo;
 import org.javademos.java23.jep466.ClassFileAPI;
 import org.javademos.java23.jep467.MarkdownComments;
 import org.javademos.java23.jep469.VectorAPI;
@@ -13,7 +15,7 @@ import org.javademos.java23.jep477.ImplicitlyDeclaredClasses;
 import org.javademos.java23.jep480.StructuredConcurrency;
 import org.javademos.java23.jep481.ScopedValues;
 import org.javademos.java23.jep482.FlexibleConstructorBodies;
-import org.javademos.java23.jep463.ImplicitlyDeclaredClassesDemo;
+
 import java.util.ArrayList;
 
 public class Java23 {
@@ -25,7 +27,9 @@ public class Java23 {
         // feel free to comment out demos you are not interested in right now
 
         // JEP 455
-        java23DemoPool.add(new PrimitiveTypesInPatterns());    
+        java23DemoPool.add(new PrimitiveTypesInPatterns());
+        // JEP 460
+        java23DemoPool.add(new JEP460VectorApiDemo());
         // JEP 463
         java23DemoPool.add(new ImplicitlyDeclaredClassesDemo());
         // JEP 466
