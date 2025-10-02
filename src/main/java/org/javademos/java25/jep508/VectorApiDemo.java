@@ -4,115 +4,72 @@ import org.javademos.commons.IDemo;
 import jdk.incubator.vector.FloatVector;
 import jdk.incubator.vector.VectorSpecies;
 
-/**
- * Demo for JDK 25 feature **Vector API (tenth incubator)** (JEP 508)
- *
- * Shows a simple vectorized add (a + b -> out) using jdk.incubator.vector
- * and compares it to a plain scalar loop. Verifies correctness and prints timing.
- *
- * Notes:
- * - This code requires enabling the incubator module at runtime:
- *   --add-modules=jdk.incubator.vector
- *
- * - Recommended: run on JDK 25 (or a build that contains JEP 508).
- *
- * @see jdk.incubator.vector.FloatVector
- */
+/// Demo for JDK 25 feature **Vector API (10th Incubator)** (JEP 508)
+///
+/// ### JEP History
+/// - JDK 16: [JEP 338 - Vector API (Incubator)](https://openjdk.org/jeps/338)  
+/// - JDK 17: [JEP 414 - Vector API (Second Incubator)](https://openjdk.org/jeps/414)  
+/// - JDK 18: [JEP 417 - Vector API (Third Incubator)](https://openjdk.org/jeps/417)  
+/// - JDK 19: [JEP 426 - Vector API (Fourth Incubator)](https://openjdk.org/jeps/426)  
+/// - JDK 20: [JEP 438 - Vector API (Fifth Incubator)](https://openjdk.org/jeps/438)  
+/// - JDK 21: [JEP 448 - Vector API (Sixth Incubator)](https://openjdk.org/jeps/448)  
+/// - JDK 22: [JEP 460 - Vector API (Seventh Incubator)](https://openjdk.org/jeps/460)  
+/// - JDK 23: [JEP 465 - Vector API (Eighth Incubator)](https://openjdk.org/jeps/465)  
+/// - JDK 24: [JEP 474 - Vector API (Ninth Incubator)](https://openjdk.org/jeps/474)  
+/// - JDK 25: [JEP 508 - Vector API (Tenth Incubator)](https://openjdk.org/jeps/508)  
+///
+/// ### Further reading
+/// - [Inside Java - Vector API](https://inside.java/tag/vectorapi/)
+///
+/// @see jdk.incubator.vector.FloatVector
+/// @see jdk.incubator.vector.VectorSpecies
 public class VectorApiDemo implements IDemo {
 
-    // preferred species picks vector size best supported by the platform at runtime
+    // VectorSpecies defines the shape of SIMD vectors (e.g., length and type)
     private static final VectorSpecies<Float> SPECIES = FloatVector.SPECIES_PREFERRED;
-
-    // safe default sized array (tweakable)
-    private static final int DEFAULT_SIZE = 5_000_000;
-    private static final int DEFAULT_RUNS = 3;
 
     @Override
     public void demo() {
         info(508);
 
-        int size = DEFAULT_SIZE;
-        int runs = DEFAULT_RUNS;
+        System.out.println("=== Vector API Demo ===");
 
-        System.out.println("JEP 508 Vector API demo — size=" + size + ", runs=" + runs);
-        System.out.println("Vector species preferred length: " + SPECIES.length());
+        float[] a = new float[SPECIES.length()];
+        float[] b = new float[SPECIES.length()];
+        float[] c = new float[SPECIES.length()];
 
-        // prepare arrays
-        float[] a = new float[size];
-        float[] b = new float[size];
-        float[] outVec = new float[size];
-        float[] outScalar = new float[size];
-
-        for (int i = 0; i < size; i++) {
-            a[i] = (i % 100) + 0.5f;
-            b[i] = ((i * 3) % 100) + 0.25f;
+        // Initialize arrays
+        for (int i = 0; i < SPECIES.length(); i++) {
+            a[i] = i + 1;
+            b[i] = (i + 1) * 10;
         }
 
-        System.out.println("Warming up and benchmarking... (may take a few seconds)");
+        // Load arrays into SIMD vectors
+        var va = FloatVector.fromArray(SPECIES, a, 0);
+        var vb = FloatVector.fromArray(SPECIES, b, 0);
 
-        long vecMs = benchmark(() -> vectorAdd(a, b, outVec), runs);
-        long scalarMs = benchmark(() -> scalarAdd(a, b, outScalar), runs);
+        // Vectorized addition
+        var vc = va.add(vb);
 
-        // correctness check
-        boolean ok = true;
-        for (int i = 0; i < size; i++) {
-            if (Float.floatToIntBits(outVec[i]) != Float.floatToIntBits(outScalar[i])) {
-                System.out.println("Mismatch at index " + i + ": vec=" + outVec[i] + ", scalar=" + outScalar[i]);
-                ok = false;
-                break;
-            }
-        }
+        // Store result back into array
+        vc.intoArray(c, 0);
 
-        System.out.println("Correctness: " + (ok ? "OK" : "FAILED"));
-        System.out.println("Vector total time (ms): " + vecMs);
-        System.out.println("Scalar total time (ms): " + scalarMs);
-        if (vecMs > 0) {
-            double speedup = (double) scalarMs / (double) vecMs;
-            System.out.printf("Speedup (scalar / vector) ≈ %.2fx%n", speedup);
-        }
+        // Print results
+        System.out.println("Vector length: " + SPECIES.length());
+        System.out.print("a: "); printArray(a);
+        System.out.print("b: "); printArray(b);
+        System.out.print("c = a + b: "); printArray(c);
 
-        System.out.println("\nTip: To run outside IDE, compile & run with --add-modules=jdk.incubator.vector");
-        System.out.println("Example (from repo root):");
-        System.out.println("  javac --add-modules jdk.incubator.vector src/main/java/org/javademos/java25/jep508/VectorApiDemo.java");
-        System.out.println("  java  --add-modules jdk.incubator.vector -cp src/main/java org.javademos.java25.jep508.VectorApiDemo");
+        System.out.println("\nExplanation:");
+        System.out.println("- The Vector API performs SIMD operations on arrays.");
+        System.out.println("- JEP 508 is the 10th incubator of this API in JDK 25.");
+        System.out.println("- Compare performance with normal loops to see gains.");
     }
 
-    // vectorized addition using FloatVector
-    public static void vectorAdd(float[] a, float[] b, float[] out) {
-        int length = a.length;
-        int i = 0;
-        int vs = SPECIES.length();
-        int upper = length - (length % vs);
-
-        for (; i < upper; i += vs) {
-            FloatVector va = FloatVector.fromArray(SPECIES, a, i);
-            FloatVector vb = FloatVector.fromArray(SPECIES, b, i);
-            FloatVector vc = va.add(vb);
-            vc.intoArray(out, i);
+    private static void printArray(float[] arr) {
+        for (float v : arr) {
+            System.out.print(v + " ");
         }
-
-        // tail
-        for (; i < length; i++) {
-            out[i] = a[i] + b[i];
-        }
-    }
-
-    // scalar baseline
-    public static void scalarAdd(float[] a, float[] b, float[] out) {
-        for (int i = 0; i < a.length; i++) {
-            out[i] = a[i] + b[i];
-        }
-    }
-
-    // simple benchmark helper (ms)
-    private static long benchmark(Runnable action, int runs) {
-        // warm-up
-        action.run();
-        long start = System.nanoTime();
-        for (int i = 0; i < runs; i++) {
-            action.run();
-        }
-        long end = System.nanoTime();
-        return (end - start) / 1_000_000L;
+        System.out.println();
     }
 }
