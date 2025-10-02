@@ -6,6 +6,7 @@ import org.javademos.java25.jep508.VectorApiDemo;
 import org.javademos.java25.jep509.CpuTimeProfilingDemo;
 import org.javademos.java25.jep510.KeyDerivationFunctionDemo;
 import org.javademos.java25.jep511.ModuleImportDeclarations;
+import org.javademos.java25.jep505.StructuredConcurrencyDemo;
 import org.javademos.java25.jep514.AheadOfTimeCLI;
 import org.javademos.java25.jep515.AheadOfTimeMethodProfiling;
 import org.javademos.java25.jep518.JFRCooperativeSampling;
@@ -31,6 +32,8 @@ public class Java25 {
 
         // JEP 511
         java25DemoPool.add(new ModuleImportDeclarations());
+        // JEP 505
+        java25DemoPool.add(new StructuredConcurrencyDemo());
         // JEP 470
         java25DemoPool.add(new PemEncodings());
         // JEP 518
