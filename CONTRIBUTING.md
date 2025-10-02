@@ -4,6 +4,8 @@
 
 **tl;dr:** Please, check [typical workflow](#typical-workflow) section below for better understanding how to get started.
 
+**DO NOT FORGET TO CHECK, IF THE ISSUE YOU WANT TO WORK ON, ISN'T ALREADY ASSIGNED TO SOMEONE ELSE!**
+
 ## Introduction
 
 You are welcome and encouraged to join your forces with us and put your Java skills and knowledge to a good use by helping us to build this project. **"Java demos"** are meant to be the place for both beginners in Java and more experienced programmers alike. With new features are being added (and sometimes even removed) every half a year, it is not easy to keep up. There are overview articles accompanying each JDK release, but having a comprehensive overview all at one place? Haven't found such project yet.
@@ -47,6 +49,8 @@ Current referential implementation is [MarkdownComments.java for JEP 467](/src/m
 
 ## Contributions
 
+**If you want to help with some issue, please check if it not assigned yet first!** Lets avoid unncessesary conflicts and disappointments before they can happen.
+
 Currently, the focus is on implementing demos for all features of [JDK 25](https://github.com/AloisSeckar/demos-java/issues/29), [JDK 24](https://github.com/AloisSeckar/demos-java/issues/28) and [JDK 23](https://github.com/AloisSeckar/demos-java/issues/1), in given order. However, if you feel like creating demo for some older JEP, you are very much welcome to do so! Just let me know by opening an issue, so it can be properly tracked and your contribution can be recognized. Rememeber, most of the JEPs are not covered at all so far.
 
 A number of demos exist already, but they're not fully transferred to the new style (with Markdown comments). So this is also an option of how to help.
@@ -57,7 +61,7 @@ We can always discuss under each individual issue/PR, how to turn your invaluabl
 
 ## Typical workflow
 
-1. Go into [Issues](https://github.com/AloisSeckar/demos-java/issues) and pick up an issue you want to work on. It is advised to ask for an assignment first to avoid possible clash of two contributors over same issue. If that ever happens, I will try to blend both submissions in to get the best out of them. If no suitable issue is opened, please feel free to create a new one.
+1. Go into [Issues](https://github.com/AloisSeckar/demos-java/issues) and pick up an issue you want to work on. **Check if it is not assigned to someone else yet**. It is also advised to ask for an assignment first to avoid possible clash of two contributors over same issue. If that ever happens, I will try to guide you to blend your variant with the previously accepted, but the result can't be guaranted. If no suitable issue is opened, please feel free to create a new one.
 2. Fork the repository to your own GitHub account, create a new branch and work on your changes there. Check [GitHub docs](https://docs.github.com/en/get-started/exploring-projects-on-github/contributing-to-a-project) to understand the general process better, if you not fully familiar with it yet. Don't hessitate to ask me for help, if needed.
 3. Once you are done, create a Pull Request (PR) from your branch to the `main` branch of this repository. Again, check [GitHub docs](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) for more info about PRs. I'd advise you to focus on one JEP at the time, have a new branch and new PR for each. Also, don't forget to sync your fork with the original repository to avoid conflicts. Conflicts are likely, because more people may access the same files (e.g. helpers and JSON resources) at the same time.
 4. To get your submission accepted, I'd like to ask you to follow those few key points:
