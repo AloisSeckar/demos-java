@@ -9,6 +9,8 @@ import org.javademos.java25.jep511.ModuleImportDeclarations;
 import org.javademos.java25.jep515.AheadOfTimeMethodProfiling;
 import org.javademos.java25.jep518.JFRCooperativeSampling;
 import org.javademos.java25.jep519.CompactObjectHeaderDemo;
+import org.javademos.java25.jep506.ScopedValuesDemo;
+import org.javademos.java25.jep502.StableValuesDemo;
 
 import java.util.ArrayList;
 
@@ -38,6 +40,10 @@ public class Java25 {
         java25DemoPool.add(new VectorApiDemo());
         // JEP 510
         java25DemoPool.add(new KeyDerivationFunctionDemo());
+        // JEP 506
+        java25DemoPool.add(new ScopedValuesDemo());
+        // JEP 502
+        java25DemoPool.add(new StableValuesDemo());
 
         return java25DemoPool;
     }
