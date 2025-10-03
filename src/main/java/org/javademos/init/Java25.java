@@ -49,13 +49,6 @@ public class Java25 {
         java25DemoPool.add(new CpuTimeProfilingDemo());
         // JEP 510
         java25DemoPool.add(new KeyDerivationFunctionDemo());
-        // JEP 506
-        java25DemoPool.add(new ScopedValuesDemo());
-        // JEP 502
-        java25DemoPool.add(new StableValuesDemo());
-        //JEP 503
-        java25DemoPool.add(new Remove32BitX86Demo());
-
         //JEP 521
         java25DemoPool.add(new GenerationalShenandoahDemo());
         return java25DemoPool;
