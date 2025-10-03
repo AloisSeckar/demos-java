@@ -20,6 +20,10 @@ Using `--enable-preview` and `--add-modules` options is necessary to make the ne
 ## Contributing
 You can help making this project better!
 
+Look for the [issues](https://github.com/AloisSeckar/demos-java/issues) to see what can be done.
+
+The most important rule: **Your code must compile and run under Java 25**. Please, do not submit broken code in PRs.
+
 Check the [contribution guide](/CONTRIBUTING.md) or contact me directly for more info.
 
 ## Author

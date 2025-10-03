@@ -55,7 +55,9 @@ Current referential implementation is [MarkdownComments.java for JEP 467](/src/m
 
 Currently, the focus is on implementing demos for all features of [JDK 25](https://github.com/AloisSeckar/demos-java/issues/29), [JDK 24](https://github.com/AloisSeckar/demos-java/issues/28) and [JDK 23](https://github.com/AloisSeckar/demos-java/issues/1), in given order. However, if you feel like creating demo for some older JEP, you are very much welcome to do so! Just let me know by opening an issue, so it can be properly tracked and your contribution can be recognized. Rememeber, most of the JEPs are not covered at all so far.
 
-A number of demos exist already, but they're not fully transferred to the new style (with Markdown comments). So this is also an option of how to help.
+Issues are tagged with labels. If you are here for the first time, look for `good first issue` label which indicates relatively smaller and simplier tasks. Tasks labeled with `advanced` will require better understanding of this project structure and they are recommended to users who already have some PRs accepted. Before starting to work on any issue, be sure you understand the task clearly to avoid unnecessary re-work. If in doubt, please, ask in the issue comments.
+
+A number of JEP demos exist already, but they're not fully transferred to the new style (with Markdown comments). So this is also an option of how to help.
 
 Last, but not least - any corrections and inclusions to existing demos are welcome. I would like to keep the demos rather brief, but every relevant information may help the future users. 
 
