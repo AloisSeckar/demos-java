@@ -32,17 +32,29 @@ public class StructuredConcurrency implements IDemo {
     public void demo() {
         info(480); // Print standardized JEP header
 
-        try (var scope = new StructuredTaskScope.ShutdownOnFailure()) {
+        // this used to work in JDK 23, but not anymore in JDK 25
+        // try (var scope = new StructuredTaskScope.ShutdownOnFailure()) {
+        try (var scope = StructuredTaskScope.open()) {
             // Run two subtasks concurrently
-            Future<String> userTask = scope.fork(this::loadUser);
-            Future<Integer> scoreTask = scope.fork(this::loadScore);
+            // old JDK 23 style
+            // Future<String> userTask = scope.fork(this::loadUser);
+            // Future<Integer> scoreTask = scope.fork(this::loadScore);
+            // new JDK 25 style
+            var userTask = scope.fork(this::loadUser);
+            var scoreTask = scope.fork(this::loadScore);
 
             scope.join();           // Wait for all subtasks to finish
-            scope.throwIfFailed();  // Propagate exceptions if any task failed
+            
+            // not work in JDK 25 anymore
+            // scope.throwIfFailed();  // Propagate exceptions if any task failed
 
             // If successful, combine results
-            System.out.println("User: " + userTask.resultNow());
-            System.out.println("Score: " + scoreTask.resultNow());
+            // old JDK 23 style
+            // System.out.println("User: " + userTask.resultNow());
+            // System.out.println("Score: " + scoreTask.resultNow());
+            // new JDK 25 style
+            System.out.println("User: " + userTask.get());
+            System.out.println("Score: " + scoreTask.get());
         } catch (Exception e) {
             e.printStackTrace();
         }

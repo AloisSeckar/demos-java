@@ -2,6 +2,7 @@ package org.javademos.java23.jep457;
 
 import org.javademos.commons.IDemo;
 import java.lang.classfile.ClassFile;
+import java.lang.classfile.ClassModel;
 import java.nio.file.Files;
 import java.nio.file.Path;
 
@@ -19,21 +20,36 @@ import java.nio.file.Path;
 public class ClassFileApiDemo implements IDemo {
 
     @Override
-    public void demo() throws Exception {
+    public void demo() {
         info(457);
 
         // JEP 457 introduces a standard API for parsing, generating, and transforming Java class files.
         // The API is in preview in java.lang.classfile package.
 
-        // Example: Parse a class file and print its major version
-        Path path = Path.of("path/to/SomeClass.class"); // adjust the path
-        byte[] bytes = Files.readAllBytes(path);
-        ClassFile cf = ClassFile.of().parse(bytes);
+        try {
+            // Example: Parse a class file and print its major version
+            // Using a real class file from the current project
+            Path path = Path.of("target/classes/org/javademos/Main.class");
+            if (!Files.exists(path)) {
+                System.out.println("Class file not found. Please run 'mvn compile' first.");
+                return;
+            }
+            
+            byte[] bytes = Files.readAllBytes(path);
+            // ClassFile.of().parse() returns ClassModel in JDK 25
+            ClassModel classModel = ClassFile.of().parse(bytes);
 
-        // Output the major version of the class file
-        System.out.println("Major version: " + cf.majorVersion());
+            // Output the major version of the class file
+            System.out.println("Major version: " + classModel.majorVersion());
+            System.out.println("Minor version: " + classModel.minorVersion());
+            System.out.println("Class name: " + classModel.thisClass().asInternalName());
 
-        // You can also inspect constant pool, methods, fields, and generate/transform class files
-        // e.g., cf.constantPool(), cf.methods(), cf.fields()
+            // You can also inspect constant pool, methods, fields, and generate/transform class files
+            // System.out.println("Number of methods: " + classModel.methods().size());
+            // System.out.println("Number of fields: " + classModel.fields().size());
+            
+        } catch (Exception e) {
+            System.out.println("Error reading class file: " + e.getMessage());
+        }
     }
 }
