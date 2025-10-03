@@ -30,7 +30,7 @@ public class Java23 {
         // JEP 455
         java23DemoPool.add(new PrimitiveTypesInPatterns());
         // JEP 458
-        java25DemoPool.add(new LaunchMultiFileSourceDemo());
+        java23DemoPool.add(new LaunchMultiFileSourceDemo());
         // JEP 460
         java23DemoPool.add(new JEP460VectorApiDemo());
         // JEP 463
