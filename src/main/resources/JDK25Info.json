@@ -1,10 +1,4 @@
-[{
-    "jep": 458,
-    "info": {
-      "name": "JEP 458 - Launch Multi-File Source-Code Programs",
-      "dscr": "Demonstrates launching multi-file source-code programs directly with java; see LaunchMultiFileSourceDemo.java"
-    }
-  },
+[
   {
     "jep": 470,
     "info": {
