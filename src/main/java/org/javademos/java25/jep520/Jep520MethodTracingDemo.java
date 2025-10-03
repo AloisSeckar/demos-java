@@ -1,4 +1,4 @@
-package org.javademos.java25;
+package org.javademos.java25.jep520;
 
 import java.util.concurrent.TimeUnit;
 
@@ -22,7 +22,7 @@ import java.util.concurrent.TimeUnit;
  *
  * <pre>{@code
  * java --enable-preview \
- * -XX:StartFlightRecording:jdk.MethodTrace#filter=org.javademos.java25.Jep520MethodTracingDemo::performComplexCalculation,filename=tracing.jfr \
+ * -XX:StartFlightRecording:jdk.MethodTrace#filter=org.javademos.java25.jep520.Jep520MethodTracingDemo::performComplexCalculation,filename=tracing.jfr \
  * src/main/java/org/javademos/java25/Jep520MethodTracingDemo.java
  * }</pre>
  *
