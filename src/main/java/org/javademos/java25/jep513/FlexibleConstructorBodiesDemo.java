@@ -13,6 +13,14 @@ import org.javademos.commons.IDemo;
 /// - [JEP 492](https://openjdk.org/jeps/492) (Third Preview)
 ///
 /// @author Ashutosh Singh @Rossville
+public class FlexibleConstructorBodiesDemo implements IDemo{
+    @Override
+    public void demo(){
+        info(513);
+        // the constructor invocation is done at the time of object creation.
+        new sub(5,20); 
+    }
+}
 
 class Super{
     Super(int x){
@@ -44,14 +52,5 @@ class sub extends Super{
     @Override
     void show() {
         System.out.println("Age :"+age);
-    }
-}
-
-public class FlexibleConstructorBodiesDemo implements IDemo{
-    @Override
-    public void demo(){
-        info(513);
-        // the constructor invocation is done at the time of object creation.
-        new sub(5,20); 
     }
 }
