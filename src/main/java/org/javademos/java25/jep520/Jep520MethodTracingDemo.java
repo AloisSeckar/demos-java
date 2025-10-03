@@ -1,5 +1,6 @@
 package org.javademos.java25.jep520;
 
+import org.javademos.commons.IDemo;
 import java.util.concurrent.TimeUnit;
 
 /**
@@ -22,8 +23,8 @@ import java.util.concurrent.TimeUnit;
  *
  * <pre>{@code
  * java --enable-preview \
- * -XX:StartFlightRecording:jdk.MethodTrace#filter=org.javademos.java25.jep520.Jep520MethodTracingDemo::performComplexCalculation,filename=tracing.jfr \
- * src/main/java/org/javademos/java25/Jep520MethodTracingDemo.java
+ * -XX:StartFlightRecording:method-trace=org.javademos.java25.jep520.Jep520MethodTracingDemo::performComplexCalculation,filename=tracing.jfr \
+ * src/main/java/org/javademos/java25/jep520/Jep520MethodTracingDemo.java
  * }</pre>
  *
  * 3.  This command will run the program and generate a JFR recording file named `tracing.jfr`.
@@ -32,18 +33,24 @@ import java.util.concurrent.TimeUnit;
  * `performComplexCalculation` method, including its exact duration and the stack trace.
  *
  */
-public class Jep520MethodTracingDemo {
+public class Jep520MethodTracingDemo implements IDemo {
 
-    public static void main(String[] args) throws InterruptedException {
-        System.out.println("Starting the JEP 520 Method Tracing demo.");
-        System.out.println("Calling the target method multiple times...");
+    @Override
+    public void demo() {
+        try {
+            System.out.println("Starting the JEP 520 Method Tracing demo.");
+            System.out.println("Calling the target method multiple times...");
 
-        // We call the method a few times to generate multiple trace events.
-        performComplexCalculation(100);
-        performComplexCalculation(50);
-        performComplexCalculation(200);
+            // We call the method a few times to generate multiple trace events.
+            performComplexCalculation(100);
+            performComplexCalculation(50);
+            performComplexCalculation(200);
 
-        System.out.println("Demo finished. Check the 'tracing.jfr' file.");
+            System.out.println("Demo finished. Check the 'tracing.jfr' file.");
+        } catch (InterruptedException e) {
+            Thread.currentThread().interrupt();
+            System.err.println("Demo was interrupted.");
+        }
     }
 
     /**
