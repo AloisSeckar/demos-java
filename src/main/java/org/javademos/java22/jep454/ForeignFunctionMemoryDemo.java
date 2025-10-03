@@ -27,14 +27,16 @@ public class ForeignFunctionMemoryDemo implements IDemo {
         // Demo: Call C standard library 'strlen' using Foreign Function & Memory API
         try (Arena arena = Arena.ofConfined()) {
             String str = "Hello, JEP 454!";
-            MemorySegment cStr = arena.allocateUtf8String(str);
+            byte[] utf8Bytes = (str + "\0").getBytes(java.nio.charset.StandardCharsets.UTF_8);
+            MemorySegment cStr = arena.allocate(utf8Bytes.length, 1);
+            cStr.asByteBuffer().put(utf8Bytes);
             SymbolLookup stdlib = SymbolLookup.libraryLookup("c", arena);
             Linker linker = Linker.nativeLinker();
             MethodHandle strlen = linker.downcallHandle(
                 stdlib.find("strlen").get(),
                 FunctionDescriptor.of(ValueLayout.JAVA_LONG, ValueLayout.ADDRESS)
             );
-            long len = (long) strlen.invoke(cStr);
+            long len = (long) strlen.invoke(cStr.address());
             System.out.printf("C strlen('%s') = %d\n", str, len);
         } catch (Throwable t) {
             System.out.println("Foreign Function demo failed: " + t);
