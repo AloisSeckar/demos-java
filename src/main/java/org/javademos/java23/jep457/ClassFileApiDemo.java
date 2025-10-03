@@ -1,14 +1,14 @@
-package org.javademos.java25.jep457;
+package org.javademos.java23.jep457;
 
 import org.javademos.commons.IDemo;
 import java.lang.classfile.ClassFile;
 import java.nio.file.Files;
 import java.nio.file.Path;
 
-/// Demo for JDK 25 feature **Class-File API (Preview)** (JEP 457)
+/// Demo for JDK 23 feature **Class-File API (Preview)** (JEP 457)
 ///
 /// JEP history:
-/// - JDK 25: [JEP 457 - Class-File API (Preview)](https://openjdk.org/jeps/457)
+/// - JDK 23: [JEP 457 - Class-File API (Preview)](https://openjdk.org/jeps/457)
 ///
 /// Further reading:
 /// - [Inside Java - JEP Café: Class-File API](https://inside.java/2024/06/18/jepcafe-classfileapi/)

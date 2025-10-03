@@ -1,12 +1,5 @@
 [
   {
-    "jep": 457,
-    "info": {
-      "name": "JEP 457 - Class-File API (Preview)",
-      "dscr": "Demo for JEP 457: Standard API for parsing, generating, and transforming Java class files; see ClassFileApiDemo.java"
-    }
-  },
-  {
     "jep": 470,
     "info": {
       "name": "JEP 470 - PEM Encodings of Cryptographic Objects (Preview)",
