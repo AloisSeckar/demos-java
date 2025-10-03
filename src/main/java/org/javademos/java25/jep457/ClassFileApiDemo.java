@@ -1,48 +1,39 @@
 package org.javademos.java25.jep457;
 
 import org.javademos.commons.IDemo;
+import java.lang.classfile.ClassFile;
+import java.nio.file.Files;
+import java.nio.file.Path;
 
-/**
- * Demo for JDK 25 feature **Class-File API (Preview)** (JEP 457)
- *
- * JEP history:
- * - JDK 25: [JEP 457 - Class-File API (Preview)](https://openjdk.org/jeps/457)
- *
- * Further reading:
- * - [Inside Java - JEP Café: Class-File API](https://inside.java/2024/06/18/jepcafe-classfileapi/)
- * - [JEP 457 Specification](https://openjdk.org/jeps/457)
- *
- * @see java.lang.classfile
- * @author KishanSingh
- */
-
+/// Demo for JDK 25 feature **Class-File API (Preview)** (JEP 457)
+///
+/// JEP history:
+/// - JDK 25: [JEP 457 - Class-File API (Preview)](https://openjdk.org/jeps/457)
+///
+/// Further reading:
+/// - [Inside Java - JEP Café: Class-File API](https://inside.java/2024/06/18/jepcafe-classfileapi/)
+/// - [JEP 457 Specification](https://openjdk.org/jeps/457)
+///
+/// @see java.lang.classfile
+/// @author kishansingh956196@gmail.com
 public class ClassFileApiDemo implements IDemo {
+
     @Override
-    public void demo() {
+    public void demo() throws Exception {
         info(457);
-        System.out.println("JEP 457 introduces a new standard API for parsing, generating, and transforming Java class files.");
-        System.out.println("This API is in preview and available in the java.lang.classfile package.");
-        System.out.println();
-        System.out.println("--- Example: List major version of a class file ---");
-        System.out.println("// The following code requires JDK 25 and --enable-preview flag.");
-        System.out.println("// It demonstrates reading a class file and printing its major version.");
-        System.out.println("// Uncomment and run with JDK 25 Preview:");
-        System.out.println("/*");
-        System.out.println("import java.lang.classfile.ClassFile;");
-        System.out.println("import java.nio.file.Files;");
-        System.out.println("import java.nio.file.Path;");
-        System.out.println();
-        System.out.println("Path path = Path.of(\"/path/to/SomeClass.class\");");
-        System.out.println("byte[] bytes = Files.readAllBytes(path);");
-        System.out.println("ClassFile cf = ClassFile.of().parse(bytes);");
-        System.out.println("System.out.println(\"Major version: \" + cf.majorVersion());");
-        System.out.println("*/");
-        System.out.println();
-        System.out.println("--- API Highlights ---");
-        System.out.println("- Parse class files: ClassFile.of().parse(byte[])");
-        System.out.println("- Inspect structure: cf.majorVersion(), cf.constantPool(), cf.methods(), etc.");
-        System.out.println("- Generate/transform class files programmatically");
-        System.out.println();
-        System.out.println("See JEP 457 and official documentation for more advanced usage and examples.");
+
+        // JEP 457 introduces a standard API for parsing, generating, and transforming Java class files.
+        // The API is in preview in java.lang.classfile package.
+
+        // Example: Parse a class file and print its major version
+        Path path = Path.of("path/to/SomeClass.class"); // adjust the path
+        byte[] bytes = Files.readAllBytes(path);
+        ClassFile cf = ClassFile.of().parse(bytes);
+
+        // Output the major version of the class file
+        System.out.println("Major version: " + cf.majorVersion());
+
+        // You can also inspect constant pool, methods, fields, and generate/transform class files
+        // e.g., cf.constantPool(), cf.methods(), cf.fields()
     }
 }
