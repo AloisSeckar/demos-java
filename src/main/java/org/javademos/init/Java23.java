@@ -17,6 +17,7 @@ import org.javademos.java23.jep481.ScopedValues;
 import org.javademos.java23.jep482.FlexibleConstructorBodies;
 import org.javademos.java23.jep457.ClassFileApiDemo;
 import org.javademos.java23.jep458.LaunchMultiFileSourceDemo;
+import org.javademos.java23.jep462.StructuredConcurrencyDemo;
 
 import java.util.ArrayList;
 
@@ -36,6 +37,8 @@ public class Java23 {
         java23DemoPool.add(new LaunchMultiFileSourceDemo());
         // JEP 460
         java23DemoPool.add(new JEP460VectorApiDemo());
+        // JEP 462
+        java23DemoPool.add(new StructuredConcurrencyDemo());
         // JEP 463
         java23DemoPool.add(new ImplicitlyDeclaredClassesDemo());
         // JEP 466
