@@ -15,7 +15,7 @@ import org.javademos.java23.jep477.ImplicitlyDeclaredClasses;
 import org.javademos.java23.jep480.StructuredConcurrency;
 import org.javademos.java23.jep481.ScopedValues;
 import org.javademos.java23.jep482.FlexibleConstructorBodies;
-import org.javademos.java25.jep458.LaunchMultiFileSourceDemo;
+import org.javademos.java23.jep458.LaunchMultiFileSourceDemo;
 
 import java.util.ArrayList;
 
