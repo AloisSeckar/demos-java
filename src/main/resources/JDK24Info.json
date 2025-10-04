@@ -7,6 +7,13 @@
     }
   },
   {
+    "jep": 486,
+    "info": {
+      "name": "JEP 486 - Permanently Disable the Security Manager",
+      "dscr": "Remove the Security Manager API from the JDK. This finalizes its deprecation, ensuring developers transition to modern security practices and eliminating legacy maintenance overhead."
+    }
+  },
+  {
     "jep": 493,
     "info": {
       "name": "JEP 493 - Linking Run-Time Images without JMODs",
