@@ -14,6 +14,13 @@
     }
   },
   {
+    "jep": 490,
+    "info": {
+      "name": "JEP 490 - ZGC: Remove the Non-Generational Mode",
+      "dscr": "Removes the non-generational mode of the Z Garbage Collector (ZGC), making the generational mode the only option. This change simplifies long-term maintenance and focuses development efforts on the more efficient generational model."
+    }
+  },
+  {
     "jep": 493,
     "info": {
       "name": "JEP 493 - Linking Run-Time Images without JMODs",
