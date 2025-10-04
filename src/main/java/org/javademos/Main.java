@@ -52,6 +52,7 @@ public class Main {
         demoPool.addAll(Java22.getDemos());
         // newer demos - each JEP has separate file with info/examples
         demoPool.addAll(Java23.getDemos());
+        demoPool.addAll(Java24.getDemos());
         demoPool.addAll(Java25.getDemos());
         
         // run method .demo() on each entry to see the output

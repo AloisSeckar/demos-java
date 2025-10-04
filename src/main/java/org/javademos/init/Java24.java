@@ -1,0 +1,24 @@
+package org.javademos.init;
+
+import java.util.ArrayList;
+
+import org.javademos.commons.IDemo;
+import org.javademos.java24.jep485.StreamGatherers;
+
+
+public class Java24 {
+
+	 /**
+     * @return list of demos available for JDK 24
+     */
+    public static ArrayList<IDemo> getDemos() {
+        var java24DemoPool = new ArrayList<IDemo>();
+
+        // feel free to comment out demos you are not interested in right now
+        
+        //JEP-485
+        java24DemoPool.add(new StreamGatherers());
+        
+        return java24DemoPool;
+    }
+}

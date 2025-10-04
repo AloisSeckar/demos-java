@@ -14,7 +14,7 @@ import java.util.stream.IntStream;
 /// - [Stream Gatherers in Java](https://openjdk.org/jeps/461)
 ///
 /// @author shepherdking67
-public class StreamGatherers461 implements IDemo {
+public class StreamGatherers implements IDemo {
     @Override
     public void demo() {
         info(461);
@@ -28,7 +28,7 @@ public class StreamGatherers461 implements IDemo {
         // Example 2: running sum using scan
         var sums = IntStream.rangeClosed(1, 5)
                 .boxed()
-                .gather(Gatherers.scan(0, Integer::sum));
+                .gather(Gatherers.scan(() -> 0, Integer::sum));
         System.out.println("\nRunning sums:");
         sums.forEach(sum -> System.out.println("  " + sum));
     }

@@ -15,15 +15,18 @@ public class ImplicitlyDeclaredClasses implements IDemo {
     public void demo() {
         info(477);
 
-        System.out.println("This demo doesn't run a 'Hello, World!' example directly here.");
-        System.out.println("Instead, it explains the concept.");
-        System.out.println("With this JEP, you can create a .java file with just:");
-        System.out.println();
-        System.out.println("void main() {");
-        System.out.println("    println(\"Hello, Simplified World!\");");
-        System.out.println("}");
-        System.out.println();
-        System.out.println("And run it with 'java MyFile.java'.");
-        System.out.println("The 'println' method is even auto-imported for convenience.");
+        /*
+         * This demo doesn't run a 'Hello, World!' example directly here.
+         * Instead, it explains the concept.
+         *
+         * With this JEP, you can create a .java file with just:
+         *
+         * void main() {
+         * println("Hello, Simplified World!");
+         * }
+         *
+         * And run it with 'java MyFile.java'.
+         * The 'println' method is even auto-imported for convenience.
+         */
     }
 }
