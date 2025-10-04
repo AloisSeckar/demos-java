@@ -7,13 +7,6 @@
     }
   },
   {
-    "jep": 477,
-    "info": {
-      "name": "JEP 477 - Implicitly Declared Classes and Instance Main Methods (Third Preview)",
-      "dscr": "Simplifies Java for beginners, allowing programs to be written without explicit class declarations."
-    }
-  },
-  {
     "jep": 502,
     "info": {
       "name": "JEP 502 - Stable Values (Preview)",
