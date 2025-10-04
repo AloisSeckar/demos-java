@@ -63,12 +63,12 @@
     }
   },
   {
-    "jep": 473,
-    "info": {
-      "name": "JEP 473 - Stream Gatherers (Second Preview)",
-      "dscr": "See StreamGatherers class for further info"
-    }
-  },
+  "jep": 473,
+  "info": {
+    "name": "JEP 473 - Stream Gatherers (Second Preview)",
+    "dscr": "Demonstrates the new Stream Gatherers API for accumulating and windowing streams; see StreamGatherersDemo.java"
+  }
+},
   {
     "jep": 474,
     "info": {
