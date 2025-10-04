@@ -69,14 +69,6 @@
       "dscr": "Java 25 finalizes module import declarations; see ModuleImportDeclarations.java for details"
     }
     },
-{
-  "jep": 503,
-  "info": {
-    "name": "JEP 503 - Remove the 32-bit x86 Port",
-    "dscr": "Removes the legacy 32-bit x86 port from the JDK to reduce maintenance burden; see Remove32BitX86Demo.java"
-  }
-
-  },
   {
     "jep": 514,
     "info": {
