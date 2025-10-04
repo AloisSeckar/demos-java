@@ -63,12 +63,12 @@
     }
   },
   {
-    "jep": 473,
-    "info": {
-      "name": "JEP 473 - Stream Gatherers (Second Preview)",
-      "dscr": "See StreamGatherers class for further info"
-    }
-  },
+  "jep": 473,
+  "info": {
+    "name": "JEP 473 - Stream Gatherers (Second Preview)",
+    "dscr": "Demonstrates the new Stream Gatherers API for accumulating and windowing streams; see StreamGatherersDemo.java"
+  }
+},
   {
     "jep": 474,
     "info": {
@@ -87,7 +87,7 @@
     "jep": 477,
     "info": {
       "name": "JEP 477 - Implicitly Declared Classes and Instance Main Methods (Third Preview)",
-      "dscr": "See ImplicitlyDeclaredClasses class for further info"
+      "dscr": "Simplifies Java for beginners, allowing programs to be written without explicit class declarations"
     }
   },
   {
