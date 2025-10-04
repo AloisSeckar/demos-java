@@ -12,5 +12,12 @@
       "name": "JEP 493 - Linking Run-Time Images without JMODs",
       "dscr": "Simplifies jlink by removing the need for JMOD files. Developers can now link custom runtime images directly from modular JARs, streamlining the build process."
     }
+  },
+  {
+    "jep": 486,
+    "info": {
+      "name": "JEP 486 - Permanently Disable the Security Manager",
+      "dscr": "The Security Manager API, deprecated for removal in earlier releases, has now been permanently disabled. Any attempt to set a Security Manager will result in an UnsupportedOperationException."
+    }
   }
 ]
