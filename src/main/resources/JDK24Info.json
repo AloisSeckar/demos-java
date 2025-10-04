@@ -5,5 +5,12 @@
 	      "name": "JEP 485 - Stream Gatherers",
 	      "dscr": "Enhance the Stream API to support custom intermediate operations. This will allow stream pipelines to transform data in ways that are not easily achievable with the existing built-in intermediate operations."
 	    }
-	  }
+    },
+    {
+      "jep": 490,
+      "info": {
+        "name": "JEP 490 - ZGC: Remove the Non-Generational Mode",
+        "dscr": "Removes the non-generational mode of the Z Garbage Collector (ZGC), making the generational mode the only option. This change simplifies long-term maintenance and focuses development efforts on the more efficient generational model."
+      }
+    }
 ]
