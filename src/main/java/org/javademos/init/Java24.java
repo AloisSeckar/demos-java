@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 import org.javademos.commons.IDemo;
 import org.javademos.java24.jep485.StreamGatherers;
+import org.javademos.java24.jep498.MemoryAccessMethods;
 
 
 public class Java24 {
@@ -18,7 +19,10 @@ public class Java24 {
         
         //JEP-485
         java24DemoPool.add(new StreamGatherers());
-        
+
+        // JEP-498
+        java24DemoPool.add(new MemoryAccessMethods());
+
         return java24DemoPool;
     }
 }

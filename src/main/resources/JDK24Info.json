@@ -5,5 +5,12 @@
 	      "name": "JEP 485 - Stream Gatherers",
 	      "dscr": "Enhance the Stream API to support custom intermediate operations. This will allow stream pipelines to transform data in ways that are not easily achievable with the existing built-in intermediate operations."
 	    }
-	  }
+	  },
+    {
+      "jep": 498,
+      "info": {
+        "name": "JEP 498 - Warn upon Use of Memory-Access Methods in sun.misc.Unsafe",
+        "dscr": "Showing runtime warnings for methods that are already deprecated"
+      }
+    }
 ]
