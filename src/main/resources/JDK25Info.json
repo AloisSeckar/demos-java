@@ -70,6 +70,13 @@
     }
     },
   {
+    "jep": 513,
+    "info": {
+      "name": "JEP 513 - Flexible Constructor Bodies",
+      "dscr": "It shows the best practises for explicit constructor invocation, see FlexibleConstructorBodiesDemo.java for details"
+    }
+  },
+  {
     "jep": 514,
     "info": {
       "name": "JEP 514 - Ahead-of-Time Command-Line Ergonomics",

@@ -1,7 +1,11 @@
+# Typical .gitignore entries for a Java project
 /target/
 nbactions.xml
 github.txt
 .idea
 
-# Java Flight Recorder
+# Accidentally committed class files
+*.class
+
+# Java Flight Recorder files
 *.jfr

@@ -1,0 +1,31 @@
+name: PR build check (Compile against Java 25 using Maven)
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pr-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    name: build
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Java 25 (GraalVM)
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'graalvm'
+          java-version: '25'
+          cache: maven
+
+      - name: Maven clean install (compile only)
+        run: mvn -B -ntp -DskipTests clean install
