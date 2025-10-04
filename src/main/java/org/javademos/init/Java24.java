@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 import org.javademos.commons.IDemo;
 import org.javademos.java24.jep485.StreamGatherers;
+import org.javademos.java24.jep486.DisableSecurityManager;
 import org.javademos.java24.jep490.ZgcNonGenerationalModeRemoval;
 import org.javademos.java24.jep493.LinkingRunTimeImages493;
 
@@ -20,6 +21,8 @@ public class Java24 {
 
         // JEP 485
         java24DemoPool.add(new StreamGatherers());
+        // JEP 486
+        java24DemoPool.add(new DisableSecurityManager());
         // JEP 490
         java24DemoPool.add(new ZgcNonGenerationalModeRemoval());
         // JEP 493
