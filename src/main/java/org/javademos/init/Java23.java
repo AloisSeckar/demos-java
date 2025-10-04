@@ -8,7 +8,7 @@ import org.javademos.java23.jep466.ClassFileAPI;
 import org.javademos.java23.jep467.MarkdownComments;
 import org.javademos.java23.jep469.VectorAPI;
 import org.javademos.java23.jep471.DeprecateMemoryAccessMethods;
-import org.javademos.java23.jep473.StreamGatherers;
+import org.javademos.java23.jep473.StreamGatherersDemo;
 import org.javademos.java23.jep474.GenerationalZGC23;
 import org.javademos.java23.jep476.ModuleImportDeclarations;
 import org.javademos.java23.jep477.ImplicitlyDeclaredClasses;
@@ -50,7 +50,7 @@ public class Java23 {
         // JEP 471
         java23DemoPool.add(new DeprecateMemoryAccessMethods());
         // JEP 473
-        java23DemoPool.add(new StreamGatherers());
+        java23DemoPool.add(new StreamGatherersDemo());
         // JEP 474
         java23DemoPool.add(new GenerationalZGC23());
         // JEP 476
