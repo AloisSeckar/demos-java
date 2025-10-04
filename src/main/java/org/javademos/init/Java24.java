@@ -16,10 +16,10 @@ public class Java24 {
         var java24DemoPool = new ArrayList<IDemo>();
 
         // feel free to comment out demos you are not interested in right now
-        
+
         // JEP 485
         java24DemoPool.add(new StreamGatherers());
-        
+
         // JEP 493
         java24DemoPool.add(new LinkingRunTimeImages493());
 

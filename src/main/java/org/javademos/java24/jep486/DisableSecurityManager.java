@@ -5,34 +5,29 @@ import org.javademos.commons.IDemo;
 /**
  * JEP 486 - Permanently Disable the Security Manager
  *
- * Demonstrates that the Security Manager has been permanently disabled.
+ * The Security Manager API has been permanently removed.
+ * This demo serves as an educational placeholder, explaining
+ * that attempts to use or set a SecurityManager are no longer supported.
  */
 public class DisableSecurityManager implements IDemo {
 
     @Override
-    public int runDemo() {
-        System.out.println("Running JEP 486 - Permanently Disable the Security Manager demo...");
-
+    public void demo() {
+        // The Security Manager was deprecated for removal in earlier releases
+        // and is now permanently disabled as of JDK 24.
+        //
+        // Any attempt to call System.setSecurityManager(...) results in an
+        // UnsupportedOperationException.
+        
         try {
-            // Attempt to set a SecurityManager
-            System.setSecurityManager(new SecurityManager());
-            System.out.println("SecurityManager successfully set (unexpected in JDK 24/25).");
+            System.setSecurityManager(new SecurityManager()); // this is removed
         } catch (UnsupportedOperationException e) {
-            System.out.println("Expected: Security Manager cannot be set. It is permanently disabled.");
-        } catch (Exception e) {
-            System.out.println("Caught exception: " + e.getClass().getSimpleName() + " - " + e.getMessage());
+            System.out.println("SecurityManager is permanently disabled: " + e);
         }
-
-        return 0;
     }
 
     @Override
-    public String getName() {
+    public String toString() {
         return "JEP 486 - Permanently Disable the Security Manager";
-    }
-
-    @Override
-    public String getDescription() {
-        return "Demonstrates that the Security Manager has been permanently disabled in JDK 24/25.";
     }
 }

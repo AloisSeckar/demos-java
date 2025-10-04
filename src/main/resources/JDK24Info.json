@@ -7,17 +7,17 @@
     }
   },
   {
-    "jep": 486,
-    "info": {
-      "name": "JEP 486 - Permanently Disable the Security Manager",
-      "dscr": "Remove the Security Manager API from the JDK. This finalizes its deprecation, ensuring developers transition to modern security practices and eliminating legacy maintenance overhead."
-    }
-  },
-  {
     "jep": 493,
     "info": {
       "name": "JEP 493 - Linking Run-Time Images without JMODs",
       "dscr": "Simplifies jlink by removing the need for JMOD files. Developers can now link custom runtime images directly from modular JARs, streamlining the build process."
+    }
+  },
+  {
+    "jep": 486,
+    "info": {
+      "name": "JEP 486 - Permanently Disable the Security Manager",
+      "dscr": "The Security Manager API, deprecated for removal in earlier releases, has now been permanently disabled. Any attempt to set a Security Manager will result in an UnsupportedOperationException."
     }
   }
 ]
