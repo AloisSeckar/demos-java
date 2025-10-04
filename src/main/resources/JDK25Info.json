@@ -7,6 +7,13 @@
     }
   },
   {
+  "jep": 473,
+  "info": {
+    "name": "JEP 473 - Stream Gatherers (Second Preview)",
+    "dscr": "Demonstrates the new Stream Gatherers API introduced in Java 25, including scan() and windowFixed() operations; see StreamGatherersDemo.java"
+  }
+},
+  {
     "jep": 502,
     "info": {
       "name": "JEP 502 - Stable Values (Preview)",
