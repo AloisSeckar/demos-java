@@ -2,6 +2,7 @@ package org.javademos.init;
 
 import org.javademos.commons.IDemo;
 import org.javademos.java25.jep470.PemEncodingsDemo;
+import org.javademos.java25.jep477.ImplicitlyDeclaredClasses;
 import org.javademos.java25.jep502.StableValuesDemo;
 import org.javademos.java25.jep503.Remove32BitX86Demo;
 import org.javademos.java25.jep505.StructuredConcurrencyDemo;
@@ -29,6 +30,8 @@ public class Java25 {
         var java25DemoPool = new ArrayList<IDemo>();
         // JEP 470
         java25DemoPool.add(new PemEncodingsDemo());
+        // JEP 477
+        java25DemoPool.add(new ImplicitlyDeclaredClasses());
         // JEP 502
         java25DemoPool.add(new StableValuesDemo());
         //JEP 503
