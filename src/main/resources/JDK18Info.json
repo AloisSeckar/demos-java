@@ -1,0 +1,9 @@
+[
+  {
+    "jep": 417,
+    "info": {
+      "name": "JEP 417 - Vector API (Third Incubator)",
+      "dscr": "Up-to-date demo moved to `org.javademos.java25.jep508.VectorAPIDemo` (JEP 508)"
+    }
+  }
+]

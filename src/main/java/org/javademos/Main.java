@@ -47,7 +47,11 @@ public class Main {
 
         // older demos - not all JEPs covered yet
         demoPool.addAll(Java11.getDemos());
+        demoPool.addAll(Java16.getDemos());
         demoPool.addAll(Java17.getDemos());
+        demoPool.addAll(Java18.getDemos());
+        demoPool.addAll(Java19.getDemos());
+        demoPool.addAll(Java20.getDemos());
         demoPool.addAll(Java21.getDemos());
         demoPool.addAll(Java22.getDemos());
         // newer demos - each JEP has separate file with info/examples
