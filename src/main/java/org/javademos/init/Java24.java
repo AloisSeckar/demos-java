@@ -9,6 +9,7 @@ import org.javademos.java24.jep498.MemoryAccessMethods;
 import org.javademos.java24.jep486.DisableSecurityManager;
 import org.javademos.java24.jep490.ZgcNonGenerationalModeRemoval;
 import org.javademos.java24.jep493.LinkingRunTimeImages493;
+import org.javademos.java24.jep491.SynchronizedNoPinning;
 
 
 public class Java24 {
@@ -35,7 +36,8 @@ public class Java24 {
         java24DemoPool.add(new ZgcNonGenerationalModeRemoval());
         // JEP 493
         java24DemoPool.add(new LinkingRunTimeImages493());
-
+        // JEP 491
+        java24DemoPool.add(new SynchronizedNoPinning());
         return java24DemoPool;
     }
 }
