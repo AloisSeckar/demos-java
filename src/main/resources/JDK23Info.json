@@ -49,12 +49,12 @@
     }
   },
   {
-    "jep": 469,
-    "info": {
-      "name": "JEP 469 - Vector API (Eighth Incubator)",
-      "dscr": "See VectorAPI class for further info"
-    }
-  },
+  "jep": 469,
+  "info": {
+    "name": "JEP 469 - Vector API (Eighth Incubator)",
+    "dscr": "Demonstrates vectorized float-array addition using jdk.incubator.vector API (Eighth Incubator); see VectorApiDemo.java"
+  }
+},
   {
     "jep": 471,
     "info": {

@@ -6,7 +6,7 @@ import org.javademos.java23.jep460.JEP460VectorApiDemo;
 import org.javademos.java23.jep463.ImplicitlyDeclaredClassesDemo;
 import org.javademos.java23.jep466.ClassFileAPI;
 import org.javademos.java23.jep467.MarkdownComments;
-import org.javademos.java23.jep469.VectorAPI;
+import org.javademos.java23.jep469.VectorApiDemo;
 import org.javademos.java23.jep471.DeprecateMemoryAccessMethods;
 import org.javademos.java23.jep473.StreamGatherers;
 import org.javademos.java23.jep474.GenerationalZGC23;
@@ -46,7 +46,7 @@ public class Java23 {
         // JEP 467
         java23DemoPool.add(new MarkdownComments());
         // JEP 469
-        java23DemoPool.add(new VectorAPI());
+        java23DemoPool.add(new VectorApiDemo());
         // JEP 471
         java23DemoPool.add(new DeprecateMemoryAccessMethods());
         // JEP 473
