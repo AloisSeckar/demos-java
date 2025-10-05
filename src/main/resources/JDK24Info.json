@@ -68,5 +68,19 @@
       "name": "JEP 498 - Warn upon Use of Memory-Access Methods in sun.misc.Unsafe",
       "dscr": "Showing runtime warnings for methods that are already deprecated"
      }
+  },
+  {
+    "jep": 479,
+    "info": {
+      "name": "JEP 479 - Remove the 32-bit x86 Windows Port",
+      "dscr": "Removed support for the 32-bit x86 port on Windows in JDK 24, while keeping other OS ports available."
+    }
+  },
+  {
+    "jep": 501,
+    "info": {
+      "name": "JEP 501 - Deprecate the 32-bit x86 Port for Removal",
+      "dscr": "Deprecated the entire 32-bit x86 port in JDK 24, warning of its complete removal in JDK 25."
+    }
   }
 ]
