@@ -23,16 +23,28 @@ public class Java21 {
         var java21DemoPool = new ArrayList<IDemo>();
 
         // feel free to comment out demos you are not interested in right now
+
+        // extra features not related to any JEP
         java21DemoPool.add(new J21Demo());
+
+        // JEP 430
         java21DemoPool.add(new StringTemplatesDemo());
-        java21DemoPool.add(new VirtualThreadsDemo());
-        java21DemoPool.add(new RecordPatternsDemo());
-        java21DemoPool.add(new PatternMatchingForSwitchDemo());
-        java21DemoPool.add(new ScopedValues());
+        // JEP 431
         java21DemoPool.add(new SequencedCollectionsDemo());
-        java21DemoPool.add(new VectorAPIDemo());
-        java21DemoPool.add(new UnnamedPatternsAndVariablesDemo());
+        // JEP 439
         java21DemoPool.add(new GenerationalZGC21());
+        // JEP 440
+        java21DemoPool.add(new RecordPatternsDemo());
+        // JEP 441
+        java21DemoPool.add(new PatternMatchingForSwitchDemo());
+        // JEP 443
+        java21DemoPool.add(new UnnamedPatternsAndVariablesDemo());
+        // JEP 444
+        java21DemoPool.add(new VirtualThreadsDemo());
+        // JEP 446
+        java21DemoPool.add(new ScopedValues());
+        // JEP 448
+        java21DemoPool.add(new VectorAPIDemo());
 
         return java21DemoPool;
     }

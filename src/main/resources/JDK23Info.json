@@ -20,13 +20,20 @@
       "dscr": "Demonstrates launching multi-file source-code programs directly with java; see LaunchMultiFileSourceDemo.java"
     }
   },
- {
-  "jep": 462,
-  "info": {
-    "name": "JEP 462 - Structured Concurrency (Second Preview)",
-    "dscr": "Simplifies multithreaded programming by managing tasks in a structured scope. Demonstrates using StructuredTaskScope to manage subtasks as a single unit of work."
-  }
-},
+  {
+    "jep": 460,
+    "info": {
+      "name": "JEP 460 - Vector API (Seventh Incubator)",
+      "dscr": "Demonstrates SIMD vector computations using the Vector API. See JEP460VectorApiDemo.java for code."
+    }
+  },
+  {
+    "jep": 462,
+    "info": {
+      "name": "JEP 462 - Structured Concurrency (Second Preview)",
+      "dscr": "Simplifies multithreaded programming by managing tasks in a structured scope. Demonstrates using StructuredTaskScope to manage subtasks as a single unit of work."
+    }
+ },
   {
     "jep": 463,
     "info": {
@@ -63,12 +70,12 @@
     }
   },
   {
-  "jep": 473,
-  "info": {
-    "name": "JEP 473 - Stream Gatherers (Second Preview)",
-    "dscr": "Demonstrates the new Stream Gatherers API for accumulating and windowing streams; see StreamGatherersDemo.java"
-  }
-},
+    "jep": 473,
+    "info": {
+      "name": "JEP 473 - Stream Gatherers (Second Preview)",
+      "dscr": "Demonstrates the new Stream Gatherers API for accumulating and windowing streams; see StreamGatherersDemo.java"
+    }
+  },
   {
     "jep": 474,
     "info": {
@@ -109,13 +116,6 @@
     "info": {
       "name": "JEP 482 - Flexible Constructor Bodies (Second Preview)",
       "dscr": "Since Java 22, super() is no longer required to be placed as first statement in constructor"
-    }
-  },
-  {
-    "jep": 460,
-    "info": {
-      "name": "JEP 460 - Vector API (Seventh Incubator)",
-      "dscr": "Demonstrates SIMD vector computations using the Vector API. See JEP460VectorApiDemo.java for code."
     }
   }
 ]
