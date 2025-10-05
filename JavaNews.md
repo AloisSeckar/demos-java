@@ -19,6 +19,10 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2025-09-29`** | [JavaFX 25 previews JavaFX controls in title bars](https://www.infoworld.com/article/4065025/javafx-25-previews-javafx-controls-in-title-bars.html) - an overview of new features in latest **JavaFX** release |
+| **`2025-09-25`** | [Critique of JEP 505: Structured Concurrency (Fifth Preview)](https://softwaremill.com/critique-of-jep-505-structured-concurrency-fifth-preview/) - the author of **Jox** library evaluates the last evolution of the **Structured Concurrency** feature |
+| **`2025-09-25`** | [Introduction to Java records](https://www.infoworld.com/article/4058874/introduction-to-java-records-simplified-data-centric-programming-in-java.html) - records are there with us in Java for some time, this is a more detailed explanation |
+| **`2025-09-24`** | [GraalVM 25 arrives, backed by JDK 25](https://www.infoworld.com/article/4061937/graalvm-25-arrives-backed-by-jdk-25.html) - along with new JDK there is also newest iteration of the **GraalVM** distribution |
 | **`2025-09-23`** | [JDK 25 Security Enhancements](https://seanjmullan.org/blog/2025/09/23/jdk25) - overview of Java 25 updates from the security perspective |
 | **`2025-09-23`** | [JavaFX 25 Highlights](https://inside.java/2025/09/23/javafx-25/) - what's new in the freshly released latest version of **JavaFX** |
 | **`2025-09-23`** | [Modernizing Java projects with GitHub Copilot agent mode](https://github.blog/ai-and-ml/github-copilot/a-step-by-step-guide-to-modernizing-java-projects-with-github-copilot-agent-mode/) - migrating old codebase to modern Java is now easier than ever |

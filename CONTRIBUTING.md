@@ -80,6 +80,7 @@ We can always discuss under each individual issue/PR, how to turn your invaluabl
     - Do not forget to add required record to the respective JSON resource file (JEP name and brief, but meaningful description). **Keep the records ordered by JEP number ascending.**
     - Do not forget to add your new demo into the respective helper class for the JDK version, so it gets executed from `Main.java`. Always add comment with JEP number for better clarity. **Keep the demos ordered by JEP number ascending.**
     - Make sure you are not accidentally submitting some other files or changes that are not related to PR topic.
+    - Because this project might be quite active with multiple contributors working on same files, please make sure your fork is in sync with the `master` branch of the original repository before submitting the PR. Double-check the "Files changed" tab of your PR and avoid posting anything not relevant to your changes.
     - Check an [example of well-structured PR](https://github.com/AloisSeckar/demos-java/pull/52/files) to ensure your sumbission fits the expected standard.
 6. For any questions, feel free to ask in the opened issue, or contact me directly.
 7. Please, be patient. I will try to review your PR as soon as possible, but sometimes it is not possible to do it immediately. I will try to provide you with feedback and/or merge it within 24 hours.
