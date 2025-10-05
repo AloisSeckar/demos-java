@@ -1,5 +1,6 @@
 [
   {
+<<<<<<< HEAD
     "jep": 472,
     "info": {
       "name": "JEP 472 - Prepare to Restrict the Use of JNI",
@@ -21,6 +22,8 @@
      }
   },
   {
+=======
+>>>>>>> f83763ac5b547f72011d6d5ce2b91df36bf757ee
     "jep": 478,
     "info": {
       "name": "JEP 478 - Key Derivation Function API (Preview)",
@@ -35,6 +38,13 @@
     }
   },
   {
+    "jep": 486,
+    "info": {
+      "name": "JEP 486 - Permanently Disable the Security Manager",
+      "dscr": "The Security Manager API, deprecated for removal in earlier releases, has now been permanently disabled. Any attempt to set a Security Manager will result in an UnsupportedOperationException."
+    }
+  },
+  {
     "jep": 490,
     "info": {
       "name": "JEP 490 - ZGC: Remove the Non-Generational Mode",
@@ -42,17 +52,24 @@
     }
   },
   {
+    "jep": 491,
+    "info":{
+      "name": "Synchronize Virtual Threads without Pinning",
+      "dscr": "Improves scalability by allowing virtual threads to unmount from their carrier platform thread when blocked in 'synchronized' methods, eliminating a major source of thread pinning."
+     }
+   },
+  {
     "jep": 493,
     "info": {
       "name": "JEP 493 - Linking Run-Time Images without JMODs",
       "dscr": "Simplifies jlink by removing the need for JMOD files. Developers can now link custom runtime images directly from modular JARs, streamlining the build process."
     }
   },
-  {
-    "jep": 486,
-    "info": {
-      "name": "JEP 486 - Permanently Disable the Security Manager",
-      "dscr": "The Security Manager API, deprecated for removal in earlier releases, has now been permanently disabled. Any attempt to set a Security Manager will result in an UnsupportedOperationException."
-    }
+   {
+     "jep": 498,
+     "info": {
+      "name": "JEP 498 - Warn upon Use of Memory-Access Methods in sun.misc.Unsafe",
+      "dscr": "Showing runtime warnings for methods that are already deprecated"
+     }
   }
 ]

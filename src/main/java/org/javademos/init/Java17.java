@@ -22,6 +22,7 @@ public class Java17 {
         var java17DemoPool = new ArrayList<IDemo>();
 
         // feel free to comment out demos you are not interested in right now
+        
         java17DemoPool.add(new String12Demo());
         java17DemoPool.add(new SwitchDemo());
         java17DemoPool.add(new NullPointerDemo());

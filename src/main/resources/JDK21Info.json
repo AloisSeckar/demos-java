@@ -7,7 +7,7 @@
     }
   },
   {
-    "jep": 464,
+    "jep": 446,
     "info": {
       "name": "JEP 446 - Scoped Values (Preview)",
       "dscr": "Implementation moved into `org.javademos.java23.jep481.ScopedValues` (JEP 481)"
