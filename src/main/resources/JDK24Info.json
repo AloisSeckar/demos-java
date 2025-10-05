@@ -1,5 +1,12 @@
 [
   {
+    "jep": 491,
+    "info":{
+      "name": "Synchronize Virtual Threads without Pinning",
+      "dscr": "Improves scalability by allowing virtual threads to unmount from their carrier platform thread when blocked in 'synchronized' methods, eliminating a major source of thread pinning."
+    }
+  },
+  {
     "jep": 478,
     "info": {
       "name": "JEP 478 - Key Derivation Function API (Preview)",
