@@ -29,6 +29,12 @@ public class Java24 {
 
         // JEP-498
         java24DemoPool.add(new MemoryAccessMethods());
+        // JEP 486
+        java24DemoPool.add(new DisableSecurityManager());
+        // JEP 490
+        java24DemoPool.add(new ZgcNonGenerationalModeRemoval());
+        // JEP 493
+        java24DemoPool.add(new LinkingRunTimeImages493());
 
         // JEP 486
         java24DemoPool.add(new DisableSecurityManager());
