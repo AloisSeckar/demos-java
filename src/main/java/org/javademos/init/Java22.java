@@ -5,7 +5,7 @@ import org.javademos.java22.jep423.RegionPinningForG1;
 import org.javademos.java22.jep447.StatementsBeforeSuper;
 import org.javademos.java22.jep454.ForeignFunctionMemoryDemo;
 import org.javademos.java22.jep456.UnnamedPatternsAndVariablesDemo;
-import org.javademos.java22.jep457.ClassFileApiDemo;
+import org.javademos.java22.jep457.ClassFileAPIDemo;
 import org.javademos.java22.jep460.VectorAPIDemo;
 import org.javademos.java22.jep461.StreamGatherers;
 import org.javademos.java22.jep464.ScopedValues;
@@ -31,7 +31,7 @@ public class Java22 {
         // JEP 456
         java22DemoPool.add(new UnnamedPatternsAndVariablesDemo());
         // JEP 457
-        java22DemoPool.add(new ClassFileApiDemo());
+        java22DemoPool.add(new ClassFileAPIDemo());
         // JEP 460
         java22DemoPool.add(new VectorAPIDemo());
         // JEP 461

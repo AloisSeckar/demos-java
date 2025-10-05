@@ -5,7 +5,7 @@ import org.javademos.java23.jep455.PrimitiveTypesInPatterns;
 import org.javademos.java23.jep458.LaunchMultiFileSourceDemo;
 import org.javademos.java23.jep462.StructuredConcurrencyDemo;
 import org.javademos.java23.jep463.ImplicitlyDeclaredClassesDemo;
-import org.javademos.java23.jep466.ClassFileAPI;
+import org.javademos.java23.jep466.ClassFileAPIDemo;
 import org.javademos.java23.jep467.MarkdownComments;
 import org.javademos.java23.jep469.VectorAPIDemo;
 import org.javademos.java23.jep471.DeprecateMemoryAccessMethods;
@@ -36,7 +36,7 @@ public class Java23 {
         // JEP 463
         java23DemoPool.add(new ImplicitlyDeclaredClassesDemo());
         // JEP 466
-        java23DemoPool.add(new ClassFileAPI());
+        java23DemoPool.add(new ClassFileAPIDemo());
         // JEP 467
         java23DemoPool.add(new MarkdownComments());
         // JEP 469

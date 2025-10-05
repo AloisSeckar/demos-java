@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import org.javademos.commons.IDemo;
 import org.javademos.java24.jep472.PrepareToRestrictJNI;
 import org.javademos.java24.jep478.KeyDerivationApiPreview;
-import org.javademos.java24.jep484.ClassFileApiDemo;
+import org.javademos.java24.jep484.ClassFileAPIDemo;
 import org.javademos.java24.jep485.StreamGatherers;
 import org.javademos.java24.jep486.DisableSecurityManager;
 import org.javademos.java24.jep489.VectorAPIDemo;
@@ -24,13 +24,13 @@ public class Java24 {
         var java24DemoPool = new ArrayList<IDemo>();
 
         // feel free to comment out demos you are not interested in right now
+
         // JEP 472
         java24DemoPool.add(new PrepareToRestrictJNI());
-
         // JEP 478
         java24DemoPool.add(new KeyDerivationApiPreview());
         // JEP 484
-        java24DemoPool.add(new ClassFileApiDemo());
+        java24DemoPool.add(new ClassFileAPIDemo());
         // JEP 485
         java24DemoPool.add(new StreamGatherers());
         // JEP 486

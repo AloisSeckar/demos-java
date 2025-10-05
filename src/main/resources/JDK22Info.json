@@ -24,7 +24,7 @@
     "jep": 457,
     "info": {
       "name": "JEP 457 - Class-File API (Preview)",
-      "dscr": "Demo for JEP 457: Standard API for parsing, generating, and transforming Java class files; see ClassFileApiDemo.java"
+      "dscr": "Up-to-date demo moved to `org.javademos.java24.jep484.ClassFileAPIDemo` (JEP 484)"
     }
   },
   {

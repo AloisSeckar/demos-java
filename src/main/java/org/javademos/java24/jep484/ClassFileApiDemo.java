@@ -5,7 +5,7 @@ import java.lang.classfile.ClassFile;
 import java.nio.file.Files;
 import java.nio.file.Path;
 
-/// Demo for JDK 24 feature <strong>Class-File API</strong> (JEP 484).
+/// Demo for JDK 24 feature <strong>JEP 484 - Class-File API</strong>.
 ///
 /// This JEP finalizes the Class-File API, which was previously in preview.
 /// It provides a standard API for parsing, generating, and transforming Java class files.
@@ -13,7 +13,7 @@ import java.nio.file.Path;
 /// @see <a href="https://openjdk.org/jeps/484">JEP 484</a>
 /// @author ankitkrshah30
 
-public class ClassFileApiDemo implements IDemo {
+public class ClassFileAPIDemo implements IDemo {
 
     @Override
     public void demo() {

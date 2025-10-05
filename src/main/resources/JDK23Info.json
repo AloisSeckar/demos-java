@@ -31,7 +31,7 @@
     "jep": 466,
     "info": {
       "name": "JEP 466 - Class-File API (Second Preview)",
-      "dscr": "See ClassFileAPI class for further info"
+      "dscr": "Up-to-date demo moved to `org.javademos.java24.jep484.ClassFileAPIDemo` (JEP 484)"
     }
   },
   {
