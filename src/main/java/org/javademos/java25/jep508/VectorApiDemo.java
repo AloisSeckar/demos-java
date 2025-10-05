@@ -4,6 +4,8 @@ import org.javademos.commons.IDemo;
 import jdk.incubator.vector.FloatVector;
 import jdk.incubator.vector.VectorSpecies;
 
+import java.util.Random;
+
 /// Demo for JDK 25 feature **Vector API (Tenth Incubator)**.
 ///
 /// The status in Java 25 is INCUBATOR 
