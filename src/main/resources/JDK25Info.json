@@ -7,6 +7,13 @@
     }
   },
   {
+    "jep": 497,
+    "info": {
+      "name": "JEP 497 - Quantum Resistant Algorithm - Lattice-based Digital Signature (Preview)",
+      "dscr": "Provides a lattice-based digital signature algorithm to support quantum-resistant signatures; see QuantumResistantModule.java"
+    }
+  },
+  {
     "jep": 502,
     "info": {
       "name": "JEP 502 - Stable Values (Preview)",

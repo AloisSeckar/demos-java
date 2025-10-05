@@ -2,6 +2,7 @@ package org.javademos.init;
 
 import org.javademos.commons.IDemo;
 import org.javademos.java25.jep470.PemEncodingsDemo;
+import org.javademos.java25.jep497.QuantumResistantModule;
 import org.javademos.java25.jep502.StableValuesDemo;
 import org.javademos.java25.jep503.Remove32BitX86Demo;
 import org.javademos.java25.jep505.StructuredConcurrencyDemo;
@@ -31,6 +32,8 @@ public class Java25 {
 
         // JEP 470
         java25DemoPool.add(new PemEncodingsDemo());
+        // JEP 497
+        java25DemoPool.add(new QuantumResistantModule());
         // JEP 502
         java25DemoPool.add(new StableValuesDemo());
         //JEP 503
