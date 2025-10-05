@@ -21,6 +21,13 @@
     }
   },
   {
+    "jep": 457,
+    "info": {
+      "name": "JEP 457 - Class-File API (Preview)",
+      "dscr": "Demo for JEP 457: Standard API for parsing, generating, and transforming Java class files; see ClassFileApiDemo.java"
+    }
+  },
+  {
     "jep": 460,
     "info": {
       "name": "JEP 460 - Vector API (Seventh Incubator)",
