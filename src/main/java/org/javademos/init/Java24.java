@@ -7,6 +7,7 @@ import org.javademos.java24.jep472.PrepareToRestrictJNI;
 import org.javademos.java24.jep478.KeyDerivationApiPreview;
 import org.javademos.java24.jep485.StreamGatherers;
 import org.javademos.java24.jep486.DisableSecurityManager;
+import org.javademos.java24.jep489.VectorAPIDemo;
 import org.javademos.java24.jep490.ZgcNonGenerationalModeRemoval;
 import org.javademos.java24.jep491.SynchronizedNoPinning;
 import org.javademos.java24.jep493.LinkingRunTimeImages493;
@@ -31,6 +32,8 @@ public class Java24 {
         java24DemoPool.add(new StreamGatherers());
         // JEP 486
         java24DemoPool.add(new DisableSecurityManager());
+        // JEP 489
+        java24DemoPool.add(new VectorAPIDemo());
         // JEP 490
         java24DemoPool.add(new ZgcNonGenerationalModeRemoval());
         // JEP 491

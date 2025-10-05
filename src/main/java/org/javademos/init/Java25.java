@@ -7,7 +7,7 @@ import org.javademos.java25.jep503.Remove32BitX86Demo;
 import org.javademos.java25.jep505.StructuredConcurrencyDemo;
 import org.javademos.java25.jep506.ScopedValuesDemo;
 import org.javademos.java25.jep507.PrimitiveTypesDemo;
-import org.javademos.java25.jep508.VectorApiDemo;
+import org.javademos.java25.jep508.VectorAPIDemo;
 import org.javademos.java25.jep509.CpuTimeProfilingDemo;
 import org.javademos.java25.jep510.KeyDerivationFunctionDemo;
 import org.javademos.java25.jep511.ModuleImportDeclarationsDemo;
@@ -43,7 +43,7 @@ public class Java25 {
         // JEP 507
         java25DemoPool.add(new PrimitiveTypesDemo());
         // JEP 508
-        java25DemoPool.add(new VectorApiDemo());
+        java25DemoPool.add(new VectorAPIDemo());
         // JEP 509
         java25DemoPool.add(new CpuTimeProfilingDemo());
         // JEP 510

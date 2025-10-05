@@ -21,13 +21,6 @@
     }
   },
   {
-    "jep": 460,
-    "info": {
-      "name": "JEP 460 - Vector API (Seventh Incubator)",
-      "dscr": "Demonstrates SIMD vector computations using the Vector API. See JEP460VectorApiDemo.java for code."
-    }
-  },
-  {
     "jep": 462,
     "info": {
       "name": "JEP 462 - Structured Concurrency (Second Preview)",
@@ -56,12 +49,12 @@
     }
   },
   {
-  "jep": 469,
-  "info": {
-    "name": "JEP 469 - Vector API (Eighth Incubator)",
-    "dscr": "Demonstrates vectorized float-array addition using jdk.incubator.vector API (Eighth Incubator); see VectorApiDemo.java"
-  }
-},
+    "jep": 469,
+    "info": {
+      "name": "JEP 469 - Vector API (Eighth Incubator)",
+      "dscr": "Up-to-date demo moved to `org.javademos.java25.jep508.VectorAPIDemo` (JEP 508)"
+    }
+  },
   {
     "jep": 471,
     "info": {
