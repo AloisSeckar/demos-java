@@ -35,6 +35,13 @@
     }
   },
   {
+    "jep": 489,
+    "info": {
+      "name": "JEP 489 - Vector API (Ninth Incubator)",
+      "dscr": "Up-to-date demo moved to `org.javademos.java25.jep508.VectorAPIDemo` (JEP 508)"
+    }
+  },
+  {
     "jep": 490,
     "info": {
       "name": "JEP 490 - ZGC: Remove the Non-Generational Mode",

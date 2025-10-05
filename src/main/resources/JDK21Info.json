@@ -12,5 +12,12 @@
       "name": "JEP 446 - Scoped Values (Preview)",
       "dscr": "Implementation moved into `org.javademos.java23.jep481.ScopedValues` (JEP 481)"
     }
+  },
+  {
+    "jep": 448,
+    "info": {
+      "name": "JEP 448 - Vector API (Sixth Incubator)",
+      "dscr": "Up-to-date demo moved to `org.javademos.java25.jep508.VectorAPIDemo` (JEP 508)"
+    }
   }
 ]
