@@ -1,5 +1,12 @@
 [
   {
+    "jep": 472,
+    "info": {
+      "name": "JEP 472 - Prepare to Restrict the Use of JNI",
+      "dscr": "Issues warnings on uses of the Java Native Interface (JNI) to prepare for future restrictions, enhancing platform integrity by requiring explicit opt-in."
+    }
+  },
+  {
     "jep": 491,
     "info":{
       "name": "Synchronize Virtual Threads without Pinning",
