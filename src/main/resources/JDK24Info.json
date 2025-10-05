@@ -1,6 +1,5 @@
 [
   {
-<<<<<<< HEAD
     "jep": 472,
     "info": {
       "name": "JEP 472 - Prepare to Restrict the Use of JNI",
@@ -22,8 +21,6 @@
      }
   },
   {
-=======
->>>>>>> f83763ac5b547f72011d6d5ce2b91df36bf757ee
     "jep": 478,
     "info": {
       "name": "JEP 478 - Key Derivation Function API (Preview)",
