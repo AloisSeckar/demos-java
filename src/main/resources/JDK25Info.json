@@ -52,7 +52,7 @@
     "jep": 508,
     "info": {
       "name": "Vector API (Tenth Incubator)",
-      "dscr": "Demo: vectorized float-array addition using jdk.incubator.vector (JEP 508). Compare vector vs scalar; see VectorApiDemo.java"
+      "dscr": "API for expressing vector computations that reliably compile at runtime to optimal vector instructions on supported CPUs to achieve better performance"
     }
   },
   {

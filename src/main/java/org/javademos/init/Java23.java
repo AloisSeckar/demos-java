@@ -2,13 +2,14 @@ package org.javademos.init;
 
 import org.javademos.commons.IDemo;
 import org.javademos.java23.jep455.PrimitiveTypesInPatterns;
-import org.javademos.java23.jep460.JEP460VectorApiDemo;
+import org.javademos.java23.jep458.LaunchMultiFileSourceDemo;
+import org.javademos.java23.jep462.StructuredConcurrencyDemo;
 import org.javademos.java23.jep463.ImplicitlyDeclaredClassesDemo;
-import org.javademos.java23.jep466.ClassFileAPI;
+import org.javademos.java23.jep466.ClassFileAPIDemo;
 import org.javademos.java23.jep467.MarkdownComments;
-import org.javademos.java23.jep469.VectorAPI;
+import org.javademos.java23.jep469.VectorAPIDemo;
 import org.javademos.java23.jep471.DeprecateMemoryAccessMethods;
-import org.javademos.java23.jep473.StreamGatherers;
+import org.javademos.java23.jep473.StreamGatherersDemo;
 import org.javademos.java23.jep474.GenerationalZGC23;
 import org.javademos.java23.jep476.ModuleImportDeclarations;
 import org.javademos.java23.jep477.ImplicitlyDeclaredClasses;
@@ -28,20 +29,22 @@ public class Java23 {
 
         // JEP 455
         java23DemoPool.add(new PrimitiveTypesInPatterns());
-        // JEP 460
-        java23DemoPool.add(new JEP460VectorApiDemo());
+        // JEP 458
+        java23DemoPool.add(new LaunchMultiFileSourceDemo());
+        // JEP 462
+        java23DemoPool.add(new StructuredConcurrencyDemo());
         // JEP 463
         java23DemoPool.add(new ImplicitlyDeclaredClassesDemo());
         // JEP 466
-        java23DemoPool.add(new ClassFileAPI());
+        java23DemoPool.add(new ClassFileAPIDemo());
         // JEP 467
         java23DemoPool.add(new MarkdownComments());
         // JEP 469
-        java23DemoPool.add(new VectorAPI());
+        java23DemoPool.add(new VectorAPIDemo());
         // JEP 471
         java23DemoPool.add(new DeprecateMemoryAccessMethods());
         // JEP 473
-        java23DemoPool.add(new StreamGatherers());
+        java23DemoPool.add(new StreamGatherersDemo());
         // JEP 474
         java23DemoPool.add(new GenerationalZGC23());
         // JEP 476

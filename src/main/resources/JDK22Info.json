@@ -14,16 +14,38 @@
     }
   },
   {
-    "jep": 464,
-    "info": {
-      "name": "JEP 464 - Scoped Values (Second Preview)",
-      "dscr": "Implementation moved into `org.javademos.java23.jep481.ScopedValues` (JEP 481)"
-    }
-  }, {
     "jep": 454,
     "info": {
       "name": "JEP 454 - Foreign Function & Memory API",
       "dscr": "Demonstrates calling C library function 'strlen' using Java's Foreign Function & Memory API."
+    }
+  },
+  {
+    "jep": 457,
+    "info": {
+      "name": "JEP 457 - Class-File API (Preview)",
+      "dscr": "Up-to-date demo moved to `org.javademos.java24.jep484.ClassFileAPIDemo` (JEP 484)"
+    }
+  },
+  {
+    "jep": 460,
+    "info": {
+      "name": "JEP 460 - Vector API (Seventh Incubator)",
+      "dscr": "Up-to-date demo moved to `org.javademos.java25.jep508.VectorAPIDemo` (JEP 508)"
+    }
+  },
+  {
+    "jep": 461,
+    "info": {
+      "name": "JEP 461 - Stream Gatherers (Preview)",
+      "dscr": "See StreamGatherers461 class for further info"
+    }
+  },
+  {
+    "jep": 464,
+    "info": {
+      "name": "JEP 464 - Scoped Values (Second Preview)",
+      "dscr": "Implementation moved into `org.javademos.java23.jep481.ScopedValues` (JEP 481)"
     }
   }
 ]

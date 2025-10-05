@@ -20,6 +20,10 @@ Using `--enable-preview` and `--add-modules` options is necessary to make the ne
 ## Contributing
 You can help making this project better!
 
+Look for the [issues](https://github.com/AloisSeckar/demos-java/issues) to see what can be done.
+
+The most important rule: **Your code must compile and run under Java 25**. GitHub workflow is now set up to ensure this and PRs that cannot compile using `mvn clean install` will not be merged until the problems are fixed.
+
 Check the [contribution guide](/CONTRIBUTING.md) or contact me directly for more info.
 
 ## Author
