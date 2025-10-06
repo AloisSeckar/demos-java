@@ -70,6 +70,13 @@
     }
   },
   {
+  "jep": 512,
+  "info": {
+    "name": "JEP 512 - Compact Source Files and Instance Main Methods",
+    "dscr": "Introduces simplified source files that allow top-level code without explicit class declarations and enable instance main methods."
+  }
+},
+  {
     "jep": 513,
     "info": {
       "name": "JEP 513 - Flexible Constructor Bodies",

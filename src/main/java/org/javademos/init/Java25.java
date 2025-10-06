@@ -11,6 +11,7 @@ import org.javademos.java25.jep508.VectorApiDemo;
 import org.javademos.java25.jep509.CpuTimeProfilingDemo;
 import org.javademos.java25.jep510.KeyDerivationFunctionDemo;
 import org.javademos.java25.jep511.ModuleImportDeclarationsDemo;
+import org.javademos.java25.jep512.CompactSourceAndInstanceMain;
 import org.javademos.java25.jep513.FlexibleConstructorBodiesDemo;
 import org.javademos.java25.jep514.AheadOfTimeCLIDemo;
 import org.javademos.java25.jep515.AheadOfTimeMethodProfilingDemo;
@@ -27,11 +28,12 @@ public class Java25 {
      */
     public static ArrayList<IDemo> getDemos() {
         var java25DemoPool = new ArrayList<IDemo>();
+
         // JEP 470
         java25DemoPool.add(new PemEncodingsDemo());
         // JEP 502
         java25DemoPool.add(new StableValuesDemo());
-        //JEP 503
+        // JEP 503
         java25DemoPool.add(new Remove32BitX86Demo());
         // JEP 505
         java25DemoPool.add(new StructuredConcurrencyDemo());
@@ -47,6 +49,8 @@ public class Java25 {
         java25DemoPool.add(new KeyDerivationFunctionDemo());
         // JEP 511
         java25DemoPool.add(new ModuleImportDeclarationsDemo());
+        // JEP 512
+        java25DemoPool.add(new CompactSourceAndInstanceMain());
         // JEP 513
         java25DemoPool.add(new FlexibleConstructorBodiesDemo());
         // JEP 514
@@ -57,7 +61,6 @@ public class Java25 {
         java25DemoPool.add(new JFRCooperativeSamplingDemo());
         // JEP 519
         java25DemoPool.add(new CompactObjectHeaderDemo());
-
         // JEP 520
         java25DemoPool.add(new Jep520MethodTracingDemo());
 
