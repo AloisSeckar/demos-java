@@ -1,4 +1,4 @@
-package org.javademos.java25.jep497;
+package org.javademos.java24.jep497;
 
 import java.security.KeyFactory;
 import java.security.KeyPair;
@@ -10,15 +10,15 @@ import java.security.Signature;
 
 import org.javademos.commons.IDemo;
 
-/// Demo for JDK 25 feature **Quantum Resistant Algorithm - Lattice-based Digital Signature** (JEP 497)
+/// Demo for JDK 24 feature **Quantum Resistant Module - Lattice-based Digital Signature** (JEP 497)
 ///
-/// JEP history: - JDK 25 (preview): [JEP 497 - Quantum Resistant Algorithm - Lattice-based Digital Signature](https://openjdk.org/jeps/497)
+/// JEP history: - JDK 24 (preview): [JEP 497 - Quantum Resistant Module - Lattice-based Digital Signature](https://openjdk.org/jeps/497)
 ///
 /// Further reading:
 /// [JEP 497](https://openjdk.org/jeps/497)
 ///
 /// @author Ashutosh Singh @Rossville
-public class QuantumResistantModule implements IDemo {
+public class QuantumResistantModuleLatticeBasedDigitalSignature implements IDemo {
     @Override
     public void demo() {
         try {
