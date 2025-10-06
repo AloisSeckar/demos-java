@@ -105,6 +105,13 @@
     }
   },
   {
+    "jep": 520,
+    "info": {
+      "name": "JEP 520 - JFR Method Timing & Tracing",
+      "dscr": "Introduces method timing and tracing capabilities to JFR, allowing for low-overhead method invocation tracing; see Jep520MethodTracingDemo.java"
+    }
+  },
+  {
     "jep": 521,
     "info": {
       "name": "JEP 521 - Generational Shenandoah",
