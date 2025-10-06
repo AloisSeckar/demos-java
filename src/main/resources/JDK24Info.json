@@ -50,11 +50,11 @@
   },
   {
     "jep": 491,
-    "info":{
+    "info": {
       "name": "Synchronize Virtual Threads without Pinning",
       "dscr": "Improves scalability by allowing virtual threads to unmount from their carrier platform thread when blocked in 'synchronized' methods, eliminating a major source of thread pinning."
-     }
-   },
+    }
+  },
   {
     "jep": 493,
     "info": {
@@ -62,9 +62,16 @@
       "dscr": "Simplifies jlink by removing the need for JMOD files. Developers can now link custom runtime images directly from modular JARs, streamlining the build process."
     }
   },
-   {
-     "jep": 498,
-     "info": {
+  {
+    "jep": 497,
+    "info": {
+      "name": "JEP 497 - Quantum Resistant Algorithm - Lattice-based Digital Signature (Preview)",
+      "dscr": "Provides a lattice-based digital signature algorithm to support quantum-resistant signatures; see QuantumResistantModule.java"
+    }
+  },
+  {
+    "jep": 498,
+    "info": {
       "name": "JEP 498 - Warn upon Use of Memory-Access Methods in sun.misc.Unsafe",
       "dscr": "Showing runtime warnings for methods that are already deprecated"
      }
