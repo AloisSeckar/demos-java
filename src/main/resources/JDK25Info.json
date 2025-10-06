@@ -68,7 +68,7 @@
       "name": "JEP 511 - Module Import Declarations",
       "dscr": "Java 25 finalizes module import declarations; see ModuleImportDeclarations.java for details"
     }
-    },
+  },
   {
     "jep": 513,
     "info": {
@@ -93,8 +93,8 @@
   {
     "jep": 518,
     "info": {
-      "name": "JEP 502 - Stable Values (Preview)",
-      "dscr": "Stable Values offer an immutable data abstraction for performance and safety; see StableValuesDemo.java"
+      "name": "JEP 518 - JFR Cooperative Sampling",
+      "dscr": "Introduce cooperative sampling in Java Flight Recorder to reduce bias and overhead; see JFRCooperativeSampling.java"
     }
   },
   {
