@@ -11,10 +11,8 @@ import org.javademos.java23.jep469.VectorAPIDemo;
 import org.javademos.java23.jep471.DeprecateMemoryAccessMethods;
 import org.javademos.java23.jep473.StreamGatherersDemo;
 import org.javademos.java23.jep474.GenerationalZGC23;
-import org.javademos.java23.jep476.ModuleImportDeclarations;
 import org.javademos.java23.jep477.ImplicitlyDeclaredClasses;
 import org.javademos.java23.jep480.StructuredConcurrency;
-import org.javademos.java23.jep481.ScopedValues;
 import org.javademos.java23.jep482.FlexibleConstructorBodies;
 
 import java.util.ArrayList;
@@ -47,14 +45,14 @@ public class Java23 {
         java23DemoPool.add(new StreamGatherersDemo());
         // JEP 474
         java23DemoPool.add(new GenerationalZGC23());
-        // JEP 476
-        java23DemoPool.add(new ModuleImportDeclarations());
+        // JEP 476 - Using the full path to the class
+        java23DemoPool.add(new org.javademos.java23.jep476.ScopedValues());
         // JEP 477
         java23DemoPool.add(new ImplicitlyDeclaredClasses());
         // JEP 480
         java23DemoPool.add(new StructuredConcurrency());
-        // JEP 481
-        java23DemoPool.add(new ScopedValues());
+        // JEP 481 - Using the full path to the class
+        java23DemoPool.add(new org.javademos.java23.jep481.ScopedValues());
         // JEP 482
         java23DemoPool.add(new FlexibleConstructorBodies());
 

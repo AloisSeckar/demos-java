@@ -1,5 +1,12 @@
 [
   {
+    "jep": 429,
+    "info": {
+      "name": "JEP 429 - Scoped Values (Incubator)",
+      "dscr": "An incubator JEP for Scoped Values. The feature is finalized in JEP 506 for Java 25."
+    }
+  },
+  {
     "jep": 438,
     "info": {
       "name": "JEP 438 - Vector API (Fifth Incubator)",
