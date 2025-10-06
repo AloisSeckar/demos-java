@@ -19,5 +19,12 @@
       "name": "JEP 448 - Vector API (Sixth Incubator)",
       "dscr": "Up-to-date demo moved to `org.javademos.java25.jep508.VectorAPIDemo` (JEP 508)"
     }
+  },
+  {
+    "jep": 449,
+    "info": {
+      "name": "JEP 449 - Deprecate the 32-bit x86 Windows Port for Removal",
+      "dscr": "Deprecated the Windows 32-bit x86 port in JDK 21, signaling its future removal."
+    }
   }
 ]

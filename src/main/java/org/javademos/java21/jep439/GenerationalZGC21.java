@@ -2,7 +2,7 @@ package org.javademos.java21.jep439;
 
 import org.javademos.commons.IDemo;
 
-/// Demo for JDK 21 feature **Generational ZGC** (JEP 439)
+/// Demo for JDK 21 feature **JEP 439 - Generational ZGC**.
 ///
 /// JEP history:
 /// - JDK 21: [JEP 439 - Generational Mode by Default](https://openjdk.org/jeps/439)
@@ -11,7 +11,6 @@ import org.javademos.commons.IDemo;
 /// - [Introducing Generational ZGC](https://inside.java/2023/11/28/gen-zgc-explainer/)
 ///
 /// @author alois.seckar@gmail.com
-
 public class GenerationalZGC21 implements IDemo {
     @Override
     public void demo() {

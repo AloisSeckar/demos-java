@@ -12,7 +12,6 @@ import java.nio.file.Path;
 ///
 /// @see <a href="https://openjdk.org/jeps/484">JEP 484</a>
 /// @author ankitkrshah30
-
 public class ClassFileAPIDemo implements IDemo {
 
     @Override

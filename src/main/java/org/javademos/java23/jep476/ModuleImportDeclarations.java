@@ -17,7 +17,7 @@ import module java.base;
 // import module java.desktop;
 // the solution is the to import the concrete class to make things clear
 
-/// Demo for JDK 23 feature **Module Import Declarations (Preview)** (JEP 476)
+/// Demo for JDK 23 feature **JEP 476 - Module Import Declarations (Preview)**.
 ///
 /// JEP history:
 /// - JDK 23: [JEP 486 - Module Import Declarations (Preview)](https://openjdk.org/jeps/476)
@@ -30,7 +30,6 @@ import module java.base;
 /// - [Simplifying Java Development with Module Import](https://www.infoq.com/news/2024/05/simplifying-java-module-import/)
 ///
 /// @author alois.seckar@gmail.com
-
 public class ModuleImportDeclarations implements IDemo {
     @Override
     public void demo() {

@@ -2,17 +2,15 @@ package org.javademos.java17.nullpointer;
 
 import org.javademos.commons.IDemo;
 
-/**
- * This class introduces new 'helpful' NullPointerExceptions available from Java 14.
- *
- * REFERENCES:
- * Java 14 - https://openjdk.org/jeps/358 - Helpful NullPointerExceptions
- * 
- * Further reading:
- * https://www.baeldung.com/java-14-nullpointerexception
- * 
- * @author alois.seckar@gmail.com
- */
+/// Demo for JDK 14 feature **JEP 358 - Helpful NullPointerExceptions**.
+///
+/// JEP history:
+/// - JDK 14: [JEP 358 - Helpful NullPointerExceptions](https://openjdk.org/jeps/358)
+/// 
+/// Further reading:
+/// - [Java 14 NullPointerException](https://www.baeldung.com/java-14-nullpointerexception)
+/// 
+/// @author alois.seckar@gmail.com
 public class NullPointerDemo implements IDemo {
 
     @Override

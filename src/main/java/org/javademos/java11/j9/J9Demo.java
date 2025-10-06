@@ -4,17 +4,15 @@ import org.javademos.commons.IDemo;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * This class demonstrates some new language features in Java 9.
- *
- * REFERENCES:
- * Java 9 - TODO specify relevant JEP(s) / JBS(s)
- * 
- * Further reading:
- * https://www.baeldung.com/new-java-9#Language
- * 
- * @author alois.seckar@gmail.com
- */
+/// Demo for JDK 9 language enhancements.
+///
+/// REFERENCES:
+/// - JDK 9: TODO specify relevant JEP(s) / JBS(s)
+/// 
+/// Further reading:
+/// - [New Java 9 Language Features](https://www.baeldung.com/new-java-9#Language)
+/// 
+/// @author alois.seckar@gmail.com
 public class J9Demo implements IDemo {
 
     @Override
