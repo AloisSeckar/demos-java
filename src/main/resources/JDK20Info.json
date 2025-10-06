@@ -3,7 +3,7 @@
     "jep": 429,
     "info": {
       "name": "JEP 429 - Scoped Values (Incubator)",
-      "dscr": "An incubator JEP for Scoped Values. The feature is finalized in JEP 506 for Java 25."
+      "dscr": "Up-to-date demo moved to `org.javademos.java25.jep506.ScopedValuesDemo` (JEP 506)"
     }
   },
   {

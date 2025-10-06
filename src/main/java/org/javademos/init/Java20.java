@@ -3,7 +3,7 @@ package org.javademos.init;
 import java.util.ArrayList;
 
 import org.javademos.commons.IDemo;
-import org.javademos.java20.jep429.ScopedValuesIncubator;
+import org.javademos.java20.jep429.ScopedValuesDemo;
 import org.javademos.java20.jep438.VectorAPIDemo;
 
 public class Java20 {
@@ -17,7 +17,7 @@ public class Java20 {
         // feel free to comment out demos you are not interested in right now
 
         // JEP 429
-        java20DemoPool.add(new ScopedValuesIncubator());
+        java20DemoPool.add(new ScopedValuesDemo());
         // JEP 438
         java20DemoPool.add(new VectorAPIDemo());
 

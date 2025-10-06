@@ -73,7 +73,7 @@
     "jep": 476,
     "info": {
       "name": "JEP 476 - Scoped Values (Third Preview)",
-      "dscr": "A preview of Scoped Values. The feature is finalized in JEP 506 for Java 25."
+      "dscr": "Up-to-date demo moved to `org.javademos.java25.jep506.ScopedValuesDemo` (JEP 506)"
     }
   },
   {
