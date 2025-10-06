@@ -15,6 +15,9 @@ import org.javademos.commons.IDemo;
 /// - 32-bit x86 builds for Linux/other OSes were still available.
 /// - This was an intermediate step before the full removal in JDK 25 (JEP 503).
 ///
+/// Replaced with most recent [JEP 503 - Remove the 32-bit x86 Port](https://openjdk.org/jeps/503)
+/// @see org.javademos.java25.jep503.Remove32BitX86Demo
+///
 /// @author adeelFeroz77
 
 public class RemovedWindows32BitX86Demo implements IDemo {
@@ -22,17 +25,5 @@ public class RemovedWindows32BitX86Demo implements IDemo {
     @Override
     public void demo() {
         info(479);
-
-        System.out.println("=== Remove Windows 32-bit x86 Port Demo (JEP 479) ===");
-
-        String osName = System.getProperty("os.name");
-        String arch = System.getProperty("os.arch");
-        System.out.println("Running on: " + osName + " (" + arch + ")");
-
-        System.out.println("\nExplanation:");
-        System.out.println("- In JDK 24, the 32-bit x86 port was removed for Windows only.");
-        System.out.println("- Other operating systems (like Linux) still had 32-bit builds.");
-        System.out.println("- Developers on Windows had to migrate to 64-bit JDK.");
-        System.out.println("- This set the stage for the complete removal in JDK 25 (JEP 503).");
     }
 }

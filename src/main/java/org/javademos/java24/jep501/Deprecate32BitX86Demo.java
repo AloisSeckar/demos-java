@@ -15,6 +15,9 @@ import org.javademos.commons.IDemo;
 /// - This was a warning for developers that support would end soon.
 /// - The actual removal happened in JDK 25 (JEP 503).
 ///
+/// Replaced with most recent [JEP 503 - Remove the 32-bit x86 Port](https://openjdk.org/jeps/503)
+/// @see org.javademos.java25.jep503.Remove32BitX86Demo
+///
 /// @author adeelFeroz77
 
 public class Deprecate32BitX86Demo implements IDemo {
@@ -22,16 +25,5 @@ public class Deprecate32BitX86Demo implements IDemo {
     @Override
     public void demo() {
         info(501);
-
-        System.out.println("=== Deprecate 32-bit x86 Port Demo (JEP 501) ===");
-
-        String arch = System.getProperty("os.arch");
-        System.out.println("Running on architecture: " + arch);
-
-        System.out.println("\nExplanation:");
-        System.out.println("- In JDK 24, the 32-bit x86 port was not removed yet,");
-        System.out.println("  but it was marked as DEPRECATED for removal.");
-        System.out.println("- Developers were warned to migrate to 64-bit builds.");
-        System.out.println("- Final removal occurred in JDK 25 via JEP 503.");
     }
 }
