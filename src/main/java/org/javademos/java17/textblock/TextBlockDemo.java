@@ -2,19 +2,17 @@ package org.javademos.java17.textblock;
 
 import org.javademos.commons.IDemo;
 
-/**
- * This class demonstrates new way of handling text blocks in Java 15.
- *
- * REFERENCES:
- * Java 15 - https://openjdk.org/jeps/378 - Text Blocks
- * Java 14 - https://openjdk.org/jeps/368 - Text Blocks (Second Preview)
- * Java 13 - https://openjdk.org/jeps/355 - Text Blocks (Preview)
- * 
- * Further reading: 
- * https://www.baeldung.com/java-text-blocks
- * 
- * @author alois.seckar@gmail.com
- */
+/// Demo for JDK 15 feature **JEP 378 - Text Blocks**.
+///
+/// JEP history:
+/// - JDK 15: [JEP 378 - Text Blocks](https://openjdk.org/jeps/378)
+/// - JDK 14: [JEP 368 - Text Blocks (Second Preview)](https://openjdk.org/jeps/368)
+/// - JDK 13: [JEP 355 - Text Blocks (Preview)](https://openjdk.org/jeps/355)
+/// 
+/// Further reading: 
+/// - [Java Text Blocks](https://www.baeldung.com/java-text-blocks)
+/// 
+/// @author alois.seckar@gmail.com
 public class TextBlockDemo implements IDemo {
 
     @Override

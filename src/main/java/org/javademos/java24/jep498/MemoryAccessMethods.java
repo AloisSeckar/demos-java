@@ -5,7 +5,7 @@ import sun.misc.Unsafe;
 
 import java.lang.reflect.Field;
 
-/// Demo for JDK 24 feature **Warn upon Use of Memory-Access Methods in sun.misc.Unsafe** (JEP 498)
+/// Demo for JDK 24 feature **JEP 498 - Warn upon Use of Memory-Access Methods in sun.misc.Unsafe**.
 ///
 /// ### JEP history
 /// - JDK 24: [JEP 498 - Warn upon Use of Memory-Access Methods in sun.misc.Unsafe](https://openjdk.org/jeps/498)
@@ -16,7 +16,6 @@ import java.lang.reflect.Field;
 /// @see sun.misc.Unsafe
 ///
 /// @author @adeelFeroz77
-
 public class MemoryAccessMethods implements IDemo {
 
     @Override

@@ -2,11 +2,12 @@ package org.javademos.init;
 
 import org.javademos.commons.IDemo;
 import org.javademos.java23.jep455.PrimitiveTypesInPatterns;
-import org.javademos.java23.jep460.JEP460VectorApiDemo;
+import org.javademos.java23.jep458.LaunchMultiFileSourceDemo;
+import org.javademos.java23.jep462.StructuredConcurrencyDemo;
 import org.javademos.java23.jep463.ImplicitlyDeclaredClassesDemo;
-import org.javademos.java23.jep466.ClassFileAPI;
+import org.javademos.java23.jep466.ClassFileAPIDemo;
 import org.javademos.java23.jep467.MarkdownComments;
-import org.javademos.java23.jep469.VectorAPI;
+import org.javademos.java23.jep469.VectorAPIDemo;
 import org.javademos.java23.jep471.DeprecateMemoryAccessMethods;
 import org.javademos.java23.jep473.StreamGatherersDemo;
 import org.javademos.java23.jep474.GenerationalZGC23;
@@ -15,9 +16,6 @@ import org.javademos.java23.jep477.ImplicitlyDeclaredClasses;
 import org.javademos.java23.jep480.StructuredConcurrency;
 import org.javademos.java23.jep481.ScopedValues;
 import org.javademos.java23.jep482.FlexibleConstructorBodies;
-import org.javademos.java23.jep457.ClassFileApiDemo;
-import org.javademos.java23.jep458.LaunchMultiFileSourceDemo;
-import org.javademos.java23.jep462.StructuredConcurrencyDemo;
 
 import java.util.ArrayList;
 
@@ -29,24 +27,20 @@ public class Java23 {
 
         // feel free to comment out demos you are not interested in right now
 
-        // JEP 457
-        java23DemoPool.add(new ClassFileApiDemo());
         // JEP 455
         java23DemoPool.add(new PrimitiveTypesInPatterns());
         // JEP 458
         java23DemoPool.add(new LaunchMultiFileSourceDemo());
-        // JEP 460
-        java23DemoPool.add(new JEP460VectorApiDemo());
         // JEP 462
         java23DemoPool.add(new StructuredConcurrencyDemo());
         // JEP 463
         java23DemoPool.add(new ImplicitlyDeclaredClassesDemo());
         // JEP 466
-        java23DemoPool.add(new ClassFileAPI());
+        java23DemoPool.add(new ClassFileAPIDemo());
         // JEP 467
         java23DemoPool.add(new MarkdownComments());
         // JEP 469
-        java23DemoPool.add(new VectorAPI());
+        java23DemoPool.add(new VectorAPIDemo());
         // JEP 471
         java23DemoPool.add(new DeprecateMemoryAccessMethods());
         // JEP 473
