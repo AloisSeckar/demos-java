@@ -76,6 +76,13 @@
       "dscr": "Simplifies jlink by removing the need for JMOD files. Developers can now link custom runtime images directly from modular JARs, streamlining the build process."
     }
   },
+  {
+    "jep": 495,
+    "info": {
+      "title": "Simple Source Files and Instance Main Methods (Fourth Preview)",
+      "description": "The fourth preview to refine instance main methods and implicitly declared classes, paving the way for finalization in JDK 25."
+    }
+  },
    {
      "jep": 498,
      "info": {

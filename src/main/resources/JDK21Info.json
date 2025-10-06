@@ -7,6 +7,13 @@
     }
   },
   {
+    "jep": 445,
+    "info": {
+      "title": "Unnamed Classes and Instance Main Methods (Preview)",
+      "description": "A preview feature to offer a smooth on-ramp to Java programming so that instructors can introduce concepts in a gradual manner."
+    }
+  },
+  {
     "jep": 446,
     "info": {
       "name": "JEP 446 - Scoped Values (Preview)",

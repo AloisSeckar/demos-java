@@ -70,6 +70,13 @@
     }
   },
   {
+    "jep": 512,
+    "info": {
+      "title": "Compact Source Files and Instance Main Methods",
+      "dscr": "Finalizes the 'on-ramp' features for beginners. Allows instance main methods, implicitly declared classes for single-file programs, and introduces a standard IO class, making it easier to write simple Java programs."
+    }
+  },
+  {
     "jep": 513,
     "info": {
       "name": "JEP 513 - Flexible Constructor Bodies",
