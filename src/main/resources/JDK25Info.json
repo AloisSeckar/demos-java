@@ -1,107 +1,87 @@
 [
   {
-    "jep": 470,
-    "info": {
-      "name": "JEP 470 - PEM Encodings of Cryptographic Objects (Preview)",
-      "dscr": "Preview support for reading and writing PEM-encoded cryptographic objects; see PemEncodings.java"
-    }
+    "number": 470,
+    "name": "PemEncodings",
+    "description": "Add standard APIs for reading and writing PEM-encoded data."
   },
   {
-    "jep": 502,
-    "info": {
-      "name": "JEP 502 - Stable Values (Preview)",
-      "dscr": "Stable Values offer an immutable data abstraction for performance and safety; see StableValuesDemo.java"
-    }
+    "number": 502,
+    "name": "StableValues",
+    "description": "Introduce stable values to the Java language to simplify thread-safe object initialization."
   },
   {
-    "jep": 503,
-    "info": {
-      "name": "JEP 503 - Remove the 32-bit x86 Port",
-      "dscr": "Removes the legacy 32-bit x86 port from the JDK to reduce maintenance burden; see Remove32BitX86Demo.java"
-    }
+    "number": 503,
+    "name": "Remove32BitX86",
+    "description": "Remove support for 32-bit x86 platforms."
   },
   {
-    "jep": 505,
-    "info": {
-      "name": "JEP 505 - Structured Concurrency (Fifth Preview)",
-      "dscr": "Structured concurrency simplifies concurrent programming by treating multiple tasks as a single unit of work; see StructuredConcurrencyDemo.java"
-    }
+    "number": 505,
+    "name": "StructuredConcurrency",
+    "description": "Simplify concurrent programming by introducing structured concurrency constructs."
   },
   {
-    "jep": 506,
-    "info": {
-      "name": "JEP 506 - Scoped Values",
-      "dscr": "Scoped Values provide a safe, immutable alternative to thread-local variables; see ScopedValuesDemo.java"
-    }
+    "number": 506,
+    "name": "ScopedValues",
+    "description": "Introduce scoped values for lightweight and safe sharing of data across threads."
   },
   {
-    "jep": 507,
-    "info": {
-      "name": "JEP 507 - Primitive Types in Patterns, instanceof, and switch (Third Preview)",
-      "dscr": "Demonstrates primitive type patterns in instanceof and switch; see PrimitiveTypesDemo.java"
-    }
+    "number": 507,
+    "name": "PrimitiveTypes",
+    "description": "Enhance Java language with primitive types enhancements."
   },
   {
-    "jep": 508,
-    "info": {
-      "name": "Vector API (Tenth Incubator)",
-      "dscr": "API for expressing vector computations that reliably compile at runtime to optimal vector instructions on supported CPUs to achieve better performance"
-    }
+    "number": 508,
+    "name": "VectorAPI",
+    "description": "Improve performance with vector computations using the Vector API."
   },
   {
-    "jep": 509,
-    "info": {
-      "name": "JEP 509 - JFR CPU-Time Profiling",
-      "dscr": "Demonstrates experimental CPU-Time Profiling using JFR; see CpuTimeProfilingDemo.java"
-    }
+    "number": 509,
+    "name": "CpuTimeProfiling",
+    "description": "Add improved CPU time profiling capabilities."
   },
   {
-    "jep": 510,
-    "info": {
-      "name": "JEP 510 - Key Derivation Function API",
-      "dscr": "Standard API for Key Derivation Functions (KDFs) in Java; see KeyDerivationFunctionDemo.java for usage."
-    }
+    "number": 510,
+    "name": "KeyDerivationFunction",
+    "description": "Provide standard API for key derivation functions."
   },
   {
-    "jep": 511,
-    "info": {
-      "name": "JEP 511 - Module Import Declarations",
-      "dscr": "Java 25 finalizes module import declarations; see ModuleImportDeclarations.java for details"
-    }
+    "number": 511,
+    "name": "ModuleImportDeclarations",
+    "description": "Introduce module import declarations to simplify module dependencies."
   },
   {
-    "jep": 513,
-    "info": {
-      "name": "JEP 513 - Flexible Constructor Bodies",
-      "dscr": "It shows the best practises for explicit constructor invocation, see FlexibleConstructorBodiesDemo.java for details"
-    }
+    "number": 512,
+    "name": "CompactSourceAndInstanceMain",
+    "description": "Introduce compact source files and instance main methods to simplify Java source structure."
   },
   {
-    "jep": 514,
-    "info": {
-      "name": "JEP 514 - Ahead-of-Time Command-Line Ergonomics",
-      "dscr": "Shows simplified and ergonomic CLI commands for Ahead-of-Time compilation; see AheadOfTimeCLI.java"
-    }
+    "number": 513,
+    "name": "FlexibleConstructorBodies",
+    "description": "Allow more flexible constructor bodies for enhanced readability and control."
   },
   {
-    "jep": 515,
-    "info": {
-      "name": "JEP 515 - Ahead-of-Time Method Profiling",
-      "dscr": "Demonstrates Ahead-of-Time Method Profiling which improves warmup time; see AheadOfTimeMethodProfiling.java"
-    }
+    "number": 514,
+    "name": "AheadOfTimeCLI",
+    "description": "Add ahead-of-time compilation CLI tools for faster startup."
   },
   {
-    "jep": 518,
-    "info": {
-      "name": "JEP 518 - JFR Cooperative Sampling",
-      "dscr": "Introduce cooperative sampling in Java Flight Recorder to reduce bias and overhead; see JFRCooperativeSampling.java"
-    }
+    "number": 515,
+    "name": "AheadOfTimeMethodProfiling",
+    "description": "Introduce profiling for AOT-compiled methods."
   },
   {
-    "jep": 519,
-    "info": {
-      "name": "JEP 519 - Compact Object Headers",
-      "dscr": "Adds a demo for JEP 519 — Class-File API, showcasing how to parse, inspect, and generate Java class files programmatically; see CompactObjectHeaderDemo.java"
-    }
+    "number": 518,
+    "name": "JFRCooperativeSampling",
+    "description": "Add cooperative sampling for Java Flight Recorder."
+  },
+  {
+    "number": 519,
+    "name": "CompactObjectHeader",
+    "description": "Reduce memory footprint with compact object headers."
+  },
+  {
+    "number": 520,
+    "name": "Jep520MethodTracing",
+    "description": "Introduce method tracing enhancements for performance analysis."
   }
 ]
