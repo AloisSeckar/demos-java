@@ -4,11 +4,14 @@ import org.javademos.commons.IDemo;
 import java.util.stream.Gatherers;
 import java.util.stream.Stream;
 
-/**
- * # JEP 473: Stream Gatherers (Second Preview)
- *
- * Demonstrates the new Stream Gatherers API introduced in Java 25, but belongs in Java 23 demo pool.
- */
+/// Demo for JDK 23 feature **JEP 473 - Stream Gatherers (Preview)**.
+///
+/// Demonstrates the new Stream Gatherers API.
+///
+/// JEP history:
+/// - JDK 23: [JEP 473 - Stream Gatherers (Preview)](https://openjdk.org/jeps/473)
+///
+/// @author alois.seckar@gmail.com
 public class StreamGatherersDemo implements IDemo {
 
     @Override

@@ -3,22 +3,21 @@ package org.javademos.java17.sealed;
 import org.javademos.commons.IDemo;
 import java.util.Arrays;
 
-/**
- * This class presents new 'sealed' classes available since Java 17.
- * We can now 'seal' classes (and interfaces) to avoid unwanted extending 
- * (implementing). With new 'sealed' and 'permits' keywords we can limit
- * inheritance (implementation) only to white-listed subclasses.
- *
- * REFERENCES:
- * Java 17 - https://openjdk.org/jeps/409 - Sealed Classes
- * Java 16 - https://openjdk.org/jeps/397 - Sealed Classes (Second Preview)
- * Java 15 - https://openjdk.org/jeps/360 - Sealed Classes (Preview)
- * 
- * Further reading: 
- * https://www.baeldung.com/java-sealed-classes-interfaces
- * 
- * @author alois.seckar@gmail.com
- */
+/// Demo for JDK 17 feature **JEP 409 - Sealed Classes**.
+/// 
+/// We can now 'seal' classes (and interfaces) to avoid unwanted extending 
+/// (implementing). With new 'sealed' and 'permits' keywords we can limit
+/// inheritance (implementation) only to white-listed subclasses.
+///
+/// JEP history:
+/// - JDK 17: [JEP 409 - Sealed Classes](https://openjdk.org/jeps/409)
+/// - JDK 16: [JEP 397 - Sealed Classes (Second Preview)](https://openjdk.org/jeps/397)
+/// - JDK 15: [JEP 360 - Sealed Classes (Preview)](https://openjdk.org/jeps/360)
+/// 
+/// Further reading: 
+/// - [Java Sealed Classes and Interfaces](https://www.baeldung.com/java-sealed-classes-interfaces)
+/// 
+/// @author alois.seckar@gmail.com
 public class SealedDemo implements IDemo {
 
     @Override
