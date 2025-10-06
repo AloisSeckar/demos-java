@@ -16,7 +16,6 @@ import org.javademos.commons.IDemo;
 /// @see java.lang.System#getProperty(String)
 ///
 /// @author @CodeSakshamY
-
 public class Remove32BitX86Demo implements IDemo {
 
     @Override

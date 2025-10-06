@@ -15,6 +15,12 @@ Stay up-to-date with the following even more dedicated websites:
 Check where can you meet fellow Java enthusiasts at:
 - https://javaconferences.org/
 
+- ## 2025 - October
+
+| Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
+| --- | :--  |
+| **`2025-10-03`** | [Jakarta EE Developer Survey 2025 shows growth in Java 21 and Cloud](https://www.heise.de/en/news/Jakarta-EE-Developer-Survey-2025-shows-growth-in-Java-21-and-Cloud-10711676.html) - key takeaways from recent survey of enterprise Java usage |
+
 ## 2025 - September
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |

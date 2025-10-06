@@ -2,13 +2,9 @@ package org.javademos.java25.jep507;
 
 import org.javademos.commons.IDemo;
 
-/**
- * JEP 507 demo — )
- * <p>
- * Compile and run with --enable-preview (JDK 25).
- */
-
-/// Demo for JDK 25 feature **Primitive Types in Patterns, instanceof, and switch (Third Preview)** (JEP 507)
+/// Demo for JDK 25 feature **JEP 507 - Primitive Types in Patterns, instanceof, and switch (Third Preview)**.
+///
+/// Compile and run with --enable-preview (JDK 25).
 ///
 /// JEP history:
 /// - JDK 25: [JEP 507 - Primitive Types in Patterns, instanceof, and switch (Third Preview)](https://openjdk.org/jeps/507)

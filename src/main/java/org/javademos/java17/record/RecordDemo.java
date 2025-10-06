@@ -2,21 +2,20 @@ package org.javademos.java17.record;
 
 import org.javademos.commons.IDemo;
 
-/**
- * This class shows new data type 'record' available since Java 16.
- * Java 'record' is basically a container for transferring immutable data
- * designed to be as short and simple to declare as possible.
- *
- * REFERENCES:
- * Java 16 - https://openjdk.org/jeps/395 - Records
- * Java 15 - https://openjdk.org/jeps/384 - Records (Second Preview)
- * Java 14 - https://openjdk.org/jeps/359 - Records (Preview)
- * 
- * Further reading: 
- * https://dzone.com/articles/what-are-java-records 
- * 
- * @author alois.seckar@gmail.com
- */
+/// Demo for JDK 16 feature **JEP 395 - Records**.
+/// 
+/// Java 'record' is basically a container for transferring immutable data
+/// designed to be as short and simple to declare as possible.
+///
+/// JEP history:
+/// - JDK 16: [JEP 395 - Records](https://openjdk.org/jeps/395)
+/// - JDK 15: [JEP 384 - Records (Second Preview)](https://openjdk.org/jeps/384)
+/// - JDK 14: [JEP 359 - Records (Preview)](https://openjdk.org/jeps/359)
+/// 
+/// Further reading: 
+/// - [What are Java Records](https://dzone.com/articles/what-are-java-records)
+/// 
+/// @author alois.seckar@gmail.com
 public class RecordDemo implements IDemo {
     
     @Override

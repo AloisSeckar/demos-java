@@ -6,7 +6,7 @@ import jdk.jfr.Recording;
 import jdk.jfr.Configuration;
 import java.nio.file.Path;
 
-/// Demo for JDK 25 feature **JFR CPU-Time Profiling** (JEP 509)
+/// Demo for JDK 25 feature **JEP 509 - JFR CPU-Time Profiling**.
 ///
 /// JEP history:
 /// - JDK 25: JEP 509 - JFR CPU-Time Profiling (Experimental)

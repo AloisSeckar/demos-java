@@ -2,7 +2,7 @@ package org.javademos.java23.jep481;
 
 import org.javademos.commons.IDemo;
 
-/// Demo for JDK 23 feature **Scoped Values (Third Preview)** (JEP 481)
+/// Demo for JDK 23 feature **JEP 481 - Scoped Values (Third Preview)**.
 ///
 /// JEP history:
 /// - JDK 23: [JEP 482 - Scoped Values (Third Preview)](https://openjdk.org/jeps/482)
@@ -19,7 +19,6 @@ import org.javademos.commons.IDemo;
 /// - [Understanding Java’s new ScopedValue]( https://www.infoworld.com/article/2336255/understanding-javas-new-scopedvalue.html)
 ///
 /// @author alois.seckar@gmail.com
-
 public class ScopedValues implements IDemo {
 
     // instance of scoped value to be used

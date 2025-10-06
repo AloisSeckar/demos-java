@@ -2,7 +2,7 @@ package org.javademos.java25.jep514;
 
 import org.javademos.commons.IDemo;
 
-/// Demo for JDK 25 feature **Ahead-of-Time Command-Line Ergonomics** (JEP 514)
+/// Demo for JDK 25 feature **JEP 514 - Ahead-of-Time Command-Line Ergonomics**.
 ///
 /// JEP history:
 /// - JDK 25: [JEP 514 - Ahead-of-Time Command-Line Ergonomics](https://openjdk.org/jeps/514)
@@ -14,7 +14,6 @@ import org.javademos.commons.IDemo;
 /// It simulates a CLI workflow with simplified commands and helpful feedback.
 ///
 /// @author Shivansh @Shivansh-22866
-
 public class AheadOfTimeCLIDemo implements IDemo {
 
     @Override
