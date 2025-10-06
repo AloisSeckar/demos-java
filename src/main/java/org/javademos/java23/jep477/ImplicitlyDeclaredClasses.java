@@ -2,7 +2,7 @@ package org.javademos.java23.jep477;
 
 import org.javademos.commons.IDemo;
 
-/// Demo for JDK 23 feature **Implicitly Declared Classes and Instance Main Methods (Third Preview)** (JEP 477)
+/// Demo for JDK 23 feature **JEP 477 - Implicitly Declared Classes and Instance Main Methods (Third Preview)**.
 ///
 /// JEP history:
 /// - JDK 23: [JEP 477 - Implicitly Declared Classes and Instance Main Methods (Third Preview)](https://openjdk.org/jeps/477)

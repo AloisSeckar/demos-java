@@ -5,25 +5,24 @@ import org.javademos.java17.pattern.InstanceofPatternMatchingDemo;
 import org.javademos.java17.record.RecordDemo;
 import org.javademos.java21.jep441.PatternMatchingForSwitchDemo;
 
-/**
- * This class shows the new 'Record Patterns' feature available in Java 21.
- * The purpose is to allow deconstructing of Java records.
- * @see RecordDemo
- *
- * It can also be used in conjunction with 'instanceof' and 'switch' jep441 matching checks.
- * @see InstanceofPatternMatchingDemo
- * @see PatternMatchingForSwitchDemo
- *
- * REFERENCES:
- * Java 21 - https://openjdk.org/jeps/440 - Record Patterns
- * Java 20 - https://openjdk.org/jeps/432 - Record Patterns (Second Preview)
- * Java 19 - https://openjdk.org/jeps/405 - Record Patterns (Preview)
- *
- * Further reading:
- * https://www.happycoders.eu/java/java-21-features/#Record_Patterns_-_JEP_440
- *
- * @author alois.seckar@gmail.com
- */
+/// Demo for JDK 21 feature **JEP 440 - Record Patterns**.
+/// 
+/// The purpose is to allow deconstructing of Java records.
+/// @see RecordDemo
+///
+/// It can also be used in conjunction with 'instanceof' and 'switch' pattern matching checks.
+/// @see InstanceofPatternMatchingDemo
+/// @see PatternMatchingForSwitchDemo
+///
+/// JEP history:
+/// - JDK 21: [JEP 440 - Record Patterns](https://openjdk.org/jeps/440)
+/// - JDK 20: [JEP 432 - Record Patterns (Second Preview)](https://openjdk.org/jeps/432)
+/// - JDK 19: [JEP 405 - Record Patterns (Preview)](https://openjdk.org/jeps/405)
+///
+/// Further reading:
+/// - [Java 21 Features - Record Patterns](https://www.happycoders.eu/java/java-21-features/#Record_Patterns_-_JEP_440)
+///
+/// @author alois.seckar@gmail.com
 public class RecordPatternsDemo implements IDemo {
 
     // example record containing one number and one string

@@ -2,20 +2,20 @@ package org.javademos.java11.string11;
 
 import org.javademos.commons.IDemo;
 
-/**
- * This class demonstrates new methods available on java.lang.String since Java 11.
- * 
- * REFERENCES:
- * Java 11 - https://bugs.openjdk.org/browse/JDK-8200437 - String::isBlank
- * Java 11 - https://bugs.openjdk.org/browse/JDK-8200425 - String::lines
- * Java 11 - https://bugs.openjdk.org/browse/JDK-8200378 - String::strip, String::stripLeading, String::stripTrailing
- * Java 11 - https://bugs.openjdk.org/browse/JDK-8197594 - String::repeat
- * 
- * Further reading: 
- * https://dzone.com/articles/applying-new-jdk-11-string-methods 
- * 
- * @author alois.seckar@gmail.com
- */
+/// Demo for JDK 11 **String API** enhancements.
+///
+/// This class demonstrates new methods available on java.lang.String since Java 11.
+/// 
+/// REFERENCES:
+/// - JDK 11: [String::isBlank](https://bugs.openjdk.org/browse/JDK-8200437)
+/// - JDK 11: [String::lines](https://bugs.openjdk.org/browse/JDK-8200425)
+/// - JDK 11: [String::strip, String::stripLeading, String::stripTrailing](https://bugs.openjdk.org/browse/JDK-8200378)
+/// - JDK 11: [String::repeat](https://bugs.openjdk.org/browse/JDK-8197594)
+/// 
+/// Further reading: 
+/// - [Applying New JDK 11 String Methods](https://dzone.com/articles/applying-new-jdk-11-string-methods)
+/// 
+/// @author alois.seckar@gmail.com
 public class String11Demo implements IDemo {
 
     @Override

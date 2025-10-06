@@ -2,21 +2,20 @@ package org.javademos.java17.pattern;
 
 import org.javademos.commons.IDemo;
 
-/**
- * This class shows new 'instanceof jep441 matching' concept from Java 16.
- * The basic idea is to allow 'instanceof' check and re-casting to respective
- * data type within one command.
- *
- * REFERENCES:
- * Java 16 - https://openjdk.org/jeps/394 - Pattern Matching for instanceof
- * Java 15 - https://openjdk.org/jeps/375 - Pattern Matching for instanceof (Second Preview)
- * Java 14 - https://openjdk.org/jeps/305 - Pattern Matching for instanceof (Preview)
- * 
- * Further reading: 
- * https://www.agileconnection.com/article/using-new-pattern-matching-feature-java-16
- * 
- * @author alois.seckar@gmail.com
- */
+/// Demo for JDK 16 feature **JEP 394 - Pattern Matching for instanceof**.
+/// 
+/// The basic idea is to allow 'instanceof' check and re-casting to respective
+/// data type within one command.
+///
+/// JEP history:
+/// - JDK 16: [JEP 394 - Pattern Matching for instanceof](https://openjdk.org/jeps/394)
+/// - JDK 15: [JEP 375 - Pattern Matching for instanceof (Second Preview)](https://openjdk.org/jeps/375)
+/// - JDK 14: [JEP 305 - Pattern Matching for instanceof (Preview)](https://openjdk.org/jeps/305)
+/// 
+/// Further reading: 
+/// - [Using New Pattern Matching Feature in Java 16](https://www.agileconnection.com/article/using-new-pattern-matching-feature-java-16)
+/// 
+/// @author alois.seckar@gmail.com
 public class InstanceofPatternMatchingDemo implements IDemo {
 
     @Override

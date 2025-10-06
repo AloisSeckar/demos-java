@@ -2,7 +2,7 @@ package org.javademos.java23.jep455;
 
 import org.javademos.commons.IDemo;
 
-/// Demo for JDK 23 feature **Primitive Types in Patterns, instanceof, and switch (Preview)** (JEP 455)
+/// Demo for JDK 23 feature **JEP 455 - Primitive Types in Patterns, instanceof, and switch (Preview)**.
 ///
 /// JEP history:
 /// - JDK 23: [JEP 455 - Primitive Types in Patterns, instanceof, and switch (Preview)](https://openjdk.org/jeps/455)
@@ -14,7 +14,6 @@ import org.javademos.commons.IDemo;
 /// - [Primitive Types in Patterns, instanceof, and switch in Java 23](https://softwaremill.com/primitive-types-in-patterns-instanceof-and-switch-in-java-23/)
 ///
 /// @author alois.seckar@gmail.com
-
 public class PrimitiveTypesInPatterns implements IDemo {
     @Override
     public void demo() {

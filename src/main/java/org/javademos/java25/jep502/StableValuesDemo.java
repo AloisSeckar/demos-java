@@ -2,7 +2,7 @@ package org.javademos.java25.jep502;
 
 import org.javademos.commons.IDemo;
 
-/// Demo for JDK 25 feature **Stable Values (Preview)** (JEP 502)
+/// Demo for JDK 25 feature **JEP 502 - Stable Values (Preview)**.
 ///
 /// ### JEP history
 /// - JDK 25: [JEP 502 - Stable Values (Preview)](https://openjdk.org/jeps/502)  
@@ -13,7 +13,6 @@ import org.javademos.commons.IDemo;
 /// @see jdk.internal.vm.annotation.Stable
 ///
 /// @author @CodeSakshamY
-
 public class StableValuesDemo implements IDemo {
 
     // A stable value example: a cached, immutable array
