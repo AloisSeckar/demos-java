@@ -4,7 +4,6 @@ import org.javademos.commons.IDemo;
 import org.javademos.java23.jep455.PrimitiveTypesInPatterns;
 import org.javademos.java23.jep458.LaunchMultiFileSourceDemo;
 import org.javademos.java23.jep462.StructuredConcurrencyDemo;
-import org.javademos.java23.jep463.ImplicitlyDeclaredClassesDemo;
 import org.javademos.java23.jep466.ClassFileAPIDemo;
 import org.javademos.java23.jep467.MarkdownComments;
 import org.javademos.java23.jep469.VectorAPIDemo;
@@ -12,7 +11,7 @@ import org.javademos.java23.jep471.DeprecateMemoryAccessMethods;
 import org.javademos.java23.jep473.StreamGatherersDemo;
 import org.javademos.java23.jep474.GenerationalZGC23;
 import org.javademos.java23.jep476.ModuleImportDeclarations;
-import org.javademos.java23.jep477.ImplicitlyDeclaredClasses;
+import org.javademos.java23.jep477.ImplicitlyDeclaredClassesDemo;
 import org.javademos.java23.jep480.StructuredConcurrency;
 import org.javademos.java23.jep481.ScopedValuesDemo;
 import org.javademos.java23.jep482.FlexibleConstructorBodies;
@@ -33,8 +32,6 @@ public class Java23 {
         java23DemoPool.add(new LaunchMultiFileSourceDemo());
         // JEP 462
         java23DemoPool.add(new StructuredConcurrencyDemo());
-        // JEP 463
-        java23DemoPool.add(new ImplicitlyDeclaredClassesDemo());
         // JEP 466
         java23DemoPool.add(new ClassFileAPIDemo());
         // JEP 467
@@ -50,7 +47,7 @@ public class Java23 {
         // JEP 476
         java23DemoPool.add(new ModuleImportDeclarations());
         // JEP 477
-        java23DemoPool.add(new ImplicitlyDeclaredClasses());
+        java23DemoPool.add(new ImplicitlyDeclaredClassesDemo());
         // JEP 480
         java23DemoPool.add(new StructuredConcurrency());
         // JEP 481

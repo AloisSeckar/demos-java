@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 import org.javademos.commons.IDemo;
 import org.javademos.java24.jep472.PrepareToRestrictJNI;
+import org.javademos.java24.jep475.LateBarrierExpansionG1;
 import org.javademos.java24.jep478.KeyDerivationApiPreview;
 import org.javademos.java24.jep484.ClassFileAPIDemo;
 import org.javademos.java24.jep485.StreamGatherers;
@@ -13,6 +14,7 @@ import org.javademos.java24.jep489.VectorAPIDemo;
 import org.javademos.java24.jep490.ZgcNonGenerationalModeRemoval;
 import org.javademos.java24.jep491.SynchronizedNoPinning;
 import org.javademos.java24.jep493.LinkingRunTimeImages493;
+import org.javademos.java24.jep495.SimpleSourceFilesDemo;
 import org.javademos.java24.jep498.MemoryAccessMethods;
 
 
@@ -28,6 +30,8 @@ public class Java24 {
 
         // JEP 472
         java24DemoPool.add(new PrepareToRestrictJNI());
+        // JEP 475
+        java24DemoPool.add(new LateBarrierExpansionG1());
         // JEP 478
         java24DemoPool.add(new KeyDerivationApiPreview());
         // JEP 484
@@ -46,6 +50,8 @@ public class Java24 {
         java24DemoPool.add(new SynchronizedNoPinning());
         // JEP 493
         java24DemoPool.add(new LinkingRunTimeImages493());
+        // JEP 495
+        java24DemoPool.add(new SimpleSourceFilesDemo());
         // JEP 498
         java24DemoPool.add(new MemoryAccessMethods());
 

@@ -42,6 +42,13 @@
     }
   },
   {
+    "jep": 463,
+    "info": {
+      "name": "JEP 463 - Implicitly Declared Classes and Instance Main Methods (Second Preview)",
+      "dscr": "Up-to-date demo moved to `org.javademos.java25.jep512.CompactSourceFilesDemo` (JEP 512)"
+    }
+  },
+  {
     "jep": 464,
     "info": {
       "name": "JEP 464 - Scoped Values (Second Preview)",
