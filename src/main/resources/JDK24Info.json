@@ -42,6 +42,13 @@
     }
   },
   {
+    "jep": 487,
+    "info": {
+      "name": "JEP 487 - Scoped Values (Fourth Preview)",
+      "dscr": "Up-to-date demo moved to `org.javademos.java25.jep506.ScopedValuesDemo` (JEP 506)"
+    }
+  },
+  {
     "jep": 489,
     "info": {
       "name": "JEP 489 - Vector API (Ninth Incubator)",

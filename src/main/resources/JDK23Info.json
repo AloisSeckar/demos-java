@@ -65,8 +65,8 @@
   {
     "jep": 476,
     "info": {
-      "name": "JEP 476 - Module Import Declarations (Preview)",
-      "dscr": "Java now allows 'import module <x>' statement to simplify import declarations"
+      "name": "JEP 476 - Scoped Values (Third Preview)",
+      "dscr": "Up-to-date demo moved to `org.javademos.java25.jep506.ScopedValuesDemo` (JEP 506)"
     }
   },
   {

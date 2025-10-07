@@ -13,7 +13,7 @@ import org.javademos.java23.jep474.GenerationalZGC23;
 import org.javademos.java23.jep476.ModuleImportDeclarations;
 import org.javademos.java23.jep477.ImplicitlyDeclaredClassesDemo;
 import org.javademos.java23.jep480.StructuredConcurrency;
-import org.javademos.java23.jep481.ScopedValues;
+import org.javademos.java23.jep481.ScopedValuesDemo;
 import org.javademos.java23.jep482.FlexibleConstructorBodies;
 
 import java.util.ArrayList;
@@ -51,7 +51,7 @@ public class Java23 {
         // JEP 480
         java23DemoPool.add(new StructuredConcurrency());
         // JEP 481
-        java23DemoPool.add(new ScopedValues());
+        java23DemoPool.add(new ScopedValuesDemo());
         // JEP 482
         java23DemoPool.add(new FlexibleConstructorBodies());
 
