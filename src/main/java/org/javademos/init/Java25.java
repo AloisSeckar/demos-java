@@ -18,6 +18,7 @@ import org.javademos.java25.jep515.AheadOfTimeMethodProfilingDemo;
 import org.javademos.java25.jep518.JFRCooperativeSamplingDemo;
 import org.javademos.java25.jep519.CompactObjectHeaderDemo;
 import org.javademos.java25.jep520.Jep520MethodTracingDemo;
+import org.javademos.java25.jep521.GenerationalShenandoahDemo;
 
 import java.util.ArrayList;
 
@@ -65,6 +66,8 @@ public class Java25 {
         java25DemoPool.add(new CompactObjectHeaderDemo());
         // JEP 520
         java25DemoPool.add(new Jep520MethodTracingDemo());
+        //JEP 521
+        java25DemoPool.add(new GenerationalShenandoahDemo());
 
         return java25DemoPool;
     }

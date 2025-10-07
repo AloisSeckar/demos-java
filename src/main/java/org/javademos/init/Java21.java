@@ -12,6 +12,7 @@ import org.javademos.java21.jep444.VirtualThreadsDemo;
 import org.javademos.java21.jep445.SimpleSourceFilesAndInstanceMainMethods1P;
 import org.javademos.java21.jep446.ScopedValues;
 import org.javademos.java21.jep448.VectorAPIDemo;
+import org.javademos.java21.jep449.DeprecateWindows32BitX86Demo;
 
 import java.util.ArrayList;
 
@@ -48,6 +49,8 @@ public class Java21 {
         java21DemoPool.add(new ScopedValues());
         // JEP 448
         java21DemoPool.add(new VectorAPIDemo());
+        // JEP 449
+        java21DemoPool.add(new DeprecateWindows32BitX86Demo());
 
         return java21DemoPool;
     }

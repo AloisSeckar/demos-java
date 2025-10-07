@@ -110,5 +110,19 @@
       "name": "JEP 519 - Compact Object Headers",
       "dscr": "Adds a demo for JEP 519 — Class-File API, showcasing how to parse, inspect, and generate Java class files programmatically; see CompactObjectHeaderDemo.java"
     }
+  },
+  {
+    "jep": 520,
+    "info": {
+      "name": "JEP 520 - JFR Method Timing & Tracing",
+      "dscr": "Introduces method timing and tracing capabilities to JFR, allowing for low-overhead method invocation tracing; see Jep520MethodTracingDemo.java"
+    }
+  },
+  {
+    "jep": 521,
+    "info": {
+      "name": "JEP 521 - Generational Shenandoah",
+      "dscr": "Enhances Shenandoah GC with generational collection, improving performance and pause times by treating short-lived and long-lived objects differently; see GenerationalShenandoahDemo.java"
+    }
   }
 ]

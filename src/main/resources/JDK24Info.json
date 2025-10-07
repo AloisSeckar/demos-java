@@ -1,19 +1,5 @@
 [
   {
-    "jep": 491,
-    "info":{
-      "name": "Synchronize Virtual Threads without Pinning",
-      "dscr": "Improves scalability by allowing virtual threads to unmount from their carrier platform thread when blocked in 'synchronized' methods, eliminating a major source of thread pinning."
-     }
-   },
-  {
-    "jep": 498,
-    "info": {
-      "name": "JEP 498 - Warn upon Use of Memory-Access Methods in sun.misc.Unsafe",
-      "dscr": "Showing runtime warnings for methods that are already deprecated"
-    }
-  },
-  {
     "jep": 472,
     "info": {
       "name": "JEP 472 - Prepare to Restrict the Use of JNI",
@@ -64,11 +50,11 @@
   },
   {
     "jep": 491,
-    "info":{
+    "info": {
       "name": "Synchronize Virtual Threads without Pinning",
       "dscr": "Improves scalability by allowing virtual threads to unmount from their carrier platform thread when blocked in 'synchronized' methods, eliminating a major source of thread pinning."
-     }
-   },
+    }
+  },
   {
     "jep": 493,
     "info": {
@@ -77,17 +63,31 @@
     }
   },
   {
-    "jep": 495,
+    "jep": 497,
     "info": {
-      "title": "Simple Source Files and Instance Main Methods (Fourth Preview)",
-      "description": "The fourth preview to refine instance main methods and implicitly declared classes, paving the way for finalization in JDK 25."
+      "name": "JEP 497 - Quantum Resistant Algorithm - Lattice-based Digital Signature (Preview)",
+      "dscr": "Provides a lattice-based digital signature algorithm to support quantum-resistant signatures; see QuantumResistantModule.java"
     }
   },
-   {
-     "jep": 498,
-     "info": {
+  {
+    "jep": 498,
+    "info": {
       "name": "JEP 498 - Warn upon Use of Memory-Access Methods in sun.misc.Unsafe",
       "dscr": "Showing runtime warnings for methods that are already deprecated"
-     }
+    }
+  },
+  {
+    "jep": 479,
+    "info": {
+      "name": "JEP 479 - Remove the 32-bit x86 Windows Port",
+      "dscr": "Removed support for the 32-bit x86 port on Windows in JDK 24, while keeping other OS ports available."
+    }
+  },
+  {
+    "jep": 501,
+    "info": {
+      "name": "JEP 501 - Deprecate the 32-bit x86 Port for Removal",
+      "dscr": "Deprecated the entire 32-bit x86 port in JDK 24, warning of its complete removal in JDK 25."
+    }
   }
 ]

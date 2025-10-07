@@ -1,5 +1,7 @@
 package org.javademos.init;
 
+import java.util.ArrayList;
+
 import org.javademos.commons.IDemo;
 import org.javademos.java24.jep472.PrepareToRestrictJNI;
 import org.javademos.java24.jep478.KeyDerivationApiPreview;
@@ -10,10 +12,7 @@ import org.javademos.java24.jep489.VectorAPIDemo;
 import org.javademos.java24.jep490.ZgcNonGenerationalModeRemoval;
 import org.javademos.java24.jep491.SynchronizedNoPinning;
 import org.javademos.java24.jep493.LinkingRunTimeImages493;
-import org.javademos.java24.jep495.SimpleSourceFilesAndInstanceMainMethods4P;
 import org.javademos.java24.jep498.MemoryAccessMethods;
-
-import java.util.ArrayList;
 
 
 public class Java24 {
@@ -44,8 +43,6 @@ public class Java24 {
         java24DemoPool.add(new SynchronizedNoPinning());
         // JEP 493
         java24DemoPool.add(new LinkingRunTimeImages493());
-        // JEP 495
-        java24DemoPool.add(new SimpleSourceFilesAndInstanceMainMethods4P());
         // JEP 498
         java24DemoPool.add(new MemoryAccessMethods());
 
