@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 import org.javademos.commons.IDemo;
 import org.javademos.java24.jep472.PrepareToRestrictJNI;
+import org.javademos.java24.jep475.LateBarrierExpansionG1;
 import org.javademos.java24.jep478.KeyDerivationApiPreview;
 import org.javademos.java24.jep484.ClassFileAPIDemo;
 import org.javademos.java24.jep485.StreamGatherers;
@@ -28,6 +29,8 @@ public class Java24 {
 
         // JEP 472
         java24DemoPool.add(new PrepareToRestrictJNI());
+        // JEP 475
+        java24DemoPool.add(new LateBarrierExpansionG1());
         // JEP 478
         java24DemoPool.add(new KeyDerivationApiPreview());
         // JEP 484
