@@ -2,19 +2,17 @@ package org.javademos.java21.jep444;
 
 import org.javademos.commons.IDemo;
 
-/**
- * This class shows new preview feature finalized in Java 21 - Virtual Threads.
- *
- * REFERENCES:
- * Java 21 - https://openjdk.org/jeps/444 - Virtual Threads
- * Java 20 - https://openjdk.org/jeps/436 - Virtual Threads (Second Preview)
- * Java 19 - https://openjdk.org/jeps/425 - Virtual Threads (Preview)
- *
- * Further reading:
- * https://blogs.oracle.com/javamagazine/post/java-loom-virtual-threads-platform-threads
- *
- * @author alois.seckar@gmail.com
- */
+/// Demo for JDK 21 feature **JEP 444 - Virtual Threads**.
+///
+/// JEP history:
+/// - JDK 21: [JEP 444 - Virtual Threads](https://openjdk.org/jeps/444)
+/// - JDK 20: [JEP 436 - Virtual Threads (Second Preview)](https://openjdk.org/jeps/436)
+/// - JDK 19: [JEP 425 - Virtual Threads (Preview)](https://openjdk.org/jeps/425)
+///
+/// Further reading:
+/// - [Java Loom: Virtual Threads vs Platform Threads](https://blogs.oracle.com/javamagazine/post/java-loom-virtual-threads-platform-threads)
+///
+/// @author alois.seckar@gmail.com
 public class VirtualThreadsDemo implements IDemo {
 
     @Override

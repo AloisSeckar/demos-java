@@ -4,19 +4,17 @@ import org.javademos.commons.IDemo;
 import static java.util.Calendar.*;
 import java.util.Random;
 
-/**
- * This class demonstrates new 'switch' syntax options in Java 17.
- *
- * REFERENCES:
- * Java 14 - https://openjdk.org/jeps/361 - Switch Expressions
- * Java 13 - https://openjdk.org/jeps/354 - Switch Expressions (Second Preview)
- * Java 12 - https://openjdk.org/jeps/325 - Switch Expressions (Preview)
- * 
- * Further reading:
- * https://betterprogramming.pub/a-look-at-the-new-switch-expressions-in-java-14-ed209c802ba0
- * 
- * @author alois.seckar@gmail.com
- */
+/// Demo for JDK 14 feature **JEP 361 - Switch Expressions**.
+///
+/// JEP history:
+/// - JDK 14: [JEP 361 - Switch Expressions](https://openjdk.org/jeps/361)
+/// - JDK 13: [JEP 354 - Switch Expressions (Second Preview)](https://openjdk.org/jeps/354)
+/// - JDK 12: [JEP 325 - Switch Expressions (Preview)](https://openjdk.org/jeps/325)
+/// 
+/// Further reading:
+/// - [A Look at the New Switch Expressions in Java 14](https://betterprogramming.pub/a-look-at-the-new-switch-expressions-in-java-14-ed209c802ba0)
+/// 
+/// @author alois.seckar@gmail.com
 public class SwitchDemo implements IDemo {
 
     @Override

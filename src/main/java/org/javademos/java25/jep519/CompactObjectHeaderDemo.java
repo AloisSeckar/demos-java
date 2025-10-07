@@ -4,7 +4,7 @@ import org.javademos.commons.IDemo;
 
  import org.openjdk.jol.info.ClassLayout;
 
-/// Demo for JDK 25 feature **Compact Object Headers** (JEP 519)
+/// Demo for JDK 25 feature **JEP 519 - Compact Object Headers**.
 ///
 /// JEP history:
 /// - JDK 25: [JEP 519 - Compact Object Headers](https://openjdk.org/jeps/519)
@@ -15,7 +15,6 @@ import org.javademos.commons.IDemo;
 /// @see java.lang.Object
 ///
 /// @author @CodeSakshamY
-
 public class CompactObjectHeaderDemo implements IDemo {
 
     private static final int SAMPLE_COUNT = 5_000_000;

@@ -2,7 +2,7 @@ package org.javademos.java23.jep463;
 
 import org.javademos.commons.IDemo;
 
-/// Demo for JDK 23 feature **Implicitly Declared Classes and Instance Main Methods** (JEP 463)
+/// Demo for JDK 23 feature **JEP 463 - Implicitly Declared Classes and Instance Main Methods**.
 ///
 /// JEP history:
 /// - JDK 23 (Preview): [JEP 463 - Implicitly Declared Classes and Instance Main Methods](https://openjdk.org/jeps/463)
@@ -12,7 +12,6 @@ import org.javademos.commons.IDemo;
 /// - [InfoQ: Java 23 Implicit Classes](https://www.infoq.com/news/2024/05/java-23-implicit-classes/)
 ///
 /// @author kishansingh956196@gmail.com
-
 public class ImplicitlyDeclaredClassesDemo implements IDemo {
     @Override
     public void demo() {

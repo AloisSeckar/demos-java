@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Queue;
 import java.util.LinkedList;
 
-/// Demo for JDK 22 feature **Unnamed Patterns and Variables** (JEP 456)
+/// Demo for JDK 22 feature **JEP 456 - Unnamed Patterns and Variables**.
 ///
 /// JEP history:
 /// - JDK 22: [JEP 456 - Unnamed Patterns and Variables](https://openjdk.org/jeps/456)

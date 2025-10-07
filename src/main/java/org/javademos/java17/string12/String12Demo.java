@@ -2,18 +2,16 @@ package org.javademos.java17.string12;
 
 import org.javademos.commons.IDemo;
 
-/**
- * This class demonstrates new methods available on java.lang.String.
- *
- * REFERENCES:
- * Java 12 - https://bugs.openjdk.org/browse/JDK-8203442 - String::transform
- * Java 12 - https://bugs.openjdk.org/browse/JDK-8200435 - String::align, String::indent
- * 
- * Further reading: 
- * https://www.baeldung.com/java12-string-api 
- * 
- * @author alois.seckar@gmail.com
- */
+/// Demo for JDK 12 **String API** enhancements.
+///
+/// REFERENCES:
+/// - JDK 12: [String::transform](https://bugs.openjdk.org/browse/JDK-8203442)
+/// - JDK 12: [String::align, String::indent](https://bugs.openjdk.org/browse/JDK-8200435)
+/// 
+/// Further reading: 
+/// - [Java 12 String API](https://www.baeldung.com/java12-string-api)
+/// 
+/// @author alois.seckar@gmail.com
 public class String12Demo implements IDemo {
 
     @Override
