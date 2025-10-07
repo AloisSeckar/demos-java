@@ -58,7 +58,7 @@
   {
     "jep": 491,
     "info": {
-      "name": "Synchronize Virtual Threads without Pinning",
+      "name": "JEP 491 - Synchronize Virtual Threads without Pinning",
       "dscr": "Improves scalability by allowing virtual threads to unmount from their carrier platform thread when blocked in 'synchronized' methods, eliminating a major source of thread pinning."
     }
   },
@@ -67,6 +67,13 @@
     "info": {
       "name": "JEP 493 - Linking Run-Time Images without JMODs",
       "dscr": "Simplifies jlink by removing the need for JMOD files. Developers can now link custom runtime images directly from modular JARs, streamlining the build process."
+    }
+  },
+  {
+    "jep": 495,
+    "info": {
+      "name": "JEP 495 - Simple Source Files and Instance Main Methods (Fourth Preview)",
+      "dscr": "Up-to-date demo moved to `org.javademos.java25.jep512.CompactSourceFilesDemo` (JEP 512)"
     }
   },
   {
@@ -81,7 +88,7 @@
     "info": {
       "name": "JEP 498 - Warn upon Use of Memory-Access Methods in sun.misc.Unsafe",
       "dscr": "Showing runtime warnings for methods that are already deprecated"
-     }
+    }
   },
   {
     "jep": 479,

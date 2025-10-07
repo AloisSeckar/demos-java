@@ -19,13 +19,6 @@
       "name": "JEP 462 - Structured Concurrency (Second Preview)",
       "dscr": "Simplifies multithreaded programming by managing tasks in a structured scope. Demonstrates using StructuredTaskScope to manage subtasks as a single unit of work."
     }
- },
-  {
-    "jep": 463,
-    "info": {
-      "name": "JEP 463 - Implicitly Declared Classes and Instance Main Methods (Second Preview)",
-      "dscr": "See ImplicitlyDeclaredClassesDemo class for further info"
-    }
   },
   {
     "jep": 466,
@@ -80,7 +73,7 @@
     "jep": 477,
     "info": {
       "name": "JEP 477 - Implicitly Declared Classes and Instance Main Methods (Third Preview)",
-      "dscr": "Simplifies Java for beginners, allowing programs to be written without explicit class declarations"
+      "dscr": "Up-to-date demo moved to `org.javademos.java25.jep512.CompactSourceFilesDemo` (JEP 512)"
     }
   },
   {
