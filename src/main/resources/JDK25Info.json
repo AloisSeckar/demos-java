@@ -44,7 +44,7 @@
   {
     "jep": 508,
     "info": {
-      "name": "Vector API (Tenth Incubator)",
+      "name": "JEP 508 - Vector API (Tenth Incubator)",
       "dscr": "API for expressing vector computations that reliably compile at runtime to optimal vector instructions on supported CPUs to achieve better performance"
     }
   },
@@ -72,7 +72,7 @@
   {
     "jep": 512,
     "info": {
-      "title": "Compact Source Files and Instance Main Methods",
+      "name": "JEP 512 - Compact Source Files and Instance Main Methods",
       "dscr": "Finalizes the 'on-ramp' features for beginners. Allows instance main methods, implicitly declared classes for single-file programs, and introduces a standard IO class, making it easier to write simple Java programs."
     }
   },

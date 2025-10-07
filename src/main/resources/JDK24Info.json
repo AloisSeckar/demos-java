@@ -51,7 +51,7 @@
   {
     "jep": 491,
     "info": {
-      "name": "Synchronize Virtual Threads without Pinning",
+      "name": "JEP 491 - Synchronize Virtual Threads without Pinning",
       "dscr": "Improves scalability by allowing virtual threads to unmount from their carrier platform thread when blocked in 'synchronized' methods, eliminating a major source of thread pinning."
     }
   },
@@ -65,7 +65,7 @@
   {
     "jep": 495,
     "info": {
-      "title": "Simple Source Files and Instance Main Methods (Fourth Preview)",
+      "name": "JEP 495 - Simple Source Files and Instance Main Methods (Fourth Preview)",
       "dscr": "Up-to-date demo moved to `org.javademos.java25.jep512.CompactSourceFilesDemo` (JEP 512)"
     }
   },

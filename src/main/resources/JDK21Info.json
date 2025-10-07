@@ -9,7 +9,7 @@
   {
     "jep": 445,
     "info": {
-      "title": "Unnamed Classes and Instance Main Methods (Preview)",
+      "name": "JEP 445 - Unnamed Classes and Instance Main Methods (Preview)",
       "dscr": "Up-to-date demo moved to `org.javademos.java25.jep512.CompactSourceFilesDemo` (JEP 512)"
     }
   },
