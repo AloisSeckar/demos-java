@@ -4,8 +4,9 @@ import org.javademos.commons.IDemo;
 
 /// Demo for JDK 22 feature **Statements before super(...)** (JEP 447)
 ///
-/// Replaced with [JEP 482](https://openjdk.org/jeps/482)
-/// @see org.javademos.java23.jep482.FlexibleConstructorBodies
+/// This was a preview JEP. The feature is finalized in JDK 25 by JEP 513.
+/// Replaced with [JEP 513](https://openjdk.org/jeps/513)
+/// @see org.javademos.java25.jep513.FlexibleConstructorBodiesDemo
 ///
 /// @author alois.seckar@gmail.com
 
