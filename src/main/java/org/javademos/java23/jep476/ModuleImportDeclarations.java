@@ -8,7 +8,7 @@ import org.javademos.commons.IDemo;
 /// @see org.javademos.java25.jep506.ScopedValuesDemo
 ///
 /// @author ankitkrshah30
-public class ScopedValuesDemo implements IDemo {
+public class ModuleImportDeclarations implements IDemo {
     @Override
     public void demo() {
         info(476);
