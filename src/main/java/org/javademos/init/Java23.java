@@ -47,13 +47,13 @@ public class Java23 {
         java23DemoPool.add(new StreamGatherersDemo());
         // JEP 474
         java23DemoPool.add(new GenerationalZGC23());
-        // JEP 476 - Using the full path to the class
+        // JEP 476
         java23DemoPool.add(new ModuleImportDeclarations());
         // JEP 477
         java23DemoPool.add(new ImplicitlyDeclaredClasses());
         // JEP 480
         java23DemoPool.add(new StructuredConcurrency());
-        // JEP 481 - Using the full path to the class
+        // JEP 481
         java23DemoPool.add(new ScopedValuesDemo());
         // JEP 482
         java23DemoPool.add(new FlexibleConstructorBodies());
