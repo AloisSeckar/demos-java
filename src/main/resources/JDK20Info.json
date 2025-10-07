@@ -1,5 +1,12 @@
 [
   {
+    "jep": 429,
+    "info": {
+      "name": "JEP 429 - Scoped Values (Incubator)",
+      "dscr": "Up-to-date demo moved to `org.javademos.java25.jep506.ScopedValuesDemo` (JEP 506)"
+    }
+  },
+  {
     "jep": 438,
     "info": {
       "name": "JEP 438 - Vector API (Fifth Incubator)",
