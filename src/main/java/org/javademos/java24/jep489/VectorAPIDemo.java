@@ -8,7 +8,6 @@ import org.javademos.commons.IDemo;
 /// @see org.javademos.java25.jep508.VectorAPIDemo
 ///
 /// @author Alois Seckar <alois.seckar@gmail.com>
-
 public class VectorAPIDemo implements IDemo {
 
     @Override

@@ -4,7 +4,7 @@ import org.javademos.commons.IDemo;
 
 import module java.base;
 
-/// Demo for JDK 25 feature **Module Import Declarations** (JEP 511)
+/// Demo for JDK 25 feature **JEP 511 - Module Import Declarations**.
 ///
 /// JEP history:
 /// - JDK 25: [JEP 511 - Module Import Declarations](https://openjdk.org/jeps/511)
@@ -15,7 +15,6 @@ import module java.base;
 /// - [Simplifying Java Development with Module Import](https://www.infoq.com/news/2024/05/simplifying-java-module-import/)
 ///
 /// @author Arjun Vijay Prakash @ArjunCodess
-
 public class ModuleImportDeclarationsDemo implements IDemo {
 
     @Override

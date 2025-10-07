@@ -36,7 +36,6 @@ import java.util.Random;
 /// @see jdk.incubator.vector.VectorSpecies
 ///
 /// @author Alois Seckar <alois.seckar@gmail.com>
-
 public class VectorAPIDemo implements IDemo {
 
     // VectorSpecies defines the shape of SIMD vectors (e.g., length and type)

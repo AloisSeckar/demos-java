@@ -8,7 +8,6 @@ import org.javademos.commons.IDemo;
 /// @see org.javademos.java24.jep484.ClassFileApiDemo
 ///
 /// @author ankitkrshah30
-
 public class ClassFileAPIDemo implements IDemo {
     @Override
     public void demo() {

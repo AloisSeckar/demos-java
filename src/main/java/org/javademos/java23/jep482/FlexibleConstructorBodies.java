@@ -2,7 +2,7 @@ package org.javademos.java23.jep482;
 
 import org.javademos.commons.IDemo;
 
-/// Demo for JDK 23 feature **Flexible Constructor Bodies (Second Preview)** (JEP 482)
+/// Demo for JDK 23 feature **JEP 482 - Flexible Constructor Bodies (Second Preview)**.
 ///
 /// JEP history:
 /// - JDK 23: [JEP 482 - Flexible Constructor Bodies (Second Preview)](https://openjdk.org/jeps/482)
@@ -17,7 +17,6 @@ import org.javademos.commons.IDemo;
 /// @see org.javademos.java25.jep513.FlexibleConstructorBodiesDemo
 ///
 /// @author alois.seckar@gmail.com
-
 public class FlexibleConstructorBodies implements IDemo {
     @Override
     public void demo() {

@@ -6,19 +6,18 @@ import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 
-/**
- * This class demonstrates features of the new Java HttpClient.
- * This allows simpler and cleaner work with external HTTP resources.
- * 
- * REFERENCES:
- * Java 11 - https://openjdk.org/jeps/321 - HTTP Client
- * Java  9 - https://openjdk.org/jeps/110 - HTTP/2 Client (Incubator)
- * 
- * Further reading:
- * https://www.baeldung.com/java-9-http-client
- * 
- * @author alois.seckar@gmail.com
- */
+/// Demo for JDK 11 feature **JEP 321 - HTTP Client**.
+/// 
+/// New Java HttpClient allows simpler and cleaner work with external HTTP resources.
+/// 
+/// JEP history:
+/// - JDK 11: [JEP 321 - HTTP Client](https://openjdk.org/jeps/321)
+/// - JDK 9: [JEP 110 - HTTP/2 Client (Incubator)](https://openjdk.org/jeps/110)
+/// 
+/// Further reading:
+/// - [Java 9 HTTP Client](https://www.baeldung.com/java-9-http-client)
+/// 
+/// @author alois.seckar@gmail.com
 public class HttpDemo implements IDemo {
 
     @Override
