@@ -27,8 +27,8 @@ import java.util.List;
 ///     the `java.base` module are automatically imported.
 ///
 /// @see org.javademos.java24.jep495.SimpleSourceFilesAndInstanceMainMethods4P
-/// @see org.javademos.java23.jep477.SimpleSourceFilesAndInstanceMainMethods3P
-/// @see org.javademos.java22.jep463.SimpleSourceFilesAndInstanceMainMethods2P
+/// @see org.javademos.java23.jep477.ImplicitlyDeclaredClasses
+/// @see org.javademos.java23.jep463.ImplicitlyDeclaredClassesDemo
 /// @see org.javademos.java21.jep445.SimpleSourceFilesAndInstanceMainMethods1P
 ///
 /// @author dhruv-git-sys

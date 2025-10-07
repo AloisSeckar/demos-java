@@ -63,6 +63,13 @@
     }
   },
   {
+    "jep": 495,
+    "info": {
+      "title": "Simple Source Files and Instance Main Methods (Fourth Preview)",
+      "description": "The fourth preview to refine instance main methods and implicitly declared classes, paving the way for finalization in JDK 25."
+    }
+  },
+  {
     "jep": 497,
     "info": {
       "name": "JEP 497 - Quantum Resistant Algorithm - Lattice-based Digital Signature (Preview)",
