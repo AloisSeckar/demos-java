@@ -12,6 +12,7 @@ import org.javademos.java24.jep489.VectorAPIDemo;
 import org.javademos.java24.jep490.ZgcNonGenerationalModeRemoval;
 import org.javademos.java24.jep491.SynchronizedNoPinning;
 import org.javademos.java24.jep493.LinkingRunTimeImages493;
+import org.javademos.java24.jep495.SimpleSourceFilesDemo;
 import org.javademos.java24.jep498.MemoryAccessMethods;
 
 
@@ -43,6 +44,8 @@ public class Java24 {
         java24DemoPool.add(new SynchronizedNoPinning());
         // JEP 493
         java24DemoPool.add(new LinkingRunTimeImages493());
+        // JEP 495
+        java24DemoPool.add(new SimpleSourceFilesDemo());
         // JEP 498
         java24DemoPool.add(new MemoryAccessMethods());
 

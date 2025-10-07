@@ -9,7 +9,7 @@ import java.util.List;
 /// It aims to provide a smooth on-ramp for newcomers by reducing ceremony, allowing them
 /// to focus on core programming concepts before diving into advanced, large-scale constructs.
 ///
-/// ### History
+/// JEP history:
 /// This feature evolved through several preview stages:
 /// - [JEP 445 (JDK 21)](https://openjdk.org/jeps/445)
 /// - [JEP 463 (JDK 22)](https://openjdk.org/jeps/463)
@@ -26,13 +26,13 @@ import java.util.List;
 /// 4.  **Automatic Imports:** In compact source files, all public top-level classes from
 ///     the `java.base` module are automatically imported.
 ///
-/// @see org.javademos.java24.jep495.SimpleSourceFilesAndInstanceMainMethods4P
-/// @see org.javademos.java23.jep477.ImplicitlyDeclaredClasses
+/// @see org.javademos.java24.jep495.SimpleSourceFilesDemo
+/// @see org.javademos.java23.jep477.ImplicitlyDeclaredClassesDemo
 /// @see org.javademos.java23.jep463.ImplicitlyDeclaredClassesDemo
-/// @see org.javademos.java21.jep445.SimpleSourceFilesAndInstanceMainMethods1P
+/// @see org.javademos.java21.jep445.UnnamedClassesDemo
 ///
 /// @author dhruv-git-sys
-public class CompactSourceFilesAndInstanceMainMethods implements IDemo {
+public class CompactSourceFilesDemo implements IDemo {
 
     // A field belonging to the instance of this class.
     private final String world = "World";
