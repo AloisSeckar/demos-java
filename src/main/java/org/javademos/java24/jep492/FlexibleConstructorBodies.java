@@ -13,7 +13,6 @@ public class FlexibleConstructorBodies implements IDemo {
 
 	@Override
 	public void demo() {
-		// TODO Auto-generated method stub
 		info(492);
 	}
 
