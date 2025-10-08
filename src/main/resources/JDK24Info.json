@@ -84,6 +84,13 @@
     }
   },
   {
+    "jep": 496,
+    "info": {
+      "name": "JEP 496 - Quantum Resistant Algorithm - Lattice-based Key Encapsulation",
+      "dscr": "Provides a lattice-based key encapsulation mechanism to support quantum-resistant key exchanges; see QuantumResistantModuleLatticeBasedKeyEncapsulation.java"
+    }
+  },
+  {
     "jep": 497,
     "info": {
       "name": "JEP 497 - Quantum Resistant Algorithm - Lattice-based Digital Signature (Preview)",
