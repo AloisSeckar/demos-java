@@ -4,25 +4,25 @@ import org.javademos.commons.IDemo;
 
 import java.math.BigInteger;
 
-/**
- * This class shows some new useful API methods made available in Java 18 - Java 21.
- *
- * REFERENCES:
- * Java 21 - https://bugs.openjdk.org/browse/JDK-8305486 - Add split() variants that keep the delimiters to String and j.u.r.Pattern
- * Java 21 - https://bugs.openjdk.org/browse/JDK-8303648 - Add String.indexOf(String str, int beginIndex, int endIndex)
- * Java 21 - https://bugs.openjdk.org/browse/JDK-8303018 - Unicode Emoji Properties
- * Java 21 - https://bugs.openjdk.org/browse/JDK-8302686 - Add repeat methods to StringBuilder/StringBuffer
- * Java 21 - https://bugs.openjdk.org/browse/JDK-8301226 - Add clamp() methods to java.lang.Math and to StrictMath
- * Java 19 - https://bugs.openjdk.org/browse/JDK-8278886 - Add a parallel multiply method to BigInteger
- * Java 18 - https://bugs.openjdk.org/browse/JDK-8270378 - divideExact is missing in java.lang.Math
- *
- * Further reading:
- * https://www.baeldung.com/java-text-blocks
- * https://www.baeldung.com/java-clamp-function
- * https://www.happycoders.eu/java/java-21-features/#New_String_Methods
- *
- * @author alois.seckar@gmail.com
- */
+/// Demo for JDK 18-21 **API enhancements**.
+///
+/// This class shows some new useful API methods made available in Java 18 - Java 21.
+///
+/// REFERENCES:
+/// - JDK 21: [Add split() variants that keep the delimiters to String and Pattern](https://bugs.openjdk.org/browse/JDK-8305486)
+/// - JDK 21: [Add String.indexOf(String str, int beginIndex, int endIndex)](https://bugs.openjdk.org/browse/JDK-8303648)
+/// - JDK 21: [Unicode Emoji Properties](https://bugs.openjdk.org/browse/JDK-8303018)
+/// - JDK 21: [Add repeat methods to StringBuilder/StringBuffer](https://bugs.openjdk.org/browse/JDK-8302686)
+/// - JDK 21: [Add clamp() methods to java.lang.Math and to StrictMath](https://bugs.openjdk.org/browse/JDK-8301226)
+/// - JDK 19: [Add a parallel multiply method to BigInteger](https://bugs.openjdk.org/browse/JDK-8278886)
+/// - JDK 18: [divideExact is missing in java.lang.Math](https://bugs.openjdk.org/browse/JDK-8270378)
+///
+/// Further reading:
+/// - [Java Text Blocks](https://www.baeldung.com/java-text-blocks)
+/// - [Java Clamp Function](https://www.baeldung.com/java-clamp-function)
+/// - [Java 21 Features - New String Methods](https://www.happycoders.eu/java/java-21-features/#New_String_Methods)
+///
+/// @author alois.seckar@gmail.com
 public class J21Demo implements IDemo {
 
     @Override

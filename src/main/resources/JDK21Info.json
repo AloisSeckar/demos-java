@@ -7,10 +7,17 @@
     }
   },
   {
+    "jep": 445,
+    "info": {
+      "name": "JEP 445 - Unnamed Classes and Instance Main Methods (Preview)",
+      "dscr": "Up-to-date demo moved to `org.javademos.java25.jep512.CompactSourceFilesDemo` (JEP 512)"
+    }
+  },
+  {
     "jep": 446,
     "info": {
       "name": "JEP 446 - Scoped Values (Preview)",
-      "dscr": "Implementation moved into `org.javademos.java23.jep481.ScopedValues` (JEP 481)"
+      "dscr": "Up-to-date demo moved to `org.javademos.java25.jep506.ScopedValuesDemo` (JEP 506)"
     }
   },
   {
@@ -18,6 +25,13 @@
     "info": {
       "name": "JEP 448 - Vector API (Sixth Incubator)",
       "dscr": "Up-to-date demo moved to `org.javademos.java25.jep508.VectorAPIDemo` (JEP 508)"
+    }
+  },
+  {
+    "jep": 449,
+    "info": {
+      "name": "JEP 449 - Deprecate the 32-bit x86 Windows Port for Removal",
+      "dscr": "Deprecated the Windows 32-bit x86 port in JDK 21, signaling its future removal."
     }
   }
 ]

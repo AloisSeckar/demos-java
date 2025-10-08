@@ -15,21 +15,19 @@ import java.util.Locale;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-/**
- * This class demonstrates some new language features from Java 16.
- *
- * REFERENCES:
- * Java 16 - https://bugs.openjdk.org/browse/JDK-8254876 - (fs) NullPointerException not thrown when first argument to Path.of or Paths.get is null
- * Java 16 - https://bugs.openjdk.org/browse/JDK-8248166 - Add new flatMap stream operation that is more amenable to pushing
- * Java 16 - https://bugs.openjdk.org/browse/JDK-8247781 - Day periods support
- * Java 16 - https://bugs.openjdk.org/browse/JDK-8241020 - LineNumberReader.getLineNumber() behavior is inconsistent with respect to EOF
- * Java 16 - https://bugs.openjdk.org/browse/JDK-8180352 - Add Stream.toList() method
- * 
- * Further reading:
- * https://blogs.oracle.com/javamagazine/post/the-hidden-gems-in-java-16-and-java-17-from-streammapmulti-to-hexformat 
- * 
- * @author alois.seckar@gmail.com
- */
+/// Demo for JDK 16 new language and API enhancements.
+///
+/// REFERENCES:
+/// - JDK 16: [NullPointerException not thrown when first argument to Path.of or Paths.get is null](https://bugs.openjdk.org/browse/JDK-8254876)
+/// - JDK 16: [Add new flatMap stream operation that is more amenable to pushing](https://bugs.openjdk.org/browse/JDK-8248166)
+/// - JDK 16: [Day periods support](https://bugs.openjdk.org/browse/JDK-8247781)
+/// - JDK 16: [LineNumberReader.getLineNumber() behavior is inconsistent with respect to EOF](https://bugs.openjdk.org/browse/JDK-8241020)
+/// - JDK 16: [Add Stream.toList() method](https://bugs.openjdk.org/browse/JDK-8180352)
+/// 
+/// Further reading:
+/// - [The Hidden Gems in Java 16 and Java 17](https://blogs.oracle.com/javamagazine/post/the-hidden-gems-in-java-16-and-java-17-from-streammapmulti-to-hexformat)
+/// 
+/// @author alois.seckar@gmail.com
 public class J16Demo implements IDemo {
 
     @Override

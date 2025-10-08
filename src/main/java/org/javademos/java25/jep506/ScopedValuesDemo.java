@@ -2,11 +2,11 @@ package org.javademos.java25.jep506;
 
 import org.javademos.commons.IDemo;
 
-/// Demo for JDK 25 feature **Scoped Values** (JEP 506)
+/// Demo for JDK 25 feature **JEP 506 - Scoped Values**.
 ///
 /// ### JEP history
 /// - JDK 25: [JEP 506 - Scoped Values (Final)](https://openjdk.org/jeps/506)
-/// - JDK 23: [JEP 476 - Scoped Values (Third Preview)](https://openjdk.org/jeps/476)
+/// - JDK 23: [JEP 481 - Scoped Values (Third Preview)](https://openjdk.org/jeps/481)
 /// - JDK 22: [JEP 464 - Scoped Values (Second Preview)](https://openjdk.org/jeps/464)
 /// - JDK 21: [JEP 446 - Scoped Values (Preview)](https://openjdk.org/jeps/446)
 /// - JDK 20: [JEP 429 - Scoped Values (Incubator)](https://openjdk.org/jeps/429)
@@ -17,7 +17,6 @@ import org.javademos.commons.IDemo;
 /// @see java.lang.ScopedValue
 ///
 /// @author @CodeSakshamY
-
 public class ScopedValuesDemo implements IDemo {
 
     private static final ScopedValue<String> USER = ScopedValue.newInstance();

@@ -2,7 +2,7 @@ package org.javademos.java23.jep458;
 
 import org.javademos.commons.IDemo;
 
-/// Demo for JDK 23 feature **Launch Multi-File Source-Code Programs** (JEP 458)
+/// Demo for JDK 23 feature **JEP 458 - Launch Multi-File Source-Code Programs**.
 ///
 /// JEP history:
 /// - JDK 23 (final): [JEP 458 - Launch Multi-File Source-Code Programs](https://openjdk.org/jeps/458)
