@@ -16,6 +16,7 @@ import java.lang.reflect.Field;
 /// @see sun.misc.Unsafe
 ///
 /// @author @adeelFeroz77
+@SuppressWarnings({"removal"}) // comment out to see warnings
 public class MemoryAccessMethods implements IDemo {
 
     @Override
@@ -23,6 +24,8 @@ public class MemoryAccessMethods implements IDemo {
         info(498);
 
         try {
+            // note methods `allocateMemory`, `putInt`, `getInt`, and `freeMemory` 
+            // are deprecated and marked for removal
 
             // theUnsafe is static singleton defined inside Unsafe class
             Field f = Unsafe.class.getDeclaredField("theUnsafe");

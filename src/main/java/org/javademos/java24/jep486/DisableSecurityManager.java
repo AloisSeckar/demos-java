@@ -12,6 +12,7 @@ import org.javademos.commons.IDemo;
 /// - [JEP 486 - Details](https://openjdk.org/jeps/486)
 ///
 /// @author shepherdking67
+@SuppressWarnings({"removal", "deprecation"}) // comment out to see warnings
 public class DisableSecurityManager implements IDemo {
 
     @Override
@@ -25,7 +26,9 @@ public class DisableSecurityManager implements IDemo {
         // Any attempt to call System.setSecurityManager(...) results in an
         // UnsupportedOperationException.
         try {
-            System.setSecurityManager(new SecurityManager()); // removed in JDK 24+
+            // deprecated in JDK 17,removed in JDK 24+
+            // this code will intentionally throw an exception
+            System.setSecurityManager(new SecurityManager());
         } catch (UnsupportedOperationException e) {
             System.out.println("SecurityManager is permanently disabled: " + e);
         }

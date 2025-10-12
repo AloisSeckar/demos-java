@@ -1,7 +1,6 @@
 package org.javademos.java25.jep512;
 
 import org.javademos.commons.IDemo;
-import java.util.List;
 
 /// Demo for JDK 25 feature **JEP 512 - Compact Source Files and Instance Main Methods**.
 ///
@@ -46,11 +45,10 @@ public class CompactSourceFilesDemo implements IDemo {
     // The `public static` modifiers and `String[] args` are no longer required.
     // The launcher will instantiate the class and then invoke this method.
     void main() {
-//        System.out.println("--- 1. Instance main Method ---");
-//        System.out.println("This `main` method is not static!");
-//        System.out.println("It can directly access instance fields and methods.");
-//        System.out.println(greeting());
-//        System.out.println();
+        // --- 1. Instance Main Methods ---
+        // This `main` method is not static!
+        // It can directly access instance fields and methods.
+        System.out.println(greeting());
     }
 
     @Override

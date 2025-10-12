@@ -11,6 +11,7 @@ import org.javademos.commons.IDemo;
 /// - [Java 14 NullPointerException](https://www.baeldung.com/java-14-nullpointerexception)
 /// 
 /// @author alois.seckar@gmail.com
+@SuppressWarnings("null") // we are deliberately invoking `NullPointerException` in this demo
 public class NullPointerDemo implements IDemo {
 
     @Override
