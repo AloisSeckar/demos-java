@@ -7,6 +7,13 @@
     }
   },
   {
+    "jep": 443,
+    "info": {
+      "name": "Unnamed Patterns and Variables (Preview)",
+      "dscr": "Up-to-date demo moved to `org.javademos.java22.jep456.UnnamedPatternsAndVariables` (JEP 456)"
+    }
+  },
+  {
     "jep": 446,
     "info": {
       "name": "JEP 446 - Scoped Values (Preview)",
