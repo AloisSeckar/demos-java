@@ -38,24 +38,24 @@ public class QuantumResistantModuleLatticeBasedKeyEncapsulation implements IDemo
             KEM.Encapsulator enc = ks.newEncapsulator(publicKey);
             KEM.Encapsulated encap = enc.encapsulate();
             byte[] msg = encap.encapsulation();     // send this to receiver
-            SecretKey sks = encap.key();
+            SecretKey _ = encap.key(); // rename "_" to valid variable name to use it
 
             // A receiver can then call the decapsulation function to 
             // recover the secret key from the key encapsulation message sent by the sender
             byte[] receivedMsg = msg; // received from sender
             KEM kr = KEM.getInstance("ML-KEM");
             KEM.Decapsulator dec = kr.newDecapsulator(kp.getPrivate());
-            SecretKey skr = dec.decapsulate(receivedMsg);
+            SecretKey _ = dec.decapsulate(receivedMsg); // rename "_" to valid variable name to use it
 
             // Encoding and decoding ML-KEM keys
             // Convert a ML-KEM private key to its PKCS #8 encoding, and vice-versa
             KeyFactory f = KeyFactory.getInstance("ML-KEM");
             PKCS8EncodedKeySpec p8spec = f.getKeySpec(kp.getPrivate(),PKCS8EncodedKeySpec.class);
-            PrivateKey sk2 = f.generatePrivate(p8spec);
+            PrivateKey _ = f.generatePrivate(p8spec); // rename "_" to valid variable name to use it
 
             // Convert a ML-KEM public key to its X.509 encoding, and vice-versa
             X509EncodedKeySpec x509spec = f.getKeySpec(kp.getPublic(),X509EncodedKeySpec.class);
-            PublicKey pk2 = f.generatePublic(x509spec);
+            PublicKey _ = f.generatePublic(x509spec); // rename "_" to valid variable name to use it
         } catch (Exception e) {
             throw new RuntimeException(e);
         }

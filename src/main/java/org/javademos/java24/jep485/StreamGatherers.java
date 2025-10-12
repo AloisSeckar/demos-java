@@ -22,7 +22,6 @@ public class StreamGatherers implements IDemo {
 
 	@Override
 	public void demo() {
-		// TODO Auto-generated method stub
 		info(485);
 
 		// Demo of Stream Gatherers

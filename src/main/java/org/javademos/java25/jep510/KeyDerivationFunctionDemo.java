@@ -1,7 +1,6 @@
 package org.javademos.java25.jep510;
 
 import org.javademos.commons.IDemo;
-import java.security.Key;
 import java.security.NoSuchAlgorithmException;
 import javax.crypto.SecretKey;
 import javax.crypto.spec.PBEKeySpec;
