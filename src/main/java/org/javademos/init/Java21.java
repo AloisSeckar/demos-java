@@ -9,8 +9,7 @@ import org.javademos.java21.jep440.RecordPatternsDemo;
 import org.javademos.java21.jep441.PatternMatchingForSwitchDemo;
 import org.javademos.java21.jep443.UnnamedPatternsAndVariablesDemo;
 import org.javademos.java21.jep444.VirtualThreadsDemo;
-import org.javademos.java21.jep445.SimpleSourceFilesAndInstanceMainMethods1P;
-import org.javademos.java21.jep446.ScopedValues;
+import org.javademos.java21.jep446.ScopedValuesDemo;
 import org.javademos.java21.jep448.VectorAPIDemo;
 import org.javademos.java21.jep449.DeprecateWindows32BitX86Demo;
 
@@ -43,10 +42,8 @@ public class Java21 {
         java21DemoPool.add(new UnnamedPatternsAndVariablesDemo());
         // JEP 444
         java21DemoPool.add(new VirtualThreadsDemo());
-        // JEP 445
-        java21DemoPool.add(new SimpleSourceFilesAndInstanceMainMethods1P());
         // JEP 446
-        java21DemoPool.add(new ScopedValues());
+        java21DemoPool.add(new ScopedValuesDemo());
         // JEP 448
         java21DemoPool.add(new VectorAPIDemo());
         // JEP 449

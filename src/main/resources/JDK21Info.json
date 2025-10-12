@@ -7,13 +7,6 @@
     }
   },
   {
-    "jep": 445,
-    "info": {
-      "title": "Unnamed Classes and Instance Main Methods (Preview)",
-      "dscr": "Up-to-date demo moved to `org.javademos.java25.jep512.CompactSourceFilesAndInstanceMainMethods` (JEP 512)"
-    }
-  },
-  {
     "jep": 446,
     "info": {
       "name": "JEP 446 - Scoped Values (Preview)",

@@ -63,13 +63,6 @@
     }
   },
   {
-    "jep": 495,
-    "info": {
-      "title": "Simple Source Files and Instance Main Methods (Fourth Preview)",
-      "description": "The fourth preview to refine instance main methods and implicitly declared classes, paving the way for finalization in JDK 25."
-    }
-  },
-  {
     "jep": 497,
     "info": {
       "name": "JEP 497 - Quantum Resistant Algorithm - Lattice-based Digital Signature (Preview)",
@@ -81,7 +74,7 @@
     "info": {
       "name": "JEP 498 - Warn upon Use of Memory-Access Methods in sun.misc.Unsafe",
       "dscr": "Showing runtime warnings for methods that are already deprecated"
-    }
+     }
   },
   {
     "jep": 479,
