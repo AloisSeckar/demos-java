@@ -11,6 +11,7 @@ import org.javademos.commons.IDemo;
 /// This demo is a placeholder. For the full implementation, see the final JEP.
 ///
 /// Superseded by [JEP 456](https://openjdk.org/jeps/456).
+/// @author [Krushit Babariya](https://github.com/Krushit-Babariya)
 /// @see org.javademos.java22.jep456.UnnamedPatternsAndVariables
 ///
 public class UnnamedPatternsAndVariablesDemo implements IDemo {
