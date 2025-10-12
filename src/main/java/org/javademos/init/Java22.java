@@ -1,10 +1,11 @@
 package org.javademos.init;
 
 import org.javademos.commons.IDemo;
+import org.javademos.java21.jep443.UnnamedPatternsAndVariablesDemo;
 import org.javademos.java22.jep423.RegionPinningForG1;
 import org.javademos.java22.jep447.StatementsBeforeSuper;
 import org.javademos.java22.jep454.ForeignFunctionMemoryDemo;
-import org.javademos.java22.jep456.UnnamedPatternsAndVariables;
+import org.javademos.java22.jep456.UnnamedPatternsAndVariablesDemo;
 import org.javademos.java22.jep457.ClassFileAPIDemo;
 import org.javademos.java22.jep460.VectorAPIDemo;
 import org.javademos.java22.jep461.StreamGatherers;
@@ -30,7 +31,7 @@ public class Java22 {
         // JEP 454
         java22DemoPool.add(new ForeignFunctionMemoryDemo());
         // JEP 456
-        java22DemoPool.add(new UnnamedPatternsAndVariables());
+        java22DemoPool.add(new UnnamedPatternsAndVariablesDemo());
         // JEP 457
         java22DemoPool.add(new ClassFileAPIDemo());
         // JEP 460

@@ -64,8 +64,6 @@ public class Java24 {
         java24DemoPool.add(new QuantumResistantModuleLatticeBasedDigitalSignature());
         // JEP 498
         java24DemoPool.add(new MemoryAccessMethods());
-        // JEP 479
-        java24DemoPool.add(new RemovedWindows32BitX86Demo());
         // JEP 501
         java24DemoPool.add(new Deprecate32BitX86Demo());
 

@@ -1,9 +1,8 @@
 package org.javademos.java22.jep456;
 
 import org.javademos.commons.IDemo;
-import java.util.List;
 
-/// # JEP 456: Unnamed Patterns and Variables (Final)
+/// Demo for JDK 22 feature **JEP 456 - Unnamed Patterns and Variables**.
 ///
 /// ## Summary
 /// This JEP finalizes the feature to enhance the Java language with unnamed patterns and variables.
@@ -19,7 +18,7 @@ import java.util.List;
 /// - [Baeldung: Unnamed Patterns and Variables in Java](https://www.baeldung.com/java-unnamed-patterns-variables)
 /// @author [Krushit Babariya](https://github.com/Krushit-Babariya)
 ///
-public class UnnamedPatternsAndVariables implements IDemo {
+public class UnnamedPatternsAndVariablesDemo implements IDemo {
 
     // A simple record for pattern matching examples
     record Point(int x, int y) {}
