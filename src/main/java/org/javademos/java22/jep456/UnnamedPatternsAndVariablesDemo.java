@@ -2,6 +2,8 @@ package org.javademos.java22.jep456;
 
 import org.javademos.commons.IDemo;
 
+import java.util.List;
+
 /// Demo for JDK 22 feature **JEP 456 - Unnamed Patterns and Variables**.
 ///
 /// ## Summary
@@ -58,8 +60,8 @@ public class UnnamedPatternsAndVariablesDemo implements IDemo {
 //
 //        // Example 4: Unnamed patterns in a switch statement
         switch (obj) {
-            case Point(int x, 0) ->{/* ... */ } //System.out.printf("✅ Point is on the x-axis at x=%d.%n", x);
-            case Point(0, int y) ->{/* ... */ } //System.out.printf("✅ Point is on the y-axis at y=%d.%n", y);
+            case Point(int x, int y) when y==0 ->{/* ... */ } //System.out.printf("✅ Point is on the x-axis at x=%d.%n", x);
+            case Point(int x, int y) when x==0 ->{/* ... */ } //System.out.printf("✅ Point is on the y-axis at y=%d.%n", y);
             case Point(int x, int y) when (x == y) -> {/* ... */ } //System.out.printf("✅ Point is on the line y=x at (%d, %d).%n", x, y);
             case Point(_, _) ->{/* ... */ } //System.out.println("✅ Object is some other Point (both coordinates ignored).");
             default ->{/* ... */ } //System.out.println("Object is not a Point.");
