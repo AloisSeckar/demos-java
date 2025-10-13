@@ -5,7 +5,7 @@ import org.javademos.commons.IDemo;
 ///
 /// # JEP 451: Prepare to Disallow the Dynamic Loading of Agents
 ///
-/// @author mayankvyas1306
+/// 
 ///
 /// ## Summary
 /// This JEP introduces warnings when Java or JVM TI agents are loaded dynamically into a running
@@ -21,6 +21,8 @@ import org.javademos.commons.IDemo;
 /// ## Resources
 /// - [JEP 451: Prepare to Disallow the Dynamic Loading of Agents](https://openjdk.org/jeps/451)
 ///
+///  @author mayankvyas1306
+/// 
 public class DisallowDynamicAgentLoading implements IDemo {
 
     @Override
