@@ -21,6 +21,13 @@
     }
   },
   {
+    "jep": 456,
+    "info": {
+      "name": "Unnamed Patterns and Variables (Final)",
+      "dscr": "Finalizes the feature to use an underscore `_` for unnamed variables and patterns, improving code clarity when a variable's value is not needed."
+    }
+  },
+  {
     "jep": 457,
     "info": {
       "name": "JEP 457 - Class-File API (Preview)",
