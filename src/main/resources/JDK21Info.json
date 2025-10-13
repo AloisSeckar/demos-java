@@ -40,5 +40,12 @@
       "name": "JEP 449 - Deprecate the 32-bit x86 Windows Port for Removal",
       "dscr": "Deprecated the Windows 32-bit x86 port in JDK 21, signaling its future removal."
     }
+  },
+  {
+    "jep": 451,
+    "info": {
+      "name": "JEP 451 - Prepare to Disallow the Dynamic Loading of Agents",
+      "dscr": "Issues warnings when agents are loaded dynamically into a running JVM to prepare for disallowing this by default in a future release."
+    }
   }
 ]

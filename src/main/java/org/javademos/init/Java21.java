@@ -13,6 +13,7 @@ import org.javademos.java21.jep445.UnnamedClassesDemo;
 import org.javademos.java21.jep446.ScopedValuesDemo;
 import org.javademos.java21.jep448.VectorAPIDemo;
 import org.javademos.java21.jep449.DeprecateWindows32BitX86Demo;
+import org.javademos.java21.jep451.DisallowDynamicAgentLoading;
 import org.javademos.java21.jep452.KeyEncapsulationMechanismAPIDemo;
 
 import java.util.ArrayList;
@@ -52,6 +53,8 @@ public class Java21 {
         java21DemoPool.add(new VectorAPIDemo());
         // JEP 449
         java21DemoPool.add(new DeprecateWindows32BitX86Demo());
+        // JEP 451
+        java21DemoPool.add(new DisallowDynamicAgentLoading());
         // JEP 452
         java21DemoPool.add(new KeyEncapsulationMechanismAPIDemo());
         return java21DemoPool;
