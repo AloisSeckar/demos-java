@@ -36,7 +36,7 @@ import java.util.Random;
 /// @see jdk.incubator.vector.VectorSpecies
 ///
 /// @author Alois Seckar <alois.seckar@gmail.com>
-public class VectorApiDemo implements IDemo {
+public class VectorAPIDemo implements IDemo {
 
     // VectorSpecies defines the shape of SIMD vectors (e.g., length and type)
     private static final VectorSpecies<Float> SPECIES = FloatVector.SPECIES_MAX;
