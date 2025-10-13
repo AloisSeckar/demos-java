@@ -2,7 +2,7 @@ package org.javademos.java21.jep443;
 
 import org.javademos.commons.IDemo;
 
-/// Demo for JDK 21 feature **Unnamed Patterns and Variables (preview)** (JEP 443)
+/// Demo for JDK 21 feature **JEP 443 - Unnamed Patterns and Variables (preview)**.
 ///
 /// **New version of this JEP exists: JEP 456 in JDK 22**
 ///

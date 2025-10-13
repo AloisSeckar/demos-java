@@ -1,9 +1,8 @@
 package org.javademos.java23.jep480;
 
-import org.javademos.commons.IDemo;
-
-import java.util.concurrent.Future;
 import java.util.concurrent.StructuredTaskScope;
+
+import org.javademos.commons.IDemo;
 
 /**
  * # JEP 480: Structured Concurrency (Third Preview)

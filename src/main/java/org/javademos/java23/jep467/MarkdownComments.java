@@ -2,7 +2,7 @@ package org.javademos.java23.jep467;
 
 import org.javademos.commons.IDemo;
 
-/// Demo for JDK 23 feature **Markdown Documentation Comments** (JEP 467)
+/// Demo for JDK 23 feature **JEP 467 - Markdown Documentation Comments**.
 ///
 /// JEP history:
 /// - JDK 23: [JEP 467 - Markdown Documentation Comments](https://openjdk.org/jeps/467)
@@ -35,7 +35,7 @@ public class MarkdownComments implements IDemo {
 
     // AFTER JDK 23 - Javadoc header
 
-    /// Demo for JDK 23 feature **Markdown Documentation Comments** (JEP 467)
+    /// Demo for JDK 23 feature **JEP 467 - Markdown Documentation Comments**.
     ///
     /// @see <a href="https://openjdk.org/jeps/467">JEP 467</a>
     /// @author alois.seckar@gmail.com

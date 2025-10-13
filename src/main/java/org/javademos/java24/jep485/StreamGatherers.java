@@ -6,7 +6,7 @@ import java.util.stream.Gatherers;
 
 import org.javademos.commons.IDemo;
 
-/// Demo for JDK 24 feature **Stream Gatherers** (JEP 485)
+/// Demo for JDK 24 feature **JEP 485 - Stream Gatherers**.
 ///
 /// JEP history:
 /// - JDK 22: [JEP 461 - Stream Gatherers (Preview)](https://openjdk.org/jeps/461)
@@ -18,12 +18,10 @@ import org.javademos.commons.IDemo;
 /// - [Stream Gatherers: The Missing Piece in Java Stream Processing](https://todd.ginsberg.com/post/java/gatherers/)
 ///
 /// @author rishabhrawat.171105@gmail.com
-
 public class StreamGatherers implements IDemo {
 
 	@Override
 	public void demo() {
-		// TODO Auto-generated method stub
 		info(485);
 
 		// Demo of Stream Gatherers

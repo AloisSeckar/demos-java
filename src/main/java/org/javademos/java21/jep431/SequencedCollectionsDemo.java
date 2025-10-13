@@ -4,18 +4,17 @@ import org.javademos.commons.IDemo;
 
 import java.util.*;
 
-/**
- * This class shows examples of new 'Sequenced Collections'.
- * They are defined as collections whose elements have a defined encounter order.
- *
- * REFERENCES:
- * Java 21 - https://openjdk.org/jeps/431 - Sequenced Collections
- *
- * Further reading:
- * https://www.baeldung.com/java-21-sequenced-collections
- *
- * @author alois.seckar@gmail.com
- */
+/// Demo for JDK 21 feature **JEP 431 - Sequenced Collections**.
+/// 
+/// They are defined as collections whose elements have a defined encounter order.
+///
+/// JEP history:
+/// - JDK 21: [JEP 431 - Sequenced Collections](https://openjdk.org/jeps/431)
+///
+/// Further reading:
+/// - [Java 21 Sequenced Collections](https://www.baeldung.com/java-21-sequenced-collections)
+///
+/// @author alois.seckar@gmail.com
 public class SequencedCollectionsDemo implements IDemo {
 
     @Override
@@ -78,9 +77,9 @@ public class SequencedCollectionsDemo implements IDemo {
         }
         System.out.println("last item (iterator): " + lastOld);
         // easier with StreamAPI, but still...
+        @SuppressWarnings("unused") // `first` is not used and can be replaced with `_`, but is kept here for clarity
         var lastStream = hashSet.stream().reduce((first, second) -> second).get();
         System.out.println("last item (stream): " + lastStream);
-
 
         System.out.println("JEP 431");
         var firstNew = hashSet.getFirst();

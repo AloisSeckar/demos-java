@@ -3,21 +3,20 @@ package org.javademos.java11.var;
 import org.javademos.commons.IDemo;
 import java.util.stream.Stream;
 
-/**
- * This class demonstrates new 'var' keyword introduced in Java 10.
- * You can use 'var' on left side of variable declaration to simplify the code.
- * Compiler will internally translate 'var' into respective data type appearing
- * on the right side. This assignment is final and cannot be changed later.
- *
- * REFERENCES:
- * Java 11 - https://openjdk.org/jeps/323 - Local-Variable Syntax for Lambda Parameters
- * Java 10 - https://openjdk.org/jeps/286 - Local-Variable Type Inference
- *
- * Further reading:
- * https://developers.redhat.com/blog/2018/05/25/simplify-local-variable-type-definition-using-the-java-10-var-keyword
- * 
- * @author alois.seckar@gmail.com
- */
+/// Demo for JDK 10 feature **JEP 286 - Local-Variable Type Inference**.
+/// 
+/// You can use 'var' on left side of variable declaration to simplify the code.
+/// Compiler will internally translate 'var' into respective data type appearing
+/// on the right side. This assignment is final and cannot be changed later.
+///
+/// JEP history:
+/// - JDK 11: [JEP 323 - Local-Variable Syntax for Lambda Parameters](https://openjdk.org/jeps/323)
+/// - JDK 10: [JEP 286 - Local-Variable Type Inference](https://openjdk.org/jeps/286)
+///
+/// Further reading:
+/// - [Simplify Local Variable Type Definition Using the Java 10 var Keyword](https://developers.redhat.com/blog/2018/05/25/simplify-local-variable-type-definition-using-the-java-10-var-keyword)
+/// 
+/// @author alois.seckar@gmail.com
 public class VarDemo implements IDemo {
     
     // you cannot use 'var' for object members

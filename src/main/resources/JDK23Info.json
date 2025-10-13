@@ -7,24 +7,10 @@
     }
   },
   {
-    "jep": 457,
-    "info": {
-      "name": "JEP 457 - Class-File API (Preview)",
-      "dscr": "Demo for JEP 457: Standard API for parsing, generating, and transforming Java class files; see ClassFileApiDemo.java"
-    }
-  },
-  {
     "jep": 458,
     "info": {
       "name": "JEP 458 - Launch Multi-File Source-Code Programs",
       "dscr": "Demonstrates launching multi-file source-code programs directly with java; see LaunchMultiFileSourceDemo.java"
-    }
-  },
-  {
-    "jep": 460,
-    "info": {
-      "name": "JEP 460 - Vector API (Seventh Incubator)",
-      "dscr": "Demonstrates SIMD vector computations using the Vector API. See JEP460VectorApiDemo.java for code."
     }
   },
   {
@@ -33,19 +19,12 @@
       "name": "JEP 462 - Structured Concurrency (Second Preview)",
       "dscr": "Simplifies multithreaded programming by managing tasks in a structured scope. Demonstrates using StructuredTaskScope to manage subtasks as a single unit of work."
     }
- },
-  {
-    "jep": 463,
-    "info": {
-      "name": "JEP 463 - Implicitly Declared Classes and Instance Main Methods (Second Preview)",
-      "dscr": "See ImplicitlyDeclaredClassesDemo class for further info"
-    }
   },
   {
     "jep": 466,
     "info": {
       "name": "JEP 466 - Class-File API (Second Preview)",
-      "dscr": "See ClassFileAPI class for further info"
+      "dscr": "Up-to-date demo moved to `org.javademos.java24.jep484.ClassFileAPIDemo` (JEP 484)"
     }
   },
   {
@@ -59,7 +38,7 @@
     "jep": 469,
     "info": {
       "name": "JEP 469 - Vector API (Eighth Incubator)",
-      "dscr": "See VectorAPI class for further info"
+      "dscr": "Up-to-date demo moved to `org.javademos.java25.jep508.VectorAPIDemo` (JEP 508)"
     }
   },
   {
@@ -86,15 +65,15 @@
   {
     "jep": 476,
     "info": {
-      "name": "JEP 476 - Module Import Declarations (Preview)",
-      "dscr": "Java now allows 'import module <x>' statement to simplify import declarations"
+      "name": "JEP 476 - Scoped Values (Third Preview)",
+      "dscr": "Up-to-date demo moved to `org.javademos.java25.jep506.ScopedValuesDemo` (JEP 506)"
     }
   },
   {
     "jep": 477,
     "info": {
       "name": "JEP 477 - Implicitly Declared Classes and Instance Main Methods (Third Preview)",
-      "dscr": "Simplifies Java for beginners, allowing programs to be written without explicit class declarations"
+      "dscr": "Up-to-date demo moved to `org.javademos.java25.jep512.CompactSourceFilesDemo` (JEP 512)"
     }
   },
   {
