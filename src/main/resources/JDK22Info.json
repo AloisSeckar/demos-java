@@ -45,7 +45,7 @@
     "jep": 461,
     "info": {
       "name": "JEP 461 - Stream Gatherers (Preview)",
-      "dscr": "See StreamGatherers461 class for further info"
+      "dscr": "Up-to-date demo moved to `org.javademos.java24.jep485.StreamGatherersDemo` (JEP 485)"
     }
   },
   {
