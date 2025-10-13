@@ -31,8 +31,6 @@ public class Java24 {
         var java24DemoPool = new ArrayList<IDemo>();
 
         // feel free to comment out demos you are not interested in right now
-        // JEP 472
-        java24DemoPool.add(new PrepareToRestrictJNI());
 
         // JEP 472
         java24DemoPool.add(new PrepareToRestrictJNI());
