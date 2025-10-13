@@ -21,6 +21,13 @@
     }
   },
   {
+    "jep": 456,
+    "info": {
+      "name": "Unnamed Patterns and Variables (Final)",
+      "dscr": "Finalizes the feature to use an underscore `_` for unnamed variables and patterns, improving code clarity when a variable's value is not needed."
+    }
+  },
+  {
     "jep": 457,
     "info": {
       "name": "JEP 457 - Class-File API (Preview)",
@@ -39,13 +46,6 @@
     "info": {
       "name": "JEP 461 - Stream Gatherers (Preview)",
       "dscr": "Up-to-date demo moved to `org.javademos.java24.jep485.StreamGatherersDemo` (JEP 485)"
-    }
-  },
-  {
-    "jep": 463,
-    "info": {
-      "name": "JEP 463 - Implicitly Declared Classes and Instance Main Methods (Second Preview)",
-      "dscr": "Up-to-date demo moved to `org.javademos.java25.jep512.CompactSourceFilesDemo` (JEP 512)"
     }
   },
   {
