@@ -19,7 +19,5 @@ public class UnnamedPatternsAndVariablesPreview implements IDemo {
     @Override
     public void demo() {
         info(443);
-        System.out.println("This feature was finalized in JDK 22.");
-//        System.out.println("Please see the demo for JEP 456 for the complete explanation and examples. 🔗");
     }
 }
