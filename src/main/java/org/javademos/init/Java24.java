@@ -8,7 +8,7 @@ import org.javademos.java24.jep475.LateBarrierExpansionG1;
 import org.javademos.java24.jep478.KeyDerivationApiPreview;
 import org.javademos.java24.jep479.RemovedWindows32BitX86Demo;
 import org.javademos.java24.jep484.ClassFileAPIDemo;
-import org.javademos.java24.jep485.StreamGatherers;
+import org.javademos.java24.jep485.StreamGatherersDemo;
 import org.javademos.java24.jep486.DisableSecurityManager;
 import org.javademos.java24.jep487.ScopedValuesDemo;
 import org.javademos.java24.jep489.VectorAPIDemo;
@@ -45,7 +45,7 @@ public class Java24 {
         // JEP 484
         java24DemoPool.add(new ClassFileAPIDemo());
         // JEP 485
-        java24DemoPool.add(new StreamGatherers());
+        java24DemoPool.add(new StreamGatherersDemo());
         // JEP 486
         java24DemoPool.add(new DisableSecurityManager());
         // JEP 487

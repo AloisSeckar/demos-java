@@ -6,11 +6,12 @@ import java.util.stream.Gatherers;
 
 import org.javademos.commons.IDemo;
 
-/// Demo for JDK 24 feature **JEP 485 - Stream Gatherers**.
+/// Demo for JDK 24 feature <strong>JEP 485 - Stream Gatherers</strong>.
 ///
 /// JEP history:
-/// - JDK 22: [JEP 461 - Stream Gatherers (Preview)](https://openjdk.org/jeps/461)
+/// - JDK 24: [JEP 485 - Stream Gatherers (Final)](https://openjdk.org/jeps/485)
 /// - JDK 23: [JEP 473 - Stream Gatherers (Second Preview)](https://openjdk.org/jeps/473)
+/// - JDK 22: [JEP 461 - Stream Gatherers (Preview)](https://openjdk.org/jeps/461)
 ///
 /// Further reading:
 /// - [Stream Gatherers in JDK 24: Building Custom Intermediate Operations for the Stream API](https://www.danvega.dev/blog/stream-gatherers)
@@ -18,7 +19,7 @@ import org.javademos.commons.IDemo;
 /// - [Stream Gatherers: The Missing Piece in Java Stream Processing](https://todd.ginsberg.com/post/java/gatherers/)
 ///
 /// @author rishabhrawat.171105@gmail.com
-public class StreamGatherers implements IDemo {
+public class StreamGatherersDemo implements IDemo {
 
 	@Override
 	public void demo() {

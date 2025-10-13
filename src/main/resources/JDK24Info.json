@@ -1,5 +1,19 @@
 [
   {
+    "jep": 472,
+    "info": {
+      "name": "JEP 472 - Prepare to Restrict the Use of JNI",
+      "dscr": "Issues warnings on uses of the Java Native Interface (JNI) to prepare for future restrictions, enhancing platform integrity by requiring explicit opt-in."
+    }
+  },
+  {
+    "jep": 475,
+    "info": {
+      "name": "JEP 475 - Late Barrier Expansion for G1",
+      "dscr": "Moves G1 garbage collector barrier expansion to the code emission phase in C2 JIT to reduce overhead and improve maintainability."
+    }
+  },
+  {
     "jep": 478,
     "info": {
       "name": "JEP 478 - Key Derivation Function API (Preview)",
