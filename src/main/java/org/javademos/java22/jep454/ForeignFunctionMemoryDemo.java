@@ -13,6 +13,15 @@ import java.lang.invoke.MethodHandle;
 ///
 /// JEP history:
 /// - JDK 22: [JEP 454 - Foreign Function & Memory API](https://openjdk.org/jeps/454)
+/// - JDK 21: [JEP 442 - Foreign Function & Memory API (Third Preview)](https://openjdk.org/jeps/442)
+/// - JDK 20: [JEP 434 - Foreign Function & Memory API (Second Preview)](https://openjdk.org/jeps/434)
+/// - JDK 19: [JEP 424 - Foreign Function & Memory API (Preview)](https://openjdk.org/jeps/424)
+/// - JDK 18: [JEP 419 - Foreign Function & Memory API (Second Incubator)](https://openjdk.org/jeps/419)
+/// - JDK 17: [JEP 412 - Foreign Function & Memory API (Incubator)](https://openjdk.org/jeps/412)
+/// - JDK 16: [JEP 393 - Foreign-Memory Access API (Third Incubator)](https://openjdk.org/jeps/393)
+/// - JDK 16: [JEP 389 - Foreign Linker API (Incubator)](https://openjdk.org/jeps/389)
+/// - JDK 15: [JEP 383 - Foreign-Memory Access API (Second Incubator)](https://openjdk.org/jeps/383)
+/// - JDK 14: [JEP 370 - Foreign-Memory Access API (Incubator)](https://openjdk.org/jeps/370)
 ///
 /// Further reading:
 /// - [Inside Java: Foreign Function & Memory API](https://inside.java/2024/02/foreign-function-memory-api/)
