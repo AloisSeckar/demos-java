@@ -35,6 +35,13 @@
     }
   },
   {
+    "jep": 459,
+    "info": {
+      "name": "JEP 459 - String Templates (Second Preview)",
+      "dscr": "A second preview of the String Templates feature. This feature was later removed in JDK 23."
+    }
+  },
+  {
     "jep": 460,
     "info": {
       "name": "JEP 460 - Vector API (Seventh Incubator)",
