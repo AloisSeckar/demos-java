@@ -3,7 +3,7 @@ package org.javademos.init;
 import java.util.ArrayList;
 
 import org.javademos.commons.IDemo;
-import org.javademos.jdk15.jep383.ForeignMemoryAccessDemo;
+import org.javademos.java15.jep383.ForeignMemoryAccessDemo;
 
 public class Java15 {
 
