@@ -1,4 +1,10 @@
-[
+[ {
+    "jep": 430,
+    "info": {
+      "name": "JEP 430 - String Templates (First Preview)",
+      "dscr": "A preview of the String Templates feature, which was updated in JEP 459 and later removed."
+    }
+  },
   {
     "jep": 439,
     "info": {

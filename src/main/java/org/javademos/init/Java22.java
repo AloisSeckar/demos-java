@@ -7,6 +7,7 @@ import org.javademos.java22.jep454.ForeignFunctionMemoryDemo;
 import org.javademos.java22.jep456.UnnamedPatternsAndVariablesDemo;
 import org.javademos.java22.jep457.ClassFileAPIDemo;
 import org.javademos.java22.jep458.LaunchMultiFileSourceDemo;
+import org.javademos.java22.jep459.StringTemplatesSecondPreview;
 import org.javademos.java22.jep460.VectorAPIDemo;
 import org.javademos.java22.jep461.StreamGatherersDemo;
 import org.javademos.java22.jep463.ImplicitlyDeclaredClassesDemo;
@@ -36,6 +37,8 @@ public class Java22 {
         java22DemoPool.add(new ClassFileAPIDemo());
         // JEP 458
         java22DemoPool.add(new LaunchMultiFileSourceDemo());
+        // JEP 459
+        java22DemoPool.add(new StringTemplatesSecondPreview());
         // JEP 460
         java22DemoPool.add(new VectorAPIDemo());
         // JEP 461
