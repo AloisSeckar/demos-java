@@ -1,5 +1,12 @@
 [
   {
+    "jep": 413,
+    "info": {
+      "name": "JEP 413 - Code Snippets in Java API Documentation",
+      "dscr": "Introduces the @snippet tag for JavaDoc to simplify the inclusion of example source code in API documentation."
+    }
+  },
+  {
     "jep": 417,
     "info": {
       "name": "JEP 417 - Vector API (Third Incubator)",
