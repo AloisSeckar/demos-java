@@ -8,7 +8,7 @@ import org.javademos.java21.jep439.GenerationalZGC21;
 import org.javademos.java21.jep440.RecordPatternsDemo;
 import org.javademos.java21.jep441.PatternMatchingForSwitchDemo;
 import org.javademos.java21.jep442.ForeignFunctionMemoryDemo;
-import org.javademos.java21.jep443.UnnamedPatternsAndVariablesDemo;
+import org.javademos.java21.jep443.UnnamedPatternsAndVariablesPreview;
 import org.javademos.java21.jep444.VirtualThreadsDemo;
 import org.javademos.java21.jep445.UnnamedClassesDemo;
 import org.javademos.java21.jep446.ScopedValuesDemo;
