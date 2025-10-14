@@ -7,6 +7,7 @@ import org.javademos.java21.jep431.SequencedCollectionsDemo;
 import org.javademos.java21.jep439.GenerationalZGC21;
 import org.javademos.java21.jep440.RecordPatternsDemo;
 import org.javademos.java21.jep441.PatternMatchingForSwitchDemo;
+import org.javademos.java21.jep442.ForeignFunctionMemoryDemo;
 import org.javademos.java21.jep443.UnnamedPatternsAndVariablesDemo;
 import org.javademos.java21.jep444.VirtualThreadsDemo;
 import org.javademos.java21.jep445.UnnamedClassesDemo;
@@ -40,6 +41,8 @@ public class Java21 {
         java21DemoPool.add(new RecordPatternsDemo());
         // JEP 441
         java21DemoPool.add(new PatternMatchingForSwitchDemo());
+        // JEP 442
+        java21DemoPool.add(new ForeignFunctionMemoryDemo());
         // JEP 443
         java21DemoPool.add(new UnnamedPatternsAndVariablesDemo());
         // JEP 444

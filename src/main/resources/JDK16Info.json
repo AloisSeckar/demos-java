@@ -5,5 +5,19 @@
       "name": "JEP 338 - Vector API (Incubator)",
       "dscr": "Up-to-date demo moved to `org.javademos.java25.jep508.VectorAPIDemo` (JEP 508)"
     }
+  },
+  {
+    "jep": 389,
+    "info": {
+      "name": "JEP 389 - Foreign Linker API (Incubator)",
+      "dscr": "Up-to-date demo moved to `org.javademos.java22.jep454.ForeignFunctionMemoryDemo` (JEP 454)"
+    }
+  },
+  {
+    "jep": 393,
+    "info": {
+      "name": "JEP 393 - Foreign-Memory Access API (Third Incubator)",
+      "dscr": "Up-to-date demo moved to `org.javademos.java22.jep454.ForeignFunctionMemoryDemo` (JEP 454)"
+    }
   }
 ]

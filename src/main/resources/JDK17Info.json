@@ -1,5 +1,12 @@
 [
   {
+    "jep": 412,
+    "info": {
+      "name": "JEP 412 - Foreign Function & Memory API (Incubator)",
+      "dscr": "Up-to-date demo moved to `org.javademos.java22.jep454.ForeignFunctionMemoryDemo` (JEP 454)"
+    }
+  },
+  {
     "jep": 414,
     "info": {
       "name": "JEP 414 - Vector API (Second Incubator)",
