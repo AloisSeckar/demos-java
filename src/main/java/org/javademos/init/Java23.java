@@ -2,7 +2,6 @@ package org.javademos.init;
 
 import org.javademos.commons.IDemo;
 import org.javademos.java23.jep455.PrimitiveTypesInPatterns;
-import org.javademos.java23.jep458.LaunchMultiFileSourceDemo;
 import org.javademos.java23.jep462.StructuredConcurrencyDemo;
 import org.javademos.java23.jep466.ClassFileAPIDemo;
 import org.javademos.java23.jep467.MarkdownComments;
@@ -28,8 +27,6 @@ public class Java23 {
 
         // JEP 455
         java23DemoPool.add(new PrimitiveTypesInPatterns());
-        // JEP 458
-        java23DemoPool.add(new LaunchMultiFileSourceDemo());
         // JEP 462
         java23DemoPool.add(new StructuredConcurrencyDemo());
         // JEP 466

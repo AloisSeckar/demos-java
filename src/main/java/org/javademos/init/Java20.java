@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 import org.javademos.commons.IDemo;
 import org.javademos.java20.jep429.ScopedValuesDemo;
+import org.javademos.java20.jep434.ForeignFunctionMemoryDemo;
 import org.javademos.java20.jep438.VectorAPIDemo;
 
 public class Java20 {
@@ -18,6 +19,8 @@ public class Java20 {
 
         // JEP 429
         java20DemoPool.add(new ScopedValuesDemo());
+        // JEP 434
+        java20DemoPool.add(new ForeignFunctionMemoryDemo());
         // JEP 438
         java20DemoPool.add(new VectorAPIDemo());
 
