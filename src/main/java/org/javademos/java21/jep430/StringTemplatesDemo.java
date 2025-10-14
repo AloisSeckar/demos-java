@@ -1,49 +1,42 @@
 package org.javademos.java21.jep430;
 
 import org.javademos.commons.IDemo;
-// import java.util.FormatProcessor;
 
-/// Demo for JDK 21 feature **JEP 430 - String Templates**.
 ///
-/// JEP history:
-/// - JDK 21: [JEP 430 - String Templates (Preview)](https://openjdk.org/jeps/430)
+/// # JEP 430: String Templates (First Preview)
 ///
-/// Further reading:
-/// - [Java 21 Features - String Templates](https://www.happycoders.eu/java/java-21-features/#String_Templates_Preview_-_JEP_430)
+/// @author mayankvyas1306
 ///
-/// @author alois.seckar@gmail.com
+/// ## Summary
+/// This JEP introduced String Templates as a preview feature in JDK 21. It aimed to simplify
+/// string composition by combining literal text with embedded expressions in a safe and
+/// flexible way.
+///
+/// ## Evolution of the Feature
+/// This feature received a second preview in JEP 459 (JDK 22) and was subsequently
+/// **REMOVED** in JDK 23 for further review.
+///
+/// ## Release Information
+/// - **JEP:** 430
+/// - **Status:** Delivered (as preview)
+/// - **Release:** JDK 21
+///
+/// ## Resources
+/// - [JEP 430: String Templates (First Preview)](https://openjdk.org/jeps/430)
+///
 public class StringTemplatesDemo implements IDemo {
+
     @Override
     public void demo() {
-        info("STRING TEMPLATES DEMO", "Example of 'String Templates' feature\nbeing previewed in Java 21");
-        System.out.println("String Templates were removed in JDK 23");
-        /*
-        // STR is a default implementation of StringTemplate
-        // it is automatically injected in all classes without need of an explicit import
-        int a = 1;
-        int b = 2;
-        System.out.println(STR."\{a} * \{b} = \{a * b}");
-        System.out.println("-----");
+        info(430);
+        System.out.println("""
+            String Templates were introduced as a preview feature in JDK 21.
 
-        // FMT is an implementation for `String.format()` alike formatting
-        // it has to be imported manually
-        double c = 1.2345678;
-        double d = 2.3456789;
-        System.out.println(FormatProcessor.FMT."%.3f\{c} * %.3f\{d} = %.2f\{c * d}");
-        System.out.println("-----");
+            This feature evolved into a second preview in JEP 459 (JDK 22) before being
+            withdrawn from the language in JDK 23.
 
-        // template processor can also be used together with text blocks
-        // @see textblock.java17.org.javademos.TextBlockDemo
-
-        int httpStatus = 404;
-        String errorMessage = "Demo not found";
-        String json = STR."""
-        {
-          "httpStatus": \{httpStatus},
-          "errorMessage": "\{errorMessage}"
-        }
-        """;
-        System.out.println(json);
-         */
+            Please see the demo for JEP 459 for a more detailed explanation of how this
+            feature worked during its preview period.
+            """);
     }
 }

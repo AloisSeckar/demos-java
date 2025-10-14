@@ -7,12 +7,14 @@ import org.javademos.java21.jep431.SequencedCollectionsDemo;
 import org.javademos.java21.jep439.GenerationalZGC21;
 import org.javademos.java21.jep440.RecordPatternsDemo;
 import org.javademos.java21.jep441.PatternMatchingForSwitchDemo;
+import org.javademos.java21.jep442.ForeignFunctionMemoryDemo;
 import org.javademos.java21.jep443.UnnamedPatternsAndVariablesPreview;
 import org.javademos.java21.jep444.VirtualThreadsDemo;
 import org.javademos.java21.jep445.UnnamedClassesDemo;
 import org.javademos.java21.jep446.ScopedValuesDemo;
 import org.javademos.java21.jep448.VectorAPIDemo;
 import org.javademos.java21.jep449.DeprecateWindows32BitX86Demo;
+import org.javademos.java21.jep451.DisallowDynamicAgentLoading;
 import org.javademos.java21.jep452.KeyEncapsulationMechanismAPIDemo;
 
 import java.util.ArrayList;
@@ -40,6 +42,8 @@ public class Java21 {
         java21DemoPool.add(new RecordPatternsDemo());
         // JEP 441
         java21DemoPool.add(new PatternMatchingForSwitchDemo());
+        // JEP 442
+        java21DemoPool.add(new ForeignFunctionMemoryDemo());
         // JEP 443
         java21DemoPool.add(new UnnamedPatternsAndVariablesPreview());
         // JEP 444
@@ -52,6 +56,8 @@ public class Java21 {
         java21DemoPool.add(new VectorAPIDemo());
         // JEP 449
         java21DemoPool.add(new DeprecateWindows32BitX86Demo());
+        // JEP 451
+        java21DemoPool.add(new DisallowDynamicAgentLoading());
         // JEP 452
         java21DemoPool.add(new KeyEncapsulationMechanismAPIDemo());
         return java21DemoPool;
