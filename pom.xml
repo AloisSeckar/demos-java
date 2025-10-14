@@ -42,10 +42,18 @@
                 <!-- responsible for performing .jar build -->
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.14.1</version>
+                <version>3.14.1</version>               
                 <configuration>
                     <source>25</source>
                     <target>25</target>
+                    <!-- config hint to ensure lombok runs properly -->
+                    <annotationProcessorPaths>
+                        <path>
+                            <groupId>org.projectlombok</groupId>
+                            <artifactId>lombok</artifactId>
+                            <version>1.18.42</version>
+                        </path>
+                    </annotationProcessorPaths>
                     <compilerArgs>
                         <!-- allows 'preview' features -->
                         <arg>--enable-preview</arg>

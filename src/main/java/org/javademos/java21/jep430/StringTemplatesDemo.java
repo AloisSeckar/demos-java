@@ -3,17 +3,15 @@ package org.javademos.java21.jep430;
 import org.javademos.commons.IDemo;
 // import java.util.FormatProcessor;
 
-/**
- * This class shows 'String Templates' introduced in Java 21 as a preview feature.
- *
- * REFERENCES:
- * Java 21 - https://openjdk.org/jeps/430 - String Templates (Preview)
- *
- * Further reading:
- * https://www.happycoders.eu/java/java-21-features/#String_Templates_Preview_-_JEP_430
- *
- * @author alois.seckar@gmail.com
- */
+/// Demo for JDK 21 feature **JEP 430 - String Templates**.
+///
+/// JEP history:
+/// - JDK 21: [JEP 430 - String Templates (Preview)](https://openjdk.org/jeps/430)
+///
+/// Further reading:
+/// - [Java 21 Features - String Templates](https://www.happycoders.eu/java/java-21-features/#String_Templates_Preview_-_JEP_430)
+///
+/// @author alois.seckar@gmail.com
 public class StringTemplatesDemo implements IDemo {
     @Override
     public void demo() {

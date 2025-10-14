@@ -7,10 +7,14 @@ import org.javademos.java21.jep431.SequencedCollectionsDemo;
 import org.javademos.java21.jep439.GenerationalZGC21;
 import org.javademos.java21.jep440.RecordPatternsDemo;
 import org.javademos.java21.jep441.PatternMatchingForSwitchDemo;
-import org.javademos.java21.jep443.UnnamedPatternsAndVariablesDemo;
+import org.javademos.java21.jep443.UnnamedPatternsAndVariablesPreview;
 import org.javademos.java21.jep444.VirtualThreadsDemo;
-import org.javademos.java21.jep446.ScopedValues;
+import org.javademos.java21.jep445.UnnamedClassesDemo;
+import org.javademos.java21.jep446.ScopedValuesDemo;
 import org.javademos.java21.jep448.VectorAPIDemo;
+import org.javademos.java21.jep449.DeprecateWindows32BitX86Demo;
+import org.javademos.java21.jep451.DisallowDynamicAgentLoading;
+import org.javademos.java21.jep452.KeyEncapsulationMechanismAPIDemo;
 
 import java.util.ArrayList;
 
@@ -38,15 +42,21 @@ public class Java21 {
         // JEP 441
         java21DemoPool.add(new PatternMatchingForSwitchDemo());
         // JEP 443
-        java21DemoPool.add(new UnnamedPatternsAndVariablesDemo());
+        java21DemoPool.add(new UnnamedPatternsAndVariablesPreview());
         // JEP 444
         java21DemoPool.add(new VirtualThreadsDemo());
+        // JEP 445
+        java21DemoPool.add(new UnnamedClassesDemo());
         // JEP 446
-        java21DemoPool.add(new ScopedValues());
+        java21DemoPool.add(new ScopedValuesDemo());
         // JEP 448
         java21DemoPool.add(new VectorAPIDemo());
-
+        // JEP 449
+        java21DemoPool.add(new DeprecateWindows32BitX86Demo());
+        // JEP 451
+        java21DemoPool.add(new DisallowDynamicAgentLoading());
+        // JEP 452
+        java21DemoPool.add(new KeyEncapsulationMechanismAPIDemo());
         return java21DemoPool;
     }
-
 }

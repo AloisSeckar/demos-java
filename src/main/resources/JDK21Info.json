@@ -7,10 +7,45 @@
     }
   },
   {
+    "jep": 443,
+    "info": {
+      "name": "Unnamed Patterns and Variables (Preview)",
+      "dscr": "Up-to-date demo moved to `org.javademos.java22.jep456.UnnamedPatternsAndVariables` (JEP 456)"
+    }
+  },
+  {
+    "jep": 445,
+    "info": {
+      "name": "JEP 445 - Unnamed Classes and Instance Main Methods (Preview)",
+      "dscr": "Up-to-date demo moved to `org.javademos.java25.jep512.CompactSourceFilesDemo` (JEP 512)"
+    }
+  },
+  {
     "jep": 446,
     "info": {
       "name": "JEP 446 - Scoped Values (Preview)",
-      "dscr": "Implementation moved into `org.javademos.java23.jep481.ScopedValues` (JEP 481)"
+      "dscr": "Up-to-date demo moved to `org.javademos.java25.jep506.ScopedValuesDemo` (JEP 506)"
+    }
+  },
+  {
+    "jep": 448,
+    "info": {
+      "name": "JEP 448 - Vector API (Sixth Incubator)",
+      "dscr": "Up-to-date demo moved to `org.javademos.java25.jep508.VectorAPIDemo` (JEP 508)"
+    }
+  },
+  {
+    "jep": 449,
+    "info": {
+      "name": "JEP 449 - Deprecate the 32-bit x86 Windows Port for Removal",
+      "dscr": "Deprecated the Windows 32-bit x86 port in JDK 21, signaling its future removal."
+    }
+  },
+  {
+    "jep": 451,
+    "info": {
+      "name": "JEP 451 - Prepare to Disallow the Dynamic Loading of Agents",
+      "dscr": "Issues warnings when agents are loaded dynamically into a running JVM to prepare for disallowing this by default in a future release."
     }
   }
 ]

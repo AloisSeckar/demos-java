@@ -3,6 +3,7 @@
 nbactions.xml
 github.txt
 .idea
+.vscode
 
 # Accidentally committed class files
 *.class

@@ -1,65 +1,69 @@
 package org.javademos.java22.jep456;
 
 import org.javademos.commons.IDemo;
-import java.util.List;
-import java.util.Queue;
-import java.util.LinkedList;
 
-/// Demo for JDK 22 feature **Unnamed Patterns and Variables** (JEP 456)
+import java.util.List;
+
+/// Demo for JDK 22 feature **JEP 456 - Unnamed Patterns and Variables**.
 ///
-/// JEP history:
-/// - JDK 22: [JEP 456 - Unnamed Patterns and Variables](https://openjdk.org/jeps/456)
-/// - JDK 21: [JEP 443 - Unnamed Patterns and Variables (preview)](https://openjdk.org/jeps/443)
+/// ## Summary
+/// This JEP finalizes the feature to enhance the Java language with unnamed patterns and variables.
+/// The underscore character `_` can be used to denote a variable or pattern that is required by syntax
+/// but is intentionally unused. This improves code readability and maintainability by making the developer's
+/// intent clear and reducing the risk of errors from unused variables.
 ///
-/// Further reading:
-/// - [Unnamed Patterns and Variables in Java](https://www.baeldung.com/java-unnamed-patterns-variables)
+/// ## History
+/// - JDK 22: [JEP 456 - Unnamed Patterns and Variables (Final)](https://openjdk.org/jeps/456)
+/// - JDK 21: [JEP 443 - Unnamed Patterns and Variables (Preview)](https://openjdk.org/jeps/443)
+///
+/// ## Links
+/// - [Baeldung: Unnamed Patterns and Variables in Java](https://www.baeldung.com/java-unnamed-patterns-variables)
 ///
 /// @author [Krushit Babariya](https://github.com/Krushit-Babariya)
-///
 public class UnnamedPatternsAndVariablesDemo implements IDemo {
+
+    // A simple record for pattern matching examples
+    record Point(int x, int y) {}
+
     @Override
     public void demo() {
-        info("UNNAMED PATTERNS AND VARIABLES DEMO", "Examples of 'Unnamed Patterns and Variables' feature\navailable since Java 21");
+        info(456);
 
-        // Unnamed variable in a try-with-resources block
-        try (var _ = ScopedContext.acquire()) { 
-            System.out.println("Context acquired and released automatically.");
-        } catch (Exception e) {
-            System.out.println("Failed to acquire context.");
-        }
+        // --- 1. Unnamed Variables ---
+        // The underscore `_` can be used when a variable must be declared but its value is not needed.
 
-        // Unnamed variable in a catch block
-        var str = "not a number";
+        // Example 1.1: In a catch block where the exception object is ignored
         try {
-            System.out.println(Integer.parseInt(str));
+            Integer.parseInt("not-a-number");
         } catch (NumberFormatException _) {
-            System.out.println("Not a number (jep443 exception).");
+            System.out.println("✅ Caught an exception, but the exception object itself is ignored.");
         }
 
-        // Unnamed variable in an enhanced for loop
-        List<Integer> numbers = List.of(1, 2, 3, 4, 5);
-        for (int _ : numbers) {  
-            System.out.println("Processing item in list (value ignored).");
+        // Example 1.2: In a for-each loop where only the side-effect of looping is needed
+        int count = 0;
+        List<String> orders = List.of("Order1", "Order2", "Order3");
+        for (var _ : orders) {
+            count++; // We only care about the number of orders, not the orders themselves.
+        }
+        System.out.printf("✅ Processed %d orders (loop variable was unnamed).%n", count);
+        System.out.println();
+
+        // --- 2. Unnamed Patterns ---
+        // An unnamed pattern `_` matches a component of a record or other structure without binding it to a variable.
+
+        // Example 2.1: Unnamed pattern in an `instanceof` check
+        Object obj = new Point(10, 20);
+        if (obj instanceof Point(int x, _)) { // We only care about the 'x' coordinate
+            System.out.printf("✅ Object is a Point with x = %d (y coordinate ignored).%n", x);
         }
 
-        // Unnamed variable in a queue processing
-        Queue<Integer> queue = new LinkedList<>(List.of(1, 2, 3, 4, 5, 6));
-        while (queue.size() >= 3) {
-            var x = queue.remove();
-            var _ = queue.remove();  
-            var y = queue.remove();
-            System.out.println("Processed Point(" + x + ", " + y + ")");
-        }
-    }
-
-    static class ScopedContext implements AutoCloseable {
-        public static ScopedContext acquire() {
-            return new ScopedContext();
-        }
-
-        @Override
-        public void close() {
-            System.out.println("Context released.");
+        // Example 2.2: Unnamed patterns in a switch statement
+        switch (obj) {
+            case Point(int x, int y) when y==0 ->{ System.out.printf("✅ Point is on the x-axis at x=%d.%n", x); }
+            case Point(int x, int y) when x==0 ->{ System.out.printf("✅ Point is on the y-axis at y=%d.%n", y); }
+            case Point(int x, int y) when (x == y) -> { System.out.printf("✅ Point is on the line y=x at (%d, %d).%n", x, y); }
+            case Point(_, _) ->{ System.out.println("✅ Object is some other Point (both coordinates ignored)."); }
+            default ->{ System.out.println("Object is not a Point."); }
         }
     }
 }
