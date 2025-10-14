@@ -7,6 +7,13 @@
     }
   },
   {
+    "jep": 442,
+    "info": {
+      "name": "JEP 442 - Foreign Function & Memory API (Third Preview)",
+      "dscr": "Up-to-date demo moved to `org.javademos.java22.jep454.ForeignFunctionMemoryDemo` (JEP 454)"
+    }
+  },
+  {
     "jep": 443,
     "info": {
       "name": "Unnamed Patterns and Variables (Preview)",
