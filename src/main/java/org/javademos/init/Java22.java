@@ -35,7 +35,7 @@ public class Java22 {
         // JEP 457
         java22DemoPool.add(new ClassFileAPIDemo());
         // JEP 458
-        java23DemoPool.add(new LaunchMultiFileSourceDemo());
+        java22DemoPool.add(new LaunchMultiFileSourceDemo());
         // JEP 460
         java22DemoPool.add(new VectorAPIDemo());
         // JEP 461
