@@ -14,6 +14,13 @@
     }
   },
   {
+    "jep": 443,
+    "info": {
+      "name": "Unnamed Patterns and Variables (Preview)",
+      "dscr": "Up-to-date demo moved to `org.javademos.java22.jep456.UnnamedPatternsAndVariables` (JEP 456)"
+    }
+  },
+  {
     "jep": 445,
     "info": {
       "name": "JEP 445 - Unnamed Classes and Instance Main Methods (Preview)",
@@ -39,6 +46,13 @@
     "info": {
       "name": "JEP 449 - Deprecate the 32-bit x86 Windows Port for Removal",
       "dscr": "Deprecated the Windows 32-bit x86 port in JDK 21, signaling its future removal."
+    }
+  },
+  {
+    "jep": 451,
+    "info": {
+      "name": "JEP 451 - Prepare to Disallow the Dynamic Loading of Agents",
+      "dscr": "Issues warnings when agents are loaded dynamically into a running JVM to prepare for disallowing this by default in a future release."
     }
   }
 ]

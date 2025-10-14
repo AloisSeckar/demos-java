@@ -8,10 +8,10 @@ import java.util.stream.Collectors;
 /// Demo for JDK 25 feature **JEP 515 - Ahead-of-Time Method Profiling**.
 ///
 /// JEP history:
-/// - JDK 25: [JEP 511 - Ahead-of-Time Method Profiling](delivered in JDK 25)
+/// - JDK 25: [JEP 515 - Ahead-of-Time Method Profiling](https://openjdk.org/jeps/515)
 ///
 /// Further reading:
-/// - [Ahead-of-Time Method Profiling overview](https://openjdk.org/jeps/511)
+/// - [What's New in Project Leyden - JEP 514 and JEP 515 Explained](https://softwaremill.com/whats-new-in-project-leyden-jep-514-and-jep-515-explained/)
 ///
 /// @author Shivansh @Shivansh-22866
 public class AheadOfTimeMethodProfilingDemo implements IDemo {

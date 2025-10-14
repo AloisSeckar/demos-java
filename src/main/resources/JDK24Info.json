@@ -9,8 +9,8 @@
   {
     "jep": 475,
     "info": {
-        "name": "JEP 475 - Late Barrier Expansion for G1",
-        "dscr": "Moves G1 garbage collector barrier expansion to the code emission phase in C2 JIT to reduce overhead and improve maintainability."
+      "name": "JEP 475 - Late Barrier Expansion for G1",
+      "dscr": "Moves G1 garbage collector barrier expansion to the code emission phase in C2 JIT to reduce overhead and improve maintainability."
     }
   },
   {
