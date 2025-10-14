@@ -5,7 +5,6 @@ import java.net.InetAddress;
 import java.net.UnknownHostException;
 import java.net.spi.InetAddressResolver;
 import java.net.spi.InetAddressResolverProvider;
-import java.net.spi.InetAddressResolver.LookupPolicy;
 import java.net.spi.InetAddressResolverProvider.Configuration;
 import java.util.stream.Stream;
 
@@ -104,9 +103,9 @@ public class InternetAddressResolutionSPI implements IDemo {
         try {
             // This line performs a standard DNS lookup using the OS's native resolver.
             InetAddress address = InetAddress.getByName("www.openjdk.org");
-
             // At this point, `address` would hold the resolved IP. The code runs
             // successfully, demonstrating the default functionality that can be customized.
+            System.out.println("Resolved address: " + address.toString());
         } catch (UnknownHostException e) {
             // This block would execute if the DNS lookup fails.
         }
