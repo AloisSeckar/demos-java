@@ -1,6 +1,7 @@
 package org.javademos.init;
 
 import org.javademos.commons.IDemo;
+import org.javademos.java17.jep412.ForeignFunctionMemoryDemo;
 import org.javademos.java17.jep414.VectorAPIDemo;
 
 // older demos created with "non-JEP" style
@@ -26,6 +27,8 @@ public class Java17 {
 
         // feel free to comment out demos you are not interested in right now
 
+        // JEP 412
+        java17DemoPool.add(new ForeignFunctionMemoryDemo());
         // JEP 414
         java17DemoPool.add(new VectorAPIDemo());
         

@@ -1,9 +1,22 @@
-[
+[ {
+    "jep": 430,
+    "info": {
+      "name": "JEP 430 - String Templates (First Preview)",
+      "dscr": "A preview of the String Templates feature, which was updated in JEP 459 and later removed."
+    }
+  },
   {
     "jep": 439,
     "info": {
       "name": "JEP 439 - Generational ZGC",
       "dscr": "No executable code, see GenerationalZGC21.java for further info"
+    }
+  },
+  {
+    "jep": 442,
+    "info": {
+      "name": "JEP 442 - Foreign Function & Memory API (Third Preview)",
+      "dscr": "Up-to-date demo moved to `org.javademos.java22.jep454.ForeignFunctionMemoryDemo` (JEP 454)"
     }
   },
   {
