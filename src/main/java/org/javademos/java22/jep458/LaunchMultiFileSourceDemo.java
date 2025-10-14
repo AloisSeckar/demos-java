@@ -1,14 +1,14 @@
-package org.javademos.java23.jep458;
+package org.javademos.java22.jep458;
 
 import org.javademos.commons.IDemo;
 
-/// Demo for JDK 23 feature **JEP 458 - Launch Multi-File Source-Code Programs**.
+/// Demo for JDK 22 feature **JEP 458 - Launch Multi-File Source-Code Programs**.
 ///
 /// JEP history:
-/// - JDK 23 (final): [JEP 458 - Launch Multi-File Source-Code Programs](https://openjdk.org/jeps/458)
+/// - JDK 22 (final): [JEP 458 - Launch Multi-File Source-Code Programs](https://openjdk.org/jeps/458)
 ///
 /// Further reading:
-/// - [Inside Java: Launch Multi-File Source Programs](https://inside.java/2024/06/launch-multi-file-source-programs/)
+/// - [Introducing Multi-File Program Launching](https://www.infoq.com/news/2024/02/multi-file-program-launching/)
 ///
 /// @author kishansingh956196@gmail.com
 public class LaunchMultiFileSourceDemo implements IDemo {
@@ -25,5 +25,7 @@ public class LaunchMultiFileSourceDemo implements IDemo {
         //
         // Helper.java
         // public class Helper { public static void greet() { System.out.println("Hello from Helper!"); } }
+        //
+        // When running `java Main.java`, both classes will be compiled and executed out of the box.
     }
 }
