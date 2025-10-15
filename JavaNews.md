@@ -19,6 +19,10 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2025-10-13`** | [Seed4J 2.0 Delivers a Migration from JHipster Lite](https://www.infoq.com/news/2025/10/seed4j-migration-jhipster/) - former **JHipster Lite** evolved into **Seed4J**, the process is now completed by a smooth migration tool |
+| **`2025-10-09`** | [The rise of JVM languages: Kotlin, Scala, Groovy, and more](https://javapro.io/2025/10/09/the-rise-of-jvm-languages-kotlin-scala-groovy-and-more/) - an overview of major JVM languages existing today |
+| **`2025-10-07`** | [Introducing Analyze Applications and Major Management Enhancements to JMS](https://blogs.oracle.com/java/post/analyze-applications-and-other-enhancements) - new release of Oracle Java Management Service brings new analytics and management tools |
+| **`2025-10-05`** | [A Simple, Fast HTTP Server with Virtual Threads](https://fusionauth.io/blog/java-http-new-release) - introduction of new lightweight Java HTTP server library - **java-http** |
 | **`2025-10-03`** | [Jakarta EE Developer Survey 2025 shows growth in Java 21 and Cloud](https://www.heise.de/en/news/Jakarta-EE-Developer-Survey-2025-shows-growth-in-Java-21-and-Cloud-10711676.html) - key takeaways from recent survey of enterprise Java usage |
 
 ## 2025 - September
