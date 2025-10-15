@@ -27,6 +27,7 @@ public class DeprecateFinalization implements IDemo {
     public void demo() {
         info(421);
 
+        /*
         System.out.println("""
             JEP 421 officially deprecates finalization for removal. The `finalize()` method,
             intended to clean up resources before an object is garbage collected, is fundamentally flawed.
@@ -56,5 +57,6 @@ public class DeprecateFinalization implements IDemo {
             - **`java.lang.ref.Cleaner`:** For managing the cleanup of objects when they become unreachable,
               without the flaws of finalization.
             """);
+        */
     }
 }
