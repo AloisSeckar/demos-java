@@ -49,6 +49,10 @@ https://github.com/softwaremill/ox/
 https://github.com/softwaremill/jox/
 - Fast and scalable channels designed for JDK 21 virtual threads.
 
+## java-http
+https://github.com/FusionAuth/java-http/
+- Standalone fast and lite HTTP server and client with no external deps.
+
 ## Jlama
 https://github.com/tjake/Jlama
 - A modern Java inference engine for LLMs.
