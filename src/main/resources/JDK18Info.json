@@ -26,5 +26,12 @@
       "name": "JEP 419 - Foreign Function & Memory API (Second Incubator)",
       "dscr": "Up-to-date demo moved to `org.javademos.java22.jep454.ForeignFunctionMemoryDemo` (JEP 454)"
     }
+  },
+  {
+    "jep": 421,
+    "info": {
+      "name": "JEP 421 - Deprecate Finalization for Removal",
+      "dscr": "Deprecates the finalization mechanism for removal in a future release due to its inherent flaws."
+    }
   }
 ]
