@@ -8,6 +8,7 @@ import org.javademos.java18.jep400.DefaultUTF8Demo;
 import org.javademos.java18.jep417.VectorAPIDemo;
 import org.javademos.java18.jep418.InternetAddressResolutionSPI;
 import org.javademos.java18.jep419.ForeignFunctionMemoryDemo;
+import org.javademos.java18.jep421.DeprecateFinalization;
 
 public class Java18 {
 
@@ -27,6 +28,8 @@ public class Java18 {
         java18DemoPool.add(new InternetAddressResolutionSPI());
         // JEP 419
         java18DemoPool.add(new ForeignFunctionMemoryDemo());
+        // JEP 421
+        java18DemoPool.add(new DeprecateFinalization());
 
         //JEP 400
         java18DemoPool.add(new DefaultUTF8Demo());
