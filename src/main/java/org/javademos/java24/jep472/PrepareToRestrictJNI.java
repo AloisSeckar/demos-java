@@ -31,6 +31,7 @@ public class PrepareToRestrictJNI implements IDemo {
         // JNI allows Java to call native code (e.g., C/C++ libraries).
         // This is powerful but can compromise the JVM's integrity and security.
         // JEP 472 prepares the ecosystem for future restrictions by issuing warnings.
+        
         // System.out.println("""
         //         Starting with JDK 24, the JVM will issue warnings by default when an application performs
         //         a restricted native access operation without being granted explicit permission.

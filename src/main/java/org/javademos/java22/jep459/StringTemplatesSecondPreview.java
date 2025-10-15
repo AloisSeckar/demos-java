@@ -25,20 +25,20 @@ public class StringTemplatesSecondPreview implements IDemo {
     public void demo() {
         info(459);
 
-        System.out.println("""
-            --- JEP 459: String Templates (Second Preview) ---
+        // System.out.println("""
+        //     --- JEP 459: String Templates (Second Preview) ---
 
-            IMPORTANT: This feature was a preview in JDK 21/22 and was REMOVED in JDK 23.
-            The following information is for historical and educational purposes only.
+        //     IMPORTANT: This feature was a preview in JDK 21/22 and was REMOVED in JDK 23.
+        //     The following information is for historical and educational purposes only.
 
-            The feature introduced processors (e.g., STR) to embed expressions into strings.
+        //     The feature introduced processors (e.g., STR) to embed expressions into strings.
 
-            // Example from the preview (this code will not compile):
-            // int value = 10;
-            // String s = STR."The result is \\{value}";
-            // This would have produced the string: "The result is 10"
+        //     // Example from the preview (this code will not compile):
+        //     // int value = 10;
+        //     // String s = STR."The result is \\{value}";
+        //     // This would have produced the string: "The result is 10"
 
-            The goal was to create safer, more readable strings than using simple '+' concatenation.
-            """);
+        //     The goal was to create safer, more readable strings than using simple '+' concatenation.
+        //     """);
     }
 }

@@ -29,14 +29,15 @@ public class StringTemplatesDemo implements IDemo {
     @Override
     public void demo() {
         info(430);
-        System.out.println("""
-            String Templates were introduced as a preview feature in JDK 21.
 
-            This feature evolved into a second preview in JEP 459 (JDK 22) before being
-            withdrawn from the language in JDK 23.
+        // System.out.println("""
+        //     String Templates were introduced as a preview feature in JDK 21.
 
-            Please see the demo for JEP 459 for a more detailed explanation of how this
-            feature worked during its preview period.
-            """);
+        //     This feature evolved into a second preview in JEP 459 (JDK 22) before being
+        //     withdrawn from the language in JDK 23.
+
+        //     Please see the demo for JEP 459 for a more detailed explanation of how this
+        //     feature worked during its preview period.
+        //     """);
     }
 }
