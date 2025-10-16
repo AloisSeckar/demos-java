@@ -1,5 +1,12 @@
 [
   {
+    "jep": 406,
+    "info": {
+      "name": "JEP 406 - Pattern Matching for switch (Preview)",
+      "dscr": "The first preview of Pattern Matching for switch. The final implementation is in JEP 441."
+    }
+  },
+  {
     "jep": 412,
     "info": {
       "name": "JEP 412 - Foreign Function & Memory API (Incubator)",

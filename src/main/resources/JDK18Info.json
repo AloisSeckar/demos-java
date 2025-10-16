@@ -28,6 +28,13 @@
     }
   },
   {
+    "jep": 420,
+    "info": {
+      "name": "JEP 420 - Pattern Matching for switch (Second Preview)",
+      "dscr": "The second preview of Pattern Matching for switch. The final implementation is in JEP 441."
+    }
+  },
+  {
     "jep": 421,
     "info": {
       "name": "JEP 421 - Deprecate Finalization for Removal",

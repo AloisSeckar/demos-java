@@ -12,5 +12,12 @@
       "name": "JEP 426 - Vector API (Fourth Incubator)",
       "dscr": "Up-to-date demo moved to `org.javademos.java25.jep508.VectorAPIDemo` (JEP 508)"
     }
+  },
+  {
+    "jep": 427,
+    "info": {
+      "name": "JEP 427 - Pattern Matching for switch (Third Preview)",
+      "dscr": "The third preview of Pattern Matching for switch. The final implementation is in JEP 441."
+    }
   }
 ]
