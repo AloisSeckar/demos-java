@@ -1,6 +1,7 @@
 package org.javademos.init;
 
 import org.javademos.commons.IDemo;
+import org.javademos.java17.jep406.PatternMatchingForSwitchPreview;
 import org.javademos.java17.jep412.ForeignFunctionMemoryDemo;
 import org.javademos.java17.jep414.VectorAPIDemo;
 
@@ -27,11 +28,13 @@ public class Java17 {
 
         // feel free to comment out demos you are not interested in right now
 
+        // JEP 406
+        java17DemoPool.add(new PatternMatchingForSwitchPreview());
         // JEP 412
         java17DemoPool.add(new ForeignFunctionMemoryDemo());
         // JEP 414
         java17DemoPool.add(new VectorAPIDemo());
-        
+
         // older demos created with "non-JEP" style
         java17DemoPool.add(new String12Demo());
         java17DemoPool.add(new SwitchDemo());
