@@ -42,46 +42,6 @@ public class CodeSnippetsInJavadoc implements IDemo {
     public void demo() {
         info(413);
 
-<<<<<<< HEAD
-        System.out.println("""
-            JEP 413 introduced the `@snippet` tag in Javadoc to modernize how code examples
-            are embedded in documentation, replacing the cumbersome `<pre>{@code ...}</pre>`.
-
-            --- Key Features ---
-
-            1.  **Inline Snippets:** Code can be placed directly inside the Javadoc comment.
-                The Javadoc for the `exampleMethod()` in this class contains an inline snippet.
-
-                // This is what the Javadoc for 'exampleMethod()' looks like:
-                /**
-                 * ...
-                 * {@snippet :
-                 * var list = List.of("a", "b", "c");
-                 * var demo = new CodeSnippetsInJavadoc();
-                 * demo.exampleMethod(list);
-                 * }
-                 */
-
-            2.  **External Snippets:** You can include code from an external file, which is great
-                for larger examples that you can validate and test separately.
-
-                // An external snippet would look like this in the Javadoc:
-                // {@snippet file="ExampleFile.java" region="some-region"}
-
-            3.  **Markup Tags:** Snippets support special tags within comments to enhance the output,
-                such as highlighting code, replacing text, or linking to other parts of the API.
-
-                // Example of highlighting a line in a snippet:
-                // class HelloWorld {
-                //     public static void main(String... args) {
-                //         System.out.println("Hello, World!"); // @highlight
-                //     }
-                // }
-
-            The `@snippet` tag allows for better tooling, validation, and presentation (like
-            syntax highlighting) in the final generated documentation.
-            """);
-=======
         // System.out.println("""
         //     JEP 413 introduced the `@snippet` tag in Javadoc to modernize how code examples
         //     are embedded in documentation, replacing the cumbersome `<pre>{@code ...}</pre>`.
@@ -120,6 +80,5 @@ public class CodeSnippetsInJavadoc implements IDemo {
         //     The `@snippet` tag allows for better tooling, validation, and presentation (like
         //     syntax highlighting) in the final generated documentation.
         //     """);
->>>>>>> a20eb0330b5b6d49454f3b3946cbce0b44916c5b
     }
 }
