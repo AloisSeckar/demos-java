@@ -1,5 +1,12 @@
 [
   {
+    "jep": 408,
+    "info": {
+      "name": "JEP 408 - Simple Web Server",
+      "dscr": "Command-line tool and API to start a minimal HTTP server for serving static files. Useful for prototyping, testing, and educational purposes."
+    }
+  },
+  {
     "jep": 413,
     "info": {
       "name": "JEP 413 - Code Snippets in Java API Documentation",
