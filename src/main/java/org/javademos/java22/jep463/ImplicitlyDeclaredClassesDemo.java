@@ -2,7 +2,7 @@ package org.javademos.java22.jep463;
 
 import org.javademos.commons.IDemo;
 
-/// Demo for JDK 22 feature **JEP 463 - Implicitly Declared Classes and Instance Main Methods (Second Preview)**.
+/// Demo for JDK 22 feature JEP 463 - Implicitly Declared Classes and Instance Main Methods (Second Preview).
 ///
 /// Replaced with most recent [JEP 512](https://openjdk.org/jeps/512)
 /// @see org.javademos.java25.jep512.CompactSourceFilesDemo

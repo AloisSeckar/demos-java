@@ -7,7 +7,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.nio.charset.Charset;
 
-/// Demo for JDK 18 feature **JEP 400 - UTF-8 by Default**.
+/// Demo for JDK 18 feature JEP 400 - UTF-8 by Default.
 ///
 /// JEP history:
 /// - JDK 18: [JEP 400 - UTF-8 by Default (Preview)](https://openjdk.org/jeps/400)

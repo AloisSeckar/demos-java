@@ -3,7 +3,7 @@ package org.javademos.java23.jep462;
 import org.javademos.commons.IDemo;
 import java.util.concurrent.StructuredTaskScope;
 
-/// Demo for JDK 23 feature **JEP 462 - Structured Concurrency (Second Preview)**.
+/// Demo for JDK 23 feature JEP 462 - Structured Concurrency (Second Preview).
 ///
 /// JEP history:
 /// - JDK 23: [JEP 462 - Structured Concurrency (Second Preview)](https://openjdk.org/jeps/462)

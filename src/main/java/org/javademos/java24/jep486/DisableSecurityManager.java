@@ -2,7 +2,7 @@ package org.javademos.java24.jep486;
 
 import org.javademos.commons.IDemo;
 
-/// Demo for JDK 24 feature **JEP 486 - Permanently Disable the Security Manager**.
+/// Demo for JDK 24 feature JEP 486 - Permanently Disable the Security Manager.
 ///
 /// JEP history:
 /// - JDK 24: [JEP 486 - Permanently Disable the Security Manager](https://openjdk.org/jeps/486)

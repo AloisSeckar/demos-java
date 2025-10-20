@@ -3,7 +3,7 @@ package org.javademos.java25.jep505;
 import java.util.concurrent.StructuredTaskScope;
 import org.javademos.commons.IDemo;
 
-/// Demo for JDK 25 feature **JEP 505 - Structured Concurrency (Fifth Preview)**.
+/// Demo for JDK 25 feature JEP 505 - Structured Concurrency (Fifth Preview).
 ///
 /// JEP history:
 /// - JDK 25: [JEP 505 - Structured Concurrency (Fifth Preview)](https://openjdk.org/jeps/505)

@@ -2,7 +2,7 @@ package org.javademos.java17.record;
 
 import org.javademos.commons.IDemo;
 
-/// Demo for JDK 16 feature **JEP 395 - Records**.
+/// Demo for JDK 16 feature JEP 395 - Records.
 /// 
 /// Java 'record' is basically a container for transferring immutable data
 /// designed to be as short and simple to declare as possible.

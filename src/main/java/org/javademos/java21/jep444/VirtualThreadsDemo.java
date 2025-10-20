@@ -2,7 +2,7 @@ package org.javademos.java21.jep444;
 
 import org.javademos.commons.IDemo;
 
-/// Demo for JDK 21 feature **JEP 444 - Virtual Threads**.
+/// Demo for JDK 21 feature JEP 444 - Virtual Threads.
 ///
 /// JEP history:
 /// - JDK 21: [JEP 444 - Virtual Threads](https://openjdk.org/jeps/444)

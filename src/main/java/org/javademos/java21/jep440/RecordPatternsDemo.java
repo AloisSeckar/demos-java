@@ -5,7 +5,7 @@ import org.javademos.java17.pattern.InstanceofPatternMatchingDemo;
 import org.javademos.java17.record.RecordDemo;
 import org.javademos.java21.jep441.PatternMatchingForSwitchDemo;
 
-/// Demo for JDK 21 feature **JEP 440 - Record Patterns**.
+/// Demo for JDK 21 feature JEP 440 - Record Patterns.
 /// 
 /// The purpose is to allow deconstructing of Java records.
 /// @see RecordDemo

@@ -4,7 +4,7 @@ import org.javademos.commons.IDemo;
 
  import org.openjdk.jol.info.ClassLayout;
 
-/// Demo for JDK 25 feature **JEP 519 - Compact Object Headers**.
+/// Demo for JDK 25 feature JEP 519 - Compact Object Headers.
 ///
 /// JEP history:
 /// - JDK 25: [JEP 519 - Compact Object Headers](https://openjdk.org/jeps/519)

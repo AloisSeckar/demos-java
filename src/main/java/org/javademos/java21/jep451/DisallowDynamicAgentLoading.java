@@ -2,34 +2,22 @@ package org.javademos.java21.jep451;
 
 import org.javademos.commons.IDemo;
 
+/// Demo for JDK 21 feature JEP 451 - Prepare to Disallow the Dynamic Loading of Agents.
 ///
-/// # JEP 451: Prepare to Disallow the Dynamic Loading of Agents
-///
-/// 
-///
-/// ## Summary
 /// This JEP introduces warnings when Java or JVM TI agents are loaded dynamically into a running
 /// JVM. This change prepares the ecosystem for a future release where dynamic agent loading will be
-/// disallowed by default, enhancing the platform's integrity.
+/// disallowed by default, enhancing the platform's integrity.  
 ///
-/// ## Release Information
-/// - **JEP:** 451
-/// - **Status:** Delivered
-/// - **Release:** JDK 21
-/// - **Component:** hotspot/svc
-///
-/// ## Resources
+/// JEP history:
 /// - [JEP 451: Prepare to Disallow the Dynamic Loading of Agents](https://openjdk.org/jeps/451)
 ///
-///  @author mayankvyas1306
-/// 
+/// @author mayankvyas1306
 public class DisallowDynamicAgentLoading implements IDemo {
 
     @Override
     public void demo() {
         info(451);
 
-        // System.out.println("""
         //     JEP 451 addresses the security and integrity risks of dynamically loading Java agents
         //     into a running JVM. While agents are powerful for tools like profilers, their ability
         //     to alter application code on-the-fly can be misused by libraries to bypass encapsulation.
@@ -65,6 +53,6 @@ public class DisallowDynamicAgentLoading implements IDemo {
 
         //     This change moves the Java Platform toward a model of "integrity by default," requiring
         //     explicit user consent for powerful, potentially risky operations like modifying running code.
-        //     """);
+
     }
 }

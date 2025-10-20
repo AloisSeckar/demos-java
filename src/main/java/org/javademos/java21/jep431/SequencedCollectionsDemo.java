@@ -4,7 +4,7 @@ import org.javademos.commons.IDemo;
 
 import java.util.*;
 
-/// Demo for JDK 21 feature **JEP 431 - Sequenced Collections**.
+/// Demo for JDK 21 feature JEP 431 - Sequenced Collections.
 /// 
 /// They are defined as collections whose elements have a defined encounter order.
 ///

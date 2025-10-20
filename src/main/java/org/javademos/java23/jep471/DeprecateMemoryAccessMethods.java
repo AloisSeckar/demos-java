@@ -2,7 +2,7 @@ package org.javademos.java23.jep471;
 
 import org.javademos.commons.IDemo;
 
-/// Demo for JDK 23 feature **JEP 471 - Deprecate the Memory-Access Methods in sun.misc.Unsafe for Removal**.
+/// Demo for JDK 23 feature JEP 471 - Deprecate the Memory-Access Methods in sun.misc.Unsafe for Removal.
 ///
 /// JEP history:
 /// - JDK 23: [JEP 471 - Deprecate the Memory-Access Methods in sun.misc.Unsafe for Removal](https://openjdk.org/jeps/471)

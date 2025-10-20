@@ -2,7 +2,7 @@ package org.javademos.java19.jep422;
 
 import org.javademos.commons.IDemo;
 
-/// Demo for JDK 19 feature **JEP 422 - Linux/RISC-V Port**.
+/// Demo for JDK 19 feature JEP 422 - Linux/RISC-V Port.
 ///
 /// JEP history:
 /// - JDK 19: [JEP 422 - Linux/RISC-V Port](https://openjdk.org/jeps/422)

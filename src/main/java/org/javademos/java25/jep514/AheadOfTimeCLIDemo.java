@@ -2,7 +2,7 @@ package org.javademos.java25.jep514;
 
 import org.javademos.commons.IDemo;
 
-/// Demo for JDK 25 feature **JEP 514 - Ahead-of-Time Command-Line Ergonomics**.
+/// Demo for JDK 25 feature JEP 514 - Ahead-of-Time Command-Line Ergonomics.
 /// 
 /// This demo shows how JEP 514 improves the command-line experience for Ahead-of-Time compilation.
 /// It simulates a CLI workflow with simplified commands and helpful feedback.

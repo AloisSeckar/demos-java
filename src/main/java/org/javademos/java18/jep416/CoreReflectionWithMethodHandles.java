@@ -4,25 +4,18 @@ import org.javademos.commons.IDemo;
 
 import java.lang.reflect.Method;
 
+/// Demo for JDK 18 feature JEP 416 - Reimplement Core Reflection with Method Handles.
 ///
-/// # JEP 416: Reimplement Core Reflection with Method Handles
-///
-/// ## Summary
 /// This JEP provides an internal-only reimplementation of the Core Reflection API. The underlying
 /// mechanisms for `java.lang.reflect.Method`, `Constructor`, and `Field` were replaced to use
 /// `java.lang.invoke` method handles. This change unifies the reflective mechanisms in the platform,
 /// reducing maintenance costs and simplifying future development (e.g., for Project Valhalla).
 /// The public API for reflection remains completely unchanged.
 ///
-/// ## Release Information
-/// - **JEP:** 416
-/// - **Status:** Delivered
-/// - **Release:** JDK 18
-/// - **Component:** core-libs/java.lang:reflect
-///
-/// ## Resources
+/// JEP history:
 /// - [JEP 416: Reimplement Core Reflection with Method Handles](https://openjdk.org/jeps/416)
 ///
+/// @author Harshit Kumar
 public class CoreReflectionWithMethodHandles implements IDemo {
 
     /**

@@ -2,7 +2,7 @@ package org.javademos.java21.jep448;
 
 import org.javademos.commons.IDemo;
 
-/// Demo for JDK 21 feature **JEP 448 - Vector API (Sixth Incubator)**.
+/// Demo for JDK 21 feature JEP 448 - Vector API (Sixth Incubator).
 ///
 /// Replaced with most recent [JEP 508](https://openjdk.org/jeps/508)
 /// @see org.javademos.java25.jep508.VectorAPIDemo

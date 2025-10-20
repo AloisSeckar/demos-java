@@ -5,7 +5,7 @@ import org.javademos.commons.IDemo;
 import java.util.stream.Gatherers;
 import java.util.stream.IntStream;
 
-/// Demo for JDK 22 feature **JEP 461 - Stream Gatherers (Preview)**.
+/// Demo for JDK 22 feature JEP 461 - Stream Gatherers (Preview).
 ///
 /// JEP history:
 /// - JDK 22: [JEP 461 - Stream Gatherers (Preview)](https://openjdk.org/jeps/461)

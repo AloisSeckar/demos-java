@@ -7,7 +7,7 @@ import javax.crypto.spec.PBEKeySpec;
 import javax.crypto.SecretKeyFactory;
 import java.util.Base64;
 
-/// Demo for JDK 25 feature **JEP 510 - Key Derivation Function API**.
+/// Demo for JDK 25 feature JEP 510 - Key Derivation Function API.
 ///
 /// JEP history:
 /// - JDK 24: [JEP 478 - Key Derivation Function API (Preview)](https://openjdk.org/jeps/478)
