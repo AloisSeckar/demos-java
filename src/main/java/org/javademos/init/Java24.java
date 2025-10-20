@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 import org.javademos.commons.IDemo;
 import org.javademos.java24.jep404.GenerationalShenandoahExperimental;
+import org.javademos.java24.jep450.CompactObjectHeadersExperimental;
 import org.javademos.java24.jep472.PrepareToRestrictJNI;
 import org.javademos.java24.jep475.LateBarrierExpansionG1;
 import org.javademos.java24.jep478.KeyDerivationApiPreview;
@@ -36,6 +37,8 @@ public class Java24 {
 
         // JEP 404
         java24DemoPool.add(new GenerationalShenandoahExperimental());
+        // JEP 450
+        java24DemoPool.add(new CompactObjectHeadersExperimental());
         // JEP 472
         java24DemoPool.add(new PrepareToRestrictJNI());
         // JEP 475
