@@ -3,7 +3,7 @@ package org.javademos.java17.sealed;
 import org.javademos.commons.IDemo;
 import java.util.Arrays;
 
-/// Demo for JDK 17 feature **JEP 409 - Sealed Classes**.
+/// Demo for JDK 17 feature JEP 409 - Sealed Classes.
 /// 
 /// We can now 'seal' classes (and interfaces) to avoid unwanted extending 
 /// (implementing). With new 'sealed' and 'permits' keywords we can limit

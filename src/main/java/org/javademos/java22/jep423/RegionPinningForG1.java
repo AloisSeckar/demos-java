@@ -2,7 +2,7 @@ package org.javademos.java22.jep423;
 
 import org.javademos.commons.IDemo;
 
-/// Demo for JDK 22 feature **JEP 423 - Region Pinning for G1**.
+/// Demo for JDK 22 feature JEP 423 - Region Pinning for G1.
 ///
 /// JEP history:
 /// - JDK 22: [JEP 423 - Region Pinning for G1](https://openjdk.org/jeps/423)

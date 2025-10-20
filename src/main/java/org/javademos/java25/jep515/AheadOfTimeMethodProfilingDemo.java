@@ -5,7 +5,7 @@ import org.javademos.commons.IDemo;
 import java.util.List;
 import java.util.stream.Collectors;
 
-/// Demo for JDK 25 feature **JEP 515 - Ahead-of-Time Method Profiling**.
+/// Demo for JDK 25 feature JEP 515 - Ahead-of-Time Method Profiling.
 ///
 /// JEP history:
 /// - JDK 25: [JEP 515 - Ahead-of-Time Method Profiling](https://openjdk.org/jeps/515)

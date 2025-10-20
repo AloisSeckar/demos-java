@@ -3,7 +3,7 @@ package org.javademos.java11.var;
 import org.javademos.commons.IDemo;
 import java.util.stream.Stream;
 
-/// Demo for JDK 10 feature **JEP 286 - Local-Variable Type Inference**.
+/// Demo for JDK 10 feature JEP 286 - Local-Variable Type Inference.
 /// 
 /// You can use 'var' on left side of variable declaration to simplify the code.
 /// Compiler will internally translate 'var' into respective data type appearing

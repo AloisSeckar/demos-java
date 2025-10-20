@@ -2,7 +2,7 @@ package org.javademos.java17.textblock;
 
 import org.javademos.commons.IDemo;
 
-/// Demo for JDK 15 feature **JEP 378 - Text Blocks**.
+/// Demo for JDK 15 feature JEP 378 - Text Blocks.
 ///
 /// JEP history:
 /// - JDK 15: [JEP 378 - Text Blocks](https://openjdk.org/jeps/378)

@@ -4,7 +4,7 @@ import org.javademos.commons.IDemo;
 
 import module java.base;
 
-/// Demo for JDK 25 feature **JEP 511 - Module Import Declarations**.
+/// Demo for JDK 25 feature JEP 511 - Module Import Declarations.
 ///
 /// JEP history:
 /// - JDK 25: [JEP 511 - Module Import Declarations](https://openjdk.org/jeps/511)

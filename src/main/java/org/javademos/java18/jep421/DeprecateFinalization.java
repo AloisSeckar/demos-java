@@ -2,25 +2,16 @@ package org.javademos.java18.jep421;
 
 import org.javademos.commons.IDemo;
 
+/// Demo for Java 18 feature JEP 421 - Deprecate Finalization for Removal.
 ///
-/// # JEP 421: Deprecate Finalization for Removal
-///
-/// @author mayankvyas1306
-///
-/// ## Summary
 /// This JEP deprecates the finalization mechanism for removal in a future release. Finalization,
 /// using the `finalize()` method, has been a problematic and dangerous feature since Java 1.0.
 /// It is unpredictable, slow, and can lead to security vulnerabilities and resource leaks.
 ///
-/// ## Release Information
-/// - **JEP:** 421
-/// - **Status:** Delivered
-/// - **Release:** JDK 18
-/// - **Component:** core-libs/java.lang
-///
-/// ## Resources
+/// JEP history:
 /// - [JEP 421: Deprecate Finalization for Removal](https://openjdk.org/jeps/421)
 ///
+/// @author mayankvyas1306
 public class DeprecateFinalization implements IDemo {
 
     @Override

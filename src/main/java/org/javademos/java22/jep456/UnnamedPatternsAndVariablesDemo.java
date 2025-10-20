@@ -4,7 +4,7 @@ import org.javademos.commons.IDemo;
 
 import java.util.List;
 
-/// Demo for JDK 22 feature **JEP 456 - Unnamed Patterns and Variables**.
+/// Demo for JDK 22 feature JEP 456 - Unnamed Patterns and Variables.
 ///
 /// ## Summary
 /// This JEP finalizes the feature to enhance the Java language with unnamed patterns and variables.

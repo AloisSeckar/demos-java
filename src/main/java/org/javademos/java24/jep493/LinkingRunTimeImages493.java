@@ -2,7 +2,7 @@ package org.javademos.java24.jep493;
 
 import org.javademos.commons.IDemo;
 
-/// Demo for JDK 24 feature **JEP 493 - Linking Run-Time Images without JMODs**.
+/// Demo for JDK 24 feature JEP 493 - Linking Run-Time Images without JMODs.
 ///
 /// JEP history:
 /// - JDK 24: [JEP 493 - Linking Run-Time Images without JMODs](https://openjdk.org/jeps/493)

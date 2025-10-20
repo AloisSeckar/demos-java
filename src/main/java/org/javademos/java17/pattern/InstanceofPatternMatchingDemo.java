@@ -2,7 +2,7 @@ package org.javademos.java17.pattern;
 
 import org.javademos.commons.IDemo;
 
-/// Demo for JDK 16 feature **JEP 394 - Pattern Matching for instanceof**.
+/// Demo for JDK 16 feature JEP 394 - Pattern Matching for instanceof.
 /// 
 /// The basic idea is to allow 'instanceof' check and re-casting to respective
 /// data type within one command.

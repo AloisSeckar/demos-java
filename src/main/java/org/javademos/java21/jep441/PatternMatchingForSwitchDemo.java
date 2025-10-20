@@ -2,7 +2,7 @@ package org.javademos.java21.jep441;
 
 import org.javademos.commons.IDemo;
 
-/// Demo for JDK 21 feature **JEP 441 - Pattern Matching for switch**.
+/// Demo for JDK 21 feature JEP 441 - Pattern Matching for switch.
 ///
 /// JEP history:
 /// - JDK 21: [JEP 441 - Pattern Matching for switch](https://openjdk.org/jeps/441)

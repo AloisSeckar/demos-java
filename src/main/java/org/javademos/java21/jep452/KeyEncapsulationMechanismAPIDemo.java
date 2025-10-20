@@ -9,7 +9,7 @@ import java.security.*;
 import java.util.Arrays;
 import java.util.Base64;
 
-/// Demo for JDK 21 feature **JEP 452 - Key Encapsulation Mechanism**.
+/// Demo for JDK 21 feature JEP 452 - Key Encapsulation Mechanism.
 ///
 /// JEP history:
 /// - JDK 21: [JEP 452 - Key Encapsulation Mechanism API](https://openjdk.org/jeps/452)

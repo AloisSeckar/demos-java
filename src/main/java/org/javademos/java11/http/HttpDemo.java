@@ -6,7 +6,7 @@ import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 
-/// Demo for JDK 11 feature **JEP 321 - HTTP Client**.
+/// Demo for JDK 11 feature JEP 321 - HTTP Client.
 /// 
 /// New Java HttpClient allows simpler and cleaner work with external HTTP resources.
 /// 

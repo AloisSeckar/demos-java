@@ -2,7 +2,7 @@ package org.javademos.java25.jep518;
 
 import org.javademos.commons.IDemo;
 
-/// Demo for JDK 25 feature **JEP 518 - JFR Cooperative Sampling**.
+/// Demo for JDK 25 feature JEP 518 - JFR Cooperative Sampling.
 ///
 /// JEP history:
 /// - JDK 25: [JEP 518 - JFR Cooperative Sampling](https://openjdk.org/jeps/518)

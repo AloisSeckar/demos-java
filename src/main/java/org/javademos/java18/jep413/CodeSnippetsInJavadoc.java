@@ -2,25 +2,16 @@ package org.javademos.java18.jep413;
 
 import org.javademos.commons.IDemo;
 
+/// Demo for Java 18 feature JEP 413 - Code Snippets in Java API Documentation.
 ///
-/// # JEP 413: Code Snippets in Java API Documentation
-///
-/// @author mayankvyas1306
-///
-/// ## Summary
 /// This JEP introduced the `@snippet` tag for Javadoc to simplify the inclusion of example
 /// source code in API documentation. It provides better validation, modern styling like syntax
 /// highlighting, and improved IDE support compared to the old `<pre>{@code ...}</pre>` blocks.
 ///
-/// ## Release Information
-/// - **JEP:** 413
-/// - **Status:** Delivered
-/// - **Release:** JDK 18
-/// - **Component:** tools/javadoc(tool)
-///
-/// ## Resources
+/// JEP history:
 /// - [JEP 413: Code Snippets in Java API Documentation](https://openjdk.org/jeps/413)
 ///
+/// @author mayankvyas1306
 public class CodeSnippetsInJavadoc implements IDemo {
 
     /**

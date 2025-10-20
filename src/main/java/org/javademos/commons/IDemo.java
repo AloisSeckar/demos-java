@@ -9,7 +9,7 @@ package org.javademos.commons;
 ///
 /// TEMPLATE for demo implementation class JavaDocs:
 /// ```
-/// /// Demo for JDK <VER> feature **JEP <NUM> - <JEP_NAME>**.
+/// /// Demo for JDK <VER> feature JEP <NUM> - <JEP_NAME>.
 /// ///
 /// /// JEP history:
 /// /// - JDK <VER>: [JEP <NUM> - <JEP_NAME>](https://openjdk.org/jeps/<NUM>)

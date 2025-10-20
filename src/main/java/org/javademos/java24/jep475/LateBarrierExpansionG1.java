@@ -2,7 +2,7 @@ package org.javademos.java24.jep475;
 
 import org.javademos.commons.IDemo;
 
-/// Demo for JDK 24 feature **JEP 475 - Late Barrier Expansion for G1**.
+/// Demo for JDK 24 feature JEP 475 - Late Barrier Expansion for G1.
 ///
 /// Internal JVM enhancement to reduce compilation overhead and improve maintainability
 /// by deferring G1 GC barrier expansion to the code emission phase.

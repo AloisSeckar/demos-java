@@ -2,26 +2,17 @@ package org.javademos.java24.jep472;
 
 import org.javademos.commons.IDemo;
 
+/// Demo for JDK 24 feature JEP 472 - Prepare to Restrict the Use of JNI.
 ///
-/// # JEP 472: Prepare to Restrict the Use of JNI
-///
-/// @author mayankvyas1306
-///
-/// ## Summary
 /// This JEP introduces warnings for uses of the Java Native Interface (JNI) to prepare developers
 /// for a future release that will restrict native code interaction by default. The goal is to enhance
 /// the integrity and security of the Java Platform by requiring explicit opt-ins for running native code.
 /// This change aligns JNI with the Foreign Function & Memory (FFM) API's approach to safety.
 ///
-/// ## Release Information
-/// - **JEP:** 472
-/// - **Status:** Delivered
-/// - **Release:** JDK 24
-/// - **Component:** core-libs
-///
-/// ## Resources
+/// JEP history
 /// - [JEP 472: Prepare to Restrict the Use of JNI](https://openjdk.org/jeps/472)
 ///
+/// @author mayankvyas1306
 public class PrepareToRestrictJNI implements IDemo {
 
     @Override

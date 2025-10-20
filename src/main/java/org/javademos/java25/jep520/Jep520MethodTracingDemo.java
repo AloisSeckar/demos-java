@@ -3,7 +3,7 @@ package org.javademos.java25.jep520;
 import org.javademos.commons.IDemo;
 import java.util.concurrent.TimeUnit;
 
-/// Demo for JDK 25 feature **JEP 520 - JFR Method Timing & Tracing**.
+/// Demo for JDK 25 feature JEP 520 - JFR Method Timing & Tracing.
 ///
 /// This demo showcases the new Method Tracing feature introduced in Java 25.
 /// This JEP provides a standard, low-overhead way to trace specific method

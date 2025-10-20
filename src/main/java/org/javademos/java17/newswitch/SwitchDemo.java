@@ -4,7 +4,7 @@ import org.javademos.commons.IDemo;
 import static java.util.Calendar.*;
 import java.util.Random;
 
-/// Demo for JDK 14 feature **JEP 361 - Switch Expressions**.
+/// Demo for JDK 14 feature JEP 361 - Switch Expressions.
 ///
 /// JEP history:
 /// - JDK 14: [JEP 361 - Switch Expressions](https://openjdk.org/jeps/361)

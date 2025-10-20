@@ -2,7 +2,7 @@ package org.javademos.java25.jep513;
 
 import org.javademos.commons.IDemo;
 
-/// Demo for JDK 25 feature **JEP 513 - Flexible Constructors Bodies **.
+/// Demo for JDK 25 feature JEP 513 - Flexible Constructors Bodies.
 ///
 /// JEP history:
 /// - JDK 25 (preview): 

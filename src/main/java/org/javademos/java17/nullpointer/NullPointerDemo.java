@@ -2,7 +2,7 @@ package org.javademos.java17.nullpointer;
 
 import org.javademos.commons.IDemo;
 
-/// Demo for JDK 14 feature **JEP 358 - Helpful NullPointerExceptions**.
+/// Demo for JDK 14 feature JEP 358 - Helpful NullPointerExceptions.
 ///
 /// JEP history:
 /// - JDK 14: [JEP 358 - Helpful NullPointerExceptions](https://openjdk.org/jeps/358)

@@ -2,7 +2,7 @@ package org.javademos.java23.jep474;
 
 import org.javademos.commons.IDemo;
 
-/// Demo for JDK 23 feature **JEP 474 - ZGC: Generational Mode by Default**.
+/// Demo for JDK 23 feature JEP 474 - ZGC: Generational Mode by Default.
 ///
 /// JEP history:
 /// - JDK 23: [JEP 474 - Generational Mode by Default](https://openjdk.org/jeps/474)

@@ -2,7 +2,7 @@ package org.javademos.java25.jep470;
 
 import org.javademos.commons.IDemo;
 
-/// Demo for JDK 25 feature **JEP 470 - PEM Encodings of Cryptographic Objects (Preview)**.
+/// Demo for JDK 25 feature JEP 470 - PEM Encodings of Cryptographic Objects (Preview).
 ///
 /// JEP history:
 /// - JDK 25 (preview): [JEP 470 - PEM Encodings of Cryptographic Objects](https://openjdk.org/jeps/470)

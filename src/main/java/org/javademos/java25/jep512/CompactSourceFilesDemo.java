@@ -2,7 +2,7 @@ package org.javademos.java25.jep512;
 
 import org.javademos.commons.IDemo;
 
-/// Demo for JDK 25 feature **JEP 512 - Compact Source Files and Instance Main Methods**.
+/// Demo for JDK 25 feature JEP 512 - Compact Source Files and Instance Main Methods.
 ///
 /// This JEP finalizes the feature that simplifies writing beginner-level Java programs.
 /// It aims to provide a smooth on-ramp for newcomers by reducing ceremony, allowing them
