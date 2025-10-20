@@ -1,5 +1,10 @@
 [
   {
+    "jep": 404,
+    "name": "JEP 404 - Generational Shenandoah (Experimental)",
+    "dscr": "An experimental version of the Generational Shenandoah garbage collector. The main demo is in JEP 521."
+  },
+  {
     "jep": 472,
     "info": {
       "name": "JEP 472 - Prepare to Restrict the Use of JNI",
