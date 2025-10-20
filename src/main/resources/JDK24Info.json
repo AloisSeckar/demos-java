@@ -2,7 +2,7 @@
   {
     "jep": 404,
     "name": "JEP 404 - Generational Shenandoah (Experimental)",
-    "dscr": "An experimental version of the Generational Shenandoah garbage collector. The main demo is in JEP 521."
+    "dscr": "Up-to-date demo moved to `org.javademos.java25.jep521.GenerationalShenandoahDemo` (JEP 521)"
   },
   {
     "jep": 472,
