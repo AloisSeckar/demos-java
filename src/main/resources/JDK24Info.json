@@ -57,8 +57,10 @@
   },
   {
     "jep": "488",
-    "name": "JEP 488 - Primitive Types in Patterns, instanceof, and switch (Second Preview)",
-    "dscr": "The second preview of primitive type patterns. The full demo is in JEP 507 for Java 25."
+    "info": {
+      "name": "JEP 488 - Primitive Types in Patterns, instanceof, and switch (Second Preview)",
+      "dscr": "Up-to-date demo moved to `org.javademos.java25.jep507.PrimitiveTypesDemo` (JEP 507)"
+    }
   },
   {
     "jep": 489,
@@ -90,8 +92,10 @@
   },
   {
     "jep": "494",
-    "name": "JEP 494 - Module Import Declarations (Second Preview)",
-    "dscr": "The second preview of module import declarations. The final demo is in JEP 511."
+    "info": {
+      "name": "JEP 494 - Module Import Declarations (Second Preview)",
+      "dscr": "Up-to-date demo moved to `org.javademos.java25.jep511.ModuleImportDeclarationsDemo` (JEP 511)"
+    }
   },
   {
     "jep": 495,
