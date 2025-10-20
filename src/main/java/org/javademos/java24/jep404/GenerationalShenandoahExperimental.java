@@ -2,7 +2,7 @@ package org.javademos.java24.jep404;
 
 import org.javademos.commons.IDemo;
 
-/// Demo for JDK 24 feature <strong>JEP 404 - Generational Shenandoah (Experimental)</strong>.
+/// Demo for JDK 24 feature JEP 404 - Generational Shenandoah (Experimental).
 ///
 /// This was an experimental version of the feature.
 /// The main demo is for the final implementation in JDK 25 (JEP 521).
