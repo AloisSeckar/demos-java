@@ -19,6 +19,8 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2025-10-16`** | [Merging Hilla into Flow: Embracing the Java core](https://vaadin.com/blog/merging-hilla-into-flow) - Vaadin will eventually blend two of their technologies together for better DevEx |
+| **`2025-10-15`** | [The best Java microframeworks to learn now](https://www.infoworld.com/article/4066620/the-best-java-microframeworks-to-learn-now.html) - keep up with the current Java ecosystem state and see what is available |
 | **`2025-10-13`** | [Seed4J 2.0 Delivers a Migration from JHipster Lite](https://www.infoq.com/news/2025/10/seed4j-migration-jhipster/) - former **JHipster Lite** evolved into **Seed4J**, the process is now completed by a smooth migration tool |
 | **`2025-10-09`** | [The rise of JVM languages: Kotlin, Scala, Groovy, and more](https://javapro.io/2025/10/09/the-rise-of-jvm-languages-kotlin-scala-groovy-and-more/) - an overview of major JVM languages existing today |
 | **`2025-10-07`** | [Introducing Analyze Applications and Major Management Enhancements to JMS](https://blogs.oracle.com/java/post/analyze-applications-and-other-enhancements) - new release of Oracle Java Management Service brings new analytics and management tools |

@@ -56,6 +56,11 @@
     }
   },
   {
+    "jep": "488",
+    "name": "JEP 488 - Primitive Types in Patterns, instanceof, and switch (Second Preview)",
+    "dscr": "The second preview of primitive type patterns. The full demo is in JEP 507 for Java 25."
+  },
+  {
     "jep": 489,
     "info": {
       "name": "JEP 489 - Vector API (Ninth Incubator)",

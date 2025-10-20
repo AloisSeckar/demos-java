@@ -37,6 +37,10 @@ https://helidon.io/
 https://micronaut.io/
 - JVM-based fullstack microservice framework.
 
+## Javalin
+https://javalin.io/
+- A simple web framework for Java and Kotlin
+
 ## CheerpJ
 https://cheerpj.com/
 - A WebAssembly-based JVM for running Java apps in the browsers.
