@@ -89,6 +89,11 @@
     }
   },
   {
+    "jep": "494",
+    "name": "JEP 494 - Module Import Declarations (Second Preview)",
+    "dscr": "The second preview of module import declarations. The final demo is in JEP 511."
+  },
+  {
     "jep": 495,
     "info": {
       "name": "JEP 495 - Simple Source Files and Instance Main Methods (Fourth Preview)",
