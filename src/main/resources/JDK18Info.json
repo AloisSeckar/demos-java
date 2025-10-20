@@ -7,6 +7,11 @@
     }
   },
   {
+    "no": 416,
+    "name": "Reimplement Core Reflection with Method Handles",
+    "text": "An internal reimplementation of Core Reflection to use method handles, unifying the platform's reflective mechanisms. This change improves performance for constant-folded reflection calls and reduces JDK maintenance costs."
+  },
+  {
     "jep": 417,
     "info": {
       "name": "JEP 417 - Vector API (Third Incubator)",
