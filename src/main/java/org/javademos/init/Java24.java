@@ -11,6 +11,7 @@ import org.javademos.java24.jep484.ClassFileAPIDemo;
 import org.javademos.java24.jep485.StreamGatherersDemo;
 import org.javademos.java24.jep486.DisableSecurityManager;
 import org.javademos.java24.jep487.ScopedValuesDemo;
+import org.javademos.java24.jep488.PrimitiveTypesSecondPreview;
 import org.javademos.java24.jep489.VectorAPIDemo;
 import org.javademos.java24.jep490.ZgcNonGenerationalModeRemoval;
 import org.javademos.java24.jep491.SynchronizedNoPinning;
@@ -48,6 +49,8 @@ public class Java24 {
         java24DemoPool.add(new DisableSecurityManager());
         // JEP 487
         java24DemoPool.add(new ScopedValuesDemo());
+        // JEP 488
+        java24DemoPool.add(new PrimitiveTypesSecondPreview());
         // JEP 489
         java24DemoPool.add(new VectorAPIDemo());
         // JEP 490
