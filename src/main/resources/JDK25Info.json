@@ -7,6 +7,13 @@
     }
   },
   {
+    "jep": 499,
+    "info": {
+      "name": "JEP 499 - Structured Concurrency (Fourth Preview)",
+      "dscr": "Links to the final implementation in JEP 505; see StructuredConcurrencyDemo.java"
+    }
+  },
+  {
     "jep": 502,
     "info": {
       "name": "JEP 502 - Stable Values (Preview)",

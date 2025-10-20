@@ -1,5 +1,12 @@
 [
   {
+    "jep": 422,
+    "info": {
+      "name": "JEP 422 – Linux/RISC-V Port",
+      "dscr": "No executable code, see LinuxRiscVPort.java for further info"
+    }
+  },
+  {
     "jep": 424,
     "info": {
       "name": "JEP 424 - Foreign Function & Memory API (Preview)",
@@ -21,10 +28,10 @@
     }
   },
   {
-    "jep": 422,
+    "jep": 428,
     "info": {
-      "name": "JEP 422 – Linux/RISC-V Port",
-      "dscr": "No executable code, see LinuxRiscVPort.java for further info"
+      "name": "JEP 428 - Structured Concurrency (Incubator)",
+      "dscr": "Up-to-date demo moved to org.javademos.java25.jep505.StructuredConcurrencyDemo (JEP 505)"
     }
   }
 ]

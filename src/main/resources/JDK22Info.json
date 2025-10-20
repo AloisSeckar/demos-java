@@ -63,6 +63,13 @@
     }
   },
   {
+    "jep": 462,
+    "info": {
+      "name": "JEP 462 - Structured Concurrency (Second Preview)",
+      "dscr": "Up-to-date demo moved to org.javademos.java25.jep505.StructuredConcurrencyDemo (JEP 505)"
+    }
+  },
+  {
     "jep": 463,
     "info": {
       "name": "JEP 463 - Implicitly Declared Classes and Instance Main Methods (Second Preview)",

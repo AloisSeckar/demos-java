@@ -21,6 +21,13 @@
     }
   },
   {
+    "jep": 437,
+    "info": {
+      "name": "JEP 437 - Structured Concurrency (Second Incubator)",
+      "dscr": "Up-to-date demo moved to org.javademos.java25.jep505.StructuredConcurrencyDemo (JEP 505)"
+    }
+  },
+  {
     "jep": 438,
     "info": {
       "name": "JEP 438 - Vector API (Fifth Incubator)",
