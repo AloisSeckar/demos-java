@@ -3,6 +3,7 @@ package org.javademos.init;
 import java.util.ArrayList;
 
 import org.javademos.commons.IDemo;
+import org.javademos.java24.jep404.GenerationalShenandoahExperimental;
 import org.javademos.java24.jep472.PrepareToRestrictJNI;
 import org.javademos.java24.jep475.LateBarrierExpansionG1;
 import org.javademos.java24.jep478.KeyDerivationApiPreview;
@@ -23,7 +24,6 @@ import org.javademos.java24.jep497.QuantumResistantModuleLatticeBasedDigitalSign
 import org.javademos.java24.jep498.MemoryAccessMethods;
 import org.javademos.java24.jep501.Deprecate32BitX86Demo;
 
-
 public class Java24 {
 
     /**
@@ -34,6 +34,8 @@ public class Java24 {
 
         // feel free to comment out demos you are not interested in right now
 
+        // JEP 404
+        java24DemoPool.add(new GenerationalShenandoahExperimental());
         // JEP 472
         java24DemoPool.add(new PrepareToRestrictJNI());
         // JEP 475

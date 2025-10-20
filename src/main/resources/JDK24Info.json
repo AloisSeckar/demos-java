@@ -1,5 +1,10 @@
 [
   {
+    "jep": 404,
+    "name": "JEP 404 - Generational Shenandoah (Experimental)",
+    "dscr": "Up-to-date demo moved to `org.javademos.java25.jep521.GenerationalShenandoahDemo` (JEP 521)"
+  },
+  {
     "jep": 472,
     "info": {
       "name": "JEP 472 - Prepare to Restrict the Use of JNI",
