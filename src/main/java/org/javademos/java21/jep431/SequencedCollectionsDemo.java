@@ -19,7 +19,7 @@ public class SequencedCollectionsDemo implements IDemo {
 
     @Override
     public void demo() {
-        info("SEQUENCED COLLECTIONS DEMO", "Examples of new 'Sequenced' collections \nintroduced in Java 21");
+        info(431);
 
         // --------------------------------
         System.out.println("1) LIST");

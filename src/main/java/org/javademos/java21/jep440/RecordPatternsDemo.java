@@ -32,7 +32,7 @@ public class RecordPatternsDemo implements IDemo {
 
     @Override
     public void demo() {
-        info("RECORD PATTERNS DEMO", "Example of 'Record Patterns'\nintroduced in Java 19");
+        info(440);
 
         var testObject = new Object();
         var testRecord = new MyData(10, "hello");

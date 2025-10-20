@@ -21,7 +21,7 @@ import java.util.Base64;
 public class KeyEncapsulationMechanismAPIDemo implements IDemo {
     @Override
     public void demo() {
-        info("KEY ENCAPSULATION MECHANISM DEMO", "Examples of new 'Key encapsulation mechanism' \nintroduced in Java 21");
+        info(452);
         try {
             // Demonstrates the use of the Key Encapsulation Mechanism (KEM) API introduced in JEP 452 (JDK 21).
             //

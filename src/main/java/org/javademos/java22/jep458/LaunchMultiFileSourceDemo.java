@@ -5,7 +5,7 @@ import org.javademos.commons.IDemo;
 /// Demo for JDK 22 feature **JEP 458 - Launch Multi-File Source-Code Programs**.
 ///
 /// JEP history:
-/// - JDK 22 (final): [JEP 458 - Launch Multi-File Source-Code Programs](https://openjdk.org/jeps/458)
+/// - JDK 22: [JEP 458 - Launch Multi-File Source-Code Programs](https://openjdk.org/jeps/458)
 ///
 /// Further reading:
 /// - [Introducing Multi-File Program Launching](https://www.infoq.com/news/2024/02/multi-file-program-launching/)

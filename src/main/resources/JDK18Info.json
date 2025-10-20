@@ -1,5 +1,12 @@
 [
   {
+    "jep": 400,
+    "info": {
+      "name": "JEP 400 - UTF-8 by Default",
+      "dscr": "Sets the default charset to UTF-8 for Java applications, improving compatibility and reducing bugs related to character encoding."
+    }
+  },
+  {
     "jep": 408,
     "info": {
       "name": "JEP 408 - Simple Web Server",
@@ -14,9 +21,11 @@
     }
   },
   {
-    "no": 416,
-    "name": "Reimplement Core Reflection with Method Handles",
-    "text": "An internal reimplementation of Core Reflection to use method handles, unifying the platform's reflective mechanisms. This change improves performance for constant-folded reflection calls and reduces JDK maintenance costs."
+    "jep": 416,
+    "info": {
+      "name": "JEP 416 - Reimplement Core Reflection with Method Handles",
+      "dscr": "An internal reimplementation of Core Reflection to use method handles, unifying the platform's reflective mechanisms. This change improves performance for constant-folded reflection calls and reduces JDK maintenance costs."
+    }
   },
   {
     "jep": 417,
@@ -28,7 +37,7 @@
   {
     "jep": 418,
     "info": {
-      "name": "Internet-Address Resolution SPI",
+      "name": "JEP 418 - Internet-Address Resolution SPI",
       "dscr": "Defines a service-provider interface (SPI) for host name and address resolution, allowing `java.net.InetAddress` to use custom resolvers."
     }
   },

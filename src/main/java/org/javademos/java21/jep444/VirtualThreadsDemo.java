@@ -17,7 +17,7 @@ public class VirtualThreadsDemo implements IDemo {
 
     @Override
     public void demo() {
-        info("VIRTUAL THREADS DEMO", "Examples for 'Virtual Threads' feature\nintroduced in Java 19");
+        info(444);
 
         // so far, all java.lang.Thread instances were directly connected to underlying OS thread
         // the consequences:

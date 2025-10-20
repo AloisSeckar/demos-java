@@ -9,7 +9,7 @@ import org.javademos.commons.IDemo;
 /// Demo for JDK 24 feature <strong>JEP 485 - Stream Gatherers</strong>.
 ///
 /// JEP history:
-/// - JDK 24: [JEP 485 - Stream Gatherers (Final)](https://openjdk.org/jeps/485)
+/// - JDK 24: [JEP 485 - Stream Gatherers](https://openjdk.org/jeps/485)
 /// - JDK 23: [JEP 473 - Stream Gatherers (Second Preview)](https://openjdk.org/jeps/473)
 /// - JDK 22: [JEP 461 - Stream Gatherers (Preview)](https://openjdk.org/jeps/461)
 ///

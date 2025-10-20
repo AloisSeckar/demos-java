@@ -1,4 +1,5 @@
-[ {
+[ 
+  {
     "jep": 430,
     "info": {
       "name": "JEP 430 - String Templates (First Preview)",
@@ -6,10 +7,31 @@
     }
   },
   {
+    "jep": 431,
+    "info": {
+      "name": "JEP 431 - Sequenced Collections",
+      "dscr": "Adds sequenced collections to the Java Collections Framework, providing a new way to handle ordered collections."
+    }
+  },
+  {
     "jep": 439,
     "info": {
       "name": "JEP 439 - Generational ZGC",
       "dscr": "No executable code, see GenerationalZGC21.java for further info"
+    }
+  },
+  {
+    "jep": 440,
+    "info": {
+      "name": "JEP 440 - Record Patterns",
+      "dscr": "Simplifying the destructuring of records and improving code readability."
+    }
+  },
+  {
+    "jep": 441,
+    "info": {
+      "name": "JEP 441 - Pattern Matching for switch",
+      "dscr": "Enhancing the switch expression with pattern matching capabilities."
     }
   },
   {
@@ -22,8 +44,15 @@
   {
     "jep": 443,
     "info": {
-      "name": "Unnamed Patterns and Variables (Preview)",
+      "name": "JEP 443 - Unnamed Patterns and Variables (Preview)",
       "dscr": "Up-to-date demo moved to `org.javademos.java22.jep456.UnnamedPatternsAndVariables` (JEP 456)"
+    }
+  },
+  {
+    "jep": 444,
+    "info": {
+      "name": "JEP 444 - Virtual Threads",
+      "dscr": "Simplifying the handling of concurrency in Java applications by being no longer limited by the OS threads."
     }
   },
   {
@@ -59,6 +88,13 @@
     "info": {
       "name": "JEP 451 - Prepare to Disallow the Dynamic Loading of Agents",
       "dscr": "Issues warnings when agents are loaded dynamically into a running JVM to prepare for disallowing this by default in a future release."
+    }
+  },
+  {
+    "jep": 452,
+    "info": {
+      "name": "JEP 452 - Key Encapsulation Mechanism",
+      "dscr": "Introduces a Key Encapsulation Mechanism API, aiming to improve cryptographic capabilities."
     }
   }
 ]

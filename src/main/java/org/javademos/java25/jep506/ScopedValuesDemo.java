@@ -5,7 +5,7 @@ import org.javademos.commons.IDemo;
 /// Demo for JDK 25 feature **JEP 506 - Scoped Values**.
 ///
 /// ### JEP history
-/// - JDK 25: [JEP 506 - Scoped Values (Final)](https://openjdk.org/jeps/506)
+/// - JDK 25: [JEP 506 - Scoped Values](https://openjdk.org/jeps/506)
 /// - JDK 23: [JEP 481 - Scoped Values (Third Preview)](https://openjdk.org/jeps/481)
 /// - JDK 22: [JEP 464 - Scoped Values (Second Preview)](https://openjdk.org/jeps/464)
 /// - JDK 21: [JEP 446 - Scoped Values (Preview)](https://openjdk.org/jeps/446)

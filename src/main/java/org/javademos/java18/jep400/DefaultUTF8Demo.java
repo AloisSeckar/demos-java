@@ -16,7 +16,7 @@ import java.nio.charset.Charset;
 public class DefaultUTF8Demo implements IDemo {
     @Override
     public void demo() {
-        info("UFT-8 By Default", "Example of 'UFT-8 By Default' feature\nbeing previewed in Java 21");
+        info(400);
 
         System.out.println("Default charset: " + Charset.defaultCharset());
 

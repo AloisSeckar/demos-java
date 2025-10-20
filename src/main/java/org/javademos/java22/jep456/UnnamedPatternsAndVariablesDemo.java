@@ -13,7 +13,7 @@ import java.util.List;
 /// intent clear and reducing the risk of errors from unused variables.
 ///
 /// ## History
-/// - JDK 22: [JEP 456 - Unnamed Patterns and Variables (Final)](https://openjdk.org/jeps/456)
+/// - JDK 22: [JEP 456 - Unnamed Patterns and Variables](https://openjdk.org/jeps/456)
 /// - JDK 21: [JEP 443 - Unnamed Patterns and Variables (Preview)](https://openjdk.org/jeps/443)
 ///
 /// ## Links

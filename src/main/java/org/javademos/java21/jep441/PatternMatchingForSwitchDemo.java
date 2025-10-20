@@ -19,7 +19,7 @@ public class PatternMatchingForSwitchDemo implements IDemo {
 
     @Override
     public void demo() {
-        info("PATTERN MATCHING FOR SWITCH DEMO", "Example of 'Pattern Matching for switch'\nintroduced in Java 17");
+        info(441);
 
         // method formatViaSwitchPatternMatching() takes any java.lang.Object
         // as an argument and returns its java.lang.String representation based
