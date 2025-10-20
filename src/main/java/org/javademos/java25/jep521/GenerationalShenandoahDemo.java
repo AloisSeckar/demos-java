@@ -14,9 +14,8 @@ import java.util.List;
 ///
 /// ### Further reading
 /// - [Inside Java - Shenandoah GC](https://inside.java/tag/shenandoah/)
-///
-/// @see java.lang.System
-/// @author your-github
+/// 
+/// @author CodeSakshamY
 public class GenerationalShenandoahDemo implements IDemo {
 
     @Override
