@@ -5,6 +5,11 @@
     "dscr": "Up-to-date demo moved to `org.javademos.java25.jep521.GenerationalShenandoahDemo` (JEP 521)"
   },
   {
+    "jep": "450",
+    "name": "JEP 450 - Compact Object Headers (Experimental)",
+    "dscr": "An experimental version of Compact Object Headers. The final demo is in JEP 519."
+  },
+  {
     "jep": 472,
     "info": {
       "name": "JEP 472 - Prepare to Restrict the Use of JNI",
