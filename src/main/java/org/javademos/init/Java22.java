@@ -10,6 +10,7 @@ import org.javademos.java22.jep458.LaunchMultiFileSourceDemo;
 import org.javademos.java22.jep459.StringTemplatesSecondPreview;
 import org.javademos.java22.jep460.VectorAPIDemo;
 import org.javademos.java22.jep461.StreamGatherersDemo;
+import org.javademos.java22.jep462.StructuredConcurrencyDemo;
 import org.javademos.java22.jep463.ImplicitlyDeclaredClassesDemo;
 import org.javademos.java22.jep464.ScopedValuesDemo;
 
@@ -22,8 +23,6 @@ public class Java22 {
      */
     public static ArrayList<IDemo> getDemos() {
         var java22DemoPool = new ArrayList<IDemo>();
-
-        // feel free to comment out demos you are not interested in right now
 
         // JEP 423
         java22DemoPool.add(new RegionPinningForG1());
@@ -43,6 +42,8 @@ public class Java22 {
         java22DemoPool.add(new VectorAPIDemo());
         // JEP 461
         java22DemoPool.add(new StreamGatherersDemo());
+        // JEP 462
+        java22DemoPool.add(new StructuredConcurrencyDemo());
         // JEP 463
         java22DemoPool.add(new ImplicitlyDeclaredClassesDemo());
         // JEP 464

@@ -16,6 +16,7 @@ import org.javademos.java21.jep448.VectorAPIDemo;
 import org.javademos.java21.jep449.DeprecateWindows32BitX86Demo;
 import org.javademos.java21.jep451.DisallowDynamicAgentLoading;
 import org.javademos.java21.jep452.KeyEncapsulationMechanismAPIDemo;
+import org.javademos.java21.jep453.StructuredConcurrencyDemo; 
 
 import java.util.ArrayList;
 
@@ -27,11 +28,8 @@ public class Java21 {
     public static ArrayList<IDemo> getDemos() {
         var java21DemoPool = new ArrayList<IDemo>();
 
-        // feel free to comment out demos you are not interested in right now
-
         // extra features not related to any JEP
         java21DemoPool.add(new J21Demo());
-
         // JEP 430
         java21DemoPool.add(new StringTemplatesDemo());
         // JEP 431
@@ -60,6 +58,9 @@ public class Java21 {
         java21DemoPool.add(new DisallowDynamicAgentLoading());
         // JEP 452
         java21DemoPool.add(new KeyEncapsulationMechanismAPIDemo());
+        // JEP 453
+        java21DemoPool.add(new StructuredConcurrencyDemo());
+        
         return java21DemoPool;
     }
 }

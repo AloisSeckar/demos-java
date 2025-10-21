@@ -4,10 +4,12 @@ import java.util.ArrayList;
 
 import org.javademos.commons.IDemo;
 import org.javademos.java24.jep404.GenerationalShenandoahExperimental;
+import org.javademos.java24.jep450.CompactObjectHeadersExperimental;
 import org.javademos.java24.jep472.PrepareToRestrictJNI;
 import org.javademos.java24.jep475.LateBarrierExpansionG1;
 import org.javademos.java24.jep478.KeyDerivationApiPreview;
 import org.javademos.java24.jep479.RemovedWindows32BitX86Demo;
+import org.javademos.java24.jep483.AotLoadingAndLinking;
 import org.javademos.java24.jep484.ClassFileAPIDemo;
 import org.javademos.java24.jep485.StreamGatherersDemo;
 import org.javademos.java24.jep486.DisableSecurityManager;
@@ -22,6 +24,7 @@ import org.javademos.java24.jep495.SimpleSourceFilesDemo;
 import org.javademos.java24.jep496.QuantumResistantModuleLatticeBasedKeyEncapsulation;
 import org.javademos.java24.jep497.QuantumResistantModuleLatticeBasedDigitalSignature;
 import org.javademos.java24.jep498.MemoryAccessMethods;
+import org.javademos.java24.jep499.StructuredConcurrencyDemo;
 import org.javademos.java24.jep501.Deprecate32BitX86Demo;
 
 public class Java24 {
@@ -32,10 +35,10 @@ public class Java24 {
     public static ArrayList<IDemo> getDemos() {
         var java24DemoPool = new ArrayList<IDemo>();
 
-        // feel free to comment out demos you are not interested in right now
-
         // JEP 404
         java24DemoPool.add(new GenerationalShenandoahExperimental());
+        // JEP 450
+        java24DemoPool.add(new CompactObjectHeadersExperimental());
         // JEP 472
         java24DemoPool.add(new PrepareToRestrictJNI());
         // JEP 475
@@ -44,6 +47,8 @@ public class Java24 {
         java24DemoPool.add(new KeyDerivationApiPreview());
         // JEP 479
         java24DemoPool.add(new RemovedWindows32BitX86Demo());
+        // JEP 483
+        java24DemoPool.add(new AotLoadingAndLinking());
         // JEP 484
         java24DemoPool.add(new ClassFileAPIDemo());
         // JEP 485
@@ -72,6 +77,8 @@ public class Java24 {
         java24DemoPool.add(new QuantumResistantModuleLatticeBasedDigitalSignature());
         // JEP 498
         java24DemoPool.add(new MemoryAccessMethods());
+        // JEP 499
+        java24DemoPool.add(new StructuredConcurrencyDemo());
         // JEP 501
         java24DemoPool.add(new Deprecate32BitX86Demo());
 
