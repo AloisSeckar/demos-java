@@ -38,6 +38,11 @@
     }
   },
   {
+    "jep": "483",
+    "name": "JEP 483 - Ahead-of-Time Class Loading & Linking",
+    "dscr": "An experimental AOT feature. The final demos are in JEP 514 and JEP 515."
+  },
+  {
     "jep": 484,
     "info": {
       "name": "JEP 484 - Class-File API",
