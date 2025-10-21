@@ -96,5 +96,12 @@
       "name": "JEP 452 - Key Encapsulation Mechanism",
       "dscr": "Introduces a Key Encapsulation Mechanism API, aiming to improve cryptographic capabilities."
     }
+  },
+  {
+    "jep": 453,
+    "info": {
+      "name": "JEP 453 - Structured Concurrency (Preview)",
+      "dscr": "Up-to-date demo moved to org.javademos.java25.jep505.StructuredConcurrencyDemo (JEP 505)"
+    }
   }
 ]

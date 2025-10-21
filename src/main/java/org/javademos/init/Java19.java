@@ -7,6 +7,7 @@ import org.javademos.java19.jep422.LinuxRiscVPort;
 import org.javademos.java19.jep424.ForeignFunctionMemoryDemo;
 import org.javademos.java19.jep426.VectorAPIDemo;
 import org.javademos.java19.jep427.PatternMatchingForSwitchThirdPreview;
+import org.javademos.java19.jep428.StructuredConcurrencyDemo;
 
 public class Java19 {
 
@@ -16,7 +17,6 @@ public class Java19 {
     public static ArrayList<IDemo> getDemos() {
         var java19DemoPool = new ArrayList<IDemo>();
 
-        // feel free to comment out demos you are not interested in right now
         // JEP 422
         java19DemoPool.add(new LinuxRiscVPort());
         // JEP 424
@@ -25,6 +25,8 @@ public class Java19 {
         java19DemoPool.add(new VectorAPIDemo());
         // JEP 427
         java19DemoPool.add(new PatternMatchingForSwitchThirdPreview());
+        // JEP 428
+        java19DemoPool.add(new StructuredConcurrencyDemo());
 
         return java19DemoPool;
     }

@@ -73,7 +73,7 @@
     "jep": 480,
     "info": {
       "name": "JEP 480 - Structured Concurrency (Third Preview)",
-      "dscr": "See StructuredConcurrency class for further info"
+      "dscr": "Up-to-date demo moved to org.javademos.java25.jep505.StructuredConcurrencyDemo (JEP 505)"
     }
   },
   {

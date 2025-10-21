@@ -7,6 +7,7 @@ import org.javademos.java20.jep429.ScopedValuesDemo;
 import org.javademos.java20.jep433.PatternMatchingForSwitchFourthPreview;
 import org.javademos.java20.jep434.ForeignFunctionMemoryDemo;
 import org.javademos.java20.jep438.VectorAPIDemo;
+import org.javademos.java20.jep437.StructuredConcurrencyDemo;
 
 public class Java20 {
 
@@ -16,14 +17,14 @@ public class Java20 {
     public static ArrayList<IDemo> getDemos() {
         var java20DemoPool = new ArrayList<IDemo>();
 
-        // feel free to comment out demos you are not interested in right now
-
         // JEP 429
         java20DemoPool.add(new ScopedValuesDemo());
         // JEP 433
         java20DemoPool.add(new PatternMatchingForSwitchFourthPreview());
         // JEP 434
         java20DemoPool.add(new ForeignFunctionMemoryDemo());
+        // JEP 437
+        java20DemoPool.add(new StructuredConcurrencyDemo());
         // JEP 438
         java20DemoPool.add(new VectorAPIDemo());
 
