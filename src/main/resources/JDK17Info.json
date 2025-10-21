@@ -1,4 +1,10 @@
-[
+[ {
+   "jep": 403,
+   "info": {
+     "name": "JEP 403 - Strongly Encapsulate JDK Internals",
+     "dscr": "Restricts access to most internal JDK APIs by default, improving security and maintainability. Access requires explicit command-line flags like --add-opens."
+   }
+ },
   {
     "jep": 406,
     "info": {
