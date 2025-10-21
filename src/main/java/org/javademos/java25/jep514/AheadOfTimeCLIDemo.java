@@ -9,6 +9,7 @@ import org.javademos.commons.IDemo;
 ///
 /// JEP history:
 /// - JDK 25: [JEP 514 - Ahead-of-Time Command-Line Ergonomics](https://openjdk.org/jeps/514)
+/// - JDK 24: [JEP 483 - Ahead-of-Time Class Loading & Linking](https://openjdk.org/jeps/483)
 ///
 /// Further reading:
 /// - [What's New in Project Leyden - JEP 514 and JEP 515 Explained](https://softwaremill.com/whats-new-in-project-leyden-jep-514-and-jep-515-explained/)
