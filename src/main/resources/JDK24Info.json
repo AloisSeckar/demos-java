@@ -5,6 +5,11 @@
     "dscr": "Up-to-date demo moved to `org.javademos.java25.jep521.GenerationalShenandoahDemo` (JEP 521)"
   },
   {
+    "jep": "450",
+    "name": "JEP 450 - Compact Object Headers (Experimental)",
+    "dscr": "An experimental version of Compact Object Headers. The final demo is in JEP 519."
+  },
+  {
     "jep": 472,
     "info": {
       "name": "JEP 472 - Prepare to Restrict the Use of JNI",
@@ -31,6 +36,11 @@
       "name": "JEP 479 - Remove the 32-bit x86 Windows Port",
       "dscr": "Removed support for the 32-bit x86 port on Windows in JDK 24, while keeping other OS ports available."
     }
+  },
+  {
+    "jep": "483",
+    "name": "JEP 483 - Ahead-of-Time Class Loading & Linking",
+    "dscr": "An experimental AOT feature. The final demos are in JEP 514 and JEP 515."
   },
   {
     "jep": 484,

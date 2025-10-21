@@ -9,6 +9,7 @@ import java.util.stream.Collectors;
 ///
 /// JEP history:
 /// - JDK 25: [JEP 515 - Ahead-of-Time Method Profiling](https://openjdk.org/jeps/515)
+/// - JDK 24: [JEP 483 - Ahead-of-Time Class Loading & Linking](https://openjdk.org/jeps/483)
 ///
 /// Further reading:
 /// - [What's New in Project Leyden - JEP 514 and JEP 515 Explained](https://softwaremill.com/whats-new-in-project-leyden-jep-514-and-jep-515-explained/)
