@@ -73,8 +73,15 @@ public class ContextSpecificDeserializationFiltersDemo implements IDemo { // Onl
         System.out.println("Setting a JVM-wide filter factory...");
         BinaryOperator<ObjectInputFilter> originalFactory = ObjectInputFilter.Config.getSerialFilterFactory();
         MyFilterFactory factory = new MyFilterFactory();
-        ObjectInputFilter.Config.setSerialFilterFactory(factory);
-        System.out.println("Filter factory set successfully.\n");
+        
+        try {
+            ObjectInputFilter.Config.setSerialFilterFactory(factory);
+            System.out.println("Filter factory set successfully.\n");
+        } catch (IllegalStateException e) {
+            System.out.println("Filter factory already set (can only be set once per JVM).");
+            System.out.println("This is expected behavior in JEP 415 - proceeding with existing factory.\n");
+            // Continue with demo using existing factory
+        }
 
         // --- Simulate Serialization ---
         UserData originalUser = new UserData("Alice", 30);
@@ -84,8 +91,12 @@ public class ContextSpecificDeserializationFiltersDemo implements IDemo { // Onl
             System.out.println("Serialized: " + originalUser);
         } catch (IOException e) {
             System.err.println("Serialization failed: " + e.getMessage());
-            // Restore original factory in case of error during setup
-             ObjectInputFilter.Config.setSerialFilterFactory(originalFactory);
+            // Attempt to restore original factory in case of error during setup
+            try {
+                ObjectInputFilter.Config.setSerialFilterFactory(originalFactory);
+            } catch (IllegalStateException ex) {
+                System.out.println("Cannot restore factory during error cleanup.");
+            }
             return;
         }
         byte[] serializedData = baos.toByteArray();
@@ -103,9 +114,15 @@ public class ContextSpecificDeserializationFiltersDemo implements IDemo { // Onl
         } catch (IOException | ClassNotFoundException e) {
             System.err.println("Deserialization failed as expected by filter or other error: " + e.getMessage());
         } finally {
-             // --- Cleanup: Restore original filter factory ---
-             System.out.println("\nRestoring original filter factory.");
-             ObjectInputFilter.Config.setSerialFilterFactory(originalFactory);
+             // --- Cleanup: Attempt to restore original filter factory ---
+             // Note: This will only work if we successfully set our factory earlier
+             System.out.println("\nAttempting to restore original filter factory...");
+             try {
+                 ObjectInputFilter.Config.setSerialFilterFactory(originalFactory);
+                 System.out.println("Original filter factory restored.");
+             } catch (IllegalStateException e) {
+                 System.out.println("Cannot restore factory (factory can only be set once per JVM).");
+             }
         }
     }
 }
