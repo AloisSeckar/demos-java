@@ -13,9 +13,7 @@ import org.javademos.java21.jep440.RecordPatternsDemo;
 public class RecordPatterns implements IDemo {
     @Override
     public void demo() {
-        System.out.println("JEP 432 - Record Patterns (Second Preview)");
-        System.out.println("This feature was finalized in JEP 440 (JDK 21).");
-        System.out.println("Redirecting to the latest demo...\n");
+        info(432);
         new RecordPatternsDemo().demo();
     }
 }

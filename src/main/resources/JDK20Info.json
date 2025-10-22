@@ -28,13 +28,6 @@
     }
   },
   {
-    "jep": 436,
-    "info": {
-      "name": "JEP 436 - Virtual Threads (Second Preview)",
-      "dscr": "Up-to-date demo moved to `org.javademos.java21.jep444.VirtualThreads` (JEP 444)"
-    }
-  },
-  {
     "jep": 437,
     "info": {
       "name": "JEP 437 - Structured Concurrency (Second Incubator)",

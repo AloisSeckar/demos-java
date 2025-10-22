@@ -12,9 +12,7 @@ import org.javademos.java21.jep440.RecordPatternsDemo;
 /// @author @Rossville
 public class RecordPatterns implements IDemo {
     public void demo() {
-        System.out.println("JEP 405 - Record Patterns (Preview)");
-        System.out.println("This feature was finalized in JEP 440 (JDK 21).");
-        System.out.println("Redirecting to the latest demo...\n");
+        info(405);
         new RecordPatternsDemo().demo();
     }
 }

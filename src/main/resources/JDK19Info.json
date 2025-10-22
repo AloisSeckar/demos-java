@@ -21,13 +21,6 @@
     }
   },
   {
-    "jep": 425,
-    "info": {
-      "name": "JEP 425 - Virtual Threads [Preview]",
-      "dscr": "Up-to-date demo moved to `org.javademos.java21.jep444.VirtualThreads` (JEP 444)"
-    }
-  },
-  {
     "jep": 426,
     "info": {
       "name": "JEP 426 - Vector API (Fourth Incubator)",
