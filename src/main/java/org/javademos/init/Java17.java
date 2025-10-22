@@ -2,6 +2,7 @@ package org.javademos.init;
 
 import org.javademos.commons.IDemo;
 import org.javademos.java17.jep306.RestoreAlwaysStrictFloatingPointSemanticsDemo;
+import org.javademos.java17.jep382.MacosRenderingPipelineDemo;
 import org.javademos.java17.jep403.StronglyEncapsulateInternalsDemo;
 import org.javademos.java17.jep406.PatternMatchingForSwitchPreview;
 import org.javademos.java17.jep407.RemoveRmiActivationDemo;
@@ -30,6 +31,8 @@ public class Java17 {
         // feel free to comment out demos you are not interested in right now
         // JEP 306
         java17DemoPool.add(new RestoreAlwaysStrictFloatingPointSemanticsDemo());
+        // JEP 382  
+        java17DemoPool.add(new MacosRenderingPipelineDemo());
         // JEP 403
         java17DemoPool.add(new StronglyEncapsulateInternalsDemo());
         // JEP 406
