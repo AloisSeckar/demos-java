@@ -6,6 +6,13 @@
    }
  },
   {
+    "jep": 306,
+    "info": {
+      "name": "JEP 306 - Restore Always-Strict Floating-Point Semantics",
+      "dscr": "Make all floating-point operations consistently strict, removing the difference between strictfp and default modes."
+    }
+  },
+  {
     "jep": 406,
     "info": {
       "name": "JEP 406 - Pattern Matching for switch (Preview)",
