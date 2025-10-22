@@ -13,7 +13,7 @@ import org.javademos.java17.newswitch.SwitchDemo;
 import org.javademos.java17.nullpointer.NullPointerDemo;
 import org.javademos.java17.pattern.InstanceofPatternMatchingDemo;
 import org.javademos.java17.record.RecordDemo;
-import org.javademos.java17.sealed.SealedDemo;
+import org.javademos.java17.jep409.SealedDemo;
 import org.javademos.java17.string12.String12Demo;
 import org.javademos.java17.textblock.TextBlockDemo;
 
