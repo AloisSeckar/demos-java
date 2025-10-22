@@ -7,6 +7,7 @@ import org.javademos.java17.deprecated.DeprecatedDemo;
 import org.javademos.java17.j16.J16Demo;
 import org.javademos.java17.jep403.StronglyEncapsulateInternalsDemo;
 import org.javademos.java17.jep406.PatternMatchingForSwitchPreview;
+import org.javademos.java17.jep411.DeprecateSecurityManagerDemo;
 import org.javademos.java17.jep412.ForeignFunctionMemoryDemo;
 import org.javademos.java17.jep414.VectorAPIDemo;
 import org.javademos.java17.newswitch.SwitchDemo;
@@ -30,6 +31,8 @@ public class Java17 {
         java17DemoPool.add(new StronglyEncapsulateInternalsDemo());
         // JEP 406
         java17DemoPool.add(new PatternMatchingForSwitchPreview());
+        // JEP 411
+        java17DemoPool.add(new DeprecateSecurityManagerDemo());
         // JEP 412
         java17DemoPool.add(new ForeignFunctionMemoryDemo());
         // JEP 414

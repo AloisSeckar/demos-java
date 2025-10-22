@@ -13,6 +13,13 @@
     }
   },
   {
+    "jep": 411,
+    "info": {
+      "name": "JEP 411 - Deprecate the Security Manager for Removal",
+      "dscr": "Up-to-date demo moved to org.javademos.java24.jep486.DisableSecurityManager (JEP 486)"
+    }
+  },
+  {
     "jep": 412,
     "info": {
       "name": "JEP 412 - Foreign Function & Memory API (Incubator)",
