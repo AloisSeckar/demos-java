@@ -21,6 +21,13 @@
     }
   },
   {
+  "jep": 395,
+  "info": {
+    "name": "JEP 395 - Records",
+    "dscr": "Finalizes Records, transparent carriers for immutable data; see RecordDemo.java"
+   }
+  },
+  {
   "jep": 397,
   "info": {
     "name": "JEP 397 - Sealed Classes (Second Preview)",

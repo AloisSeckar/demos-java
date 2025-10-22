@@ -5,5 +5,12 @@
       "name": "JEP 383 - Foreign-Memory Access API (Second Incubator)",
       "dscr": "Up-to-date demo moved to `org.javademos.java22.jep454.ForeignFunctionMemoryDemo` (JEP 454)"
     }
+  },
+  {
+  "jep": 384,
+  "info": {
+    "name": "JEP 384 - Records (Second Preview)",
+    "dscr": "Up-to-date demo moved to org.javademos.java16.jep395.RecordDemo (JEP 395)"
   }
+}
 ]

@@ -2,7 +2,7 @@ package org.javademos.java21.jep440;
 
 import org.javademos.commons.IDemo;
 import org.javademos.java17.pattern.InstanceofPatternMatchingDemo;
-import org.javademos.java17.record.RecordDemo;
+import org.javademos.java16.jep395.RecordDemo;
 import org.javademos.java21.jep441.PatternMatchingForSwitchDemo;
 
 /// Demo for JDK 21 feature JEP 440 - Record Patterns.
