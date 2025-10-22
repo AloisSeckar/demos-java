@@ -1,7 +1,6 @@
 package org.javademos.java19.jep405;
 
 import org.javademos.commons.IDemo;
-import org.javademos.java21.jep440.RecordPatternsDemo;
 
 /// Demo for JDK 19 feature <strong>JEP 405 - Record Patterns(Preview)</strong>.
 ///
@@ -13,6 +12,5 @@ import org.javademos.java21.jep440.RecordPatternsDemo;
 public class RecordPatterns implements IDemo {
     public void demo() {
         info(405);
-        new RecordPatternsDemo().demo();
     }
 }
