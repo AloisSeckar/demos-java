@@ -1,10 +1,11 @@
-[ {
-   "jep": 403,
-   "info": {
-     "name": "JEP 403 - Strongly Encapsulate JDK Internals",
-     "dscr": "Restricts access to most internal JDK APIs by default, improving security and maintainability. Access requires explicit command-line flags like --add-opens."
-   }
- },
+[
+  {
+    "jep": 403,
+    "info": {
+      "name": "JEP 403 - Strongly Encapsulate JDK Internals",
+      "dscr": "Restricts access to most internal JDK APIs by default, improving security and maintainability. Access requires explicit command-line flags like --add-opens."
+    }
+  },
   {
     "jep": 306,
     "info": {
@@ -19,7 +20,6 @@
       "dscr": "The first preview of Pattern Matching for switch. The final implementation is in JEP 441."
     }
   },
-  
   {
     "jep": 407,
     "info": {
@@ -28,11 +28,18 @@
     }
   },
   {
-  "jep": 409,
-  "info": {
-    "name": "JEP 409 - Sealed Classes",
-    "dscr": "Control which classes or interfaces can extend or implement them; see SealedDemo.java"
-  }
+    "jep": 409,
+    "info": {
+      "name": "JEP 409 - Sealed Classes",
+      "dscr": "Control which classes or interfaces can extend or implement them; see SealedDemo.java"
+    }
+  },
+  {
+    "jep": 410,
+    "info": {
+      "name": "JEP 410 - Remove the Experimental AOT and JIT Compiler",
+      "dscr": "Explains the removal of experimental jaotc and Graal JIT modules; see RemoveAotJitDemo.java"
+    }
   },
   {
     "jep": 411,
@@ -56,10 +63,10 @@
     }
   },
   {
-  "jep": 415,
-  "info": {
-    "name": "JEP 415 - Context-Specific Deserialization Filters",
-    "dscr": "Configure context-specific filters via a JVM-wide filter factory; see ContextSpecificDeserializationFiltersDemo.java"
+    "jep": 415,
+    "info": {
+      "name": "JEP 415 - Context-Specific Deserialization Filters",
+      "dscr": "Configure context-specific filters via a JVM-wide filter factory; see ContextSpecificDeserializationFiltersDemo.java"
+    }
   }
- }
 ]
