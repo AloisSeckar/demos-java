@@ -3,6 +3,7 @@ package org.javademos.init;
 import java.util.ArrayList;
 
 import org.javademos.commons.IDemo;
+import org.javademos.java20.jep432.RecordPatterns;
 import org.javademos.java20.jep429.ScopedValuesDemo;
 import org.javademos.java20.jep433.PatternMatchingForSwitchFourthPreview;
 import org.javademos.java20.jep434.ForeignFunctionMemoryDemo;
@@ -19,6 +20,8 @@ public class Java20 {
 
         // JEP 429
         java20DemoPool.add(new ScopedValuesDemo());
+        // JEP 432
+        java20DemoPool.add(new RecordPatterns());
         // JEP 433
         java20DemoPool.add(new PatternMatchingForSwitchFourthPreview());
         // JEP 434
