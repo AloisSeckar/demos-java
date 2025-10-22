@@ -12,4 +12,4 @@ github.txt
 !/tmp/.gitkeep
 
 # But ignore generated demo files
-#/tmp/
+/tmp/
