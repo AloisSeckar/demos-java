@@ -3,6 +3,7 @@ package org.javademos.init;
 import java.util.ArrayList;
 
 import org.javademos.commons.IDemo;
+import org.javademos.java19.jep405.RecordPatterns;
 import org.javademos.java19.jep422.LinuxRiscVPort;
 import org.javademos.java19.jep424.ForeignFunctionMemoryDemo;
 import org.javademos.java19.jep426.VectorAPIDemo;
@@ -17,6 +18,8 @@ public class Java19 {
     public static ArrayList<IDemo> getDemos() {
         var java19DemoPool = new ArrayList<IDemo>();
 
+        // JEP 405
+        java19DemoPool.add(new RecordPatterns());
         // JEP 422
         java19DemoPool.add(new LinuxRiscVPort());
         // JEP 424
