@@ -26,7 +26,7 @@ public class CpuTimeProfilingDemo implements IDemo {
 
         try (Recording recording = new Recording(Configuration.getConfiguration("profile"))) {
             recording.setToDisk(true);
-            recording.setDestination(Path.of("cpu-profile.jfr"));
+            recording.setDestination(Path.of("./tmp/cpu-profile.jfr"));
             recording.start();
 
             // CPU-intensive workload
@@ -35,7 +35,7 @@ public class CpuTimeProfilingDemo implements IDemo {
             }
 
             recording.stop();
-            System.out.println("Recording finished. File 'cpu-profile.jfr' generated.");
+            System.out.println("Recording finished. File 'tmp/cpu-profile.jfr' generated.");
         } catch (Exception e) {
             e.printStackTrace();
         }

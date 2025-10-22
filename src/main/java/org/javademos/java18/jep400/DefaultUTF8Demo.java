@@ -23,14 +23,14 @@ public class DefaultUTF8Demo implements IDemo {
         String text = "Hello, 世界 🌍";
 
         // Write a file without specifying charset
-        try (FileWriter writer = new FileWriter("demo.txt")) {
+        try (FileWriter writer = new FileWriter("./tmp/demo.txt")) {
             writer.write(text);
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
 
         // Read the same file without specifying charset
-        try (FileReader reader = new FileReader("demo.txt")) {
+        try (FileReader reader = new FileReader("./tmp/demo.txt")) {
             char[] buffer = new char[100];
             int len = reader.read(buffer);
             String readText = new String(buffer, 0, len);

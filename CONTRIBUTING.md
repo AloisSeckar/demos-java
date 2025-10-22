@@ -65,8 +65,8 @@ We can always discuss under each individual issue/PR, how to turn your invaluabl
 
 ## Typical workflow
 
-1. Go into [Issues](https://github.com/AloisSeckar/demos-java/issues) and pick up an issue you want to work on. **Check if it is not assigned to someone else yet**. It is also advised to ask for an assignment first to avoid possible clash of two contributors over same issue. If that ever happens, I will try to guide you to blend your variant with the previously accepted, but the result can't be guaranted. If no suitable issue is opened, please feel free to create a new one.
-2. Fork the repository to your own GitHub account, create a new branch and work on your changes there. Check [GitHub docs](https://docs.github.com/en/get-started/exploring-projects-on-github/contributing-to-a-project) to understand the general process better, if you not fully familiar with it yet. Don't hessitate to ask me for help, if needed.
+1. Go into [Issues](https://github.com/AloisSeckar/demos-java/issues) and pick up an issue you want to work on. **Check if it is not assigned to someone else yet**. It is also advised to ask for an assignment first to avoid possible clash of two contributors over same issue. If that ever happens, I will try to guide you to blend your variant with the previously accepted, but the result can't be guaranteed. If no suitable issue is opened, please feel free to create a new one.
+2. Fork the repository to your own GitHub account, create a new branch and work on your changes there. Check [GitHub docs](https://docs.github.com/en/get-started/exploring-projects-on-github/contributing-to-a-project) to understand the general process better, if you not fully familiar with it yet. Don't hesitate to ask me for help, if needed.
 3. **Always make sure your code compiles and runs without errors.** 
    - Command `mvn clean install` must execute successfully. It is guarded by GitHub workflow in the PR review process and if the changes cannot be compiled, the PR won't be merged until the problems are fixed. If you need help with making code compile, please, ask in the issue/PR comments or contact me directly.
    - Command `java --enable-preview --add-modules=jdk.incubator.vector -jar target\JavaDemos-25.0.jar` must run and finnish without errors. You may miss some important context and information without reading the comments in the source code, but at least you will be sure your code is not breaking anything.
@@ -75,13 +75,14 @@ We can always discuss under each individual issue/PR, how to turn your invaluabl
     - Make yourself familiar with the [Project structure](#project-structure) to understand how this project is meant to work.
     - If you are working on a new JEP, provide new implementation of `IDemo` interface for the JEP you are working on with sufficient content.
     - Place the new file accordingly into the project structure (correct JDK and JEP folder).
+    - If your implementation creates any files, save them under the repository-local `tmp/` folder. This folder is gitignored to prevent untracked artifacts.
     - Follow the markdown style comments to describe the class.
-    - Do not hessitate to use (standard) comments inside your code - remember the desired usecase is future users will check the code to figure out how the feature works.
+    - Do not hesitate to use (standard) comments inside your code - remember the desired usecase is future users will check the code to figure out how the feature works.
     - Do not forget to add required record to the respective JSON resource file (JEP name and brief, but meaningful description). **Keep the records ordered by JEP number ascending.**
     - Do not forget to add your new demo into the respective helper class for the JDK version, so it gets executed from `Main.java`. Always add comment with JEP number for better clarity. **Keep the demos ordered by JEP number ascending.**
     - Make sure you are not accidentally submitting some other files or changes that are not related to PR topic.
     - Because this project might be quite active with multiple contributors working on same files, please make sure your fork is in sync with the `master` branch of the original repository before submitting the PR. Double-check the "Files changed" tab of your PR and avoid posting anything not relevant to your changes.
-    - Check an [example of well-structured PR](https://github.com/AloisSeckar/demos-java/pull/52/files) to ensure your sumbission fits the expected standard.
+    - Check an [example of well-structured PR](https://github.com/AloisSeckar/demos-java/pull/52/files) to ensure your submission fits the expected standard.
 6. For any questions, feel free to ask in the opened issue, or contact me directly.
 7. Please, be patient. I will try to review your PR as soon as possible, but sometimes it is not possible to do it immediately. I will try to provide you with feedback and/or merge it within 24 hours.
 
