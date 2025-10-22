@@ -8,5 +8,8 @@ github.txt
 # Accidentally committed class files
 *.class
 
-# Java Flight Recorder files
-*.jfr
+# Keep tmp directory
+!/tmp/.gitkeep
+
+# But ignore generated demo files
+/tmp/
