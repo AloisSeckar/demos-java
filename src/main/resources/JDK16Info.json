@@ -19,5 +19,12 @@
       "name": "JEP 393 - Foreign-Memory Access API (Third Incubator)",
       "dscr": "Up-to-date demo moved to `org.javademos.java22.jep454.ForeignFunctionMemoryDemo` (JEP 454)"
     }
+  },
+  {
+  "jep": 397,
+  "info": {
+    "name": "JEP 397 - Sealed Classes (Second Preview)",
+    "dscr": "Up-to-date demo moved to org.javademos.java17.jep409.SealedDemo (JEP 409)"
   }
+ }
 ]

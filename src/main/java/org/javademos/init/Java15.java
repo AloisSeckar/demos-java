@@ -3,6 +3,7 @@ package org.javademos.init;
 import java.util.ArrayList;
 
 import org.javademos.commons.IDemo;
+import org.javademos.java15.jep360.SealedClassesDemo;
 import org.javademos.java15.jep383.ForeignMemoryAccessDemo;
 
 public class Java15 {
@@ -14,7 +15,8 @@ public class Java15 {
         var java15DemoPool = new ArrayList<IDemo>();
 
         // feel free to comment out demos you are not interested in right now
-
+        // JEP 360
+        java15DemoPool.add(new SealedClassesDemo());
         // JEP 383
         java15DemoPool.add(new ForeignMemoryAccessDemo());
 
