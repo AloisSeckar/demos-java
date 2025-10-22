@@ -13,6 +13,13 @@
     }
   },
   {
+  "jep": 409,
+  "info": {
+    "name": "JEP 409 - Sealed Classes",
+    "dscr": "Control which classes or interfaces can extend or implement them; see SealedDemo.java"
+  }
+  },
+  {
     "jep": 411,
     "info": {
       "name": "JEP 411 - Deprecate the Security Manager for Removal",
