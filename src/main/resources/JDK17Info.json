@@ -27,6 +27,13 @@
   }
   },
   {
+  "jep": 410,
+  "info": {
+    "name": "JEP 410 - Remove the Experimental AOT and JIT Compiler",
+    "dscr": "Explains the removal of experimental jaotc and Graal JIT modules; see RemoveAotJitDemo.java"
+  }
+ },
+  {
     "jep": 411,
     "info": {
       "name": "JEP 411 - Deprecate the Security Manager for Removal",

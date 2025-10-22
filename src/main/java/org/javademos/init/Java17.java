@@ -4,6 +4,7 @@ import org.javademos.commons.IDemo;
 import org.javademos.java17.jep306.RestoreAlwaysStrictFloatingPointSemanticsDemo;
 import org.javademos.java17.jep403.StronglyEncapsulateInternalsDemo;
 import org.javademos.java17.jep406.PatternMatchingForSwitchPreview;
+import org.javademos.java17.jep410.RemoveAotJitDemo;
 import org.javademos.java17.jep411.DeprecateSecurityManagerDemo;
 import org.javademos.java17.jep412.ForeignFunctionMemoryDemo;
 import org.javademos.java17.jep414.VectorAPIDemo;
@@ -36,6 +37,8 @@ public class Java17 {
         java17DemoPool.add(new StronglyEncapsulateInternalsDemo());
         // JEP 406
         java17DemoPool.add(new PatternMatchingForSwitchPreview());
+        // JEP 410
+        java17DemoPool.add(new RemoveAotJitDemo());
         // JEP 411
         java17DemoPool.add(new DeprecateSecurityManagerDemo());
         // JEP 412
