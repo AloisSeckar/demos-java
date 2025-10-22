@@ -1,4 +1,4 @@
-package org.javademos.java17.sealed;
+package org.javademos.java17.jep409;
 
 /**
  * Simple class to show 'sealed class' concept from Java 17.

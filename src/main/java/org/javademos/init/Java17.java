@@ -1,11 +1,11 @@
 package org.javademos.init;
 
 import org.javademos.commons.IDemo;
+import org.javademos.java17.jep403.StronglyEncapsulateInternalsDemo;
 import org.javademos.java17.jep406.PatternMatchingForSwitchPreview;
 import org.javademos.java17.jep411.DeprecateSecurityManagerDemo;
 import org.javademos.java17.jep412.ForeignFunctionMemoryDemo;
 import org.javademos.java17.jep414.VectorAPIDemo;
-
 // older demos created with "non-JEP" style
 import org.javademos.java17.deprecated.DeprecatedDemo;
 import org.javademos.java17.j16.J16Demo;
@@ -13,7 +13,7 @@ import org.javademos.java17.newswitch.SwitchDemo;
 import org.javademos.java17.nullpointer.NullPointerDemo;
 import org.javademos.java17.pattern.InstanceofPatternMatchingDemo;
 import org.javademos.java17.record.RecordDemo;
-import org.javademos.java17.sealed.SealedDemo;
+import org.javademos.java17.jep409.SealedDemo;
 import org.javademos.java17.string12.String12Demo;
 import org.javademos.java17.textblock.TextBlockDemo;
 
@@ -28,7 +28,8 @@ public class Java17 {
         var java17DemoPool = new ArrayList<IDemo>();
 
         // feel free to comment out demos you are not interested in right now
-
+        // JEP 403
+        java17DemoPool.add(new StronglyEncapsulateInternalsDemo());
         // JEP 406
         java17DemoPool.add(new PatternMatchingForSwitchPreview());
         // JEP 411

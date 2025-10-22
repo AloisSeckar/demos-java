@@ -1,10 +1,23 @@
-[
+[ {
+   "jep": 403,
+   "info": {
+     "name": "JEP 403 - Strongly Encapsulate JDK Internals",
+     "dscr": "Restricts access to most internal JDK APIs by default, improving security and maintainability. Access requires explicit command-line flags like --add-opens."
+   }
+ },
   {
     "jep": 406,
     "info": {
       "name": "JEP 406 - Pattern Matching for switch (Preview)",
       "dscr": "The first preview of Pattern Matching for switch. The final implementation is in JEP 441."
     }
+  },
+  {
+  "jep": 409,
+  "info": {
+    "name": "JEP 409 - Sealed Classes",
+    "dscr": "Control which classes or interfaces can extend or implement them; see SealedDemo.java"
+  }
   },
   {
     "jep": 411,
