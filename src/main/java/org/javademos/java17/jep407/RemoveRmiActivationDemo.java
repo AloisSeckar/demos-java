@@ -49,7 +49,5 @@ public class RemoveRmiActivationDemo implements IDemo {
             // }
         }
         */
-
-        
     }
 }

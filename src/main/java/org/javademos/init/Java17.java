@@ -20,7 +20,6 @@ import org.javademos.java17.record.RecordDemo;
 import org.javademos.java17.string12.String12Demo;
 import org.javademos.java17.textblock.TextBlockDemo;
 import java.util.ArrayList;
-
 public class Java17 {
 
     /**
