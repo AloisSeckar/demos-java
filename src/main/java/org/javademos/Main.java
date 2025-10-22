@@ -45,8 +45,11 @@ public class Main {
         // it may be confusing to search the actual output of particular
         // demo class implementation you are currently interested in
 
-        // older demos - not all JEPs covered yet
         demoPool.addAll(Java11.getDemos());
+        // demoPool.addAll(Java12.getDemos());
+        // demoPool.addAll(Java13.getDemos());
+        demoPool.addAll(Java14.getDemos());
+        demoPool.addAll(Java15.getDemos());
         demoPool.addAll(Java16.getDemos());
         demoPool.addAll(Java17.getDemos());
         demoPool.addAll(Java18.getDemos());
@@ -54,7 +57,6 @@ public class Main {
         demoPool.addAll(Java20.getDemos());
         demoPool.addAll(Java21.getDemos());
         demoPool.addAll(Java22.getDemos());
-        // newer demos - each JEP has separate file with info/examples
         demoPool.addAll(Java23.getDemos());
         demoPool.addAll(Java24.getDemos());
         demoPool.addAll(Java25.getDemos());
