@@ -21,6 +21,13 @@
     }
   },
   {
+  "jep": 391,
+  "info": {
+    "name": "JEP 391 - macOS/AArch64 Port",
+    "dscr": "Explains the port of the JDK to macOS on ARM64 (Apple Silicon); see MacOsAarch64PortDemo.java"
+   }
+ },
+  {
     "jep": 406,
     "info": {
       "name": "JEP 406 - Pattern Matching for switch (Preview)",
