@@ -12,6 +12,14 @@
       "dscr": "The first preview of Pattern Matching for switch. The final implementation is in JEP 441."
     }
   },
+  
+  {
+    "jep": 407,
+    "info": {
+      "name": "JEP 407 - Remove RMI Activation",
+      "dscr": "Removes the obsolete RMI Activation mechanism, including the `java.rmi.activation` package and the `rmid` tool. Core RMI is unaffected."
+    }
+  },
   {
   "jep": 409,
   "info": {
