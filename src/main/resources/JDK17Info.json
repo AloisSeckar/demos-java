@@ -14,6 +14,13 @@
     }
   },
   {
+    "jep": 382,
+    "info": {
+      "name": "JEP 382 - New macOS Rendering Pipeline",
+      "dscr": "Replaces the internal OpenGL-based rendering pipeline for Java 2D on macOS with Apple's Metal API for better performance and future compatibility."
+    }
+  },
+  {
     "jep": 406,
     "info": {
       "name": "JEP 406 - Pattern Matching for switch (Preview)",
