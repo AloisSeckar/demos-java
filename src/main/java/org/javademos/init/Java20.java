@@ -7,6 +7,7 @@ import org.javademos.java20.jep432.RecordPatterns;
 import org.javademos.java20.jep429.ScopedValuesDemo;
 import org.javademos.java20.jep433.PatternMatchingForSwitchFourthPreview;
 import org.javademos.java20.jep434.ForeignFunctionMemoryDemo;
+import org.javademos.java20.jep436.VirtualThreads;
 import org.javademos.java20.jep438.VectorAPIDemo;
 import org.javademos.java20.jep437.StructuredConcurrencyDemo;
 
@@ -26,6 +27,8 @@ public class Java20 {
         java20DemoPool.add(new PatternMatchingForSwitchFourthPreview());
         // JEP 434
         java20DemoPool.add(new ForeignFunctionMemoryDemo());
+        // JEP 436
+        java20DemoPool.add(new VirtualThreads());
         // JEP 437
         java20DemoPool.add(new StructuredConcurrencyDemo());
         // JEP 438
