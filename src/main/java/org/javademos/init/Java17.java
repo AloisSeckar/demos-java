@@ -10,7 +10,6 @@ import org.javademos.java17.jep411.DeprecateSecurityManagerDemo;
 import org.javademos.java17.jep412.ForeignFunctionMemoryDemo;
 import org.javademos.java17.jep414.VectorAPIDemo;
 import org.javademos.java17.jep415.ContextSpecificDeserializationFiltersDemo;
-// older demos created with "non-JEP" style
 import org.javademos.java17.deprecated.DeprecatedDemo;
 import org.javademos.java17.j16.J16Demo;
 import org.javademos.java17.newswitch.SwitchDemo;
@@ -37,6 +36,8 @@ public class Java17 {
         java17DemoPool.add(new PatternMatchingForSwitchPreview());
         // JEP 407
         java17DemoPool.add(new RemoveRmiActivationDemo());
+        // JEP 409
+        java17DemoPool.add(new SealedDemo());
         // JEP 411
         java17DemoPool.add(new DeprecateSecurityManagerDemo());
         // JEP 412
@@ -54,7 +55,6 @@ public class Java17 {
         java17DemoPool.add(new J16Demo());
         java17DemoPool.add(new RecordDemo());
         java17DemoPool.add(new InstanceofPatternMatchingDemo());
-        java17DemoPool.add(new SealedDemo());
         java17DemoPool.add(new DeprecatedDemo());
 
         return java17DemoPool;
