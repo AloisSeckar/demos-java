@@ -9,17 +9,15 @@ import org.javademos.commons.IDemo;
 /// - JDK 9: [JEP 260 - Encapsulate Most Internal APIs](https://openjdk.org/jeps/260) (Initial step)
 ///
 /// Further reading:
-/// - [Understanding JEP 403: Strongly Encapsulate JDK Internals](<link_to_a_good_article_if_you_find_one>)
+/// - [Understanding JEP 403: Strongly Encapsulate JDK Internals](https://www.baeldung.com/java-internal-apis-strong-encapsulation)
 ///
-/// @author YourGitHubUsername
+/// @author Shuvam00032
 public class StronglyEncapsulateInternalsDemo implements IDemo {
 
     @Override
     public void demo() {
         info(403);
-
-        System.out.println("JEP 403: Strongly Encapsulate JDK Internals");
-        System.out.println("This feature restricts access to internal JDK APIs by default.");
+        /*System.out.println("This feature restricts access to internal JDK APIs by default.");
         System.out.println();
         System.out.println("Why was this done?");
         System.out.println("- Improve JDK Security: Prevents unintended use of internal classes.");
@@ -31,7 +29,7 @@ public class StronglyEncapsulateInternalsDemo implements IDemo {
         System.out.println("- If access is truly needed (discouraged), command-line flags like `--add-opens` must be used.");
         System.out.println();
         System.out.println("This demo doesn't execute restricted code, as that would require specific (and discouraged) JVM configurations.");
-        System.out.println("The goal is to understand the *concept* of encapsulation enforcement.");
+        System.out.println("The goal is to understand the *concept* of encapsulation enforcement.");*/
 
         // You could add an example comment block showing code that *would* fail:
         /*
