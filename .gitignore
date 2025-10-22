@@ -8,5 +8,8 @@ github.txt
 # Accidentally committed class files
 *.class
 
-# Generated demo files
-/tmp/
+# Keep tmp directory
+!/tmp/.gitkeep
+
+# But ignore generated demo files
+#/tmp/
