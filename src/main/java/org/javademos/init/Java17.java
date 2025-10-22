@@ -1,6 +1,7 @@
 package org.javademos.init;
 
 import org.javademos.commons.IDemo;
+import org.javademos.java17.jep306.RestoreAlwaysStrictFloatingPointSemanticsDemo;
 import org.javademos.java17.jep403.StronglyEncapsulateInternalsDemo;
 import org.javademos.java17.jep406.PatternMatchingForSwitchPreview;
 import org.javademos.java17.jep411.DeprecateSecurityManagerDemo;
@@ -28,6 +29,8 @@ public class Java17 {
         var java17DemoPool = new ArrayList<IDemo>();
 
         // feel free to comment out demos you are not interested in right now
+        // JEP 306
+        java17DemoPool.add(new RestoreAlwaysStrictFloatingPointSemanticsDemo());
         // JEP 403
         java17DemoPool.add(new StronglyEncapsulateInternalsDemo());
         // JEP 406
