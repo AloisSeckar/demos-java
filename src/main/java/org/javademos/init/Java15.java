@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 import org.javademos.commons.IDemo;
 import org.javademos.java15.jep360.SealedClassesDemo;
+import org.javademos.java15.jep375.InstanceofPatternMatchingSecondPreview;
 import org.javademos.java15.jep383.ForeignMemoryAccessDemo;
 
 public class Java15 {

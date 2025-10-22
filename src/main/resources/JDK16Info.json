@@ -20,6 +20,14 @@
       "dscr": "Up-to-date demo moved to `org.javademos.java22.jep454.ForeignFunctionMemoryDemo` (JEP 454)"
     }
   },
+
+  {
+    "jep": 394,
+    "info": {
+      "name": "JEP 394 - Pattern Matching for instanceof",
+      "dscr": "Enhances instanceof operator to perform pattern matching, reducing boilerplate code."
+    }
+  },
   {
   "jep": 397,
   "info": {
