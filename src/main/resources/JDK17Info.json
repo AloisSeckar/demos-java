@@ -46,5 +46,12 @@
       "name": "JEP 414 - Vector API (Second Incubator)",
       "dscr": "Up-to-date demo moved to `org.javademos.java25.jep508.VectorAPIDemo` (JEP 508)"
     }
+  },
+  {
+  "jep": 415,
+  "info": {
+    "name": "JEP 415 - Context-Specific Deserialization Filters",
+    "dscr": "Configure context-specific filters via a JVM-wide filter factory; see ContextSpecificDeserializationFiltersDemo.java"
   }
+ }
 ]
