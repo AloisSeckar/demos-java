@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 import org.javademos.commons.IDemo;
 import org.javademos.java17.jep306.RestoreAlwaysStrictFloatingPointSemanticsDemo;
+import org.javademos.java17.jep356.RandomGenerators17;
 import org.javademos.java17.jep382.MacosRenderingPipelineDemo;
 import org.javademos.java17.jep391.MacOsAarch64PortDemo;
 import org.javademos.java17.jep403.StronglyEncapsulateInternalsDemo;
@@ -34,6 +35,8 @@ public class Java17 {
         // feel free to comment out demos you are not interested in right now
         // JEP 306
         java17DemoPool.add(new RestoreAlwaysStrictFloatingPointSemanticsDemo());
+        // JEP 356
+        java17DemoPool.add(new RandomGenerators17());       
         // JEP 382  
         java17DemoPool.add(new MacosRenderingPipelineDemo());
         // JEP 391
