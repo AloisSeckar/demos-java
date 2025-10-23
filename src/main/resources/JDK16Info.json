@@ -41,6 +41,13 @@
     "desc": "Designate wrapper classes as value-based and add warnings about attempts to synchronize on them."
   },
   {
+    "jep": 392,
+    "info": {
+      "name": "JEP 392 - Packaging Tool",
+      "dscr": "Finalizes the jpackage tool for creating native application installers (MSI, EXE, DMG, PKG, DEB, RPM)."
+    }
+  },
+  {
     "jep": 393,
     "info": {
       "name": "JEP 393 - Foreign-Memory Access API (Third Incubator)",
