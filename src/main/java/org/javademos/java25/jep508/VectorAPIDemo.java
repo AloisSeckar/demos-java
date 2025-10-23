@@ -49,33 +49,36 @@ public class VectorAPIDemo implements IDemo {
 
         // demo task - calculating mass of a random rectangular prism - 100M times
 
-        System.out.println("Initializing operands");
+        try {
+            System.out.println("Initializing operands");
 
-        // init operands
-        var a = new float[MAX_ITEMS];
-        var b = new float[MAX_ITEMS];
-        var c = new float[MAX_ITEMS];
-        var rand = new Random();
-        for (int i = 0; i < MAX_ITEMS; ++i) {
-            a[i] = rand.nextFloat();
-            b[i] = rand.nextFloat();
-            c[i] = rand.nextFloat();
+            // init operands
+            var a = new float[MAX_ITEMS];
+            var b = new float[MAX_ITEMS];
+            var c = new float[MAX_ITEMS];
+            var rand = new Random();
+            for (int i = 0; i < MAX_ITEMS; ++i) {
+                a[i] = rand.nextFloat();
+                b[i] = rand.nextFloat();
+                c[i] = rand.nextFloat();
+            }
+
+            // First traditional way...
+            System.out.println("Prism mass - scalar");
+            var s1 = System.nanoTime();
+            countPrismMassScalar(a, b, c);
+            var f1 = System.nanoTime();
+            System.out.println("Took: " + ((f1 - s1) / 1000000) + "ms");
+
+            // Now using vector API...
+            System.out.println("Prism mass - vector");
+            var s2 = System.nanoTime();
+            countPrismMassVector(a, b, c);
+            var f2 = System.nanoTime();
+            System.out.println("Took: " + ((f2 - s2) / 1000000) + "ms");
+        } catch (OutOfMemoryError _) {
+            System.err.println("ERROR: Not enough memory to run this demo. Consider allocating more.");
         }
-
-        // First traditional way...
-        System.out.println("Prism mass - scalar");
-        var s1 = System.nanoTime();
-        countPrismMassScalar(a, b, c);
-        var f1 = System.nanoTime();
-        System.out.println("Took: " + ((f1 - s1) / 1000000) + "ms");
-
-        // Now using vector API...
-        System.out.println("Prism mass - vector");
-        var s2 = System.nanoTime();
-        countPrismMassVector(a, b, c);
-        var f2 = System.nanoTime();
-        System.out.println("Took: " + ((f2 - s2) / 1000000) + "ms");
-
     }
 
     // input arrays are presumed to be the same size

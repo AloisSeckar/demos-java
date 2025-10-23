@@ -7,9 +7,18 @@
     }
   },
   {
+    "jep": 380,
+    "info": {
+      "name": "JEP 380 - Unix-Domain Socket Channels",
+      "desc": "Add support for Unix-domain sockets, commonly used for inter-process communication on the same host."
+    }
+  },
+  {
     "jep": 388,
-    "name": "Windows/AArch64 Port",
-    "desc": "Port the JDK to Windows/AArch64 (ARM64)."
+    "info": {
+      "name": "JEP 388 - Windows/AArch64 Port",
+      "desc": "Port the JDK to Windows/AArch64 (ARM64)."
+    }
   },
   {
     "jep": 389,
@@ -20,7 +29,7 @@
   },
   {
     "jep": 390,
-    "name": "Warnings for Value-Based Classes",
+    "name": "JEP 390 - Warnings for Value-Based Classes",
     "desc": "Designate wrapper classes as value-based and add warnings about attempts to synchronize on them."
   },
   {
@@ -29,6 +38,26 @@
       "name": "JEP 393 - Foreign-Memory Access API (Third Incubator)",
       "dscr": "Up-to-date demo moved to `org.javademos.java22.jep454.ForeignFunctionMemoryDemo` (JEP 454)"
     }
+  },
+
+  {
+    "jep": 394,
+    "info": {
+      "name": "JEP 394 - Pattern Matching for instanceof",
+      "dscr": "Enhances instanceof operator to perform pattern matching, reducing boilerplate code."
+    }
+  },
+  {
+    "jep": 396,
+    "name": "Strongly Encapsulate JDK Internals by Default",
+    "desc": "Strongly encapsulate all internal elements of the JDK by default, allowing access only via the `--illegal-access` option."
+  },
+  {
+  "jep": 395,
+  "info": {
+    "name": "JEP 395 - Records",
+    "dscr": "Finalizes Records, transparent carriers for immutable data; see RecordDemo.java"
+   }
   },
   {
   "jep": 397,
