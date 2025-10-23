@@ -14,6 +14,11 @@
     }
   },
   {
+    "jep": 390,
+    "name": "Warnings for Value-Based Classes",
+    "desc": "Designate wrapper classes as value-based and add warnings about attempts to synchronize on them."
+  },
+  {
     "jep": 393,
     "info": {
       "name": "JEP 393 - Foreign-Memory Access API (Third Incubator)",
