@@ -7,6 +7,11 @@
     }
   },
   {
+    "jep": 380,
+    "name": "Unix-Domain Socket Channels",
+    "desc": "Add support for Unix-domain sockets, commonly used for inter-process communication on the same host."
+  },
+  {
     "jep": 389,
     "info": {
       "name": "JEP 389 - Foreign Linker API (Incubator)",
