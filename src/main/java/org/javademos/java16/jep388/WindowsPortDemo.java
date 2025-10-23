@@ -15,15 +15,10 @@ import org.javademos.commons.IDemo;
 /// @since Java 16
 public class WindowsPortDemo implements IDemo {
 
+  
     @Override
-    public void demo() {
-        // Call info helper
-        info(388);
-
-        // This JEP was a porting effort, not a code feature.
-        // There are no specific APIs or language changes to demonstrate.
-        System.out.println("JEP 388 ported the JDK to the Windows/AArch64 platform.");
-        System.out.println("There is no specific Java code or API to demonstrate for this feature.");
-        System.out.println("Demo complete.");
-    }
+public void demo() {
+    // Call info helper
+    info(388);
+}
 }
