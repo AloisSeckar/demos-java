@@ -8,8 +8,17 @@
   },
   {
     "jep": 380,
-    "name": "Unix-Domain Socket Channels",
-    "desc": "Add support for Unix-domain sockets, commonly used for inter-process communication on the same host."
+    "info": {
+      "name": "JEP 380 - Unix-Domain Socket Channels",
+      "desc": "Add support for Unix-domain sockets, commonly used for inter-process communication on the same host."
+    }
+  },
+  {
+    "jep": 388,
+    "info": {
+      "name": "JEP 388 - Windows/AArch64 Port",
+      "desc": "Port the JDK to Windows/AArch64 (ARM64)."
+    }
   },
   {
     "jep": 389,
@@ -20,7 +29,7 @@
   },
   {
     "jep": 390,
-    "name": "Warnings for Value-Based Classes",
+    "name": "JEP 390 - Warnings for Value-Based Classes",
     "desc": "Designate wrapper classes as value-based and add warnings about attempts to synchronize on them."
   },
   {
