@@ -5,13 +5,22 @@ This application helps to show some new features being introduced in Java versio
 All relevant info is written down in comments inside sources.
 
 ## Prerequisites
-This project requires **Java JDK 25** to run. I namely use [GraalVM for JDK 25](https://www.graalvm.org/release-notes/JDK_25/) for development and testing.
+This project requires **Java JDK 25** to run. I namely use [GraalVM for JDK 25](https://www.graalvm.org/release-notes/JDK_25/) for development and testing. For compiling, [Maven](https://maven.apache.org/index.html) is required (newest available version is advised).
 
 ## Usage
-Checkout the project and explore the files in your favorite IDE.
+Checkout the project and explore the files in your favorite IDE. You may find some important context and information in the comments directly in the code.
 
-You can also `mvn clean install` the project and then just run `java --enable-preview --add-modules=jdk.incubator.vector -jar target\JavaDemos-25.0.jar`.
-But you may miss some important context and information without reading the comments in the source code. 
+To build the project locally:
+
+```sh
+mvn clean install
+```
+
+To run the project locally:
+
+```sh
+java --enable-preview --add-modules=jdk.incubator.vector -jar target/JavaDemos-25.0.jar
+```
 
 Using `--enable-preview` and `--add-modules` options is necessary to make the newest Java language features available.
 
