@@ -17,8 +17,13 @@ public class WindowsPortDemo implements IDemo {
 
   
     @Override
-public void demo() {
-    // Call info helper
-    info(388);
-}
+    public void demo() {
+        // Call info helper
+        info(388);
+
+        // This JEP was a porting effort to make the JDK runnable on Windows/AArch64.
+        // It does not introduce new Java APIs or language features.
+        // Therefore, there is no specific code to demonstrate its effects directly.
+        // The main outcome is the availability of JDK builds for this platform.
+    }
 }
