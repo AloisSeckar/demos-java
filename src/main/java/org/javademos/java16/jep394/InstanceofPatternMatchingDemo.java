@@ -1,4 +1,4 @@
-package org.javademos.java17.pattern;
+package org.javademos.java16.jep394;
 
 import org.javademos.commons.IDemo;
 
@@ -20,7 +20,7 @@ public class InstanceofPatternMatchingDemo implements IDemo {
 
     @Override
     public void demo() {
-        info("PATTERN MATCHING DEMO", "Example of 'instanceof jep441 matching'\nintroduced in Java 14");
+        info(394);
 
         Object x = 5;
         System.out.println("X is: " + x);
