@@ -15,9 +15,8 @@ import org.javademos.java17.jep411.DeprecateSecurityManagerDemo;
 import org.javademos.java17.jep412.ForeignFunctionMemoryDemo;
 import org.javademos.java17.jep414.VectorAPIDemo;
 import org.javademos.java17.jep415.ContextSpecificDeserializationFiltersDemo;
-
+// older demos created with "non-JEP" style (will be replaced soon)
 import org.javademos.java17.deprecated.DeprecatedDemo;
-import org.javademos.java17.j16.J16Demo;
 import org.javademos.java17.newswitch.SwitchDemo;
 import org.javademos.java17.nullpointer.NullPointerDemo;
 import org.javademos.java17.string12.String12Demo;
@@ -32,6 +31,7 @@ public class Java17 {
         var java17DemoPool = new ArrayList<IDemo>();
 
         // feel free to comment out demos you are not interested in right now
+        
         // JEP 306
         java17DemoPool.add(new RestoreAlwaysStrictFloatingPointSemanticsDemo());
         // JEP 382  
@@ -62,7 +62,6 @@ public class Java17 {
         java17DemoPool.add(new SwitchDemo());
         java17DemoPool.add(new NullPointerDemo());
         java17DemoPool.add(new TextBlockDemo());
-        java17DemoPool.add(new J16Demo());
         java17DemoPool.add(new DeprecatedDemo());
 
         return java17DemoPool;
