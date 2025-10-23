@@ -7,11 +7,21 @@
     }
   },
   {
+    "jep": 380,
+    "name": "Unix-Domain Socket Channels",
+    "desc": "Add support for Unix-domain sockets, commonly used for inter-process communication on the same host."
+  },
+  {
     "jep": 389,
     "info": {
       "name": "JEP 389 - Foreign Linker API (Incubator)",
       "dscr": "Up-to-date demo moved to `org.javademos.java22.jep454.ForeignFunctionMemoryDemo` (JEP 454)"
     }
+  },
+  {
+    "jep": 390,
+    "name": "Warnings for Value-Based Classes",
+    "desc": "Designate wrapper classes as value-based and add warnings about attempts to synchronize on them."
   },
   {
     "jep": 393,
@@ -27,6 +37,11 @@
       "name": "JEP 394 - Pattern Matching for instanceof",
       "dscr": "Enhances instanceof operator to perform pattern matching, reducing boilerplate code."
     }
+  },
+  {
+    "jep": 396,
+    "name": "Strongly Encapsulate JDK Internals by Default",
+    "desc": "Strongly encapsulate all internal elements of the JDK by default, allowing access only via the `--illegal-access` option."
   },
   {
   "jep": 397,
