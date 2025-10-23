@@ -3,24 +3,22 @@ package org.javademos.java16.jep380;
 import org.javademos.commons.IDemo;
 import java.io.IOException;
 import java.net.StandardProtocolFamily;
-import java.net.UnixDomainSocketAddress; 
+import java.net.UnixDomainSocketAddress;
 import java.nio.channels.ServerSocketChannel;
 import java.nio.file.Files;
 import java.nio.file.Path;
 
-/**
- * ## JEP 380: Unix-Domain Socket Channels
- *
- * ### History
- * Unix domain sockets provide efficient inter-process communication (IPC)
- * on the same host, avoiding network stack overhead. This JEP adds support
- * for them to Java's NIO channel APIs.
- *
- * ### Links
- * - [Official JEP 380](https://openjdk.org/jeps/380)
- *
- * @since Java 16
- */
+/// ## JEP 380: Unix-Domain Socket Channels
+///
+/// ### History
+/// Unix domain sockets provide efficient inter-process communication (IPC)
+/// on the same host, avoiding network stack overhead. This JEP adds support
+/// for them to Java's NIO channel APIs.
+///
+/// ### Links
+/// - [Official JEP 380](https://openjdk.org/jeps/380)
+///
+/// @since Java 16
 public class UnixDomainSocketsDemo implements IDemo {
 
     @Override
@@ -56,7 +54,6 @@ public class UnixDomainSocketsDemo implements IDemo {
             serverChannel.bind(address);
             System.out.println("Server socket channel bound successfully to: " + address);
 
-    
             // Clean up
             serverChannel.close();
             Files.deleteIfExists(socketPath);
