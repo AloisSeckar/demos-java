@@ -19,11 +19,21 @@
     }
   },
   {
+    "jep": 390,
+    "name": "Warnings for Value-Based Classes",
+    "desc": "Designate wrapper classes as value-based and add warnings about attempts to synchronize on them."
+  },
+  {
     "jep": 393,
     "info": {
       "name": "JEP 393 - Foreign-Memory Access API (Third Incubator)",
       "dscr": "Up-to-date demo moved to `org.javademos.java22.jep454.ForeignFunctionMemoryDemo` (JEP 454)"
     }
+  },
+  {
+    "jep": 396,
+    "name": "Strongly Encapsulate JDK Internals by Default",
+    "desc": "Strongly encapsulate all internal elements of the JDK by default, allowing access only via the `--illegal-access` option."
   },
   {
   "jep": 397,

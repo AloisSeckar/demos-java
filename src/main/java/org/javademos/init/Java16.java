@@ -6,7 +6,9 @@ import org.javademos.commons.IDemo;
 import org.javademos.java16.jep338.VectorAPIDemo;
 import org.javademos.java16.jep380.UnixDomainSocketsDemo;
 import org.javademos.java16.jep389.ForeignLinkerDemo;
+import org.javademos.java16.jep390.ValueBasedClassesDemo;
 import org.javademos.java16.jep393.ForeignMemoryAccessDemo;
+import org.javademos.java16.jep396.EncapsulationDemo;
 import org.javademos.java16.jep397.SealedClassesDemo;
 
 public class Java16 {
@@ -25,8 +27,12 @@ public class Java16 {
         java16DemoPool.add(new UnixDomainSocketsDemo());
         // JEP 389
         java16DemoPool.add(new ForeignLinkerDemo());
+        //JEP 390
+        java16DemoPool.add(new ValueBasedClassesDemo());
         // JEP 393
         java16DemoPool.add(new ForeignMemoryAccessDemo());
+         // JEP 396
+        java16DemoPool.add(new EncapsulationDemo());
         // JEP 397
         java16DemoPool.add(new SealedClassesDemo());
         return java16DemoPool;
