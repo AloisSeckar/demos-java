@@ -16,8 +16,11 @@ public class Java15 {
         var java15DemoPool = new ArrayList<IDemo>();
 
         // feel free to comment out demos you are not interested in right now
+
         // JEP 360
         java15DemoPool.add(new SealedClassesDemo());
+        // JEP 375
+        java15DemoPool.add(new InstanceofPatternMatchingSecondPreview());
         // JEP 383
         java15DemoPool.add(new ForeignMemoryAccessDemo());
         // JEP 384
