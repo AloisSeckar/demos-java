@@ -1,4 +1,4 @@
-package org.javademos.java17.deprecated;
+package org.javademos.java17.extras;
 
 import org.javademos.commons.IDemo;
 
@@ -14,7 +14,7 @@ import org.javademos.commons.IDemo;
 /// - [Removed Tools and Components](https://docs.oracle.com/en/java/javase/17/migrate/removed-tools-and-components.html) - list of DEPRECATED and REMOVED from platform features until Java 17
 /// 
 /// @author alois.seckar@gmail.com
-public class DeprecatedDemo implements IDemo {
+public class J17DeprecatedDemo implements IDemo {
 
     @Override
     public void demo() {
