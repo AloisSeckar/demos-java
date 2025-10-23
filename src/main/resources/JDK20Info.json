@@ -10,7 +10,7 @@
     "jep": 432,
     "info": {
       "name": "JEP 432 - Record Patterns (Second Preview)",
-      "dscr": "The second preview of Record Patterns. The final implementation is in JEP 441."
+      "dscr": "The second preview of Record Patterns. The final implementation is in JEP 440."
     }
   },
   {

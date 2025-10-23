@@ -13,6 +13,14 @@
       "desc": "Add support for Unix-domain sockets, commonly used for inter-process communication on the same host."
     }
   },
+ 
+  {
+    "jep": 386,
+    "info": {
+      "name": "JEP 386 - Alpine Linux Port",
+      "dscr": "Ports the JDK to Alpine Linux and other Linux distributions using musl as their primary C library on x64 and AArch64."
+    }
+  },
   {
     "jep": 388,
     "info": {
@@ -31,6 +39,13 @@
     "jep": 390,
     "name": "JEP 390 - Warnings for Value-Based Classes",
     "desc": "Designate wrapper classes as value-based and add warnings about attempts to synchronize on them."
+  },
+  {
+    "jep": 392,
+    "info": {
+      "name": "JEP 392 - Packaging Tool",
+      "dscr": "Finalizes the jpackage tool for creating native application installers (MSI, EXE, DMG, PKG, DEB, RPM)."
+    }
   },
   {
     "jep": 393,
