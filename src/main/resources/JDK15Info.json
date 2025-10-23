@@ -1,4 +1,10 @@
-[
+[ {
+    "jep": 375,
+    "info": {
+      "name": "JEP 375 - Pattern Matching for instanceof (Second Preview)",
+      "dscr": "Second preview of Pattern Matching for instanceof. Finalized in JEP 394 (JDK 16)."
+    }
+  },
   {
     "jep": 383,
     "info": {
