@@ -19,7 +19,6 @@ import org.javademos.java17.jep415.ContextSpecificDeserializationFiltersDemo;
 import org.javademos.java17.deprecated.DeprecatedDemo;
 import org.javademos.java17.newswitch.SwitchDemo;
 import org.javademos.java17.nullpointer.NullPointerDemo;
-import org.javademos.java17.string12.String12Demo;
 import org.javademos.java17.textblock.TextBlockDemo;
 
 public class Java17 {
@@ -31,7 +30,7 @@ public class Java17 {
         var java17DemoPool = new ArrayList<IDemo>();
 
         // feel free to comment out demos you are not interested in right now
-        
+
         // JEP 306
         java17DemoPool.add(new RestoreAlwaysStrictFloatingPointSemanticsDemo());
         // JEP 382  
@@ -58,7 +57,6 @@ public class Java17 {
         java17DemoPool.add(new ContextSpecificDeserializationFiltersDemo());
 
         // older demos created with "non-JEP" style
-        java17DemoPool.add(new String12Demo());
         java17DemoPool.add(new SwitchDemo());
         java17DemoPool.add(new NullPointerDemo());
         java17DemoPool.add(new TextBlockDemo());

@@ -1,6 +1,7 @@
 package org.javademos.init;
 
 import org.javademos.commons.IDemo;
+import org.javademos.java12.extras.String12Demo;
 
 import java.util.ArrayList;
 
@@ -14,6 +15,8 @@ public class Java12 {
 
         // feel free to comment out demos you are not interested in right now
         
+        // extra features not related to any JEP
+        java12DemoPool.add(new String12Demo());
         // JEP xxx
         // java12DemoPool.add(new xyz());
 
