@@ -30,7 +30,8 @@ jobs:
       - name: Maven clean install (compile only)
         run: mvn -B -ntp -DskipTests clean install
 
-      - name: Smoke run demos (fail on runtime exceptions)
+      - name: Test run (fail on runtime exceptions)
+        id: demo-run
         shell: bash
         run: |
           set -euo pipefail
@@ -44,8 +45,8 @@ jobs:
             exit 1
           }
 
-      - name: Upload run.log on failure
-        if: failure()
+      - name: Upload run.log on runtime failure
+        if: steps.demo-run.outcome == 'failure'
         uses: actions/upload-artifact@v4
         with:
           name: run-log
