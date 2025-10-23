@@ -7,6 +7,11 @@
     }
   },
   {
+    "jep": 388,
+    "name": "Windows/AArch64 Port",
+    "desc": "Port the JDK to Windows/AArch64 (ARM64)."
+  },
+  {
     "jep": 389,
     "info": {
       "name": "JEP 389 - Foreign Linker API (Incubator)",
