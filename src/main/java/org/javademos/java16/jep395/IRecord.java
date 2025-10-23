@@ -1,4 +1,4 @@
-package org.javademos.java17.record;
+package org.javademos.java16.jep395;
 
 /**
  * Simple interface to show 'record' keyword behavior.

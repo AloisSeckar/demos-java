@@ -9,6 +9,7 @@ import org.javademos.java16.jep389.ForeignLinkerDemo;
 import org.javademos.java16.jep390.ValueBasedClassesDemo;
 import org.javademos.java16.jep393.ForeignMemoryAccessDemo;
 import org.javademos.java16.jep394.InstanceofPatternMatchingDemo;
+import org.javademos.java16.jep395.RecordDemo;
 import org.javademos.java16.jep396.EncapsulationDemo;
 import org.javademos.java16.jep397.SealedClassesDemo;
 
@@ -34,10 +35,13 @@ public class Java16 {
         java16DemoPool.add(new ForeignMemoryAccessDemo());
         // JEP 394
         java16DemoPool.add(new InstanceofPatternMatchingDemo());
-         // JEP 396
+        // JEP 395
+        java16DemoPool.add(new RecordDemo());
+        // JEP 396
         java16DemoPool.add(new EncapsulationDemo());
         // JEP 397
         java16DemoPool.add(new SealedClassesDemo());
+      
         return java16DemoPool;
     }
 }
