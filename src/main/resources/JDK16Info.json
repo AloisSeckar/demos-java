@@ -21,6 +21,11 @@
     }
   },
   {
+    "jep": 396,
+    "name": "Strongly Encapsulate JDK Internals by Default",
+    "desc": "Strongly encapsulate all internal elements of the JDK by default, allowing access only via the `--illegal-access` option."
+  },
+  {
   "jep": 397,
   "info": {
     "name": "JEP 397 - Sealed Classes (Second Preview)",
