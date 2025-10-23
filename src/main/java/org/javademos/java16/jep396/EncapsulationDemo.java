@@ -4,19 +4,17 @@ import org.javademos.commons.IDemo;
 import java.lang.reflect.Field;
 import java.lang.reflect.InaccessibleObjectException; // The key exception
 
-/**
- * ## JEP 396: Strongly Encapsulate JDK Internals by Default
- *
- * ### History
- * Before Java 16, it was possible (though discouraged) to use Reflection to
- * access internal, private parts of the JDK. This JEP changed the default
- * behavior to block such access unless specifically permitted via command-line flags.
- *
- * ### Links
- * - [Official JEP 396](https://openjdk.org/jeps/396)
- *
- * @since Java 16
- */
+/// ## JEP 396: Strongly Encapsulate JDK Internals by Default
+///
+/// ### History
+/// Before Java 16, it was possible (though discouraged) to use Reflection to
+/// access internal, private parts of the JDK. This JEP changed the default
+/// behavior to block such access unless specifically permitted via command-line flags.
+///
+/// ### Links
+/// - [Official JEP 396](https://openjdk.org/jeps/396)
+///
+/// @since Java 16
 public class EncapsulationDemo implements IDemo {
 
     @Override
