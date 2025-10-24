@@ -36,7 +36,7 @@ Originally, there were only a few cherry-picked demos for features I find most i
 **NOTE:** Due to transition period, some information here may not correspond with the current state of the source code. Feel free to ask when in doubt.
 
 [`IDemo` interface](/src/main/java/org/javademos/commons/IDemo.java) prescribes two methods:
-- `info()` - unified header, that only needs to be supplied with JEP number. Then it looks up the text info in Map defined in [`DemoInfo` class](/src/main/java/org/javademos/commons/DemoInfo.java) and prints it in a standardized way.
+- `info()` - unified header, that only needs to be supplied with JEP number. Then it looks up the text info in Map defined in [`JEPInfo` class](/src/main/java/org/javademos/commons/JEPInfo.java) and prints it in a standardized way.
 - `demo()` - this is the actual implementation of whatever can be shown to demonstrate tne new features introduced with the given JEP.
 
 The code part in `demo()` method can contain little to no actual code. For many JEPs that are altering the internals of JVM or implementations of JDK library classes, only printing out some text summary may be enough to cover it.
@@ -78,7 +78,7 @@ We can always discuss under each individual issue/PR, how to turn your invaluabl
     - If your implementation creates any files, save them under the repository-local `tmp/` folder. This folder is gitignored to prevent untracked artifacts.
     - Follow the markdown style comments to describe the class.
     - Do not hesitate to use (standard) comments inside your code - remember the desired usecase is future users will check the code to figure out how the feature works.
-    - Do not forget to add required record to the respective JSON resource file (JEP name and brief, but meaningful description). **Keep the records ordered by JEP number ascending.**
+    - Do not forget to add required record to the respective JSON resource file. **Keep the records ordered by JEP number ascending.** This record should follow this structure: JEP number, JDK version, name, brief description, link (true if this JEP is replaced by another JEP), code (true if it contains code and not only comments describing JEP). 
     - Do not forget to add your new demo into the respective helper class for the JDK version, so it gets executed from `Main.java`. Always add comment with JEP number for better clarity. **Keep the demos ordered by JEP number ascending.**
     - Make sure you are not accidentally submitting some other files or changes that are not related to PR topic.
     - Because this project might be quite active with multiple contributors working on same files, please make sure your fork is in sync with the `master` branch of the original repository before submitting the PR. Double-check the "Files changed" tab of your PR and avoid posting anything not relevant to your changes.
