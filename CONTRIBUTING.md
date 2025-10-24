@@ -29,7 +29,7 @@ Originally, there were only a few cherry-picked demos for features I find most i
 - Folder [`org.javademos.init`](https://github.com/AloisSeckar/demos-java/tree/master/src/main/java/org/javademos/init) contains helper classes, one for every JDK version, that were introduced mostly to reduce number of imports per class. Also it allows to turn on/off whole sub-set for given JDK version, if needed.
 - Last but not least, [`Main.java`](https://github.com/AloisSeckar/demos-java/blob/master/src/main/java/org/javademos/Main.java) class is the main entrypoint - it starts by displaying current JVM info, then loads all demos from the helper files and runs them one by one. The output depends on their implementation.
 
-**Note:** Currently, there is a transition period, when JDK 22 and older files are not yet fully transferred to the new structure. Once you get familiar with this project better, you can also help with that aside from implementing new demos for lates JEPs.
+**Note:** Currently, there is a transition period, when JDK 22 and older files are not yet fully transferred to the new structure. Once you get familiar with this project better, you can also help with that aside from implementing new demos for latest JEPs.
 
 ## Demo implementation
 
@@ -51,11 +51,11 @@ Current referential implementation is [MarkdownComments.java for JEP 467](/src/m
 
 ## Contributions
 
-**If you want to help with some issue, please check if it not assigned yet first!** Lets avoid unncessesary conflicts and disappointments before they can happen.
+**If you want to help with some issue, please check if it is not assigned yet first!** Let's avoid unnecessary conflicts and disappointments before they can happen.
 
-Currently, the focus is on implementing demos for all features of JDK versions going down from 25. Focused issues are being opened. However, if you feel like creating demo for some other JEP, which doesn't have issue yet, you are very much welcome to do so! Just let me know by opening an issue, so it can be properly tracked and your contribution can be recognized. Rememeber, many JEPs are not covered yet.
+Currently, the focus is on implementing demos for all features of JDK versions going down from 25. Focused issues are being opened. However, if you feel like creating demo for some other JEP, which doesn't have issue yet, you are very much welcome to do so! Just let me know by opening an issue, so it can be properly tracked and your contribution can be recognized. Remember, many JEPs are not covered yet.
 
-Issues are tagged with labels. If you are here for the first time, look for `good first issue` label which indicates relatively smaller and simplier tasks. Tasks labeled with `advanced` will require better understanding of this project structure and they are recommended to users who already have some PRs accepted. Before starting to work on any issue, be sure you understand the task clearly to avoid unnecessary re-work. If in doubt, please, ask in the issue comments.
+Issues are tagged with labels. If you are here for the first time, look for `good first issue` label which indicates relatively smaller and simpler tasks. Tasks labeled with `advanced` will require better understanding of this project structure, and they are recommended to users who already have some PRs accepted. Before starting to work on any issue, be sure you understand the task clearly to avoid unnecessary re-work. If in doubt, please, ask in the issue comments.
 
 A number of JEP demos exist already, but they're not fully transferred to the new style (with Markdown comments) or there are some inconsistencies with the majority of the project. So this is also an option for your contributions.
 
@@ -77,8 +77,8 @@ We can always discuss under each individual issue/PR, how to turn your invaluabl
     - Place the new file accordingly into the project structure (correct JDK and JEP folder).
     - If your implementation creates any files, save them under the repository-local `tmp/` folder. This folder is gitignored to prevent untracked artifacts.
     - Follow the markdown style comments to describe the class.
-    - Do not hesitate to use (standard) comments inside your code - remember the desired usecase is future users will check the code to figure out how the feature works.
-    - Do not forget to add required record to the respective JSON resource file. **Keep the records ordered by JEP number ascending.** This record should follow this structure: JEP number, JDK version, name, brief description, link (true if this JEP is replaced by another JEP), code (true if it contains code and not only comments describing JEP). 
+    - Do not hesitate to use (standard) comments inside your code - remember the desired use case is future users will check the code to figure out how the feature works.
+    - Do not forget to add required record to the respective JSON resource file. **Keep the records ordered by JEP number ascending.** This record should follow next structure: JEP number, JDK version, name, brief description, link (true if this JEP is replaced by another JEP), code (true if it contains code and not only comments describing JEP). 
     - Do not forget to add your new demo into the respective helper class for the JDK version, so it gets executed from `Main.java`. Always add comment with JEP number for better clarity. **Keep the demos ordered by JEP number ascending.**
     - Make sure you are not accidentally submitting some other files or changes that are not related to PR topic.
     - Because this project might be quite active with multiple contributors working on same files, please make sure your fork is in sync with the `master` branch of the original repository before submitting the PR. Double-check the "Files changed" tab of your PR and avoid posting anything not relevant to your changes.
