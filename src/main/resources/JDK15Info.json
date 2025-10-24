@@ -6,6 +6,11 @@
     }
   },
   {
+    "jep": 381,
+    "name": "Remove the Solaris and SPARC Ports",
+    "desc": "Remove the source code and build support for the Solaris/SPARC, Solaris/x64, and Linux/SPARC ports."
+  },
+  {
     "jep": 383,
     "info": {
       "name": "JEP 383 - Foreign-Memory Access API (Second Incubator)",
