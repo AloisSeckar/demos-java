@@ -1,65 +1,56 @@
 [
   {
     "jep": 400,
-    "info": {
-      "name": "JEP 400 - UTF-8 by Default",
-      "dscr": "Sets the default charset to UTF-8 for Java applications, improving compatibility and reducing bugs related to character encoding."
-    }
+    "jdk": 18,
+    "name": "JEP 400 - UTF-8 by Default",
+    "dscr": "Sets the default charset to UTF-8 for Java applications, improving compatibility and reducing bugs related to character encoding."
   },
   {
     "jep": 408,
-    "info": {
-      "name": "JEP 408 - Simple Web Server",
-      "dscr": "Command-line tool and API to start a minimal HTTP server for serving static files. Useful for prototyping, testing, and educational purposes."
-    }
+    "jdk": 18,
+    "name": "JEP 408 - Simple Web Server",
+    "dscr": "Command-line tool and API to start a minimal HTTP server for serving static files. Useful for prototyping, testing, and educational purposes."
   },
   {
     "jep": 413,
-    "info": {
-      "name": "JEP 413 - Code Snippets in Java API Documentation",
-      "dscr": "Introduces the @snippet tag for JavaDoc to simplify the inclusion of example source code in API documentation."
-    }
+    "jdk": 18,
+    "name": "JEP 413 - Code Snippets in Java API Documentation",
+    "dscr": "Introduces the @snippet tag for JavaDoc to simplify the inclusion of example source code in API documentation."
   },
   {
     "jep": 416,
-    "info": {
-      "name": "JEP 416 - Reimplement Core Reflection with Method Handles",
-      "dscr": "An internal reimplementation of Core Reflection to use method handles, unifying the platform's reflective mechanisms. This change improves performance for constant-folded reflection calls and reduces JDK maintenance costs."
-    }
+    "jdk": 18,
+    "name": "JEP 416 - Reimplement Core Reflection with Method Handles",
+    "dscr": "An internal reimplementation of Core Reflection to use method handles, unifying the platform's reflective mechanisms. This change improves performance for constant-folded reflection calls and reduces JDK maintenance costs."
   },
   {
     "jep": 417,
-    "info": {
-      "name": "JEP 417 - Vector API (Third Incubator)",
-      "dscr": "Up-to-date demo moved to `org.javademos.java25.jep508.VectorAPIDemo` (JEP 508)"
-    }
+    "jdk": 18,
+    "name": "JEP 417 - Vector API (Third Incubator)",
+    "dscr": "Up-to-date demo moved to `org.javademos.java25.jep508.VectorAPIDemo` (JEP 508)"
   },
   {
     "jep": 418,
-    "info": {
-      "name": "JEP 418 - Internet-Address Resolution SPI",
-      "dscr": "Defines a service-provider interface (SPI) for host name and address resolution, allowing `java.net.InetAddress` to use custom resolvers."
-    }
+    "jdk": 18,
+    "name": "JEP 418 - Internet-Address Resolution SPI",
+    "dscr": "Defines a service-provider interface (SPI) for host name and address resolution, allowing `java.net.InetAddress` to use custom resolvers."
   },
   {
     "jep": 419,
-    "info": {
-      "name": "JEP 419 - Foreign Function & Memory API (Second Incubator)",
-      "dscr": "Up-to-date demo moved to `org.javademos.java22.jep454.ForeignFunctionMemoryDemo` (JEP 454)"
-    }
+    "jdk": 18,
+    "name": "JEP 419 - Foreign Function & Memory API (Second Incubator)",
+    "dscr": "Up-to-date demo moved to `org.javademos.java22.jep454.ForeignFunctionMemoryDemo` (JEP 454)"
   },
   {
     "jep": 420,
-    "info": {
-      "name": "JEP 420 - Pattern Matching for switch (Second Preview)",
-      "dscr": "The second preview of Pattern Matching for switch. The final implementation is in JEP 441."
-    }
+    "jdk": 18,
+    "name": "JEP 420 - Pattern Matching for switch (Second Preview)",
+    "dscr": "The second preview of Pattern Matching for switch. The final implementation is in JEP 441."
   },
   {
     "jep": 421,
-    "info": {
-      "name": "JEP 421 - Deprecate Finalization for Removal",
-      "dscr": "Deprecates the finalization mechanism for removal in a future release due to its inherent flaws."
-    }
+    "jdk": 18,
+    "name": "JEP 421 - Deprecate Finalization for Removal",
+    "dscr": "Deprecates the finalization mechanism for removal in a future release due to its inherent flaws."
   }
 ]

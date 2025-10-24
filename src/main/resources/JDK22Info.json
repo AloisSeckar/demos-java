@@ -1,86 +1,74 @@
 [
   {
     "jep": 423,
-    "info": {
-      "name": "JEP 423 - Region Pinning for G1",
-      "dscr": "No executable code, see RegionPinningForG1 class for further info"
-    }
+    "jdk": 22,
+    "name": "JEP 423 - Region Pinning for G1",
+    "dscr": "No executable code, see RegionPinningForG1 class for further info"
   },
   {
     "jep": 447,
-    "info": {
-      "name": "JEP 447 - Statements before super(...) (Preview)",
-      "dscr": "Implementation moved into `org.javademos.java23.jep482.FlexibleConstructorBodies` (JEP 482)"
-    }
+    "jdk": 22,
+    "name": "JEP 447 - Statements before super(...) (Preview)",
+    "dscr": "Implementation moved into `org.javademos.java23.jep482.FlexibleConstructorBodies` (JEP 482)"
   },
   {
     "jep": 454,
-    "info": {
-      "name": "JEP 454 - Foreign Function & Memory API",
-      "dscr": "Demonstrates calling C library function 'strlen' using Java's Foreign Function & Memory API."
-    }
+    "jdk": 22,
+    "name": "JEP 454 - Foreign Function & Memory API",
+    "dscr": "Demonstrates calling C library function 'strlen' using Java's Foreign Function & Memory API."
   },
   {
     "jep": 456,
-    "info": {
-      "name": "JEP 456 - Unnamed Patterns and Variables",
-      "dscr": "Finalizes the feature to use an underscore `_` for unnamed variables and patterns, improving code clarity when a variable's value is not needed."
-    }
+    "jdk": 22,
+    "name": "JEP 456 - Unnamed Patterns and Variables",
+    "dscr": "Finalizes the feature to use an underscore `_` for unnamed variables and patterns, improving code clarity when a variable's value is not needed."
   },
   {
     "jep": 457,
-    "info": {
-      "name": "JEP 457 - Class-File API (Preview)",
-      "dscr": "Up-to-date demo moved to `org.javademos.java24.jep484.ClassFileAPIDemo` (JEP 484)"
-    }
+    "jdk": 22,
+    "name": "JEP 457 - Class-File API (Preview)",
+    "dscr": "Up-to-date demo moved to `org.javademos.java24.jep484.ClassFileAPIDemo` (JEP 484)"
   },
   {
     "jep": 458,
-    "info": {
-      "name": "JEP 458 - Launch Multi-File Source-Code Programs",
-      "dscr": "Demonstrates launching multi-file source-code programs directly with java; see LaunchMultiFileSourceDemo.java"
-    }
+    "jdk": 22,
+    "name": "JEP 458 - Launch Multi-File Source-Code Programs",
+    "dscr": "Demonstrates launching multi-file source-code programs directly with java; see LaunchMultiFileSourceDemo.java"
   },
   {
     "jep": 459,
-    "info": {
-      "name": "JEP 459 - String Templates (Second Preview)",
-      "dscr": "A second preview of the String Templates feature. This feature was later removed in JDK 23."    
-    }
+    "jdk": 22,
+    "name": "JEP 459 - String Templates (Second Preview)",
+    "dscr": "A second preview of the String Templates feature. This feature was later removed in JDK 23."
   },
   {
     "jep": 460,
-    "info": {
-      "name": "JEP 460 - Vector API (Seventh Incubator)",
-      "dscr": "Up-to-date demo moved to `org.javademos.java25.jep508.VectorAPIDemo` (JEP 508)"
-    }
+    "jdk": 22,
+    "name": "JEP 460 - Vector API (Seventh Incubator)",
+    "dscr": "Up-to-date demo moved to `org.javademos.java25.jep508.VectorAPIDemo` (JEP 508)"
   },
   {
     "jep": 461,
-    "info": {
-      "name": "JEP 461 - Stream Gatherers (Preview)",
-      "dscr": "Up-to-date demo moved to `org.javademos.java24.jep485.StreamGatherersDemo` (JEP 485)"
-    }
+    "jdk": 22,
+    "name": "JEP 461 - Stream Gatherers (Preview)",
+    "dscr": "Up-to-date demo moved to `org.javademos.java24.jep485.StreamGatherersDemo` (JEP 485)"
   },
   {
     "jep": 462,
-    "info": {
-      "name": "JEP 462 - Structured Concurrency (Second Preview)",
-      "dscr": "Up-to-date demo moved to org.javademos.java25.jep505.StructuredConcurrencyDemo (JEP 505)"
-    }
+    "jdk": 22,
+    "name": "JEP 462 - Structured Concurrency (Second Preview)",
+    "dscr": "Up-to-date demo moved to org.javademos.java25.jep505.StructuredConcurrencyDemo (JEP 505)"
   },
   {
     "jep": 463,
-    "info": {
-      "name": "JEP 463 - Implicitly Declared Classes and Instance Main Methods (Second Preview)",
-      "dscr": "Up-to-date demo moved to `org.javademos.java25.jep512.CompactSourceFilesDemo` (JEP 512)"
-    }
+    "jdk": 22,
+    "name": "JEP 463 - Implicitly Declared Classes and Instance Main Methods (Second Preview)",
+    "dscr": "Up-to-date demo moved to `org.javademos.java25.jep512.CompactSourceFilesDemo` (JEP 512)"
   },
   {
     "jep": 464,
-    "info": {
-      "name": "JEP 464 - Scoped Values (Second Preview)",
-      "dscr": "Up-to-date demo moved to `org.javademos.java25.jep506.ScopedValuesDemo` (JEP 506)"
-    }
+    "jdk": 22,
+    "name": "JEP 464 - Scoped Values (Second Preview)",
+    "dscr": "Up-to-date demo moved to `org.javademos.java25.jep506.ScopedValuesDemo` (JEP 506)"
   }
 ]

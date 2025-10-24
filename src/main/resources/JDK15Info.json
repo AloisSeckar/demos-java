@@ -1,4 +1,5 @@
-[ {
+[
+  {
     "jep": 371,
     "info": {
       "name": "JEP 371 - Hidden Classes",
@@ -14,30 +15,26 @@
   },
 {
     "jep": 375,
-    "info": {
-      "name": "JEP 375 - Pattern Matching for instanceof (Second Preview)",
-      "dscr": "Second preview of Pattern Matching for instanceof. Finalized in JEP 394 (JDK 16)."
-    }
+    "jdk": 15,
+    "name": "JEP 375 - Pattern Matching for instanceof (Second Preview)",
+    "dscr": "Second preview of Pattern Matching for instanceof. Finalized in JEP 394 (JDK 16)."
   },
   {
     "jep": 381,
-    "info": {
-      "name": "JEP 381 - Remove the Solaris and SPARC Ports",
-      "dscr": "Removed the source code and build support for Solaris/SPARC, Solaris/x64, and Linux/SPARC ports. No code demo applicable."
-    }
+    "jdk": 15,
+    "name": "JEP 381 - Remove the Solaris and SPARC Ports",
+    "dscr": "Removed the source code and build support for Solaris/SPARC, Solaris/x64, and Linux/SPARC ports. No code demo applicable."
   },
   {
     "jep": 383,
-    "info": {
-      "name": "JEP 383 - Foreign-Memory Access API (Second Incubator)",
-      "dscr": "Up-to-date demo moved to `org.javademos.java22.jep454.ForeignFunctionMemoryDemo` (JEP 454)"
-    }
+    "jdk": 15,
+    "name": "JEP 383 - Foreign-Memory Access API (Second Incubator)",
+    "dscr": "Up-to-date demo moved to `org.javademos.java22.jep454.ForeignFunctionMemoryDemo` (JEP 454)"
   },
   {
-  "jep": 384,
-  "info": {
+    "jep": 384,
+    "jdk": 15,
     "name": "JEP 384 - Records (Second Preview)",
     "dscr": "Up-to-date demo moved to org.javademos.java16.jep395.RecordDemo (JEP 395)"
   }
-}
 ]

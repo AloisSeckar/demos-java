@@ -1,51 +1,44 @@
 [
   {
     "jep": 429,
-    "info": {
-      "name": "JEP 429 - Scoped Values (Incubator)",
-      "dscr": "Up-to-date demo moved to `org.javademos.java25.jep506.ScopedValuesDemo` (JEP 506)"
-    }
+    "jdk": 20,
+    "name": "JEP 429 - Scoped Values (Incubator)",
+    "dscr": "Up-to-date demo moved to `org.javademos.java25.jep506.ScopedValuesDemo` (JEP 506)"
   },
   {
     "jep": 432,
-    "info": {
-      "name": "JEP 432 - Record Patterns (Second Preview)",
-      "dscr": "The second preview of Record Patterns. The final implementation is in JEP 440."
-    }
+    "jdk": 20,
+    "name": "JEP 432 - Record Patterns (Second Preview)",
+    "dscr": "The second preview of Record Patterns. The final implementation is in JEP 440."
   },
   {
     "jep": 433,
-    "info": {
-      "name": "JEP 433 - Pattern Matching for switch (Fourth Preview)",
-      "dscr": "The fourth preview of Pattern Matching for switch. The final implementation is in JEP 441."
-    }
+    "jdk": 20,
+    "name": "JEP 433 - Pattern Matching for switch (Fourth Preview)",
+    "dscr": "The fourth preview of Pattern Matching for switch. The final implementation is in JEP 441."
   },
   {
     "jep": 434,
-    "info": {
-      "name": "JEP 434 - Foreign Function & Memory API (Second Preview)",
-      "dscr": "Up-to-date demo moved to `org.javademos.java22.jep454.ForeignFunctionMemoryDemo` (JEP 454)"
-    }
+    "jdk": 20,
+    "name": "JEP 434 - Foreign Function & Memory API (Second Preview)",
+    "dscr": "Up-to-date demo moved to `org.javademos.java22.jep454.ForeignFunctionMemoryDemo` (JEP 454)"
   },
   {
     "jep": 436,
-    "info": {
-      "name": "JEP 436 - Virtual Threads (Second Preview)",
-      "dscr": "Up-to-date demo moved to `org.javademos.java21.jep444.VirtualThreadsDemo` (JEP 444)"
-    }
+    "jdk": 20,
+    "name": "JEP 436 - Virtual Threads (Second Preview)",
+    "dscr": "Up-to-date demo moved to `org.javademos.java21.jep444.VirtualThreadsDemo` (JEP 444)"
   },
   {
     "jep": 437,
-    "info": {
-      "name": "JEP 437 - Structured Concurrency (Second Incubator)",
-      "dscr": "Up-to-date demo moved to org.javademos.java25.jep505.StructuredConcurrencyDemo (JEP 505)"
-    }
+    "jdk": 20,
+    "name": "JEP 437 - Structured Concurrency (Second Incubator)",
+    "dscr": "Up-to-date demo moved to org.javademos.java25.jep505.StructuredConcurrencyDemo (JEP 505)"
   },
   {
     "jep": 438,
-    "info": {
-      "name": "JEP 438 - Vector API (Fifth Incubator)",
-      "dscr": "Up-to-date demo moved to `org.javademos.java25.jep508.VectorAPIDemo` (JEP 508)"
-    }
+    "jdk": 20,
+    "name": "JEP 438 - Vector API (Fifth Incubator)",
+    "dscr": "Up-to-date demo moved to `org.javademos.java25.jep508.VectorAPIDemo` (JEP 508)"
   }
 ]

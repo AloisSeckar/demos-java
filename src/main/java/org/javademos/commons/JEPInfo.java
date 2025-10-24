@@ -10,13 +10,12 @@ public class JEPInfo {
 
     private JEPInfo() {}
 
-    public record JEPDataInfo(String name, String dscr) {}
-    public record JEPData(int jep, JEPDataInfo info) {}
+    public record JEPData(int jep, int jdk, String name, String dscr) {}
 
-    public static Map<Integer, JEPDataInfo> JEP_INFO = getAllEntries();
+    public static Map<Integer, JEPData> JEP_INFO = getAllEntries();
 
-    private static Map<Integer, JEPDataInfo> getAllEntries() {
-        var jeps = new HashMap<Integer, JEPDataInfo>();
+    private static Map<Integer, JEPData> getAllEntries() {
+        var jeps = new HashMap<Integer, JEPData>();
 
         var sources = Arrays.asList(14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25);
         for (Integer src : sources) {
@@ -28,7 +27,7 @@ public class JEPInfo {
                         }.getType();
                         var gson = new Gson();
                         List<JEPData> data = gson.fromJson(br, JEPListType);
-                        data.forEach(d -> jeps.put(d.jep(), d.info()));
+                        data.forEach(d -> jeps.put(d.jep(), d));
                     } catch (IOException e) {
                         e.printStackTrace(System.out);
                     }

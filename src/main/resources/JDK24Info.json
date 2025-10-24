@@ -1,157 +1,140 @@
 [
   {
     "jep": 404,
+    "jdk": 24,
     "name": "JEP 404 - Generational Shenandoah (Experimental)",
     "dscr": "Up-to-date demo moved to `org.javademos.java25.jep521.GenerationalShenandoahDemo` (JEP 521)"
   },
   {
-    "jep": "450",
+    "jep": 450,
+    "jdk": 24,
     "name": "JEP 450 - Compact Object Headers (Experimental)",
     "dscr": "An experimental version of Compact Object Headers. The final demo is in JEP 519."
   },
   {
     "jep": 472,
-    "info": {
-      "name": "JEP 472 - Prepare to Restrict the Use of JNI",
-      "dscr": "Issues warnings on uses of the Java Native Interface (JNI) to prepare for future restrictions, enhancing platform integrity by requiring explicit opt-in."
-    }
+    "jdk": 24,
+    "name": "JEP 472 - Prepare to Restrict the Use of JNI",
+    "dscr": "Issues warnings on uses of the Java Native Interface (JNI) to prepare for future restrictions, enhancing platform integrity by requiring explicit opt-in."
   },
   {
     "jep": 475,
-    "info": {
-      "name": "JEP 475 - Late Barrier Expansion for G1",
-      "dscr": "Moves G1 garbage collector barrier expansion to the code emission phase in C2 JIT to reduce overhead and improve maintainability."
-    }
+    "jdk": 24,
+    "name": "JEP 475 - Late Barrier Expansion for G1",
+    "dscr": "Moves G1 garbage collector barrier expansion to the code emission phase in C2 JIT to reduce overhead and improve maintainability."
   },
   {
     "jep": 478,
-    "info": {
-      "name": "JEP 478 - Key Derivation Function API (Preview)",
-      "dscr": "A preview of the KDF API. The final implementation is in JEP 510 for Java 25."
-    }
+    "jdk": 24,
+    "name": "JEP 478 - Key Derivation Function API (Preview)",
+    "dscr": "A preview of the KDF API. The final implementation is in JEP 510 for Java 25."
   },
   {
     "jep": 479,
-    "info": {
-      "name": "JEP 479 - Remove the 32-bit x86 Windows Port",
-      "dscr": "Removed support for the 32-bit x86 port on Windows in JDK 24, while keeping other OS ports available."
-    }
+    "jdk": 24,
+    "name": "JEP 479 - Remove the 32-bit x86 Windows Port",
+    "dscr": "Removed support for the 32-bit x86 port on Windows in JDK 24, while keeping other OS ports available."
   },
   {
-    "jep": "483",
+    "jep": 483,
+    "jdk": 24,
     "name": "JEP 483 - Ahead-of-Time Class Loading & Linking",
     "dscr": "An experimental AOT feature. The final demos are in JEP 514 and JEP 515."
   },
   {
     "jep": 484,
-    "info": {
-      "name": "JEP 484 - Class-File API",
-      "dscr": "Finalizes the API for parsing, generating, and transforming Java class files."
-    }
+    "jdk": 24,
+    "name": "JEP 484 - Class-File API",
+    "dscr": "Finalizes the API for parsing, generating, and transforming Java class files."
   },
   {
     "jep": 485,
-    "info": {
-      "name": "JEP 485 - Stream Gatherers",
-      "dscr": "Enhance the Stream API to support custom intermediate operations. This will allow stream pipelines to transform data in ways that are not easily achievable with the existing built-in intermediate operations."
-    }
+    "jdk": 24,
+    "name": "JEP 485 - Stream Gatherers",
+    "dscr": "Enhance the Stream API to support custom intermediate operations. This will allow stream pipelines to transform data in ways that are not easily achievable with the existing built-in intermediate operations."
   },
   {
     "jep": 486,
-    "info": {
-      "name": "JEP 486 - Permanently Disable the Security Manager",
-      "dscr": "The Security Manager API, deprecated for removal in earlier releases, has now been permanently disabled. Any attempt to set a Security Manager will result in an UnsupportedOperationException."
-    }
+    "jdk": 24,
+    "name": "JEP 486 - Permanently Disable the Security Manager",
+    "dscr": "The Security Manager API, deprecated for removal in earlier releases, has now been permanently disabled. Any attempt to set a Security Manager will result in an UnsupportedOperationException."
   },
   {
     "jep": 487,
-    "info": {
-      "name": "JEP 487 - Scoped Values (Fourth Preview)",
-      "dscr": "Up-to-date demo moved to `org.javademos.java25.jep506.ScopedValuesDemo` (JEP 506)"
-    }
+    "jdk": 24,
+    "name": "JEP 487 - Scoped Values (Fourth Preview)",
+    "dscr": "Up-to-date demo moved to `org.javademos.java25.jep506.ScopedValuesDemo` (JEP 506)"
   },
   {
-    "jep": "488",
-    "info": {
-      "name": "JEP 488 - Primitive Types in Patterns, instanceof, and switch (Second Preview)",
-      "dscr": "Up-to-date demo moved to `org.javademos.java25.jep507.PrimitiveTypesDemo` (JEP 507)"
-    }
+    "jep": 488,
+    "jdk": 24,
+    "name": "JEP 488 - Primitive Types in Patterns, instanceof, and switch (Second Preview)",
+    "dscr": "Up-to-date demo moved to `org.javademos.java25.jep507.PrimitiveTypesDemo` (JEP 507)"
   },
   {
     "jep": 489,
-    "info": {
-      "name": "JEP 489 - Vector API (Ninth Incubator)",
-      "dscr": "Up-to-date demo moved to `org.javademos.java25.jep508.VectorAPIDemo` (JEP 508)"
-    }
+    "jdk": 24,
+    "name": "JEP 489 - Vector API (Ninth Incubator)",
+    "dscr": "Up-to-date demo moved to `org.javademos.java25.jep508.VectorAPIDemo` (JEP 508)"
   },
   {
     "jep": 490,
-    "info": {
-      "name": "JEP 490 - ZGC: Remove the Non-Generational Mode",
-      "dscr": "Removes the non-generational mode of the Z Garbage Collector (ZGC), making the generational mode the only option. This change simplifies long-term maintenance and focuses development efforts on the more efficient generational model."
-    }
+    "jdk": 24,
+    "name": "JEP 490 - ZGC: Remove the Non-Generational Mode",
+    "dscr": "Removes the non-generational mode of the Z Garbage Collector (ZGC), making the generational mode the only option. This change simplifies long-term maintenance and focuses development efforts on the more efficient generational model."
   },
   {
     "jep": 491,
-    "info": {
-      "name": "JEP 491 - Synchronize Virtual Threads without Pinning",
-      "dscr": "Improves scalability by allowing virtual threads to unmount from their carrier platform thread when blocked in 'synchronized' methods, eliminating a major source of thread pinning."
-    }
+    "jdk": 24,
+    "name": "JEP 491 - Synchronize Virtual Threads without Pinning",
+    "dscr": "Improves scalability by allowing virtual threads to unmount from their carrier platform thread when blocked in 'synchronized' methods, eliminating a major source of thread pinning."
   },
   {
     "jep": 493,
-    "info": {
-      "name": "JEP 493 - Linking Run-Time Images without JMODs",
-      "dscr": "Simplifies jlink by removing the need for JMOD files. Developers can now link custom runtime images directly from modular JARs, streamlining the build process."
-    }
+    "jdk": 24,
+    "name": "JEP 493 - Linking Run-Time Images without JMODs",
+    "dscr": "Simplifies jlink by removing the need for JMOD files. Developers can now link custom runtime images directly from modular JARs, streamlining the build process."
   },
   {
-    "jep": "494",
-    "info": {
-      "name": "JEP 494 - Module Import Declarations (Second Preview)",
-      "dscr": "Up-to-date demo moved to `org.javademos.java25.jep511.ModuleImportDeclarationsDemo` (JEP 511)"
-    }
+    "jep": 494,
+    "jdk": 24,
+    "name": "JEP 494 - Module Import Declarations (Second Preview)",
+    "dscr": "Up-to-date demo moved to `org.javademos.java25.jep511.ModuleImportDeclarationsDemo` (JEP 511)"
   },
   {
     "jep": 495,
-    "info": {
-      "name": "JEP 495 - Simple Source Files and Instance Main Methods (Fourth Preview)",
-      "dscr": "Up-to-date demo moved to `org.javademos.java25.jep512.CompactSourceFilesDemo` (JEP 512)"
-    }
+    "jdk": 24,
+    "name": "JEP 495 - Simple Source Files and Instance Main Methods (Fourth Preview)",
+    "dscr": "Up-to-date demo moved to `org.javademos.java25.jep512.CompactSourceFilesDemo` (JEP 512)"
   },
   {
     "jep": 496,
-    "info": {
-      "name": "JEP 496 - Quantum Resistant Algorithm - Lattice-based Key Encapsulation",
-      "dscr": "Provides a lattice-based key encapsulation mechanism to support quantum-resistant key exchanges; see QuantumResistantModuleLatticeBasedKeyEncapsulation.java"
-    }
+    "jdk": 24,
+    "name": "JEP 496 - Quantum Resistant Algorithm - Lattice-based Key Encapsulation",
+    "dscr": "Provides a lattice-based key encapsulation mechanism to support quantum-resistant key exchanges; see QuantumResistantModuleLatticeBasedKeyEncapsulation.java"
   },
   {
     "jep": 497,
-    "info": {
-      "name": "JEP 497 - Quantum Resistant Algorithm - Lattice-based Digital Signature (Preview)",
-      "dscr": "Provides a lattice-based digital signature algorithm to support quantum-resistant signatures; see QuantumResistantModule.java"
-    }
+    "jdk": 24,
+    "name": "JEP 497 - Quantum Resistant Algorithm - Lattice-based Digital Signature (Preview)",
+    "dscr": "Provides a lattice-based digital signature algorithm to support quantum-resistant signatures; see QuantumResistantModule.java"
   },
   {
     "jep": 498,
-    "info": {
-      "name": "JEP 498 - Warn upon Use of Memory-Access Methods in sun.misc.Unsafe",
-      "dscr": "Showing runtime warnings for methods that are already deprecated"
-    }
+    "jdk": 24,
+    "name": "JEP 498 - Warn upon Use of Memory-Access Methods in sun.misc.Unsafe",
+    "dscr": "Showing runtime warnings for methods that are already deprecated"
   },
   {
     "jep": 499,
-    "info": {
-      "name": "JEP 499 - Structured Concurrency (Fourth Preview)",
-      "dscr": "Up-to-date demo moved to org.javademos.java25.jep505.StructuredConcurrencyDemo (JEP 505)"
-    }
+    "jdk": 24,
+    "name": "JEP 499 - Structured Concurrency (Fourth Preview)",
+    "dscr": "Up-to-date demo moved to org.javademos.java25.jep505.StructuredConcurrencyDemo (JEP 505)"
   },
   {
     "jep": 501,
-    "info": {
-      "name": "JEP 501 - Deprecate the 32-bit x86 Port for Removal",
-      "dscr": "Deprecated the entire 32-bit x86 port in JDK 24, warning of its complete removal in JDK 25."
-    }
+    "jdk": 24,
+    "name": "JEP 501 - Deprecate the 32-bit x86 Port for Removal",
+    "dscr": "Deprecated the entire 32-bit x86 port in JDK 24, warning of its complete removal in JDK 25."
   }
 ]
