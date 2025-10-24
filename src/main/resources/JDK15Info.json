@@ -13,6 +13,13 @@
     }
   },
   {
+    "jep": 381,
+    "info": {
+      "name": "JEP 381 - Remove the Solaris and SPARC Ports",
+      "dscr": "Removed the source code and build support for Solaris/SPARC, Solaris/x64, and Linux/SPARC ports. No code demo applicable."
+    }
+  },
+  {
     "jep": 383,
     "info": {
       "name": "JEP 383 - Foreign-Memory Access API (Second Incubator)",
