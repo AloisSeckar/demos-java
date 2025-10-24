@@ -38,7 +38,7 @@
             <!-- used in JEP 371 demo for bytecode generation -->
             <groupId>org.ow2.asm</groupId>
             <artifactId>asm</artifactId>
-            <version>9.7.1</version>
+            <version>9.9</version>
         </dependency>
     </dependencies>
     
