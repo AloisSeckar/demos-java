@@ -6,10 +6,24 @@
     }
   },
   {
+    "jep": 372,
+    "info": {
+      "name": "JEP 372 - Remove the Nashorn JavaScript Engine",
+      "dscr": "Remove the Nashorn JavaScript script engine, APIs, and the jjs tool. No code demo applicable as the feature was removed."
+    }
+  },
+{
     "jep": 375,
     "info": {
       "name": "JEP 375 - Pattern Matching for instanceof (Second Preview)",
       "dscr": "Second preview of Pattern Matching for instanceof. Finalized in JEP 394 (JDK 16)."
+    }
+  },
+  {
+    "jep": 381,
+    "info": {
+      "name": "JEP 381 - Remove the Solaris and SPARC Ports",
+      "dscr": "Removed the source code and build support for Solaris/SPARC, Solaris/x64, and Linux/SPARC ports. No code demo applicable."
     }
   },
   {
