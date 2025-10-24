@@ -3,72 +3,96 @@
     "jep": 338,
     "jdk": 16,
     "name": "JEP 338 - Vector API (Incubator)",
-    "dscr": "Up-to-date demo moved to `org.javademos.java25.jep508.VectorAPIDemo` (JEP 508)"
+    "dscr": "Up-to-date demo moved to `org.javademos.java25.jep508.VectorAPIDemo` (JEP 508)",
+    "link": true,
+    "code": false
   },
   {
     "jep": 380,
     "jdk": 16,
     "name": "JEP 380 - Unix-Domain Socket Channels",
-    "dscr": "Add support for Unix-domain sockets, commonly used for inter-process communication on the same host."
+    "dscr": "Add support for Unix-domain sockets, commonly used for inter-process communication on the same host.",
+    "link": false,
+    "code": true
   },
   {
     "jep": 386,
     "jdk": 16,
     "name": "JEP 386 - Alpine Linux Port",
-    "dscr": "Ports the JDK to Alpine Linux and other Linux distributions using musl as their primary C library on x64 and AArch64."
+    "dscr": "Ports the JDK to Alpine Linux and other Linux distributions using musl as their primary C library on x64 and AArch64.",
+    "link": false,
+    "code": false
   },
   {
     "jep": 388,
     "jdk": 16,
     "name": "JEP 388 - Windows/AArch64 Port",
-    "dscr": "Port the JDK to Windows/AArch64 (ARM64)."
+    "dscr": "Port the JDK to Windows/AArch64 (ARM64).",
+    "link": false,
+    "code": false
   },
   {
     "jep": 389,
     "jdk": 16,
     "name": "JEP 389 - Foreign Linker API (Incubator)",
-    "dscr": "Up-to-date demo moved to `org.javademos.java22.jep454.ForeignFunctionMemoryDemo` (JEP 454)"
+    "dscr": "Up-to-date demo moved to `org.javademos.java22.jep454.ForeignFunctionMemoryDemo` (JEP 454)",
+    "link": true,
+    "code": false
   },
   {
     "jep": 390,
     "jdk": 16,
     "name": "JEP 390 - Warnings for Value-Based Classes",
-    "dscr": "Designate wrapper classes as value-based and add warnings about attempts to synchronize on them."
+    "dscr": "Designate wrapper classes as value-based and add warnings about attempts to synchronize on them.",
+    "link": false,
+    "code": true
   },
   {
     "jep": 392,
     "jdk": 16,
     "name": "JEP 392 - Packaging Tool",
-    "dscr": "Finalizes the jpackage tool for creating native application installers (MSI, EXE, DMG, PKG, DEB, RPM)."
+    "dscr": "Finalizes the jpackage tool for creating native application installers (MSI, EXE, DMG, PKG, DEB, RPM).",
+    "link": false,
+    "code": false
   },
   {
     "jep": 393,
     "jdk": 16,
     "name": "JEP 393 - Foreign-Memory Access API (Third Incubator)",
-    "dscr": "Up-to-date demo moved to `org.javademos.java22.jep454.ForeignFunctionMemoryDemo` (JEP 454)"
+    "dscr": "Up-to-date demo moved to `org.javademos.java22.jep454.ForeignFunctionMemoryDemo` (JEP 454)",
+    "link": true,
+    "code": false
   },
   {
     "jep": 394,
     "jdk": 16,
     "name": "JEP 394 - Pattern Matching for instanceof",
-    "dscr": "Enhances instanceof operator to perform pattern matching, reducing boilerplate code."
-  },
-  {
-    "jep": 396,
-    "jdk": 16,
-    "name": "JEP 396 - Strongly Encapsulate JDK Internals by Default",
-    "dscr": "Strongly encapsulate all internal elements of the JDK by default, allowing access only via the `--illegal-access` option."
+    "dscr": "Enhances instanceof operator to perform pattern matching, reducing boilerplate code.",
+    "link": false,
+    "code": true
   },
   {
     "jep": 395,
     "jdk": 16,
     "name": "JEP 395 - Records",
-    "dscr": "Finalizes Records, transparent carriers for immutable data; see RecordDemo.java"
+    "dscr": "Finalizes Records, transparent carriers for immutable data; see RecordDemo.java",
+    "link": false,
+    "code": true
+  },
+  {
+    "jep": 396,
+    "jdk": 16,
+    "name": "JEP 396 - Strongly Encapsulate JDK Internals by Default",
+    "dscr": "Strongly encapsulate all internal elements of the JDK by default, allowing access only via the `--illegal-access` option.",
+    "link": false,
+    "code": true
   },
   {
     "jep": 397,
     "jdk": 16,
     "name": "JEP 397 - Sealed Classes (Second Preview)",
-    "dscr": "Up-to-date demo moved to org.javademos.java17.jep409.SealedDemo (JEP 409)"
+    "dscr": "Up-to-date demo moved to org.javademos.java17.jep409.SealedDemo (JEP 409)",
+    "link": true,
+    "code": false
   }
 ]

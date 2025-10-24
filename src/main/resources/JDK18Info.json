@@ -3,54 +3,72 @@
     "jep": 400,
     "jdk": 18,
     "name": "JEP 400 - UTF-8 by Default",
-    "dscr": "Sets the default charset to UTF-8 for Java applications, improving compatibility and reducing bugs related to character encoding."
+    "dscr": "Sets the default charset to UTF-8 for Java applications, improving compatibility and reducing bugs related to character encoding.",
+    "link": false,
+    "code": true
   },
   {
     "jep": 408,
     "jdk": 18,
     "name": "JEP 408 - Simple Web Server",
-    "dscr": "Command-line tool and API to start a minimal HTTP server for serving static files. Useful for prototyping, testing, and educational purposes."
+    "dscr": "Command-line tool and API to start a minimal HTTP server for serving static files. Useful for prototyping, testing, and educational purposes.",
+    "link": false,
+    "code": true
   },
   {
     "jep": 413,
     "jdk": 18,
     "name": "JEP 413 - Code Snippets in Java API Documentation",
-    "dscr": "Introduces the @snippet tag for JavaDoc to simplify the inclusion of example source code in API documentation."
+    "dscr": "Introduces the @snippet tag for JavaDoc to simplify the inclusion of example source code in API documentation.",
+    "link": false,
+    "code": false
   },
   {
     "jep": 416,
     "jdk": 18,
     "name": "JEP 416 - Reimplement Core Reflection with Method Handles",
-    "dscr": "An internal reimplementation of Core Reflection to use method handles, unifying the platform's reflective mechanisms. This change improves performance for constant-folded reflection calls and reduces JDK maintenance costs."
+    "dscr": "An internal reimplementation of Core Reflection to use method handles, unifying the platform's reflective mechanisms. This change improves performance for constant-folded reflection calls and reduces JDK maintenance costs.",
+    "link": false,
+    "code": true
   },
   {
     "jep": 417,
     "jdk": 18,
     "name": "JEP 417 - Vector API (Third Incubator)",
-    "dscr": "Up-to-date demo moved to `org.javademos.java25.jep508.VectorAPIDemo` (JEP 508)"
+    "dscr": "Up-to-date demo moved to `org.javademos.java25.jep508.VectorAPIDemo` (JEP 508)",
+    "link": true,
+    "code": false
   },
   {
     "jep": 418,
     "jdk": 18,
     "name": "JEP 418 - Internet-Address Resolution SPI",
-    "dscr": "Defines a service-provider interface (SPI) for host name and address resolution, allowing `java.net.InetAddress` to use custom resolvers."
+    "dscr": "Defines a service-provider interface (SPI) for host name and address resolution, allowing `java.net.InetAddress` to use custom resolvers.",
+    "link": false,
+    "code": true
   },
   {
     "jep": 419,
     "jdk": 18,
     "name": "JEP 419 - Foreign Function & Memory API (Second Incubator)",
-    "dscr": "Up-to-date demo moved to `org.javademos.java22.jep454.ForeignFunctionMemoryDemo` (JEP 454)"
+    "dscr": "Up-to-date demo moved to `org.javademos.java22.jep454.ForeignFunctionMemoryDemo` (JEP 454)",
+    "link": true,
+    "code": false
   },
   {
     "jep": 420,
     "jdk": 18,
     "name": "JEP 420 - Pattern Matching for switch (Second Preview)",
-    "dscr": "The second preview of Pattern Matching for switch. The final implementation is in JEP 441."
+    "dscr": "The second preview of Pattern Matching for switch. The final implementation is in JEP 441.",
+    "link": true,
+    "code": false
   },
   {
     "jep": 421,
     "jdk": 18,
     "name": "JEP 421 - Deprecate Finalization for Removal",
-    "dscr": "Deprecates the finalization mechanism for removal in a future release due to its inherent flaws."
+    "dscr": "Deprecates the finalization mechanism for removal in a future release due to its inherent flaws.",
+    "link": false,
+    "code": false
   }
 ]

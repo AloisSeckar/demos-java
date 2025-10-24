@@ -10,7 +10,7 @@ public class JEPInfo {
 
     private JEPInfo() {}
 
-    public record JEPData(int jep, int jdk, String name, String dscr) {}
+    public record JEPData(int jep, int jdk, String name, String dscr, boolean link, boolean code) {}
 
     public static Map<Integer, JEPData> JEP_INFO = getAllEntries();
 

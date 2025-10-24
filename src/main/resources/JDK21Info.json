@@ -3,90 +3,120 @@
     "jep": 430,
     "jdk": 21,
     "name": "JEP 430 - String Templates (Preview)",
-    "dscr": "Up-to-date demo moved to `org.javademos.java22.jep459.StringTemplatesSecondPreview` (JEP 459)"
+    "dscr": "Up-to-date demo moved to `org.javademos.java22.jep459.StringTemplatesSecondPreview` (JEP 459)",
+    "link": true,
+    "code": false
   },
   {
     "jep": 431,
     "jdk": 21,
     "name": "JEP 431 - Sequenced Collections",
-    "dscr": "Adds sequenced collections to the Java Collections Framework, providing a new way to handle ordered collections."
+    "dscr": "Adds sequenced collections to the Java Collections Framework, providing a new way to handle ordered collections.",
+    "link": false,
+    "code": true
   },
   {
     "jep": 439,
     "jdk": 21,
     "name": "JEP 439 - Generational ZGC",
-    "dscr": "No executable code, see GenerationalZGC21.java for further info"
+    "dscr": "No executable code, see GenerationalZGC21.java for further info",
+    "link": false,
+    "code": false
   },
   {
     "jep": 440,
     "jdk": 21,
     "name": "JEP 440 - Record Patterns",
-    "dscr": "Simplifying the destructuring of records and improving code readability."
+    "dscr": "Simplifying the destructuring of records and improving code readability.",
+    "link": false,
+    "code": true
   },
   {
     "jep": 441,
     "jdk": 21,
     "name": "JEP 441 - Pattern Matching for switch",
-    "dscr": "Enhancing the switch expression with pattern matching capabilities."
+    "dscr": "Enhancing the switch expression with pattern matching capabilities.",
+    "link": false,
+    "code": true
   },
   {
     "jep": 442,
     "jdk": 21,
     "name": "JEP 442 - Foreign Function & Memory API (Third Preview)",
-    "dscr": "Up-to-date demo moved to `org.javademos.java22.jep454.ForeignFunctionMemoryDemo` (JEP 454)"
+    "dscr": "Up-to-date demo moved to `org.javademos.java22.jep454.ForeignFunctionMemoryDemo` (JEP 454)",
+    "link": true,
+    "code": false
   },
   {
     "jep": 443,
     "jdk": 21,
     "name": "JEP 443 - Unnamed Patterns and Variables (Preview)",
-    "dscr": "Up-to-date demo moved to `org.javademos.java22.jep456.UnnamedPatternsAndVariables` (JEP 456)"
+    "dscr": "Up-to-date demo moved to `org.javademos.java22.jep456.UnnamedPatternsAndVariables` (JEP 456)",
+    "link": true,
+    "code": false
   },
   {
     "jep": 444,
     "jdk": 21,
     "name": "JEP 444 - Virtual Threads",
-    "dscr": "Simplifying the handling of concurrency in Java applications by being no longer limited by the OS threads."
+    "dscr": "Simplifying the handling of concurrency in Java applications by being no longer limited by the OS threads.",
+    "link": false,
+    "code": true
   },
   {
     "jep": 445,
     "jdk": 21,
     "name": "JEP 445 - Unnamed Classes and Instance Main Methods (Preview)",
-    "dscr": "Up-to-date demo moved to `org.javademos.java25.jep512.CompactSourceFilesDemo` (JEP 512)"
+    "dscr": "Up-to-date demo moved to `org.javademos.java25.jep512.CompactSourceFilesDemo` (JEP 512)",
+    "link": true,
+    "code": false
   },
   {
     "jep": 446,
     "jdk": 21,
     "name": "JEP 446 - Scoped Values (Preview)",
-    "dscr": "Up-to-date demo moved to `org.javademos.java25.jep506.ScopedValuesDemo` (JEP 506)"
+    "dscr": "Up-to-date demo moved to `org.javademos.java25.jep506.ScopedValuesDemo` (JEP 506)",
+    "link": true,
+    "code": false
   },
   {
     "jep": 448,
     "jdk": 21,
     "name": "JEP 448 - Vector API (Sixth Incubator)",
-    "dscr": "Up-to-date demo moved to `org.javademos.java25.jep508.VectorAPIDemo` (JEP 508)"
+    "dscr": "Up-to-date demo moved to `org.javademos.java25.jep508.VectorAPIDemo` (JEP 508)",
+    "link": true,
+    "code": false
   },
   {
     "jep": 449,
     "jdk": 21,
     "name": "JEP 449 - Deprecate the 32-bit x86 Windows Port for Removal",
-    "dscr": "Deprecated the Windows 32-bit x86 port in JDK 21, signaling its future removal."
+    "dscr": "Deprecated the Windows 32-bit x86 port in JDK 21, signaling its future removal.",
+    "link": false,
+    "code": false
   },
   {
     "jep": 451,
     "jdk": 21,
     "name": "JEP 451 - Prepare to Disallow the Dynamic Loading of Agents",
-    "dscr": "Issues warnings when agents are loaded dynamically into a running JVM to prepare for disallowing this by default in a future release."
+    "dscr": "Issues warnings when agents are loaded dynamically into a running JVM to prepare for disallowing this by default in a future release.",
+    "link": false,
+    "code": false
   },
   {
     "jep": 452,
     "jdk": 21,
     "name": "JEP 452 - Key Encapsulation Mechanism",
-    "dscr": "Introduces a Key Encapsulation Mechanism API, aiming to improve cryptographic capabilities."
+    "dscr": "Introduces a Key Encapsulation Mechanism API, aiming to improve cryptographic capabilities.",
+    "link": false,
+    "code": true
   },
   {
     "jep": 453,
     "jdk": 21,
     "name": "JEP 453 - Structured Concurrency (Preview)",
-    "dscr": "Up-to-date demo moved to org.javademos.java25.jep505.StructuredConcurrencyDemo (JEP 505)"
+    "dscr": "Up-to-date demo moved to org.javademos.java25.jep505.StructuredConcurrencyDemo (JEP 505)",
+    "link": true,
+    "code": false
   }
 ]

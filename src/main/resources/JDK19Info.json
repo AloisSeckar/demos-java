@@ -3,42 +3,56 @@
     "jep": 405,
     "jdk": 19,
     "name": "JEP 405 - Record Patterns (Preview)",
-    "dscr": "The preview of Record Patterns. The final implementation is in JEP 440."
+    "dscr": "The preview of Record Patterns. The final implementation is in JEP 440.",
+    "link": true,
+    "code": false
   },
   {
     "jep": 422,
     "jdk": 19,
     "name": "JEP 422 – Linux/RISC-V Port",
-    "dscr": "No executable code, see LinuxRiscVPort.java for further info"
+    "dscr": "No executable code, see LinuxRiscVPort.java for further info",
+    "link": false,
+    "code": false
   },
   {
     "jep": 424,
     "jdk": 19,
     "name": "JEP 424 - Foreign Function & Memory API (Preview)",
-    "dscr": "Up-to-date demo moved to `org.javademos.java22.jep454.ForeignFunctionMemoryDemo` (JEP 454)"
+    "dscr": "Up-to-date demo moved to `org.javademos.java22.jep454.ForeignFunctionMemoryDemo` (JEP 454)",
+    "link": true,
+    "code": false
   },
   {
     "jep": 425,
     "jdk": 19,
     "name": "JEP 425 - Virtual Threads (Preview)",
-    "dscr": "Up-to-date demo moved to `org.javademos.java21.jep444.VirtualThreadsDemo` (JEP 444)"
+    "dscr": "Up-to-date demo moved to `org.javademos.java21.jep444.VirtualThreadsDemo` (JEP 444)",
+    "link": true,
+    "code": false
   },
   {
     "jep": 426,
     "jdk": 19,
     "name": "JEP 426 - Vector API (Fourth Incubator)",
-    "dscr": "Up-to-date demo moved to `org.javademos.java25.jep508.VectorAPIDemo` (JEP 508)"
+    "dscr": "Up-to-date demo moved to `org.javademos.java25.jep508.VectorAPIDemo` (JEP 508)",
+    "link": true,
+    "code": false
   },
   {
     "jep": 427,
     "jdk": 19,
     "name": "JEP 427 - Pattern Matching for switch (Third Preview)",
-    "dscr": "The third preview of Pattern Matching for switch. The final implementation is in JEP 441."
+    "dscr": "The third preview of Pattern Matching for switch. The final implementation is in JEP 441.",
+    "link": true,
+    "code": false
   },
   {
     "jep": 428,
     "jdk": 19,
     "name": "JEP 428 - Structured Concurrency (Incubator)",
-    "dscr": "Up-to-date demo moved to org.javademos.java25.jep505.StructuredConcurrencyDemo (JEP 505)"
+    "dscr": "Up-to-date demo moved to org.javademos.java25.jep505.StructuredConcurrencyDemo (JEP 505)",
+    "link": true,
+    "code": false
   }
 ]

@@ -1,23 +1,35 @@
 [
   {
+    "jep": 360,
+    "jdk": 15,
+    "name": "JEP 360 - Sealed Classes (Preview)",
+    "dscr": "Preview of Sealed Classes. Finalized in JEP 409 (JDK 17).",
+    "link": true,
+    "code": false
+  },
+  {
     "jep": 371,
-    "info": {
-      "name": "JEP 371 - Hidden Classes",
-      "dscr": "Introduces hidden classes that cannot be used directly by bytecode of other classes and can be unloaded independently"
-    }
+    "jdk": 15,
+    "name": "JEP 371 - Hidden Classes",
+    "dscr": "Introduces hidden classes that cannot be used directly by bytecode of other classes and can be unloaded independently",
+    "link": true,
+    "code": false
   },
   {
     "jep": 372,
-    "info": {
-      "name": "JEP 372 - Remove the Nashorn JavaScript Engine",
-      "dscr": "Remove the Nashorn JavaScript script engine, APIs, and the jjs tool. No code demo applicable as the feature was removed."
-    }
+    "jdk": 15,
+    "name": "JEP 372 - Remove the Nashorn JavaScript Engine",
+    "dscr": "Remove the Nashorn JavaScript script engine, APIs, and the jjs tool. No code demo applicable as the feature was removed.",
+    "link": true,
+    "code": false
   },
-{
+  {
     "jep": 375,
     "jdk": 15,
     "name": "JEP 375 - Pattern Matching for instanceof (Second Preview)",
-    "dscr": "Second preview of Pattern Matching for instanceof. Finalized in JEP 394 (JDK 16)."
+    "dscr": "Second preview of Pattern Matching for instanceof. Finalized in JEP 394 (JDK 16).",
+    "link": true,
+    "code": false
   },
   {
     "jep": 381,
@@ -29,12 +41,16 @@
     "jep": 383,
     "jdk": 15,
     "name": "JEP 383 - Foreign-Memory Access API (Second Incubator)",
-    "dscr": "Up-to-date demo moved to `org.javademos.java22.jep454.ForeignFunctionMemoryDemo` (JEP 454)"
+    "dscr": "Up-to-date demo moved to `org.javademos.java22.jep454.ForeignFunctionMemoryDemo` (JEP 454)",
+    "link": true,
+    "code": false
   },
   {
     "jep": 384,
     "jdk": 15,
     "name": "JEP 384 - Records (Second Preview)",
-    "dscr": "Up-to-date demo moved to org.javademos.java16.jep395.RecordDemo (JEP 395)"
+    "dscr": "Up-to-date demo moved to org.javademos.java16.jep395.RecordDemo (JEP 395)",
+    "link": true,
+    "code": false
   }
 ]
