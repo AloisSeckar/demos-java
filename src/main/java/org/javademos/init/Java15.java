@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 import org.javademos.commons.IDemo;
 import org.javademos.java15.jep360.SealedClassesDemo;
+import org.javademos.java15.jep372.NashornRemovalDemo;
 import org.javademos.java15.jep375.InstanceofPatternMatchingSecondPreview;
 import org.javademos.java15.jep381.SolarisSparcRemovalDemo;
 import org.javademos.java15.jep383.ForeignMemoryAccessDemo;
@@ -20,6 +21,8 @@ public class Java15 {
 
         // JEP 360
         java15DemoPool.add(new SealedClassesDemo());
+        // JEP 372
+        java15DemoPool.add(new NashornRemovalDemo());
         // JEP 375
         java15DemoPool.add(new InstanceofPatternMatchingSecondPreview());
         // JEP 381
