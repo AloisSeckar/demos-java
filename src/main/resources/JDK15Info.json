@@ -1,4 +1,11 @@
 [ {
+    "jep": 371,
+    "info": {
+      "name": "JEP 371 - Hidden Classes",
+      "dscr": "Introduces hidden classes that cannot be used directly by bytecode of other classes and can be unloaded independently"
+    }
+  },
+  {
     "jep": 372,
     "info": {
       "name": "JEP 372 - Remove the Nashorn JavaScript Engine",
