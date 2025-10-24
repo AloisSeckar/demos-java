@@ -12,15 +12,15 @@
     "jdk": 15,
     "name": "JEP 371 - Hidden Classes",
     "dscr": "Introduces hidden classes that cannot be used directly by bytecode of other classes and can be unloaded independently",
-    "link": true,
-    "code": false
+    "link": false,
+    "code": true
   },
   {
     "jep": 372,
     "jdk": 15,
     "name": "JEP 372 - Remove the Nashorn JavaScript Engine",
     "dscr": "Remove the Nashorn JavaScript script engine, APIs, and the jjs tool. No code demo applicable as the feature was removed.",
-    "link": true,
+    "link": false,
     "code": false
   },
   {
