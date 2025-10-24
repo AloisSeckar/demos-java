@@ -34,6 +34,12 @@
             <artifactId>jol-core</artifactId>
             <version>0.17</version>
         </dependency>
+        <dependency>
+            <!-- used in JEP 371 demo for bytecode generation -->
+            <groupId>org.ow2.asm</groupId>
+            <artifactId>asm</artifactId>
+            <version>9.7.1</version>
+        </dependency>
     </dependencies>
     
     <build>
