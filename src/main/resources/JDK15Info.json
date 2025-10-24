@@ -35,7 +35,9 @@
     "jep": 381,
     "jdk": 15,
     "name": "JEP 381 - Remove the Solaris and SPARC Ports",
-    "dscr": "Removed the source code and build support for Solaris/SPARC, Solaris/x64, and Linux/SPARC ports. No code demo applicable."
+    "dscr": "Removed the source code and build support for Solaris/SPARC, Solaris/x64, and Linux/SPARC ports. No code demo applicable.",
+    "link": false,
+    "code": false
   },
   {
     "jep": 383,
