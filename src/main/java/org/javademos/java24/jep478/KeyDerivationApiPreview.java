@@ -14,6 +14,5 @@ public class KeyDerivationApiPreview implements IDemo {
     @Override
     public void demo() {
         info(478);
-        System.out.println("This was a preview JEP. Please see the final implementation in JEP 510.");
     }
 }

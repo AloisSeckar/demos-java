@@ -1,17 +1,11 @@
 [
   {
-    "jep": 403,
-    "info": {
-      "name": "JEP 403 - Strongly Encapsulate JDK Internals",
-      "dscr": "Restricts access to most internal JDK APIs by default, improving security and maintainability. Access requires explicit command-line flags like --add-opens."
-    }
-  },
-  {
     "jep": 306,
-    "info": {
-      "name": "JEP 306 - Restore Always-Strict Floating-Point Semantics",
-      "dscr": "Make all floating-point operations consistently strict, removing the difference between strictfp and default modes."
-    }
+    "jdk": 17,
+    "name": "JEP 306 - Restore Always-Strict Floating-Point Semantics",
+    "dscr": "Make all floating-point operations consistently strict, removing the difference between strictfp and default modes.",
+    "link": false,
+    "code": true
   },
   {
   "number": 356,
@@ -20,72 +14,90 @@
 },
   {
     "jep": 382,
-    "info": {
-      "name": "JEP 382 - New macOS Rendering Pipeline",
-      "dscr": "Replaces the internal OpenGL-based rendering pipeline for Java 2D on macOS with Apple's Metal API for better performance and future compatibility."
-    }
+    "jdk": 17,
+    "name": "JEP 382 - New macOS Rendering Pipeline",
+    "dscr": "Replaces the internal OpenGL-based rendering pipeline for Java 2D on macOS with Apple's Metal API for better performance and future compatibility.",
+    "link": false,
+    "code": false
   },
   {
-  "jep": 391,
-  "info": {
+    "jep": 391,
+    "jdk": 17,
     "name": "JEP 391 - macOS/AArch64 Port",
-    "dscr": "Explains the port of the JDK to macOS on ARM64 (Apple Silicon); see MacOsAarch64PortDemo.java"
-   }
- },
+    "dscr": "Explains the port of the JDK to macOS on ARM64 (Apple Silicon); see MacOsAarch64PortDemo.java",
+    "link": false,
+    "code": false
+  },
+  {
+    "jep": 403,
+    "jdk": 17,
+    "name": "JEP 403 - Strongly Encapsulate JDK Internals",
+    "dscr": "Restricts access to most internal JDK APIs by default, improving security and maintainability. Access requires explicit command-line flags like --add-opens.",
+    "link": false,
+    "code": true
+  },
   {
     "jep": 406,
-    "info": {
-      "name": "JEP 406 - Pattern Matching for switch (Preview)",
-      "dscr": "The first preview of Pattern Matching for switch. The final implementation is in JEP 441."
-    }
+    "jdk": 17,
+    "name": "JEP 406 - Pattern Matching for switch (Preview)",
+    "dscr": "The first preview of Pattern Matching for switch. The final implementation is in JEP 441.",
+    "link": true,
+    "code": false
   },
   {
     "jep": 407,
-    "info": {
-      "name": "JEP 407 - Remove RMI Activation",
-      "dscr": "Removes the obsolete RMI Activation mechanism, including the `java.rmi.activation` package and the `rmid` tool. Core RMI is unaffected."
-    }
+    "jdk": 17,
+    "name": "JEP 407 - Remove RMI Activation",
+    "dscr": "Removes the obsolete RMI Activation mechanism, including the `java.rmi.activation` package and the `rmid` tool. Core RMI is unaffected.",
+    "link": false,
+    "code": false
   },
   {
     "jep": 409,
-    "info": {
-      "name": "JEP 409 - Sealed Classes",
-      "dscr": "Control which classes or interfaces can extend or implement them; see SealedDemo.java"
-    }
+    "jdk": 17,
+    "name": "JEP 409 - Sealed Classes",
+    "dscr": "Control which classes or interfaces can extend or implement them; see SealedDemo.java",
+    "link": false,
+    "code": true
   },
   {
     "jep": 410,
-    "info": {
-      "name": "JEP 410 - Remove the Experimental AOT and JIT Compiler",
-      "dscr": "Explains the removal of experimental jaotc and Graal JIT modules; see RemoveAotJitDemo.java"
-    }
+    "jdk": 17,
+    "name": "JEP 410 - Remove the Experimental AOT and JIT Compiler",
+    "dscr": "Explains the removal of experimental jaotc and Graal JIT modules; see RemoveAotJitDemo.java",
+    "link": false,
+    "code": false
   },
   {
     "jep": 411,
-    "info": {
-      "name": "JEP 411 - Deprecate the Security Manager for Removal",
-      "dscr": "Up-to-date demo moved to org.javademos.java24.jep486.DisableSecurityManager (JEP 486)"
-    }
+    "jdk": 17,
+    "name": "JEP 411 - Deprecate the Security Manager for Removal",
+    "dscr": "Up-to-date demo moved to org.javademos.java24.jep486.DisableSecurityManager (JEP 486)",
+    "link": true,
+    "code": false
   },
   {
     "jep": 412,
-    "info": {
-      "name": "JEP 412 - Foreign Function & Memory API (Incubator)",
-      "dscr": "Up-to-date demo moved to `org.javademos.java22.jep454.ForeignFunctionMemoryDemo` (JEP 454)"
-    }
+    "jdk": 17,
+    "name": "JEP 412 - Foreign Function & Memory API (Incubator)",
+    "dscr": "Up-to-date demo moved to `org.javademos.java22.jep454.ForeignFunctionMemoryDemo` (JEP 454)",
+    "link": true,
+    "code": false
   },
   {
     "jep": 414,
-    "info": {
-      "name": "JEP 414 - Vector API (Second Incubator)",
-      "dscr": "Up-to-date demo moved to `org.javademos.java25.jep508.VectorAPIDemo` (JEP 508)"
-    }
+    "jdk": 17,
+    "name": "JEP 414 - Vector API (Second Incubator)",
+    "dscr": "Up-to-date demo moved to `org.javademos.java25.jep508.VectorAPIDemo` (JEP 508)",
+    "link": true,
+    "code": false
   },
   {
     "jep": 415,
-    "info": {
-      "name": "JEP 415 - Context-Specific Deserialization Filters",
-      "dscr": "Configure context-specific filters via a JVM-wide filter factory; see ContextSpecificDeserializationFiltersDemo.java"
-    }
+    "jdk": 17,
+    "name": "JEP 415 - Context-Specific Deserialization Filters",
+    "dscr": "Configure context-specific filters via a JVM-wide filter factory; see ContextSpecificDeserializationFiltersDemo.java",
+    "link": false,
+    "code": true
   }
 ]

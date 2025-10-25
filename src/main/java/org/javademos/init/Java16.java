@@ -3,6 +3,7 @@ package org.javademos.init;
 import java.util.ArrayList;
 
 import org.javademos.commons.IDemo;
+import org.javademos.java16.extras.J16Demo;
 import org.javademos.java16.jep338.VectorAPIDemo;
 import org.javademos.java16.jep380.UnixDomainSocketsDemo;
 import org.javademos.java16.jep386.AlpineLinuxPortDemo;
@@ -26,6 +27,8 @@ public class Java16 {
 
         // feel free to comment out demos you are not interested in right now
 
+        // extra features not related to any JEP
+        java16DemoPool.add(new J16Demo());
         // JEP 338
         java16DemoPool.add(new VectorAPIDemo());
         // JEP 380
