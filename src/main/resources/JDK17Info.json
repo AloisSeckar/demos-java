@@ -8,6 +8,11 @@
     "code": true
   },
   {
+  "number": 356,
+  "name": "Enhanced Pseudo-Random Number Generators",
+  "description": "New interfaces and implementations in java.util.random for flexible and stream-based random number generation."
+},
+  {
     "jep": 382,
     "jdk": 17,
     "name": "JEP 382 - New macOS Rendering Pipeline",
