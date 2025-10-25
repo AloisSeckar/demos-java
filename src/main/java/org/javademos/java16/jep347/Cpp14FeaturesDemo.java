@@ -12,7 +12,7 @@ import org.javademos.commons.IDemo;
 /// - [C++14 Standard](https://en.cppreference.com/w/cpp/14)
 /// - [HotSpot JVM Source Code](https://github.com/openjdk/jdk)
 ///
-/// @author alois.seckar@gmail.com
+/// @author Abhineshhh
 public class Cpp14FeaturesDemo implements IDemo {
 
     @Override
@@ -75,31 +75,31 @@ public class Cpp14FeaturesDemo implements IDemo {
         // JEP 347 modernized the internal development of the JDK by allowing C++14 language features
         // in the JVM and JDK C++ codebase. This improves code maintainability, safety, and performance,
         // but is transparent to Java application developers.
-        
-        System.out.println("✓ JEP 347 Overview:");
-        System.out.println("  - Scope: Internal JDK/JVM development (C++ codebase)");
-        System.out.println("  - Change: Minimum C++ standard updated from C++98/03 to C++14");
-        System.out.println("  - Target: HotSpot JVM and JDK library developers");
-        System.out.println("  - Impact on Java developers: Indirect (better JVM quality)");
-        System.out.println();
-        System.out.println("✓ Key C++14 Features Now Available:");
-        System.out.println("  1. Generic lambdas with auto parameters");
-        System.out.println("  2. Binary literals and digit separators");
-        System.out.println("  3. Variable templates");
-        System.out.println("  4. Return type deduction with auto");
-        System.out.println("  5. Relaxed constexpr restrictions");
-        System.out.println("  6. [[deprecated]] attribute");
-        System.out.println("  7. std::make_unique smart pointer utility");
-        System.out.println();
-        System.out.println("✓ Benefits:");
-        System.out.println("  - More maintainable JVM source code");
-        System.out.println("  - Better type safety and performance");
-        System.out.println("  - Easier implementation of new JVM features");
-        System.out.println("  - Modernized development workflow for JDK contributors");
-        System.out.println();
-        System.out.println("✓ For Java Developers:");
-        System.out.println("  - No new Java APIs or language features");
-        System.out.println("  - Transparent change (no code changes needed)");
-        System.out.println("  - Benefit from improved JVM quality and performance");
+        //
+        // --- JEP 347 Overview ---
+        // - Scope: Internal JDK/JVM development (C++ codebase)
+        // - Change: Minimum C++ standard updated from C++98/03 to C++14
+        // - Target: HotSpot JVM and JDK library developers
+        // - Impact on Java developers: Indirect (better JVM quality)
+        //
+        // --- Key C++14 Features Now Available ---
+        // 1. Generic lambdas with auto parameters
+        // 2. Binary literals and digit separators
+        // 3. Variable templates
+        // 4. Return type deduction with auto
+        // 5. Relaxed constexpr restrictions
+        // 6. [[deprecated]] attribute
+        // 7. std::make_unique smart pointer utility
+        //
+        // --- Benefits ---
+        // - More maintainable JVM source code
+        // - Better type safety and performance
+        // - Easier implementation of new JVM features
+        // - Modernized development workflow for JDK contributors
+        //
+        // --- For Java Developers ---
+        // - No new Java APIs or language features
+        // - Transparent change (no code changes needed)
+        // - Benefit from improved JVM quality and performance
     }
 }
