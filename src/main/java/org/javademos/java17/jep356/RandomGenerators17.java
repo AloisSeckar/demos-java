@@ -30,7 +30,7 @@ public class RandomGenerators17 implements IDemo {
         System.out.println("Default Random Double: " + generator.nextDouble());
 
         JumpableGenerator jumpable =
-                (JumpableGenerator) RandomGeneratorFactory.of("L64X128MixRandom").create();
+        (JumpableGenerator) RandomGeneratorFactory.of("L64X256MixRandom").create();
         System.out.println("Jumpable Random Int: " + jumpable.nextInt());
     }
 }
