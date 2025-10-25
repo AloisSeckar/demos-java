@@ -24,6 +24,14 @@
     "code": false
   },
   {
+    "jep": 398,
+    "jdk": 17,
+    "name": "JEP 398 - Deprecate the Applet API for Removal",
+    "dscr": "Deprecate the Applet API for removal. It is essentially irrelevant since all web-browser vendors have removed support for Java browser plug-ins",
+    "link": false,
+    "code": false
+  },
+  {
     "jep": 403,
     "jdk": 17,
     "name": "JEP 403 - Strongly Encapsulate JDK Internals",
