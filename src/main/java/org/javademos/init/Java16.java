@@ -5,9 +5,11 @@ import java.util.ArrayList;
 import org.javademos.commons.IDemo;
 import org.javademos.java16.jep338.VectorAPIDemo;
 import org.javademos.java16.jep380.UnixDomainSocketsDemo;
+import org.javademos.java16.jep386.AlpineLinuxPortDemo;
 import org.javademos.java16.jep388.WindowsPortDemo;
 import org.javademos.java16.jep389.ForeignLinkerDemo;
 import org.javademos.java16.jep390.ValueBasedClassesDemo;
+import org.javademos.java16.jep392.PackagingToolDemo;
 import org.javademos.java16.jep393.ForeignMemoryAccessDemo;
 import org.javademos.java16.jep394.InstanceofPatternMatchingDemo;
 import org.javademos.java16.jep395.RecordDemo;
@@ -28,12 +30,16 @@ public class Java16 {
         java16DemoPool.add(new VectorAPIDemo());
         // JEP 380
         java16DemoPool.add(new UnixDomainSocketsDemo());
+        // JEP 386 
+        java16DemoPool.add(new AlpineLinuxPortDemo());
         // JEP 388
         java16DemoPool.add(new WindowsPortDemo());
         // JEP 389
         java16DemoPool.add(new ForeignLinkerDemo());
         // JEP 390
         java16DemoPool.add(new ValueBasedClassesDemo());
+        // JEP 392
+        java16DemoPool.add(new PackagingToolDemo());
         // JEP 393
         java16DemoPool.add(new ForeignMemoryAccessDemo());
         // JEP 394

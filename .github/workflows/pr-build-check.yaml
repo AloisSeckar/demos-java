@@ -29,3 +29,25 @@ jobs:
 
       - name: Maven clean install (compile only)
         run: mvn -B -ntp -DskipTests clean install
+
+      - name: Test run (fail on runtime exceptions)
+        id: demo-run
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p tmp
+          export JAVA_TOOL_OPTIONS="-Djava.io.tmpdir=$(pwd)/tmp"
+      
+          java --enable-preview --add-modules=jdk.incubator.vector \
+               -jar target/JavaDemos-25.0.jar > run.log 2>&1 || {
+            echo "Non-zero exit code:"
+            cat run.log
+            exit 1
+          }
+
+      - name: Upload run.log on runtime failure
+        if: steps.demo-run.outcome == 'failure'
+        uses: actions/upload-artifact@v4
+        with:
+          name: run-log
+          path: run.log
