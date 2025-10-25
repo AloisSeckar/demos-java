@@ -8,6 +8,14 @@
     "code": false
   },
   {
+    "jep": 347,
+    "jdk": 16,
+    "name": "JEP 347 - Enable C++14 Language Features",
+    "dscr": "Allows the JDK C++ source code to be compiled using C++14 language features, improving code quality and maintainability.",
+    "link": false,
+    "code": false
+  },
+  {
     "jep": 380,
     "jdk": 16,
     "name": "JEP 380 - Unix-Domain Socket Channels",
