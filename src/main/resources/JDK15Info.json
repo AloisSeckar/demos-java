@@ -32,6 +32,15 @@
     "code": false
   },
   {
+    "number": 377,
+    "jdk": 15,
+    "name": "ZGC: A Scalable Low-Latency Garbage Collector",
+    "description": "Production-ready low-latency garbage collector maintaining sub-10ms pause times for large heaps.",
+    "link": true,
+    "replaced": false,
+    "code": false
+  },
+  {
     "jep": 381,
     "jdk": 15,
     "name": "JEP 381 - Remove the Solaris and SPARC Ports",
