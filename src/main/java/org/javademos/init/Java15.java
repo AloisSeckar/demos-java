@@ -7,6 +7,7 @@ import org.javademos.java15.jep339.EdDSADemo;
 import org.javademos.java15.jep360.SealedClassesDemo;
 import org.javademos.java15.jep371.HiddenClassesDemo;
 import org.javademos.java15.jep372.NashornRemovalDemo;
+import org.javademos.java15.jep373.DatagramSocketDemo15;
 import org.javademos.java15.jep375.InstanceofPatternMatchingSecondPreview;
 import org.javademos.java15.jep381.SolarisSparcRemovalDemo;
 import org.javademos.java15.jep383.ForeignMemoryAccessDemo;
@@ -29,6 +30,8 @@ public class Java15 {
         java15DemoPool.add(new HiddenClassesDemo());
         // JEP 372
         java15DemoPool.add(new NashornRemovalDemo());
+        // JEP 373
+        java15DemoPool.add(new DatagramSocketDemo15());
         // JEP 375
         java15DemoPool.add(new InstanceofPatternMatchingSecondPreview());
         // JEP 381
