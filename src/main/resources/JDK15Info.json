@@ -48,6 +48,14 @@
     "code": false
   },
   {
+    "jep": 379,
+    "jdk": 15,
+    "name": "JEP 379 - Shenandoah: A Low-Pause-Time Garbage Collector",
+    "dscr": "Promoted Shenandoah from an experimental to a production feature.",
+    "link": false,
+    "code": true
+  },
+  {
     "jep": 381,
     "jdk": 15,
     "name": "JEP 381 - Remove the Solaris and SPARC Ports",
