@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import org.javademos.commons.IDemo;
 import org.javademos.java17.extras.J17DeprecatedDemo;
 import org.javademos.java17.jep306.RestoreAlwaysStrictFloatingPointSemanticsDemo;
+import org.javademos.java17.jep356.RandomGenerators17;
 import org.javademos.java17.jep382.MacosRenderingPipelineDemo;
 import org.javademos.java17.jep391.MacOsAarch64PortDemo;
 import org.javademos.java17.jep398.DeprecateAppletApiForRemovalDemo;
@@ -35,6 +36,8 @@ public class Java17 {
         java17DemoPool.add(new J17DeprecatedDemo());
         // JEP 306
         java17DemoPool.add(new RestoreAlwaysStrictFloatingPointSemanticsDemo());
+        // JEP 356
+        java17DemoPool.add(new RandomGenerators17());       
         // JEP 382  
         java17DemoPool.add(new MacosRenderingPipelineDemo());
         // JEP 391
