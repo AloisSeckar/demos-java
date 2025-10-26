@@ -14,14 +14,6 @@ import static org.javademos.init.JEPInfo.JEP_DATA;
  * The 'JEP_DATA' map consists of simple IDemo interface implementations.
  * Code logic is being implemented inside .demo() methods.
  * @see IDemo
- *
- * Main method supports filtering demos based on command line arguments.
- * Supported arguments and examples:
- * --skip-links: Skip demos that are link-only to other JEP
- * --code-only: Only run demos that contain code
- * --jdk=17,25: Only run demos from specific JDK versions
- * --only=382,409: Only run specific JEP numbers
- * @see ArgsFilterUtil
  * 
  * You can try switching the compile/build settings back to Java 1.8 to see
  * that the most of the stuff used here cannot be compiled and run under old
@@ -30,6 +22,16 @@ import static org.javademos.init.JEPInfo.JEP_DATA;
  * @author alois.seckar@gmail.com
  */
 public class Main {
+
+    /**
+     * Main method supports filtering demos based on command line arguments.
+     * Supported arguments and examples:
+     * --skip-links: Skip demos that are link-only to other JEP
+     * --code-only: Only run demos that contain code
+     * --jdk=17,25: Only run demos from specific JDK versions
+     * --only=382,409: Only run specific JEP numbers
+     * @see ArgsFilterUtil
+     * */
     public static void main(String[] args) {
 
         // https://stackoverflow.com/a/19165338/3204544

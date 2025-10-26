@@ -33,7 +33,7 @@ import java.util.stream.Collectors;
  * </ul>
  *
  *
- * @author Alexander Schneider
+ * @author Alexander Schneider @ab-schneider
  */
 public class ArgsFilterUtil {
 
