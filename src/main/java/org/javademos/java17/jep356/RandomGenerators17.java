@@ -16,7 +16,7 @@ import java.util.random.RandomGenerator.JumpableGenerator;
 /// - [JEP 356 - Enhanced Pseudo-Random Number Generators](https://openjdk.org/jeps/356)
 ///
 /// Further reading:
-/// - [Baeldung: Enhanced Pseudo-Random Number Generators in Java 17](https://www.baeldung.com/java-17-random-number-generator)
+/// - [Baeldung: Enhanced Pseudo-Random Number Generators in Java 17](https://www.baeldung.com/java-17-random-number-generators)
 ///
 /// @author alois.seckar@gmail.com
 public class RandomGenerators17 implements IDemo {
@@ -30,7 +30,7 @@ public class RandomGenerators17 implements IDemo {
         System.out.println("Default Random Double: " + generator.nextDouble());
 
         JumpableGenerator jumpable =
-        (JumpableGenerator) RandomGeneratorFactory.of("L64X256MixRandom").create();
+                (JumpableGenerator) RandomGeneratorFactory.of("Xoshiro256PlusPlus").create();
         System.out.println("Jumpable Random Int: " + jumpable.nextInt());
     }
 }
