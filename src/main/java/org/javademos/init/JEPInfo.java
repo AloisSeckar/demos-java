@@ -14,11 +14,11 @@ import java.util.*;
 
         public record JEPData(int jep, int jdk, String name, String dscr, boolean link, boolean code) {}
 
-        public static final Map<Integer, org.javademos.init.JEPInfo.JEPData> JEP_DATA = getAllInfos();
+        public static final Map<Integer, JEPData> JEP_DATA = getAllInfos();
         public static final Map<Integer, IDemo> JEP_DEMO = getAllDemos();
 
-        private static Map<Integer, org.javademos.init.JEPInfo.JEPData> getAllInfos() {
-            var jeps = new HashMap<Integer, org.javademos.init.JEPInfo.JEPData>();
+        private static Map<Integer, JEPData> getAllInfos() {
+            var jeps = new HashMap<Integer, JEPData>();
 
             var sources = Arrays.asList(14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25);
             for (Integer src : sources) {
@@ -26,10 +26,10 @@ import java.util.*;
                 try (InputStream inputStream = org.javademos.init.JEPInfo.class.getResourceAsStream(srcFile)) {
                     if (inputStream != null) {
                         try (BufferedReader br = new BufferedReader(new InputStreamReader(inputStream))) {
-                            var JEPListType = new TypeToken<List<org.javademos.init.JEPInfo.JEPData>>() {
+                            var JEPListType = new TypeToken<List<JEPData>>() {
                             }.getType();
                             var gson = new Gson();
-                            List<org.javademos.init.JEPInfo.JEPData> data = gson.fromJson(br, JEPListType);
+                            List<JEPData> data = gson.fromJson(br, JEPListType);
                             data.forEach(d -> jeps.put(d.jep(), d));
                         } catch (IOException e) {
                             e.printStackTrace(System.out);
