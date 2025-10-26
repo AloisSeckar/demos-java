@@ -8,42 +8,42 @@ import java.io.*;
 import java.text.MessageFormat;
 import java.util.*;
 
-public class JEPInfo {
+    public class JEPInfo {
 
-    private JEPInfo() {}
+        private JEPInfo() {}
 
-    public record JEPData(int jep, int jdk, String name, String dscr, boolean link, boolean code) {}
+        public record JEPData(int jep, int jdk, String name, String dscr, boolean link, boolean code) {}
 
-    public static final Map<Integer, JEPData> JEP_DATA = getAllInfos();
-    public static final Map<Integer, IDemo> JEP_DEMO = getAllDemos();
+        public static final Map<Integer, org.javademos.init.JEPInfo.JEPData> JEP_DATA = getAllInfos();
+        public static final Map<Integer, IDemo> JEP_DEMO = getAllDemos();
 
-    private static Map<Integer, JEPData> getAllInfos() {
-        var jeps = new HashMap<Integer, JEPData>();
+        private static Map<Integer, org.javademos.init.JEPInfo.JEPData> getAllInfos() {
+            var jeps = new HashMap<Integer, org.javademos.init.JEPInfo.JEPData>();
 
-        var sources = Arrays.asList(14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25);
-        for (Integer src : sources) {
-            var srcFile = MessageFormat.format("/JDK{0}Info.json", src);
-            try (InputStream inputStream = JEPInfo.class.getResourceAsStream(srcFile)) {
-                if (inputStream != null) {
-                    try (BufferedReader br = new BufferedReader(new InputStreamReader(inputStream))) {
-                        var JEPListType = new TypeToken<List<JEPData>>() {
-                        }.getType();
-                        var gson = new Gson();
-                        List<JEPData> data = gson.fromJson(br, JEPListType);
-                        data.forEach(d -> jeps.put(d.jep(), d));
-                    } catch (IOException e) {
-                        e.printStackTrace(System.out);
+            var sources = Arrays.asList(14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25);
+            for (Integer src : sources) {
+                var srcFile = MessageFormat.format("/JDK{0}Info.json", src);
+                try (InputStream inputStream = org.javademos.init.JEPInfo.class.getResourceAsStream(srcFile)) {
+                    if (inputStream != null) {
+                        try (BufferedReader br = new BufferedReader(new InputStreamReader(inputStream))) {
+                            var JEPListType = new TypeToken<List<org.javademos.init.JEPInfo.JEPData>>() {
+                            }.getType();
+                            var gson = new Gson();
+                            List<org.javademos.init.JEPInfo.JEPData> data = gson.fromJson(br, JEPListType);
+                            data.forEach(d -> jeps.put(d.jep(), d));
+                        } catch (IOException e) {
+                            e.printStackTrace(System.out);
+                        }
+                    } else {
+                        System.err.println(MessageFormat.format("InputStream {0} is null", src));
                     }
-                } else {
-                    System.err.println(MessageFormat.format("InputStream {0} is null", src));
+                } catch (IOException e) {
+                    e.printStackTrace(System.out);
                 }
-            } catch (IOException e) {
-                e.printStackTrace(System.out);
             }
-        }
 
-        return jeps;
-    }
+            return jeps;
+        }
 
     private static Map<Integer, IDemo> getAllDemos() {
         var demos = new HashMap<Integer, IDemo>();
@@ -90,9 +90,11 @@ public class JEPInfo {
     }
 
     private static void getJava15Demos(Map<Integer, IDemo> demos) {
+        demos.put(339, new org.javademos.java15.jep339.EdDSADemo());
         demos.put(360, new org.javademos.java15.jep360.SealedClassesDemo());
         demos.put(371, new org.javademos.java15.jep371.HiddenClassesDemo());
         demos.put(372, new org.javademos.java15.jep372.NashornRemovalDemo());
+        demos.put(373, new org.javademos.java15.jep373.DatagramSocketDemo());
         demos.put(375, new org.javademos.java15.jep375.InstanceofPatternMatchingSecondPreview());
         demos.put(381, new org.javademos.java15.jep381.SolarisSparcRemovalDemo());
         demos.put(383, new org.javademos.java15.jep383.ForeignMemoryAccessDemo());
@@ -116,9 +118,11 @@ public class JEPInfo {
     }
 
     private static void getJava17Demos(Map<Integer, IDemo> demos) {
+        demos.put(356, new org.javademos.java17.jep356.RandomGeneratorsDemo());
         demos.put(306, new org.javademos.java17.jep306.RestoreAlwaysStrictFloatingPointSemanticsDemo());
         demos.put(382, new org.javademos.java17.jep382.MacosRenderingPipelineDemo());
         demos.put(391, new org.javademos.java17.jep391.MacOsAarch64PortDemo());
+        demos.put(398, new org.javademos.java17.jep398.DeprecateAppletApiForRemovalDemo());
         demos.put(403, new org.javademos.java17.jep403.StronglyEncapsulateInternalsDemo());
         demos.put(406, new org.javademos.java17.jep406.PatternMatchingForSwitchPreview());
         demos.put(407, new org.javademos.java17.jep407.RemoveRmiActivationDemo());
