@@ -1,22 +1,26 @@
-[ {
+[
+  {
     "jep": 305,
-    "info": {
-      "name": "JEP 305 - Pattern Matching for instanceof (Preview)",
-      "dscr": "Preview of Pattern Matching for instanceof. Finalized in JEP 394 (JDK 16)."
-    }
+    "jdk": 14,
+    "name": "JEP 305 - Pattern Matching for instanceof (Preview)",
+    "dscr": "Preview of Pattern Matching for instanceof. Finalized in JEP 394 (JDK 16).",
+    "link": true,
+    "code": false
   },
   {
-  "jep": 359,
-  "info": {
+    "jep": 359,
+    "jdk": 14,
     "name": "JEP 359 - Records (Preview)",
-    "dscr": "Up-to-date demo moved to org.javademos.java16.jep395.RecordDemo (JEP 395)"
-  }
- },
+    "dscr": "Up-to-date demo moved to org.javademos.java16.jep395.RecordDemo (JEP 395)",
+    "link": true,
+    "code": false
+  },
   {
     "jep": 370,
-    "info": {
-      "name": "JEP 370 - Foreign-Memory Access API (Incubator)",
-      "dscr": "Up-to-date demo moved to `org.javademos.java22.jep454.ForeignFunctionMemoryDemo` (JEP 454)"
-    }
+    "jdk": 14,
+    "name": "JEP 370 - Foreign-Memory Access API (Incubator)",
+    "dscr": "Up-to-date demo moved to `org.javademos.java22.jep454.ForeignFunctionMemoryDemo` (JEP 454)",
+    "link": true,
+    "code": false
   }
 ]

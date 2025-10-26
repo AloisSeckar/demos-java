@@ -46,8 +46,8 @@ public class Main {
         // demo class implementation you are currently interested in
 
         demoPool.addAll(Java11.getDemos());
-        // demoPool.addAll(Java12.getDemos());
-        // demoPool.addAll(Java13.getDemos());
+        demoPool.addAll(Java12.getDemos());
+        demoPool.addAll(Java13.getDemos());
         demoPool.addAll(Java14.getDemos());
         demoPool.addAll(Java15.getDemos());
         demoPool.addAll(Java16.getDemos());

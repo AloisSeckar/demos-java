@@ -1,4 +1,4 @@
-package org.javademos.java17.j16;
+package org.javademos.java16.extras;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

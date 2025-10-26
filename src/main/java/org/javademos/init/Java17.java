@@ -3,6 +3,7 @@ package org.javademos.init;
 import java.util.ArrayList;
 
 import org.javademos.commons.IDemo;
+import org.javademos.java17.extras.J17DeprecatedDemo;
 import org.javademos.java17.jep306.RestoreAlwaysStrictFloatingPointSemanticsDemo;
 import org.javademos.java17.jep356.RandomGenerators17;
 import org.javademos.java17.jep382.MacosRenderingPipelineDemo;
@@ -16,12 +17,8 @@ import org.javademos.java17.jep411.DeprecateSecurityManagerDemo;
 import org.javademos.java17.jep412.ForeignFunctionMemoryDemo;
 import org.javademos.java17.jep414.VectorAPIDemo;
 import org.javademos.java17.jep415.ContextSpecificDeserializationFiltersDemo;
-
-import org.javademos.java17.deprecated.DeprecatedDemo;
-import org.javademos.java17.j16.J16Demo;
 import org.javademos.java17.newswitch.SwitchDemo;
 import org.javademos.java17.nullpointer.NullPointerDemo;
-import org.javademos.java17.string12.String12Demo;
 import org.javademos.java17.textblock.TextBlockDemo;
 
 public class Java17 {
@@ -33,6 +30,9 @@ public class Java17 {
         var java17DemoPool = new ArrayList<IDemo>();
 
         // feel free to comment out demos you are not interested in right now
+
+        // extra features not related to any JEP
+        java17DemoPool.add(new J17DeprecatedDemo());
         // JEP 306
         java17DemoPool.add(new RestoreAlwaysStrictFloatingPointSemanticsDemo());
         // JEP 356
@@ -61,12 +61,9 @@ public class Java17 {
         java17DemoPool.add(new ContextSpecificDeserializationFiltersDemo());
 
         // older demos created with "non-JEP" style
-        java17DemoPool.add(new String12Demo());
         java17DemoPool.add(new SwitchDemo());
         java17DemoPool.add(new NullPointerDemo());
         java17DemoPool.add(new TextBlockDemo());
-        java17DemoPool.add(new J16Demo());
-        java17DemoPool.add(new DeprecatedDemo());
 
         return java17DemoPool;
     }

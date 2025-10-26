@@ -19,6 +19,7 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2025-10-23`** | [JavaDays 2025](https://javadays.cz/) conference took place at **Prague, CZE** between 22nd and 23rd October |
 | **`2025-10-16`** | [Merging Hilla into Flow: Embracing the Java core](https://vaadin.com/blog/merging-hilla-into-flow) - Vaadin will eventually blend two of their technologies together for better DevEx |
 | **`2025-10-15`** | [The best Java microframeworks to learn now](https://www.infoworld.com/article/4066620/the-best-java-microframeworks-to-learn-now.html) - keep up with the current Java ecosystem state and see what is available |
 | **`2025-10-13`** | [Seed4J 2.0 Delivers a Migration from JHipster Lite](https://www.infoq.com/news/2025/10/seed4j-migration-jhipster/) - former **JHipster Lite** evolved into **Seed4J**, the process is now completed by a smooth migration tool |
