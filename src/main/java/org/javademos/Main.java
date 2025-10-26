@@ -1,9 +1,8 @@
 package org.javademos;
 
 import org.javademos.commons.IDemo;
-import org.javademos.init.*;
 
-import java.util.ArrayList;
+import static org.javademos.init.JEPInfo.JEP_DEMO;
 
 /**
  * This application helps to show some new features from Java 11 to Java 21.
@@ -36,34 +35,10 @@ public class Main {
         System.out.println(System.getProperty("java.vendor"));
         System.out.println(System.getProperty("java.version"));
         System.out.println(System.getProperty("java.specification.vendor"));
-        //
-        
-        var demoPool = new ArrayList<IDemo>();
-        
-        // you may find useful to comment out other JDKs except the one
-        // you are about to examine
-        // it may be confusing to search the actual output of particular
-        // demo class implementation you are currently interested in
 
-        demoPool.addAll(Java11.getDemos());
-        demoPool.addAll(Java12.getDemos());
-        demoPool.addAll(Java13.getDemos());
-        demoPool.addAll(Java14.getDemos());
-        demoPool.addAll(Java15.getDemos());
-        demoPool.addAll(Java16.getDemos());
-        demoPool.addAll(Java17.getDemos());
-        demoPool.addAll(Java18.getDemos());
-        demoPool.addAll(Java19.getDemos());
-        demoPool.addAll(Java20.getDemos());
-        demoPool.addAll(Java21.getDemos());
-        demoPool.addAll(Java22.getDemos());
-        demoPool.addAll(Java23.getDemos());
-        demoPool.addAll(Java24.getDemos());
-        demoPool.addAll(Java25.getDemos());
-        
+        JEP_DEMO.values().forEach(IDemo::demo);
+
         // run method .demo() on each entry to see the output
-        demoPool.forEach(IDemo::demo);
-        
+        JEP_DEMO.values().forEach(IDemo::demo);
     }
-    
 }
