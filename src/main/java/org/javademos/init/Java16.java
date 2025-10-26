@@ -34,6 +34,10 @@ public class Java16 {
         java16DemoPool.add(new VectorAPIDemo());
         // JEP 347
         java16DemoPool.add(new Cpp14FeaturesDemo());
+        // Inside the list/map initialization in the JDK 16 helper file
+            // ... other demos ...
+        demos.add(new org.javademos.java16.jep357.MercurialToGitMigration()); // JEP 357
+        // ... other demos ...
         // JEP 380
         java16DemoPool.add(new UnixDomainSocketsDemo());
         // JEP 386 
