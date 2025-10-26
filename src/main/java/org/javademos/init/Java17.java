@@ -8,6 +8,7 @@ import org.javademos.java17.jep306.RestoreAlwaysStrictFloatingPointSemanticsDemo
 import org.javademos.java17.jep356.RandomGenerators17;
 import org.javademos.java17.jep382.MacosRenderingPipelineDemo;
 import org.javademos.java17.jep391.MacOsAarch64PortDemo;
+import org.javademos.java17.jep398.DeprecateAppletApiForRemovalDemo;
 import org.javademos.java17.jep403.StronglyEncapsulateInternalsDemo;
 import org.javademos.java17.jep406.PatternMatchingForSwitchPreview;
 import org.javademos.java17.jep407.RemoveRmiActivationDemo;
@@ -41,6 +42,8 @@ public class Java17 {
         java17DemoPool.add(new MacosRenderingPipelineDemo());
         // JEP 391
         java17DemoPool.add(new MacOsAarch64PortDemo());
+        // JEP 398
+        java17DemoPool.add(new DeprecateAppletApiForRemovalDemo());
         // JEP 403
         java17DemoPool.add(new StronglyEncapsulateInternalsDemo());
         // JEP 406
