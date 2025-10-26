@@ -1,4 +1,4 @@
-package org.javademos.java12.extras;
+package org.javademos.java12;
 
 import org.javademos.commons.IDemo;
 
