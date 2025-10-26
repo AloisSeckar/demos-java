@@ -3,6 +3,7 @@ package org.javademos.init;
 import java.util.ArrayList;
 
 import org.javademos.commons.IDemo;
+import org.javademos.java15.jep339.EdDSADemo;
 import org.javademos.java15.jep360.SealedClassesDemo;
 import org.javademos.java15.jep371.HiddenClassesDemo;
 import org.javademos.java15.jep372.NashornRemovalDemo;
@@ -21,6 +22,8 @@ public class Java15 {
 
         // feel free to comment out demos you are not interested in right now
 
+        // JEP 339
+        java15DemoPool.add(new EdDSADemo());
         // JEP 360
         java15DemoPool.add(new SealedClassesDemo());
         // JEP 371
