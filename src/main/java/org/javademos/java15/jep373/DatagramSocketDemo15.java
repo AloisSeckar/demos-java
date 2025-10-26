@@ -16,7 +16,7 @@ import java.net.InetAddress;
 /// - [JEP 373 - Reimplement the Legacy DatagramSocket API](https://openjdk.org/jeps/373)
 ///
 ///
-/// @author alois.seckar@gmail.com
+/// @author sayiamarora
 public class DatagramSocketDemo15 implements IDemo {
 
     @Override
