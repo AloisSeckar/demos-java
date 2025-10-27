@@ -1,5 +1,13 @@
 [
   {
+    "jep": 325,
+    "jdk": 12,
+    "name": "JEP 325 - Switch Expressions (Preview)",
+    "dscr": "First preview of switch expressions. Finalized in JEP 361 (JDK 14).",
+    "link": true,
+    "code": false
+  },
+  {
     "jep": 334,
     "jdk": 12,
     "name": "JEP 334 - JVM Constants API",

@@ -16,6 +16,14 @@
     "code": false
   },
   {
+    "jep": 361,
+    "jdk": 14,
+    "name": "JEP 361 - Switch Expressions",
+    "dscr": "Extend switch to be used as either a statement or an expression, with arrow labels and yield statement",
+    "link": false,
+    "code": true
+  },
+  {
     "jep": 370,
     "jdk": 14,
     "name": "JEP 370 - Foreign-Memory Access API (Incubator)",
