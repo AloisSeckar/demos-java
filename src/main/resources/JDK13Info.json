@@ -1,0 +1,10 @@
+[
+  {
+    "jep": 354,
+    "jdk": 13,
+    "name": "JEP 354 - Switch Expressions (Second Preview)",
+    "dscr": "Second preview of switch expressions introducing yield statement. Finalized in JEP 361 (JDK 14).",
+    "link": true,
+    "code": false
+  }
+]
