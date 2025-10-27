@@ -1,0 +1,10 @@
+[
+  {
+    "jep": 334,
+    "jdk": 12,
+    "name": "JEP 334 - JVM Constants API",
+    "dscr": "Introduces an API to model nominal descriptions of class file and runtime artifacts, especially constants loadable from the constant pool",
+    "link": false,
+    "code": true
+  }
+]
