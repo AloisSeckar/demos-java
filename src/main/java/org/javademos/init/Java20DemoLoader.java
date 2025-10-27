@@ -1,6 +1,7 @@
 package org.javademos.init;
 
 import org.javademos.commons.IDemo;
+import org.javademos.commons.IDemoLoader;
 import org.javademos.java20.jep429.ScopedValuesDemo;
 import org.javademos.java20.jep432.RecordPatterns;
 import org.javademos.java20.jep433.PatternMatchingForSwitchFourthPreview;
@@ -14,7 +15,7 @@ import java.util.Map;
 /**
  * Loads demos for Java 20.
  */
-public class Java20DemoLoader implements DemoLoader {
+public class Java20DemoLoader implements IDemoLoader {
     
     @Override
     public void loadDemos(Map<Integer, IDemo> demos) {

@@ -1,6 +1,7 @@
 package org.javademos.init;
 
 import org.javademos.commons.IDemo;
+import org.javademos.commons.IDemoLoader;
 import org.javademos.java16.jep338.VectorAPIDemo;
 import org.javademos.java16.jep347.Cpp14FeaturesDemo;
 import org.javademos.java16.jep380.UnixDomainSocketsDemo;
@@ -20,7 +21,7 @@ import java.util.Map;
 /**
  * Loads demos for Java 16.
  */
-public class Java16DemoLoader implements DemoLoader {
+public class Java16DemoLoader implements IDemoLoader {
     
     @Override
     public void loadDemos(Map<Integer, IDemo> demos) {

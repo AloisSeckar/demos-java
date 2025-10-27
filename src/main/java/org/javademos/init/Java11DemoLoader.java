@@ -1,13 +1,14 @@
 package org.javademos.init;
 
 import org.javademos.commons.IDemo;
+import org.javademos.commons.IDemoLoader;
 
 import java.util.Map;
 
 /**
  * Loads demos for Java 11.
  */
-public class Java11DemoLoader implements DemoLoader {
+public class Java11DemoLoader implements IDemoLoader {
     
     @Override
     public void loadDemos(Map<Integer, IDemo> demos) {

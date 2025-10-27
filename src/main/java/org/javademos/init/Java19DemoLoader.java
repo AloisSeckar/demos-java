@@ -1,6 +1,7 @@
 package org.javademos.init;
 
 import org.javademos.commons.IDemo;
+import org.javademos.commons.IDemoLoader;
 import org.javademos.java19.jep405.RecordPatterns;
 import org.javademos.java19.jep422.LinuxRiscVPort;
 import org.javademos.java19.jep424.ForeignFunctionMemoryDemo;
@@ -14,7 +15,7 @@ import java.util.Map;
 /**
  * Loads demos for Java 19.
  */
-public class Java19DemoLoader implements DemoLoader {
+public class Java19DemoLoader implements IDemoLoader {
     
     @Override
     public void loadDemos(Map<Integer, IDemo> demos) {

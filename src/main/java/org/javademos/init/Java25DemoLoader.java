@@ -1,6 +1,7 @@
 package org.javademos.init;
 
 import org.javademos.commons.IDemo;
+import org.javademos.commons.IDemoLoader;
 import org.javademos.java25.jep470.PemEncodingsDemo;
 import org.javademos.java25.jep502.StableValuesDemo;
 import org.javademos.java25.jep503.Remove32BitX86Demo;
@@ -25,7 +26,7 @@ import java.util.Map;
 /**
  * Loads demos for Java 25.
  */
-public class Java25DemoLoader implements DemoLoader {
+public class Java25DemoLoader implements IDemoLoader {
     
     @Override
     public void loadDemos(Map<Integer, IDemo> demos) {

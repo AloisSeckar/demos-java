@@ -1,6 +1,7 @@
 package org.javademos.init;
 
 import org.javademos.commons.IDemo;
+import org.javademos.commons.IDemoLoader;
 import org.javademos.java15.jep339.EdDSADemo;
 import org.javademos.java15.jep360.SealedClassesDemo;
 import org.javademos.java15.jep371.HiddenClassesDemo;
@@ -16,7 +17,7 @@ import java.util.Map;
 /**
  * Loads demos for Java 15.
  */
-public class Java15DemoLoader implements DemoLoader {
+public class Java15DemoLoader implements IDemoLoader {
     
     @Override
     public void loadDemos(Map<Integer, IDemo> demos) {

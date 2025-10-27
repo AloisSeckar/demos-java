@@ -50,6 +50,7 @@ import java.util.*;
 
         new Java11DemoLoader().loadDemos(demos);
         new Java12DemoLoader().loadDemos(demos);
+        new Java13DemoLoader().loadDemos(demos);
         new Java14DemoLoader().loadDemos(demos);
         new Java15DemoLoader().loadDemos(demos);
         new Java16DemoLoader().loadDemos(demos);

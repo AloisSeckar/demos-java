@@ -1,6 +1,7 @@
 package org.javademos.init;
 
 import org.javademos.commons.IDemo;
+import org.javademos.commons.IDemoLoader;
 import org.javademos.java23.jep455.PrimitiveTypesInPatterns;
 import org.javademos.java23.jep466.ClassFileAPIDemo;
 import org.javademos.java23.jep467.MarkdownComments;
@@ -19,7 +20,7 @@ import java.util.Map;
 /**
  * Loads demos for Java 23.
  */
-public class Java23DemoLoader implements DemoLoader {
+public class Java23DemoLoader implements IDemoLoader {
     
     @Override
     public void loadDemos(Map<Integer, IDemo> demos) {

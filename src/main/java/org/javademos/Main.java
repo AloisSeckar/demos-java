@@ -1,7 +1,7 @@
 package org.javademos;
 
 import org.javademos.commons.IDemo;
-import org.javademos.util.ArgsFilterUtil;
+import org.javademos.commons.ArgsFilterUtil;
 
 import java.util.Comparator;
 import java.util.Map;

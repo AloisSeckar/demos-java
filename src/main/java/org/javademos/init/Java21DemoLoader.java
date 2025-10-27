@@ -1,6 +1,7 @@
 package org.javademos.init;
 
 import org.javademos.commons.IDemo;
+import org.javademos.commons.IDemoLoader;
 import org.javademos.java21.jep430.StringTemplatesDemo;
 import org.javademos.java21.jep431.SequencedCollectionsDemo;
 import org.javademos.java21.jep439.GenerationalZGC21;
@@ -22,7 +23,7 @@ import java.util.Map;
 /**
  * Loads demos for Java 21.
  */
-public class Java21DemoLoader implements DemoLoader {
+public class Java21DemoLoader implements IDemoLoader {
     
     @Override
     public void loadDemos(Map<Integer, IDemo> demos) {

@@ -1,6 +1,7 @@
 package org.javademos.init;
 
 import org.javademos.commons.IDemo;
+import org.javademos.commons.IDemoLoader;
 import org.javademos.java22.jep423.RegionPinningForG1;
 import org.javademos.java22.jep447.StatementsBeforeSuper;
 import org.javademos.java22.jep454.ForeignFunctionMemoryDemo;
@@ -19,7 +20,7 @@ import java.util.Map;
 /**
  * Loads demos for Java 22.
  */
-public class Java22DemoLoader implements DemoLoader {
+public class Java22DemoLoader implements IDemoLoader {
     
     @Override
     public void loadDemos(Map<Integer, IDemo> demos) {

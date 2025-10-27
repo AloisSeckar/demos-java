@@ -1,6 +1,7 @@
 package org.javademos.init;
 
 import org.javademos.commons.IDemo;
+import org.javademos.commons.IDemoLoader;
 import org.javademos.java17.jep306.RestoreAlwaysStrictFloatingPointSemanticsDemo;
 import org.javademos.java17.jep356.RandomGeneratorsDemo;
 import org.javademos.java17.jep382.MacosRenderingPipelineDemo;
@@ -21,7 +22,7 @@ import java.util.Map;
 /**
  * Loads demos for Java 17.
  */
-public class Java17DemoLoader implements DemoLoader {
+public class Java17DemoLoader implements IDemoLoader {
     
     @Override
     public void loadDemos(Map<Integer, IDemo> demos) {

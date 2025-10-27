@@ -1,6 +1,7 @@
 package org.javademos.init;
 
 import org.javademos.commons.IDemo;
+import org.javademos.commons.IDemoLoader;
 import org.javademos.java18.jep400.DefaultUTF8Demo;
 import org.javademos.java18.jep408.SimpleWebServerDemo;
 import org.javademos.java18.jep413.CodeSnippetsInJavadoc;
@@ -16,7 +17,7 @@ import java.util.Map;
 /**
  * Loads demos for Java 18.
  */
-public class Java18DemoLoader implements DemoLoader {
+public class Java18DemoLoader implements IDemoLoader {
     
     @Override
     public void loadDemos(Map<Integer, IDemo> demos) {

@@ -1,4 +1,4 @@
-package org.javademos.util;
+package org.javademos.commons;
 
 import org.javademos.init.JEPInfo.JEPData;
 
