@@ -36,8 +36,7 @@
     "jdk": 15,
     "name": "ZGC: A Scalable Low-Latency Garbage Collector",
     "description": "Production-ready low-latency garbage collector maintaining sub-10ms pause times for large heaps.",
-    "link": true,
-    "replaced": false,
+    "link": false,
     "code": false
   },
   {
