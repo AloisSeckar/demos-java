@@ -1,5 +1,13 @@
 [
   {
+    "jep": 339,
+    "jdk": 15,
+    "name": "JEP 339 - Edwards-Curve Digital Signature Algorithm (EdDSA)",
+    "dscr": "Implements cryptographic signatures using the Edwards-Curve Digital Signature Algorithm (EdDSA) as described in RFC 8032",
+    "link": false,
+    "code": true
+  },
+  {
     "jep": 360,
     "jdk": 15,
     "name": "JEP 360 - Sealed Classes (Preview)",
@@ -23,6 +31,14 @@
     "link": false,
     "code": false
   },
+  {
+  "jep": 373,
+  "jdk": 15,
+  "name": "JEP 373 - Reimplement the Legacy DatagramSocket API",
+  "dscr": "Modern reimplementation of DatagramSocket and DatagramSocketImpl using java.nio for improved maintainability and performance.",
+  "link": false,
+  "code": true
+},
   {
     "jep": 375,
     "jdk": 15,

@@ -8,6 +8,11 @@
     "code": true
   },
   {
+  "number": 356,
+  "name": "Enhanced Pseudo-Random Number Generators",
+  "description": "New interfaces and implementations in java.util.random for flexible and stream-based random number generation."
+},
+  {
     "jep": 382,
     "jdk": 17,
     "name": "JEP 382 - New macOS Rendering Pipeline",
@@ -20,6 +25,14 @@
     "jdk": 17,
     "name": "JEP 391 - macOS/AArch64 Port",
     "dscr": "Explains the port of the JDK to macOS on ARM64 (Apple Silicon); see MacOsAarch64PortDemo.java",
+    "link": false,
+    "code": false
+  },
+  {
+    "jep": 398,
+    "jdk": 17,
+    "name": "JEP 398 - Deprecate the Applet API for Removal",
+    "dscr": "Deprecate the Applet API for removal. It is essentially irrelevant since all web-browser vendors have removed support for Java browser plug-ins",
     "link": false,
     "code": false
   },

@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import org.javademos.commons.IDemo;
 import org.javademos.java16.extras.J16Demo;
 import org.javademos.java16.jep338.VectorAPIDemo;
+import org.javademos.java16.jep347.Cpp14FeaturesDemo;
 import org.javademos.java16.jep380.UnixDomainSocketsDemo;
 import org.javademos.java16.jep386.AlpineLinuxPortDemo;
 import org.javademos.java16.jep388.WindowsPortDemo;
@@ -31,6 +32,8 @@ public class Java16 {
         java16DemoPool.add(new J16Demo());
         // JEP 338
         java16DemoPool.add(new VectorAPIDemo());
+        // JEP 347
+        java16DemoPool.add(new Cpp14FeaturesDemo());
         // JEP 380
         java16DemoPool.add(new UnixDomainSocketsDemo());
         // JEP 386 
