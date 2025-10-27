@@ -19,7 +19,7 @@ import java.util.random.RandomGenerator.JumpableGenerator;
 /// - [Baeldung: Enhanced Pseudo-Random Number Generators in Java 17](https://www.baeldung.com/java-17-random-number-generators)
 ///
 /// @author alois.seckar@gmail.com
-public class RandomGenerators17 implements IDemo {
+public class RandomGeneratorsDemo implements IDemo {
 
     @Override
     public void demo() {

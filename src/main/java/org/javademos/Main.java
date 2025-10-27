@@ -1,15 +1,18 @@
 package org.javademos;
 
 import org.javademos.commons.IDemo;
-import org.javademos.init.*;
+import org.javademos.commons.ArgsFilterUtil;
 
-import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.Map;
+
+import static org.javademos.init.JEPInfo.JEP_DEMO;
+import static org.javademos.init.JEPInfo.JEP_DATA;
 
 /**
  * This application helps to show some new features from Java 11 to Java 21.
- * The 'demoPool' array consists of simple IDemo interface implementations.
+ * The 'JEP_DATA' map consists of simple IDemo interface implementations.
  * Code logic is being implemented inside .demo() methods.
- * 
  * @see IDemo
  * 
  * You can try switching the compile/build settings back to Java 1.8 to see
@@ -19,14 +22,16 @@ import java.util.ArrayList;
  * @author alois.seckar@gmail.com
  */
 public class Main {
-    
+
     /**
-     * Simple main method.
-     * No complex logic - all available demo implementations are being put
-     * inside a list, and then being executed one by one.
-     * 
-     * @param args not supported (ignored) in this application
-     */
+     * Main method supports filtering demos based on command line arguments.
+     * Supported arguments and examples:
+     * --skip-links: Skip demos that are link-only to other JEP
+     * --code-only: Only run demos that contain code
+     * --jdk=17,25: Only run demos from specific JDK versions
+     * --only=382,409: Only run specific JEP numbers
+     * @see ArgsFilterUtil
+     * */
     public static void main(String[] args) {
 
         // https://stackoverflow.com/a/19165338/3204544
@@ -36,34 +41,18 @@ public class Main {
         System.out.println(System.getProperty("java.vendor"));
         System.out.println(System.getProperty("java.version"));
         System.out.println(System.getProperty("java.specification.vendor"));
-        //
-        
-        var demoPool = new ArrayList<IDemo>();
-        
-        // you may find useful to comment out other JDKs except the one
-        // you are about to examine
-        // it may be confusing to search the actual output of particular
-        // demo class implementation you are currently interested in
 
-        demoPool.addAll(Java11.getDemos());
-        demoPool.addAll(Java12.getDemos());
-        demoPool.addAll(Java13.getDemos());
-        demoPool.addAll(Java14.getDemos());
-        demoPool.addAll(Java15.getDemos());
-        demoPool.addAll(Java16.getDemos());
-        demoPool.addAll(Java17.getDemos());
-        demoPool.addAll(Java18.getDemos());
-        demoPool.addAll(Java19.getDemos());
-        demoPool.addAll(Java20.getDemos());
-        demoPool.addAll(Java21.getDemos());
-        demoPool.addAll(Java22.getDemos());
-        demoPool.addAll(Java23.getDemos());
-        demoPool.addAll(Java24.getDemos());
-        demoPool.addAll(Java25.getDemos());
-        
-        // run method .demo() on each entry to see the output
-        demoPool.forEach(IDemo::demo);
-        
+        var filteredJepData = ArgsFilterUtil.getFilteredJepData(args, JEP_DATA);
+
+        // Run only filtered demos, sorted by JDK version and JEP number
+        JEP_DEMO.entrySet().stream()
+                .filter(e -> filteredJepData.containsKey(e.getKey()))
+                .sorted(
+                        Comparator
+                                .comparingInt((Map.Entry<Integer, IDemo> e) -> JEP_DATA.get(e.getKey()).jdk())
+                                .thenComparingInt(Map.Entry::getKey)
+                )
+                .map(Map.Entry::getValue)
+                .forEach(IDemo::demo);
     }
-    
 }

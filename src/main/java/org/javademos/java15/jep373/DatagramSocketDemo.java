@@ -17,7 +17,7 @@ import java.net.InetAddress;
 ///
 ///
 /// @author sayiamarora
-public class DatagramSocketDemo15 implements IDemo {
+public class DatagramSocketDemo implements IDemo {
 
     @Override
     public void demo() {
