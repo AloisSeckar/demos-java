@@ -8,6 +8,14 @@
     "code": false
   },
   {
+    "jep": 358,
+    "jdk": 14,
+    "name": "JEP 358 - Helpful NullPointerExceptions",
+    "dscr": "Enhances NullPointerExceptions to describe precisely which variable was null",
+    "link": false,
+    "code": true
+  },
+  {
     "jep": 359,
     "jdk": 14,
     "name": "JEP 359 - Records (Preview)",
