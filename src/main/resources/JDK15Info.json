@@ -50,7 +50,7 @@
   {
     "jep": 377,
     "jdk": 15,
-    "name": "ZGC: A Scalable Low-Latency Garbage Collector",
+    "name": "JEP 377 - ZGC: A Scalable Low-Latency Garbage Collector",
     "dscr": "Production-ready low-latency garbage collector maintaining sub-10ms pause times for large heaps.",
     "link": false,
     "code": false
