@@ -24,7 +24,7 @@ public class Java14DemoLoader implements IDemoLoader {
         demos.put(358, new NullPointerDemo());
         demos.put(359, new RecordsPreviewDemo());
         demos.put(361, new SwitchExpressionsDemo());
-        demos.put(365, new ZGarbageCollectorOnWindows())
+        demos.put(365, new ZGarbageCollectorOnWindows());
         demos.put(368, new TextBlockSecondPreviewDemo());
         demos.put(370, new ForeignMemoryAccessDemo());
     }
