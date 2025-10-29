@@ -1,7 +1,10 @@
 package org.javademos.init;
 
+import java.util.Map;
+
 import org.javademos.commons.IDemo;
 import org.javademos.commons.IDemoLoader;
+
 import org.javademos.java15.jep339.EdDSADemo;
 import org.javademos.java15.jep360.SealedClassesDemo;
 import org.javademos.java15.jep371.HiddenClassesDemo;
@@ -13,8 +16,6 @@ import org.javademos.java15.jep378.TextBlockDemo;
 import org.javademos.java15.jep381.SolarisSparcRemovalDemo;
 import org.javademos.java15.jep383.ForeignMemoryAccessDemo;
 import org.javademos.java15.jep384.RecordsSecondPreviewDemo;
-
-import java.util.Map;
 
 /**
  * Loads demos for Java 15.

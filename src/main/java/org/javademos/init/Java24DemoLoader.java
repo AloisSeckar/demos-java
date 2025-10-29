@@ -1,7 +1,10 @@
 package org.javademos.init;
 
+import java.util.Map;
+
 import org.javademos.commons.IDemo;
 import org.javademos.commons.IDemoLoader;
+
 import org.javademos.java24.jep404.GenerationalShenandoahExperimental;
 import org.javademos.java24.jep450.CompactObjectHeadersExperimental;
 import org.javademos.java24.jep472.PrepareToRestrictJNI;
@@ -25,8 +28,6 @@ import org.javademos.java24.jep497.QuantumResistantModuleLatticeBasedDigitalSign
 import org.javademos.java24.jep498.MemoryAccessMethods;
 import org.javademos.java24.jep499.StructuredConcurrencyDemo;
 import org.javademos.java24.jep501.Deprecate32BitX86Demo;
-
-import java.util.Map;
 
 /**
  * Loads demos for Java 24.

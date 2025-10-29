@@ -1,7 +1,10 @@
 package org.javademos.init;
 
+import java.util.Map;
+
 import org.javademos.commons.IDemo;
 import org.javademos.commons.IDemoLoader;
+
 import org.javademos.java20.jep429.ScopedValuesDemo;
 import org.javademos.java20.jep432.RecordPatterns;
 import org.javademos.java20.jep433.PatternMatchingForSwitchFourthPreview;
@@ -9,8 +12,6 @@ import org.javademos.java20.jep434.ForeignFunctionMemoryDemo;
 import org.javademos.java20.jep436.VirtualThreads;
 import org.javademos.java20.jep437.StructuredConcurrencyDemo;
 import org.javademos.java20.jep438.VectorAPIDemo;
-
-import java.util.Map;
 
 /**
  * Loads demos for Java 20.

@@ -1,7 +1,10 @@
 package org.javademos.init;
 
+import java.util.Map;
+
 import org.javademos.commons.IDemo;
 import org.javademos.commons.IDemoLoader;
+
 import org.javademos.java18.jep400.DefaultUTF8Demo;
 import org.javademos.java18.jep408.SimpleWebServerDemo;
 import org.javademos.java18.jep413.CodeSnippetsInJavadoc;
@@ -11,9 +14,6 @@ import org.javademos.java18.jep418.InternetAddressResolutionSPI;
 import org.javademos.java18.jep419.ForeignFunctionMemoryDemo;
 import org.javademos.java18.jep420.PatternMatchingForSwitchSecondPreview;
 import org.javademos.java18.jep421.DeprecateFinalization;
-
-import java.util.Map;
-
 /**
  * Loads demos for Java 18.
  */

@@ -1,7 +1,10 @@
 package org.javademos.init;
 
+import java.util.Map;
+
 import org.javademos.commons.IDemo;
 import org.javademos.commons.IDemoLoader;
+
 import org.javademos.java16.jep338.VectorAPIDemo;
 import org.javademos.java16.jep347.Cpp14FeaturesDemo;
 import org.javademos.java16.jep380.UnixDomainSocketsDemo;
@@ -15,8 +18,6 @@ import org.javademos.java16.jep394.InstanceofPatternMatchingDemo;
 import org.javademos.java16.jep395.RecordDemo;
 import org.javademos.java16.jep396.EncapsulationDemo;
 import org.javademos.java16.jep397.SealedClassesDemo;
-
-import java.util.Map;
 
 /**
  * Loads demos for Java 16.
