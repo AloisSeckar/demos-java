@@ -1,7 +1,10 @@
 package org.javademos.init;
 
+import java.util.Map;
+
 import org.javademos.commons.IDemo;
 import org.javademos.commons.IDemoLoader;
+
 import org.javademos.java25.jep470.PemEncodingsDemo;
 import org.javademos.java25.jep502.StableValuesDemo;
 import org.javademos.java25.jep503.Remove32BitX86Demo;
@@ -20,8 +23,6 @@ import org.javademos.java25.jep518.JFRCooperativeSamplingDemo;
 import org.javademos.java25.jep519.CompactObjectHeaderDemo;
 import org.javademos.java25.jep520.Jep520MethodTracingDemo;
 import org.javademos.java25.jep521.GenerationalShenandoahDemo;
-
-import java.util.Map;
 
 /**
  * Loads demos for Java 25.

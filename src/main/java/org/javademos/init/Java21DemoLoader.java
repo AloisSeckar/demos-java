@@ -1,7 +1,10 @@
 package org.javademos.init;
 
+import java.util.Map;
+
 import org.javademos.commons.IDemo;
 import org.javademos.commons.IDemoLoader;
+
 import org.javademos.java21.jep430.StringTemplatesDemo;
 import org.javademos.java21.jep431.SequencedCollectionsDemo;
 import org.javademos.java21.jep439.GenerationalZGC21;
@@ -17,8 +20,6 @@ import org.javademos.java21.jep449.DeprecateWindows32BitX86Demo;
 import org.javademos.java21.jep451.DisallowDynamicAgentLoading;
 import org.javademos.java21.jep452.KeyEncapsulationMechanismAPIDemo;
 import org.javademos.java21.jep453.StructuredConcurrencyDemo;
-
-import java.util.Map;
 
 /**
  * Loads demos for Java 21.

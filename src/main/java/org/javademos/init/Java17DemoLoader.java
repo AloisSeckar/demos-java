@@ -1,7 +1,10 @@
 package org.javademos.init;
 
+import java.util.Map;
+
 import org.javademos.commons.IDemo;
 import org.javademos.commons.IDemoLoader;
+
 import org.javademos.java17.jep306.RestoreAlwaysStrictFloatingPointSemanticsDemo;
 import org.javademos.java17.jep356.RandomGeneratorsDemo;
 import org.javademos.java17.jep382.MacosRenderingPipelineDemo;
@@ -17,8 +20,6 @@ import org.javademos.java17.jep412.ForeignFunctionMemoryDemo;
 import org.javademos.java17.jep414.VectorAPIDemo;
 import org.javademos.java17.jep415.ContextSpecificDeserializationFiltersDemo;
 
-import java.util.Map;
-
 /**
  * Loads demos for Java 17.
  */
@@ -26,8 +27,8 @@ public class Java17DemoLoader implements IDemoLoader {
     
     @Override
     public void loadDemos(Map<Integer, IDemo> demos) {
-        demos.put(356, new RandomGeneratorsDemo());
         demos.put(306, new RestoreAlwaysStrictFloatingPointSemanticsDemo());
+        demos.put(356, new RandomGeneratorsDemo());
         demos.put(382, new MacosRenderingPipelineDemo());
         demos.put(391, new MacOsAarch64PortDemo());
         demos.put(398, new DeprecateAppletApiForRemovalDemo());

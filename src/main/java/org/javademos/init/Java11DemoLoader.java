@@ -1,9 +1,9 @@
 package org.javademos.init;
 
+import java.util.Map;
+
 import org.javademos.commons.IDemo;
 import org.javademos.commons.IDemoLoader;
-
-import java.util.Map;
 
 /**
  * Loads demos for Java 11.

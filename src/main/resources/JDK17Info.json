@@ -8,10 +8,13 @@
     "code": true
   },
   {
-  "number": 356,
-  "name": "Enhanced Pseudo-Random Number Generators",
-  "description": "New interfaces and implementations in java.util.random for flexible and stream-based random number generation."
-},
+    "number": 356,
+    "jdk": 17,
+    "name": "Enhanced Pseudo-Random Number Generators",
+    "description": "New interfaces and implementations in java.util.random for flexible and stream-based random number generation.",
+    "link": false,
+    "code": true
+  },
   {
     "jep": 382,
     "jdk": 17,

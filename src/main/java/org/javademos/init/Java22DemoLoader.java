@@ -1,7 +1,10 @@
 package org.javademos.init;
 
+import java.util.Map;
+
 import org.javademos.commons.IDemo;
 import org.javademos.commons.IDemoLoader;
+
 import org.javademos.java22.jep423.RegionPinningForG1;
 import org.javademos.java22.jep447.StatementsBeforeSuper;
 import org.javademos.java22.jep454.ForeignFunctionMemoryDemo;
@@ -14,8 +17,6 @@ import org.javademos.java22.jep461.StreamGatherersDemo;
 import org.javademos.java22.jep462.StructuredConcurrencyDemo;
 import org.javademos.java22.jep463.ImplicitlyDeclaredClassesDemo;
 import org.javademos.java22.jep464.ScopedValuesDemo;
-
-import java.util.Map;
 
 /**
  * Loads demos for Java 22.

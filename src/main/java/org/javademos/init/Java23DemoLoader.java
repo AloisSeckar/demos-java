@@ -1,7 +1,10 @@
 package org.javademos.init;
 
+import java.util.Map;
+
 import org.javademos.commons.IDemo;
 import org.javademos.commons.IDemoLoader;
+
 import org.javademos.java23.jep455.PrimitiveTypesInPatterns;
 import org.javademos.java23.jep466.ClassFileAPIDemo;
 import org.javademos.java23.jep467.MarkdownComments;
@@ -14,8 +17,6 @@ import org.javademos.java23.jep477.ImplicitlyDeclaredClassesDemo;
 import org.javademos.java23.jep480.StructuredConcurrency;
 import org.javademos.java23.jep481.ScopedValuesDemo;
 import org.javademos.java23.jep482.FlexibleConstructorBodies;
-
-import java.util.Map;
 
 /**
  * Loads demos for Java 23.

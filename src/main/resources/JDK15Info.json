@@ -32,13 +32,13 @@
     "code": false
   },
   {
-  "jep": 373,
-  "jdk": 15,
-  "name": "JEP 373 - Reimplement the Legacy DatagramSocket API",
-  "dscr": "Modern reimplementation of DatagramSocket and DatagramSocketImpl using java.nio for improved maintainability and performance.",
-  "link": false,
-  "code": true
-},
+    "jep": 373,
+    "jdk": 15,
+    "name": "JEP 373 - Reimplement the Legacy DatagramSocket API",
+    "dscr": "Modern reimplementation of DatagramSocket and DatagramSocketImpl using java.nio for improved maintainability and performance.",
+    "link": false,
+    "code": true
+  },
   {
     "jep": 375,
     "jdk": 15,
