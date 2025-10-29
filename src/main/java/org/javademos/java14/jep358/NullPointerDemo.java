@@ -1,4 +1,4 @@
-package org.javademos.java17.nullpointer;
+package org.javademos.java14.jep358;
 
 import org.javademos.commons.IDemo;
 
@@ -10,13 +10,13 @@ import org.javademos.commons.IDemo;
 /// Further reading:
 /// - [Java 14 NullPointerException](https://www.baeldung.com/java-14-nullpointerexception)
 /// 
-/// @author alois.seckar@gmail.com
+/// @author Abhineshhh
 @SuppressWarnings("null") // we are deliberately invoking `NullPointerException` in this demo
 public class NullPointerDemo implements IDemo {
 
     @Override
     public void demo() {
-        info("NULL POINTER DEMO", "Examples of 'helpful NullPointer' errors\nintroduced in Java 14");
+        info(358);
         
         try {
             // this will raise NullPointerException, but with helpful hint
