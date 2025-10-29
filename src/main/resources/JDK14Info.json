@@ -32,6 +32,14 @@
     "code": true
   },
   {
+    "jep": 365,
+    "jdk": 14,
+    "name": "JEP 365 - ZGC on Windows (Experimental)",
+    "dscr": "Port the ZGC garbage collector to Windows. Up-to-date demo moved to `org.javademos.java15.jep377.ZGarbageCollectorDemo` (JEP 377)",
+    "link": true,
+    "code": false
+  },
+  {
     "jep": 368,
     "jdk": 14,
     "name": "JEP 368 - Text Blocks (Second Preview)",
