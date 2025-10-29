@@ -6,5 +6,13 @@
     "dscr": "Second preview of switch expressions introducing yield statement. Finalized in JEP 361 (JDK 14).",
     "link": true,
     "code": false
+  },
+  {
+    "jep": 355,
+    "jdk": 13,
+    "name": "JEP 355 - Text Blocks (Preview)",
+    "dscr": "Up-to-date demo moved to `org.javademos.java15.jep378.TextBlockDemo` (JEP 378)",
+    "link": true,
+    "code": false
   }
 ]

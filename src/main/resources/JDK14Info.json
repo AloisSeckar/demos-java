@@ -32,6 +32,14 @@
     "code": true
   },
   {
+    "jep": 368,
+    "jdk": 14,
+    "name": "JEP 368 - Text Blocks (Second Preview)",
+    "dscr": "Up-to-date demo moved to `org.javademos.java15.jep378.TextBlockDemo` (JEP 378)",
+    "link": true,
+    "code": false
+  },
+  {
     "jep": 370,
     "jdk": 14,
     "name": "JEP 370 - Foreign-Memory Access API (Incubator)",

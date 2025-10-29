@@ -20,7 +20,7 @@ import java.util.*;
         private static Map<Integer, JEPData> getAllInfos() {
             var jeps = new HashMap<Integer, JEPData>();
 
-            var sources = Arrays.asList(14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25);
+            var sources = Arrays.asList(13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25);
             for (Integer src : sources) {
                 var srcFile = MessageFormat.format("/JDK{0}Info.json", src);
                 try (InputStream inputStream = org.javademos.init.JEPInfo.class.getResourceAsStream(srcFile)) {
