@@ -119,7 +119,7 @@
     "link": false,
     "code": false
   },
-    {
+  {
     "jep": 492,
     "jdk": 24,
     "name": "JEP 492 - Flexible Constructor Bodies (Third Preview)",
