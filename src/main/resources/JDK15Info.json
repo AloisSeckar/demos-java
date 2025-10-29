@@ -56,6 +56,14 @@
     "code": false
   },
   {
+    "jep": 378,
+    "jdk": 15,
+    "name": "JEP 378 - Text Blocks",
+    "dscr": "Demonstrates adding text blocks to the Java language; see TextBlockDemo.java",
+    "link": false,
+    "code": true
+  },
+  {
     "jep": 381,
     "jdk": 15,
     "name": "JEP 381 - Remove the Solaris and SPARC Ports",

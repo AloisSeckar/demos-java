@@ -9,6 +9,7 @@ import org.javademos.java15.jep372.NashornRemovalDemo;
 import org.javademos.java15.jep373.DatagramSocketDemo;
 import org.javademos.java15.jep375.InstanceofPatternMatchingSecondPreview;
 import org.javademos.java15.jep377.ZGarbageCollectorDemo;
+import org.javademos.java15.jep378.TextBlockDemo;
 import org.javademos.java15.jep381.SolarisSparcRemovalDemo;
 import org.javademos.java15.jep383.ForeignMemoryAccessDemo;
 import org.javademos.java15.jep384.RecordsSecondPreviewDemo;
@@ -29,6 +30,7 @@ public class Java15DemoLoader implements IDemoLoader {
         demos.put(373, new DatagramSocketDemo());
         demos.put(375, new InstanceofPatternMatchingSecondPreview());
         demos.put(377, new ZGarbageCollectorDemo());
+        demos.put(378, new TextBlockDemo());
         demos.put(381, new SolarisSparcRemovalDemo());
         demos.put(383, new ForeignMemoryAccessDemo());
         demos.put(384, new RecordsSecondPreviewDemo());
