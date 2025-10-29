@@ -15,32 +15,6 @@ public class TextBlockSecondPreviewDemo implements IDemo {
     @Override
     public void demo() {
         info(368);
-
-        // example supporting the claim
-
-        // Example of New Escape
-
-        System.out.println("""
-                The character literals and traditional string literals don't
-                allow the embedding of newlines, the \\<line-terminator> escape
-                sequence applicable for text blocks only.
-                """);
-
-        String rawLiteral = "Lorem ipsum dolor sit amet, consectetur adipiscing " +
-                "elit, sed do eiusmod tempor incididunt ut labore " +
-                "et dolore magna aliqua.";
-
-        System.out.println(rawLiteral);
-
-        System.out.println("The following example demonstrates having a newline, but actually does not do");
-
-        String lineTerminatorText =  """
-                Lorem ipsum dolor sit amet, consectetur adipiscing \
-                elit, sed do eiusmod tempor incididunt ut labore \
-                et dolore magna aliqua.\
-                """;
-
-        System.out.println(lineTerminatorText);
     }
 
 }

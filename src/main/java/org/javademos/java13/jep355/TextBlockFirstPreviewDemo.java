@@ -15,6 +15,8 @@ import org.javademos.commons.IDemo;
 
 public class TextBlockFirstPreviewDemo implements IDemo {
     @Override
-    public void demo() {info(355);}
+    public void demo() {
+        info(355);
+    }
 
 }

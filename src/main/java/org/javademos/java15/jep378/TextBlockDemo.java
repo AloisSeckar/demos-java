@@ -33,6 +33,37 @@ public class TextBlockDemo implements IDemo{
         System.out.println("Old string for JDK < 15 ");
         System.out.println(oldString);
 
+        // Based on the feedback received from JEP355, in the second preview JEP368, two new escape
+        // sequence for explicit control were introduced ->
+        // a) \s (A single space preventing automatic stripping of trailing whitespace.
+        // b) \ (A backslash at the end of a line to suppress the insertion of a new line character.
+
+        // This change introduced in JEP368, was also taken in the final implementation of JEP378.
+
+        // Example of New Escape
+
+        System.out.println("""
+                The character literals and traditional string literals don't
+                allow the embedding of newlines, the \\<line-terminator> escape
+                sequence applicable for text blocks only.
+                """);
+
+        String rawLiteral = "Lorem ipsum dolor sit amet, consectetur adipiscing " +
+                "elit, sed do eiusmod tempor incididunt ut labore " +
+                "et dolore magna aliqua.";
+
+        System.out.println(rawLiteral);
+
+        System.out.println("The following example demonstrates having a newline, but actually does not do");
+
+        String lineTerminatorText =  """
+                Lorem ipsum dolor sit amet, consectetur adipiscing \
+                elit, sed do eiusmod tempor incididunt ut labore \
+                et dolore magna aliqua.\
+                """;
+
+        System.out.println(lineTerminatorText);
+
         // Java 15+
         // you can have multi-line text inside """ and """ marks
         // new lines are automatically being taken from new lines in source
@@ -42,6 +73,7 @@ public class TextBlockDemo implements IDemo{
                            divided to more lines without + symbols
                            and with no need to declare \\n line breaks
                            """;
+        System.out.println();
         System.out.println("New String for JDK 15+ ");
         System.out.println(newString);
 
