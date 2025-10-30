@@ -40,6 +40,14 @@
     "code": false
   },
   {
+    "jep": 367,
+    "jdk": 14,
+    "name": "JEP 367 - Remove the Pack200 Tools and API",
+    "dscr": "Removes the Pack200 tools and API from the JDK. This entry documents the removal and points users to alternatives.",
+    "link": false,
+    "code": true
+  },
+  {
     "jep": 368,
     "jdk": 14,
     "name": "JEP 368 - Text Blocks (Second Preview)",

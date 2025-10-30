@@ -10,6 +10,7 @@ import org.javademos.java14.jep358.NullPointerDemo;
 import org.javademos.java14.jep359.RecordsPreviewDemo;
 import org.javademos.java14.jep361.SwitchExpressionsDemo;
 import org.javademos.java14.jep365.ZGarbageCollectorOnWindows;
+import org.javademos.java14.jep367.Pack200Demo;
 import org.javademos.java14.jep368.TextBlockSecondPreviewDemo;
 import org.javademos.java14.jep370.ForeignMemoryAccessDemo;
 
@@ -25,6 +26,7 @@ public class Java14DemoLoader implements IDemoLoader {
         demos.put(359, new RecordsPreviewDemo());
         demos.put(361, new SwitchExpressionsDemo());
         demos.put(365, new ZGarbageCollectorOnWindows());
+        demos.put(367, new Pack200Demo());
         demos.put(368, new TextBlockSecondPreviewDemo());
         demos.put(370, new ForeignMemoryAccessDemo());
     }
