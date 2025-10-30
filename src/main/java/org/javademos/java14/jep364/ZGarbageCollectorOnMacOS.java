@@ -10,7 +10,7 @@ import org.javademos.commons.IDemo;
 /// Relates to:
 /// - JDK 15: [JEP 377 - ZGC: A Scalable Low-Latency Garbage Collector (Production)](https://openjdk.org/jeps/377)
 ///
-/// Port the ZGC garbage collector to Windows
+/// Port the ZGC garbage collector to macOS
 /// @see org.javademos.java15.jep377.ZGarbageCollectorDemo
 ///
 /// @author SanjanaMahapatra
