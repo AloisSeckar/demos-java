@@ -15,13 +15,20 @@ Stay up-to-date with the following even more dedicated websites:
 Check where can you meet fellow Java enthusiasts at:
 - https://javaconferences.org/
 
-- ## 2025 - October
+## 2025 - October
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2025-10-30`** | [JDK 26: HTTP/3 Support Available in HTTP Client API](https://inside.java/2025/10/30/quality-heads-up/) - the upcoming JDK release will have support for latest HTTP protocol version via **JEP 517** |
+| **`2025-10-27`** | [A practical guide to high-performance serverless with GraalVM and Spring](https://www.infoworld.com/article/4078803/taming-the-java-cold-start-beast-a-practical-guide-to-high-performance-serverless-with-graalvm-and-spring.html) - demo setup for blazing fast GraalVM native image app tailored for serverless cold starts |
 | **`2025-10-23`** | [JavaDays 2025](https://javadays.cz/) conference took place at **Prague, CZE** between 22nd and 23rd October |
+| **`2025-10-22`** | [The best new features in Java 25](https://www.infoworld.com/article/4075736/7-key-features-in-java-25.html) - what you shouldn't miss from the recent JDK release |
+| **`2025-10-22`** | [Cutting Boilerplate and Complexity: Inside Jakarta Data](https://javapro.io/2025/10/22/cutting-boilerplate-and-complexity-inside-jakarta-data/) - overview of main idea and features of Jakarta EE 11 approach to working with data sources |
+| **`2025-10-18`** | [Apache Grails 7.0.0 - Release Announcement](https://grails.apache.org/blog/2025-10-18-introducing-grails-7.html) - new major version of Groovy-based web framework was released |
+| **`2025-10-16`** | [WildFly 38 is released](https://www.wildfly.org/news/2025/10/16/WildFly-38-is-released/) - new version of WildFly app server was released |
 | **`2025-10-16`** | [Merging Hilla into Flow: Embracing the Java core](https://vaadin.com/blog/merging-hilla-into-flow) - Vaadin will eventually blend two of their technologies together for better DevEx |
 | **`2025-10-15`** | [The best Java microframeworks to learn now](https://www.infoworld.com/article/4066620/the-best-java-microframeworks-to-learn-now.html) - keep up with the current Java ecosystem state and see what is available |
+| **`2025-10-14`** | [Testcontainers 2.0.0](https://github.com/testcontainers/testcontainers-java/releases/tag/2.0.0) - new major version of test framework for (not only) Java cloud-native apps was released |
 | **`2025-10-13`** | [Seed4J 2.0 Delivers a Migration from JHipster Lite](https://www.infoq.com/news/2025/10/seed4j-migration-jhipster/) - former **JHipster Lite** evolved into **Seed4J**, the process is now completed by a smooth migration tool |
 | **`2025-10-09`** | [The rise of JVM languages: Kotlin, Scala, Groovy, and more](https://javapro.io/2025/10/09/the-rise-of-jvm-languages-kotlin-scala-groovy-and-more/) - an overview of major JVM languages existing today |
 | **`2025-10-07`** | [Introducing Analyze Applications and Major Management Enhancements to JMS](https://blogs.oracle.com/java/post/analyze-applications-and-other-enhancements) - new release of Oracle Java Management Service brings new analytics and management tools |
