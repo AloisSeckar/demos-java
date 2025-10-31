@@ -8,6 +8,22 @@
     "code": false
   },
   {
+  "jep": 343,
+  "jdk": 14,
+  "name": "JEP 343 - Packaging Tool (Incubator)",
+  "dscr": "Create a tool for packaging self-contained Java applications. Up-to-date demo moved to org.javademos.java16.jep392.PackagingToolDemo (JEP 392)",
+  "link": true,
+  "code": false
+  },
+  {
+    "jep": 349,
+    "jdk": 14,
+    "name": "JEP 349 - JFR Event Streaming",
+    "dscr": "Demo for JFR Event Streaming added in `org.javademos.java14.jep349.JFREventStreamingDemo` (JEP 349)",
+    "link": false,
+    "code": true
+  },
+  {
     "jep": 358,
     "jdk": 14,
     "name": "JEP 358 - Helpful NullPointerExceptions",
@@ -32,12 +48,44 @@
     "code": true
   },
   {
+    "jep": 362,
+    "jdk": 14,
+    "name": "JEP 362 - Deprecate the Solaris and SPARC Ports",
+    "dscr": "Deprecate the Solaris/SPARC, Solaris/x64, and Linux/SPARC ports, with the intent to remove them in a future release.",
+    "link": true,
+    "code": false
+  },
+  {
+    "jep": 363,
+    "jdk": 14,
+    "name": "JEP 363 - Remove the Concurrent Mark Sweep (CMS) Garbage Collector",
+    "dscr": "Remove the Concurrent Mark Sweep (CMS) garbage collector.",
+    "link": false,
+    "code": false
+  },
+  {
+    "jep": 364,
+    "jdk": 14,
+    "name": "JEP 364 - ZGC on macOS (Experimental)",
+    "dscr": "Port the ZGC garbage collector to macOS. Up-to-date demo moved to `org.javademos.java15.jep377.ZGarbageCollectorDemo` (JEP 377)",
+    "link": true,
+    "code": false
+  },
+  {
     "jep": 365,
     "jdk": 14,
     "name": "JEP 365 - ZGC on Windows (Experimental)",
     "dscr": "Port the ZGC garbage collector to Windows. Up-to-date demo moved to `org.javademos.java15.jep377.ZGarbageCollectorDemo` (JEP 377)",
     "link": true,
     "code": false
+  },
+  {
+    "jep": 366,
+    "jdk": 14,
+    "name": "JEP 366 - Deprecate the ParallelScavenge + SerialOld GC Combination",
+    "dscr": "Deprecate the combination of the Parallel Scavenge and Serial Old garbage collection algorithms.",
+    "link": false,
+    "code": true
   },
   {
     "jep": 367,
