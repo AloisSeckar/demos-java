@@ -40,6 +40,14 @@
     "code": false
   },
   {
+    "jep": 366,
+    "jdk": 14,
+    "name": "JEP 366 - Deprecate the ParallelScavenge + SerialOld GC Combination",
+    "dscr": "Deprecate the combination of the Parallel Scavenge and Serial Old garbage collection algorithms.",
+    "link": false,
+    "code": true
+  },
+  {
     "jep": 368,
     "jdk": 14,
     "name": "JEP 368 - Text Blocks (Second Preview)",
