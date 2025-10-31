@@ -7,6 +7,7 @@ import org.javademos.commons.IDemoLoader;
 
 import org.javademos.java14.jep305.InstanceofPatternMatchingPreview;
 import org.javademos.java14.jep343.PackagingToolIncubatorDemo;
+import org.javademos.java14.jep349.JFREventStreamingDemo;
 import org.javademos.java14.jep358.NullPointerDemo;
 import org.javademos.java14.jep359.RecordsPreviewDemo;
 import org.javademos.java14.jep361.SwitchExpressionsDemo;
@@ -16,7 +17,6 @@ import org.javademos.java14.jep365.ZGarbageCollectorOnWindows;
 import org.javademos.java14.jep366.ParallelScavengeGCCombinationDemo;
 import org.javademos.java14.jep368.TextBlockSecondPreviewDemo;
 import org.javademos.java14.jep370.ForeignMemoryAccessDemo;
-import org.javademos.java14.jep349.JFREventStreamingDemo;
 
 /**
  * Loads demos for Java 14.
