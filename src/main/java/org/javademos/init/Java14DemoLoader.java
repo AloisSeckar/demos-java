@@ -27,6 +27,7 @@ public class Java14DemoLoader implements IDemoLoader {
     public void loadDemos(Map<Integer, IDemo> demos) {
         demos.put(305, new InstanceofPatternMatchingPreview());
         demos.put(343, new PackagingToolIncubatorDemo());
+        demos.put(349, new JFREventStreamingDemo());
         demos.put(358, new NullPointerDemo());
         demos.put(359, new RecordsPreviewDemo());
         demos.put(361, new SwitchExpressionsDemo());
@@ -36,6 +37,5 @@ public class Java14DemoLoader implements IDemoLoader {
         demos.put(366, new ParallelScavengeGCCombinationDemo());
         demos.put(368, new TextBlockSecondPreviewDemo());
         demos.put(370, new ForeignMemoryAccessDemo());
-        demos.put(349, new JFREventStreamingDemo());
     }
 }
