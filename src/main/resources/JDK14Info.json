@@ -52,7 +52,7 @@
     "jdk": 14,
     "name": "JEP 363 - Remove the Concurrent Mark Sweep (CMS) Garbage Collector",
     "dscr": "Remove the Concurrent Mark Sweep (CMS) garbage collector.",
-    "link": true,
+    "link": false,
     "code": false
   },
   {
