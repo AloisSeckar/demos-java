@@ -56,6 +56,14 @@
     "code": false
   },
   {
+    "jep": 363,
+    "jdk": 14,
+    "name": "JEP 363 - Remove the Concurrent Mark Sweep (CMS) Garbage Collector",
+    "dscr": "Remove the Concurrent Mark Sweep (CMS) garbage collector.",
+    "link": false,
+    "code": false
+  },
+  {
     "jep": 364,
     "jdk": 14,
     "name": "JEP 364 - ZGC on macOS (Experimental)",

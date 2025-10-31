@@ -12,6 +12,7 @@ import org.javademos.java14.jep358.NullPointerDemo;
 import org.javademos.java14.jep359.RecordsPreviewDemo;
 import org.javademos.java14.jep361.SwitchExpressionsDemo;
 import org.javademos.java14.jep362.SolarisSparcRemovalDemo;
+import org.javademos.java14.jep363.RemoveTheCMSGarbageCollectorDemo;
 import org.javademos.java14.jep364.ZGarbageCollectorOnMacOS;
 import org.javademos.java14.jep365.ZGarbageCollectorOnWindows;
 import org.javademos.java14.jep366.ParallelScavengeGCCombinationDemo;
@@ -32,6 +33,7 @@ public class Java14DemoLoader implements IDemoLoader {
         demos.put(359, new RecordsPreviewDemo());
         demos.put(361, new SwitchExpressionsDemo());
         demos.put(362, new SolarisSparcRemovalDemo());
+        demos.put(363, new RemoveTheCMSGarbageCollectorDemo());
         demos.put(364, new ZGarbageCollectorOnMacOS());
         demos.put(365, new ZGarbageCollectorOnWindows());
         demos.put(366, new ParallelScavengeGCCombinationDemo());
