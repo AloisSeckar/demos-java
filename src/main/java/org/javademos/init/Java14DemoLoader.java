@@ -10,6 +10,8 @@ import org.javademos.java14.jep343.PackagingToolIncubatorDemo;
 import org.javademos.java14.jep358.NullPointerDemo;
 import org.javademos.java14.jep359.RecordsPreviewDemo;
 import org.javademos.java14.jep361.SwitchExpressionsDemo;
+import org.javademos.java14.jep362.SolarisSparcRemovalDemo;
+import org.javademos.java14.jep364.ZGarbageCollectorOnMacOS;
 import org.javademos.java14.jep365.ZGarbageCollectorOnWindows;
 import org.javademos.java14.jep368.TextBlockSecondPreviewDemo;
 import org.javademos.java14.jep370.ForeignMemoryAccessDemo;
@@ -26,6 +28,8 @@ public class Java14DemoLoader implements IDemoLoader {
         demos.put(358, new NullPointerDemo());
         demos.put(359, new RecordsPreviewDemo());
         demos.put(361, new SwitchExpressionsDemo());
+        demos.put(362, new SolarisSparcRemovalDemo());
+        demos.put(364, new ZGarbageCollectorOnMacOS());
         demos.put(365, new ZGarbageCollectorOnWindows());
         demos.put(368, new TextBlockSecondPreviewDemo());
         demos.put(370, new ForeignMemoryAccessDemo());
