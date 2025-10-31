@@ -86,5 +86,13 @@
     "dscr": "Up-to-date demo moved to `org.javademos.java22.jep454.ForeignFunctionMemoryDemo` (JEP 454)",
     "link": true,
     "code": false
+  },
+  {
+    "jep": 349,
+    "jdk": 14,
+    "name": "JEP 349 - JFR Event Streaming",
+    "dscr": "Demo for JFR Event Streaming added in `org.javademos.java14.jep349.JFREventStreamingDemo` (JEP 349)",
+    "link": false,
+    "code": true
   }
 ]

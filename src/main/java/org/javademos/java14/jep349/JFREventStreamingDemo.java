@@ -16,7 +16,7 @@ import java.time.Duration;
 /// onFlush for periodic aggregation
 ///
 /// @author NayanKaushik25 ///
-public class JFREventStreaming implements IDemo {
+public class JFREventStreamingDemo implements IDemo {
 
     @Override
     public void demo() {

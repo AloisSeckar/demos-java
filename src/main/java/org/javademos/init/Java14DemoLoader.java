@@ -16,12 +16,13 @@ import org.javademos.java14.jep365.ZGarbageCollectorOnWindows;
 import org.javademos.java14.jep366.ParallelScavengeGCCombinationDemo;
 import org.javademos.java14.jep368.TextBlockSecondPreviewDemo;
 import org.javademos.java14.jep370.ForeignMemoryAccessDemo;
+import org.javademos.java14.jep349.JFREventStreamingDemo;
 
 /**
  * Loads demos for Java 14.
  */
 public class Java14DemoLoader implements IDemoLoader {
-    
+
     @Override
     public void loadDemos(Map<Integer, IDemo> demos) {
         demos.put(305, new InstanceofPatternMatchingPreview());
@@ -35,5 +36,6 @@ public class Java14DemoLoader implements IDemoLoader {
         demos.put(366, new ParallelScavengeGCCombinationDemo());
         demos.put(368, new TextBlockSecondPreviewDemo());
         demos.put(370, new ForeignMemoryAccessDemo());
+        demos.put(349, new JFREventStreamingDemo());
     }
 }
