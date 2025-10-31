@@ -16,6 +16,14 @@
   "code": false
   },
   {
+    "jep": 349,
+    "jdk": 14,
+    "name": "JEP 349 - JFR Event Streaming",
+    "dscr": "Demo for JFR Event Streaming added in `org.javademos.java14.jep349.JFREventStreamingDemo` (JEP 349)",
+    "link": false,
+    "code": true
+  },
+  {
     "jep": 358,
     "jdk": 14,
     "name": "JEP 358 - Helpful NullPointerExceptions",
