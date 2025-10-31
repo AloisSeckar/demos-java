@@ -8,6 +8,14 @@
     "code": false
   },
   {
+  "jep": 343,
+  "jdk": 14,
+  "name": "JEP 343 - Packaging Tool (Incubator)",
+  "dscr": "Create a tool for packaging self-contained Java applications. Up-to-date demo moved to org.javademos.java16.jep392.PackagingToolDemo (JEP 392)",
+  "link": true,
+  "code": false
+  },
+  {
     "jep": 358,
     "jdk": 14,
     "name": "JEP 358 - Helpful NullPointerExceptions",
