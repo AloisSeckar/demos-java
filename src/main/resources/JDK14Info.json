@@ -8,6 +8,14 @@
     "code": false
   },
   {
+  "jep": 343,
+  "jdk": 14,
+  "name": "JEP 343 - Packaging Tool (Incubator)",
+  "dscr": "Create a tool for packaging self-contained Java applications. Up-to-date demo moved to org.javademos.java16.jep392.PackagingToolDemo (JEP 392)",
+  "link": true,
+  "code": false
+  },
+  {
     "jep": 358,
     "jdk": 14,
     "name": "JEP 358 - Helpful NullPointerExceptions",
@@ -30,6 +38,22 @@
     "dscr": "Extend switch to be used as either a statement or an expression, with arrow labels and yield statement",
     "link": false,
     "code": true
+  },
+  {
+    "jep": 362,
+    "jdk": 14,
+    "name": "JEP 362 - Deprecate the Solaris and SPARC Ports",
+    "dscr": "Deprecate the Solaris/SPARC, Solaris/x64, and Linux/SPARC ports, with the intent to remove them in a future release.",
+    "link": true,
+    "code": false
+  },
+  {
+    "jep": 364,
+    "jdk": 14,
+    "name": "JEP 364 - ZGC on macOS (Experimental)",
+    "dscr": "Port the ZGC garbage collector to macOS. Up-to-date demo moved to `org.javademos.java15.jep377.ZGarbageCollectorDemo` (JEP 377)",
+    "link": true,
+    "code": false
   },
   {
     "jep": 365,
