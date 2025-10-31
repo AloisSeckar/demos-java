@@ -16,6 +16,7 @@ import org.javademos.java14.jep363.RemoveTheCMSGarbageCollectorDemo;
 import org.javademos.java14.jep364.ZGarbageCollectorOnMacOS;
 import org.javademos.java14.jep365.ZGarbageCollectorOnWindows;
 import org.javademos.java14.jep366.ParallelScavengeGCCombinationDemo;
+import org.javademos.java14.jep367.Pack200Demo;
 import org.javademos.java14.jep368.TextBlockSecondPreviewDemo;
 import org.javademos.java14.jep370.ForeignMemoryAccessDemo;
 
@@ -37,6 +38,7 @@ public class Java14DemoLoader implements IDemoLoader {
         demos.put(364, new ZGarbageCollectorOnMacOS());
         demos.put(365, new ZGarbageCollectorOnWindows());
         demos.put(366, new ParallelScavengeGCCombinationDemo());
+        demos.put(367, new Pack200Demo());
         demos.put(368, new TextBlockSecondPreviewDemo());
         demos.put(370, new ForeignMemoryAccessDemo());
     }
