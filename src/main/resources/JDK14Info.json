@@ -32,6 +32,14 @@
     "code": true
   },
   {
+    "jep": 362,
+    "jdk": 14,
+    "name": "JEP 362 - Deprecate the Solaris and SPARC Ports",
+    "dscr": "Deprecate the Solaris/SPARC, Solaris/x64, and Linux/SPARC ports, with the intent to remove them in a future release.",
+    "link": true,
+    "code": false
+  },
+  {
     "jep": 364,
     "jdk": 14,
     "name": "JEP 364 - ZGC on macOS (Experimental)",
