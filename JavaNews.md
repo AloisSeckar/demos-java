@@ -19,6 +19,7 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2025-10-31`** | [Will JavaFX return to Java?](https://www.infoworld.com/article/4082709/will-javafx-return-to-java.html) - after **JavaFX** being separated from **OpenJDK** since Java 11, now there are discussion to put it back or at least improve the access from JDK and back |
 | **`2025-10-30`** | [JDK 26: HTTP/3 Support Available in HTTP Client API](https://inside.java/2025/10/30/quality-heads-up/) - the upcoming JDK release will have support for latest HTTP protocol version via **JEP 517** |
 | **`2025-10-27`** | [A practical guide to high-performance serverless with GraalVM and Spring](https://www.infoworld.com/article/4078803/taming-the-java-cold-start-beast-a-practical-guide-to-high-performance-serverless-with-graalvm-and-spring.html) - demo setup for blazing fast GraalVM native image app tailored for serverless cold starts |
 | **`2025-10-23`** | [JavaDays 2025](https://javadays.cz/) conference took place at **Prague, CZE** between 22nd and 23rd October |
