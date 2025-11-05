@@ -161,32 +161,29 @@ public class NonVolatileMappedByteBuffersDemo implements IDemo {
     /**
      * Demonstrates the concepts behind READ_WRITE_SYNC mode for non-volatile memory.
      * Note: The actual MapMode.READ_WRITE_SYNC is primarily useful with NVM hardware.
+     * 
+     * MapMode.READ_WRITE_SYNC mode (introduced in JEP 352):
+     * - Designed for non-volatile memory (NVM) devices
+     * - Provides synchronous writes that bypass the page cache
+     * - Ensures data durability without explicit force() calls
+     * - Optimized for byte-addressable persistent memory
+     * 
+     * Key benefits:
+     * - Reduced latency for persistent writes
+     * - Guaranteed data durability after each write
+     * - Better performance on NVM hardware like Intel Optane
+     * 
+     * Traditional READ_WRITE mode:
+     * - Writes go through the page cache
+     * - Requires force() to ensure persistence
+     * - Optimized for traditional block storage
+     * 
+     * When to use:
+     * - Use READ_WRITE_SYNC for NVM-backed files when durability is critical
+     * - Use READ_WRITE for traditional storage or when buffering is acceptable
      */
     private void demonstrateReadWriteSyncMode() {
         System.out.println("Demonstrating concepts for non-volatile memory access...");
-        
-        System.out.println("""
-                
-                  MapMode.READ_WRITE_SYNC mode (introduced in JEP 352):
-                  - Designed for non-volatile memory (NVM) devices
-                  - Provides synchronous writes that bypass the page cache
-                  - Ensures data durability without explicit force() calls
-                  - Optimized for byte-addressable persistent memory
-                  
-                  Key benefits:
-                  - Reduced latency for persistent writes
-                  - Guaranteed data durability after each write
-                  - Better performance on NVM hardware like Intel Optane
-                  
-                  Traditional READ_WRITE mode:
-                  - Writes go through the page cache
-                  - Requires force() to ensure persistence
-                  - Optimized for traditional block storage
-                  
-                  When to use:
-                  - Use READ_WRITE_SYNC for NVM-backed files when durability is critical
-                  - Use READ_WRITE for traditional storage or when buffering is acceptable
-                """);
         
         // Example of how you would use it (conceptual, as NVM hardware is not common):
         Path tempFile = null;
