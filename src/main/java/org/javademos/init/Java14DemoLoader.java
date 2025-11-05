@@ -4,10 +4,10 @@ import java.util.Map;
 
 import org.javademos.commons.IDemo;
 import org.javademos.commons.IDemoLoader;
-
 import org.javademos.java14.jep305.InstanceofPatternMatchingPreview;
 import org.javademos.java14.jep343.PackagingToolIncubatorDemo;
 import org.javademos.java14.jep349.JFREventStreamingDemo;
+import org.javademos.java14.jep352.NonVolatileMappedByteBuffersDemo;
 import org.javademos.java14.jep358.NullPointerDemo;
 import org.javademos.java14.jep359.RecordsPreviewDemo;
 import org.javademos.java14.jep361.SwitchExpressionsDemo;
@@ -30,6 +30,7 @@ public class Java14DemoLoader implements IDemoLoader {
         demos.put(305, new InstanceofPatternMatchingPreview());
         demos.put(343, new PackagingToolIncubatorDemo());
         demos.put(349, new JFREventStreamingDemo());
+        demos.put(352, new NonVolatileMappedByteBuffersDemo());
         demos.put(358, new NullPointerDemo());
         demos.put(359, new RecordsPreviewDemo());
         demos.put(361, new SwitchExpressionsDemo());
