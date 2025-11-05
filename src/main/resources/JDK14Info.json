@@ -24,6 +24,14 @@
     "code": true
   },
   {
+    "jep": 352,
+    "jdk": 14,
+    "name": "JEP 352 - Non-Volatile Mapped Byte Buffers",
+    "dscr": "Extends MappedByteBuffer API to support non-volatile memory with new FileChannel mapping modes",
+    "link": false,
+    "code": true
+  },
+  {
     "jep": 358,
     "jdk": 14,
     "name": "JEP 358 - Helpful NullPointerExceptions",
