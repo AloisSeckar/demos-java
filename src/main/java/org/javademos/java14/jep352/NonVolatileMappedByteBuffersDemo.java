@@ -66,7 +66,10 @@ public class NonVolatileMappedByteBuffersDemo implements IDemo {
                 MappedByteBuffer buffer = channel.map(FileChannel.MapMode.READ_WRITE, 0, 1024);
                 
                 // Write some data
-                buffer.put("Hello, Non-Volatile Memory!".getBytes());
+                String message = "Hello, Non-Volatile Memory!";
+                byte[] messageBytes = message.getBytes();
+                buffer.putInt(messageBytes.length); // Write length first
+                buffer.put(messageBytes);
                 buffer.putInt(42);
                 buffer.putDouble(3.14159);
                 
@@ -74,9 +77,10 @@ public class NonVolatileMappedByteBuffersDemo implements IDemo {
                 System.out.println("  Buffer position: " + buffer.position());
                 System.out.println("  Buffer capacity: " + buffer.capacity());
                 
-                // Read back the data
-                buffer.flip();
-                byte[] bytes = new byte[28];
+                // Read back the data - reset position to beginning
+                buffer.position(0);
+                int stringLength = buffer.getInt();
+                byte[] bytes = new byte[stringLength];
                 buffer.get(bytes);
                 int value = buffer.getInt();
                 double pi = buffer.getDouble();
