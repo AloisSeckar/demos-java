@@ -97,6 +97,10 @@ https://github.com/HanSolo/JDKMon
 https://docs.langchain4j.dev/
 - Simplified integrations of LLMs into Java applications.
 
+## Web3j
+https://docs.web3j.io/
+- modular, reactive, type safe Java and Android library for working with blockchain via Ethereum
+
 ## Embabel Agent
 https://github.com/embabel/embabel-agent
 - Framework for AI agents in JVM environments
