@@ -15,6 +15,14 @@ Stay up-to-date with the following even more dedicated websites:
 Check where can you meet fellow Java enthusiasts at:
 - https://javaconferences.org/
 
+## 2025 - November
+
+| Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
+| --- | :--  |
+| **`2025-11-07`** | [Grails 7.0 Delivers Enhancements for Micronaut and GORM](https://www.infoq.com/news/2025/11/grails-7-released/) - Apache **Grails** v7 was released last month, check what is new |
+| **`2025-11-05`** | [The Blockchain in your Java application](https://javapro.io/2025/11/05/the-blockchain-in-your-java-application/) - an introduction of **Web3j** library |
+| **`2025-11-05`** | [A fresh look at the Spring Framework](https://www.infoworld.com/article/4083578/a-fresh-look-at-the-spring-framework.html) - everyone knows it, but what exactly is available in 2025? |
+
 ## 2025 - October
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
