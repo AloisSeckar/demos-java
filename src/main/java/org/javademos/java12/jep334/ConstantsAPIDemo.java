@@ -26,11 +26,10 @@ import org.javademos.commons.IDemo;
 /// - **MethodHandleDesc**: Describes a method handle
 /// - **DynamicConstantDesc**: Describes a dynamically-computed constant
 ///
-/// Main package: java.lang.constant
+/// Main package: `java.lang.constant`
 ///
 /// Further reading:
-/// - [JEP 334 Specification](https://openjdk.org/jeps/334)
-/// - [java.lang.constant package](https://docs.oracle.com/en/java/javase/12/docs/api/java.base/java/lang/constant/package-summary.html)
+/// - https://docs.oracle.com/en/java/javase/12/docs/api/java.base/java/lang/constant/package-summary.html
 ///
 /// @see java.lang.constant.ClassDesc
 /// @see java.lang.constant.MethodTypeDesc
@@ -41,6 +40,14 @@ public class ConstantsAPIDemo implements IDemo {
     @Override
     public void demo() {
         info(334);
+
+        // The JVM Constants API is primarily used by:
+        //  • Bytecode generation frameworks (ASM, ByteBuddy, etc.)
+        //  • Language implementations (Kotlin, Scala, Groovy)
+        //  • JVM tooling and instrumentation
+        //  • Reflection and metaprogramming libraries
+        // It provides a type-safe way to describe constant pool entries
+        // without directly manipulating bytecode.
 
         try {
             demonstrateClassDesc();
@@ -69,11 +76,11 @@ public class ConstantsAPIDemo implements IDemo {
         ClassDesc objectDesc = ConstantDescs.CD_Object;
         ClassDesc listDesc = ConstantDescs.CD_List;
 
-        System.out.println("✓ Primitive type descriptor:");
+        System.out.println("Primitive type descriptor:");
         System.out.println("  int descriptor: " + intDesc.descriptorString());
         System.out.println();
 
-        System.out.println("✓ Reference type descriptors:");
+        System.out.println("Reference type descriptors:");
         System.out.println("  String descriptor: " + stringDesc.descriptorString());
         System.out.println("  Object descriptor: " + objectDesc.descriptorString());
         System.out.println("  List descriptor: " + listDesc.descriptorString());
@@ -83,7 +90,7 @@ public class ConstantsAPIDemo implements IDemo {
         ClassDesc stringArrayDesc = stringDesc.arrayType();
         ClassDesc intArrayDesc = ClassDesc.ofDescriptor("[I");
 
-        System.out.println("✓ Array type descriptors:");
+        System.out.println("Array type descriptors:");
         System.out.println("  String[] descriptor: " + stringArrayDesc.descriptorString());
         System.out.println("  int[] descriptor: " + intArrayDesc.descriptorString());
         System.out.println();
@@ -91,7 +98,7 @@ public class ConstantsAPIDemo implements IDemo {
         // Resolving to actual Class
         try {
             Class<?> resolvedClass = stringDesc.resolveConstantDesc(MethodHandles.lookup());
-            System.out.println("✓ Resolved ClassDesc to actual class:");
+            System.out.println("Resolved ClassDesc to actual class:");
             System.out.println("  Resolved: " + resolvedClass.getName());
         } catch (ReflectiveOperationException e) {
             System.err.println("  Failed to resolve: " + e.getMessage());
@@ -120,7 +127,7 @@ public class ConstantsAPIDemo implements IDemo {
             ConstantDescs.CD_int
         );
 
-        System.out.println("✓ Method type descriptors:");
+        System.out.println("Method type descriptors:");
         System.out.println("  ()int descriptor: " + noArgsInt.descriptorString());
         System.out.println("  (String)void descriptor: " + stringToVoid.descriptorString());
         System.out.println("  (int,int)int descriptor: " + binaryOp.descriptorString());
@@ -128,7 +135,7 @@ public class ConstantsAPIDemo implements IDemo {
 
         // Changing return type
         MethodTypeDesc modifiedType = binaryOp.changeReturnType(ConstantDescs.CD_long);
-        System.out.println("✓ Modified method type:");
+        System.out.println("Modified method type:");
         System.out.println("  Original: " + binaryOp.descriptorString());
         System.out.println("  Changed to return long: " + modifiedType.descriptorString());
     }
@@ -147,8 +154,7 @@ public class ConstantsAPIDemo implements IDemo {
             MethodTypeDesc.of(ConstantDescs.CD_String, ConstantDescs.CD_int)
         );
 
-        System.out.println("✓ Static method handle descriptor:");
-        System.out.println("  Method: String.valueOf(int)");
+        System.out.println("Static method handle descriptor for `String.valueOf(int)`");
         System.out.println("  Owner: " + valueOfDesc.owner().displayName());
         System.out.println("  Name: " + valueOfDesc.methodName());
         System.out.println("  Type: " + valueOfDesc.invocationType().descriptorString());
@@ -162,8 +168,7 @@ public class ConstantsAPIDemo implements IDemo {
             MethodTypeDesc.of(ConstantDescs.CD_int)
         );
 
-        System.out.println("✓ Instance method handle descriptor:");
-        System.out.println("  Method: String.length()");
+        System.out.println("Instance method handle descriptor for `String.length()`");
         System.out.println("  Kind: " + lengthDesc.kind());
         System.out.println("  Owner: " + lengthDesc.owner().displayName());
         System.out.println("  Type: " + lengthDesc.invocationType().descriptorString());
@@ -185,20 +190,9 @@ public class ConstantsAPIDemo implements IDemo {
             ConstantDescs.CD_Integer
         );
 
-        System.out.println("✓ Dynamic constant descriptor:");
-        System.out.println("  Constant name: myConstant");
+        System.out.println("Dynamic constant descriptor for `myConstant`:");
         System.out.println("  Constant type: " + dynamicInt.constantType().displayName());
         System.out.println("  Bootstrap method: " + dynamicInt.bootstrapMethod().methodName());
         System.out.println();
-
-        System.out.println("=== Use Cases ===");
-        System.out.println("The JVM Constants API is primarily used by:");
-        System.out.println("  • Bytecode generation frameworks (ASM, ByteBuddy, etc.)");
-        System.out.println("  • Language implementations (Kotlin, Scala, Groovy)");
-        System.out.println("  • JVM tooling and instrumentation");
-        System.out.println("  • Reflection and metaprogramming libraries");
-        System.out.println();
-        System.out.println("It provides a type-safe way to describe constant pool entries");
-        System.out.println("without directly manipulating bytecode.");
     }
 }
