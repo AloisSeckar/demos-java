@@ -6,6 +6,7 @@ import org.javademos.commons.IDemo;
 import org.javademos.commons.IDemoLoader;
 import org.javademos.java14.jep305.InstanceofPatternMatchingPreview;
 import org.javademos.java14.jep343.PackagingToolIncubatorDemo;
+import org.javademos.java14.jep345.NumaAwareG1Demo;
 import org.javademos.java14.jep349.JFREventStreamingDemo;
 import org.javademos.java14.jep352.NonVolatileMappedByteBuffersDemo;
 import org.javademos.java14.jep358.NullPointerDemo;
@@ -29,6 +30,7 @@ public class Java14DemoLoader implements IDemoLoader {
     public void loadDemos(Map<Integer, IDemo> demos) {
         demos.put(305, new InstanceofPatternMatchingPreview());
         demos.put(343, new PackagingToolIncubatorDemo());
+        demos.put(345, new NumaAwareG1Demo());
         demos.put(349, new JFREventStreamingDemo());
         demos.put(352, new NonVolatileMappedByteBuffersDemo());
         demos.put(358, new NullPointerDemo());
