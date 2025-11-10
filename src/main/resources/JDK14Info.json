@@ -21,7 +21,7 @@
     "name": "JEP 345 - NUMA-Aware Memory Allocation for G1",
     "dscr": "Improves G1 GC to allocate memory from multiple NUMA nodes for better performance on multi-socket machines",
     "link": false,
-    "code": true
+    "code": false
   },
   {
     "jep": 349,

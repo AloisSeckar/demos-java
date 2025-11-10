@@ -87,7 +87,6 @@ public class NumaAwareG1Demo implements IDemo {
         // This will show NUMA node allocation information during GC cycles.
 
         System.out.println("\nNUMA-Aware G1 is a JVM-level optimization.");
-        System.out.println("No code changes are required - just use appropriate JVM flags.");
         System.out.println("Enable with: -XX:+UseG1GC -XX:+UseNUMA");
     }
 }
