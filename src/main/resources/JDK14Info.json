@@ -16,6 +16,14 @@
   "code": false
   },
   {
+    "jep": 345,
+    "jdk": 14,
+    "name": "JEP 345 - NUMA-Aware Memory Allocation for G1",
+    "dscr": "Improves G1 GC to allocate memory from multiple NUMA nodes for better performance on multi-socket machines",
+    "link": false,
+    "code": true
+  },
+  {
     "jep": 349,
     "jdk": 14,
     "name": "JEP 349 - JFR Event Streaming",
