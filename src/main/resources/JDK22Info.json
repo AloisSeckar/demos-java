@@ -3,7 +3,7 @@
     "jep": 423,
     "jdk": 22,
     "name": "JEP 423 - Region Pinning for G1",
-    "dscr": "No executable code, see RegionPinningForG1 class for further info",
+    "dscr": "No executable code, see RegionPinningForG1 class for further info.",
     "link": false,
     "code": false
   },
@@ -11,7 +11,7 @@
     "jep": 447,
     "jdk": 22,
     "name": "JEP 447 - Statements before super(...) (Preview)",
-    "dscr": "Implementation moved into `org.javademos.java23.jep482.FlexibleConstructorBodies` (JEP 482)",
+    "dscr": "Up-to-date demo in `org.javademos.java23.jep482.FlexibleConstructorBodies`.",
     "link": true,
     "code": false
   },
@@ -35,7 +35,7 @@
     "jep": 457,
     "jdk": 22,
     "name": "JEP 457 - Class-File API (Preview)",
-    "dscr": "Up-to-date demo moved to `org.javademos.java24.jep484.ClassFileAPIDemo` (JEP 484)",
+    "dscr": "Up-to-date demo in `org.javademos.java24.jep484.ClassFileAPIDemo`.",
     "link": true,
     "code": false
   },
@@ -43,7 +43,7 @@
     "jep": 458,
     "jdk": 22,
     "name": "JEP 458 - Launch Multi-File Source-Code Programs",
-    "dscr": "Demonstrates launching multi-file source-code programs directly with java; see LaunchMultiFileSourceDemo.java",
+    "dscr": "Demonstrates launching multi-file source-code programs directly with Java.",
     "link": false,
     "code": false
   },
@@ -59,7 +59,7 @@
     "jep": 460,
     "jdk": 22,
     "name": "JEP 460 - Vector API (Seventh Incubator)",
-    "dscr": "Up-to-date demo moved to `org.javademos.java25.jep508.VectorAPIDemo` (JEP 508)",
+    "dscr": "Up-to-date demo in `org.javademos.java25.jep508.VectorAPIDemo`.",
     "link": true,
     "code": false
   },
@@ -67,7 +67,7 @@
     "jep": 461,
     "jdk": 22,
     "name": "JEP 461 - Stream Gatherers (Preview)",
-    "dscr": "Up-to-date demo moved to `org.javademos.java24.jep485.StreamGatherersDemo` (JEP 485)",
+    "dscr": "Up-to-date demo in `org.javademos.java24.jep485.StreamGatherersDemo`.",
     "link": true,
     "code": false
   },
@@ -75,7 +75,7 @@
     "jep": 462,
     "jdk": 22,
     "name": "JEP 462 - Structured Concurrency (Second Preview)",
-    "dscr": "Up-to-date demo moved to org.javademos.java25.jep505.StructuredConcurrencyDemo (JEP 505)",
+    "dscr": "Up-to-date demo in `org.javademos.java25.jep505.StructuredConcurrencyDemo`.",
     "link": true,
     "code": false
   },
@@ -83,7 +83,7 @@
     "jep": 463,
     "jdk": 22,
     "name": "JEP 463 - Implicitly Declared Classes and Instance Main Methods (Second Preview)",
-    "dscr": "Up-to-date demo moved to `org.javademos.java25.jep512.CompactSourceFilesDemo` (JEP 512)",
+    "dscr": "Up-to-date demo in `org.javademos.java25.jep512.CompactSourceFilesDemo`.",
     "link": true,
     "code": false
   },
@@ -91,7 +91,7 @@
     "jep": 464,
     "jdk": 22,
     "name": "JEP 464 - Scoped Values (Second Preview)",
-    "dscr": "Up-to-date demo moved to `org.javademos.java25.jep506.ScopedValuesDemo` (JEP 506)",
+    "dscr": "Up-to-date demo in `org.javademos.java25.jep506.ScopedValuesDemo`.",
     "link": true,
     "code": false
   }

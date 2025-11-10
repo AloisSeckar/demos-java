@@ -3,7 +3,7 @@
     "jep": 305,
     "jdk": 14,
     "name": "JEP 305 - Pattern Matching for instanceof (Preview)",
-    "dscr": "Preview of Pattern Matching for instanceof. Finalized in JEP 394 (JDK 16).",
+    "dscr": "Up-to-date demo in `org.javademos.java16.jep394.InstanceofPatternMatchingDemo`.",
     "link": true,
     "code": false
   },
@@ -11,7 +11,7 @@
   "jep": 343,
   "jdk": 14,
   "name": "JEP 343 - Packaging Tool (Incubator)",
-  "dscr": "Create a tool for packaging self-contained Java applications. Up-to-date demo moved to org.javademos.java16.jep392.PackagingToolDemo (JEP 392)",
+  "dscr": "Up-to-date demo in `org.javademos.java16.jep392.PackagingToolDemo`.",
   "link": true,
   "code": false
   },
@@ -19,7 +19,7 @@
     "jep": 345,
     "jdk": 14,
     "name": "JEP 345 - NUMA-Aware Memory Allocation for G1",
-    "dscr": "Improves G1 GC to allocate memory from multiple NUMA nodes for better performance on multi-socket machines",
+    "dscr": "Improves G1 GC to allocate memory from multiple NUMA nodes for better performance on multi-socket machines.",
     "link": false,
     "code": false
   },
@@ -27,7 +27,7 @@
     "jep": 349,
     "jdk": 14,
     "name": "JEP 349 - JFR Event Streaming",
-    "dscr": "Demo for JFR Event Streaming added in `org.javademos.java14.jep349.JFREventStreamingDemo` (JEP 349)",
+    "dscr": "Expose JDK Flight Recorder data for continuous monitoring.",
     "link": false,
     "code": true
   },
@@ -35,7 +35,7 @@
     "jep": 352,
     "jdk": 14,
     "name": "JEP 352 - Non-Volatile Mapped Byte Buffers",
-    "dscr": "Extends MappedByteBuffer API to support non-volatile memory with new FileChannel mapping modes",
+    "dscr": "Extends MappedByteBuffer API to support non-volatile memory with new FileChannel mapping modes.",
     "link": false,
     "code": true
   },
@@ -43,7 +43,7 @@
     "jep": 358,
     "jdk": 14,
     "name": "JEP 358 - Helpful NullPointerExceptions",
-    "dscr": "Enhances NullPointerExceptions to describe precisely which variable was null",
+    "dscr": "Enhances NullPointerExceptions to describe precisely which variable was null.",
     "link": false,
     "code": true
   },
@@ -51,7 +51,7 @@
     "jep": 359,
     "jdk": 14,
     "name": "JEP 359 - Records (Preview)",
-    "dscr": "Up-to-date demo moved to org.javademos.java16.jep395.RecordDemo (JEP 395)",
+    "dscr": "Up-to-date demo in `org.javademos.java16.jep395.RecordDemo`.",
     "link": true,
     "code": false
   },
@@ -59,7 +59,7 @@
     "jep": 361,
     "jdk": 14,
     "name": "JEP 361 - Switch Expressions",
-    "dscr": "Extend switch to be used as either a statement or an expression, with arrow labels and yield statement",
+    "dscr": "Extend switch to be used as either a statement or an expression, with arrow labels and yield statement.",
     "link": false,
     "code": true
   },
@@ -83,7 +83,7 @@
     "jep": 364,
     "jdk": 14,
     "name": "JEP 364 - ZGC on macOS (Experimental)",
-    "dscr": "Port the ZGC garbage collector to macOS. Up-to-date demo moved to `org.javademos.java15.jep377.ZGarbageCollectorDemo` (JEP 377)",
+    "dscr": "Up-to-date demo in `org.javademos.java15.jep377.ZGarbageCollectorDemo`.",
     "link": true,
     "code": false
   },
@@ -91,7 +91,7 @@
     "jep": 365,
     "jdk": 14,
     "name": "JEP 365 - ZGC on Windows (Experimental)",
-    "dscr": "Port the ZGC garbage collector to Windows. Up-to-date demo moved to `org.javademos.java15.jep377.ZGarbageCollectorDemo` (JEP 377)",
+    "dscr": "Up-to-date demo in `org.javademos.java15.jep377.ZGarbageCollectorDemo`.",
     "link": true,
     "code": false
   },
@@ -115,7 +115,7 @@
     "jep": 368,
     "jdk": 14,
     "name": "JEP 368 - Text Blocks (Second Preview)",
-    "dscr": "Up-to-date demo moved to `org.javademos.java15.jep378.TextBlockDemo` (JEP 378)",
+    "dscr": "Up-to-date demo in `org.javademos.java15.jep378.TextBlockDemo`.",
     "link": true,
     "code": false
   },
@@ -123,7 +123,7 @@
     "jep": 370,
     "jdk": 14,
     "name": "JEP 370 - Foreign-Memory Access API (Incubator)",
-    "dscr": "Up-to-date demo moved to `org.javademos.java22.jep454.ForeignFunctionMemoryDemo` (JEP 454)",
+    "dscr": "Up-to-date demo in `org.javademos.java22.jep454.ForeignFunctionMemoryDemo`.",
     "link": true,
     "code": false
   }

@@ -35,7 +35,7 @@
     "jep": 417,
     "jdk": 18,
     "name": "JEP 417 - Vector API (Third Incubator)",
-    "dscr": "Up-to-date demo moved to `org.javademos.java25.jep508.VectorAPIDemo` (JEP 508)",
+    "dscr": "Up-to-date demo in `org.javademos.java25.jep508.VectorAPIDemo`.",
     "link": true,
     "code": false
   },
@@ -51,7 +51,7 @@
     "jep": 419,
     "jdk": 18,
     "name": "JEP 419 - Foreign Function & Memory API (Second Incubator)",
-    "dscr": "Up-to-date demo moved to `org.javademos.java22.jep454.ForeignFunctionMemoryDemo` (JEP 454)",
+    "dscr": "Up-to-date demo in `org.javademos.java22.jep454.ForeignFunctionMemoryDemo`.",
     "link": true,
     "code": false
   },
@@ -59,7 +59,7 @@
     "jep": 420,
     "jdk": 18,
     "name": "JEP 420 - Pattern Matching for switch (Second Preview)",
-    "dscr": "The second preview of Pattern Matching for switch. The final implementation is in JEP 441.",
+    "dscr": "Up-to-date demo in `org.javademos.java21.jep441.PatternMatchingForSwitchDemo`.",
     "link": true,
     "code": false
   },

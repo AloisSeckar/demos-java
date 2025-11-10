@@ -3,7 +3,7 @@
     "jep": 339,
     "jdk": 15,
     "name": "JEP 339 - Edwards-Curve Digital Signature Algorithm (EdDSA)",
-    "dscr": "Implements cryptographic signatures using the Edwards-Curve Digital Signature Algorithm (EdDSA) as described in RFC 8032",
+    "dscr": "Implements cryptographic signatures using the Edwards-Curve Digital Signature Algorithm (EdDSA) as described in RFC 8032.",
     "link": false,
     "code": true
   },
@@ -11,7 +11,7 @@
     "jep": 360,
     "jdk": 15,
     "name": "JEP 360 - Sealed Classes (Preview)",
-    "dscr": "Preview of Sealed Classes. Finalized in JEP 409 (JDK 17).",
+    "dscr": "Up-to-date demo in `org.javademos.java17.jep409.SealedDemo`.",
     "link": true,
     "code": false
   },
@@ -19,7 +19,7 @@
     "jep": 371,
     "jdk": 15,
     "name": "JEP 371 - Hidden Classes",
-    "dscr": "Introduces hidden classes that cannot be used directly by bytecode of other classes and can be unloaded independently",
+    "dscr": "Introduces hidden classes that cannot be used directly by bytecode of other classes and can be unloaded independently.",
     "link": false,
     "code": true
   },
@@ -27,7 +27,7 @@
     "jep": 372,
     "jdk": 15,
     "name": "JEP 372 - Remove the Nashorn JavaScript Engine",
-    "dscr": "Remove the Nashorn JavaScript script engine, APIs, and the jjs tool. No code demo applicable as the feature was removed.",
+    "dscr": "Remove the Nashorn JavaScript script engine, APIs, and the jjs tool.",
     "link": false,
     "code": false
   },
@@ -43,7 +43,7 @@
     "jep": 375,
     "jdk": 15,
     "name": "JEP 375 - Pattern Matching for instanceof (Second Preview)",
-    "dscr": "Second preview of Pattern Matching for instanceof. Finalized in JEP 394 (JDK 16).",
+    "dscr": "Up-to-date demo in `org.javademos.java16.jep394.InstanceofPatternMatchingDemo`.",
     "link": true,
     "code": false
   },
@@ -59,7 +59,7 @@
     "jep": 378,
     "jdk": 15,
     "name": "JEP 378 - Text Blocks",
-    "dscr": "Demonstrates adding text blocks to the Java language; see TextBlockDemo.java",
+    "dscr": "Demonstrates adding text blocks to the Java language.",
     "link": false,
     "code": true
   },
@@ -75,7 +75,7 @@
     "jep": 383,
     "jdk": 15,
     "name": "JEP 383 - Foreign-Memory Access API (Second Incubator)",
-    "dscr": "Up-to-date demo moved to `org.javademos.java22.jep454.ForeignFunctionMemoryDemo` (JEP 454)",
+    "dscr": "Up-to-date demo in `org.javademos.java22.jep454.ForeignFunctionMemoryDemo`.",
     "link": true,
     "code": false
   },
@@ -83,7 +83,7 @@
     "jep": 384,
     "jdk": 15,
     "name": "JEP 384 - Records (Second Preview)",
-    "dscr": "Up-to-date demo moved to org.javademos.java16.jep395.RecordDemo (JEP 395)",
+    "dscr": "Up-to-date demo in `org.javademos.java16.jep395.RecordDemo`.",
     "link": true,
     "code": false
   }

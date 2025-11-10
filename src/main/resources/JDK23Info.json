@@ -3,7 +3,7 @@
     "jep": 455,
     "jdk": 23,
     "name": "JEP 455 - Primitive Types in Patterns, instanceof, and switch (Preview)",
-    "dscr": "Up-to-date demo moved to `org.javademos.java25.jep507.PrimitiveTypesDemo` (JEP 507)",
+    "dscr": "Up-to-date demo in `org.javademos.java25.jep507.PrimitiveTypesDemo`.",
     "link": true,
     "code": false
   },
@@ -19,7 +19,7 @@
     "jep": 466,
     "jdk": 23,
     "name": "JEP 466 - Class-File API (Second Preview)",
-    "dscr": "Up-to-date demo moved to `org.javademos.java24.jep484.ClassFileAPIDemo` (JEP 484)",
+    "dscr": "Up-to-date demo in `org.javademos.java24.jep484.ClassFileAPIDemo`.",
     "link": true,
     "code": false
   },
@@ -27,7 +27,7 @@
     "jep": 467,
     "jdk": 23,
     "name": "JEP 467 - Markdown Documentation Comments",
-    "dscr": "Markdown is now allowed in Java comments. See MarkdownComments.java class for further info",
+    "dscr": "Markdown is now allowed in Java comments for easier styling.",
     "link": false,
     "code": false
   },
@@ -35,7 +35,7 @@
     "jep": 469,
     "jdk": 23,
     "name": "JEP 469 - Vector API (Eighth Incubator)",
-    "dscr": "Up-to-date demo moved to `org.javademos.java25.jep508.VectorAPIDemo` (JEP 508)",
+    "dscr": "Up-to-date demo in `org.javademos.java25.jep508.VectorAPIDemo`.",
     "link": true,
     "code": false
   },
@@ -43,7 +43,7 @@
     "jep": 471,
     "jdk": 23,
     "name": "JEP 471 - Deprecate the Memory-Access Methods in sun.misc.Unsafe for Removal",
-    "dscr": "No executable code, see DeprecateMemoryAccessMethods class for further info",
+    "dscr": "No executable code, see DeprecateMemoryAccessMethods class for further info.",
     "link": false,
     "code": false
   },
@@ -51,7 +51,7 @@
     "jep": 473,
     "jdk": 23,
     "name": "JEP 473 - Stream Gatherers (Second Preview)",
-    "dscr": "Up-to-date demo moved to `org.javademos.java24.jep485.StreamGatherersDemo` (JEP 485)",
+    "dscr": "Up-to-date demo in `org.javademos.java24.jep485.StreamGatherersDemo`.",
     "link": true,
     "code": false
   },
@@ -59,7 +59,7 @@
     "jep": 474,
     "jdk": 23,
     "name": "JEP 474 - ZGC: Generational Mode by Default",
-    "dscr": "No executable code, see GenerationalZGC23.java for further info",
+    "dscr": "No executable code, see GenerationalZGC23.java for further info.",
     "link": false,
     "code": false
   },
@@ -67,7 +67,7 @@
     "jep": 476,
     "jdk": 23,
     "name": "JEP 476 - Module Import Declarations (Preview)",
-    "dscr": "Up-to-date demo moved to `org.javademos.java25.jep511.ModuleImportDeclarationsDemo` (JEP 511)",
+    "dscr": "Up-to-date demo in `org.javademos.java25.jep511.ModuleImportDeclarationsDemo`.",
     "link": true,
     "code": false
   },
@@ -75,7 +75,7 @@
     "jep": 477,
     "jdk": 23,
     "name": "JEP 477 - Implicitly Declared Classes and Instance Main Methods (Third Preview)",
-    "dscr": "Up-to-date demo moved to `org.javademos.java25.jep512.CompactSourceFilesDemo` (JEP 512)",
+    "dscr": "Up-to-date demo in `org.javademos.java25.jep512.CompactSourceFilesDemo`.",
     "link": true,
     "code": false
   },
@@ -83,7 +83,7 @@
     "jep": 480,
     "jdk": 23,
     "name": "JEP 480 - Structured Concurrency (Third Preview)",
-    "dscr": "Up-to-date demo moved to org.javademos.java25.jep505.StructuredConcurrencyDemo (JEP 505)",
+    "dscr": "Up-to-date demo in `org.javademos.java25.jep505.StructuredConcurrencyDemo`.",
     "link": true,
     "code": false
   },
@@ -91,7 +91,7 @@
     "jep": 481,
     "jdk": 23,
     "name": "JEP 481 - Scoped Values (Third Preview)",
-    "dscr": "Scoped Values enable a method to share immutable data both within a thread and in child threads",
+    "dscr": "Scoped Values enable a method to share immutable data both within a thread and in child threads.",
     "link": true,
     "code": false
   },
@@ -99,7 +99,7 @@
     "jep": 482,
     "jdk": 23,
     "name": "JEP 482 - Flexible Constructor Bodies (Second Preview)",
-    "dscr": "Since Java 22, super() is no longer required to be placed as first statement in constructor",
+    "dscr": "Since Java 22, `super()` is no longer required to be placed as first statement in constructor.",
     "link": true,
     "code": false
   }

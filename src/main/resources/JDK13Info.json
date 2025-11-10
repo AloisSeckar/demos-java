@@ -3,7 +3,7 @@
     "jep": 354,
     "jdk": 13,
     "name": "JEP 354 - Switch Expressions (Second Preview)",
-    "dscr": "Second preview of switch expressions introducing yield statement. Finalized in JEP 361 (JDK 14).",
+    "dscr": "Up-to-date demo in `org.javademos.java14.jep361.SwitchExpressionsDemo`.",
     "link": true,
     "code": false
   },
@@ -11,7 +11,7 @@
     "jep": 355,
     "jdk": 13,
     "name": "JEP 355 - Text Blocks (Preview)",
-    "dscr": "Up-to-date demo moved to `org.javademos.java15.jep378.TextBlockDemo` (JEP 378)",
+    "dscr": "Up-to-date demo in `org.javademos.java15.jep378.TextBlockDemo`.",
     "link": true,
     "code": false
   }

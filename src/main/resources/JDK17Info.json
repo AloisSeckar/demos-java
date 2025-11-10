@@ -8,10 +8,10 @@
     "code": true
   },
   {
-    "number": 356,
+    "jep": 356,
     "jdk": 17,
-    "name": "Enhanced Pseudo-Random Number Generators",
-    "description": "New interfaces and implementations in java.util.random for flexible and stream-based random number generation.",
+    "name": "JEP 356 - Enhanced Pseudo-Random Number Generators",
+    "dscr": "New interfaces and implementations in java.util.random for flexible and stream-based random number generation.",
     "link": false,
     "code": true
   },
@@ -27,7 +27,7 @@
     "jep": 391,
     "jdk": 17,
     "name": "JEP 391 - macOS/AArch64 Port",
-    "dscr": "Explains the port of the JDK to macOS on ARM64 (Apple Silicon); see MacOsAarch64PortDemo.java",
+    "dscr": "Explains the port of the JDK to macOS on ARM64 (Apple Silicon).",
     "link": false,
     "code": false
   },
@@ -35,7 +35,7 @@
     "jep": 398,
     "jdk": 17,
     "name": "JEP 398 - Deprecate the Applet API for Removal",
-    "dscr": "Deprecate the Applet API for removal. It is essentially irrelevant since all web-browser vendors have removed support for Java browser plug-ins",
+    "dscr": "Deprecate the Applet API for removal as it is essentially irrelevant since all web-browser vendors have removed support for Java browser plug-ins.",
     "link": false,
     "code": false
   },
@@ -43,7 +43,7 @@
     "jep": 403,
     "jdk": 17,
     "name": "JEP 403 - Strongly Encapsulate JDK Internals",
-    "dscr": "Restricts access to most internal JDK APIs by default, improving security and maintainability. Access requires explicit command-line flags like --add-opens.",
+    "dscr": "Restricts access to most internal JDK APIs by default, improving security and maintainability. Access requires explicit command-line flags like `--add-opens`.",
     "link": false,
     "code": true
   },
@@ -51,7 +51,7 @@
     "jep": 406,
     "jdk": 17,
     "name": "JEP 406 - Pattern Matching for switch (Preview)",
-    "dscr": "The first preview of Pattern Matching for switch. The final implementation is in JEP 441.",
+    "dscr": "Up-to-date demo in `org.javademos.java21.jep441.PatternMatchingForSwitchDemo`.",
     "link": true,
     "code": false
   },
@@ -67,7 +67,7 @@
     "jep": 409,
     "jdk": 17,
     "name": "JEP 409 - Sealed Classes",
-    "dscr": "Control which classes or interfaces can extend or implement them; see SealedDemo.java",
+    "dscr": "Control which classes or interfaces can extend or implement them.",
     "link": false,
     "code": true
   },
@@ -75,7 +75,7 @@
     "jep": 410,
     "jdk": 17,
     "name": "JEP 410 - Remove the Experimental AOT and JIT Compiler",
-    "dscr": "Explains the removal of experimental jaotc and Graal JIT modules; see RemoveAotJitDemo.java",
+    "dscr": "Explains the removal of experimental jaotc and Graal JIT modules.",
     "link": false,
     "code": false
   },
@@ -83,7 +83,7 @@
     "jep": 411,
     "jdk": 17,
     "name": "JEP 411 - Deprecate the Security Manager for Removal",
-    "dscr": "Up-to-date demo moved to org.javademos.java24.jep486.DisableSecurityManager (JEP 486)",
+    "dscr": "Up-to-date demo in `org.javademos.java24.jep486.DisableSecurityManager`.",
     "link": true,
     "code": false
   },
@@ -91,7 +91,7 @@
     "jep": 412,
     "jdk": 17,
     "name": "JEP 412 - Foreign Function & Memory API (Incubator)",
-    "dscr": "Up-to-date demo moved to `org.javademos.java22.jep454.ForeignFunctionMemoryDemo` (JEP 454)",
+    "dscr": "Up-to-date demo in `org.javademos.java22.jep454.ForeignFunctionMemoryDemo`.",
     "link": true,
     "code": false
   },
@@ -99,7 +99,7 @@
     "jep": 414,
     "jdk": 17,
     "name": "JEP 414 - Vector API (Second Incubator)",
-    "dscr": "Up-to-date demo moved to `org.javademos.java25.jep508.VectorAPIDemo` (JEP 508)",
+    "dscr": "Up-to-date demo in `org.javademos.java25.jep508.VectorAPIDemo`.",
     "link": true,
     "code": false
   },
@@ -107,7 +107,7 @@
     "jep": 415,
     "jdk": 17,
     "name": "JEP 415 - Context-Specific Deserialization Filters",
-    "dscr": "Configure context-specific filters via a JVM-wide filter factory; see ContextSpecificDeserializationFiltersDemo.java",
+    "dscr": "Configure context-specific filters via a JVM-wide filter factory.",
     "link": false,
     "code": true
   }

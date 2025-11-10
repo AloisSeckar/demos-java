@@ -3,7 +3,7 @@
     "jep": 325,
     "jdk": 12,
     "name": "JEP 325 - Switch Expressions (Preview)",
-    "dscr": "First preview of switch expressions. Finalized in JEP 361 (JDK 14).",
+    "dscr": "Up-to-date demo in `org.javademos.java14.jep361.SwitchExpressionsDemo`.",
     "link": true,
     "code": false
   },
@@ -11,7 +11,7 @@
     "jep": 334,
     "jdk": 12,
     "name": "JEP 334 - JVM Constants API",
-    "dscr": "Introduces an API to model nominal descriptions of class file and runtime artifacts, especially constants loadable from the constant pool",
+    "dscr": "Introduces an API to model nominal descriptions of class file and runtime artifacts, especially constants loadable from the constant pool.",
     "link": false,
     "code": true
   }

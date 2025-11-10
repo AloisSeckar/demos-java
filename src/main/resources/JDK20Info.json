@@ -3,7 +3,7 @@
     "jep": 429,
     "jdk": 20,
     "name": "JEP 429 - Scoped Values (Incubator)",
-    "dscr": "Up-to-date demo moved to `org.javademos.java25.jep506.ScopedValuesDemo` (JEP 506)",
+    "dscr": "Up-to-date demo in `org.javademos.java25.jep506.ScopedValuesDemo`.",
     "link": true,
     "code": false
   },
@@ -11,7 +11,7 @@
     "jep": 432,
     "jdk": 20,
     "name": "JEP 432 - Record Patterns (Second Preview)",
-    "dscr": "The second preview of Record Patterns. The final implementation is in JEP 440.",
+    "dscr": "Up-to-date demo in `org.javademos.java21.jep440.RecordPatternsDemo`.",
     "link": true,
     "code": false
   },
@@ -19,7 +19,7 @@
     "jep": 433,
     "jdk": 20,
     "name": "JEP 433 - Pattern Matching for switch (Fourth Preview)",
-    "dscr": "The fourth preview of Pattern Matching for switch. The final implementation is in JEP 441.",
+    "dscr": "Up-to-date demo in `org.javademos.java21.jep441.PatternMatchingForSwitchDemo`.",
     "link": true,
     "code": false
   },
@@ -27,7 +27,7 @@
     "jep": 434,
     "jdk": 20,
     "name": "JEP 434 - Foreign Function & Memory API (Second Preview)",
-    "dscr": "Up-to-date demo moved to `org.javademos.java22.jep454.ForeignFunctionMemoryDemo` (JEP 454)",
+    "dscr": "Up-to-date demo in `org.javademos.java22.jep454.ForeignFunctionMemoryDemo`.",
     "link": true,
     "code": false
   },
@@ -35,7 +35,7 @@
     "jep": 436,
     "jdk": 20,
     "name": "JEP 436 - Virtual Threads (Second Preview)",
-    "dscr": "Up-to-date demo moved to `org.javademos.java21.jep444.VirtualThreadsDemo` (JEP 444)",
+    "dscr": "Up-to-date demo in `org.javademos.java21.jep444.VirtualThreadsDemo`.",
     "link": true,
     "code": false
   },
@@ -43,7 +43,7 @@
     "jep": 437,
     "jdk": 20,
     "name": "JEP 437 - Structured Concurrency (Second Incubator)",
-    "dscr": "Up-to-date demo moved to org.javademos.java25.jep505.StructuredConcurrencyDemo (JEP 505)",
+    "dscr": "Up-to-date demo in `org.javademos.java25.jep505.StructuredConcurrencyDemo`.",
     "link": true,
     "code": false
   },
@@ -51,7 +51,7 @@
     "jep": 438,
     "jdk": 20,
     "name": "JEP 438 - Vector API (Fifth Incubator)",
-    "dscr": "Up-to-date demo moved to `org.javademos.java25.jep508.VectorAPIDemo` (JEP 508)",
+    "dscr": "Up-to-date demo in `org.javademos.java25.jep508.VectorAPIDemo`.",
     "link": true,
     "code": false
   }

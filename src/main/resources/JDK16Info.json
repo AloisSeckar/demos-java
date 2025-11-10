@@ -3,7 +3,7 @@
     "jep": 338,
     "jdk": 16,
     "name": "JEP 338 - Vector API (Incubator)",
-    "dscr": "Up-to-date demo moved to `org.javademos.java25.jep508.VectorAPIDemo` (JEP 508)",
+    "dscr": "Up-to-date demo in `org.javademos.java25.jep508.VectorAPIDemo`.",
     "link": true,
     "code": false
   },
@@ -43,7 +43,7 @@
     "jep": 389,
     "jdk": 16,
     "name": "JEP 389 - Foreign Linker API (Incubator)",
-    "dscr": "Up-to-date demo moved to `org.javademos.java22.jep454.ForeignFunctionMemoryDemo` (JEP 454)",
+    "dscr": "Up-to-date demo in `org.javademos.java22.jep454.ForeignFunctionMemoryDemo`.",
     "link": true,
     "code": false
   },
@@ -67,7 +67,7 @@
     "jep": 393,
     "jdk": 16,
     "name": "JEP 393 - Foreign-Memory Access API (Third Incubator)",
-    "dscr": "Up-to-date demo moved to `org.javademos.java22.jep454.ForeignFunctionMemoryDemo` (JEP 454)",
+    "dscr": "Up-to-date demo in `org.javademos.java22.jep454.ForeignFunctionMemoryDemo`.",
     "link": true,
     "code": false
   },
@@ -83,7 +83,7 @@
     "jep": 395,
     "jdk": 16,
     "name": "JEP 395 - Records",
-    "dscr": "Finalizes Records, transparent carriers for immutable data; see RecordDemo.java",
+    "dscr": "Finalizes Records, transparent carriers for immutable data.",
     "link": false,
     "code": true
   },
@@ -99,7 +99,7 @@
     "jep": 397,
     "jdk": 16,
     "name": "JEP 397 - Sealed Classes (Second Preview)",
-    "dscr": "Up-to-date demo moved to org.javademos.java17.jep409.SealedDemo (JEP 409)",
+    "dscr": "Up-to-date demo in `org.javademos.java17.jep409.SealedDemo`.",
     "link": true,
     "code": false
   }

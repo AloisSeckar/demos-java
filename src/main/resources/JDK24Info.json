@@ -3,7 +3,7 @@
     "jep": 404,
     "jdk": 24,
     "name": "JEP 404 - Generational Shenandoah (Experimental)",
-    "dscr": "Up-to-date demo moved to `org.javademos.java25.jep521.GenerationalShenandoahDemo` (JEP 521)",
+    "dscr": "Up-to-date demo in `org.javademos.java25.jep521.GenerationalShenandoahDemo`.",
     "link": true,
     "code": false
   },
@@ -11,7 +11,7 @@
     "jep": 450,
     "jdk": 24,
     "name": "JEP 450 - Compact Object Headers (Experimental)",
-    "dscr": "An experimental version of Compact Object Headers. The final demo is in JEP 519.",
+    "dscr": "Up-to-date demo in `org.javademos.java25.jep519.CompactObjectHeaderDemo`.",
     "link": true,
     "code": false
   },
@@ -35,7 +35,7 @@
     "jep": 478,
     "jdk": 24,
     "name": "JEP 478 - Key Derivation Function API (Preview)",
-    "dscr": "A preview of the KDF API. The final implementation is in JEP 510 for Java 25.",
+    "dscr": "Up-to-date demo in `org.javademos.java25.jep510.KeyDerivationFunctionDemo`.",
     "link": true,
     "code": false
   },
@@ -51,7 +51,7 @@
     "jep": 483,
     "jdk": 24,
     "name": "JEP 483 - Ahead-of-Time Class Loading & Linking",
-    "dscr": "An experimental AOT feature. The final demos are in JEP 514 and JEP 515.",
+    "dscr": "Up-to-date demos in `org.javademos.java25.jep514.AheadOfTimeCLIDemo` and `org.javademos.java25.jep515.AheadOfTimeMethodProfilingDemo`.",
     "link": true,
     "code": false
   },
@@ -83,7 +83,7 @@
     "jep": 487,
     "jdk": 24,
     "name": "JEP 487 - Scoped Values (Fourth Preview)",
-    "dscr": "Up-to-date demo moved to `org.javademos.java25.jep506.ScopedValuesDemo` (JEP 506)",
+    "dscr": "Up-to-date demo in `org.javademos.java25.jep506.ScopedValuesDemo`.",
     "link": true,
     "code": false
   },
@@ -91,7 +91,7 @@
     "jep": 488,
     "jdk": 24,
     "name": "JEP 488 - Primitive Types in Patterns, instanceof, and switch (Second Preview)",
-    "dscr": "Up-to-date demo moved to `org.javademos.java25.jep507.PrimitiveTypesDemo` (JEP 507)",
+    "dscr": "Up-to-date demo in `org.javademos.java25.jep507.PrimitiveTypesDemo`.",
     "link": true,
     "code": false
   },
@@ -99,7 +99,7 @@
     "jep": 489,
     "jdk": 24,
     "name": "JEP 489 - Vector API (Ninth Incubator)",
-    "dscr": "Up-to-date demo moved to `org.javademos.java25.jep508.VectorAPIDemo` (JEP 508)",
+    "dscr": "Up-to-date demo in `org.javademos.java25.jep508.VectorAPIDemo`.",
     "link": true,
     "code": false
   },
@@ -123,7 +123,7 @@
     "jep": 492,
     "jdk": 24,
     "name": "JEP 492 - Flexible Constructor Bodies (Third Preview)",
-    "dscr": "Allow statements to appear before an explicit constructor invocation, i.e., super(..) or this(..)",
+    "dscr": "Allow statements to appear before an explicit constructor invocation, i.e., super(..) or this(..).",
     "link": true,
     "code": false
   },
@@ -139,7 +139,7 @@
     "jep": 494,
     "jdk": 24,
     "name": "JEP 494 - Module Import Declarations (Second Preview)",
-    "dscr": "Up-to-date demo moved to `org.javademos.java25.jep511.ModuleImportDeclarationsDemo` (JEP 511)",
+    "dscr": "Up-to-date demo in `org.javademos.java25.jep511.ModuleImportDeclarationsDemo`.",
     "link": true,
     "code": false
   },
@@ -147,7 +147,7 @@
     "jep": 495,
     "jdk": 24,
     "name": "JEP 495 - Simple Source Files and Instance Main Methods (Fourth Preview)",
-    "dscr": "Up-to-date demo moved to `org.javademos.java25.jep512.CompactSourceFilesDemo` (JEP 512)",
+    "dscr": "Up-to-date demo in `org.javademos.java25.jep512.CompactSourceFilesDemo`.",
     "link": true,
     "code": false
   },
@@ -155,7 +155,7 @@
     "jep": 496,
     "jdk": 24,
     "name": "JEP 496 - Quantum Resistant Algorithm - Lattice-based Key Encapsulation",
-    "dscr": "Provides a lattice-based key encapsulation mechanism to support quantum-resistant key exchanges; see QuantumResistantModuleLatticeBasedKeyEncapsulation.java",
+    "dscr": "Provides a lattice-based key encapsulation mechanism to support quantum-resistant key exchanges.",
     "link": false,
     "code": true
   },
@@ -163,7 +163,7 @@
     "jep": 497,
     "jdk": 24,
     "name": "JEP 497 - Quantum Resistant Algorithm - Lattice-based Digital Signature (Preview)",
-    "dscr": "Provides a lattice-based digital signature algorithm to support quantum-resistant signatures; see QuantumResistantModule.java",
+    "dscr": "Provides a lattice-based digital signature algorithm to support quantum-resistant signatures.",
     "link": false,
     "code": true
   },
@@ -171,7 +171,7 @@
     "jep": 498,
     "jdk": 24,
     "name": "JEP 498 - Warn upon Use of Memory-Access Methods in sun.misc.Unsafe",
-    "dscr": "Showing runtime warnings for methods that are already deprecated",
+    "dscr": "Showing runtime warnings for methods that are already deprecated.",
     "link": false,
     "code": true
   },
@@ -179,7 +179,7 @@
     "jep": 499,
     "jdk": 24,
     "name": "JEP 499 - Structured Concurrency (Fourth Preview)",
-    "dscr": "Up-to-date demo moved to org.javademos.java25.jep505.StructuredConcurrencyDemo (JEP 505)",
+    "dscr": "Up-to-date demo in `org.javademos.java25.jep505.StructuredConcurrencyDemo`.",
     "link": true,
     "code": false
   },
