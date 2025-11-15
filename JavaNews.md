@@ -19,6 +19,8 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2025-11-13`** | [Java Streams Evolution: From Java 8 to today](https://javapro.io/2025/11/13/java-streams-evolution-from-java-8-to-today/) - history of working with data streams in Java |
+| **`2025-11-10`** | [Infinispan 16.0 is out!](https://infinispan.org/blog/2025/11/10/infinispan-16-0) - new major version of Java open source in-memory database was released |
 | **`2025-11-07`** | [Grails 7.0 Delivers Enhancements for Micronaut and GORM](https://www.infoq.com/news/2025/11/grails-7-released/) - Apache **Grails** v7 was released last month, check what is new |
 | **`2025-11-05`** | [The Blockchain in your Java application](https://javapro.io/2025/11/05/the-blockchain-in-your-java-application/) - an introduction of **Web3j** library |
 | **`2025-11-05`** | [A fresh look at the Spring Framework](https://www.infoworld.com/article/4083578/a-fresh-look-at-the-spring-framework.html) - everyone knows it, but what exactly is available in 2025? |
