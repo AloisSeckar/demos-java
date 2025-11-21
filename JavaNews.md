@@ -19,7 +19,13 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2025-11-20`** | [LangChain4j Production-ready features with Quarkus](https://javapro.io/2025/11/20/langchain4j-production-ready-features-with-quarkus/) - hands-on examples of building quality AI apps |
+| **`2025-11-18`** | [JDK 26: The new features in Java 26](https://www.infoworld.com/article/4050993/jdk-26-the-new-features-in-java-26.html) - new JDK version is slowly getting its shape |
+| **`2025-11-14`** | [Spring Framework 7 brings new concept for null safety and relies on Java 25](https://www.heise.de/en/news/Spring-Framework-7-brings-new-concept-for-null-safety-and-relies-on-Java-25-11078745.html) - quick overview of freshly released major version of **Spring Framework** |
+| **`2025-11-14`** | [Spring Data 2025.1.0 goes GA](https://spring.io/blog/2025/11/14/spring-data-2025-1-goes-ga) - new version of **Spring Data** is released - with support for JDK 25 and Jakarta EE 11 among other updates |
+| **`2025-11-13`** | [Spring Framework 7.0 General Availability](https://spring.io/blog/2025/11/13/spring-framework-7-0-general-availability) - long anticipaded new major version of **Spring Framework** is released |
 | **`2025-11-13`** | [Java Streams Evolution: From Java 8 to today](https://javapro.io/2025/11/13/java-streams-evolution-from-java-8-to-today/) - history of working with data streams in Java |
+| **`2025-11-12`** | [Spring AI 1.1 GA Released](https://spring.io/blog/2025/11/12/spring-ai-1-1-GA-released) - new version of Spring solution for AI released, now with MCP integration |
 | **`2025-11-10`** | [Infinispan 16.0 is out!](https://infinispan.org/blog/2025/11/10/infinispan-16-0) - new major version of Java open source in-memory database was released |
 | **`2025-11-07`** | [Grails 7.0 Delivers Enhancements for Micronaut and GORM](https://www.infoq.com/news/2025/11/grails-7-released/) - Apache **Grails** v7 was released last month, check what is new |
 | **`2025-11-05`** | [The Blockchain in your Java application](https://javapro.io/2025/11/05/the-blockchain-in-your-java-application/) - an introduction of **Web3j** library |
