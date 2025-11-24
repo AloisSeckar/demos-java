@@ -19,6 +19,9 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2025-11-22`** | [Spring Boot 4: A Complete Guide to New Features](https://www.codingshuttle.com/blogs/spring-boot-4-a-complete-guide-to-new-features-improvements-and-why-you-should-upgrade/) - an overview of **Spring Boot v4** features |
+| **`2025-11-21`** | [Spring Modulith 2.0 GA released](https://spring.io/blog/2025/11/21/spring-modulith-2-0-ga-1-4-5-and-1-3-11-released) - also the new version of solution for managing _modular monoliths_ was released |
+| **`2025-11-20`** | [Spring Boot 4.0.0 available now](https://spring.io/blog/2025/11/20/spring-boot-4-0-0-available-now) - following **Spring v7** release there is also new major version of **Spring Boot** |
 | **`2025-11-20`** | [LangChain4j Production-ready features with Quarkus](https://javapro.io/2025/11/20/langchain4j-production-ready-features-with-quarkus/) - hands-on examples of building quality AI apps |
 | **`2025-11-18`** | [JDK 26: The new features in Java 26](https://www.infoworld.com/article/4050993/jdk-26-the-new-features-in-java-26.html) - new JDK version is slowly getting its shape |
 | **`2025-11-14`** | [Spring Framework 7 brings new concept for null safety and relies on Java 25](https://www.heise.de/en/news/Spring-Framework-7-brings-new-concept-for-null-safety-and-relies-on-Java-25-11078745.html) - quick overview of freshly released major version of **Spring Framework** |
