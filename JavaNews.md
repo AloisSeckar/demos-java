@@ -15,10 +15,19 @@ Stay up-to-date with the following even more dedicated websites:
 Check where can you meet fellow Java enthusiasts at:
 - https://javaconferences.org/
 
+## 2025 - December
+
+| Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
+| --- | :--  |
+| **`2025-12-03`** | [As Java EE 8 Runtimes Age, What Comes Next for Enterprise Java Applications?](https://javapro.io/2025/12/03/as-java-ee-8-runtimes-age-what-comes-next-for-enterprise-java-applications/) - here are some tips if you need to migrate a soon-to-be-legacy Java app |
+| **`2025-12-02`** | [JEP 526 Simplifies Deferred Initialization ahead of JDK 26](https://www.infoq.com/news/2025/12/jep526-lazy-constants/) - a preview of an upcoming **JEP 526** being targeted into **Java 26** |
+
 ## 2025 - November
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2025-11-25`** | [Open-source IntelliJ IDEA: A Simpler Way to Build and Contribute to the Community](https://blog.jetbrains.com/idea/2025/11/intellij-idea-open-source/) - JetBrains made their beloved IDE even more "open" for devs |
+| **`2025-11-24`** | [Creating an MCP Client With Spring AI](https://dzone.com/articles/creating-an-mcp-client-with-spring-ai) - follow-up to previous guide for creating the **MCP Server** (11th November) |
 | **`2025-11-22`** | [Spring Boot 4: A Complete Guide to New Features](https://www.codingshuttle.com/blogs/spring-boot-4-a-complete-guide-to-new-features-improvements-and-why-you-should-upgrade/) - an overview of **Spring Boot v4** features |
 | **`2025-11-21`** | [Spring Modulith 2.0 GA released](https://spring.io/blog/2025/11/21/spring-modulith-2-0-ga-1-4-5-and-1-3-11-released) - also the new version of solution for managing _modular monoliths_ was released |
 | **`2025-11-20`** | [Spring Boot 4.0.0 available now](https://spring.io/blog/2025/11/20/spring-boot-4-0-0-available-now) - following **Spring v7** release there is also new major version of **Spring Boot** |
@@ -29,6 +38,7 @@ Check where can you meet fellow Java enthusiasts at:
 | **`2025-11-13`** | [Spring Framework 7.0 General Availability](https://spring.io/blog/2025/11/13/spring-framework-7-0-general-availability) - long anticipaded new major version of **Spring Framework** is released |
 | **`2025-11-13`** | [Java Streams Evolution: From Java 8 to today](https://javapro.io/2025/11/13/java-streams-evolution-from-java-8-to-today/) - history of working with data streams in Java |
 | **`2025-11-12`** | [Spring AI 1.1 GA Released](https://spring.io/blog/2025/11/12/spring-ai-1-1-GA-released) - new version of Spring solution for AI released, now with MCP integration |
+| **`2025-11-11`** | [Creating an MCP Server With Spring AI](https://dzone.com/articles/creating-an-mcp-server-with-spring-ai) - practical guide for creating **MCP** server |
 | **`2025-11-10`** | [Infinispan 16.0 is out!](https://infinispan.org/blog/2025/11/10/infinispan-16-0) - new major version of Java open source in-memory database was released |
 | **`2025-11-07`** | [Grails 7.0 Delivers Enhancements for Micronaut and GORM](https://www.infoq.com/news/2025/11/grails-7-released/) - Apache **Grails** v7 was released last month, check what is new |
 | **`2025-11-05`** | [The Blockchain in your Java application](https://javapro.io/2025/11/05/the-blockchain-in-your-java-application/) - an introduction of **Web3j** library |
