@@ -12,7 +12,7 @@ import org.javademos.commons.IDemo;
 /// - [JEP 486 - Details](https://openjdk.org/jeps/486)
 ///
 /// @author shepherdking67
-@SuppressWarnings({"removal", "deprecation"}) // comment out to see warnings
+@SuppressWarnings({"removal"}) // comment out to see warnings
 public class DisableSecurityManager implements IDemo {
 
     @Override

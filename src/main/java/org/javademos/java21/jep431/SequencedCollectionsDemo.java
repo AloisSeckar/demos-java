@@ -77,7 +77,6 @@ public class SequencedCollectionsDemo implements IDemo {
         }
         System.out.println("last item (iterator): " + lastOld);
         // easier with StreamAPI, but still...
-        @SuppressWarnings("unused") // `first` is not used and can be replaced with `_`, but is kept here for clarity
         var lastStream = hashSet.stream().reduce((first, second) -> second).get();
         System.out.println("last item (stream): " + lastStream);
 
