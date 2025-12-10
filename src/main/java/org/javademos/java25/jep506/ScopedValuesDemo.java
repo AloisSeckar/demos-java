@@ -25,22 +25,24 @@ public class ScopedValuesDemo implements IDemo {
     public void demo() {
         info(506);
 
-        System.out.println("=== Scoped Values Demo ===");
+        // Scoped values allow sharing immutable data safely across threads
+        // Unlike ThreadLocal, ScopedValue avoids accidental leaks
 
+        // USER is defined with value "Alice"
         ScopedValue.where(USER, "Alice").run(() -> {
             System.out.println("Inside scope: " + USER.get());
 
-            // Nested scope override
+            // Nested USER will be "Bob" within this block
             ScopedValue.where(USER, "Bob").run(() -> {
                 System.out.println("Nested scope: " + USER.get());
             });
 
+            // USER is "Alice again"
             System.out.println("Back to outer scope: " + USER.get());
         });
 
-        System.out.println("\nExplanation:");
-        System.out.println("- Scoped values allow sharing immutable data safely across threads.");
-        System.out.println("- Unlike ThreadLocal, ScopedValue avoids accidental leaks.");
-        System.out.println("- In JDK 25, Scoped Values are finalized (no longer preview).");
+        // USER is not defined here anymore
+        // would result into `java.util.NoSuchElementException: ScopedValue not bound`
+        // System.out.println("Outside of scope: " + USER.get());
     }
 }

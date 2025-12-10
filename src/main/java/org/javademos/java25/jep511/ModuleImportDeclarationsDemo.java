@@ -21,8 +21,17 @@ public class ModuleImportDeclarationsDemo implements IDemo {
     public void demo() {
         info(511);
 
-        System.out.println("using 'import module java.base;' to bring exported types into scope");
-        System.out.println("no explicit package imports for List/ArrayList/Arrays/Math/Path are needed\n");
+        // all exported memberes of a Java module can be imported in a single statement
+        // no explicit package imports are required
+
+        // PRIOR to JDK 25:
+        // import java.nio.file.Path;
+        // import java.util.List;
+        // import java.util.ArrayList;
+        // import java.util.Arrays;
+
+        // SINCE JDK 25:
+        // import module java.base;
 
         // examples of types from multiple packages within module java.base
         List<String> values = new ArrayList<>(Arrays.asList("a", "b", "c"));

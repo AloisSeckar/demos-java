@@ -2,17 +2,17 @@ package org.javademos.java23.jep467;
 
 import org.javademos.commons.IDemo;
 
-/// Demo for JDK 23 feature JEP 467 - Markdown Documentation Comments.
+/// # Demo for JDK 23 feature JEP 467 - Markdown Documentation Comments
 ///
-/// JEP history:
+/// ## JEP history
 /// - JDK 23: [JEP 467 - Markdown Documentation Comments](https://openjdk.org/jeps/467)
 ///
-/// Further reading:
+/// ## Further reading
 /// - [Java Enhances Documentation with Markdown Support](https://www.infoq.com/news/2024/05/jep467-markdown-in-javadoc/)
 ///
 /// @author alois.seckar@gmail.com
 
-@SuppressWarnings("DanglingJavadoc") // because of the example on line 24
+@SuppressWarnings("DanglingJavadoc") // because of the examples
 public class MarkdownComments implements IDemo {
     @Override
     public void demo() {
@@ -25,25 +25,19 @@ public class MarkdownComments implements IDemo {
     // BEFORE JDK 23 - Javadoc header
 
     /**
-     * <p>
-     *   Demo for JDK 23 feature <strong>Markdown Documentation Comments</strong> (JEP 467)
-     * </p>
-     *
-     * @see <a href="https://openjdk.org/jeps/467">JEP 467</a>
-     * @author alois.seckar@gmail.com
+     * <h1>
+     *   Demo for JDK 23 feature <strong>JEP 467 - Markdown Documentation Comments</strong>
+     * </h1>
      */
 
     // AFTER JDK 23 - Javadoc header
 
-    /// Demo for JDK 23 feature JEP 467 - Markdown Documentation Comments.
-    ///
-    /// @see <a href="https://openjdk.org/jeps/467">JEP 467</a>
-    /// @author alois.seckar@gmail.com
+    /// # Demo for JDK 23 feature **JEP 467 - Markdown Documentation Comments**
 
     // ISSUES / LIMITATIONS
 
-    // @see and external link
-    // ----------------------
+    // @see and external links
+    // -----------------------
     // /// @see [JEP 467](https://openjdk.org/jeps/467)
     // md syntax is currently not possible
     // /// @see <a href="https://openjdk.org/jeps/467">JEP 467</a>
