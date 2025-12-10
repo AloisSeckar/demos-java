@@ -10,30 +10,28 @@ import org.javademos.commons.IDemo;
 /// ### Further reading
 /// - [JEP 502 - Stable Values. New Feature of Java 25 Explained](https://softwaremill.com/jep-502-stable-values-new-feature-of-java-25-explained/)
 ///
-/// @see jdk.internal.vm.annotation.Stable
-///
-/// @author @CodeSakshamY
+/// @author @CodeSakshamY / alois.seckar@gmail.com
 public class StableValuesDemo implements IDemo {
 
-    // A stable value example: a cached, immutable array
-    @jdk.internal.vm.annotation.Stable
-    private static final int[] STABLE_ARRAY = {1, 2, 3, 4, 5};
+    // stable value variable can be announced as "final", but not initialized immediately
+    private static final StableValue<int[]> STABLE_ARRAY = StableValue.of();
+
+    // the initialization can happen ONCE at the first time when values are requested
+    // "orElseSet" accepts a lambda supplier function to initialize the stable value with data
+    public static int[] getValues() {
+        return STABLE_ARRAY.orElseSet(() -> new int[]{10, 20, 30, 40, 50});
+    }
 
     @Override
     public void demo() {
         info(502);
 
-        System.out.println("=== Stable Values Demo (Preview) ===");
-
         System.out.print("Stable array contents: ");
-        for (int val : STABLE_ARRAY) {
+
+        // here we ask for the stable values for the first time during runtime
+        for (int val : getValues()) {
             System.out.print(val + " ");
         }
         System.out.println();
-
-        System.out.println("\nExplanation:");
-        System.out.println("- @Stable annotation hints JVM that this field won't change once set.");
-        System.out.println("- Enables optimizations like constant folding & caching.");
-        System.out.println("- In JDK 25, this concept is introduced as a preview feature.");
     }
 }
