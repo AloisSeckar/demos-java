@@ -20,12 +20,24 @@ public class LaunchMultiFileSourceDemo implements IDemo {
         // Example (requires separate files in the same directory):
         // java Main.java Helper.java
         //
-        // Main.java
-        // public class Main { public static void main(String[] args) { Helper.greet(); } }
+        // // Main.java
+        // public class Main { 
+        //   public static void main(String[] args) { 
+        //     Helper.greet(); 
+        //   } 
+        // }
         //
-        // Helper.java
-        // public class Helper { public static void greet() { System.out.println("Hello from Helper!"); } }
+        // // Helper.java
+        // public class Helper { 
+        //   public static void greet() { 
+        //     System.out.println("Hello from Helper!"); 
+        //   } 
+        // }
         //
         // When running `java Main.java`, both classes will be compiled and executed out of the box.
+        //
+        // Try it by running:
+        // - java src/main/resources/jep458/Main.java
+
     }
 }

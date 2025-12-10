@@ -43,7 +43,7 @@
     "jep": 458,
     "jdk": 22,
     "name": "JEP 458 - Launch Multi-File Source-Code Programs",
-    "dscr": "Demonstrates launching multi-file source-code programs directly with Java.",
+    "dscr": "Demonstrates launching multi-file source-code programs directly with Java. See `org.javademos.java22.jep458.LaunchMultiFileSourceDemo` for instructions.",
     "link": false,
     "code": false
   },
