@@ -26,6 +26,23 @@ Using `--enable-preview` and `--add-modules` options is necessary to make the ne
 
 **Note:** Until `Maven 3.9.12` is released, you would see warning about `Guice` library using deprecated `sun.misc.Unsafe` class when running Maven install. This is [known and about to be fixed](https://github.com/apache/maven/issues/10312).
 
+### Filtering Demos
+
+By default, all available JEP demos are processed and run. Since there are hundreds of them and the long output might become confusing, there are ways for filtering based on command line arguments.
+
+- `--skip-links` — skip demos that only contain links to newer JEPs (incubator and preview stages)
+- `--code-only` — run only demos that contain executable code (many JEPs are only platform changes without apparent effect in code)
+- `--jdk=x,y,z` —  run demos only from the specified JDK versions
+- *`--only=x,y,z` — run only demos with the specified JEP numbers
+
+Filter args can be combined together and conditions are applied as a conjunction.
+
+Examples:
+
+- `--jdk=24,25 --code-only` - run only demos that contain an actual code from Java 24 or 25
+- `--jdk=21 --skip-links` - run only JEPs finalized in Java 21 (no link to newer JEP variant)
+- `--only=521` - run only demo for JEP 521
+
 ## Contributing
 You can help making this project better!
 
