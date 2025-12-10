@@ -17,40 +17,56 @@ public class FlexibleConstructorBodiesDemo implements IDemo{
     @Override
     public void demo(){
         info(513);
-        // the constructor invocation is done at the time of object creation.
-        new sub(5,20); 
+        
+        new SubClass(1, 2); 
     }
 }
 
-class Super{
-    Super(int x){
-        if(x<0)
+class SuperClass {
+    public SuperClass(int x) {
+        if (x<0) {
             throw new IllegalArgumentException();
-        // Bad Practise: calling a overidden method in the constructor body
-        // can result in dynamic method dispatching
+        }
+
+        // WARNING - This is technically possible, but rather a bad practice.
+        // Calling a overridden method in the constructor body
+        // may result into unpredictable behavior.
+        // In this case, SubClass.show() would be actually called (see the demo output).
         show();
     }
-    void show(){
-        System.out.println("This is demo text");
+
+    protected void show() {
+        System.out.println("Show in SuperClass");
     }
 }
 
-class sub extends Super{
-    int age;
-    /*
-     *  In Pre-JDK 25 ,the compiler performs implicit constructor invocation i.e super(...) or this(...)
-     *  compile-time errors : if constructor call isn't there as a first line of statement [explicit invocation]
-    */
-    sub(int x, int age){
-        if(x<0)
-            throw new IllegalArgumentException(); // this allows to fail fast.
-        this.age = age;
-        // explicit constructor invocation can be done at the end (JDK >= 25).
-        super(x); // throws compile-time error if JDK <= 24
-        System.out.println("Constructor Body continues normally");
+class SubClass extends SuperClass {
+
+    private int b;
+
+    // In JDK <= 24, the compiler performs implicit constructor invocation i.e super(...) or this(...).
+    // If parent constructor call isn't there as a first line of statement [explicit invocation],
+    // compilation errors occurs.
+    public SubClass(int x, int b) {
+
+        // in JDK <= 24, you were required to call parent constructor here 
+        // as the first statement in child constructor body
+        // super(x);
+
+        // since JDK 25 this allows to fail fast
+        if (x<0) {
+            throw new IllegalArgumentException();
+        }
+
+        // you can also initialize child class members here
+        this.b = b;
+
+        // and make the explicit parent constructor invocation later
+        super(x); // would throw compilation error in JDK <= 24
     }
+
     @Override
-    void show() {
-        System.out.println("Age :"+age);
+    public void show() {
+        System.out.println("Show in SubClass - B:" + b);
     }
 }
