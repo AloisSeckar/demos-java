@@ -1,9 +1,8 @@
 package org.javademos.commons;
 
-import org.javademos.init.JEPInfo.JEPData;
-
 import java.util.*;
 import java.util.stream.Collectors;
+import org.javademos.init.JEPInfo.JEPData;
 
 /**
  * Utility class for filtering and parsing command-line arguments
@@ -19,6 +18,7 @@ import java.util.stream.Collectors;
  *   <li><b>--code-only</b> — Run only demos that contain executable code.</li>
  *   <li><b>--jdk=17,25</b> — Run demos only from the specified JDK versions.</li>
  *   <li><b>--only=382,409</b> — Run only demos with the specified JEP numbers.</li>
+ *   <li><b>--no-info</b> — Suppress displaying system and filtering information.</li>
  * </ul>
  *
 * <h3>Multiple filters and examples:</h3>
@@ -32,7 +32,6 @@ import java.util.stream.Collectors;
  * <li><b>--jdk=17,21 --skip-links</b></li>
  * </ul>
  *
- *
  * @author Alexander Schneider @ab-schneider
  */
 public class ArgsFilterUtil {
@@ -41,7 +40,9 @@ public class ArgsFilterUtil {
     private static final Set<Integer> specificJeps = new HashSet<>();
     private static boolean skipLinks = false;
     private static boolean codeOnly = false;
+    private static boolean silent = false;
 
+    private static final String NO_INFO = "--no-info";
     private static final String SKIP_LINKS = "--skip-links";
     private static final String CODE_ONLY = "--code-only";
     private static final String JDK = "--jdk=";
@@ -54,13 +55,18 @@ public class ArgsFilterUtil {
     public static Map<Integer, JEPData> getFilteredJepData(String[] args, Map<Integer, JEPData> jepDataMap) {
         parseArguments(args);
         var filtered = filterJepData(jepDataMap);
-        printFilteredInfo(filtered);
+        if (!silent) {
+            printSystemInfo();
+            printFilteredInfo(filtered);
+        }
         return filtered;
     }
 
     private static void parseArguments(String[] args) {
         for (String arg : args) {
-            if (SKIP_LINKS.equals(arg)) {
+            if (arg.equalsIgnoreCase(NO_INFO)) {
+                silent = true;
+            } else if (SKIP_LINKS.equals(arg)) {
                 skipLinks = true;
             } else if (CODE_ONLY.equals(arg)) {
                 codeOnly = true;
@@ -76,8 +82,23 @@ public class ArgsFilterUtil {
         }
     }
 
+    private static void printSystemInfo() {
+        // based on https://stackoverflow.com/a/19165338/3204544
+        System.out.println("\n=== JVM INFO ===");
+        System.out.println("Java VM name: " + System.getProperty("java.vm.name"));
+        System.out.println("Java version: " + System.getProperty("java.version"));
+        System.out.println("Java home: " + System.getProperty("java.home"));
+        System.out.println("Java vendor: " + System.getProperty("java.vendor"));
+        System.out.println("Java specification vendor: " + System.getProperty("java.specification.vendor"));
+        // some extra info about current OS
+        System.out.println("\n=== OS INFO ===");
+        System.out.println("OS name: " + System.getProperty("os.name"));
+        System.out.println("OS version: " + System.getProperty("os.version"));
+        System.out.println("OS architecture: " + System.getProperty("os.arch"));
+    }
+
     private static void printFilteredInfo(Map<Integer, JEPData> filtered) {
-        System.out.println("\n=== FILTERED JEP INFORMATION ===");
+        System.out.println("\n=== JEP FILTERS INFO ===");
 
         if (!skipLinks && !codeOnly && specificJeps.isEmpty() && jdkVersions.isEmpty()) {
             System.out.println("No filters applied. Total JEPs found: " + filtered.size());
@@ -104,8 +125,6 @@ public class ArgsFilterUtil {
                 System.out.println("Specific JEPs: " + specificJeps);
             }
         }
-
-        System.out.println("================================\n");
     }
 
     private static void parseJdkVersions(String jdkValues) {

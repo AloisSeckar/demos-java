@@ -43,6 +43,10 @@ Examples:
 - `--jdk=21 --skip-links` - run only JEPs finalized in Java 21 (no link to newer JEP variant)
 - `--only=521` - run only demo for JEP 521
 
+### Displaying system and filtering information
+
+By default, the application displays information about the current JVM and filtering criteria used. If you want to reduce the noise, you can pass `--no-info` argument to suppress printing those lines.
+
 ## Contributing
 You can help making this project better!
 
