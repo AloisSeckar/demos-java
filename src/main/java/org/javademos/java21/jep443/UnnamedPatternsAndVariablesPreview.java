@@ -12,7 +12,7 @@ import org.javademos.commons.IDemo;
 ///
 /// Superseded by [JEP 456](https://openjdk.org/jeps/456).
 /// @author [Krushit Babariya](https://github.com/Krushit-Babariya)
-/// @see org.javademos.java22.jep456.UnnamedPatternsAndVariablesDemo
+/// @see org.javademos.java22.jep456.UnnamedVariablesAndPatternsDemo
 ///
 public class UnnamedPatternsAndVariablesPreview implements IDemo {
 

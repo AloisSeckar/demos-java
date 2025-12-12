@@ -4,23 +4,23 @@ import org.javademos.commons.IDemo;
 
 import java.util.List;
 
-/// Demo for JDK 22 feature JEP 456 - Unnamed Patterns and Variables.
+/// Demo for JDK 22 feature JEP 456 - Unnamed Variables & Patterns.
 ///
 /// ## Summary
-/// This JEP finalizes the feature to enhance the Java language with unnamed patterns and variables.
+/// This JEP finalizes the feature to enhance the Java language with Unnamed Variables & Patterns.
 /// The underscore character `_` can be used to denote a variable or pattern that is required by syntax
 /// but is intentionally unused. This improves code readability and maintainability by making the developer's
 /// intent clear and reducing the risk of errors from unused variables.
 ///
 /// ## History
-/// - JDK 22: [JEP 456 - Unnamed Patterns and Variables](https://openjdk.org/jeps/456)
+/// - JDK 22: [JEP 456 - Unnamed Variables & Patterns](https://openjdk.org/jeps/456)
 /// - JDK 21: [JEP 443 - Unnamed Patterns and Variables (Preview)](https://openjdk.org/jeps/443)
 ///
 /// ## Links
-/// - [Baeldung: Unnamed Patterns and Variables in Java](https://www.baeldung.com/java-unnamed-patterns-variables)
+/// - [Baeldung: Unnamed Variables & Patterns in Java](https://www.baeldung.com/java-unnamed-patterns-variables)
 ///
 /// @author [Krushit Babariya](https://github.com/Krushit-Babariya)
-public class UnnamedPatternsAndVariablesDemo implements IDemo {
+public class UnnamedVariablesAndPatternsDemo implements IDemo {
 
     // A simple record for pattern matching examples
     record Point(int x, int y) {}

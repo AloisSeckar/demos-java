@@ -26,7 +26,7 @@
   {
     "jep": 456,
     "jdk": 22,
-    "name": "JEP 456 - Unnamed Patterns and Variables",
+    "name": "JEP 456 - Unnamed Variables & Patterns",
     "dscr": "Finalizes the feature to use an underscore `_` for unnamed variables and patterns, improving code clarity when a variable's value is not needed.",
     "link": false,
     "code": true
