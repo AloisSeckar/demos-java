@@ -19,9 +19,11 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2025-12-18`** | [Java to Enforce Strict Final Field Immutability by Restricting Reflection](https://www.infoq.com/news/2025/12/jdk26-final-fields-reflection) - a preview of an upcoming **JEP 500** being targeted into **Java 26** |
 | **`2025-12-11`** | [JVM Iceberg – The AI edition](https://javapro.io/2025/12/11/jvm-iceberg-the-ai-edition/) - what AI-related tools are currently available for your JVM |
 | **`2025-12-10`** | [Spring Tools 5.0 released](https://spring.io/blog/2025/12/10/spring-tools-5-0-0-released) - new major version of **Spring** tooling for IDEs is available |
 | **`2025-12-09`** | [Fray Detects Concurrency Issues in JVM Languages](https://github.com/AloisSeckar/demos-java/edit/master/JavaNews.md) - presentation of new testing tool for improving Java concurrency |
+| **`2025-12-06`** | [On the Boundaries of Final](https://norlinder.nu/posts/On-the-Boundaries-of-Final/) - why Java "final" keyword is limited in practice and what actions are being taken to fix it |
 | **`2025-12-04`** | [Java 21+ on Raspberry Pi Zero 2 is Back In Business](https://foojay.io/today/java-21-on-raspberry-pi-zero-2-is-back-in-business) - an issue preventing OpenJDK 21 and higher being executed on Rapsberry Pi was fixed |
 | **`2025-12-03`** | [As Java EE 8 Runtimes Age, What Comes Next for Enterprise Java Applications?](https://javapro.io/2025/12/03/as-java-ee-8-runtimes-age-what-comes-next-for-enterprise-java-applications/) - here are some tips if you need to migrate a soon-to-be-legacy Java app |
 | **`2025-12-02`** | [JEP 526 Simplifies Deferred Initialization ahead of JDK 26](https://www.infoq.com/news/2025/12/jep526-lazy-constants/) - a preview of an upcoming **JEP 526** being targeted into **Java 26** |
