@@ -19,13 +19,15 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2025-12-30`** | [This Year in Spring - December 30th, 2025](https://spring.io/blog/2025/12/30/this-year-in-spring-december-30th-2025) - a retrospective of 2025 from **Spring** ecosystem |
 | **`2025-12-30`** | [Security in the Age of Java 25](https://javapro.io/2025/12/30/security-in-the-age-of-java-25-new-language-tools-for-safer-code/) - overview of security measures available in modern Java |
 | **`2025-12-26`** | [Optimizing Java Applications for Arm64 in the Cloud](https://dzone.com/articles/optimizing-java-arm64-cloud-applications) - fine tune your JVMs for running on `Arm64` architecture system |
 | **`2025-12-23`** | [Getting the Most Out of Virtual Threads with Structured Task Scopes and Scoped Values](https://javapro.io/2025/12/23/java-25-getting-the-most-out-of-virtual-threads-with-structured-task-scopes-and-scoped-values/) - how to benefit from new concurency features that landed into **Java 25** |
 | **`2025-12-18`** | [High-performance programming with Java streams](https://www.infoworld.com/article/4091427/high-performance-programming-with-java-streams.html) - an advanced guide for making your Java programs more performant with appropriate Stream API techniques |
 | **`2025-12-18`** | [Java to Enforce Strict Final Field Immutability by Restricting Reflection](https://www.infoq.com/news/2025/12/jdk26-final-fields-reflection) - a preview of an upcoming **JEP 500** being targeted into **Java 26** |
+| **`2025-12-17`** | [TornadoVM 2.0 Brings Automatic GPU Acceleration and LLM Support to Java](https://www.infoq.com/news/2025/12/tornadovm-20-gpu-llm/) - new major release of automated optimization tool for running Java on heterogenous hardware |
 | **`2025-12-17`** | [Optimizing Spring Integration Tests at Scale](https://javapro.io/2025/12/17/optimizing-spring-integration-tests-at-scale/) - making **Spring** tests more effective |
-| **`2025-12-11`** | [JVM Iceberg – The AI edition](https://javapro.io/2025/12/11/jvm-iceberg-the-ai-edition/) - what AI-related tools are currently available for your JVM |
+| **`2025-12-11`** | [JVM Iceberg - The AI edition](https://javapro.io/2025/12/11/jvm-iceberg-the-ai-edition/) - what AI-related tools are currently available for your JVM |
 | **`2025-12-10`** | [Spring Tools 5.0 released](https://spring.io/blog/2025/12/10/spring-tools-5-0-0-released) - new major version of **Spring** tooling for IDEs is available |
 | **`2025-12-09`** | [Fray Detects Concurrency Issues in JVM Languages](https://github.com/AloisSeckar/demos-java/edit/master/JavaNews.md) - presentation of new testing tool for improving Java concurrency |
 | **`2025-12-06`** | [On the Boundaries of Final](https://norlinder.nu/posts/On-the-Boundaries-of-Final/) - the limits of "final" keyword in the multi-thread perspective |
@@ -80,7 +82,7 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
-| **`2025-09-30`** | [Apache Causeway – An Introduction](https://javapro.io/2025/09/30/apache-causeway-an-introduction/) - exploring tool for domain-driven app development |
+| **`2025-09-30`** | [Apache Causeway - An Introduction](https://javapro.io/2025/09/30/apache-causeway-an-introduction/) - exploring tool for domain-driven app development |
 | **`2025-09-29`** | [JavaFX 25 previews JavaFX controls in title bars](https://www.infoworld.com/article/4065025/javafx-25-previews-javafx-controls-in-title-bars.html) - an overview of new features in latest **JavaFX** release |
 | **`2025-09-25`** | [Critique of JEP 505: Structured Concurrency (Fifth Preview)](https://softwaremill.com/critique-of-jep-505-structured-concurrency-fifth-preview/) - the author of **Jox** library evaluates the last evolution of the **Structured Concurrency** feature |
 | **`2025-09-25`** | [Introduction to Java records](https://www.infoworld.com/article/4058874/introduction-to-java-records-simplified-data-centric-programming-in-java.html) - records are there with us in Java for some time, this is a more detailed explanation |
@@ -126,7 +128,7 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
-| **`2025-07-31`** | [JVM Iceberg – Modern Performance Edition](https://javapro.io/2025/07/31/jvm-iceberg-modern-performance-edition/) - what performance-related tools are available inside JVM |
+| **`2025-07-31`** | [JVM Iceberg - Modern Performance Edition](https://javapro.io/2025/07/31/jvm-iceberg-modern-performance-edition/) - what performance-related tools are available inside JVM |
 | **`2025-07-31`** | [Basic and advanced pattern matching in Java](https://www.infoworld.com/article/4026690/basic-and-advanced-pattern-matching-in-java.html) - comprehensive tutorial for up-to-date capabilities of pattern matching that keeps evolving in Java |
 | **`2025-07-31`** | [Gradle 9.0.0 released](https://github.com/gradle/gradle/releases/tag/v9.0.0) - new major version of Java build tool **Gradle** was released |
 | **`2025-07-30`** | [How to Avoid Busy-Waiting in Java](https://www.baeldung.com/java-busy-waiting-alternatives) -improving multi-threading performance with modern Java methods |
@@ -146,7 +148,7 @@ Check where can you meet fellow Java enthusiasts at:
 | **`2025-07-11`** | [Payara Launches Payara Qube](https://javapro.io/2025/07/11/payara-launches-payara-qube-a-breakthrough-java-platform/) - announcement of new automated zero-maintenance platform for Java enterprise apps |
 | **`2025-07-08`** | [A visual chronicle of the JDK’s journey](https://javapro.io/2025/07/08/a-visual-chronicle-of-the-jdks-journey/) - an unorthodox look at the Java history throughout versions since Java 7 |
 | **`2025-07-07`** | [JobRunr and JobRunr Pro v8.0.0](https://www.jobrunr.io/en/blog/v8-release/) - new major version of Java backend processing library was released |
-| **`2025-07-03`** | [Azul Introduces 100 – 1000x More Accurate In-Production Java Vulnerability Detection](https://javapro.io/2025/07/03/azul-introduces-100-1000x-more-accurate-in-production-java-vulnerability-detection/) - Azul Vunlerability Detection radically improves threat reporting to DevOps teams |
+| **`2025-07-03`** | [Azul Introduces 100 - 1000x More Accurate In-Production Java Vulnerability Detection](https://javapro.io/2025/07/03/azul-introduces-100-1000x-more-accurate-in-production-java-vulnerability-detection/) - Azul Vunlerability Detection radically improves threat reporting to DevOps teams |
 | **`2025-07-03`** | [Sunsetting legacy config classes in Quarkus](https://quarkus.io/blog/legacy-config-classes-sunsetting/) - be aware of important breaking changes in upcomming **Quarkus** versions |
 | **`2025-07-01`** | [Introducing Canonical builds of OpenJDK](https://canonical.com/blog/introducing-canonical-builds-of-openjdk) - JDK builds tailored for Ubuntu and the world of containers |
 
