@@ -36,6 +36,8 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2026-01-09`** | [Java’s Ahead-of-Time Cache Optimizations](https://inside.java/2026/01/09/run-aot-cache/) - exploring Ahead-of-Time compilation caching for improved Java application startup performance |
+| **`2026-01-08`** | [The Myth of Stability: Java's Software Supply Chain After Log4Shell](https://javapro.io/2026/01/08/the-myth-of-stability-javas-software-supply-chain-after-log4shell/) - insights into Java software supply chain security following the Log4Shell vulnerability |
 | **`2026-01-06`** | [Optimizing Java for the Cloud-Native Era with Quarkus](https://foojay.io/today/optimizing-java-for-the-cloud-native-era-with-quarkus/) - how to use **Quarkus** to improve Java cloud performance |
 | **`2026-01-05`** | [JEP 525 Brings Timeout Handling and Joiner Refinements to Structured Concurrency](https://www.infoq.com/news/2026/01/timeout-joiner-refinements/) - a preview of an upcoming **JEP 525** being targeted into **Java 26** |
 | **`2026-01-01`** | [Project Panama for Newbies](https://foojay.io/today/project-panama-for-newbies-part-1/) - understand and discover more about **Project Panama** focused on invoking native code from Java side |
