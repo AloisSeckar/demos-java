@@ -43,6 +43,10 @@ https://javalin.io/
 
 ## CheerpJ
 https://cheerpj.com/
+- A library for Java stream intermediate operations.
+
+## Gatherers4J
+https://tginsberg.github.io/gatherers4j/
 - A WebAssembly-based JVM for running Java apps in the browsers.
 
 ## Ox
