@@ -36,6 +36,7 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2026-01-13`** | [Java 27 gets its first feature](https://www.infoworld.com/article/4116320/java-27-gets-its-first-feature.html) - months before **JDK 26** will be out there are already moves towards autumnal **JDK 27** |
 | **`2026-01-12`** | [Oracle unveils Java development plans for 2026](https://www.infoworld.com/article/4115794/oracle-unveils-java-development-plans-for-2026.html) - what can we expect in upcoming year in Java |
 | **`2026-01-09`** | [Java’s Ahead-of-Time Cache Optimizations](https://inside.java/2026/01/09/run-aot-cache/) - exploring Ahead-of-Time compilation caching for improved Java application startup performance |
 | **`2026-01-08`** | [The Myth of Stability: Java's Software Supply Chain After Log4Shell](https://javapro.io/2026/01/08/the-myth-of-stability-javas-software-supply-chain-after-log4shell/) - insights into Java software supply chain security following the Log4Shell vulnerability |
