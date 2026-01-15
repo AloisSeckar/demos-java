@@ -39,7 +39,7 @@ What was the Java world up to in 2023?
 | **`2023-11-21`** | [JCON WORLD](https://2023.world.jcon.one/) - 3 days online conference with 100+ speakers |
 | **`2023-11-20`** | [Java and the String Odyssey](https://www.unlogged.io/post/java-and-the-string-odyssey-navigating-changes-from-jdk-1-to-jdk-21) - an exhaustive history of working with **Strings** in Java from JDK 1 to JDK 21 |
 | **`2023-11-20`** | [JDK 22: The new features in Java 22](https://www.infoworld.com/article/3708329/jdk-22-the-new-features-in-java-22.html) - summing up what is about to be included in upcomming Java 22 in March 2024 |
-| **`2023-11-19`** | [JHow do you know if a Java Collection is Mutable or Immutable?](https://medium.com/javarevisited/how-do-you-know-if-a-java-collection-is-mutable-or-immutable-b397dfc5d231) - an article to guide you around the world of Java collections and their (im)mutability |
+| **`2023-11-20`** | [How do you know if a Java Collection is Mutable or Immutable?](https://medium.com/javarevisited/how-do-you-know-if-a-java-collection-is-mutable-or-immutable-b397dfc5d231) - an article to guide you around the world of Java collections and their (im)mutability |
 | **`2023-11-16`** | [Ways To Reduce JVM Docker Image Size](https://dzone.com/articles/ways-to-reduce-jvm-docker-image-size) - a practical step-by-step guide of stripping unnecessary burden from Dockerized Java containers |
 | **`2023-11-15`** | [The Resurrection of Virtual Threads](https://dzone.com/articles/the-resurrection-of-virtual-threads-unraveling-the) - a brief look into the history of Java Threads concepts |
 | **`2023-11-09`** | [J-Fall](https://jfall.nl/) - conference in Ede, Netherlands |

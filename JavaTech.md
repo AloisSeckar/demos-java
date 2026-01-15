@@ -24,10 +24,10 @@ https://pulsar.apache.org/
 ## Apache Spark
 https://spark.apache.org/
 - Unified analytics engine for large-scale data processing.
-- 
+
 ## Eclipse DataGrid
-https://spark.apache.org/
-- Unified analytics engine for large-scale data processing.
+https://www.eclipse.org/datagrid/
+- High-performance distributed data grid for Java applications.
 
 ## Helidon
 https://helidon.io/
