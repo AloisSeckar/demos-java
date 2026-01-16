@@ -51,9 +51,9 @@
     "jep": 483,
     "jdk": 24,
     "name": "JEP 483 - Ahead-of-Time Class Loading & Linking",
-    "dscr": "Up-to-date demos in `org.javademos.java25.jep514.AheadOfTimeCLIDemo` and `org.javademos.java25.jep515.AheadOfTimeMethodProfilingDemo`.",
-    "link": true,
-    "code": false
+    "dscr": "Demonstrates the AOT cache concept for faster application startup through pre-loaded class metadata. Simulates first run vs cached run with timing differences.",
+    "link": false,
+    "code": true
   },
   {
     "jep": 484,
