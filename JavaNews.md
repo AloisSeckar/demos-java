@@ -36,6 +36,8 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2026-01-28`** | [How To Do Structured Concurrency in Java 25](https://javapro.io/2026/01/28/how-to-do-structured-concurrency-in-java-25/) - exploring current state of structured concurrency preview feature with practical examples |
+| **`2026-01-20`** | [GlassFish Grizzly 5 released](https://github.com/eclipse-ee4j/glassfish-grizzly/releases/tag/5.0.0-RELEASE) - new major verison of framework for working with Java NIO was released, supporting Java 21 and virtual threads |
 | **`2026-01-17`** | [A new way to call C from Java: how fast is it?](https://lemire.me/blog/2026/01/17/a-new-way-to-call-c-from-java-how-fast-is-it/) - some benchmarks for working with Java's new Foreign Function & Memory API |
 | **`2025-10-16`** | [WildFly 39 is released](https://www.wildfly.org/news/2026/01/16/WildFly-39-is-released/) - new major version of WildFly app server is now GA |
 | **`2026-01-16`** | [The Ultimate 10 Years Java Garbage Collection Guide](https://foojay.io/today/the-ultimate-10-years-java-garbage-collection-guide-2016-2026-choosing-the-right-gc-for-every-workload/) - comprehensive guide to Java garbage collection evolution and selection strategies over the past decade |
