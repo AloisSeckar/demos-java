@@ -32,6 +32,15 @@ Stay up-to-date with the following even more dedicated websites:
 Check where can you meet fellow Java enthusiasts at:
 - https://javaconferences.org/
 
+## 2026 - February
+
+| Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
+| --- | :--  |
+| **`2026-02-09`** | [The new features in Java 26](https://www.infoworld.com/article/4050993/jdk-26-the-new-features-in-java-26.html) - **JDK 26** is getting closer, what can we expect |
+| **`2026-02-05`** | [GlassFish 8.0 released](https://github.com/eclipse-ee4j/glassfish/releases/tag/8.0.0) - new major version of **GlassFish** application server was released |
+| **`2026-02-04`** | [OmniHai 1.0 released](https://balusc.omnifaces.org/2026/02/omnihai-10-released.html) - introducing new Java AI utility library for Jakarta EE or MicroProfile |
+| **`2026-02-03`** | [Optimizing Java Class Metadata in Project Valhalla](https://joelsiks.com/posts/valhalla-inlinelayoutinfo-array-optimization/) - deep dive into JVM internals optimization for upcoming value classes |
+
 ## 2026 - January
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
