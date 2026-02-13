@@ -36,9 +36,14 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2026-02-12`** | [Here's Java 25, Ready to Perform to the Limit](https://javapro.io/2026/02/12/heres-java-25-ready-to-perform-to-the-limit/) - comprehensive overview of all 18 JEPs in Java 25 |
+| **`2026-02-10`** | [Oracle Java licensing worries are percolating through the userbase](https://www.theregister.com/2026/02/10/oracle_java_licensing/) - vast majority of Oracle Java users concerned about licensing changes |
+| **`2026-02-10`** | [Reactive Java with Project Reactor](https://foojay.io/today/reactive-java-with-project-reactor/) - architectural deep dive into **Project Reactor** and MongoDB reactive driver |
 | **`2026-02-09`** | [The new features in Java 26](https://www.infoworld.com/article/4050993/jdk-26-the-new-features-in-java-26.html) - **JDK 26** is getting closer, what can we expect |
+| **`2026-02-06`** | [Spring AI with External MCP Servers](https://piotrminkowski.com/2026/02/06/spring-ai-with-external-mcp-servers/) - integrating **Spring AI** with MCP servers using Docker MCP Toolkit for GitHub and SonarQube |
 | **`2026-02-05`** | [GlassFish 8.0 released](https://github.com/eclipse-ee4j/glassfish/releases/tag/8.0.0) - new major version of **GlassFish** application server was released |
 | **`2026-02-04`** | [OmniHai 1.0 released](https://balusc.omnifaces.org/2026/02/omnihai-10-released.html) - introducing new Java AI utility library for Jakarta EE or MicroProfile |
+| **`2026-02-03`** | [Why AI feels hard for Java developers](https://suyambuganesh.substack.com/p/why-ai-feels-hard-for-java-developers) - understanding the mental shift from deterministic Java apps to probabilistic AI systems |
 | **`2026-02-03`** | [Optimizing Java Class Metadata in Project Valhalla](https://joelsiks.com/posts/valhalla-inlinelayoutinfo-array-optimization/) - deep dive into JVM internals optimization for upcoming value classes |
 
 ## 2026 - January
