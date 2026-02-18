@@ -36,7 +36,9 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2026-02-18`** | [The Runtime Illusion: What Java Really Runs](https://javapro.io/2026/02/18/the-runtime-illusion-what-java-really-runs/) - explore the real techniques used by JIT compiler for optimizing Java bytecode |
 | **`2026-02-12`** | [Here's Java 25, Ready to Perform to the Limit](https://javapro.io/2026/02/12/heres-java-25-ready-to-perform-to-the-limit/) - comprehensive overview of all 18 JEPs in Java 25 |
+| **`2026-02-10`** | [Java use in AI development continues to grow](https://www.infoworld.com/article/4130436/java-use-in-ai-development-continues-to-grow-azul-report.html) - report finds increasing adoption of Java-based technologies for AI |
 | **`2026-02-10`** | [Oracle Java licensing worries are percolating through the userbase](https://www.theregister.com/2026/02/10/oracle_java_licensing/) - vast majority of Oracle Java users concerned about licensing changes |
 | **`2026-02-10`** | [Reactive Java with Project Reactor](https://foojay.io/today/reactive-java-with-project-reactor/) - architectural deep dive into **Project Reactor** and MongoDB reactive driver |
 | **`2026-02-09`** | [The new features in Java 26](https://www.infoworld.com/article/4050993/jdk-26-the-new-features-in-java-26.html) - **JDK 26** is getting closer, what can we expect |
