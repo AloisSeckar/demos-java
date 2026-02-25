@@ -36,6 +36,7 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2026-02-24`** | [Java’s Productivity Trifecta](https://javapro.io/2026/02/24/javas-productivity-trifecta-compact-sources-flexible-constructors-and-advanced-pattern-matching/) - understanding latest Java 25 features on practical examples - compact source files, flexible constructor bodies and advanced pattern matching |
 | **`2026-02-20`** | [JetBrains introduces Java to Kotlin converter for VS Code](https://www.infoworld.com/article/4135403/jetbrains-introduces-java-to-kotlin-converter-for-visual-studio-code.html) - translating source files from Java to Kotlin is now easier than ever |
 | **`2026-02-18`** | [GlassFish 8 is here with Jakarta EE 11, virtual threads, and Jakarta Data](https://foojay.io/today/glassfish-8-is-here-with-jakarta-ee-11-virtual-threads-and-jakarta-data/) - a closer look to the recent major release of **GlassFish** application server including some behind-the-scenes info |
 | **`2026-02-18`** | [The Runtime Illusion: What Java Really Runs](https://javapro.io/2026/02/18/the-runtime-illusion-what-java-really-runs/) - explore the real techniques used by JIT compiler for optimizing Java bytecode |
