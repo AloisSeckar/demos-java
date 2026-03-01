@@ -36,6 +36,8 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2026-02-26`** | [JDK 26 G1/Parallel/Serial GC changes](https://tschatzl.github.io/2026/02/26/jdk26-g1-serial-parallel-gc-changes.html) - what can you expect in upcoming **JDK 26** from the garbage collection perspective |
+| **`2026-02-25`** | [Abandoned project linking Java, JavaScript makes a comeback](https://www.infoworld.com/article/4137631/abandoned-project-linking-java-javascript-makes-a-comeback.html) - project **Detroit** aiming for interconnecting Java and JavaScript via Python is possibly re-emerging |
 | **`2026-02-24`** | [Java’s Productivity Trifecta](https://javapro.io/2026/02/24/javas-productivity-trifecta-compact-sources-flexible-constructors-and-advanced-pattern-matching/) - understanding latest Java 25 features on practical examples - compact source files, flexible constructor bodies and advanced pattern matching |
 | **`2026-02-20`** | [JetBrains introduces Java to Kotlin converter for VS Code](https://www.infoworld.com/article/4135403/jetbrains-introduces-java-to-kotlin-converter-for-visual-studio-code.html) - translating source files from Java to Kotlin is now easier than ever |
 | **`2026-02-18`** | [GlassFish 8 is here with Jakarta EE 11, virtual threads, and Jakarta Data](https://foojay.io/today/glassfish-8-is-here-with-jakarta-ee-11-virtual-threads-and-jakarta-data/) - a closer look to the recent major release of **GlassFish** application server including some behind-the-scenes info |
