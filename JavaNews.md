@@ -32,14 +32,23 @@ Stay up-to-date with the following even more dedicated websites:
 Check where can you meet fellow Java enthusiasts at:
 - https://javaconferences.org/
 
+## 2026 - March
+
+| Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
+| --- | :--  |
+| **`2026-03-03`** | [Java 26: What’s New](https://github.com/AloisSeckar/demos-java/edit/master/JavaNews.md) - **JDK 26** is approaching, here is another overview of included features |
+| **`2026-03-02`** | [Java 26 for DevOps](https://inside.java/2026/03/02/jdk-26-rn-ops/) - new features and changes **JDK 26** related to JVM administration and observability |
+
 ## 2026 - February
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
 | **`2026-02-26`** | [JDK 26 G1/Parallel/Serial GC changes](https://tschatzl.github.io/2026/02/26/jdk26-g1-serial-parallel-gc-changes.html) - what can you expect in upcoming **JDK 26** from the garbage collection perspective |
 | **`2026-02-25`** | [Abandoned project linking Java, JavaScript makes a comeback](https://www.infoworld.com/article/4137631/abandoned-project-linking-java-javascript-makes-a-comeback.html) - project **Detroit** aiming for interconnecting Java and JavaScript via Python is possibly re-emerging |
+| **`2026-02-19`** | [TornadoVM 3 released](https://github.com/beehive-lab/TornadoVM/releases/tag/v3.0.0-jdk25) - new major version of **TornadoVM** was released |
 | **`2026-02-24`** | [Java’s Productivity Trifecta](https://javapro.io/2026/02/24/javas-productivity-trifecta-compact-sources-flexible-constructors-and-advanced-pattern-matching/) - understanding latest Java 25 features on practical examples - compact source files, flexible constructor bodies and advanced pattern matching |
 | **`2026-02-20`** | [JetBrains introduces Java to Kotlin converter for VS Code](https://www.infoworld.com/article/4135403/jetbrains-introduces-java-to-kotlin-converter-for-visual-studio-code.html) - translating source files from Java to Kotlin is now easier than ever |
+| **`2026-02-19`** | [Apache NetBeans 29 released](https://github.com/apache/netbeans/releases/tag/29) - new major version of Java IDE **NetBeans** |
 | **`2026-02-18`** | [GlassFish 8 is here with Jakarta EE 11, virtual threads, and Jakarta Data](https://foojay.io/today/glassfish-8-is-here-with-jakarta-ee-11-virtual-threads-and-jakarta-data/) - a closer look to the recent major release of **GlassFish** application server including some behind-the-scenes info |
 | **`2026-02-18`** | [The Runtime Illusion: What Java Really Runs](https://javapro.io/2026/02/18/the-runtime-illusion-what-java-really-runs/) - explore the real techniques used by JIT compiler for optimizing Java bytecode |
 | **`2026-02-12`** | [Here's Java 25, Ready to Perform to the Limit](https://javapro.io/2026/02/12/heres-java-25-ready-to-perform-to-the-limit/) - comprehensive overview of all 18 JEPs in Java 25 |
