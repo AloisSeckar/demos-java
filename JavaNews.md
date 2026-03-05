@@ -36,6 +36,9 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2026-03-05`** | [Java 25 and the New Age of Performance](https://javapro.io/2026/03/05/java-25-and-the-new-age-of-performance-virtual-threads-and-beyond/) - exploring performance improvements in **Java 25** with focus on virtual threads and their impact |
+| **`2026-03-04`** | [HTTP Client Updates in Java 26](https://inside.java/2026/03/04/jdk-26-http-client/) - new enhancements and features coming to HTTP Client in **JDK 26** |
+| **`2026-03-03`** | [One IntelliJ IDEA: The Split is Over](https://www.javacodegeeks.com/2026/03/one-intellij-idea-the-split-is-over.html) - reminder of recent unification of **IntelliJ IDEA** Community and Ultimate editions |
 | **`2026-03-03`** | [Java 26: What’s New](https://github.com/AloisSeckar/demos-java/edit/master/JavaNews.md) - **JDK 26** is approaching, here is another overview of included features |
 | **`2026-03-02`** | [Java 26 for DevOps](https://inside.java/2026/03/02/jdk-26-rn-ops/) - new features and changes **JDK 26** related to JVM administration and observability |
 
