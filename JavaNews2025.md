@@ -64,7 +64,7 @@ Check where can you meet fellow Java enthusiasts at:
 | **`2025-10-31`** | [Will JavaFX return to Java?](https://www.infoworld.com/article/4082709/will-javafx-return-to-java.html) - after **JavaFX** being separated from **OpenJDK** since Java 11, now there are discussion to put it back or at least improve the access from JDK and back |
 | **`2025-10-30`** | [JDK 26: HTTP/3 Support Available in HTTP Client API](https://inside.java/2025/10/30/quality-heads-up/) - the upcoming JDK release will have support for latest HTTP protocol version via **JEP 517** |
 | **`2025-10-27`** | [A practical guide to high-performance serverless with GraalVM and Spring](https://www.infoworld.com/article/4078803/taming-the-java-cold-start-beast-a-practical-guide-to-high-performance-serverless-with-graalvm-and-spring.html) - demo setup for blazing fast GraalVM native image app tailored for serverless cold starts |
-| **`2025-10-23`** | [JavaDays 2025](https://javadays.cz/) conference took place at **Prague, CZE** between 22nd and 23rd October |
+| **`2025-10-23`** | [JavaDays 2025](https://javadays.cz/) - conference took place at **Prague, CZE** between 22nd and 23rd October |
 | **`2025-10-22`** | [The best new features in Java 25](https://www.infoworld.com/article/4075736/7-key-features-in-java-25.html) - what you shouldn't miss from the recent JDK release |
 | **`2025-10-22`** | [Cutting Boilerplate and Complexity: Inside Jakarta Data](https://javapro.io/2025/10/22/cutting-boilerplate-and-complexity-inside-jakarta-data/) - overview of main idea and features of Jakarta EE 11 approach to working with data sources |
 | **`2025-10-18`** | [Apache Grails 7.0.0 - Release Announcement](https://grails.apache.org/blog/2025-10-18-introducing-grails-7.html) - new major version of Groovy-based web framework was released |
@@ -99,7 +99,7 @@ Check where can you meet fellow Java enthusiasts at:
 | **`2025-09-10`** | [Optimizing Spring Integration Tests at Scale](https://www.baeldung.com/spring-integration-test-optimize) - practical guide for scaling tests in **Spring** |
 | **`2025-09-10`** | [What's new in Java 25](https://pvs-studio.com/en/blog/posts/java/1284/) - new LTS version of JDK will be released in a few days with following features |
 | **`2025-09-08`** | [Groovy 5 expands Java and JDK support](https://www.infoworld.com/article/4053204/groovy-5-expands-java-and-jdk-support.html) - what is new in recently released **Groovy** v5 |
-| **`2025-09-04`** | [JavaZone2025](https://2025.javazone.no/en) conference took place in **Lillestrøm, NOR** between 3rd and 4th September |
+| **`2025-09-04`** | [JavaZone2025](https://2025.javazone.no/en) - conference took place in **Lillestrøm, NOR** between 3rd and 4th September |
 | **`2025-09-03`** | [The new features in Java 26](https://www.infoworld.com/article/4050993/jdk-26-the-new-features-in-java-26.html) - while **JDK 25** is being finalized, the next in the line **Java 26** is being shaped |
 | **`2025-09-02`** | [The Road to GA - Introduction](https://spring.io/blog/2025/09/02/road_to_ga_introduction) - steps remaining to fullfil before new major versions of **Spring** ecosystem tools scheduled for November |
 
@@ -224,7 +224,7 @@ Check where can you meet fellow Java enthusiasts at:
 | **`2025-04-04`** | [New Null Checks in Inner Class Constructors](https://inside.java/2025/04/04/quality-heads-up/) - OpenJDK Quality Group informs about changes planned for JDK 25 |
 | **`2025-04-03`** | [Six JDK 24 Features You Should Know About](https://foojay.io/today/six-jdk-24-features-you-should-know-about/) - there are 24 major JEP changes in Java 24, which are the most interesting ones? |
 | **`2025-04-03`** | [Sonatype warns of 18,000 open source malware packages](https://www.infoworld.com/article/3953841/sonatype-warns-of-18000-open-source-malware-packages.html) - be careful what you download from popular package repositores |
-| **`2025-04-03`** | [JavaLand 2025](https://www.javaland.eu/en/recollections/javaland-2025/) conference took place at **Nürburgring, GER** between 1st and 3rd April |
+| **`2025-04-03`** | [JavaLand 2025](https://www.javaland.eu/en/recollections/javaland-2025/) - conference took place at **Nürburgring, GER** between 1st and 3rd April |
 | **`2025-04-01`** | [JDK 24 G1/Parallel/Serial GC changes](https://tschatzl.github.io/2025/04/01/jdk24-g1-serial-parallel-gc-changes.html) - what is new in Garbage Collecting in Java 24 and what is planned for the future |
 | **`2025-04-01`** | [Java plan prepares to restrict final field mutation](https://www.infoworld.com/article/3951101/java-plan-prepares-to-restrict-final-field-mutation.html) - introducing new JEP draft "Prepare to Make Final Mean Final" |
 
@@ -236,7 +236,7 @@ Check where can you meet fellow Java enthusiasts at:
 | **`2025-03-25`** | [Introduction to OSHI](https://www.baeldung.com/java-oshi) - learn about library for fetching system-level details without any native dependencies |
 | **`2025-03-25`** | [Oracle releases ML-optimized GraalVM for JDK 24](https://www.infoworld.com/article/3853988/oracle-releases-ml-optimized-graalvm-for-jdk-24.html) - new **GraalVM** is promising faster performance and improved efficiency for Java-based machine learning workloads |
 | **`2025-03-24`** | [The New Look and Feel of Apache Kafka 4.0](https://thenewstack.io/the-new-look-and-feel-of-apache-kafka-4-0/) - new **Apache Kafka** 4.0 includes revamped interface and enhanced performance features |
-| **`2024-03-20`** | [JavaOne 2025](https://www.oracle.com/javaone/) conference took place at **Redwood Shores, CA, USA** between 18th and 20th March |
+| **`2024-03-20`** | [JavaOne 2025](https://www.oracle.com/javaone/) - conference took place at **Redwood Shores, CA, USA** between 18th and 20th March |
 | **`2025-03-19`** | [Performance Improvements in JDK 24](https://inside.java/2025/03/19/performance-improvements-in-jdk24/) - recap made by two skilled engineers from OpenJDK team |
 | **`2025-03-18`** | [Apache Kafka 4.0.0 Release Announcement](https://kafka.apache.org/blog#apache_kafka_400_release_announcement) - new major version of famous event streaming solution **Kafka** is out |
 | **`2025-03-18`** | [Java 24 and IntelliJ IDEA](https://blog.jetbrains.com/idea/2025/03/java-24-and-intellij-idea/) - were they ready for JDK 24 in JetBrains? Yes, they were! |
@@ -252,7 +252,7 @@ Check where can you meet fellow Java enthusiasts at:
 | **`2025-03-12`** | [Oracle’s Java Platform Extension for Visual Studio Code Passes 2.5 Million Downloads!](https://inside.java/2025/03/12/vscode-extension-update/) - a milestone for the official VS Code extension for Java |
 | **`2025-03-12`** | [What's new in Java 24](https://pvs-studio.com/en/blog/posts/java/1233/) - a summary of new features in the upcomming **JDK 24** |
 | **`2025-03-11`** | [Path Traversal Vulnerability in DJL and Its Impact on Java AI Development](https://foojay.io/today/path-traversal-vulnerability-in-deep-java-library-djl-and-its-impact-on-java-ai-development/) - explanation of the recent CVE-2025-0851 vulnerability discovered in major Java AI library |
-| **`2025-03-06`** | [Devnexus 2025](https://devnexus.com/) conference took place at **Atlanta, USA** between 4th and 6th March |
+| **`2025-03-06`** | [Devnexus 2025](https://devnexus.com/) - conference took place at **Atlanta, USA** between 4th and 6th March |
 | **`2025-03-05`** | [The best Java and JVM language frameworks](https://www.infoworld.com/article/3836016/the-best-java-and-jvm-language-frameworks.html) - did you heard about all of them? |
 | **`2025-03-05`** | [Actuator Enhancements: Spring Framework 6.2 and Spring Boot 3.4](https://dzone.com/articles/actuator-enhancements-spring-framework-spring-boot) - improvements for observability and monitoring in latest Spring (Boot) editions |
 | **`2025-03-04`** | [JDK 25 kicks off with a stable values API](https://www.infoworld.com/article/3837990/jdk-25-kicks-off-with-a-stable-values-api.html) - the first feature proposed to be included in Java 25 in September |
@@ -271,7 +271,7 @@ Check where can you meet fellow Java enthusiasts at:
 | **`2025-02-13`** | [JDK 24 and JDK 25: What We Know So Far](https://www.infoq.com/news/2025/02/java-24-so-far/) - insight into current state of the upcomming JDK releases |
 | **`2025-02-11`** | [Micronaut Framework 4.7.0 Provides Integration with LangChain4j and Graal Languages](https://www.infoq.com/news/2025/02/micronaut-langchain4j/) - what is new in latest version of **Micronaut** framework |
 | **`2025-02-10`** | [Where's Java Going In 2025?](https://www.i-programmer.info/programming/178-java/17816-wheres-java-going-in-2025.html) - some takeaways and ideas based on last "State of java" survey |
-| **`2025-02-05`** | [Jfokus 2025](https://www.jfokus.se/) conference took place at **Stockholm, SWE** between 2nd and 4th February |
+| **`2025-02-05`** | [Jfokus 2025](https://www.jfokus.se/) - conference took place at **Stockholm, SWE** between 2nd and 4th February |
 | **`2025-02-05`** | [CheerpJ 3.1: JVM in WebAssembly and our roadmap for modern Java in the browser](https://labs.leaningtech.com/blog/cheerpj-3.1) - recap and planned evolution of the **CheerpJ** tool |
 | **`2025-02-03`** | [Java Stream API: 3 Things Every Developer Should Know About](https://dzone.com/articles/java-stream-api-things-developer-should-know) - useful reminder of important things to have in mind when working with Java streams |
 | **`2025-02-03`** | [Join the Celebration of 30 Years of Java](https://foojay.io/today/join-the-celebration-of-30-years-of-java/) - there will be a virtual event to commemorate the upcomming anniversary of Java |
