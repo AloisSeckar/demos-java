@@ -37,7 +37,7 @@ Check where can you meet fellow Java enthusiasts at:
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
 | **`2025-03-10`** | [JDK 27: Removal of 'java.locale.useOldISOCodes' System Property](https://inside.java/2026/03/10/quality-heads-up/) - in **JDK 27** a legacy way of mapping country ISO codes will be removed |
-| **`2025-03-06`** | [Devnexus 2026](https://devnexus.com/) conference took place at **Atlanta, USA** between 4th and 6th March |
+| **`2025-03-06`** | [Devnexus 2026](https://devnexus.com/) - conference took place at **Atlanta, USA** between 4th and 6th March |
 | **`2026-03-05`** | [Java 25 and the New Age of Performance](https://javapro.io/2026/03/05/java-25-and-the-new-age-of-performance-virtual-threads-and-beyond/) - exploring performance improvements in **Java 25** with focus on virtual threads and their impact |
 | **`2026-03-04`** | [HTTP Client Updates in Java 26](https://inside.java/2026/03/04/jdk-26-http-client/) - new enhancements and features coming to HTTP Client in **JDK 26** |
 | **`2025-03-03`** | [Apache Solr 10.0.0 available](https://solr.apache.org/news.html#apache-solrtm-1000-available) - new major version of Java search platform was released |
