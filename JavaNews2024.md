@@ -25,7 +25,7 @@ What was the Java world up to in 2024?
 | **`2024-12-05`** | [JDK 24: The new features in Java 24](https://www.infoworld.com/article/3491404/jdk-24-the-new-features-in-java-24.html) - overview of new things about to appear in next year's **JDK 24** release |
 | **`2024-12-04`** | [Prevent LDAP injection in Java with SpringBoot](https://foojay.io/today/prevent-ldap-injection-in-java-with-springboot/) - how to avoid one common and serious security flaw |
 | **`2024-12-04`** | [Oracle Ships GraalVM Java JIT Compiler - but Only in Its Own JDK](https://www.infoq.com/news/2024/12/oracle-jdk-graalvm-jit-compiler/) - current state of Java JIT compilers |
-| **`2024-12-03`** | [JakartaOne Livestream 2024](https://jakartaone.org/2024/) conference took place **Online** on 3rd December |
+| **`2024-12-03`** | [JakartaOne Livestream 2024](https://jakartaone.org/2024/) - conference took place **Online** on 3rd December |
 
 ## 2024 - November
 
@@ -33,16 +33,16 @@ What was the Java world up to in 2024?
 | --- | :--  |
 | **`2024-11-28`** | [Modern Alternatives to Quartz Scheduler](https://foojay.io/today/task-schedulers-in-java-modern-alternatives-to-quartz-scheduler/) - options for automating periodical tasks in Java |
 | **`2024-11-24`** | [Top five Common mistakes Developers make when using Java Streams](https://medium.com/@tharindudulshanfdo/top-five-common-mistakes-developers-make-when-using-java-streams-and-how-to-avoid-them-d6d1a6bf5146) - refresh your practical knowledge about handling Streams in Java properly |
-| **`2024-11-23`** | [Javafest'24](https://javafest.org/) conference took place at **Bengaluru, IND** on 23rd November |
+| **`2024-11-23`** | [Javafest'24](https://javafest.org/) - conference took place at **Bengaluru, IND** on 23rd November |
 | **`2024-11-22`** | [What's new in Spring Modulith 1.3?](https://spring.io/blog/2024/11/22/whats-new-in-spring-modulith-1-3) - popular framework supporting modulith architecture in Java apps has a new version |
 | **`2024-11-18`** | [Secure Java applications: A deep look into 3 different issues](https://developers.redhat.com/articles/2024/11/18/secure-java-applications-deep-look-3-different-issues) - understanding and preventing some common Java security vulnerabilities |
 | **`2024-11-14`** | [Micronaut Framework 4.7.0 Released](https://micronaut.io/2024/11/14/micronaut-framework-4-7-0-released/) - new version of microservice-focused Java framework **Micronaut** |
 | **`2024-11-14`** | [Spring Framework 6.2.0 Available Now](https://spring.io/blog/2024/11/14/spring-framework-6-2-0-available-now) - new version of famous Java framework **Spring** |
 | **`2024-11-13`** | [Java 24 to Reduce Object Header Size and Save Memory](https://www.infoq.com/news/2024/11/compact-headers-java24/) - a closer look at **JEP 450** delivered in JDK 24 |
-| **`2024-11-13`** | [JavaDays 2024](https://javadays.cz/) conference took place at **Prague, CZE** between 12th and 13th November |
+| **`2024-11-13`** | [JavaDays 2024](https://javadays.cz/) - conference took place at **Prague, CZE** between 12th and 13th November |
 | **`2024-11-09`** | [Some Common Java Gotchas](https://blog.vanillajava.blog/2024/11/some-common-java-gotchas.html) - short but handy reminder to avoid silly bugs |
 | **`2024-11-08`** | [Java proposals would boost resistance to quantum computing attacks](https://www.infoworld.com/article/3601103/java-proposals-would-boost-resistance-to-quantum-computing-attacks.html) - new **JEP 496** and **JEP 497** are intented to prepare Java for quantum computers |
-| **`2024-11-07`** | [J-Fall 2024](https://javadays.cz/) conference took place at **Ede, NED** on 7th November |
+| **`2024-11-07`** | [J-Fall 2024](https://javadays.cz/) - conference took place at **Ede, NED** on 7th November |
 | **`2024-11-06`** | [12 Java Enhancement Proposals changing Java](https://www.infoworld.com/article/3598939/12-java-enhancement-proposals-changing-java.html) - a brief look at some JEPs that may make it into future JDK versions |
 | **`2024-11-05`** | [Java Evolves to Tackle Virtual Threads Pinning with JEP 491](https://www.infoq.com/news/2024/11/java-evolves-tackle-pinning/) - future evolution of **virtual threads** is planned to be included in **JDK 24** |
 
@@ -116,8 +116,8 @@ What was the Java world up to in 2024?
 
 ## 2024 - July
 
-| Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article                                                                                                                                                                                                                                                                                                           |
-| --- |:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
+| --- | :--  |
 | **`2024-07-30`** | [Java 21 Virtual Threads - Dude, Where’s My Lock?](https://netflixtechblog.com/java-21-virtual-threads-dude-wheres-my-lock-3052540e231d) - how **Netflix** developers clash with interesting virtual threads related bug in one of their app                                                                      |
 | **`2024-07-29`** | [How To Achieve High GC Throughput](https://dzone.com/articles/how-to-achieve-high-gc-throughput) - common problems with garbage collection in Java and how to deal with them                                                                                                                                     |
 | **`2024-07-29`** | [Get ready for more Java licensing changes](https://www.infoworld.com/article/3478122/get-ready-for-more-java-licensing-changes.html) - article explaining why **Oracle JDK 17** will no longer be free after September 2024                                                                                      |
