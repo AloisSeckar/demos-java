@@ -197,10 +197,10 @@ Check where can you meet fellow Java enthusiasts at:
 | **`2025-05-16`** | [Using Python Libraries in Java](https://dzone.com/articles/using-python-libraries-in-java) - check how it is possible to make a fusion of Python and Java |
 | **`2025-05-16`** | [Spring Data 2025.0.0 goes GA](https://spring.io/blog/2025/05/16/spring-data-2025-0-goes-ga) - 2025 iteration of Spring Data was released |
 | **`2025-05-15`** | [Eclipse Vert.x 5 released](https://vertx.io/blog/eclipse-vert-x-5-released/) - new major version of Eclipse's event driven framework is available  |
-| **`2025-05-15`** | [JCON EUROPE](https://2025.europe.jcon.one/) 30th anniversary Java conference took place in **Cologne, GER** between 12th and 15th May |
+| **`2025-05-15`** | [JCON EUROPE](https://2025.europe.jcon.one/) - 30th anniversary Java conference took place in **Cologne, GER** between 12th and 15th May |
 | **`2025-05-12`** | [JEP 505 Delivers Fifth Preview of Java's Structured Concurrency with Key API Refinements](https://www.infoq.com/news/2025/05/jep-505-concurrency-preview-5/) - a closer look on **JEP 505** being targeted into **JDK 25** |
 | **`2025-05-09`** | [JBang Jash Brings Streamlined Process Execution to Java](https://www.infoq.com/news/2025/05/jbang-jash/) - an introduction into new Java library designed to simplify the execution of external processes and shell commands |
-| **`2025-05-09`** | [Devoxx UK](https://www.devoxx.co.uk/) (not only) Java conference took place in **London, GBR** between 7th and 9th May |
+| **`2025-05-09`** | [Devoxx UK](https://www.devoxx.co.uk/) - (not only) Java conference took place in **London, GBR** between 7th and 9th May |
 | **`2025-05-05`** | [Instance Main Methods Move from Preview to Final in JDK 25](https://www.infoq.com/news/2025/05/jdk25-instance-main-methods/) - new **JEP 512** will be delivered in **JDK 25** |
 
 ## 2025 - April
