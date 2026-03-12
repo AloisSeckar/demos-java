@@ -49,6 +49,7 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2026-02-26`** | [Migrating to Modular Monolith](https://blog.jetbrains.com/idea/2026/02/migrating-to-modular-monolith-using-spring-modulith-and-intellij-idea/) - how to embrace **Spring Modulith** with ease in IDEA |
 | **`2026-02-26`** | [JDK 26 G1/Parallel/Serial GC changes](https://tschatzl.github.io/2026/02/26/jdk26-g1-serial-parallel-gc-changes.html) - what can you expect in upcoming **JDK 26** from the garbage collection perspective |
 | **`2026-02-25`** | [Abandoned project linking Java, JavaScript makes a comeback](https://www.infoworld.com/article/4137631/abandoned-project-linking-java-javascript-makes-a-comeback.html) - project **Detroit** aiming for interconnecting Java and JavaScript via Python is possibly re-emerging |
 | **`2026-02-19`** | [TornadoVM 3 released](https://github.com/beehive-lab/TornadoVM/releases/tag/v3.0.0-jdk25) - new major version of **TornadoVM** was released |
