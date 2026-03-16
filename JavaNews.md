@@ -36,6 +36,7 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2025-03-11`** | [JHipster release v9.0.0](https://www.jhipster.tech/2026/03/10/jhipster-release-9.0.0.html) - new major version of **JHipster** application development platform was released |
 | **`2025-03-10`** | [JDK 27: Removal of 'java.locale.useOldISOCodes' System Property](https://inside.java/2026/03/10/quality-heads-up/) - in **JDK 27** a legacy way of mapping country ISO codes will be removed |
 | **`2025-03-06`** | [Devnexus 2026](https://devnexus.com/) - conference took place at **Atlanta, USA** between 4th and 6th March |
 | **`2026-03-05`** | [Java 25 and the New Age of Performance](https://javapro.io/2026/03/05/java-25-and-the-new-age-of-performance-virtual-threads-and-beyond/) - exploring performance improvements in **Java 25** with focus on virtual threads and their impact |
