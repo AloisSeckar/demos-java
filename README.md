@@ -68,6 +68,3 @@ Check the [contribution guide](/CONTRIBUTING.md) or contact me directly for more
 
 ## Extra - Java News
 [Java News](JavaNews.md) is my list with interesting articles and information from Java world started since 09/2023.
-
-## Extra - JEP Status
-[JEP Status](JEPStatus.md) is my tracker of changes in [OpenJDK JEP Index](https://openjdk.org/jeps/0) since 09/2023.
