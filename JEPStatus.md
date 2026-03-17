@@ -1,18 +1,21 @@
 # JEP Status
 Latest changes in JDK based on [OpenJDK JEP Index](https://openjdk.org/jeps/0)
 
-**Last updated: 2025-03-19**
+**Last updated: 2026-03-17**
+
+**NOTE:** This page is now **discontinued** as I am unable to provide reasonable pace of updates
+
+## Java 26
+
+JDK 26 was released `2026-03-17` with following features https://openjdk.org/projects/jdk/26/
 
 ## Java 25
 
-| JEP | Ticket | Draft | Sumbitted | Candidate | Proposed | Targeted | Integrated | Completed | Closed |
-| :-- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| **JEP 503**	- [Remove the 32-bit x86 Port](https://openjdk.org/jeps/503) | [JDK-8345168](https://bugs.openjdk.org/browse/JDK-8345168) | `2024-11-28` | `2024-12-10` | `2025-02-26` | `2025-03-04` | | | | |
-| **JEP 502**	- [Stable Values (Preview)](https://openjdk.org/jeps/502) | [JDK-8312611](https://bugs.openjdk.org/browse/JDK-8312611) | `2023-07-24` | `2024-10-10` | `2025-01-22` | `2025-02-27` | `2025-03-11` | | | |
+JDK 25 was released `2025-09-16` with following features https://openjdk.org/projects/jdk/25/
 
 ## Java 24
 
-JDK 24 was released `2024-03-18`.
+JDK 24 was released `2025-03-18`.
 
 | JEP | Ticket | Draft | Sumbitted | Candidate | Proposed | Targeted | Integrated | Completed | Closed |
 | :-- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
