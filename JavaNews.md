@@ -36,6 +36,9 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2025-03-17`** | [Project Detroit, bridging Java, Python, JavaScript, moves forward](https://www.infoworld.com/article/4145953/project-detroit-bridging-java-python-javascript-moves-forward.html) - after some initial moves in February, project **Detroit** is about to become official |
+| **`2025-03-17`** | [Oracle unveils the Java Verified Portfolio](https://www.infoworld.com/article/4145086/oracle-unveils-the-java-verified-portfolio.html) - Oracle now supports a couple of Java technologies listed in **JVP** |
+| **`2025-03-17`** | [Java 26 in IntelliJ IDEA](https://blog.jetbrains.com/idea/2026/03/java-26-in-intellij-idea/) - support for **JDK 26** in the most popular Java IDE |
 | **`2025-03-17`** | [The Arrival of Java 26](https://blogs.oracle.com/java/the-arrival-of-java-26) - new **JDK 26** was officially released today |
 | **`2025-03-11`** | [JHipster release v9.0.0](https://www.jhipster.tech/2026/03/10/jhipster-release-9.0.0.html) - new major version of **JHipster** application development platform was released |
 | **`2025-03-10`** | [JDK 27: Removal of 'java.locale.useOldISOCodes' System Property](https://inside.java/2026/03/10/quality-heads-up/) - in **JDK 27** a legacy way of mapping country ISO codes will be removed |
