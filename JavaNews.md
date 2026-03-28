@@ -36,6 +36,7 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2025-03-27`** | [The Java in Education Catalog Now Has a Beautiful Home](https://foojay.io/today/the-java-in-education-catalog-now-has-a-beautiful-home/) - an open-source project for curated collection of Java education materials was established |
 | **`2025-03-18`** | [Zero-Cost AI with Java](https://dzone.com/articles/zero-cost-ai-with-java-1) - a very simple guide to using **Spring AI** and **Ollama** for your own GenAI app |
 | **`2025-03-17`** | [Project Detroit, bridging Java, Python, JavaScript, moves forward](https://www.infoworld.com/article/4145953/project-detroit-bridging-java-python-javascript-moves-forward.html) - after some initial moves in February, project **Detroit** is about to become official |
 | **`2025-03-17`** | [Oracle unveils the Java Verified Portfolio](https://www.infoworld.com/article/4145086/oracle-unveils-the-java-verified-portfolio.html) - Oracle now supports a couple of Java technologies listed in **JVP** |
