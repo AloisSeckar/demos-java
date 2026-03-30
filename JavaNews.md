@@ -15,40 +15,23 @@ Stay up-to-date with the following even more dedicated websites:
 Check where can you meet fellow Java enthusiasts at:
 - https://javaconferences.org/
 
-# JAVA NEWS
-What is the Java world up to?
-
-## Sources
-Stay up-to-date with the following even more dedicated websites:
-- https://inside.java
-- https://blogs.oracle.com/java
-- https://javapro.io/
-- https://infoworld.com/category/java
-- https://dzone.com/java
-- https://baeldung.com/
-- https://foojay.io/
-
-## Events
-Check where can you meet fellow Java enthusiasts at:
-- https://javaconferences.org/
-
 ## 2026 - March
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
-| **`2025-03-27`** | [The Java in Education Catalog Now Has a Beautiful Home](https://foojay.io/today/the-java-in-education-catalog-now-has-a-beautiful-home/) - an open-source project for curated collection of Java education materials was established |
-| **`2025-03-18`** | [Zero-Cost AI with Java](https://dzone.com/articles/zero-cost-ai-with-java-1) - a very simple guide to using **Spring AI** and **Ollama** for your own GenAI app |
-| **`2025-03-17`** | [Project Detroit, bridging Java, Python, JavaScript, moves forward](https://www.infoworld.com/article/4145953/project-detroit-bridging-java-python-javascript-moves-forward.html) - after some initial moves in February, project **Detroit** is about to become official |
-| **`2025-03-17`** | [Oracle unveils the Java Verified Portfolio](https://www.infoworld.com/article/4145086/oracle-unveils-the-java-verified-portfolio.html) - Oracle now supports a couple of Java technologies listed in **JVP** |
-| **`2025-03-17`** | [Java 26 in IntelliJ IDEA](https://blog.jetbrains.com/idea/2026/03/java-26-in-intellij-idea/) - support for **JDK 26** in the most popular Java IDE |
-| **`2025-03-17`** | [The Arrival of Java 26](https://blogs.oracle.com/java/the-arrival-of-java-26) - new **JDK 26** was officially released today |
-| **`2025-03-16`** | [JDK 26 Security Enhancements](https://seanjmullan.org/blog/2026/03/16/jdk26) - day before releasing new Java version, a summary of its non-JEP security updates is here |
-| **`2025-03-11`** | [JHipster release v9.0.0](https://www.jhipster.tech/2026/03/10/jhipster-release-9.0.0.html) - new major version of **JHipster** application development platform was released |
-| **`2025-03-10`** | [JDK 27: Removal of 'java.locale.useOldISOCodes' System Property](https://inside.java/2026/03/10/quality-heads-up/) - in **JDK 27** a legacy way of mapping country ISO codes will be removed |
-| **`2025-03-06`** | [Devnexus 2026](https://devnexus.com/) - conference took place at **Atlanta, USA** between 4th and 6th March |
+| **`2026-03-27`** | [The Java in Education Catalog Now Has a Beautiful Home](https://foojay.io/today/the-java-in-education-catalog-now-has-a-beautiful-home/) - an open-source project for curated collection of Java education materials was established |
+| **`2026-03-18`** | [Zero-Cost AI with Java](https://dzone.com/articles/zero-cost-ai-with-java-1) - a very simple guide to using **Spring AI** and **Ollama** for your own GenAI app |
+| **`2026-03-17`** | [Project Detroit, bridging Java, Python, JavaScript, moves forward](https://www.infoworld.com/article/4145953/project-detroit-bridging-java-python-javascript-moves-forward.html) - after some initial moves in February, project **Detroit** is about to become official |
+| **`2026-03-17`** | [Oracle unveils the Java Verified Portfolio](https://www.infoworld.com/article/4145086/oracle-unveils-the-java-verified-portfolio.html) - Oracle now supports a couple of Java technologies listed in **JVP** |
+| **`2026-03-17`** | [Java 26 in IntelliJ IDEA](https://blog.jetbrains.com/idea/2026/03/java-26-in-intellij-idea/) - support for **JDK 26** in the most popular Java IDE |
+| **`2026-03-17`** | [The Arrival of Java 26](https://blogs.oracle.com/java/the-arrival-of-java-26) - new **JDK 26** was officially released today |
+| **`2026-03-16`** | [JDK 26 Security Enhancements](https://seanjmullan.org/blog/2026/03/16/jdk26) - day before releasing new Java version, a summary of its non-JEP security updates is here |
+| **`2026-03-11`** | [JHipster release v9.0.0](https://www.jhipster.tech/2026/03/10/jhipster-release-9.0.0.html) - new major version of **JHipster** application development platform was released |
+| **`2026-03-10`** | [JDK 27: Removal of 'java.locale.useOldISOCodes' System Property](https://inside.java/2026/03/10/quality-heads-up/) - in **JDK 27** a legacy way of mapping country ISO codes will be removed |
+| **`2026-03-06`** | [Devnexus 2026](https://devnexus.com/) - conference took place at **Atlanta, USA** between 4th and 6th March |
 | **`2026-03-05`** | [Java 25 and the New Age of Performance](https://javapro.io/2026/03/05/java-25-and-the-new-age-of-performance-virtual-threads-and-beyond/) - exploring performance improvements in **Java 25** with focus on virtual threads and their impact |
 | **`2026-03-04`** | [HTTP Client Updates in Java 26](https://inside.java/2026/03/04/jdk-26-http-client/) - new enhancements and features coming to HTTP Client in **JDK 26** |
-| **`2025-03-03`** | [Apache Solr 10.0.0 available](https://solr.apache.org/news.html#apache-solrtm-1000-available) - new major version of Java search platform was released |
+| **`2026-03-03`** | [Apache Solr 10.0.0 available](https://solr.apache.org/news.html#apache-solrtm-1000-available) - new major version of Java search platform was released |
 | **`2026-03-03`** | [One IntelliJ IDEA: The Split is Over](https://www.javacodegeeks.com/2026/03/one-intellij-idea-the-split-is-over.html) - reminder of recent unification of **IntelliJ IDEA** Community and Ultimate editions |
 | **`2026-03-03`** | [Java 26: What’s New](https://github.com/AloisSeckar/demos-java/edit/master/JavaNews.md) - **JDK 26** is approaching, here is another overview of included features |
 | **`2026-03-02`** | [Java 26 for DevOps](https://inside.java/2026/03/02/jdk-26-rn-ops/) - new features and changes **JDK 26** related to JVM administration and observability |
@@ -84,7 +67,7 @@ Check where can you meet fellow Java enthusiasts at:
 | **`2026-01-28`** | [How To Do Structured Concurrency in Java 25](https://javapro.io/2026/01/28/how-to-do-structured-concurrency-in-java-25/) - exploring current state of structured concurrency preview feature with practical examples |
 | **`2026-01-20`** | [GlassFish Grizzly 5 released](https://github.com/eclipse-ee4j/glassfish-grizzly/releases/tag/5.0.0-RELEASE) - new major verison of framework for working with Java NIO was released, supporting Java 21 and virtual threads |
 | **`2026-01-17`** | [A new way to call C from Java: how fast is it?](https://lemire.me/blog/2026/01/17/a-new-way-to-call-c-from-java-how-fast-is-it/) - some benchmarks for working with Java's new Foreign Function & Memory API |
-| **`2025-10-16`** | [WildFly 39 is released](https://www.wildfly.org/news/2026/01/16/WildFly-39-is-released/) - new major version of WildFly app server is now GA |
+| **`2026-01-16`** | [WildFly 39 is released](https://www.wildfly.org/news/2026/01/16/WildFly-39-is-released/) - new major version of WildFly app server is now GA |
 | **`2026-01-16`** | [The Ultimate 10 Years Java Garbage Collection Guide](https://foojay.io/today/the-ultimate-10-years-java-garbage-collection-guide-2016-2026-choosing-the-right-gc-for-every-workload/) - comprehensive guide to Java garbage collection evolution and selection strategies over the past decade |
 | **`2026-01-13`** | [Java 27 gets its first feature](https://www.infoworld.com/article/4116320/java-27-gets-its-first-feature.html) - months before **JDK 26** will be out there are already moves towards autumnal **JDK 27** |
 | **`2026-01-12`** | [Micronaut Announces Plans to Join the Commonhaus Foundation](https://micronaut.io/2026/01/12/micronaut-announces-plans-to-join-the-commonhaus-foundation/) - authors of **Micronaut** framework are trying to secure their open source status |
