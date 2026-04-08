@@ -1,12 +1,12 @@
-# Java demos - new language features from Java 11 to 25
+# Java demos - new language features from Java 11 to 26
 
-This application helps to show some new features being introduced in Java versions until Java 25.
+This application helps to show some new features being introduced in Java versions until Java 26.
 
 All relevant info is written down in comments inside sources.
 
 ## Prerequisites
 
-This project requires **Java JDK 25** to run. I namely use [GraalVM for JDK 25](https://www.graalvm.org/release-notes/JDK_25/) for development and testing. For compiling, [Maven](https://maven.apache.org/index.html) is required (newest available version is advised).
+This project requires **Java JDK 26** to run. Namely, [OpenJDK 26](https://jdk.java.net/26/) build is used for development and testing. For compiling, [Maven](https://maven.apache.org/index.html) is required (newest available version is advised).
 
 ## Usage
 
@@ -21,7 +21,7 @@ mvn clean install
 To run the project locally:
 
 ```sh
-java --enable-preview --add-modules=jdk.incubator.vector -jar target/JavaDemos-25.0.jar
+java --enable-preview --add-modules=jdk.incubator.vector -jar target/JavaDemos-26.0.jar
 ```
 
 Using `--enable-preview` and `--add-modules` options is necessary to make the newest Java language features available.
@@ -41,7 +41,7 @@ Filter args can be combined together and conditions are applied as a conjunction
 
 Examples:
 
-- `--jdk=24,25 --code-only` - run only demos that contain an actual code from Java 24 or 25
+- `--jdk=25,26 --code-only` - run only demos that contain an actual code from Java 25 and 26
 - `--jdk=21 --skip-links` - run only JEPs finalized in Java 21 (no link to newer JEP variant)
 - `--only=521` - run only demo for JEP 521
 
@@ -55,7 +55,7 @@ You can help making this project better!
 
 Look for the [issues](https://github.com/AloisSeckar/demos-java/issues) to see what can be done.
 
-The most important rule: **Your code must compile and run under Java 25**. GitHub workflow is now set up to ensure this and PRs that cannot compile using `mvn clean install` will not be merged until the problems are fixed.
+The most important rule: **Your code must compile and run under Java 26**. GitHub workflow is now set up to ensure this and PRs that cannot compile using `mvn clean install` will not be merged until the problems are fixed.
 
 Check the [contribution guide](/CONTRIBUTING.md) or contact me directly for more info.
 

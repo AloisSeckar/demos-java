@@ -2,6 +2,8 @@ package org.javademos.java25.jep502;
 
 import org.javademos.commons.IDemo;
 
+// TODO needs to be fixed for JDK 26, since the "Stable Values" were replaced by "Lazy Constants"
+
 /// Demo for JDK 25 feature JEP 502 - Stable Values (Preview).
 ///
 /// ### JEP history
@@ -21,12 +23,13 @@ public class StableValuesDemo implements IDemo {
     // since JDK 25 we can init a "stable value" like this
     // the variable is also treated as "private static final"
     // but its initialization is deferred until the first time it is requested
-    private static final StableValue<ExpensiveObject> AS_STABLE_OBJECT = StableValue.of();
+    // private static final StableValue<ExpensiveObject> AS_STABLE_OBJECT = StableValue.of();
 
     // the initialization of stable object will happen ONCE when values are requested the first time
     // "orElseSet" accepts a lambda supplier function to initialize the stable value with data
     public static ExpensiveObject getExpensiveObject() {
-        return AS_STABLE_OBJECT.orElseSet(() -> new ExpensiveObject(2));
+        // return AS_STABLE_OBJECT.orElseSet(() -> new ExpensiveObject(2));
+        return new ExpensiveObject(2);
     }
 
     @Override
@@ -39,7 +42,7 @@ public class StableValuesDemo implements IDemo {
         getExpensiveObject();
 
         System.out.println(AS_CONSTANT);
-        System.out.println(AS_STABLE_OBJECT);
+        //System.out.println(AS_STABLE_OBJECT);
         System.out.println();
     }
 }

@@ -54,7 +54,7 @@ Current referential implementation is [MarkdownComments.java for JEP 467](/src/m
 
 **If you want to help with some issue, please check if it is not assigned yet first!** Let's avoid unnecessary conflicts and disappointments before they can happen.
 
-Currently, the focus is on implementing demos for all features of JDK versions going down from 25. Focused issues are being opened. However, if you feel like creating demo for some other JEP, which doesn't have issue yet, you are very much welcome to do so! Just let me know by opening an issue, so it can be properly tracked and your contribution can be recognized. Remember, many JEPs are not covered yet.
+Currently, the focus is on implementing demos for all features of JDK versions going down from 26. Focused issues are being opened. However, if you feel like creating demo for some other JEP, which doesn't have issue yet, you are very much welcome to do so! Just let me know by opening an issue, so it can be properly tracked and your contribution can be recognized. Remember, many JEPs are not covered yet.
 
 Issues are tagged with labels. If you are here for the first time, look for `good first issue` label which indicates relatively smaller and simpler tasks. Tasks labeled with `advanced` will require better understanding of this project structure, and they are recommended to users who already have some PRs accepted. Before starting to work on any issue, be sure you understand the task clearly to avoid unnecessary re-work. If in doubt, please, ask in the issue comments.
 

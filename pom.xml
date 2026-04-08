@@ -3,14 +3,14 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>cz.alois-seckar.java</groupId>
     <artifactId>JavaDemos</artifactId>
-    <version>25.0</version>
+    <version>26.0</version>
     <packaging>jar</packaging>
     
     <properties>
-        <java.version>25</java.version>
+        <java.version>26</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>25</maven.compiler.source>
-        <maven.compiler.target>25</maven.compiler.target>
+        <maven.compiler.source>26</maven.compiler.source>
+        <maven.compiler.target>26</maven.compiler.target>
     </properties>
     
     <dependencies>
@@ -18,7 +18,7 @@
             <!-- for simplier getter/setter/constructor declarations -->
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-            <version>1.18.42</version>
+            <version>1.18.44</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
@@ -38,7 +38,7 @@
             <!-- used in JEP 371 demo for bytecode generation -->
             <groupId>org.ow2.asm</groupId>
             <artifactId>asm</artifactId>
-            <version>9.9</version>
+            <version>9.9.1</version>
         </dependency>
     </dependencies>
     
@@ -48,16 +48,16 @@
                 <!-- responsible for performing .jar build -->
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.14.1</version>               
+                <version>3.15.0</version>               
                 <configuration>
-                    <source>25</source>
-                    <target>25</target>
+                    <source>26</source>
+                    <target>26</target>
                     <!-- config hint to ensure lombok runs properly -->
                     <annotationProcessorPaths>
                         <path>
                             <groupId>org.projectlombok</groupId>
                             <artifactId>lombok</artifactId>
-                            <version>1.18.42</version>
+                            <version>1.18.44</version>
                         </path>
                     </annotationProcessorPaths>
                     <compilerArgs>
@@ -74,7 +74,7 @@
                 <!-- for building .jar including all dependencies -->
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-shade-plugin</artifactId>
-                <version>3.6.1</version>
+                <version>3.6.2</version>
                 <executions>
                     <execution>
                         <phase>package</phase>
@@ -112,7 +112,7 @@
                 <artifactId>maven-javadoc-plugin</artifactId>
                 <version>3.12.0</version>
                 <configuration>
-                    <source>25</source>
+                    <source>26</source>
                     <additionalOptions>
                         <!-- allows 'preview' features -->
                         <additionalOption>--enable-preview</additionalOption>
