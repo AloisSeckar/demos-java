@@ -26,7 +26,7 @@ java --enable-preview --add-modules=jdk.incubator.vector -jar target/JavaDemos-2
 
 Using `--enable-preview` and `--add-modules` options is necessary to make the newest Java language features available.
 
-**Note:** Until `Maven 3.9.12` is released, you would see warning about `Guice` library using deprecated `sun.misc.Unsafe` class when running Maven install. This is [known and about to be fixed](https://github.com/apache/maven/issues/10312).
+**Note:** If you use `Maven` version < `3.9.12`, you would see warning about `Guice` library using deprecated `sun.misc.Unsafe` class when running Maven install. This was a [known issue](https://github.com/apache/maven/issues/10312) and was fixed in `3.9.12`.
 
 ### Filtering Demos
 
