@@ -99,6 +99,7 @@ Check where can you meet fellow Java enthusiasts at:
 | **`2025-09-16`** | [Java 25 LTS and IntelliJ IDEA](https://blog.jetbrains.com/idea/2025/09/java-25-lts-and-intellij-idea/) - new Java from the point of view of the most popular IDE vendor |
 | **`2025-09-16`** | [Here’s Java 25, Ready to Perform to the Limit](https://foojay.io/today/heres-java-25-ready-to-perform-to-the-limit/) - summary of the new Java |
 | **`2025-09-16`** | [Oracle Releases Java 25](https://www.oracle.com/news/announcement/oracle-releases-java-25-2025-09-16/) - another half a year has passed and there is new **JDK** version, this time LTS one |
+| **`2025-09-16`** | **JDK 25 release date** |
 | **`2025-09-11`** | [Spring Authorization Server moving to Spring Security 7.0](https://spring.io/blog/2025/09/11/spring-authorization-server-moving-to-spring-security-7-0) - one of the Spring projects focused on user authorization will be merged into **Spring Security** |
 | **`2025-09-11`** | [JBang, the awesome Java file runner](https://javapro.io/2025/09/11/jbang-the-awesome-java-file-runner-%F0%9F%92%A5/) - introduction to **JBang** tool |
 | **`2025-09-10`** | [Optimizing Spring Integration Tests at Scale](https://www.baeldung.com/spring-integration-test-optimize) - practical guide for scaling tests in **Spring** |
@@ -250,6 +251,7 @@ Check where can you meet fellow Java enthusiasts at:
 | **`2025-03-18`** | [Java 24 Rolls Out Today! Find Out Why It’s Aptly Named](https://foojay.io/today/java-24-rolls-out-today-find-out-why-its-aptly-named/) - with 24 JEPs included, **JDK 24** is one of the biggest releases |
 | **`2025-03-18`** | [Welcome, GraalVM for JDK 24!](https://medium.com/graalvm/welcome-graalvm-for-jdk-24-7c829fe98ea1) - unsurprisingly, new version of **GraalVM** compatible with the latest **JDK 24** is also available since today |
 | **`2025-03-18`** | [The Arrival of Java 24](https://blogs.oracle.com/java/post/the-arrival-of-java-24) - today's release announcement of **JDK 24** from **Oracle** blog |
+| **`2024-03-18`** | **JDK 24 release date** |
 | **`2025-03-14`** | [The new features in Java 25](https://www.infoworld.com/article/3846172/jdk-25-the-new-features-in-java-25.html) - there are already first new features aimed to be a part of **JDK 25** |
 | **`2025-03-13`** | [Java hiring plans slip, survey says](https://www.infoworld.com/article/3845502/java-hiring-plans-slip-survey-says.html) - the state of Java developers' market based on a current survey |
 | **`2025-03-13`** | [The First NoSQL Specification for Jakarta EE is Here!](https://www.linkedin.com/pulse/jakarta-nosql-10-first-specification-ee-here-otavio-santana-83igf/) - the specification for **Jakarta NoSQL 1.0** was released |
