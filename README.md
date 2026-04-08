@@ -5,9 +5,11 @@ This application helps to show some new features being introduced in Java versio
 All relevant info is written down in comments inside sources.
 
 ## Prerequisites
+
 This project requires **Java JDK 25** to run. I namely use [GraalVM for JDK 25](https://www.graalvm.org/release-notes/JDK_25/) for development and testing. For compiling, [Maven](https://maven.apache.org/index.html) is required (newest available version is advised).
 
 ## Usage
+
 Checkout the project and explore the files in your favorite IDE. You may find some important context and information in the comments directly in the code.
 
 To build the project locally:
@@ -48,6 +50,7 @@ Examples:
 By default, the application displays information about the current JVM and filtering criteria used. If you want to reduce the noise, you can pass `--no-info` argument to suppress printing those lines.
 
 ## Contributing
+
 You can help making this project better!
 
 Look for the [issues](https://github.com/AloisSeckar/demos-java/issues) to see what can be done.
@@ -57,14 +60,18 @@ The most important rule: **Your code must compile and run under Java 25**. GitHu
 Check the [contribution guide](/CONTRIBUTING.md) or contact me directly for more info.
 
 ## Author
-* alois.seckar@gmail.com
-* http://alois-seckar.cz
+
+- <alois.seckar@gmail.com>
+- <http://alois-seckar.cz>
 
 ## Extra - Java Features
+
 [Java Features](JavaFeatures.md) is my list of all Java versions with all JEPs included in each release.
 
 ## Extra - Java Tech
+
 [Java Tech](JavaTech.md) is my list of interesting projects based on Java.
 
 ## Extra - Java News
+
 [Java News](JavaNews.md) is my list with interesting articles and information from Java world started since 09/2023.

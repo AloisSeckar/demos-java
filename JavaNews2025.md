@@ -1,24 +1,29 @@
 # JAVA NEWS
+
 What is the Java world up to?
 
 ## Sources
+
 Stay up-to-date with the following even more dedicated websites:
-- https://inside.java
-- https://blogs.oracle.com/java
-- https://javapro.io/
-- https://infoworld.com/category/java
-- https://dzone.com/java
-- https://baeldung.com/
-- https://foojay.io/
+
+- <https://inside.java>
+- <https://blogs.oracle.com/java>
+- <https://javapro.io/>
+- <https://infoworld.com/category/java>
+- <https://dzone.com/java>
+- <https://baeldung.com/>
+- <https://foojay.io/>
 
 ## Events
+
 Check where can you meet fellow Java enthusiasts at:
-- https://javaconferences.org/
+
+- <https://javaconferences.org/>
 
 ## 2025 - December
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
-| --- | :--  |
+| --- | :-- |
 | **`2025-12-30`** | [This Year in Spring - December 30th, 2025](https://spring.io/blog/2025/12/30/this-year-in-spring-december-30th-2025) - a retrospective of 2025 from **Spring** ecosystem |
 | **`2025-12-30`** | [Security in the Age of Java 25](https://javapro.io/2025/12/30/security-in-the-age-of-java-25-new-language-tools-for-safer-code/) - overview of security measures available in modern Java |
 | **`2025-12-26`** | [Optimizing Java Applications for Arm64 in the Cloud](https://dzone.com/articles/optimizing-java-arm64-cloud-applications) - fine tune your JVMs for running on `Arm64` architecture system |
@@ -38,7 +43,7 @@ Check where can you meet fellow Java enthusiasts at:
 ## 2025 - November
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
-| --- | :--  |
+| --- | :-- |
 | **`2025-11-25`** | [Open-source IntelliJ IDEA: A Simpler Way to Build and Contribute to the Community](https://blog.jetbrains.com/idea/2025/11/intellij-idea-open-source/) - JetBrains made their beloved IDE even more "open" for devs |
 | **`2025-11-24`** | [Creating an MCP Client With Spring AI](https://dzone.com/articles/creating-an-mcp-client-with-spring-ai) - follow-up to previous guide for creating the **MCP Server** (11th November) |
 | **`2025-11-22`** | [Spring Boot 4: A Complete Guide to New Features](https://www.codingshuttle.com/blogs/spring-boot-4-a-complete-guide-to-new-features-improvements-and-why-you-should-upgrade/) - an overview of **Spring Boot v4** features |
@@ -60,7 +65,7 @@ Check where can you meet fellow Java enthusiasts at:
 ## 2025 - October
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
-| --- | :--  |
+| --- | :-- |
 | **`2025-10-31`** | [Will JavaFX return to Java?](https://www.infoworld.com/article/4082709/will-javafx-return-to-java.html) - after **JavaFX** being separated from **OpenJDK** since Java 11, now there are discussion to put it back or at least improve the access from JDK and back |
 | **`2025-10-30`** | [JDK 26: HTTP/3 Support Available in HTTP Client API](https://inside.java/2025/10/30/quality-heads-up/) - the upcoming JDK release will have support for latest HTTP protocol version via **JEP 517** |
 | **`2025-10-27`** | [A practical guide to high-performance serverless with GraalVM and Spring](https://www.infoworld.com/article/4078803/taming-the-java-cold-start-beast-a-practical-guide-to-high-performance-serverless-with-graalvm-and-spring.html) - demo setup for blazing fast GraalVM native image app tailored for serverless cold starts |
@@ -81,7 +86,7 @@ Check where can you meet fellow Java enthusiasts at:
 ## 2025 - September
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
-| --- | :--  |
+| --- | :-- |
 | **`2025-09-30`** | [Apache Causeway - An Introduction](https://javapro.io/2025/09/30/apache-causeway-an-introduction/) - exploring tool for domain-driven app development |
 | **`2025-09-29`** | [JavaFX 25 previews JavaFX controls in title bars](https://www.infoworld.com/article/4065025/javafx-25-previews-javafx-controls-in-title-bars.html) - an overview of new features in latest **JavaFX** release |
 | **`2025-09-25`** | [Critique of JEP 505: Structured Concurrency (Fifth Preview)](https://softwaremill.com/critique-of-jep-505-structured-concurrency-fifth-preview/) - the author of **Jox** library evaluates the last evolution of the **Structured Concurrency** feature |
@@ -106,7 +111,7 @@ Check where can you meet fellow Java enthusiasts at:
 ## 2025 - August
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
-| --- | :--  |
+| --- | :-- |
 | **`2025-08-26`** | [How to speed up Maven builds](https://javapro.io/2025/08/26/how-to-speed-up-maven-builds/) - practical tips for making **Maven** builds faster and more effective |
 | **`2025-08-24`** | [Apache Groovy 5.0.0 Released](https://www.mail-archive.com/announce@apache.org/msg10311.html) - new major version of **Groovy** language is out |
 | **`2025-08-22`** | [The role of Quarkus in the modern Java ecosystem](https://javapro.io/2025/08/22/the-role-of-quarkus-in-the-modern-java-ecosystem/) - cloud-native framework **Quarkus** has already established itself on the Java map |
@@ -127,7 +132,7 @@ Check where can you meet fellow Java enthusiasts at:
 ## 2025 - July
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
-| --- | :--  |
+| --- | :-- |
 | **`2025-07-31`** | [JVM Iceberg - Modern Performance Edition](https://javapro.io/2025/07/31/jvm-iceberg-modern-performance-edition/) - what performance-related tools are available inside JVM |
 | **`2025-07-31`** | [Basic and advanced pattern matching in Java](https://www.infoworld.com/article/4026690/basic-and-advanced-pattern-matching-in-java.html) - comprehensive tutorial for up-to-date capabilities of pattern matching that keeps evolving in Java |
 | **`2025-07-31`** | [Gradle 9.0.0 released](https://github.com/gradle/gradle/releases/tag/v9.0.0) - new major version of Java build tool **Gradle** was released |
@@ -155,7 +160,7 @@ Check where can you meet fellow Java enthusiasts at:
 ## 2025 - June
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
-| --- | :--  |
+| --- | :-- |
 | **`2025-06-30`** | [What's new for JFR in JDK 25](https://egahlin.github.io/2025/05/31/whats-new-in-jdk-25.html) - upcomming enhancements and changes for **Java Flight Recorder** tool |
 | **`2025-06-27`** | [Quarkus and WildFly teams from Red Hat collaborating with Google on launch of Agent2Agent Java SDK](https://quarkus.io/blog/a2a-project-launches-java-sdk/) - new move on the AI agents field for Java |
 | **`2025-06-26`** | [Inside Java’s Language Renaissance](https://thenewstack.io/inside-javas-language-renaissance/) - another summary of the key changes that made it into JDK in the recent versions |
@@ -178,7 +183,7 @@ Check where can you meet fellow Java enthusiasts at:
 ## 2025 - May
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
-| --- | :--  |
+| --- | :-- |
 | **`2025-05-30`** | [JCON EUROPE 2025 raises the bar for Java events](https://javapro.io/2025/05/30/cinema-code-community-jcon-europe-2025-a-new-era-for-java-events/) - report from one of the biggest Java conferences |
 | **`2025-05-30`** | [CheerpJ WebAssembly JVM previews Java 17 support](https://www.infoworld.com/article/3999644/cheerpj-webassembly-jvm-previews-java-17-support.html) - tool for running Java in browsers **CheerpJ 4.1** is supporting **JDK 17** |
 | **`2025-05-30`** | [Apache Tomcat CGI Servlet Vulnerability Allows Security Constraint Bypass](https://cybersecuritynews.com/apache-tomcat-cgi-servlet-vulnerability/) - another **Tomcat** vulnerability was detected and fixed |
@@ -196,7 +201,7 @@ Check where can you meet fellow Java enthusiasts at:
 | **`2025-05-19`** | [Hibernate 7.0.0.Final](https://in.relation.to/2025/05/19/orm-70/) - popular ORM solution for Java apps gets new major version |
 | **`2025-05-16`** | [Using Python Libraries in Java](https://dzone.com/articles/using-python-libraries-in-java) - check how it is possible to make a fusion of Python and Java |
 | **`2025-05-16`** | [Spring Data 2025.0.0 goes GA](https://spring.io/blog/2025/05/16/spring-data-2025-0-goes-ga) - 2025 iteration of Spring Data was released |
-| **`2025-05-15`** | [Eclipse Vert.x 5 released](https://vertx.io/blog/eclipse-vert-x-5-released/) - new major version of Eclipse's event driven framework is available  |
+| **`2025-05-15`** | [Eclipse Vert.x 5 released](https://vertx.io/blog/eclipse-vert-x-5-released/) - new major version of Eclipse's event driven framework is available |
 | **`2025-05-15`** | [JCON EUROPE](https://2025.europe.jcon.one/) - 30th anniversary Java conference took place in **Cologne, GER** between 12th and 15th May |
 | **`2025-05-12`** | [JEP 505 Delivers Fifth Preview of Java's Structured Concurrency with Key API Refinements](https://www.infoq.com/news/2025/05/jep-505-concurrency-preview-5/) - a closer look on **JEP 505** being targeted into **JDK 25** |
 | **`2025-05-09`** | [JBang Jash Brings Streamlined Process Execution to Java](https://www.infoq.com/news/2025/05/jbang-jash/) - an introduction into new Java library designed to simplify the execution of external processes and shell commands |
@@ -206,7 +211,7 @@ Check where can you meet fellow Java enthusiasts at:
 ## 2025 - April
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
-| --- | :--  |
+| --- | :-- |
 | **`2025-04-29`** | [Apache Tomcat Vulnerability Let Attackers Bypass Rules & Trigger DoS Condition](https://cybersecuritynews.com/apache-tomcat-vulnerability-let-bypass-rules/) - leading Java application server **Tomcat** was once again hit by a high severity vulnerability |
 | **`2025-04-29`** | [Announcing Jipher: Java Cryptographic Service Provider for FIPS Environments](https://blogs.oracle.com/java/post/jipher-java-cryptographic-service-provider-for-fips-environments) - official release statement for the new cryptographic tool by Oracle |
 | **`2025-04-23`** | [LittleHorse, a Java Workflow Engine for Distributed Systems Orchestration](https://www.infoq.com/news/2025/04/littlehorse/) - an introduction into **LittleHorse** tool |
@@ -231,7 +236,7 @@ Check where can you meet fellow Java enthusiasts at:
 ## 2025 - March
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
-| --- | :--  |
+| --- | :-- |
 | **`2025-03-27`** | [How to Create JavaFX Native Images](https://bell-sw.com/blog/how-to-create-javafx-native-images/) - how to speed-up JavaFX with native builds for GraalVM |
 | **`2025-03-25`** | [Introduction to OSHI](https://www.baeldung.com/java-oshi) - learn about library for fetching system-level details without any native dependencies |
 | **`2025-03-25`** | [Oracle releases ML-optimized GraalVM for JDK 24](https://www.infoworld.com/article/3853988/oracle-releases-ml-optimized-graalvm-for-jdk-24.html) - new **GraalVM** is promising faster performance and improved efficiency for Java-based machine learning workloads |
@@ -261,7 +266,7 @@ Check where can you meet fellow Java enthusiasts at:
 ## 2025 - February
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
-| --- | :--  |
+| --- | :-- |
 | **`2025-02-27`** | [Introduction to ActiveJ](https://www.baeldung.com/activej) - learn about the framework for high-performance apps |
 | **`2025-02-26`** | [Java 24 : What’s New?](https://foojay.io/today/java-24-whats-new/) - new JDK version is knocking at the door |
 | **`2025-02-25`** | [Java 24: Build Games, Prototypes, Utilities, and More—With Less Boilerplate](https://blog.jetbrains.com/idea/2025/02/java-24-build-games-prototypes-utilities-and-more-with-less-boilerplate/) - introducing some features that will land in **JDK 24** |
@@ -279,7 +284,7 @@ Check where can you meet fellow Java enthusiasts at:
 ## 2025 - January
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
-| --- | :--  |
+| --- | :-- |
 | **`2025-01-31`** | [Top Java Conferences and Events in 2025](https://blog.jetbrains.com/idea/2025/01/top-java-conferences-and-events-in-2025/) - selection of most prominent Java events around the world for this year |
 | **`2025-01-30`** | [State of Java report shows strong migration from Java 8, rise of Apache Spark](https://devclass.com/2025/01/30/state-of-java-report-shows-strong-migration-from-java-8-rise-of-apache-spark/) - another look at Azul's "State of Java" results |
 | **`2025-01-29`** | [Introducing Model Context Protocol servers project](https://quarkus.io/blog/introducing-mcp-servers/) - newest **Quarkus** team's addition into connecting AI models with Java applications |
@@ -299,6 +304,8 @@ Check where can you meet fellow Java enthusiasts at:
 | **`2025-01-01`** | [Structured Logging in Spring Boot](https://www.baeldung.com/spring-boot-structured-logging) - tutorial for setting up logs in more predictable format for automated processing |
 
 ## Java News from previous years
+
 To keep this file reasonable short, older news are being archived:
+
 - [Year 2024](https://github.com/AloisSeckar/demos-java/blob/master/JavaNews2024.md)
 - [Year 2023](https://github.com/AloisSeckar/demos-java/blob/master/JavaNews2023.md)

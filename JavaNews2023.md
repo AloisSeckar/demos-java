@@ -1,10 +1,11 @@
 # JAVA NEWS 2023
+
 What was the Java world up to in 2023?
 
 ## 2023 - December
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
-| --- | :--  |
+| --- | :-- |
 | **`2023-12-31`** | [Exploring Throttling in Java](https://dzone.com/articles/exploring-throttling-in-java-diverse-strategies-an) - practical examples how to pause Java threads to limit the number of executions |
 | **`2023-12-28`** | [UTF-8 Validation in Java](https://www.baeldung.com/java-utf-8-validation) - how to work with UTF-8 encoded byte data in Java |
 | **`2023-12-28`** | [Migrating From Lombok to Records in Java](https://dzone.com/articles/migrating-from-lombok-to-records-in-java) - this is how you can replace Lombok annotations with Java 17+ native Records |
@@ -30,7 +31,7 @@ What was the Java world up to in 2023?
 ## 2023 - November
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
-| --- | :--  |
+| --- | :-- |
 | **`2023-11-30`** | [Virtual Threads: A Definite Advantage](https://dzone.com/articles/virtual-threads-a-definite-advantage) - practical tutorial showing work with 1M virtual threads |
 | **`2023-11-29`** | [Get started with Java's new structured concurrency model](https://www.infoworld.com/article/3711361/get-started-with-javas-new-structured-concurrency-model.html) - a closer look to the new Java 21 preview feature (JEP 453) |
 | **`2023-11-28`** | [Introducing Generational ZGC](https://inside.java/2023/11/28/gen-zgc-explainer/) - great article introducing the latest evolution of Java garbage collector ZGC |
@@ -50,7 +51,7 @@ What was the Java world up to in 2023?
 ## 2023 - October
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
-| --- | :--  |
+| --- | :-- |
 | **`2023-10-27`** | [State of Java: Resilience amid licensing changes and security concerns](https://www.developer-tech.com/news/2023/oct/27/state-of-java-resilience-licensing-changes-security-concerns/) - a summary of Azul's annual survey among Java developers and users |
 | **`2023-10-27`** | [Red Hat Quarkus Java stack spruces up the dev UI](https://www.infoworld.com/article/3709551/red-hat-quarkus-java-stack-spruces-up-the-dev-ui.html) - new features in **Quarkus** build by Red Hat version 3.2 including new UI for Java developers |
 | **`2023-10-24`** | [Helidon 4 released!](https://medium.com/helidon/helidon-4-is-released-a06756e1562a) - Oracle's **Helidon 4**, a microservices' framework utilizing **Java 21** virtual threads, was released for production |
@@ -64,7 +65,7 @@ What was the Java world up to in 2023?
 ## 2023 - September
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
-| --- | :--  |
+| --- | :-- |
 | **`2023-09-29`** | [Microfrontends for Quarkus Microservices](https://dzone.com/articles/micro-frontends-for-quarkus-microservices) - a comprehensive history of the emergence of 'microfrontends' in context of Java world |
 | **`2023-09-28`** | [Java 22 could include computed constants, class-filed API](https://www.infoworld.com/article/3707728/java-22-could-include-computed-constants-class-filed-api.html) - what might be expected in forthcoming Java release |
 | **`2023-09-21`** | [Introducing GraalOS](https://blogs.oracle.com/java/post/introducing-graalos) - brand new application deployment technology using **GraalVM** was announced by Oracle |
@@ -72,18 +73,18 @@ What was the Java world up to in 2023?
 | **`2023-09-19`** | [When Quarkus meets Virtual Threads](https://quarkus.io/blog/virtual-thread-1/) - Series-opening article about adopting Java 21 Virtual Threads in **Quarkus** |
 | **`2023-09-19`** | [GraalVM for JDK 21 is here!](https://medium.com/graalvm/graalvm-for-jdk-21-is-here-ee01177dd12d) - Announcement of a new version of **GraalVM** with **Java 21** support |
 | **`2023-09-19`** | [The Arrival of Java 21!](https://inside.java/2023/09/19/the-arrival-of-java-21/) - Java 21 release summary with some interesting stats and figures |
-| **`2023-09-19`** | **JDK 21 release date**  |
+| **`2023-09-19`** | **JDK 21 release date** |
 | **`2023-09-16`** | [Java 21 Launch Event](https://dev.java/community/java-21-launch/) - official 8-hour streaming event covering the Java 21 release day was announced |
 | **`2023-09-11`** | [LTS JDK 21 Features](https://dzone.com/articles/lts-jdk-21-features) - cool summary of Java 21 enhancements with example code snippets |
 | **`2023-09-05`** | [New Oracle GraalVM Container Images](https://blogs.oracle.com/java/post/new-oracle-graalvm-container-images) - Oracle now offers **GraalVM** `jdk/native-image` containers |
 | **`2023-09-01`** | [JDK 21 and JDK 22: What We Know So Far](https://www.infoq.com/news/2023/09/java-21-so-far/) - as the release of Java 21 knocks at the door, Michael Redlich prepared an exhaustive list of what is to be expected |
 
-
 ## Older, but still worth mentioning
+
 Various interesting articles I came across over the time:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
-| --- | :--  |
+| --- | :-- |
 | **2023-09-22** | [A categorized list of all Java and JVM features since JDK 8 to 21](https://advancedweb.hu/a-categorized-list-of-all-java-and-jvm-features-since-jdk-8-to-21/) - remain informed about JDK evolution (this article keeps being updated) |
 | **2023-08-22** | [Exploring the design of Java’s new virtual threads](https://blogs.oracle.com/javamagazine/post/java-virtual-threads) - gain deeper insight and better understanding of one of the most anticipated feature of Java 21 - Virtual threads |
 | **2023-07-11** | [Java 21 - Java 17 = 42 JEPs view](https://dev.to/pfilaretov42/java-21-java-17-42-jeps-view-ckk) - simple but useful list grouping the new features between Java 17 and Java 21 |

@@ -1,10 +1,11 @@
 # JAVA NEWS 2024
+
 What was the Java world up to in 2024?
 
 ## 2024 - December
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
-| --- | :--  |
+| --- | :-- |
 | **`2024-12-25`** | [Ulyp: Recording Java Execution Flow for Faster Debugging](https://dzone.com/articles/ulyp-recording-java-execution-flow-for-faster-debugging) - an introduction to open-source code flow visualization tool **Ulyp** |
 | **`2024-12-24`** | [JavaOne: A Lifetime of Java Learning in Three Days](https://inside.java/2024/12/24/javaone-lifetime-of-learning/) - an invitation to the upcomming **JavaOne** conference |
 | **`2024-12-23`** | [Apache Camel 3 - End of Life](https://camel.apache.org/blog/2024/12/camel3-eol/) - version 3.x of **Apache Camel** got it final update **3.22.3** and will not be actively maintained in 2025 and on |
@@ -30,7 +31,7 @@ What was the Java world up to in 2024?
 ## 2024 - November
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
-| --- | :--  |
+| --- | :-- |
 | **`2024-11-28`** | [Modern Alternatives to Quartz Scheduler](https://foojay.io/today/task-schedulers-in-java-modern-alternatives-to-quartz-scheduler/) - options for automating periodical tasks in Java |
 | **`2024-11-24`** | [Top five Common mistakes Developers make when using Java Streams](https://medium.com/@tharindudulshanfdo/top-five-common-mistakes-developers-make-when-using-java-streams-and-how-to-avoid-them-d6d1a6bf5146) - refresh your practical knowledge about handling Streams in Java properly |
 | **`2024-11-23`** | [Javafest'24](https://javafest.org/) - conference took place at **Bengaluru, IND** on 23rd November |
@@ -49,7 +50,7 @@ What was the Java world up to in 2024?
 ## 2024 - October
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
-| --- | :--  |
+| --- | :-- |
 | **`2024-10-31`** | [Java: Where the Wild Things Aren’t](https://thenewstack.io/java-where-the-wild-things-arent/) - overview of security handling improvements in Java ecosystem over a past few years |
 | **`2024-10-31`** | [Module Design Pattern with JEP-476](https://foojay.io/today/exploring-new-features-in-jdk-23-module-design-pattern-with-jep-476/) - **JEP 476** ability of importing the whole module can improve Java app design |
 | **`2024-10-24`** | [What's New in Apache Pulsar 4.0](https://pulsar.apache.org/blog/2024/10/24/announcing-apache-pulsar-4-0/) - new major version of performant server-to-server messaging tool |
@@ -72,7 +73,7 @@ What was the Java world up to in 2024?
 ## 2024 - September
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
-| --- | :--  |
+| --- | :-- |
 | **`2024-09-27`** | [Is Spring AI Strong Enough for AI?](https://dzone.com/articles/is-spring-ai-strong-enough-for-ai) - summary of **Spring AI** capabilities + comparsion with Python-based tools |
 | **`2024-09-26`** | [JConf.dev](https://2024.jconf.dev/) conference took place in **Dallas, TX, USA** between 24th and 26th September |
 | **`2024-09-26`** | [Java for AI](https://dzone.com/articles/java-for-artificial-intelligence) - some info, overview of options and even demo of **Weka** AI tool |
@@ -99,7 +100,7 @@ What was the Java world up to in 2024?
 ## 2024 - August
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
-| --- | :--  |
+| --- | :-- |
 | **`2024-08-29`** | [Spring Boot CDS support and Project Leyden anticipation](https://spring.io/blog/2024/08/29/spring-boot-cds-support-and-project-leyden-anticipation) - cool new features in Spring Boot **3.3** |
 | **`2024-08-29`** | [Get Recognized for your Cloud-Native Java Development Skills](https://foojay.io/today/get-recognized-for-your-cloud-native-java-development-skills-with-this-new-badge/) - IBM offers new badge for free **Open Liberty** exam |
 | **`2024-08-28`** | [SpringOne](https://springone.io/) conference took place online between 26th and 28th August |
@@ -117,41 +118,41 @@ What was the Java world up to in 2024?
 ## 2024 - July
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
-| --- | :--  |
-| **`2024-07-30`** | [Java 21 Virtual Threads - Dude, Where’s My Lock?](https://netflixtechblog.com/java-21-virtual-threads-dude-wheres-my-lock-3052540e231d) - how **Netflix** developers clash with interesting virtual threads related bug in one of their app                                                                      |
-| **`2024-07-29`** | [How To Achieve High GC Throughput](https://dzone.com/articles/how-to-achieve-high-gc-throughput) - common problems with garbage collection in Java and how to deal with them                                                                                                                                     |
-| **`2024-07-29`** | [Get ready for more Java licensing changes](https://www.infoworld.com/article/3478122/get-ready-for-more-java-licensing-changes.html) - article explaining why **Oracle JDK 17** will no longer be free after September 2024                                                                                      |
-| **`2024-07-27`** | [Understanding JVM Memory Layout with OpenJDK24’s New VM Option](https://foojay.io/today/understanding-jvm-memory-layout-with-openjdk24s-new-printmemorymapatexit-vm-option/) - exploring new HotSpot JVM option **PrintMemoryMapAtExit**                                                                         |
-| **`2024-07-26`** | [Is Java Still Relevant Nowadays?](https://blog.jetbrains.com/idea/2024/07/is-java-still-relevant-nowadays/) - if you like graphs and stats, you might find this interesting                                                                                                                                      |
-| **`2024-07-25`** | [Improving Maven build times](https://blog.picnic.nl/improving-maven-build-times-f117d11cabdc) - practical tips for building your projects faster with **Maven**                                                                                                                                                  |
-| **`2024-07-25`** | [Generating HTTP clients in Spring Boot application from OpenAPI spec](https://maciejwalkowiak.com/blog/spring-boot-openapi-generate-client/) - tutorial about using **OpenAPI** REST definition to create a **Spring Boot** client                                                                               |
-| **`2024-07-25`** | [Oracle's Java pricing brews bitter taste, subscribers spill over to OpenJDK](https://www.theregister.com/2024/07/25/oracle_java_licensing_changes/) - it looks like most customers won't like to pay for Oracle Java...                                                                                          |
-| **`2024-07-25`** | [Java 23: What’s new?](https://www.loicmathieu.fr/wordpress/en/informatique/java-23-quoi-de-neuf/) - another summary of features being introduced in **JDK 23**                                                                                                                                                   |
-| **`2024-07-24`** | [The Hidden Costs of Lombok in Enterprise Java Solutions](https://dzone.com/articles/hidden-costs-of-lombok-in-enterprise-java-solutions) - is **Lombok** really the best solution for your project?                                                                                                              |
-| **`2024-07-23`** | [JUnit 5 Custom TestListeners](https://dzone.com/articles/junit-5-listeners) - how to improve tests running in your CI/CD pipelines                                                                                                                                                                               |
-| **`2024-07-23`** | [WildFly 33 is released](https://www.wildfly.org/news/2024/07/23/WildFly33-Released/) - newest version of **WildFly** Java application server                                                                                                                                                                     |
-| **`2024-07-22`** | [JDK 23 G1/Parallel/Serial GC changes](https://tschatzl.github.io/2024/07/22/jdk23-g1-serial-parallel-gc-changes.html) - what's new about garbage collecting in **JDK 23**                                                                                                                                        |
-| **`2024-07-22`** | [JEP 481: Third Preview of Scoped Values API Brings Key Enhancements in JDK 23](https://www.infoq.com/news/2024/07/jep-481-enhanced-scoped-values/) - introduction of new **JEP 481** which is now _completed_ in **JDK 23**                                                                                      |
-| **`2024-07-22`** | [Spring Ecosystem Delivers Numerous Milestone Releases](https://www.infoq.com/news/2024/07/spring-releases-jul15-2024/) - latest development around **Spring**, the popular family of Java libraries                                                                                                              |
-| **`2024-07-18`** | [How To Think Simple In Java](https://dzone.com/articles/how-to-think-simple-in-java) - a summary full of useful tips for being a better Java programmer                                                                                                                                                          |
-| **`2024-07-17`** | [JSpecify 1.0.0 released](https://jspecify.dev/blog/release-1.0.0/) - the group focusing on standardizing JVM annotations have finalized the first four nullness annotations                                                                                                                                      |
-| **`2024-07-15`** | [JEP 472: Prepare to Restrict the Use of JNI in JDK 24](https://www.infoq.com/news/2024/07/jep-472-restrict-jni-jdk-24/) - introduction of new **JEP 472** which is now _proposed to target_ in **JDK 24**                                                                                                        |
-| **`2024-07-14`** | [Spring Security 6.3 – What’s New](https://www.baeldung.com/spring-security-6-3) - title already says it all                                                                                                                                                                                                      |
-| **`2024-07-13`** | [Maven Spotless Plugin for Java](https://www.baeldung.com/java-maven-spotless-plugin) - what is **Maven Spotless Plugin** and how to use it for improving code formatting                                                                                                                                         |
+| --- | :-- |
+| **`2024-07-30`** | [Java 21 Virtual Threads - Dude, Where’s My Lock?](https://netflixtechblog.com/java-21-virtual-threads-dude-wheres-my-lock-3052540e231d) - how **Netflix** developers clash with interesting virtual threads related bug in one of their app |
+| **`2024-07-29`** | [How To Achieve High GC Throughput](https://dzone.com/articles/how-to-achieve-high-gc-throughput) - common problems with garbage collection in Java and how to deal with them |
+| **`2024-07-29`** | [Get ready for more Java licensing changes](https://www.infoworld.com/article/3478122/get-ready-for-more-java-licensing-changes.html) - article explaining why **Oracle JDK 17** will no longer be free after September 2024 |
+| **`2024-07-27`** | [Understanding JVM Memory Layout with OpenJDK24’s New VM Option](https://foojay.io/today/understanding-jvm-memory-layout-with-openjdk24s-new-printmemorymapatexit-vm-option/) - exploring new HotSpot JVM option **PrintMemoryMapAtExit** |
+| **`2024-07-26`** | [Is Java Still Relevant Nowadays?](https://blog.jetbrains.com/idea/2024/07/is-java-still-relevant-nowadays/) - if you like graphs and stats, you might find this interesting |
+| **`2024-07-25`** | [Improving Maven build times](https://blog.picnic.nl/improving-maven-build-times-f117d11cabdc) - practical tips for building your projects faster with **Maven** |
+| **`2024-07-25`** | [Generating HTTP clients in Spring Boot application from OpenAPI spec](https://maciejwalkowiak.com/blog/spring-boot-openapi-generate-client/) - tutorial about using **OpenAPI** REST definition to create a **Spring Boot** client |
+| **`2024-07-25`** | [Oracle's Java pricing brews bitter taste, subscribers spill over to OpenJDK](https://www.theregister.com/2024/07/25/oracle_java_licensing_changes/) - it looks like most customers won't like to pay for Oracle Java... |
+| **`2024-07-25`** | [Java 23: What’s new?](https://www.loicmathieu.fr/wordpress/en/informatique/java-23-quoi-de-neuf/) - another summary of features being introduced in **JDK 23** |
+| **`2024-07-24`** | [The Hidden Costs of Lombok in Enterprise Java Solutions](https://dzone.com/articles/hidden-costs-of-lombok-in-enterprise-java-solutions) - is **Lombok** really the best solution for your project? |
+| **`2024-07-23`** | [JUnit 5 Custom TestListeners](https://dzone.com/articles/junit-5-listeners) - how to improve tests running in your CI/CD pipelines |
+| **`2024-07-23`** | [WildFly 33 is released](https://www.wildfly.org/news/2024/07/23/WildFly33-Released/) - newest version of **WildFly** Java application server |
+| **`2024-07-22`** | [JDK 23 G1/Parallel/Serial GC changes](https://tschatzl.github.io/2024/07/22/jdk23-g1-serial-parallel-gc-changes.html) - what's new about garbage collecting in **JDK 23** |
+| **`2024-07-22`** | [JEP 481: Third Preview of Scoped Values API Brings Key Enhancements in JDK 23](https://www.infoq.com/news/2024/07/jep-481-enhanced-scoped-values/) - introduction of new **JEP 481** which is now _completed_ in **JDK 23** |
+| **`2024-07-22`** | [Spring Ecosystem Delivers Numerous Milestone Releases](https://www.infoq.com/news/2024/07/spring-releases-jul15-2024/) - latest development around **Spring**, the popular family of Java libraries |
+| **`2024-07-18`** | [How To Think Simple In Java](https://dzone.com/articles/how-to-think-simple-in-java) - a summary full of useful tips for being a better Java programmer |
+| **`2024-07-17`** | [JSpecify 1.0.0 released](https://jspecify.dev/blog/release-1.0.0/) - the group focusing on standardizing JVM annotations have finalized the first four nullness annotations |
+| **`2024-07-15`** | [JEP 472: Prepare to Restrict the Use of JNI in JDK 24](https://www.infoq.com/news/2024/07/jep-472-restrict-jni-jdk-24/) - introduction of new **JEP 472** which is now _proposed to target_ in **JDK 24** |
+| **`2024-07-14`** | [Spring Security 6.3 – What’s New](https://www.baeldung.com/spring-security-6-3) - title already says it all |
+| **`2024-07-13`** | [Maven Spotless Plugin for Java](https://www.baeldung.com/java-maven-spotless-plugin) - what is **Maven Spotless Plugin** and how to use it for improving code formatting |
 | **`2024-07-12`** | [More Performant Integration Tests With Kafka Using GraalVM](https://medium.com/@avvero.abernathy/how-to-reduce-memory-consumption-in-integration-tests-with-kafka-using-graalvm-de2393f7fe8a) - learn how to build **EmbeddedKafka** native image with **GraalVM** for faster and less resource-consumning tests |
-| **`2024-07-11`** | [Embracing Safer Memory Access with JEP 471](https://foojay.io/today/unsafe-is-finally-going-away-embracing-safer-memory-access-with-jep-471/) - upcomming JEP will deprecate **sun.misc.Unsafe** methods                                                                                                         |
-| **`2024-07-11`** | [Java Virtual Threads: a Case Study](https://www.infoq.com/articles/java-virtual-threads-a-case-study/) - performance tests showing that **Open Liberty** thread pooling system is currently still better than **JDK 21** Virtual Threads                                                                         |
-| **`2024-07-10`** | [9 Best Java Profilers to Use in 2024](https://foojay.io/today/9-best-java-profilers-to-use-in-2024/) - list of tools you can use for profiling your apps                                                                                                                                                         |
-| **`2024-07-09`** | [How To Use the H2 Database With Spring Boot](https://dzone.com/articles/how-to-use-the-h2-database-with-spring-boot) - step-by-step tutorial for including **H2** into **Spring Boot** app                                                                                                                       |
-| **`2024-07-08`** | [Top 7 Techniques to Optimize Caching in Spring Boot](https://digma.ai/top-7-techniques-to-optimize-caching-in-spring-boot/) - although being a PR article, this text helps understanding caching better                                                                                                          |
-| **`2024-07-03`** | [Reducing Testcontainers Execution Time with JUnit 5 Callbacks](https://rieckpil.de/reducing-testcontainers-execution-time-with-junit-5-callbacks/) - ways to improve performance and DX while testing Java container applications                                                                                |
-| **`2024-07-02`** | [How to describe Java code with annotations](https://www.infoworld.com/article/3543240/how-to-describe-java-code-with-annotations.html) - this tutorial will teach you using custom Java annotations                                                                                                              |
-| **`2024-07-02`** | [Java in Education Initiative Aims to Empower the Next Generation of Developers](https://www.infoq.com/news/2024/07/java-education-initiative/) - introducing the project dedicated to promote Java in education                                                                                                  |
+| **`2024-07-11`** | [Embracing Safer Memory Access with JEP 471](https://foojay.io/today/unsafe-is-finally-going-away-embracing-safer-memory-access-with-jep-471/) - upcomming JEP will deprecate **sun.misc.Unsafe** methods |
+| **`2024-07-11`** | [Java Virtual Threads: a Case Study](https://www.infoq.com/articles/java-virtual-threads-a-case-study/) - performance tests showing that **Open Liberty** thread pooling system is currently still better than **JDK 21** Virtual Threads |
+| **`2024-07-10`** | [9 Best Java Profilers to Use in 2024](https://foojay.io/today/9-best-java-profilers-to-use-in-2024/) - list of tools you can use for profiling your apps |
+| **`2024-07-09`** | [How To Use the H2 Database With Spring Boot](https://dzone.com/articles/how-to-use-the-h2-database-with-spring-boot) - step-by-step tutorial for including **H2** into **Spring Boot** app |
+| **`2024-07-08`** | [Top 7 Techniques to Optimize Caching in Spring Boot](https://digma.ai/top-7-techniques-to-optimize-caching-in-spring-boot/) - although being a PR article, this text helps understanding caching better |
+| **`2024-07-03`** | [Reducing Testcontainers Execution Time with JUnit 5 Callbacks](https://rieckpil.de/reducing-testcontainers-execution-time-with-junit-5-callbacks/) - ways to improve performance and DX while testing Java container applications |
+| **`2024-07-02`** | [How to describe Java code with annotations](https://www.infoworld.com/article/3543240/how-to-describe-java-code-with-annotations.html) - this tutorial will teach you using custom Java annotations |
+| **`2024-07-02`** | [Java in Education Initiative Aims to Empower the Next Generation of Developers](https://www.infoq.com/news/2024/07/java-education-initiative/) - introducing the project dedicated to promote Java in education |
 
 ## 2024 - June
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
-| --- | :--  |
+| --- | :-- |
 | **`2024-06-26`** | [Stream gatherers: A new way to manipulate Java streams](https://www.infoworld.com/article/3715621/stream-gatherers-a-new-way-to-manipulate-java-streams.html) - closer look to useful **JDK 22** feature **java.util.stream.Gatherers** interface |
 | **`2024-06-26`** | [OpenJDK proposal would bring value classes and objects to Java](https://www.infoworld.com/article/3715642/openjdk-proposal-would-bring-value-classes-and-objects-to-java.html) - four years old **JEP 401** was awaken from slumber and might appear in forthcomming versions of JDK |
 | **`2024-06-25`** | [Transactional Outbox pattern with Spring Boot](https://www.wimdeblauwe.com/blog/2024/06/25/transactional-outbox-pattern-with-spring-boot/) - understanding one of the microservices' patterns and usin it in **Spring Boot** |
@@ -170,12 +171,12 @@ What was the Java world up to in 2024?
 | **`2024-06-06`** | [JDK 23: The new features in Java 23](https://www.infoworld.com/article/3714933/jdk-23-the-new-features-in-java-23.html) - what we know about **JDK 23** so far (article keep being updated) |
 | **`2024-06-04`** | [Apache NetBeans 22 released](https://www.mail-archive.com/announce@apache.org/msg09231.html) - latest version of **NetBeans IDE** was released |
 | **`2024-06-04`** | [Quarkus Java framework adds dev extensions for observability](https://www.infoworld.com/article/3715504/quarkus-java-framework-adds-dev-extensions-for-observability.html) - what's new in latest **Quarkus** release **v3.11**? |
-| **`2024-06-02`** | [Jakarta EE 11 is getting shape](https://www.agilejava.eu/2024/06/02/hashtag-jakarta-ee-231/) - brief summary of the preparations for new specification of **Jakarta EE**  |
+| **`2024-06-02`** | [Jakarta EE 11 is getting shape](https://www.agilejava.eu/2024/06/02/hashtag-jakarta-ee-231/) - brief summary of the preparations for new specification of **Jakarta EE** |
 
 ## 2024 - May
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
-| --- | :--  |
+| --- | :-- |
 | **`2024-05-31`** | [Gradle 8.8 now supports Java 8](https://docs.gradle.org/8.8/release-notes.html) - newest JDK features are possible with **Gradle** build tool |
 | **`2024-05-31`** | [Spring I/O 2024](https://2024.springio.net/) - developer conference took place in Barcelona (ESP) |
 | **`2024-05-29`** | [JLama: The First Pure Java Model Inference Engine](https://www.infoq.com/news/2024/05/jlama-llm-inference-java/) - introduction to **JLama**, a Java-based LLM |
@@ -198,7 +199,7 @@ What was the Java world up to in 2024?
 ## 2024 - April
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
-| --- | :--  |
+| --- | :-- |
 | **`2024-04-25`** | [WildFly 32 is released!](https://www.wildfly.org/news/2024/04/25/WildFly32-Released/) - newest version of this Java-based application server |
 | **`2024-04-24`** | [Top 10 Tools for Kafka Engineers](https://thenewstack.io/top-10-tools-for-kafka-engineers/) - list of interesting technologies built around **Apache Kafka** |
 | **`2024-04-24`** | [Java thriving after 30 years](https://www.theregister.com/2024/04/24/java_thriving_after_30_years/) - a little retrospective about the last years of Java and namely OpenJDK |
@@ -216,7 +217,7 @@ What was the Java world up to in 2024?
 ## 2024 - March
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
-| --- | :--  |
+| --- | :-- |
 | **`2024-03-28`** | [JDK 22: An average Java release, sort of](https://www.infoworld.com/article/3714684/jdk-22-an-average-java-release-sort-of.html) - another insight into **JDK 22** with examples |
 | **`2024-03-26`** | [How Spring and Java Shaped Internal Developer Platforms](https://thenewstack.io/how-spring-and-java-shaped-internal-developer-platforms/) - an interesting journey to not so distant past in the Java enterprise ecosystem |
 | **`2024-03-26`** | [Oracle’s GraalVM backs Java 22](https://www.infoworld.com/article/3714602/oracle-graalvm-backs-java-22.html) - **JDK 22** is now available in **GraalVM** |
@@ -241,7 +242,7 @@ What was the Java world up to in 2024?
 ## 2024 - February
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
-| --- | :--  |
+| --- | :-- |
 | **`2024-02-29`** | [OpenJDK proposal would streamline Java records creation](https://www.infoworld.com/article/3713268/openjdk-proposal-would-streamline-java-records-creation.html) - introducing one of the latest **JEP 468** called `Derived record creation` |
 | **`2024-02-28`** | [Quarkus 3.8 - Our new LTS version](https://quarkus.io/blog/quarkus-3-8-released/) - press release from **Quarkus** team about their latest `3.8` version |
 | **`2024-02-27`** | [Upgrading to Java 21 Is Worth It](https://thenewstack.io/we-can-have-nice-things-upgrading-to-java-21-is-worth-it/) - a couple of good reasons for stepping forward in upgrading your projects to latest Java features |
@@ -263,7 +264,7 @@ What was the Java world up to in 2024?
 ## 2024 - January
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
-| --- | :--  |
+| --- | :-- |
 | **`2024-01-31`** | [Java proposal would scrap sun.misc.Unsafe memory access](https://www.infoworld.com/article/3712663/java-proposal-would-scrap-sunmiscunsafe-memory-access.html) - another new JEP would mark many of current low-level memory access methods from JDK deprecated for removal |
 | **`2024-01-30`** | [Evolution of the Switch Construct in Java](https://blog.jetbrains.com/idea/2024/01/evolution-of-the-switch-construct-in-java-why-should-you-care/) - your guide through the changes of `switch` in Java that keep comming in the recent JDK versions |
 | **`2024-01-30`** | [A deep dive into Java 21’s key features](https://medium.com/capital-one-tech/java-programming-a-deep-dive-into-java-21s-key-features-8776f75bc6b8) - **JDK 21** in the broader context of Java evolution |
@@ -293,5 +294,7 @@ What was the Java world up to in 2024?
 | **`2024-01-02`** | [Exploring Java Stream API's peek Method](https://dzone.com/articles/exploring-java-stream-apis-peek-method) - a closer look to `peek()` method from Java **Stream API** |
 
 ## Java News from previous years
+
 To keep this file reasonable short, older news are being archived:
+
 - [Year 2023](https://github.com/AloisSeckar/demos-java/blob/master/JavaNews2023.md)

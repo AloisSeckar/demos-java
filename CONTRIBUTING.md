@@ -20,10 +20,10 @@ This originally started as a presentation for my work colleagues when **Java 17*
 
 Originally, there were only a few cherry-picked demos for features I find most interesting and relevant. Now the ambition is to cover up **all JEPs since the release of Java 9 on 21 September 2017**. Currently, we are in the process of building the full structure.
 
-- Under [`org.javademos`](https://github.com/AloisSeckar/demos-java/tree/master/src/main/java/org/javademos) there is/will be a package for each Java release, e.g. `java25`. 
+- Under [`org.javademos`](https://github.com/AloisSeckar/demos-java/tree/master/src/main/java/org/javademos) there is/will be a package for each Java release, e.g. `java25`.
 - Each such _"release package"_ contains sub-folders for JEPs included in it, e.g. [`java25/jep511`](https://github.com/AloisSeckar/demos-java/tree/master/src/main/java/org/javademos/java25/jep511).
 - Every _"JEP package"_ contains **one** implementation of [`org.javademos.commons.IDemo`](https://github.com/AloisSeckar/demos-java/blob/master/src/main/java/org/javademos/commons/IDemo.java), which is a simple interface designed to incorporate all demos together - see the source code for more info. Implementation class name is arbitrary, but should be based on the JEP name.
-- The interface only requires one method to be implemented - `public void demo()`. This is the entry point for each, where the relevant code is intended to run. 
+- The interface only requires one method to be implemented - `public void demo()`. This is the entry point for each, where the relevant code is intended to run.
 - Each `public void demo()` implementation should start with a call to `info()` method, which takes number of the JEP as parameter and prints out a unified header with basic info about the JEP. To make it work, you need to add a new entry to the respective JSON in [`resources`](https://github.com/AloisSeckar/demos-java/tree/master/src/main/resources) folder. See existing entries for reference. All JSON entries are automatically loaded into a static Map in [`JEPInfo.java`](https://github.com/AloisSeckar/demos-java/blob/master/src/main/java/org/javademos/commons/JEPInfo.java) and used by `info()` default implementation in `IDemo` interface.
 - For most JEPs, we then want to provide a little code example. Like that, future users can understand the feature better as they don't have to imagine it only, but see it in action. However, some features are not really possible to demonstrate with a code snippet. In such case, it is completely fine only to gather meaningful comments that would guide the curious reader to understand the point. Here is an example of such demo: [`java23/jep474/GenerationalZGC23.java`](https://github.com/AloisSeckar/demos-java/blob/master/src/main/java/org/javademos/java23/jep474/GenerationalZGC23.java)
 - Folder [`org.javademos.init`](https://github.com/AloisSeckar/demos-java/tree/master/src/main/java/org/javademos/init) contains helper classes, one for every JDK version, that were introduced mostly to reduce number of imports per class. Also it allows to turn on/off whole sub-set for given JDK version, if needed.
@@ -36,6 +36,7 @@ Originally, there were only a few cherry-picked demos for features I find most i
 **NOTE:** Due to transition period, some information here may not correspond with the current state of the source code. Feel free to ask when in doubt.
 
 [`IDemo` interface](/src/main/java/org/javademos/commons/IDemo.java) prescribes two methods:
+
 - `info()` - unified header, that only needs to be supplied with JEP number. Then it looks up the text info in Map defined in [`JEPInfo` class](/src/main/java/org/javademos/commons/JEPInfo.java) and prints it in a standardized way.
 - `demo()` - this is the actual implementation of whatever can be shown to demonstrate tne new features introduced with the given JEP.
 
@@ -59,7 +60,7 @@ Issues are tagged with labels. If you are here for the first time, look for `goo
 
 A number of JEP demos exist already, but they're not fully transferred to the new style (with Markdown comments) or there are some inconsistencies with the majority of the project. So this is also an option for your contributions.
 
-Last, but not least - any corrections and inclusions to existing demos are welcome. I would like to keep the demos rather brief, but every relevant information may help the future users. 
+Last, but not least - any corrections and inclusions to existing demos are welcome. I would like to keep the demos rather brief, but every relevant information may help the future users.
 
 We can always discuss under each individual issue/PR, how to turn your invaluable effort into the best possible outcome!
 
@@ -67,7 +68,7 @@ We can always discuss under each individual issue/PR, how to turn your invaluabl
 
 1. Go into [Issues](https://github.com/AloisSeckar/demos-java/issues) and pick up an issue you want to work on. **Check if it is not assigned to someone else yet**. It is also advised to ask for an assignment first to avoid possible clash of two contributors over same issue. If that ever happens, I will try to guide you to blend your variant with the previously accepted, but the result can't be guaranteed. If no suitable issue is opened, please feel free to create a new one.
 2. Fork the repository to your own GitHub account, create a new branch and work on your changes there. Check [GitHub docs](https://docs.github.com/en/get-started/exploring-projects-on-github/contributing-to-a-project) to understand the general process better, if you not fully familiar with it yet. Don't hesitate to ask me for help, if needed.
-3. **Always make sure your code compiles and runs without errors.** 
+3. **Always make sure your code compiles and runs without errors.**
    - Command `mvn clean install` must execute successfully. It is guarded by GitHub workflow in the PR review process and if the changes cannot be compiled, the PR won't be merged until the problems are fixed. If you need help with making code compile, please, ask in the issue/PR comments or contact me directly.
    - Command `java --enable-preview --add-modules=jdk.incubator.vector -jar target/JavaDemos-25.0.jar` must run and finish without errors. You may miss some important context and information without reading the comments in the source code, but at least you will be sure your code is not breaking anything.
 4. Once you are done, create a Pull Request (PR) from your branch to the `main` branch of this repository. Again, check [GitHub docs](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) for more info about PRs. I'd advise you to focus on one JEP at the time, have a new branch and new PR for each. Also, don't forget to sync your fork with the original repository to avoid conflicts. Conflicts are likely, because more people may access the same files (e.g. helpers and JSON resources) at the same time.
@@ -78,7 +79,7 @@ We can always discuss under each individual issue/PR, how to turn your invaluabl
     - If your implementation creates any files, save them under the repository-local `tmp/` folder. This folder is gitignored to prevent untracked artifacts.
     - Follow the markdown style comments to describe the class.
     - Do not hesitate to use (standard) comments inside your code - remember the desired use case is future users will check the code to figure out how the feature works.
-    - Do not forget to add required record to the respective JSON resource file. **Keep the records ordered by JEP number ascending.** This record should follow next structure: JEP number, JDK version, name, brief description, link (true if this JEP is replaced by another JEP), code (true if it contains code and not only comments describing JEP). 
+    - Do not forget to add required record to the respective JSON resource file. **Keep the records ordered by JEP number ascending.** This record should follow next structure: JEP number, JDK version, name, brief description, link (true if this JEP is replaced by another JEP), code (true if it contains code and not only comments describing JEP).
     - Do not forget to add your new demo into the respective helper class for the JDK version, so it gets executed from `Main.java`. Always add comment with JEP number for better clarity. **Keep the demos ordered by JEP number ascending.**
     - Make sure you are not accidentally submitting some other files or changes that are not related to PR topic.
     - Because this project might be quite active with multiple contributors working on same files, please make sure your fork is in sync with the `master` branch of the original repository before submitting the PR. Double-check the "Files changed" tab of your PR and avoid posting anything not relevant to your changes.

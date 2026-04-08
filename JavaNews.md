@@ -1,25 +1,29 @@
 # JAVA NEWS
+
 What is the Java world up to?
 
 ## Sources
+
 Stay up-to-date with the following even more dedicated websites:
-- https://inside.java
-- https://blogs.oracle.com/java
-- https://javapro.io/
-- https://infoworld.com/category/java
-- https://dzone.com/java
-- https://baeldung.com/
-- https://foojay.io/
+
+- <https://inside.java>
+- <https://blogs.oracle.com/java>
+- <https://javapro.io/>
+- <https://infoworld.com/category/java>
+- <https://dzone.com/java>
+- <https://baeldung.com/>
+- <https://foojay.io/>
 
 ## Events
-Check where can you meet fellow Java enthusiasts at:
-- https://javaconferences.org/
 
+Check where can you meet fellow Java enthusiasts at:
+
+- <https://javaconferences.org/>
 
 ## 2026 - April
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
-| --- | :--  |
+| --- | :-- |
 | **`2026-04-03`** | [Natural Language Data Access in Java](https://javapro.io/2026/04/03/talk-to-your-data-natural-language-data-access-in-java/) - using **Hibernate** Assistant with Quarkus and LangChain4j for natural language access to relational data |
 | **`2026-04-02`** | [Helidon 4.4.0 Introduces Alignment with OpenJDK and JVP](https://www.infoq.com/news/2026/04/helidon-4-4-released/) - future versions of **Helidon** microservices framework will match JDK versions and project becomes part of **Java Verified Portfolio** |
 | **`2026-04-02`** | [How to develop AI agents with Spring](https://www.infoworld.com/article/4150199/spring-ai-tutorial-building-ai-agents-with-spring-ai.html) - tutorial on building AI agents with **Spring AI** using familiar Spring conventions and built-in tool support |
@@ -27,7 +31,7 @@ Check where can you meet fellow Java enthusiasts at:
 ## 2026 - March
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
-| --- | :--  |
+| --- | :-- |
 | **`2026-03-30`** | [Announcing ADK for Java 1.0.0](https://developers.googleblog.com/announcing-adk-for-java-100-building-the-future-of-ai-agents-in-java/) - Google released first stable version of **Agent Development Kit** for Java with AI agent tools, plugins, and A2A protocol support |
 | **`2026-03-27`** | [The Java in Education Catalog Now Has a Beautiful Home](https://foojay.io/today/the-java-in-education-catalog-now-has-a-beautiful-home/) - an open-source project for curated collection of Java education materials was established |
 | **`2026-03-24`** | [GraalVM Native Build Tools 1.0.0](https://github.com/graalvm/native-build-tools/releases/tag/1.0.0) - first stable version of the collection of the offical build tool plugins for **GraalVM** was released |
@@ -52,7 +56,7 @@ Check where can you meet fellow Java enthusiasts at:
 ## 2026 - February
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
-| --- | :--  |
+| --- | :-- |
 | **`2026-02-26`** | [Migrating to Modular Monolith](https://blog.jetbrains.com/idea/2026/02/migrating-to-modular-monolith-using-spring-modulith-and-intellij-idea/) - how to embrace **Spring Modulith** with ease in IDEA |
 | **`2026-02-26`** | [JDK 26 G1/Parallel/Serial GC changes](https://tschatzl.github.io/2026/02/26/jdk26-g1-serial-parallel-gc-changes.html) - what can you expect in upcoming **JDK 26** from the garbage collection perspective |
 | **`2026-02-25`** | [Abandoned project linking Java, JavaScript makes a comeback](https://www.infoworld.com/article/4137631/abandoned-project-linking-java-javascript-makes-a-comeback.html) - project **Detroit** aiming for interconnecting Java and JavaScript via Python is possibly re-emerging |
@@ -76,7 +80,7 @@ Check where can you meet fellow Java enthusiasts at:
 ## 2026 - January
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
-| --- | :--  |
+| --- | :-- |
 | **`2026-01-28`** | [How To Do Structured Concurrency in Java 25](https://javapro.io/2026/01/28/how-to-do-structured-concurrency-in-java-25/) - exploring current state of structured concurrency preview feature with practical examples |
 | **`2026-01-20`** | [GlassFish Grizzly 5 released](https://github.com/eclipse-ee4j/glassfish-grizzly/releases/tag/5.0.0-RELEASE) - new major verison of framework for working with Java NIO was released, supporting Java 21 and virtual threads |
 | **`2026-01-17`** | [A new way to call C from Java: how fast is it?](https://lemire.me/blog/2026/01/17/a-new-way-to-call-c-from-java-how-fast-is-it/) - some benchmarks for working with Java's new Foreign Function & Memory API |
@@ -92,7 +96,9 @@ Check where can you meet fellow Java enthusiasts at:
 | **`2026-01-01`** | [Project Panama for Newbies](https://foojay.io/today/project-panama-for-newbies-part-1/) - understand and discover more about **Project Panama** focused on invoking native code from Java side |
 
 ## Java News from previous years
+
 To keep this file reasonable short, older news are being archived:
+
 - [Year 2025](https://github.com/AloisSeckar/demos-java/blob/master/JavaNews2025.md)
 - [Year 2024](https://github.com/AloisSeckar/demos-java/blob/master/JavaNews2024.md)
 - [Year 2023](https://github.com/AloisSeckar/demos-java/blob/master/JavaNews2023.md)
