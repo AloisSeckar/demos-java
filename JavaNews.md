@@ -15,10 +15,20 @@ Stay up-to-date with the following even more dedicated websites:
 Check where can you meet fellow Java enthusiasts at:
 - https://javaconferences.org/
 
+
+## 2026 - April
+
+| Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
+| --- | :--  |
+| **`2026-04-03`** | [Natural Language Data Access in Java](https://javapro.io/2026/04/03/talk-to-your-data-natural-language-data-access-in-java/) - using **Hibernate** Assistant with Quarkus and LangChain4j for natural language access to relational data |
+| **`2026-04-02`** | [Helidon 4.4.0 Introduces Alignment with OpenJDK and JVP](https://www.infoq.com/news/2026/04/helidon-4-4-released/) - future versions of **Helidon** microservices framework will match JDK versions and project becomes part of **Java Verified Portfolio** |
+| **`2026-04-02`** | [How to develop AI agents with Spring](https://www.infoworld.com/article/4150199/spring-ai-tutorial-building-ai-agents-with-spring-ai.html) - tutorial on building AI agents with **Spring AI** using familiar Spring conventions and built-in tool support |
+
 ## 2026 - March
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :--  |
+| **`2026-03-30`** | [Announcing ADK for Java 1.0.0](https://developers.googleblog.com/announcing-adk-for-java-100-building-the-future-of-ai-agents-in-java/) - Google released first stable version of **Agent Development Kit** for Java with AI agent tools, plugins, and A2A protocol support |
 | **`2026-03-27`** | [The Java in Education Catalog Now Has a Beautiful Home](https://foojay.io/today/the-java-in-education-catalog-now-has-a-beautiful-home/) - an open-source project for curated collection of Java education materials was established |
 | **`2026-03-24`** | [GraalVM Native Build Tools 1.0.0](https://github.com/graalvm/native-build-tools/releases/tag/1.0.0) - first stable version of the collection of the offical build tool plugins for **GraalVM** was released |
 | **`2026-03-23`** | [EclipseLink 5.0.0](https://github.com/eclipse-ee4j/eclipselink/releases/tag/5.0.0) - new major version of this Java ORM framework was released |
