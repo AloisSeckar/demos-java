@@ -1,4 +1,4 @@
-name: PR build check (Compile against Java 25 using Maven)
+name: PR build check (Compile against Java 26 using Maven)
 
 on:
   pull_request:
@@ -20,11 +20,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Set up Java 25 (GraalVM)
+      - name: Set up Java 26 (Oracle)
         uses: actions/setup-java@v4
         with:
-          distribution: 'graalvm'
-          java-version: '25'
+          distribution: 'oracle'
+          java-version: '26'
           cache: maven
 
       - name: Maven clean install (compile only)
@@ -39,7 +39,7 @@ jobs:
           export JAVA_TOOL_OPTIONS="-Djava.io.tmpdir=$(pwd)/tmp"
       
           java --enable-preview --add-modules=jdk.incubator.vector \
-               -jar target/JavaDemos-25.0.jar > run.log 2>&1 || {
+               -jar target/JavaDemos-26.0.jar > run.log 2>&1 || {
             echo "Non-zero exit code:"
             cat run.log
             exit 1
