@@ -24,6 +24,8 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :-- |
+| **`2026-04-09`** | [Java Vector API: Faster Vector Computations for the JVM](https://javapro.io/2026/04/09/java-vector-api-faster-vector-computations-for-the-jvm/) - exploring Java's **Vector API** for SIMD operations and how to write portable, high-performance vectorized code |
+| **`2026-04-07`** | [Thread-Safe Native Memory in Java: VarHandle Access Modes Explained](https://foojay.io/today/java-native-memory-access-modes/) - deep dive into **VarHandle** access modes for managing thread-safe native memory with the Foreign Function & Memory API |
 | **`2026-04-03`** | [Natural Language Data Access in Java](https://javapro.io/2026/04/03/talk-to-your-data-natural-language-data-access-in-java/) - using **Hibernate** Assistant with Quarkus and LangChain4j for natural language access to relational data |
 | **`2026-04-02`** | [Helidon 4.4.0 Introduces Alignment with OpenJDK and JVP](https://www.infoq.com/news/2026/04/helidon-4-4-released/) - future versions of **Helidon** microservices framework will match JDK versions and project becomes part of **Java Verified Portfolio** |
 | **`2026-04-02`** | [How to develop AI agents with Spring](https://www.infoworld.com/article/4150199/spring-ai-tutorial-building-ai-agents-with-spring-ai.html) - tutorial on building AI agents with **Spring AI** using familiar Spring conventions and built-in tool support |
