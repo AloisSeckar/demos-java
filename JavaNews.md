@@ -24,6 +24,7 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :-- |
+| **`2026-04-14`** | [Cyrock.AI Knowledge Fabric: The Petabyte-Scale Memory Layer for Enterprise AI](https://cyrock.ai/cyrock-ai-knowledge-fabric-the-petabyte-scale-memory-layer-for-enterprise-ai/) - introducing new Java-based approach for managing large-scale AI memory |
 | **`2026-04-13`** | [JDK 27: Obsolete Translation Resources Removed](https://inside.java/2026/04/13/quality-heads-up/) - **JDK 27** will remove many unmaintained translation resources |
 | **`2026-04-09`** | [Java Vector API: Faster Vector Computations for the JVM](https://javapro.io/2026/04/09/java-vector-api-faster-vector-computations-for-the-jvm/) - exploring Java's **Vector API** for SIMD operations and how to write portable, high-performance vectorized code |
 | **`2026-04-08`** | [Junie CLI Now Connects to Your JetBrains IDE](https://blog.jetbrains.com/junie/2026/04/junie-cli-inside-your-jb-ide/) - AI tool **Junie CLI** can now integrate directly with JetBrains IDEs |
