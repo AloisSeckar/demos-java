@@ -24,6 +24,8 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :-- |
+| **`2026-04-17`** | [Java 26 is boring](https://javapro.io/2026/04/17/java-26-is-boring/) - why is it a good thing and what is new in **JDK 26** release |
+| **`2026-04-14`** | [Oracle Java Extension for VS Code v25.1.0 Is Now Available](https://inside.java/2026/04/14/java-vscode-extension-update/) - VS Code extension for Java programming was updated to support **JDK 26** |
 | **`2026-04-14`** | [Cyrock.AI Knowledge Fabric: The Petabyte-Scale Memory Layer for Enterprise AI](https://cyrock.ai/cyrock-ai-knowledge-fabric-the-petabyte-scale-memory-layer-for-enterprise-ai/) - introducing new Java-based approach for managing large-scale AI memory |
 | **`2026-04-13`** | [JDK 27: Obsolete Translation Resources Removed](https://inside.java/2026/04/13/quality-heads-up/) - **JDK 27** will remove many unmaintained translation resources |
 | **`2026-04-09`** | [Java Vector API: Faster Vector Computations for the JVM](https://javapro.io/2026/04/09/java-vector-api-faster-vector-computations-for-the-jvm/) - exploring Java's **Vector API** for SIMD operations and how to write portable, high-performance vectorized code |
