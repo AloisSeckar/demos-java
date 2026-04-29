@@ -24,6 +24,8 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :-- |
+| **`2026-04-27`** | [Avoiding Final Field Mutation](https://inside.java/2026/04/27/avoiding-final-field-mutation/) - what to do after **JEP 500** start leaning towards restricting changes of variables declared final |
+| **`2026-04-23`** | [IntelliJ IDEA 2026.1.1 Is Out](https://blog.jetbrains.com/idea/2026/04/intellij-idea-2026-1-1/) - JetBrains released new version of the most popular Java IDE |
 | **`2026-04-17`** | [Java 26 is boring](https://javapro.io/2026/04/17/java-26-is-boring/) - why is it a good thing and what is new in **JDK 26** release |
 | **`2026-04-14`** | [Oracle Java Extension for VS Code v25.1.0 Is Now Available](https://inside.java/2026/04/14/java-vscode-extension-update/) - VS Code extension for Java programming was updated to support **JDK 26** |
 | **`2026-04-14`** | [Cyrock.AI Knowledge Fabric: The Petabyte-Scale Memory Layer for Enterprise AI](https://cyrock.ai/cyrock-ai-knowledge-fabric-the-petabyte-scale-memory-layer-for-enterprise-ai/) - introducing new Java-based approach for managing large-scale AI memory |
