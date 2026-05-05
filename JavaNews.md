@@ -20,11 +20,18 @@ Check where can you meet fellow Java enthusiasts at:
 
 - <https://javaconferences.org/>
 
+## 2026 - May
+
+| Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
+| --- | :-- |
+| **`2026-05-05`** | [Critical Apache HTTP Server Flaw Exposes Millions of Servers to RCE Attacks](https://cybersecuritynews.com/apache-http-server-rce/) - users of Apache **httpd** are advised to update their servers to avoid latest discovered vulnerability |
+
 ## 2026 - April
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :-- |
 | **`2026-04-29`** | [Pattern Matching in Java 25: Writing Cleaner, Safer, Faster Code](https://javapro.io/2026/04/28/pattern-matching-in-java-25-writing-cleaner-safer-faster-code/) - an overview of what pattern matching features are available in JDK 25 with simple examples |
+| **`2026-04-27`** | [Micronaut Framework 5.0 with Java 25 Baseline](https://micronaut.io/2026/04/27/micronaut-framework-5-0-with-java-25-baseline/) - new major version of **Micronaut** framework will raise its minimum Java requirement to **Java 25**
 | **`2026-04-27`** | [Avoiding Final Field Mutation](https://inside.java/2026/04/27/avoiding-final-field-mutation/) - what to do after **JEP 500** start leaning towards restricting changes of variables declared final |
 | **`2026-04-23`** | [IntelliJ IDEA 2026.1.1 Is Out](https://blog.jetbrains.com/idea/2026/04/intellij-idea-2026-1-1/) - JetBrains released new version of the most popular Java IDE |
 | **`2026-04-17`** | [Java 26 is boring](https://javapro.io/2026/04/17/java-26-is-boring/) - why is it a good thing and what is new in **JDK 26** release |
