@@ -24,6 +24,7 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :-- |
+| **`2026-05-05`** | [Top Gen AI Frameworks for Java in 2026](https://dev.to/gde/top-gen-ai-frameworks-for-java-in-2026-a-hands-on-comparison-3e29) - detailed comparison of leading 4 frameworks for handling AI in Java |
 | **`2026-05-05`** | [Critical Apache HTTP Server Flaw Exposes Millions of Servers to RCE Attacks](https://cybersecuritynews.com/apache-http-server-rce/) - users of Apache **httpd** are advised to update their servers to avoid latest discovered vulnerability |
 
 ## 2026 - April
