@@ -24,6 +24,10 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :-- |
+| **`2026-05-13`** | [JEP 533 Tightens Exception Handling in Java's Structured Concurrency for JDK 27](https://www.infoq.com/news/2026/05/jep-533-jdk-27/) - **JEP 533** will changs `FailedException` to `ExecutionException` and add a third type parameter to `StructuredTaskScope` in **JDK 27** |
+| **`2026-05-13`** | [JDK 27: Removal of Deprecated Java Launcher Options](https://inside.java/2026/05/13/quality-heads-up/) - **JDK 27** will remove deprecated `-noclassgc`, `-verifyremote`, `-noverify`, and `-Xverify:none` launcher/VM options |
+| **`2026-05-12`** | [What's New and Exciting in JDK 26](https://www.infoworld.com/article/4168040/whats-new-and-exciting-in-jdk-26.html) - comprehensive overview of new features included in most recent **JDK 26** |
+| **`2026-05-06`** | [Accelerating the GraalVM Release Train](https://medium.com/graalvm/accelerating-the-graalvm-release-train-26b0d7cff2ab) - **GraalVM** switches to monthly releases aligned to JDK versions from v25.1 and on since June |
 | **`2026-05-05`** | [Top Gen AI Frameworks for Java in 2026](https://dev.to/gde/top-gen-ai-frameworks-for-java-in-2026-a-hands-on-comparison-3e29) - detailed comparison of leading 4 frameworks for handling AI in Java |
 | **`2026-05-05`** | [Critical Apache HTTP Server Flaw Exposes Millions of Servers to RCE Attacks](https://cybersecuritynews.com/apache-http-server-rce/) - users of Apache **httpd** are advised to update their servers to avoid latest discovered vulnerability |
 
