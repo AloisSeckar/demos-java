@@ -24,6 +24,7 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :-- |
+| **`2026-05-15`** | [JDK 26: Warnings About Final Field Mutation](https://inside.java/2026/05/15/quality-heads-up/) - reminder about new approach heading towards restricting hidden changes of final fields via reflection |
 | **`2026-05-13`** | [JEP 533 Tightens Exception Handling in Java's Structured Concurrency for JDK 27](https://www.infoq.com/news/2026/05/jep-533-jdk-27/) - **JEP 533** will changs `FailedException` to `ExecutionException` and add a third type parameter to `StructuredTaskScope` in **JDK 27** |
 | **`2026-05-13`** | [JDK 27: Removal of Deprecated Java Launcher Options](https://inside.java/2026/05/13/quality-heads-up/) - **JDK 27** will remove deprecated `-noclassgc`, `-verifyremote`, `-noverify`, and `-Xverify:none` launcher/VM options |
 | **`2026-05-12`** | [What's New and Exciting in JDK 26](https://www.infoworld.com/article/4168040/whats-new-and-exciting-in-jdk-26.html) - comprehensive overview of new features included in most recent **JDK 26** |
