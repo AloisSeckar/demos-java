@@ -24,6 +24,7 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :-- |
+| **`2026-05-17`** | [JDK 27: Post-Quantum Hybrid Key Exchange for TLS 1.3](https://inside.java/2026/05/17/quality-heads-up/) - info about **JEP 527** that is scheduled to be integrated into **JDK 27** |
 | **`2026-05-15`** | [JDK 26: Warnings About Final Field Mutation](https://inside.java/2026/05/15/quality-heads-up/) - reminder about new approach heading towards restricting hidden changes of final fields via reflection |
 | **`2026-05-13`** | [JEP 533 Tightens Exception Handling in Java's Structured Concurrency for JDK 27](https://www.infoq.com/news/2026/05/jep-533-jdk-27/) - **JEP 533** will changs `FailedException` to `ExecutionException` and add a third type parameter to `StructuredTaskScope` in **JDK 27** |
 | **`2026-05-13`** | [JDK 27: Removal of Deprecated Java Launcher Options](https://inside.java/2026/05/13/quality-heads-up/) - **JDK 27** will remove deprecated `-noclassgc`, `-verifyremote`, `-noverify`, and `-Xverify:none` launcher/VM options |
