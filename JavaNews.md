@@ -26,7 +26,7 @@ Check where can you meet fellow Java enthusiasts at:
 | --- | :-- |
 | **`2026-05-17`** | [JDK 27: Post-Quantum Hybrid Key Exchange for TLS 1.3](https://inside.java/2026/05/17/quality-heads-up/) - info about **JEP 527** that is scheduled to be integrated into **JDK 27** |
 | **`2026-05-15`** | [JDK 26: Warnings About Final Field Mutation](https://inside.java/2026/05/15/quality-heads-up/) - reminder about new approach heading towards restricting hidden changes of final fields via reflection |
-| **`2026-05-13`** | [JEP 533 Tightens Exception Handling in Java's Structured Concurrency for JDK 27](https://www.infoq.com/news/2026/05/jep-533-jdk-27/) - **JEP 533** will changs `FailedException` to `ExecutionException` and add a third type parameter to `StructuredTaskScope` in **JDK 27** |
+| **`2026-05-13`** | [JEP 533 Tightens Exception Handling in Java's Structured Concurrency for JDK 27](https://www.infoq.com/news/2026/05/jep-533-jdk-27/) - **JEP 533** will change `FailedException` to `ExecutionException` and add a third type parameter to `StructuredTaskScope` in **JDK 27** |
 | **`2026-05-13`** | [JDK 27: Removal of Deprecated Java Launcher Options](https://inside.java/2026/05/13/quality-heads-up/) - **JDK 27** will remove deprecated `-noclassgc`, `-verifyremote`, `-noverify`, and `-Xverify:none` launcher/VM options |
 | **`2026-05-12`** | [What's New and Exciting in JDK 26](https://www.infoworld.com/article/4168040/whats-new-and-exciting-in-jdk-26.html) - comprehensive overview of new features included in most recent **JDK 26** |
 | **`2026-05-06`** | [Accelerating the GraalVM Release Train](https://medium.com/graalvm/accelerating-the-graalvm-release-train-26b0d7cff2ab) - **GraalVM** switches to monthly releases aligned to JDK versions from v25.1 and on since June |
@@ -58,7 +58,7 @@ Check where can you meet fellow Java enthusiasts at:
 | --- | :-- |
 | **`2026-03-30`** | [Announcing ADK for Java 1.0.0](https://developers.googleblog.com/announcing-adk-for-java-100-building-the-future-of-ai-agents-in-java/) - Google released first stable version of **Agent Development Kit** for Java with AI agent tools, plugins, and A2A protocol support |
 | **`2026-03-27`** | [The Java in Education Catalog Now Has a Beautiful Home](https://foojay.io/today/the-java-in-education-catalog-now-has-a-beautiful-home/) - an open-source project for curated collection of Java education materials was established |
-| **`2026-03-24`** | [GraalVM Native Build Tools 1.0.0](https://github.com/graalvm/native-build-tools/releases/tag/1.0.0) - first stable version of the collection of the offical build tool plugins for **GraalVM** was released |
+| **`2026-03-24`** | [GraalVM Native Build Tools 1.0.0](https://github.com/graalvm/native-build-tools/releases/tag/1.0.0) - first stable version of the collection of the official build tool plugins for **GraalVM** was released |
 | **`2026-03-23`** | [EclipseLink 5.0.0](https://github.com/eclipse-ee4j/eclipselink/releases/tag/5.0.0) - new major version of this Java ORM framework was released |
 | **`2026-03-18`** | [Java 26 Delivers Language Innovation, Library Improvements, Performance and Security](https://www.infoq.com/news/2026/03/java26-released/) - summary of new features in recently released **JDK 26** |
 | **`2026-03-18`** | [Zero-Cost AI with Java](https://dzone.com/articles/zero-cost-ai-with-java-1) - a very simple guide to using **Spring AI** and **Ollama** for your own GenAI app |
@@ -107,7 +107,7 @@ Check where can you meet fellow Java enthusiasts at:
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :-- |
 | **`2026-01-28`** | [How To Do Structured Concurrency in Java 25](https://javapro.io/2026/01/28/how-to-do-structured-concurrency-in-java-25/) - exploring current state of structured concurrency preview feature with practical examples |
-| **`2026-01-20`** | [GlassFish Grizzly 5 released](https://github.com/eclipse-ee4j/glassfish-grizzly/releases/tag/5.0.0-RELEASE) - new major verison of framework for working with Java NIO was released, supporting Java 21 and virtual threads |
+| **`2026-01-20`** | [GlassFish Grizzly 5 released](https://github.com/eclipse-ee4j/glassfish-grizzly/releases/tag/5.0.0-RELEASE) - new major version of framework for working with Java NIO was released, supporting Java 21 and virtual threads |
 | **`2026-01-17`** | [A new way to call C from Java: how fast is it?](https://lemire.me/blog/2026/01/17/a-new-way-to-call-c-from-java-how-fast-is-it/) - some benchmarks for working with Java's new Foreign Function & Memory API |
 | **`2026-01-16`** | [WildFly 39 is released](https://www.wildfly.org/news/2026/01/16/WildFly-39-is-released/) - new major version of WildFly app server is now GA |
 | **`2026-01-16`** | [The Ultimate 10 Years Java Garbage Collection Guide](https://foojay.io/today/the-ultimate-10-years-java-garbage-collection-guide-2016-2026-choosing-the-right-gc-for-every-workload/) - comprehensive guide to Java garbage collection evolution and selection strategies over the past decade |
@@ -122,7 +122,7 @@ Check where can you meet fellow Java enthusiasts at:
 
 ## Java News from previous years
 
-To keep this file reasonable short, older news are being archived:
+To keep this file reasonably short, older news are being archived:
 
 - [Year 2025](https://github.com/AloisSeckar/demos-java/blob/master/JavaNews2025.md)
 - [Year 2024](https://github.com/AloisSeckar/demos-java/blob/master/JavaNews2024.md)
