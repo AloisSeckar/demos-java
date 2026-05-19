@@ -24,10 +24,14 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :-- |
+| **`2026-05-19`** | [Vaadin + Quarkus: The New Approach for Enterprise Apps](https://javapro.io/2026/05/19/vaadin-quarkus-the-new-approach-for-enterprise-apps/) - a demo of building Java enterprise apps with **Vaadin Flow** on **Quarkus** as an alternative to common Spring Boot setups |
+| **`2026-05-18`** | [A New Chapter for the Payara Community](https://foojay.io/today/a-new-chapter-for-the-payara-community/) - **Payara Platform Community** is rebranded to **Azul Payara Community** following Azul's acquisition of Payara |
 | **`2026-05-17`** | [JDK 27: Post-Quantum Hybrid Key Exchange for TLS 1.3](https://inside.java/2026/05/17/quality-heads-up/) - info about **JEP 527** that is scheduled to be integrated into **JDK 27** |
 | **`2026-05-15`** | [JDK 26: Warnings About Final Field Mutation](https://inside.java/2026/05/15/quality-heads-up/) - reminder about new approach heading towards restricting hidden changes of final fields via reflection |
 | **`2026-05-13`** | [JEP 533 Tightens Exception Handling in Java's Structured Concurrency for JDK 27](https://www.infoq.com/news/2026/05/jep-533-jdk-27/) - **JEP 533** will change `FailedException` to `ExecutionException` and add a third type parameter to `StructuredTaskScope` in **JDK 27** |
 | **`2026-05-13`** | [JDK 27: Removal of Deprecated Java Launcher Options](https://inside.java/2026/05/13/quality-heads-up/) - **JDK 27** will remove deprecated `-noclassgc`, `-verifyremote`, `-noverify`, and `-Xverify:none` launcher/VM options |
+| **`2026-05-13`** | [Simpler JVM Project Setup with Mill](https://javapro.io/2026/05/13/simpler-jvm-project-setup-with-mill/) - **Mill 1.1.0** introduces single-file scripts for Java, Kotlin, and Scala as a lightweight alternative to Maven |
+| **`2026-05-12`** | [Introducing wado - WildFly Admin Containers](https://www.wildfly.org/news/2026/05/12/Introducing-wado-WildFly-Admin-Containers/) - new CLI tool for spinning up and managing **WildFly** containers was released |
 | **`2026-05-12`** | [What's New and Exciting in JDK 26](https://www.infoworld.com/article/4168040/whats-new-and-exciting-in-jdk-26.html) - comprehensive overview of new features included in most recent **JDK 26** |
 | **`2026-05-06`** | [Accelerating the GraalVM Release Train](https://medium.com/graalvm/accelerating-the-graalvm-release-train-26b0d7cff2ab) - **GraalVM** switches to monthly releases aligned to JDK versions from v25.1 and on since June |
 | **`2026-05-05`** | [Top Gen AI Frameworks for Java in 2026](https://dev.to/gde/top-gen-ai-frameworks-for-java-in-2026-a-hands-on-comparison-3e29) - detailed comparison of leading 4 frameworks for handling AI in Java |
