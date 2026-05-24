@@ -24,6 +24,7 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :-- |
+| **`2026-05-20`** | [JDK 27: Numeric Fields in JSON Thread Dumps](https://inside.java/2026/05/20/quality-heads-up/) - there will be a formatting change in thread dumps into JSON format - numbers will be written down as numbers |
 | **`2026-05-19`** | [Vaadin + Quarkus: The New Approach for Enterprise Apps](https://javapro.io/2026/05/19/vaadin-quarkus-the-new-approach-for-enterprise-apps/) - a demo of building Java enterprise apps with **Vaadin Flow** on **Quarkus** as an alternative to common Spring Boot setups |
 | **`2026-05-18`** | [A New Chapter for the Payara Community](https://foojay.io/today/a-new-chapter-for-the-payara-community/) - **Payara Platform Community** is rebranded to **Azul Payara Community** following Azul's acquisition of Payara |
 | **`2026-05-17`** | [JDK 27: Post-Quantum Hybrid Key Exchange for TLS 1.3](https://inside.java/2026/05/17/quality-heads-up/) - info about **JEP 527** that is scheduled to be integrated into **JDK 27** |
