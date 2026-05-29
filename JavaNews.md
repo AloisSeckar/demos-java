@@ -24,6 +24,9 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :-- |
+| **`2026-05-27`** | [Koog 1.0 Is Out: Stable Core, Better Interop, and Multiplatform Observability](https://blog.jetbrains.com/ai/2026/05/koog-1-0-is-out-stable-core-better-interop-and-multiplatform-observability/) - JetBrains released new open-source framework for building AI agents in Kotlin and Java |
+| **`2026-05-26`** | [TamboUI Promises to Bring Better Capabilities to Build TUIs in Java](https://www.infoq.com/news/2026/05/tamboui-java-tui/) - introducing modern library for TUI (terminal UIs) for Java apps |
+| **`2026-05-23`** | [Agentic AI Workflows for OpenJDK Development](https://joelsiks.com/posts/openjdk-ai-agents/) - Oracle engineer Joel Sikström explains his setup for AI agents in his daily work |
 | **`2026-05-20`** | [JDK 27: Numeric Fields in JSON Thread Dumps](https://inside.java/2026/05/20/quality-heads-up/) - there will be a formatting change in thread dumps into JSON format - numbers will be written down as numbers |
 | **`2026-05-19`** | [Vaadin + Quarkus: The New Approach for Enterprise Apps](https://javapro.io/2026/05/19/vaadin-quarkus-the-new-approach-for-enterprise-apps/) - a demo of building Java enterprise apps with **Vaadin Flow** on **Quarkus** as an alternative to common Spring Boot setups |
 | **`2026-05-18`** | [A New Chapter for the Payara Community](https://foojay.io/today/a-new-chapter-for-the-payara-community/) - **Payara Platform Community** is rebranded to **Azul Payara Community** following Azul's acquisition of Payara |
