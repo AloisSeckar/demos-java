@@ -20,11 +20,19 @@ Check where can you meet fellow Java enthusiasts at:
 
 - <https://javaconferences.org/>
 
+## 2026 - June
+
+| Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
+| --- | :-- |
+| **`2026-06-03`** | [The Gen AI Iceberg – Java Tooling Edition](https://javapro.io/2026/06/03/the-gen-ai-iceberg-java-tooling-edition/) - what Gen AI tooling from Java ecosystem is currently available for you |
+| **`2026-06-02`** | [Virtual Threads Meet AI: Java Concurrency in the Age of Intelligent Systems](https://javapro.io/2026/06/02/virtual-threads-meet-ai-java-concurrency-in-the-age-of-intelligent-systems/) - how Java 26 virtual threads simplify concurrency for AI workloads by replacing complex reactive setups with scalable synchronous code |
+
 ## 2026 - May
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :-- |
 | **`2026-05-27`** | [Koog 1.0 Is Out: Stable Core, Better Interop, and Multiplatform Observability](https://blog.jetbrains.com/ai/2026/05/koog-1-0-is-out-stable-core-better-interop-and-multiplatform-observability/) - JetBrains released new open-source framework for building AI agents in Kotlin and Java |
+| **`2026-05-26`** | [Endive and the Next Chapter of WebAssembly on the JVM](https://bytecodealliance.org/articles/endive-and-the-next-chapter-of-webassembly-on-the-jvm) - a new JVM native WebAssembly runtime based on Chicory was open-sourced under Bytecode Alliance |
 | **`2026-05-26`** | [TamboUI Promises to Bring Better Capabilities to Build TUIs in Java](https://www.infoq.com/news/2026/05/tamboui-java-tui/) - introducing modern library for TUI (terminal UIs) for Java apps |
 | **`2026-05-23`** | [Agentic AI Workflows for OpenJDK Development](https://joelsiks.com/posts/openjdk-ai-agents/) - Oracle engineer Joel Sikström explains his setup for AI agents in his daily work |
 | **`2026-05-20`** | [JDK 27: Numeric Fields in JSON Thread Dumps](https://inside.java/2026/05/20/quality-heads-up/) - there will be a formatting change in thread dumps into JSON format - numbers will be written down as numbers |
