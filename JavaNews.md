@@ -24,6 +24,11 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :-- |
+| **`2026-06-09`** | [Structured Concurrency in Java 26 (JEP 525 Deep Dive)](https://javapro.io/2026/06/09/structured-concurrency-in-java-26-jep-525-deep-dive/) - article focused on latest iteration of Java concurrency handling covering joiners, `onTimeout()` hook, deterministic teardown, and enforced lifetime boundaries |
+| **`2026-06-09`** | [Performance Improvements in JDK 26](https://inside.java/2026/06/09/jdk-26-performance-improvements/) - an overview of notable performance improvements in latest Java version |
+| **`2026-06-08`** | [Oracle Java Extension for VS Code v26.0.0 Is Now Available](https://inside.java/2026/06/08/java-vscode-extension-update/) - VS Code extension for Java updated to v26-compliant version with new run configurations and formatter settings |
+| **`2026-06-04`** | [Tiberius: A Security Testing Framework for LLM Applications in Java](https://foojay.io/today/tiberius-a-security-testing-framework-for-llm-applications-in-java/) - introducing an open-source library for security and bias testing of AI applications |
+| **`2026-06-04`** | [First build of Java 28](https://github.com/openjdk/jdk/releases/tag/jdk-28%2B0) - with JDK 27 slowly stabilizing for release in September, new work is already in progress |
 | **`2026-06-03`** | [The Gen AI Iceberg – Java Tooling Edition](https://javapro.io/2026/06/03/the-gen-ai-iceberg-java-tooling-edition/) - what Gen AI tooling from Java ecosystem is currently available for you |
 | **`2026-06-02`** | [Virtual Threads Meet AI: Java Concurrency in the Age of Intelligent Systems](https://javapro.io/2026/06/02/virtual-threads-meet-ai-java-concurrency-in-the-age-of-intelligent-systems/) - how Java 26 virtual threads simplify concurrency for AI workloads by replacing complex reactive setups with scalable synchronous code |
 
