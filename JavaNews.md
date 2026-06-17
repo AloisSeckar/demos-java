@@ -24,6 +24,8 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :-- |
+| **`2026-06-15`** | [Spring Boot 4.1 Adds gRPC Auto-Configuration, SSRF Mitigation, and Kotlin 2.3 Support](https://www.infoq.com/news/2026/06/spring-boot-4-1/) - a detailed look at recently released **Spring Boot 4.1** and its features |
+| **`2026-06-15`** | [Spring vs Quarkus vs Jooby vs Vert.x: Pick Your Next Java Framework](https://foojay.io/today/spring-quarkus-jooby-vertx-java-framework-comparison/) - comprehensive comparison of four major Java frameworks by building the same CRUD app four times |
 | **`2026-06-12`** | [Spring AI 2.0.0 GA Available Now](https://spring.io/blog/2026/06/12/spring-ai-2-0-0-GA-available-now) - major Spring AI release with improved foundations including Spring Boot 4 baseline, Jackson 3, null-safety, enhanced agentic support with unified tool calling, and comprehensive MCP integration |
 | **`2026-06-12`** | [Oracle's OpenJDK Bans Generative AI Contributions](https://www.infoq.com/news/2026/06/oracle-genai-policies/) - **OpenJDK** published interim policy prohibiting AI-generated contributions citing IP concerns |
 | **`2026-06-10`** | [Spring Boot 4.1.0 available now](https://spring.io/blog/2026/06/10/spring-boot-4) - new **Spring Boot** release featuring gRPC support, updated Jackson configuration properties, HTTP Client SSRF mitigation, observability improvements, and file rotation support for Log4j |
