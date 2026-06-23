@@ -25,6 +25,9 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :-- |
+| **`2026-06-17`** | [OkHttp, Okio, Retrofit, and SQLDelight join Commonhaus](https://www.commonhaus.org/activity/315.html) - new Java open-source projects are securing stability and quality by joining **The Commonhaus Foundation** |
+| **`2026-06-16`** | [Hibernate 8.0.0.Beta1](https://in.relation.to/2026/06/16/orm-80-beta1/) - first beta version of new major version of Java ORM framework **Hibernate** was released |
+| **`2026-06-16`** | [Apache TomEE 11.0.0-M1](https://www.mail-archive.com/users@tomee.apache.org/msg18326.html) - first milestone version of new major version of Java application server **TomEE** was released |
 | **`2026-06-15`** | [Spring Boot 4.1 Adds gRPC Auto-Configuration, SSRF Mitigation, and Kotlin 2.3 Support](https://www.infoq.com/news/2026/06/spring-boot-4-1/) - a detailed look at recently released **Spring Boot 4.1** and its features |
 | **`2026-06-15`** | [Spring vs Quarkus vs Jooby vs Vert.x: Pick Your Next Java Framework](https://foojay.io/today/spring-quarkus-jooby-vertx-java-framework-comparison/) - comprehensive comparison of four major Java frameworks by building the same CRUD app four times |
 | **`2026-06-12`** | [Spring AI 2.0.0 GA Available Now](https://spring.io/blog/2026/06/12/spring-ai-2-0-0-GA-available-now) - major Spring AI release with improved foundations including Spring Boot 4 baseline, Jackson 3, null-safety, enhanced agentic support with unified tool calling, and comprehensive MCP integration |
