@@ -25,6 +25,7 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :-- |
+| **`2026-06-29`** | [Wasm on the JVM Ships Under the Bytecode Alliance](https://foojay.io/today/endive-1-0-wasm/) - after being announced roughly one month ago, pure-Java WebAssembly runtime **Endive v1.0** was released - what does it mean? |
 | **`2026-06-17`** | [OkHttp, Okio, Retrofit, and SQLDelight join Commonhaus](https://www.commonhaus.org/activity/315.html) - new Java open-source projects are securing stability and quality by joining **The Commonhaus Foundation** |
 | **`2026-06-16`** | [Hibernate 8.0.0.Beta1](https://in.relation.to/2026/06/16/orm-80-beta1/) - first beta version of new major version of Java ORM framework **Hibernate** was released |
 | **`2026-06-16`** | [Apache TomEE 11.0.0-M1](https://www.mail-archive.com/users@tomee.apache.org/msg18326.html) - first milestone version of new major version of Java application server **TomEE** was released |
