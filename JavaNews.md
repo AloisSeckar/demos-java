@@ -25,7 +25,10 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :-- |
+| **`2026-06-30`** | [No more Java refills for Intel Macs after JDK 27, says Oracle](https://www.theregister.com/software/2026/06/30/no-more-java-refills-for-intel-macs-after-jdk-27-says-oracle/5263667) - Oracle will stop maintaining macOS/x64 port of **JDK** from version 27, joining other platforms in reducing Intel Mac support |
+| **`2026-06-29`** | [Eliya 25 Brings a JVM-Level Diagnostic Profile to OpenJDK 25 LTS](https://www.infoq.com/news/2026/06/eliya-jvm-diagnostic-profile/) - new **OpenJDK 25** distribution introduces opt-in Production profile for crash, memory, and runtime diagnostics with quarterly CPUs and support through September 2029 |
 | **`2026-06-29`** | [Wasm on the JVM Ships Under the Bytecode Alliance](https://foojay.io/today/endive-1-0-wasm/) - after being announced roughly one month ago, pure-Java WebAssembly runtime **Endive v1.0** was released - what does it mean? |
+| **`2026-06-25`** | [Hardwood 1.0: A Fast, Lightweight Apache Parquet Reader for the JVM](https://www.morling.dev/blog/hardwood-1-0-fast-lightweight-apache-parquet-reader-for-the-jvm/) - new library for reading **Apache Parquet** files with zero mandatory dependencies featuring multi-threaded page decoding, row and column reader APIs, CLI tools, and significantly faster performance |
 | **`2026-06-17`** | [OkHttp, Okio, Retrofit, and SQLDelight join Commonhaus](https://www.commonhaus.org/activity/315.html) - new Java open-source projects are securing stability and quality by joining **The Commonhaus Foundation** |
 | **`2026-06-16`** | [Hibernate 8.0.0.Beta1](https://in.relation.to/2026/06/16/orm-80-beta1/) - first beta version of new major version of Java ORM framework **Hibernate** was released |
 | **`2026-06-16`** | [Apache TomEE 11.0.0-M1](https://www.mail-archive.com/users@tomee.apache.org/msg18326.html) - first milestone version of new major version of Java application server **TomEE** was released |
