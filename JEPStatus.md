@@ -6,7 +6,9 @@ Last updated: **`2026-03-17`**
 
 ## NOTE
 
-This page is now **discontinued** as I am unable to provide reasonable pace of updates
+This page is now **discontinued** as I am unable to provide reasonable pace of updates.
+
+Check [The Java Version Almanac](https://javaalmanac.io/) project for up-to-date information about the state of Java language.
 
 ## Java 26
 

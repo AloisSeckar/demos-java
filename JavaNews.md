@@ -2,6 +2,14 @@
 
 What is the Java world up to?
 
+## State of JDK
+
+Check the latest development in Java language:
+
+- [JEP Index](https://openjdk.org/jeps/0)
+- [The Java Version Almanac](https://javaalmanac.io/)
+- [JDK Bug System](https://bugs.openjdk.org/projects/JDK/issues/)
+
 ## Sources
 
 Stay up-to-date with the following even more dedicated websites:
@@ -20,7 +28,7 @@ Stay up-to-date with the following even more dedicated websites:
 Check where can you meet fellow Java enthusiasts at:
 
 - <https://javaconferences.org/>
-- 
+
 ## 2026 - July
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
