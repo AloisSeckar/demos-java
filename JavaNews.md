@@ -20,12 +20,20 @@ Stay up-to-date with the following even more dedicated websites:
 Check where can you meet fellow Java enthusiasts at:
 
 - <https://javaconferences.org/>
+- 
+## 2026 - July
+
+| Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
+| --- | :-- |
+| **`2026-07-06`** | [A Week of Housekeeping: What Changed on Foojay.io](https://foojay.io/today/a-week-of-housekeeping-what-changed-on-foojay-io/) - the portal about Java backed by **Azul** got some new updates |
 
 ## 2026 - June
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :-- |
+| **`2026-06-30`** | [GraalVM 25.1 is here](https://medium.com/graalvm/graalvm-25-1-is-here-13829606982e) - the first _innovation release_ of **GraalVM** following the versioning change announced in May was released |
 | **`2026-06-30`** | [No more Java refills for Intel Macs after JDK 27, says Oracle](https://www.theregister.com/software/2026/06/30/no-more-java-refills-for-intel-macs-after-jdk-27-says-oracle/5263667) - Oracle will stop maintaining macOS/x64 port of **JDK** from version 27, joining other platforms in reducing Intel Mac support |
+| **`2026-06-29`** | [Azul offers free JVM vulnerability risk assessment](https://www.infoworld.com/article/4190710/azul-offers-free-jvm-vulnerability-risk-assessment.html) - you can use new free tool by **Azul** company to evaluate risks in your JVM codebases |
 | **`2026-06-29`** | [Eliya 25 Brings a JVM-Level Diagnostic Profile to OpenJDK 25 LTS](https://www.infoq.com/news/2026/06/eliya-jvm-diagnostic-profile/) - new **OpenJDK 25** distribution introduces opt-in Production profile for crash, memory, and runtime diagnostics with quarterly CPUs and support through September 2029 |
 | **`2026-06-29`** | [Wasm on the JVM Ships Under the Bytecode Alliance](https://foojay.io/today/endive-1-0-wasm/) - after being announced roughly one month ago, pure-Java WebAssembly runtime **Endive v1.0** was released - what does it mean? |
 | **`2026-06-25`** | [Hardwood 1.0: A Fast, Lightweight Apache Parquet Reader for the JVM](https://www.morling.dev/blog/hardwood-1-0-fast-lightweight-apache-parquet-reader-for-the-jvm/) - new library for reading **Apache Parquet** files with zero mandatory dependencies featuring multi-threaded page decoding, row and column reader APIs, CLI tools, and significantly faster performance |
