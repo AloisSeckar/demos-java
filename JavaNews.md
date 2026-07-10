@@ -33,6 +33,8 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :-- |
+| **`2026-07-08`** | [LangChain4j: From AI Calls to Multi-Agent Systems in Java](https://javapro.io/2026/07/08/langchain4j-agentic-workflows-from-ai-calls-to-multi-agent-systems-in-java/) - comprehensive guide to **LangChain4j** agentic module covering sequential, loop, parallel, and conditional workflow patterns, goal-oriented planning, supervisor pattern, and human-in-the-loop |
+| **`2026-07-06`** | [New Java-Based QuimaRAT MaaS Built to Run on Windows, Linux, and macOS](https://thehackernews.com/2026/07/new-java-based-quimarat-maas-built-to.html) - there is a new cross-platform Java-based RAT malware **QuimaRAT** sold as MaaS |
 | **`2026-07-06`** | [A Week of Housekeeping: What Changed on Foojay.io](https://foojay.io/today/a-week-of-housekeeping-what-changed-on-foojay-io/) - the portal about Java backed by **Azul** got some new updates |
 
 ## 2026 - June
@@ -46,11 +48,13 @@ Check where can you meet fellow Java enthusiasts at:
 | **`2026-06-29`** | [Wasm on the JVM Ships Under the Bytecode Alliance](https://foojay.io/today/endive-1-0-wasm/) - after being announced roughly one month ago, pure-Java WebAssembly runtime **Endive v1.0** was released - what does it mean? |
 | **`2026-06-25`** | [Hardwood 1.0: A Fast, Lightweight Apache Parquet Reader for the JVM](https://www.morling.dev/blog/hardwood-1-0-fast-lightweight-apache-parquet-reader-for-the-jvm/) - new library for reading **Apache Parquet** files with zero mandatory dependencies featuring multi-threaded page decoding, row and column reader APIs, CLI tools, and significantly faster performance |
 | **`2026-06-17`** | [OkHttp, Okio, Retrofit, and SQLDelight join Commonhaus](https://www.commonhaus.org/activity/315.html) - new Java open-source projects are securing stability and quality by joining **The Commonhaus Foundation** |
+| **`2026-06-17`** | [Your JetBrains IDE Expertise, Now on LinkedIn](https://blog.jetbrains.com/blog/2026/06/17/your-jetbrains-ide-expertise-now-on-linkedin/) - JetBrains launches **LinkedIn Connected Apps** plugin to showcase real IDE usage expertise directly on your professional profile |
 | **`2026-06-16`** | [Hibernate 8.0.0.Beta1](https://in.relation.to/2026/06/16/orm-80-beta1/) - first beta version of new major version of Java ORM framework **Hibernate** was released |
 | **`2026-06-16`** | [Apache TomEE 11.0.0-M1](https://www.mail-archive.com/users@tomee.apache.org/msg18326.html) - first milestone version of new major version of Java application server **TomEE** was released |
 | **`2026-06-15`** | [Spring Boot 4.1 Adds gRPC Auto-Configuration, SSRF Mitigation, and Kotlin 2.3 Support](https://www.infoq.com/news/2026/06/spring-boot-4-1/) - a detailed look at recently released **Spring Boot 4.1** and its features |
 | **`2026-06-15`** | [Spring vs Quarkus vs Jooby vs Vert.x: Pick Your Next Java Framework](https://foojay.io/today/spring-quarkus-jooby-vertx-java-framework-comparison/) - comprehensive comparison of four major Java frameworks by building the same CRUD app four times |
 | **`2026-06-12`** | [Spring AI 2.0.0 GA Available Now](https://spring.io/blog/2026/06/12/spring-ai-2-0-0-GA-available-now) - major Spring AI release with improved foundations including Spring Boot 4 baseline, Jackson 3, null-safety, enhanced agentic support with unified tool calling, and comprehensive MCP integration |
+| **`2026-06-12`** | [Ternary, Predicate, and Pattern Matching for FizzBuzz with Java 26](https://donraab.medium.com/ternary-predicate-and-pattern-matching-for-fizzbuzz-with-java-26-646c812a137b) - exploring FizzBuzz implementations using **Java 26** primitive pattern matching with switch, ternary expressions, and Eclipse Collections |
 | **`2026-06-12`** | [Oracle's OpenJDK Bans Generative AI Contributions](https://www.infoq.com/news/2026/06/oracle-genai-policies/) - **OpenJDK** published interim policy prohibiting AI-generated contributions citing IP concerns |
 | **`2026-06-10`** | [Spring Boot 4.1.0 available now](https://spring.io/blog/2026/06/10/spring-boot-4) - new **Spring Boot** release featuring gRPC support, updated Jackson configuration properties, HTTP Client SSRF mitigation, observability improvements, and file rotation support for Log4j |
 | **`2026-06-10`** | [A2A Java SDK 1.0.0.Final Released](https://quarkus.io/blog/a2a-java-sdk-1-0-0-final-released/) - first GA release of the official Java implementation of the **Agent2Agent (A2A) Protocol** for AI agent collaboration, with Quarkus and WildFly/Jakarta EE integration |
@@ -58,16 +62,19 @@ Check where can you meet fellow Java enthusiasts at:
 | **`2026-06-09`** | [Structured Concurrency in Java 26 (JEP 525 Deep Dive)](https://javapro.io/2026/06/09/structured-concurrency-in-java-26-jep-525-deep-dive/) - article focused on latest iteration of Java concurrency handling covering joiners, `onTimeout()` hook, deterministic teardown, and enforced lifetime boundaries |
 | **`2026-06-09`** | [Performance Improvements in JDK 26](https://inside.java/2026/06/09/jdk-26-performance-improvements/) - an overview of notable performance improvements in latest Java version |
 | **`2026-06-08`** | [Oracle Java Extension for VS Code v26.0.0 Is Now Available](https://inside.java/2026/06/08/java-vscode-extension-update/) - VS Code extension for Java updated to v26-compliant version with new run configurations and formatter settings |
+| **`2026-06-04`** | [J-Spring 2026](https://jspring.nl/) - conference took place at **Utrecht, NED** on 4th June |
 | **`2026-06-04`** | [Tiberius: A Security Testing Framework for LLM Applications in Java](https://foojay.io/today/tiberius-a-security-testing-framework-for-llm-applications-in-java/) - introducing an open-source library for security and bias testing of AI applications |
 | **`2026-06-04`** | [First build of Java 28](https://github.com/openjdk/jdk/releases/tag/jdk-28%2B0) - with JDK 27 slowly stabilizing for release in September, new work is already in progress |
 | **`2026-06-03`** | [The Gen AI Iceberg – Java Tooling Edition](https://javapro.io/2026/06/03/the-gen-ai-iceberg-java-tooling-edition/) - what Gen AI tooling from Java ecosystem is currently available for you |
 | **`2026-06-02`** | [Virtual Threads Meet AI: Java Concurrency in the Age of Intelligent Systems](https://javapro.io/2026/06/02/virtual-threads-meet-ai-java-concurrency-in-the-age-of-intelligent-systems/) - how Java 26 virtual threads simplify concurrency for AI workloads by replacing complex reactive setups with scalable synchronous code |
+| **`2026-06-01`** | [Spring and Security In The Times Of AI](https://spring.io/blog/2026/06/01/spring_and_security_in_the_times_of_ai) - **Spring** team reports on massive spike in AI-generated security reports and recommends upgrading to latest June releases |
 
 ## 2026 - May
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :-- |
 | **`2026-05-27`** | [Koog 1.0 Is Out: Stable Core, Better Interop, and Multiplatform Observability](https://blog.jetbrains.com/ai/2026/05/koog-1-0-is-out-stable-core-better-interop-and-multiplatform-observability/) - JetBrains released new open-source framework for building AI agents in Kotlin and Java |
+| **`2026-05-26`** | [Hibernate 7.4 New Features](https://blog.jetbrains.com/idea/2026/05/hibernate-7-4-new-features/) - new minor version of **Hibernate** improves paginated fetch joins, adds built-in temporal history tables, and native audit logging |
 | **`2026-05-26`** | [Endive and the Next Chapter of WebAssembly on the JVM](https://bytecodealliance.org/articles/endive-and-the-next-chapter-of-webassembly-on-the-jvm) - a new JVM native WebAssembly runtime based on Chicory was open-sourced under Bytecode Alliance |
 | **`2026-05-26`** | [TamboUI Promises to Bring Better Capabilities to Build TUIs in Java](https://www.infoq.com/news/2026/05/tamboui-java-tui/) - introducing modern library for TUI (terminal UIs) for Java apps |
 | **`2026-05-23`** | [Agentic AI Workflows for OpenJDK Development](https://joelsiks.com/posts/openjdk-ai-agents/) - Oracle engineer Joel Sikström explains his setup for AI agents in his daily work |
