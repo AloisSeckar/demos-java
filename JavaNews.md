@@ -33,6 +33,9 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :-- |
+| **`2026-07-15`** | [Serverless Functions Reimagined with Java 25](https://javapro.io/2026/07/15/serverless-functions-reimagined-with-java-25/) - how recent **JVM 25** supports serverless computing |
+| **`2026-07-10`** | [TornadoVM 5.0.0: Native CUDA Support and the Hybrid API](https://www.tornadovm.org/blogs/tornadovm-5-0-0-native-cuda-and-hybrid-api) - new major version of **TornadoVM** adds native CUDA support, Tensor Core MMA, and a Hybrid API for mixing JIT-compiled Java with native CUDA libraries |
+| **`2026-07-08`** | [Announcing OmniFish Build of Payara](https://omnifish.ee/announcing-omnifish-build-of-payara/) - **OmniFish** launches professionally maintained Payara Server distribution with security updates and critical fixes for Payara Community |
 | **`2026-07-08`** | [LangChain4j: From AI Calls to Multi-Agent Systems in Java](https://javapro.io/2026/07/08/langchain4j-agentic-workflows-from-ai-calls-to-multi-agent-systems-in-java/) - comprehensive guide to **LangChain4j** agentic module covering sequential, loop, parallel, and conditional workflow patterns, goal-oriented planning, supervisor pattern, and human-in-the-loop |
 | **`2026-07-06`** | [New Java-Based QuimaRAT MaaS Built to Run on Windows, Linux, and macOS](https://thehackernews.com/2026/07/new-java-based-quimarat-maas-built-to.html) - there is a new cross-platform Java-based RAT malware **QuimaRAT** sold as MaaS |
 | **`2026-07-06`** | [A Week of Housekeeping: What Changed on Foojay.io](https://foojay.io/today/a-week-of-housekeeping-what-changed-on-foojay-io/) - the portal about Java backed by **Azul** got some new updates |
