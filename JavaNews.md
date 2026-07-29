@@ -33,6 +33,11 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :-- |
+| **`2026-07-28`** | [JDK 28: jlink cacerts Plugin](https://inside.java/2026/07/28/quality-heads-up/) - **JDK 28** adds a new `jlink` plugin to include only selected CA certificates for secure JVM builds |
+| **`2026-07-27`** | [What CSPUs Mean for Your Release Pipeline](https://foojay.io/today/new-between-quarters-security-updates-for-java-what-cspus-mean-for-your-release-pipeline/) - overview of the new **CSPU** monthly security patch cycle for Java |
+| **`2026-07-22`** | [Lazy Constants in Java 26: Deferred Immutability and JVM Trust](https://javapro.io/2026/07/22/lazy-constants-in-java-26-deferred-immutability-and-jvm-trust/) - deep dive into **JEP 526** `LazyConstant` API in Java 26 covering JVM optimization and practical trade-offs |
+| **`2026-07-20`** | [Transitioning Java to More Frequent Security Updates](https://blogs.oracle.com/java/transitioning-java-to-more-frequent-security-updates) - **Oracle** confirms shift toward monthly **CSPU** security releases for Java, targeting August 18 as the first extra update |
+| **`2026-07-20`** | [Embabel 1.0 Is Here: AI Agent Framework for Java Goes GA](https://www.danvega.dev/blog/embabel-1-0-ga) - **Embabel 1.0**, the new Goal-Oriented Action Planning agent framework for the JVM built on Spring AI reaches general availability |
 | **`2026-07-20`** | [JDK 27: Default G1 in All Environments](https://inside.java/2026/07/20/quality-heads-up/) - starting with **JDK 27**, G1 will be the default garbage collector in all environments |
 | **`2026-07-17`** | [Patch Java classes at build time with Quarkus Shim](https://quarkus.io/blog/quarkus-shim/) - new **Quarkus** extension allows modifying library classes during build time without runtime instrumentation |
 | **`2026-07-16`** | [WildFly 41 is released!](https://www.wildfly.org/news/2026/07/16/WildFly-41-is-released/) - **WildFly 41** released with EE 11 support, bootable jar cloud packaging, JDK 25 and UBI 10 images, stability level promotions, transaction recovery improvements, and dependency updates |
@@ -104,6 +109,7 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :-- |
+| **`2026-04-29`** | [Accelerating Vulnerability Detection and Response at Oracle](https://blogs.oracle.com/security/accelerating-vulnerability-detection-and-response-at-oracle) - Oracle is about to battle with security issues and delivering patches faster |
 | **`2026-04-29`** | [Pattern Matching in Java 25: Writing Cleaner, Safer, Faster Code](https://javapro.io/2026/04/28/pattern-matching-in-java-25-writing-cleaner-safer-faster-code/) - an overview of what pattern matching features are available in JDK 25 with simple examples |
 | **`2026-04-27`** | [Micronaut Framework 5.0 with Java 25 Baseline](https://micronaut.io/2026/04/27/micronaut-framework-5-0-with-java-25-baseline/) - new major version of **Micronaut** framework will raise its minimum Java requirement to **Java 25** |
 | **`2026-04-27`** | [Avoiding Final Field Mutation](https://inside.java/2026/04/27/avoiding-final-field-mutation/) - what to do after **JEP 500** start leaning towards restricting changes of variables declared final |
