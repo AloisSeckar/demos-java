@@ -10,6 +10,7 @@ import org.javademos.commons.IDemo;
 ///
 /// ### Further reading
 /// - [Lazy Constants in Java](https://www.baeldung.com/java-lazy-constants)
+/// - [Lazy Constants in Java 26](https://javapro.io/2026/07/22/lazy-constants-in-java-26-deferred-immutability-and-jvm-trust/)
 ///
 /// @author @CodeSakshamY / alois.seckar@gmail.com
 public class LazyConstantsDemo implements IDemo {
