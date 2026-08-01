@@ -33,6 +33,8 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :-- |
+| **`2026-07-31`** | [Virtual Threads After JDK 24](https://www.infoq.com/articles/virtual-threads-after-jdk24/) - comprehensive analysis of **virtual threads** post-JDK 24 production adoption |
+| **`2026-07-29`** | [JDK 27: The new features of Java 27](https://www.infoworld.com/article/4202901/jdk-27-the-new-features-of-java-27.html) - what will appear in **JDK 27** scheduled to be released in September |
 | **`2026-07-28`** | [JDK 28: jlink cacerts Plugin](https://inside.java/2026/07/28/quality-heads-up/) - **JDK 28** adds a new `jlink` plugin to include only selected CA certificates for secure JVM builds |
 | **`2026-07-27`** | [What CSPUs Mean for Your Release Pipeline](https://foojay.io/today/new-between-quarters-security-updates-for-java-what-cspus-mean-for-your-release-pipeline/) - overview of the new **CSPU** monthly security patch cycle for Java |
 | **`2026-07-22`** | [Lazy Constants in Java 26: Deferred Immutability and JVM Trust](https://javapro.io/2026/07/22/lazy-constants-in-java-26-deferred-immutability-and-jvm-trust/) - deep dive into **JEP 526** `LazyConstant` API in Java 26 covering JVM optimization and practical trade-offs |
