@@ -21,6 +21,7 @@ Stay up-to-date with the following even more dedicated websites:
 - <https://dzone.com/java>
 - <https://baeldung.com/>
 - <https://foojay.io/>
+- <https://blog.jetbrains.com/>
 - <https://www.jvm-weekly.com/>
 
 ## Events
