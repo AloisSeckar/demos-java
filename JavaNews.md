@@ -29,6 +29,12 @@ Check where can you meet fellow Java enthusiasts at:
 
 - <https://javaconferences.org/>
 
+## 2026 - August
+
+| Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
+| --- | :-- |
+| **`2026-08-04`** | [IntelliJ IDEA Goes LSP](https://blog.jetbrains.com/idea/2026/08/intellij-idea-goes-lsp/) - famous JetBrains IDE for Java and Kotlin now offers extension for VS Code and its forks (e.g. Cursor) |
+
 ## 2026 - July
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
