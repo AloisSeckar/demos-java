@@ -34,6 +34,7 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :-- |
+| **`2026-08-05`** | [Jakarta Agentic AI Hits Its First Milestone](https://foojay.io/today/jakarta-agentic-ai-hits-its-first-milestone/) - vendor-neutral, standardized APIs for building AI agents to Jakarta EE runtimes is getting close to a stable release |
 | **`2026-08-04`** | [IntelliJ IDEA Goes LSP](https://blog.jetbrains.com/idea/2026/08/intellij-idea-goes-lsp/) - famous JetBrains IDE for Java and Kotlin now offers extension for VS Code and its forks (e.g. Cursor) |
 
 ## 2026 - July
