@@ -72,6 +72,7 @@ Check where can you meet fellow Java enthusiasts at:
 | **`2025-10-23`** | [JavaDays 2025](https://javadays.cz/) - conference took place at **Prague, CZE** between 22nd and 23rd October |
 | **`2025-10-22`** | [The best new features in Java 25](https://www.infoworld.com/article/4075736/7-key-features-in-java-25.html) - what you shouldn't miss from the recent JDK release |
 | **`2025-10-22`** | [Cutting Boilerplate and Complexity: Inside Jakarta Data](https://javapro.io/2025/10/22/cutting-boilerplate-and-complexity-inside-jakarta-data/) - overview of main idea and features of Jakarta EE 11 approach to working with data sources |
+| **`2025-10-20`** | [Exploring the Future of AI with the Jakarta EE Community](https://www.azul.com/blog/announcing-the-jakarta-agentic-ai-project/) - a new vendor-neutral, standardized APIs for building AI agents to Jakarta EE runtimes is now under development |
 | **`2025-10-18`** | [Apache Grails 7.0.0 - Release Announcement](https://grails.apache.org/blog/2025-10-18-introducing-grails-7.html) - new major version of Groovy-based web framework was released |
 | **`2025-10-16`** | [WildFly 38 is released](https://www.wildfly.org/news/2025/10/16/WildFly-38-is-released/) - new version of WildFly app server was released |
 | **`2025-10-16`** | [Merging Hilla into Flow: Embracing the Java core](https://vaadin.com/blog/merging-hilla-into-flow) - Vaadin will eventually blend two of their technologies together for better DevEx |
