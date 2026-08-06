@@ -34,6 +34,7 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :-- |
+| **`2026-08-06`** | [Intelligent Test Automation in the Java 26 Era](https://javapro.io/2026/08/06/intelligent-test-automation-in-the-java-26-era-eliminating-flaky-tests-with-modern-concurrency-stability-engineering-and-smart-tooling/) - why traditional Java tests may tend to fail and what can **JDK 26** offer to mitigate such causes |
 | **`2026-08-05`** | [Jakarta Agentic AI Hits Its First Milestone](https://foojay.io/today/jakarta-agentic-ai-hits-its-first-milestone/) - vendor-neutral, standardized APIs for building AI agents to Jakarta EE runtimes is getting close to a stable release |
 | **`2026-08-04`** | [IntelliJ IDEA Goes LSP](https://blog.jetbrains.com/idea/2026/08/intellij-idea-goes-lsp/) - famous JetBrains IDE for Java and Kotlin now offers extension for VS Code and its forks (e.g. Cursor) |
 
