@@ -34,6 +34,7 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :-- |
+| **`2026-08-10`** | [JEP 401 Redefines == for Java Objects](https://www.infoq.com/news/2026/08/jep401-value-objects-preview/) - an important feature from Project Valhalla will land in **JDK 28** |
 | **`2026-08-06`** | [Post-Quantum Cryptography in Long-Term Support JDK Releases](https://blogs.oracle.com/java/post-quantum-cryptography-in-long-term-support-jdk-releases) - **Oracle** shared roadmap for backporting advanced cryptography features into older LTS JDKs |
 | **`2026-08-06`** | [Intelligent Test Automation in the Java 26 Era](https://javapro.io/2026/08/06/intelligent-test-automation-in-the-java-26-era-eliminating-flaky-tests-with-modern-concurrency-stability-engineering-and-smart-tooling/) - why traditional Java tests may tend to fail and what can **JDK 26** offer to mitigate such causes |
 | **`2026-08-05`** | [Jakarta Agentic AI Hits Its First Milestone](https://foojay.io/today/jakarta-agentic-ai-hits-its-first-milestone/) - vendor-neutral, standardized APIs for building AI agents to Jakarta EE runtimes is getting close to a stable release |
