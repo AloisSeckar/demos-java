@@ -11,7 +11,7 @@
     "jep": 522,
     "jdk": 26,
     "name":"JEP 522 - G1 GC: Improve Throughput by Reducing Synchronization",
-    "dscr": "Increase application throughput when using the G1 garbage collector by reducing the amount of synchronization required between application threads and GC threads.",
+    "dscr": "Improve latency and throughput by reducing the amount of synchronization required between application threads and GC threads",
     "link": false,
     "code": false
   }
