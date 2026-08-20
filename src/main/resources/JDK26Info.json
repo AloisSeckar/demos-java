@@ -6,5 +6,13 @@
     "dscr": "Lazy Constants offer an immutable data abstraction for performance and safety.",
     "link": false,
     "code": true
+  },
+  {
+    "jep": 522,
+    "jdk": 26,
+    "name":"JEP 522 - G1 GC: Improve Throughput by Reducing Synchronization",
+    "dscr": "Increase application throughput when using the G1 garbage collector by reducing the amount of synchronization required between application threads and GC threads.",
+    "link": false,
+    "code": false
   }
 ]
