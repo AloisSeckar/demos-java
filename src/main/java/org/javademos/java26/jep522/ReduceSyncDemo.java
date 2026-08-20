@@ -106,8 +106,8 @@ public class ReduceSyncDemo implements IDemo {
         // - No new user-facing GC mode needs to be selected
         // - Existing G1 tuning options remain applicable
         //
-        // The existing G1 concurrent refinement controls remain the same as 
-        // it is assumed to cover all necessarty use cases:
+        // The existing G1 concurrent refinement controls remain the same as
+        // it is assumed to cover all necessary use cases:
         //
         //   -XX:-G1UseConcRefinement
         //   -XX:G1ConcRefinementThreads=<number>
