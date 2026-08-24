@@ -4,7 +4,7 @@ import java.util.Map;
 
 import org.javademos.commons.IDemo;
 import org.javademos.commons.IDemoLoader;
-
+import org.javademos.java26.jep522.ReduceSyncDemo;
 import org.javademos.java26.jep526.LazyConstantsDemo;
 
 /**
@@ -14,6 +14,7 @@ public class Java26DemoLoader implements IDemoLoader {
     
     @Override
     public void loadDemos(Map<Integer, IDemo> demos) {
+        demos.put(522, new ReduceSyncDemo());
         demos.put(526, new LazyConstantsDemo());
     }
 }

@@ -1,5 +1,13 @@
 [  
   {
+    "jep": 522,
+    "jdk": 26,
+    "name":"JEP 522 - G1 GC: Improve Throughput by Reducing Synchronization",
+    "dscr": "Improve latency and throughput by reducing the amount of synchronization required between application threads and GC threads",
+    "link": false,
+    "code": false
+  },
+  {
     "jep": 526,
     "jdk": 26,
     "name": "JEP 526 - Lazy Constants (Preview)",
