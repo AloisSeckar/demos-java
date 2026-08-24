@@ -14,7 +14,7 @@ public class Java26DemoLoader implements IDemoLoader {
     
     @Override
     public void loadDemos(Map<Integer, IDemo> demos) {
-        demos.put(526, new LazyConstantsDemo());
         demos.put(522, new ReduceSyncDemo());
+        demos.put(526, new LazyConstantsDemo());
     }
 }
