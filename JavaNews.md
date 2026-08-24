@@ -34,6 +34,7 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :-- |
+| **`2026-08-24`** | [JDK 27 and JDK 28: What We Know So Far](https://www.infoq.com/news/2026/08/java-27-so-far/) - a summary of the upcoming two JDK releases |
 | **`2026-08-21`** | [JDK 28: Named Group Information Captured in the TLSHandshake JFR Event](https://inside.java/2026/08/21/quality-heads-up/) - Java 28 will update the way of recording TLS handshaking in **JFR** |
 | **`2026-08-17`** | [JEP 540 Proposed to Target JDK 28 with a Simple JSON API](https://www.infoq.com/news/2026/08/java-native-json-api/) - Java should receive a new native JSON API in **JDK 28** |
 | **`2026-08-10`** | [JEP 401 Redefines == for Java Objects](https://www.infoq.com/news/2026/08/jep401-value-objects-preview/) - an important feature from Project Valhalla will land in **JDK 28** |
