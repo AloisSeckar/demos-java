@@ -34,8 +34,10 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :-- |
+| **`2026-08-27`** | [Java 26 Adopts HTTP/3 with the Evolution of the HttpClient](https://javapro.io/2026/08/27/java-26-adopts-http-3-with-the-evolution-of-the-httpclient/) - **JEP 517** brings **HTTP/3** support to `HttpClient`, negotiating protocols transparently and eliminating transport-layer head-of-line blocking |
 | **`2026-08-24`** | [JDK 27 and JDK 28: What We Know So Far](https://www.infoq.com/news/2026/08/java-27-so-far/) - a summary of the upcoming two JDK releases |
 | **`2026-08-21`** | [JDK 28: Named Group Information Captured in the TLSHandshake JFR Event](https://inside.java/2026/08/21/quality-heads-up/) - Java 28 will update the way of recording TLS handshaking in **JFR** |
+| **`2026-08-19`** | [Atmosphere 4 Released, Now Shipping a Portable AI Agent Component](https://async-io.live/blog/atmosphere-4x-ai/) - the real-time JVM transport library adds an `@Agent` annotation model with built-in governance, plan verification and durable workflows |
 | **`2026-08-17`** | [JEP 540 Proposed to Target JDK 28 with a Simple JSON API](https://www.infoq.com/news/2026/08/java-native-json-api/) - Java should receive a new native JSON API in **JDK 28** |
 | **`2026-08-14`** | [JDK 21 approaches end-of-permissive license](https://blogs.oracle.com/java/jdk-21-approaches-end-of-permissive-license) - reminder that starting from October 2026 production updates of Oracle **Java 21** will require paid subscription |
 | **`2026-08-10`** | [JEP 401 Redefines == for Java Objects](https://www.infoq.com/news/2026/08/jep401-value-objects-preview/) - an important feature from Project Valhalla will land in **JDK 28** |
