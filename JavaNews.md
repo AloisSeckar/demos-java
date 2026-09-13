@@ -18,6 +18,7 @@ Stay up-to-date with the following even more dedicated websites:
 - <https://blogs.oracle.com/java>
 - <https://javapro.io/>
 - <https://infoworld.com/category/java>
+- <https://www.infoq.com/java/>
 - <https://dzone.com/java>
 - <https://baeldung.com/>
 - <https://foojay.io/>
