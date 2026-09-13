@@ -18,6 +18,7 @@ Stay up-to-date with the following even more dedicated websites:
 - <https://blogs.oracle.com/java>
 - <https://javapro.io/>
 - <https://infoworld.com/category/java>
+- <https://www.infoq.com/java/>
 - <https://dzone.com/java>
 - <https://baeldung.com/>
 - <https://foojay.io/>
@@ -30,13 +31,22 @@ Check where can you meet fellow Java enthusiasts at:
 
 - <https://javaconferences.org/>
 
+## 2026 - September
+
+| Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
+| --- | :-- |
+| **`2026-09-10`** | [What’s New in Jackson 3](https://www.baeldung.com/java-jackson-3-updates) - the new major version of JSON processing library is here for a while, what does it really bring |
+
 ## 2026 - August
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :-- |
+| **`2026-08-27`** | [Java 26 Adopts HTTP/3 with the Evolution of the HttpClient](https://javapro.io/2026/08/27/java-26-adopts-http-3-with-the-evolution-of-the-httpclient/) - **JEP 517** brings **HTTP/3** support to `HttpClient`, negotiating protocols transparently and eliminating transport-layer head-of-line blocking |
 | **`2026-08-24`** | [JDK 27 and JDK 28: What We Know So Far](https://www.infoq.com/news/2026/08/java-27-so-far/) - a summary of the upcoming two JDK releases |
 | **`2026-08-21`** | [JDK 28: Named Group Information Captured in the TLSHandshake JFR Event](https://inside.java/2026/08/21/quality-heads-up/) - Java 28 will update the way of recording TLS handshaking in **JFR** |
+| **`2026-08-19`** | [Atmosphere 4 Released, Now Shipping a Portable AI Agent Component](https://async-io.live/blog/atmosphere-4x-ai/) - the real-time JVM transport library adds an `@Agent` annotation model with built-in governance, plan verification and durable workflows |
 | **`2026-08-17`** | [JEP 540 Proposed to Target JDK 28 with a Simple JSON API](https://www.infoq.com/news/2026/08/java-native-json-api/) - Java should receive a new native JSON API in **JDK 28** |
+| **`2026-08-14`** | [JDK 21 approaches end-of-permissive license](https://blogs.oracle.com/java/jdk-21-approaches-end-of-permissive-license) - reminder that starting from October 2026 production updates of Oracle **Java 21** will require paid subscription |
 | **`2026-08-10`** | [JEP 401 Redefines == for Java Objects](https://www.infoq.com/news/2026/08/jep401-value-objects-preview/) - an important feature from Project Valhalla will land in **JDK 28** |
 | **`2026-08-06`** | [Post-Quantum Cryptography in Long-Term Support JDK Releases](https://blogs.oracle.com/java/post-quantum-cryptography-in-long-term-support-jdk-releases) - **Oracle** shared roadmap for backporting advanced cryptography features into older LTS JDKs |
 | **`2026-08-06`** | [Intelligent Test Automation in the Java 26 Era](https://javapro.io/2026/08/06/intelligent-test-automation-in-the-java-26-era-eliminating-flaky-tests-with-modern-concurrency-stability-engineering-and-smart-tooling/) - why traditional Java tests may tend to fail and what can **JDK 26** offer to mitigate such causes |
