@@ -4,7 +4,7 @@ import java.util.Map;
 
 import org.javademos.commons.IDemo;
 import org.javademos.commons.IDemoLoader;
-import org.javademos.java26.http.Http3Demo;
+import org.javademos.java26.jep517.Http3Demo;
 import org.javademos.java26.jep522.ReduceSyncDemo;
 import org.javademos.java26.jep526.LazyConstantsDemo;
 

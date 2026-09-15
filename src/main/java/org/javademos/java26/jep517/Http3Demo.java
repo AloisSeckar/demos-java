@@ -1,4 +1,4 @@
-package org.javademos.java26.http;
+package org.javademos.java26.jep517;
 
 import java.net.URI;
 import java.net.http.HttpClient;
@@ -22,13 +22,13 @@ public class Http3Demo implements IDemo {
 
     @Override
     public void demo() {
-        info("HTTP/3 DEMO", "Example for HTTPClient with HTTP/3 protocol");
+        info(517);
         
         // classes used in this demo:
         // HttpRequest + HttpClient + HttpResponse
         
         // Java 10 language feature 'var' is used for initiating variables
-        // check var.java11.org.javademos.VarDemo to learn more
+        // check org.javademos.java11.var.VarDemo to learn more
 
         try {
             // Build an HTTP request using method chaining.
@@ -39,6 +39,7 @@ public class Http3Demo implements IDemo {
             // .build() creates the final immutable HttpRequest object.
             var request = HttpRequest.newBuilder(URI.create("https://openjdk.org/"))
                                     .version(HttpClient.Version.HTTP_3)
+                                    .timeout(java.time.Duration.ofSeconds(30))
                                     .GET()
                                     .build();
             
@@ -63,7 +64,7 @@ public class Http3Demo implements IDemo {
             // It is also impossible to upgrade an existing HTTP/1.1 or HTTP/2 connection to an HTTP/3 connection, 
             // since HTTP/1.1 and HTTP/2 are built on top of TCP streams while HTTP/3's QUIC is built on top of UDP datagrams.
             // There are four basic approaches with which a request can determine the availability of HTTP/3 on the target server
-            // Furhter Reading - [JEP 517: HTTP/3 for the HTTP Client API](https://openjdk.org/jeps/517)
+            // Further Reading - [JEP 517: HTTP/3 for the HTTP Client API](https://openjdk.org/jeps/517)
             
         } catch (Exception ex) {
             // setting PrintStream/PrintWriter target here will easily suppress
