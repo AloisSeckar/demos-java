@@ -35,6 +35,10 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :-- |
+| **`2026-09-15`** | [The Arrival of Java 27](https://blogs.oracle.com/java/the-arrival-of-java-27) - **Oracle** announces general availability of **JDK 27** with all nine JEPs + other updates in their ecosystem |
+| **`2026-09-15`** | **JDK 27 release date** |
+| **`2026-09-12`** | [JDK 27 Runtime Updates Release Notes](https://inside.java/2026/09/12/jdk-27-runtime-updates/) - overview of **JDK 27** runtime changes including G1 as default GC everywhere, compact object headers by default, JFR in-process data redaction, JVMCI removal, and several `jcmd`/JVM argument updates |
+| **`2026-09-02`** | [TornadoVM 6.0.0: JVMCI-Free, JDK 21–27 Compatible, Zero JNI, and a Leaner Core](https://www.tornadovm.org/blogs/tornadovm-6-0-0-zero-jni-faster-runtime) - new major version of **TornadoVM** drops JVMCI and JNI in favor of `java.lang.foreign`, unifying JDK 21–27 support in one build, retires PTX/SPIR-V/FPGA backends, and speeds up multi-output task graphs |
 | **`2026-09-10`** | [What’s New in Jackson 3](https://www.baeldung.com/java-jackson-3-updates) - the new major version of JSON processing library is here for a while, what does it really bring |
 
 ## 2026 - August
@@ -42,6 +46,7 @@ Check where can you meet fellow Java enthusiasts at:
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :-- |
 | **`2026-08-27`** | [Java 26 Adopts HTTP/3 with the Evolution of the HttpClient](https://javapro.io/2026/08/27/java-26-adopts-http-3-with-the-evolution-of-the-httpclient/) - **JEP 517** brings **HTTP/3** support to `HttpClient`, negotiating protocols transparently and eliminating transport-layer head-of-line blocking |
+| **`2026-08-26`** | [Quarkus Flow 1.0.0 released](https://quarkus.io/blog/quarkus-flow-1-0-0-released/) - first stable version of a new workflow engine based on the Open Workflow Specification with YAML/Java DSL, LangChain4j agentic orchestration, messaging, persistence, and native image support |
 | **`2026-08-24`** | [JDK 27 and JDK 28: What We Know So Far](https://www.infoq.com/news/2026/08/java-27-so-far/) - a summary of the upcoming two JDK releases |
 | **`2026-08-21`** | [JDK 28: Named Group Information Captured in the TLSHandshake JFR Event](https://inside.java/2026/08/21/quality-heads-up/) - Java 28 will update the way of recording TLS handshaking in **JFR** |
 | **`2026-08-19`** | [Atmosphere 4 Released, Now Shipping a Portable AI Agent Component](https://async-io.live/blog/atmosphere-4x-ai/) - the real-time JVM transport library adds an `@Agent` annotation model with built-in governance, plan verification and durable workflows |
