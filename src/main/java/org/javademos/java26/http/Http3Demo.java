@@ -58,6 +58,12 @@ public class Http3Demo implements IDemo {
             // you can display https://openjdk.org in your
             // browser and select 'View page source' to compare its contents
             // and verify you got the exact same output here
+
+            // Note: It is impossible to determine, in advance, whether a target server supports HTTP/3. 
+            // It is also impossible to upgrade an existing HTTP/1.1 or HTTP/2 connection to an HTTP/3 connection, 
+            // since HTTP/1.1 and HTTP/2 are built on top of TCP streams while HTTP/3's QUIC is built on top of UDP datagrams.
+            // There are four basic approaches with which a request can determine the availability of HTTP/3 on the target server
+            // Furhter Reading - [JEP 517: HTTP/3 for the HTTP Client API](https://openjdk.org/jeps/517)
             
         } catch (Exception ex) {
             // setting PrintStream/PrintWriter target here will easily suppress
