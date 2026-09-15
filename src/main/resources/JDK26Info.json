@@ -1,5 +1,13 @@
 [  
   {
+    "jep": 517,
+    "jdk": 26,
+    "name": "JEP 517 - HTTP/3 for the HTTP Client API",
+    "dscr": "Update the HTTP Client API to support the HTTP/3 protocol, so that libraries and applications can interact with HTTP/3 servers with minimal code change.",
+    "link": false,
+    "code": true
+  },
+  {
     "jep": 522,
     "jdk": 26,
     "name":"JEP 522 - G1 GC: Improve Throughput by Reducing Synchronization",
