@@ -35,6 +35,9 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :-- |
+| **`2026-09-16`** | [Java 27 grows up, makes better choices](https://www.theregister.com/devops/2026/09/16/java-27-grows-up-makes-better-choices/5296707) - **The Register** highlights **JDK 27**'s zero-code-change defaults: compact object headers, post-quantum TLS key exchange, and G1 everywhere |
+| **`2026-09-16`** | [Java 27 Delivers Post-Quantum Cryptography, Future Language Innovation, Helidon 27, JavaFX 27](https://www.infoq.com/news/2026/09/java27-released/) - **InfoQ** recaps the final **JDK 27** feature set, the **Java Verified Portfolio** additions, and early details on JDK 28 |
+| **`2026-09-15`** | [Java 27 in IntelliJ IDEA](https://blog.jetbrains.com/idea/2026/09/java-27-in-intellij-idea/) - **JetBrains** walks through **JDK 27** setup and new/preview/incubator JEPs supported in **IntelliJ IDEA** from day one |
 | **`2026-09-15`** | [The Arrival of Java 27](https://blogs.oracle.com/java/the-arrival-of-java-27) - **Oracle** announces general availability of **JDK 27** with all nine JEPs + other updates in their ecosystem |
 | **`2026-09-15`** | **JDK 27 release date** |
 | **`2026-09-12`** | [JDK 27 Runtime Updates Release Notes](https://inside.java/2026/09/12/jdk-27-runtime-updates/) - overview of **JDK 27** runtime changes including G1 as default GC everywhere, compact object headers by default, JFR in-process data redaction, JVMCI removal, and several `jcmd`/JVM argument updates |
@@ -45,6 +48,7 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :-- |
+| **`2026-08-31`** | [JDK 27: Four Zero-Code Wins, Headlined by Post-Quantum TLS](https://codefarm.in/blog/java/jdk-27-zero-code-wins) - breakdown of the four final **JDK 27** JEPs - post-quantum TLS, compact object headers, G1 everywhere, and JFR data redaction - plus the five preview features |
 | **`2026-08-27`** | [Java 26 Adopts HTTP/3 with the Evolution of the HttpClient](https://javapro.io/2026/08/27/java-26-adopts-http-3-with-the-evolution-of-the-httpclient/) - **JEP 517** brings **HTTP/3** support to `HttpClient`, negotiating protocols transparently and eliminating transport-layer head-of-line blocking |
 | **`2026-08-26`** | [Quarkus Flow 1.0.0 released](https://quarkus.io/blog/quarkus-flow-1-0-0-released/) - first stable version of a new workflow engine based on the Open Workflow Specification with YAML/Java DSL, LangChain4j agentic orchestration, messaging, persistence, and native image support |
 | **`2026-08-24`** | [JDK 27 and JDK 28: What We Know So Far](https://www.infoq.com/news/2026/08/java-27-so-far/) - a summary of the upcoming two JDK releases |
