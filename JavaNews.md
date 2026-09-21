@@ -37,6 +37,7 @@ Check where can you meet fellow Java enthusiasts at:
 | --- | :-- |
 | **`2026-09-16`** | [Java 27 grows up, makes better choices](https://www.theregister.com/devops/2026/09/16/java-27-grows-up-makes-better-choices/5296707) - **The Register** highlights **JDK 27**'s zero-code-change defaults: compact object headers, post-quantum TLS key exchange, and G1 everywhere |
 | **`2026-09-16`** | [Java 27 Delivers Post-Quantum Cryptography, Future Language Innovation, Helidon 27, JavaFX 27](https://www.infoq.com/news/2026/09/java27-released/) - **InfoQ** recaps the final **JDK 27** feature set, the **Java Verified Portfolio** additions, and early details on JDK 28 |
+| **`2026-09-15`** | [JDK 27 Security Enhancements](https://seanjmullan.org/blog/2026/09/15/jdk27) - what is new in **JDK 27** from the security perspective |
 | **`2026-09-15`** | [Java 27 in IntelliJ IDEA](https://blog.jetbrains.com/idea/2026/09/java-27-in-intellij-idea/) - **JetBrains** walks through **JDK 27** setup and new/preview/incubator JEPs supported in **IntelliJ IDEA** from day one |
 | **`2026-09-15`** | [The Arrival of Java 27](https://blogs.oracle.com/java/the-arrival-of-java-27) - **Oracle** announces general availability of **JDK 27** with all nine JEPs + other updates in their ecosystem |
 | **`2026-09-15`** | **JDK 27 release date** |
