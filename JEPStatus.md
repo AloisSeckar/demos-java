@@ -2,13 +2,17 @@
 
 Latest changes in JDK based on [OpenJDK JEP Index](https://openjdk.org/jeps/0)
 
-Last updated: **`2026-03-17`**
+Last updated: **`2026-09-16`**
 
 ## NOTE
 
 This page is now **discontinued** as I am unable to provide reasonable pace of updates.
 
 Check [The Java Version Almanac](https://javaalmanac.io/) project for up-to-date information about the state of Java language.
+
+## Java 27
+
+JDK 27 was released `2026-09-16` with following features <https://openjdk.org/projects/jdk/27/>
 
 ## Java 26
 
