@@ -35,6 +35,10 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :-- |
+| **`2026-09-22`** | [Bringing Key-Value Databases to Enterprise Java](https://dzone.com/articles/valkey-enterprise-java) - getting startd with **Valkey** |
+| **`2026-09-21`** | [Helidon 27 Released](https://medium.com/helidon/helidon-27-released-9ce206503e0a) - first _Tip-and-Tail_ release requiring **JDK 27**, completing Declarative API coverage and adding Helidon Messaging and Helidon Data JDBC |
+| **`2026-09-19`** | [Leave the Class Path in the Rearview Mirror](https://netflixtechblog.com/leave-the-class-path-in-the-rearview-mirror-67a85b15b6be) - **Netflix** previews `ja`, a family of composable, module-system-native command line tools for modern, agent-friendly Java development |
+| **`2026-09-16`** | [Liberica JDK 27 is Released](https://bell-sw.com/blog/liberica-jdk-27-is-released/) - BellSoft ships its **Liberica JDK 27** builds with 9 JEPs and over 2,500 fixes |
 | **`2026-09-16`** | [Java 27 grows up, makes better choices](https://www.theregister.com/devops/2026/09/16/java-27-grows-up-makes-better-choices/5296707) - **The Register** highlights **JDK 27**'s zero-code-change defaults: compact object headers, post-quantum TLS key exchange, and G1 everywhere |
 | **`2026-09-16`** | [Java 27 Delivers Post-Quantum Cryptography, Future Language Innovation, Helidon 27, JavaFX 27](https://www.infoq.com/news/2026/09/java27-released/) - **InfoQ** recaps the final **JDK 27** feature set, the **Java Verified Portfolio** additions, and early details on JDK 28 |
 | **`2026-09-15`** | [JDK 27 Security Enhancements](https://seanjmullan.org/blog/2026/09/15/jdk27) - what is new in **JDK 27** from the security perspective |
@@ -42,6 +46,7 @@ Check where can you meet fellow Java enthusiasts at:
 | **`2026-09-15`** | [The Arrival of Java 27](https://blogs.oracle.com/java/the-arrival-of-java-27) - **Oracle** announces general availability of **JDK 27** with all nine JEPs + other updates in their ecosystem |
 | **`2026-09-15`** | **JDK 27 release date** |
 | **`2026-09-12`** | [JDK 27 Runtime Updates Release Notes](https://inside.java/2026/09/12/jdk-27-runtime-updates/) - overview of **JDK 27** runtime changes including G1 as default GC everywhere, compact object headers by default, JFR in-process data redaction, JVMCI removal, and several `jcmd`/JVM argument updates |
+| **`2026-09-10`** | [A2A Jakarta 1.0.0.Final is Released!](https://www.wildfly.org/news/2026/09/10/A2A-Jakarta-1-0-0-Final-is-released/) - WildFly's Jakarta integration for the **A2A Java SDK** reaches 1.0, supporting the A2A Protocol v1.0 over JSON-RPC, gRPC, and REST with multi-tenancy |
 | **`2026-09-02`** | [TornadoVM 6.0.0: JVMCI-Free, JDK 21–27 Compatible, Zero JNI, and a Leaner Core](https://www.tornadovm.org/blogs/tornadovm-6-0-0-zero-jni-faster-runtime) - new major version of **TornadoVM** drops JVMCI and JNI in favor of `java.lang.foreign`, unifying JDK 21–27 support in one build, retires PTX/SPIR-V/FPGA backends, and speeds up multi-output task graphs |
 | **`2026-09-10`** | [What’s New in Jackson 3](https://www.baeldung.com/java-jackson-3-updates) - the new major version of JSON processing library is here for a while, what does it really bring |
 
