@@ -83,7 +83,7 @@
     "jep": 448,
     "jdk": 21,
     "name": "JEP 448 - Vector API (Sixth Incubator)",
-    "dscr": "Up-to-date demo in `org.javademos.java25.jep508.VectorAPIDemo`.",
+    "dscr": "Up-to-date demo in `org.javademos.java27.jep537.VectorAPIDemo`.",
     "link": true,
     "code": false
   },

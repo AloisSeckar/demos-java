@@ -3,7 +3,7 @@
     "jep": 338,
     "jdk": 16,
     "name": "JEP 338 - Vector API (Incubator)",
-    "dscr": "Up-to-date demo in `org.javademos.java25.jep508.VectorAPIDemo`.",
+    "dscr": "Up-to-date demo in `org.javademos.java27.jep537.VectorAPIDemo`.",
     "link": true,
     "code": false
   },

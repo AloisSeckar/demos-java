@@ -51,9 +51,9 @@
     "jep": 508,
     "jdk": 25,
     "name": "JEP 508 - Vector API (Tenth Incubator)",
-    "dscr": "API for expressing vector computations that reliably compile at runtime to optimal vector instructions on supported CPUs to achieve better performance.",
-    "link": false,
-    "code": true
+    "dscr": "Up-to-date demo in `org.javademos.java27.jep537.VectorAPIDemo`.",
+    "link": true,
+    "code": false
   },
   {
     "jep": 509,

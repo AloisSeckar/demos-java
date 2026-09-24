@@ -2,10 +2,10 @@ package org.javademos.java18.jep417;
 
 import org.javademos.commons.IDemo;
 
-/// Demo for JDK 18 feature JEP 417 - Vector API (Third Incubator).
+/// Demo for JDK 18 feature **Vector API (Third Incubator)** (JEP 417).
 ///
-/// Replaced with most recent [JEP 508](https://openjdk.org/jeps/508)
-/// @see org.javademos.java25.jep508.VectorAPIDemo
+/// Replaced with most recent [JEP 537](https://openjdk.org/jeps/537)
+/// @see org.javademos.java27.jep537.VectorAPIDemo
 ///
 /// @author Alois Seckar <alois.seckar@gmail.com>
 public class VectorAPIDemo implements IDemo {
