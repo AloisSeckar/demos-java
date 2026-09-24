@@ -2,10 +2,10 @@ package org.javademos.java23.jep469;
 
 import org.javademos.commons.IDemo;
 
-/// Demo for JDK 23 feature JEP 469 - Vector API (Eighth Incubator).
+/// Demo for JDK 23 feature **Vector API (Eighth Incubator)** (JEP 469).
 ///
-/// Replaced with most recent [JEP 508](https://openjdk.org/jeps/508)
-/// @see org.javademos.java25.jep508.VectorAPIDemo
+/// Replaced with most recent [JEP 537](https://openjdk.org/jeps/537)
+/// @see org.javademos.java27.jep537.VectorAPIDemo
 ///
 /// @author Alois Seckar <alois.seckar@gmail.com>
 public class VectorAPIDemo implements IDemo {

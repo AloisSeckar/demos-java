@@ -1,8 +1,8 @@
-package org.javademos.java19.jep426;
+package org.javademos.java26.jep529;
 
 import org.javademos.commons.IDemo;
 
-/// Demo for JDK 19 feature **Vector API (Fourth Incubator)** (JEP 426).
+/// Demo for JDK 26 feature **Vector API (Eleventh Incubator)** (JEP 529).
 ///
 /// Replaced with most recent [JEP 537](https://openjdk.org/jeps/537)
 /// @see org.javademos.java27.jep537.VectorAPIDemo
@@ -12,7 +12,7 @@ public class VectorAPIDemo implements IDemo {
 
     @Override
     public void demo() {
-        info(426);
+        info(529);
     }
 
 }

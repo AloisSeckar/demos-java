@@ -59,7 +59,7 @@
     "jep": 460,
     "jdk": 22,
     "name": "JEP 460 - Vector API (Seventh Incubator)",
-    "dscr": "Up-to-date demo in `org.javademos.java25.jep508.VectorAPIDemo`.",
+    "dscr": "Up-to-date demo in `org.javademos.java27.jep537.VectorAPIDemo`.",
     "link": true,
     "code": false
   },

@@ -1,3 +1,10 @@
 [
-    
+  {
+    "jep": 537,
+    "jdk": 27,
+    "name": "JEP 537 - Vector API (Twelfth Incubator)",
+    "dscr": "API for expressing vector computations that reliably compile at runtime to optimal vector instructions on supported CPUs to achieve better performance.",
+    "link": false,
+    "code": true
+  }
 ]
