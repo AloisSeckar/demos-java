@@ -14,7 +14,7 @@ import org.javademos.java23.jep473.StreamGatherersDemo;
 import org.javademos.java23.jep474.GenerationalZGC23;
 import org.javademos.java23.jep476.ModuleImportDeclarations;
 import org.javademos.java23.jep477.ImplicitlyDeclaredClassesDemo;
-import org.javademos.java23.jep480.StructuredConcurrency;
+import org.javademos.java23.jep480.StructuredConcurrencyDemo;
 import org.javademos.java23.jep481.ScopedValuesDemo;
 import org.javademos.java23.jep482.FlexibleConstructorBodies;
 
@@ -34,7 +34,7 @@ public class Java23DemoLoader implements IDemoLoader {
         demos.put(474, new GenerationalZGC23());
         demos.put(476, new ModuleImportDeclarations());
         demos.put(477, new ImplicitlyDeclaredClassesDemo());
-        demos.put(480, new StructuredConcurrency());
+        demos.put(480, new StructuredConcurrencyDemo());
         demos.put(481, new ScopedValuesDemo());
         demos.put(482, new FlexibleConstructorBodies());
     }

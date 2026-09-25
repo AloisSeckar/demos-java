@@ -16,6 +16,14 @@
     "code": false
   },
   {
+    "jep": 525,
+    "jdk": 26,
+    "name": "JEP 525 - Structured Concurrency (Sixth Preview)",
+    "dscr": "Up-to-date demo in `org.javademos.java27.jep533.StructuredConcurrencyDemo`.",
+    "link": true,
+    "code": false
+  },
+  {
     "jep": 526,
     "jdk": 26,
     "name": "JEP 526 - Lazy Constants (Preview)",

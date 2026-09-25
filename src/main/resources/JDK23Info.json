@@ -83,7 +83,7 @@
     "jep": 480,
     "jdk": 23,
     "name": "JEP 480 - Structured Concurrency (Third Preview)",
-    "dscr": "Up-to-date demo in `org.javademos.java25.jep505.StructuredConcurrencyDemo`.",
+    "dscr": "Up-to-date demo in `org.javademos.java27.jep533.StructuredConcurrencyDemo`.",
     "link": true,
     "code": false
   },

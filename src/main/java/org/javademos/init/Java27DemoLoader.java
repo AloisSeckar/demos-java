@@ -5,6 +5,7 @@ import java.util.Map;
 import org.javademos.commons.IDemo;
 import org.javademos.commons.IDemoLoader;
 
+import org.javademos.java27.jep533.StructuredConcurrencyDemo;
 import org.javademos.java27.jep537.VectorAPIDemo;
 
 /**
@@ -14,6 +15,7 @@ public class Java27DemoLoader implements IDemoLoader {
     
     @Override
     public void loadDemos(Map<Integer, IDemo> demos) {
+        demos.put(533, new StructuredConcurrencyDemo());
         demos.put(537, new VectorAPIDemo());
     }
 }

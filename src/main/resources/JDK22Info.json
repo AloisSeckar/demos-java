@@ -75,7 +75,7 @@
     "jep": 462,
     "jdk": 22,
     "name": "JEP 462 - Structured Concurrency (Second Preview)",
-    "dscr": "Up-to-date demo in `org.javademos.java25.jep505.StructuredConcurrencyDemo`.",
+    "dscr": "Up-to-date demo in `org.javademos.java27.jep533.StructuredConcurrencyDemo`.",
     "link": true,
     "code": false
   },
