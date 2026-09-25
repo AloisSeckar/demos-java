@@ -51,7 +51,7 @@
     "jep": 428,
     "jdk": 19,
     "name": "JEP 428 - Structured Concurrency (Incubator)",
-    "dscr": "Up-to-date demo in `org.javademos.java25.jep505.StructuredConcurrencyDemo`.",
+    "dscr": "Up-to-date demo in `org.javademos.java27.jep533.StructuredConcurrencyDemo`.",
     "link": true,
     "code": false
   }

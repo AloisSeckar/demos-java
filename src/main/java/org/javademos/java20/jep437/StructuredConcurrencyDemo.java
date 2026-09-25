@@ -4,8 +4,8 @@ import org.javademos.commons.IDemo;
 
 /// Demo for JDK 20 feature JEP 437 - Structured Concurrency (Second Incubator).
 ///
-/// This was an incubator JEP. The feature's latest iteration is in JDK 25 by JEP 505.
-/// @see org.javademos.java25.jep505.StructuredConcurrencyDemo
+/// This was an incubator JEP. The feature's latest iteration is in JDK 27 by JEP 533.
+/// @see org.javademos.java27.jep533.StructuredConcurrencyDemo
 ///
 /// @author Adarsh80416
 public class StructuredConcurrencyDemo implements IDemo {

@@ -1,5 +1,13 @@
 [
   {
+    "jep": 533,
+    "jdk": 27,
+    "name": "JEP 533 - Structured Concurrency (Seventh Preview)",
+    "dscr": "Structured concurrency simplifies concurrent programming by treating groups of related tasks running in different threads as a single unit of work.",
+    "link": false,
+    "code": true
+  },
+  {
     "jep": 537,
     "jdk": 27,
     "name": "JEP 537 - Vector API (Twelfth Incubator)",
