@@ -5,9 +5,9 @@ import org.javademos.init.JEPInfo;
 /// Simple interface to unify the demo building process.
 ///
 /// Override method 'demo()' in your implementation and include new instance
-/// into demoPool in Main.java
+/// into demoPool in respective JavaXXDemoLoader.java
 ///
-/// Last review: 2024-11-12
+/// Last review: 2026-09-26
 ///
 /// TEMPLATE for demo implementation class JavaDocs:
 /// ```
