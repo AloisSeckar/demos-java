@@ -1,6 +1,6 @@
-# Java demos - new language features from Java 11 to Java 27
+# Java demos - explaining JEPs from Java 11 to Java 27
 
-This application helps to show some new features being introduced in Java versions until Java 27.
+This application helps to show new features being introduced in Java versions until Java 27.
 
 All relevant info is written down in comments inside sources.
 
