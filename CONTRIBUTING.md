@@ -16,7 +16,7 @@ the goal is to grow it into an active open-source community. You are welcome to 
 ### Notice about AI usage
 
 In 2026, AI tools are welcome, but **understand their output before submitting a PR** and follow
-[The AI Manifesto](https://ai-manifesto.dev/). We do not plan to ban AI-generated contributions, but may
+[The AI Manifesto](https://web.archive.org/web/20260717094206/https://ai-manifesto.dev/). We do not plan to ban AI-generated contributions, but may
 ask you to explain your work and reject submissions you cannot demonstrate you understand.
 
 ## Project structure
