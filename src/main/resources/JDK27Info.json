@@ -1,5 +1,13 @@
 [
   {
+    "jep": 527,
+    "jdk": 27,
+    "name": "JEP 527 - Post-Quantum Hybrid Key Exchange for TLS 1.3",
+    "dscr": "TLS 1.3 key exchange that combines quantum-resistant ML-KEM with classic elliptic-curve Diffie-Hellman, used by default through the X25519MLKEM768 named group.",
+    "link": false,
+    "code": true
+  },
+  {
     "jep": 533,
     "jdk": 27,
     "name": "JEP 533 - Structured Concurrency (Seventh Preview)",
