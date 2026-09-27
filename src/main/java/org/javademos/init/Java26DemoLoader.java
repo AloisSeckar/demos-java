@@ -7,6 +7,7 @@ import org.javademos.commons.IDemoLoader;
 
 import org.javademos.java26.jep517.Http3Demo;
 import org.javademos.java26.jep522.ReduceSyncDemo;
+import org.javademos.java26.jep524.PemEncodingsDemo;
 import org.javademos.java26.jep525.StructuredConcurrencyDemo;
 import org.javademos.java26.jep526.LazyConstantsDemo;
 import org.javademos.java26.jep529.VectorAPIDemo;
@@ -20,6 +21,7 @@ public class Java26DemoLoader implements IDemoLoader {
     public void loadDemos(Map<Integer, IDemo> demos) {
         demos.put(517, new Http3Demo());
         demos.put(522, new ReduceSyncDemo());
+        demos.put(524, new PemEncodingsDemo());
         demos.put(525, new StructuredConcurrencyDemo());
         demos.put(526, new LazyConstantsDemo());
         demos.put(529, new VectorAPIDemo());
