@@ -22,5 +22,13 @@
     "dscr": "API for expressing vector computations that reliably compile at runtime to optimal vector instructions on supported CPUs to achieve better performance.",
     "link": false,
     "code": true
+  },
+  {
+    "jep": 538,
+    "jdk": 27,
+    "name": "JEP 538 - PEM Encodings of Cryptographic Objects (Third Preview)",
+    "dscr": "API for encoding keys, certificates, and certificate revocation lists as PEM text and decoding them back, including password-protected private keys.",
+    "link": false,
+    "code": true
   }
 ]

@@ -3,8 +3,8 @@
     "jep": 470,
     "jdk": 25,
     "name": "JEP 470 - PEM Encodings of Cryptographic Objects (Preview)",
-    "dscr": "Preview support for reading and writing PEM-encoded cryptographic objects.",
-    "link": false,
+    "dscr": "Up-to-date demo in `org.javademos.java27.jep538.PemEncodingsDemo`.",
+    "link": true,
     "code": false
   },
   {
