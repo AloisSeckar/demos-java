@@ -55,7 +55,7 @@ public class PostQuantumHybridKeyExchangeDemo implements IDemo {
             System.out.println("Handshake allowing only SecP384r1MLKEM1024: " + handshake(localContext, "SecP384r1MLKEM1024"));
         } catch (InterruptedException e) {
             Thread.currentThread().interrupt();
-            throw new RuntimeException(e);
+            System.err.println("Demo was interrupted.");
         } catch (IOException | GeneralSecurityException e) {
             throw new RuntimeException(e);
         }
