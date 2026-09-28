@@ -35,6 +35,8 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :-- |
+| **`2026-09-24`** | [Open J Proxy 1.0.0: Ready for Production](https://javapro.io/2026/09/24/open-j-proxy-1-0-0-ready-for-production/) - **OJP** JDBC proxy reaches its first GA/LTS release after a hardening cycle |
+| **`2026-09-23`** | [Quality Outreach Heads-up - JDK 28: Rich JavaDoc Notes](https://inside.java/2026/09/23/quality-heads-up/) - **JDK 28** proposes a new `@note` JavaDoc tag for rendering customizable inline and block tips or warnings |
 | **`2026-09-22`** | [Bringing Key-Value Databases to Enterprise Java](https://dzone.com/articles/valkey-enterprise-java) - getting startd with **Valkey** |
 | **`2026-09-21`** | [Helidon 27 Released](https://medium.com/helidon/helidon-27-released-9ce206503e0a) - first _Tip-and-Tail_ release requiring **JDK 27**, completing Declarative API coverage and adding Helidon Messaging and Helidon Data JDBC |
 | **`2026-09-19`** | [Leave the Class Path in the Rearview Mirror](https://netflixtechblog.com/leave-the-class-path-in-the-rearview-mirror-67a85b15b6be) - **Netflix** previews `ja`, a family of composable, module-system-native command line tools for modern, agent-friendly Java development |
