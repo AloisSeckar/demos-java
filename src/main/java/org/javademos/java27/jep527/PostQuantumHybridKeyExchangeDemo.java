@@ -53,7 +53,10 @@ public class PostQuantumHybridKeyExchangeDemo implements IDemo {
             // so the handshake can only succeed by using it
             SSLContext localContext = localhostContext(Path.of("tmp", "jep527demo.p12"));
             System.out.println("Handshake allowing only SecP384r1MLKEM1024: " + handshake(localContext, "SecP384r1MLKEM1024"));
-        } catch (IOException | GeneralSecurityException | InterruptedException e) {
+        } catch (InterruptedException e) {
+            Thread.currentThread().interrupt();
+            System.err.println("Demo was interrupted.");
+        } catch (IOException | GeneralSecurityException e) {
             throw new RuntimeException(e);
         }
 
