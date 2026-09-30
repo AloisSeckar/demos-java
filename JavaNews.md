@@ -35,8 +35,12 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :-- |
+| **`2026-09-29`** | [The Java 21 Doomsday Clock Countdown](https://foojay.io/today/the-java-21-doomsday-clock-countdown/) - free Oracle NFTC license for **Java 21** has expired, leaving options to pay Oracle, upgrade to Java 25, or move to another **OpenJDK** distribution |
+| **`2026-09-28`** | [Performance Improvements in JDK 27](https://inside.java/2026/09/28/performance-update-jdk27/) - overview of **JDK 27** performance work across libraries, GC, JIT compiler, and runtime, including compact object headers and G1 as defaults |
+| **`2026-09-24`** | [Apache Groovy 6.0.0 Released](https://www.mail-archive.com/announce@apache.org/msg12006.html) - new major version of the JVM language **Apache Groovy** was released |
 | **`2026-09-24`** | [Open J Proxy 1.0.0: Ready for Production](https://javapro.io/2026/09/24/open-j-proxy-1-0-0-ready-for-production/) - **OJP** JDBC proxy reaches its first GA/LTS release after a hardening cycle |
 | **`2026-09-23`** | [Quality Outreach Heads-up - JDK 28: Rich JavaDoc Notes](https://inside.java/2026/09/23/quality-heads-up/) - **JDK 28** proposes a new `@note` JavaDoc tag for rendering customizable inline and block tips or warnings |
+| **`2026-09-22`** | [Getting Started with the TileContext API in TornadoVM 7.0.0](https://www.tornadovm.org/blogs/getting-started-with-the-tilecontext-api-in-tornadovm) - new major version of **TornadoVM** adds `TileContext` API for writing GPU kernels in Java via NVIDIA CUDA Tile compiler, without managing threads, shared memory, or barriers |
 | **`2026-09-22`** | [Bringing Key-Value Databases to Enterprise Java](https://dzone.com/articles/valkey-enterprise-java) - getting startd with **Valkey** |
 | **`2026-09-21`** | [Helidon 27 Released](https://medium.com/helidon/helidon-27-released-9ce206503e0a) - first _Tip-and-Tail_ release requiring **JDK 27**, completing Declarative API coverage and adding Helidon Messaging and Helidon Data JDBC |
 | **`2026-09-19`** | [Leave the Class Path in the Rearview Mirror](https://netflixtechblog.com/leave-the-class-path-in-the-rearview-mirror-67a85b15b6be) - **Netflix** previews `ja`, a family of composable, module-system-native command line tools for modern, agent-friendly Java development |
