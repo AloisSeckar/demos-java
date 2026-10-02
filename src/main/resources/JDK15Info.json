@@ -94,5 +94,13 @@
     "dscr": "Up-to-date demo in `org.javademos.java16.jep395.RecordDemo`.",
     "link": true,
     "code": false
+  },
+  {
+    "jep": 385,
+    "jdk": 15,
+    "name": "JEP 385 - Deprecate RMI Activation for Removal",
+    "dscr": "Up-to-date demo in `org.javademos.java17.jep407.RemoveRmiActivationDemo`.",
+    "link": true,
+    "code": false
   }
 ]

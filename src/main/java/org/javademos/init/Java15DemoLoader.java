@@ -17,6 +17,7 @@ import org.javademos.java15.jep378.TextBlockDemo;
 import org.javademos.java15.jep381.SolarisSparcRemovalDemo;
 import org.javademos.java15.jep383.ForeignMemoryAccessDemo;
 import org.javademos.java15.jep384.RecordsSecondPreviewDemo;
+import org.javademos.java15.jep385.DeprecateRmiActivationDemo;
 
 /**
  * Loads demos for Java 15.
@@ -37,5 +38,6 @@ public class Java15DemoLoader implements IDemoLoader {
         demos.put(381, new SolarisSparcRemovalDemo());
         demos.put(383, new ForeignMemoryAccessDemo());
         demos.put(384, new RecordsSecondPreviewDemo());
+        demos.put(385, new DeprecateRmiActivationDemo());
     }
 }
