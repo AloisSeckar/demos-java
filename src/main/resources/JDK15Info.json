@@ -40,6 +40,14 @@
     "code": true
   },
   {
+    "jep": 374,
+    "jdk": 15,
+    "name": "JEP 374 - Deprecate and Disable Biased Locking",
+    "dscr": "Disables the legacy biased locking synchronization optimization by default and deprecates its tuning flags.",
+    "link": false,
+    "code": false
+  },
+  {
     "jep": 375,
     "jdk": 15,
     "name": "JEP 375 - Pattern Matching for instanceof (Second Preview)",
