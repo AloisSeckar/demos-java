@@ -8,6 +8,14 @@
     "code": true
   },
   {
+    "jep": 531,
+    "jdk": 27,
+    "name": "JEP 531 - Lazy Constants (Third Preview)",
+    "dscr": "Lazy Constants offer an immutable data abstraction for performance and safety, now completed with a lazy Set factory.",
+    "link": false,
+    "code": true
+  },
+  {
     "jep": 533,
     "jdk": 27,
     "name": "JEP 533 - Structured Concurrency (Seventh Preview)",

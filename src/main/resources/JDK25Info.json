@@ -11,7 +11,7 @@
     "jep": 502,
     "jdk": 25,
     "name": "JEP 502 - Stable Values (Preview)",
-    "dscr": "Up-to-date demo in `org.javademos.java26.jep526.LazyConstantsDemo`.",
+    "dscr": "Up-to-date demo in `org.javademos.java27.jep531.LazyConstantsDemo`.",
     "link": true,
     "code": false
   },

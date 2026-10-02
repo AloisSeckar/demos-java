@@ -35,9 +35,9 @@
     "jep": 526,
     "jdk": 26,
     "name": "JEP 526 - Lazy Constants (Preview)",
-    "dscr": "Lazy Constants offer an immutable data abstraction for performance and safety.",
-    "link": false,
-    "code": true
+    "dscr": "Up-to-date demo in `org.javademos.java27.jep531.LazyConstantsDemo`.",
+    "link": true,
+    "code": false
   },
   {
     "jep": 529,
