@@ -31,6 +31,13 @@ Check where can you meet fellow Java enthusiasts at:
 
 - <https://javaconferences.org/>
 
+## 2026 - October
+
+| Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
+| --- | :-- |
+| **`2026-10-05`** | [JDK 27: The quiet before the storm](https://www.infoworld.com/article/4229750/jdk-27-the-quiet-before-the-storm.html) - opinion by Simon Ritter on mostly incremental **JDK 27** changes and the first real **Project Valhalla** features coming in **JDK 28** |
+| **`2026-10-05`** | [Making Arena.ofConfined() Even Cheaper in JDK 28](https://inside.java/2026/10/05/confined-pools/) - **JDK 28** will offer ~19x faster allocation of **FFM** arenas from reusable native-memory pools |
+
 ## 2026 - September
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
@@ -69,6 +76,7 @@ Check where can you meet fellow Java enthusiasts at:
 | **`2026-08-19`** | [Atmosphere 4 Released, Now Shipping a Portable AI Agent Component](https://async-io.live/blog/atmosphere-4x-ai/) - the real-time JVM transport library adds an `@Agent` annotation model with built-in governance, plan verification and durable workflows |
 | **`2026-08-17`** | [JEP 540 Proposed to Target JDK 28 with a Simple JSON API](https://www.infoq.com/news/2026/08/java-native-json-api/) - Java should receive a new native JSON API in **JDK 28** |
 | **`2026-08-14`** | [JDK 21 approaches end-of-permissive license](https://blogs.oracle.com/java/jdk-21-approaches-end-of-permissive-license) - reminder that starting from October 2026 production updates of Oracle **Java 21** will require paid subscription |
+| **`2026-08-11`** | [TIOBE Index for August 2026: Java Nears C++](https://www.techrepublic.com/article/news-tiobe-august-2026-java-nears-c-plus-plus/) - in the August **TIOBE** ranking of programming language popularity, **Java** is closing the gap to **C++** |
 | **`2026-08-10`** | [JEP 401 Redefines == for Java Objects](https://www.infoq.com/news/2026/08/jep401-value-objects-preview/) - an important feature from Project Valhalla will land in **JDK 28** |
 | **`2026-08-06`** | [Post-Quantum Cryptography in Long-Term Support JDK Releases](https://blogs.oracle.com/java/post-quantum-cryptography-in-long-term-support-jdk-releases) - **Oracle** shared roadmap for backporting advanced cryptography features into older LTS JDKs |
 | **`2026-08-06`** | [Intelligent Test Automation in the Java 26 Era](https://javapro.io/2026/08/06/intelligent-test-automation-in-the-java-26-era-eliminating-flaky-tests-with-modern-concurrency-stability-engineering-and-smart-tooling/) - why traditional Java tests may tend to fail and what can **JDK 26** offer to mitigate such causes |
