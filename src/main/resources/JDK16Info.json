@@ -16,6 +16,14 @@
     "code": false
   },
   {
+    "jep": 357,
+    "jdk": 16,
+    "name": "JEP 357 - Migrate from Mercurial to Git",
+    "dscr": "Migrates the OpenJDK Community's source code repositories from Mercurial (hg) to Git.",
+    "link": false,
+    "code": false
+  },
+  {
     "jep": 380,
     "jdk": 16,
     "name": "JEP 380 - Unix-Domain Socket Channels",
