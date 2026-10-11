@@ -8,6 +8,7 @@ import org.javademos.commons.IDemoLoader;
 import org.javademos.java16.jep338.VectorAPIDemo;
 import org.javademos.java16.jep347.Cpp14FeaturesDemo;
 import org.javademos.java16.jep357.MercurialToGitDemo;
+import org.javademos.java16.jep369.MigrateToGitHubDemo;
 import org.javademos.java16.jep380.UnixDomainSocketsDemo;
 import org.javademos.java16.jep386.AlpineLinuxPortDemo;
 import org.javademos.java16.jep388.WindowsPortDemo;
@@ -30,6 +31,7 @@ public class Java16DemoLoader implements IDemoLoader {
         demos.put(338, new VectorAPIDemo());
         demos.put(347, new Cpp14FeaturesDemo());
         demos.put(357, new MercurialToGitDemo());
+        demos.put(369, new MigrateToGitHubDemo());
         demos.put(380, new UnixDomainSocketsDemo());
         demos.put(386, new AlpineLinuxPortDemo());
         demos.put(388, new WindowsPortDemo());

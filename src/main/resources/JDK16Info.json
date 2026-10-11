@@ -24,6 +24,14 @@
     "code": false
   },
   {
+    "jep": 369,
+    "jdk": 16,
+    "name": "JEP 369 - Migrate to GitHub",
+    "dscr": "Hosts the OpenJDK Community's Git repositories on GitHub, with a pull-request-based workflow supported by Project Skara tooling.",
+    "link": false,
+    "code": false
+  },
+  {
     "jep": 380,
     "jdk": 16,
     "name": "JEP 380 - Unix-Domain Socket Channels",
