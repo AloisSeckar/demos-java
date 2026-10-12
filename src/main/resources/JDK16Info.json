@@ -32,6 +32,14 @@
     "code": false
   },
   {
+    "jep": 376,
+    "jdk": 16,
+    "name": "JEP 376 - ZGC: Concurrent Thread-Stack Processing",
+    "dscr": "Moves ZGC thread-stack processing from safepoints to a concurrent phase, keeping GC pauses below one millisecond.",
+    "link": false,
+    "code": false
+  },
+  {
     "jep": 380,
     "jdk": 16,
     "name": "JEP 380 - Unix-Domain Socket Channels",
