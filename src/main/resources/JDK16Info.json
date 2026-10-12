@@ -56,6 +56,14 @@
     "code": false
   },
   {
+    "jep": 387,
+    "jdk": 16,
+    "name": "JEP 387 - Elastic Metaspace",
+    "dscr": "Returns unused HotSpot class-metadata (metaspace) memory to the OS more promptly and reduces metaspace footprint using a buddy-based allocator.",
+    "link": false,
+    "code": false
+  },
+  {
     "jep": 388,
     "jdk": 16,
     "name": "JEP 388 - Windows/AArch64 Port",
