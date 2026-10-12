@@ -12,6 +12,7 @@ import org.javademos.java16.jep369.MigrateToGitHubDemo;
 import org.javademos.java16.jep376.ConcurrentThreadStackProcessingDemo;
 import org.javademos.java16.jep380.UnixDomainSocketsDemo;
 import org.javademos.java16.jep386.AlpineLinuxPortDemo;
+import org.javademos.java16.jep387.ElasticMetaspaceDemo;
 import org.javademos.java16.jep388.WindowsPortDemo;
 import org.javademos.java16.jep389.ForeignLinkerDemo;
 import org.javademos.java16.jep390.ValueBasedClassesDemo;
@@ -36,6 +37,7 @@ public class Java16DemoLoader implements IDemoLoader {
         demos.put(376, new ConcurrentThreadStackProcessingDemo());
         demos.put(380, new UnixDomainSocketsDemo());
         demos.put(386, new AlpineLinuxPortDemo());
+        demos.put(387, new ElasticMetaspaceDemo());
         demos.put(388, new WindowsPortDemo());
         demos.put(389, new ForeignLinkerDemo());
         demos.put(390, new ValueBasedClassesDemo());
