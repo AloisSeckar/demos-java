@@ -35,15 +35,20 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :-- |
+| **`2026-10-08`** | [Apache Grails 8.0.0 - Release Announcement](https://grails.apache.org/blog/2026-10-08-introducing-grails-8.html) - new major version of the **Grails** framework moves to **Java 21**, Groovy 5, **Spring Boot 4.1**, adds GORM for Hibernate 7, Spring AOT and JDK AOT cache support |
+| **`2026-10-06`** | [Run Java in the Browser with TeaVM](https://foojay.io/today/java-in-the-browser-with-teavm/) - how to build editable, runnable Java snippets on a web page by compiling Java to **WebAssembly** with **TeaVM** and `javac` inside a Web Worker |
 | **`2026-10-05`** | [JDK 27: The quiet before the storm](https://www.infoworld.com/article/4229750/jdk-27-the-quiet-before-the-storm.html) - opinion by Simon Ritter on mostly incremental **JDK 27** changes and the first real **Project Valhalla** features coming in **JDK 28** |
 | **`2026-10-05`** | [Making Arena.ofConfined() Even Cheaper in JDK 28](https://inside.java/2026/10/05/confined-pools/) - **JDK 28** will offer ~19x faster allocation of **FFM** arenas from reusable native-memory pools |
+| **`2026-10-01`** | [Lathe: A Java Language Server That Works Straight From Your Maven Build](https://foojay.io/today/lathe-a-java-language-server-from-your-maven-build/) - open-source **LSP** server **Lathe** captures classpath, module path, and annotation processing from the **Maven** build itself, working with Neovim and Emacs |
 
 ## 2026 - September
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :-- |
+| **`2026-09-30`** | [JobRunr & JobRunr Pro v9: See Inside Every Background Job](https://www.jobrunr.io/en/blog/v9-release/) - **JobRunr v9** adds a job history Chart down to durable steps, while Pro adds Job Analytics, batch pause/resume, and instant job processing on Postgres |
 | **`2026-09-29`** | [The Java 21 Doomsday Clock Countdown](https://foojay.io/today/the-java-21-doomsday-clock-countdown/) - free Oracle NFTC license for **Java 21** has expired, leaving options to pay Oracle, upgrade to Java 25, or move to another **OpenJDK** distribution |
 | **`2026-09-28`** | [Performance Improvements in JDK 27](https://inside.java/2026/09/28/performance-update-jdk27/) - overview of **JDK 27** performance work across libraries, GC, JIT compiler, and runtime, including compact object headers and G1 as defaults |
+| **`2026-09-28`** | [OpenXava 8.0 Released](https://openxava.org/blog/openxava-8.0-released) - rapid application development framework **OpenXava** moves to **Spring Boot 4.1** and **Jakarta EE 11**, requires **Java 17**, and gets a redesigned UI and HTML Over The Wire engine |
 | **`2026-09-24`** | [Apache Groovy 6.0.0 Released](https://www.mail-archive.com/announce@apache.org/msg12006.html) - new major version of the JVM language **Apache Groovy** was released |
 | **`2026-09-24`** | [Open J Proxy 1.0.0: Ready for Production](https://javapro.io/2026/09/24/open-j-proxy-1-0-0-ready-for-production/) - **OJP** JDBC proxy reaches its first GA/LTS release after a hardening cycle |
 | **`2026-09-23`** | [Quality Outreach Heads-up - JDK 28: Rich JavaDoc Notes](https://inside.java/2026/09/23/quality-heads-up/) - **JDK 28** proposes a new `@note` JavaDoc tag for rendering customizable inline and block tips or warnings |
