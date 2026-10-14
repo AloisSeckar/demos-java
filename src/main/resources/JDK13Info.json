@@ -1,5 +1,13 @@
 [
   {
+    "jep": 350,
+    "jdk": 13,
+    "name": "JEP 350 - Dynamic CDS Archives",
+    "dscr": "Explains how the JVM can create an application CDS archive dynamically at exit via `-XX:ArchiveClassesAtExit`.",
+    "link": false,
+    "code": false
+  },
+  {
     "jep": 354,
     "jdk": 13,
     "name": "JEP 354 - Switch Expressions (Second Preview)",
