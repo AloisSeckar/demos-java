@@ -8,6 +8,14 @@
     "code": false
   },
   {
+    "jep": 351,
+    "jdk": 13,
+    "name": "JEP 351 - ZGC: Uncommit Unused Memory (Experimental)",
+    "dscr": "Explains how ZGC returns unused heap memory to the operating system, configurable via `-XX:ZUncommitDelay` and `-XX:-ZUncommit`.",
+    "link": false,
+    "code": false
+  },
+  {
     "jep": 354,
     "jdk": 13,
     "name": "JEP 354 - Switch Expressions (Second Preview)",
