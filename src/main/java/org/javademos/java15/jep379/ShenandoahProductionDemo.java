@@ -6,10 +6,10 @@ import org.javademos.commons.IDemo;
 ///
 /// JEP history:
 /// - JDK 15: [JEP 379 - Shenandoah: A Low-Pause-Time Garbage Collector (Production)](https://openjdk.org/jeps/379)
+/// - JDK 12: [JEP 189 - Shenandoah: A Low-Pause-Time Garbage Collector (Experimental)](https://openjdk.org/jeps/189)
 ///
 /// Further reading:
 /// - [Shenandoah GC wiki](https://wiki.openjdk.org/display/shenandoah/Main)
-/// - [JEP 189 - Shenandoah: A Low-Pause-Time Garbage Collector (Experimental)](https://openjdk.org/jeps/189)
 ///
 /// @see org.javademos.java25.jep521.GenerationalShenandoahDemo
 ///
