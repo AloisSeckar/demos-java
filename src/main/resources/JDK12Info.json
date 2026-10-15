@@ -1,5 +1,13 @@
 [
   {
+    "jep": 189,
+    "jdk": 12,
+    "name": "JEP 189 - Shenandoah: A Low-Pause-Time Garbage Collector (Experimental)",
+    "dscr": "Up-to-date demo in `org.javademos.java15.jep379.ShenandoahProductionDemo`.",
+    "link": true,
+    "code": false
+  },
+  {
     "jep": 325,
     "jdk": 12,
     "name": "JEP 325 - Switch Expressions (Preview)",
