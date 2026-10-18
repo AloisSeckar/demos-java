@@ -8,6 +8,14 @@
     "code": false
   },
   {
+    "jep": 230,
+    "jdk": 12,
+    "name": "JEP 230 - Microbenchmark Suite",
+    "dscr": "Adds a basic suite of JMH-based microbenchmarks to the JDK source code, making it easy to run existing benchmarks and create new ones.",
+    "link": false,
+    "code": false
+  },
+  {
     "jep": 325,
     "jdk": 12,
     "name": "JEP 325 - Switch Expressions (Preview)",
