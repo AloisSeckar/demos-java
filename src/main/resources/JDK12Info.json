@@ -30,5 +30,13 @@
     "dscr": "Introduces an API to model nominal descriptions of class file and runtime artifacts, especially constants loadable from the constant pool.",
     "link": false,
     "code": true
+  },
+  {
+    "jep": 340,
+    "jdk": 12,
+    "name": "JEP 340 - One AArch64 Port, Not Two",
+    "dscr": "Removes the Oracle-contributed `arm64` port, keeping `aarch64` as the only 64-bit ARM port (the 32-bit ARM port remains).",
+    "link": false,
+    "code": false
   }
 ]

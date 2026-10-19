@@ -9,6 +9,7 @@ import org.javademos.java12.jep189.ShenandoahExperimental;
 import org.javademos.java12.jep230.MicrobenchmarkSuite;
 import org.javademos.java12.jep325.SwitchExpressionsPreview;
 import org.javademos.java12.jep334.ConstantsAPIDemo;
+import org.javademos.java12.jep340.OneAArch64Port;
 
 /**
  * Loads demos for Java 12.
@@ -21,5 +22,6 @@ public class Java12DemoLoader implements IDemoLoader {
         demos.put(230, new MicrobenchmarkSuite());
         demos.put(325, new SwitchExpressionsPreview());
         demos.put(334, new ConstantsAPIDemo());
+        demos.put(340, new OneAArch64Port());
     }
 }
