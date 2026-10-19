@@ -38,6 +38,8 @@ recommendation in the final report.
 4. Stage the demo-related files explicitly by path and commit them with the commit message above.
 5. Push with `git push -u origin jep-<jep-number>`. If `origin` is not writable (for example, a contributor
    working on the upstream repo), push to the user's fork and open the PR from `<fork-owner>:jep-<jep-number>`.
+   In PowerShell, git writes progress to stderr and may report exit code 1 on success; don't add `2>&1`,
+   and verify with `git ls-remote origin jep-<jep-number>` instead of trusting the exit code.
 6. Open a PR against `master` of `AloisSeckar/demos-java` with the title above. Its body is
    `Closes #<issue-number>`, or nothing if the user chose to proceed without an issue. Use
    `gh pr create --base master --head jep-<jep-number> --title "<title>" --body "<body>"` if `gh` is available,
