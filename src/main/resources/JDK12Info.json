@@ -46,5 +46,13 @@
     "dscr": "The JDK build now generates a default class data-sharing (CDS) archive on 64-bit platforms, improving out-of-the-box startup time.",
     "link": false,
     "code": true
+  },
+  {
+    "jep": 344,
+    "jdk": 12,
+    "name": "JEP 344 - Abortable Mixed Collections for G1",
+    "dscr": "G1 can split mixed collections into mandatory and optional parts and abort the optional part to better meet the pause time target.",
+    "link": false,
+    "code": true
   }
 ]
