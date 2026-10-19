@@ -38,5 +38,13 @@
     "dscr": "Removes the Oracle-contributed `arm64` port, keeping `aarch64` as the only 64-bit ARM port (the 32-bit ARM port remains).",
     "link": false,
     "code": false
+  },
+  {
+    "jep": 341,
+    "jdk": 12,
+    "name": "JEP 341 - Default CDS Archives",
+    "dscr": "The JDK build now generates a default class data-sharing (CDS) archive on 64-bit platforms, improving out-of-the-box startup time.",
+    "link": false,
+    "code": true
   }
 ]
