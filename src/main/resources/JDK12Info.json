@@ -29,6 +29,6 @@
   "name": "JEP 346 - Promptly Return Unused Committed Memory from G1",
   "dscr": "G1 can periodically consider garbage collection during idle periods to return unused committed heap memory to the operating system.",
   "link": false,
-  "code": true
+  "code": false
 }
 ]
