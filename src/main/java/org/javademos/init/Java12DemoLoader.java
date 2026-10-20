@@ -4,10 +4,10 @@ import java.util.Map;
 
 import org.javademos.commons.IDemo;
 import org.javademos.commons.IDemoLoader;
-import org.javademos.java12.jep346.G1PeriodicGCDemo;
 import org.javademos.java12.jep189.ShenandoahExperimental;
 import org.javademos.java12.jep325.SwitchExpressionsPreview;
 import org.javademos.java12.jep334.ConstantsAPIDemo;
+import org.javademos.java12.jep346.G1PeriodicGCDemo;
 
 /**
  * Loads demos for Java 12.
