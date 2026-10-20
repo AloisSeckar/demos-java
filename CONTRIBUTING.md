@@ -60,7 +60,7 @@ Read the [project structure](#project-structure), then follow these conventions:
 - Add a record to the appropriate JDK JSON resource, following existing entries and this field order:
     JEP number (`jep`), JDK version (`jdk`), name (`name`), brief description (`dscr`),
     `link` (`true` if replaced by another JEP), and `code` (`true` for code, `false` for explanation-only demos).
-- Register the demo in its JDK's helper so `Main` runs it, adding a comment with the JEP number.
+- Register the demo in its JDK's helper so `Main` runs it.
     **Keep both JSON records and loader registrations ordered by ascending JEP number.**
 
 ## Contributions

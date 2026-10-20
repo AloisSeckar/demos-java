@@ -35,10 +35,13 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :-- |
+| **`2026-10-16`** | [Helidon 27 Introduces Restructured Programming Models and New Messaging and Data Modules](https://www.infoq.com/news/2026/10/helidon-27-released/) - a closer look to latest major version of Apache Helidon released in September and its features |
+| **`2026-10-15`** | [LLMs for JVM Code in 2026](https://javapro.io/2026/10/15/llms-for-jvm-code-in-2026-which-models-to-trust-which-benchmarks-to-believe/) - deep dive into how LLM coding benchmarks work and what Java-focused benchmarks (Brokk Power Ranking, Sonar leaderboard) say about model performance on **Java**, **Kotlin**, and **Scala** |
 | **`2026-10-08`** | [Apache Grails 8.0.0 - Release Announcement](https://grails.apache.org/blog/2026-10-08-introducing-grails-8.html) - new major version of the **Grails** framework moves to **Java 21**, Groovy 5, **Spring Boot 4.1**, adds GORM for Hibernate 7, Spring AOT and JDK AOT cache support |
 | **`2026-10-06`** | [Run Java in the Browser with TeaVM](https://foojay.io/today/java-in-the-browser-with-teavm/) - how to build editable, runnable Java snippets on a web page by compiling Java to **WebAssembly** with **TeaVM** and `javac` inside a Web Worker |
 | **`2026-10-05`** | [JDK 27: The quiet before the storm](https://www.infoworld.com/article/4229750/jdk-27-the-quiet-before-the-storm.html) - opinion by Simon Ritter on mostly incremental **JDK 27** changes and the first real **Project Valhalla** features coming in **JDK 28** |
 | **`2026-10-05`** | [Making Arena.ofConfined() Even Cheaper in JDK 28](https://inside.java/2026/10/05/confined-pools/) - **JDK 28** will offer ~19x faster allocation of **FFM** arenas from reusable native-memory pools |
+| **`2026-10-05`** | [Oracle Java Platform Extension for VS Code v27.0.0](https://github.com/oracle/javavscode/releases/tag/v27.0.0) - new version of the VS Code extension for Java upgrades to **NetBeans 31** with better **JDK 27** support, requires JDK 21+ to run, and allows breakpoints inside individual lambdas |
 | **`2026-10-01`** | [Lathe: A Java Language Server That Works Straight From Your Maven Build](https://foojay.io/today/lathe-a-java-language-server-from-your-maven-build/) - open-source **LSP** server **Lathe** captures classpath, module path, and annotation processing from the **Maven** build itself, working with Neovim and Emacs |
 
 ## 2026 - September

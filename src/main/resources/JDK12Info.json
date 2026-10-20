@@ -8,6 +8,14 @@
     "code": false
   },
   {
+    "jep": 230,
+    "jdk": 12,
+    "name": "JEP 230 - Microbenchmark Suite",
+    "dscr": "Adds a basic suite of JMH-based microbenchmarks to the JDK source code, making it easy to run existing benchmarks and create new ones.",
+    "link": false,
+    "code": false
+  },
+  {
     "jep": 325,
     "jdk": 12,
     "name": "JEP 325 - Switch Expressions (Preview)",
@@ -24,11 +32,35 @@
     "code": true
   },
   {
-  "jep": 346,
-  "jdk": 12,
-  "name": "JEP 346 - Promptly Return Unused Committed Memory from G1",
-  "dscr": "G1 can periodically consider garbage collection during idle periods to return unused committed heap memory to the operating system.",
-  "link": false,
-  "code": false
-}
+    "jep": 340,
+    "jdk": 12,
+    "name": "JEP 340 - One AArch64 Port, Not Two",
+    "dscr": "Removes the Oracle-contributed `arm64` port, keeping `aarch64` as the only 64-bit ARM port (the 32-bit ARM port remains).",
+    "link": false,
+    "code": false
+  },
+  {
+    "jep": 341,
+    "jdk": 12,
+    "name": "JEP 341 - Default CDS Archives",
+    "dscr": "The JDK build now generates a default class data-sharing (CDS) archive on 64-bit platforms, improving out-of-the-box startup time.",
+    "link": false,
+    "code": true
+  },
+  {
+    "jep": 344,
+    "jdk": 12,
+    "name": "JEP 344 - Abortable Mixed Collections for G1",
+    "dscr": "G1 can split mixed collections into mandatory and optional parts and abort the optional part to better meet the pause time target.",
+    "link": false,
+    "code": true
+  },
+  {
+    "jep": 346,
+    "jdk": 12,
+    "name": "JEP 346 - Promptly Return Unused Committed Memory from G1",
+    "dscr": "G1 can periodically consider garbage collection during idle periods to return unused committed heap memory to the operating system.",
+    "link": false,
+    "code": false
+  }
 ]

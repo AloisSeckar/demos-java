@@ -15,6 +15,8 @@ When adding or updating demos, read [CONTRIBUTING.md](CONTRIBUTING.md#demo-imple
 
 Each demo needs an `IDemo` implementation, per-JDK JSON metadata, and registration in its JDK's loader. Start `demo()` with `info(jepNumber)`.
 
+Set the class header's `@author` from the local git config: `/// @author <git user.name> <<git user.email>>`, e.g. `/// @author Alois Seckar <alois.seckar@gmail.com>`.
+
 Use [src/main/java/org/javademos/java26/jep526/LazyConstantsDemo.java](src/main/java/org/javademos/java26/jep526/LazyConstantsDemo.java) as the baseline implementation.
 
 Use `https://openjdk.org/jeps/jep-index.xml` to get basic JEP info by number and/or title, and `https://openjdk.org/jeps/<JEP_NUMBER>` for implementation details. Make sure the project compiles and runs without errors.

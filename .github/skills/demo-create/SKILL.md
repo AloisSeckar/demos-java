@@ -28,6 +28,7 @@ as the style baseline for demos with executable code. For explanation-only demos
    (`false` for explanation-only demos). Import and register the class in
    `src/main/java/org/javademos/init/Java<jdk>DemoLoader.java`. Keep both registrations in ascending JEP order.
 4. Run `mvn clean install` and the jar using the command in [CONTRIBUTING.md](../../../CONTRIBUTING.md).
+   Inspect the new demo by appending `--only=<jep-number>` to the jar command (other demos print exceptions on purpose).
    Confirm the new JEP's header and expected output appear without exceptions, and review the diff for
    unrelated changes.
 5. Branch, commit, and open the PR by following [pr-create](../pr-create/SKILL.md) for `<jep-number>`.

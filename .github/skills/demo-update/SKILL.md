@@ -35,6 +35,7 @@ Follow [CONTRIBUTING.md](../../../CONTRIBUTING.md) and the existing demo's style
    Import and register the new demo and newly created stubs in their respective
    `src/main/java/org/javademos/init/Java<jdk>DemoLoader.java`. Keep JSON and loader entries in ascending JEP order.
 5. Run `mvn clean install` and the jar using the command in [CONTRIBUTING.md](../../../CONTRIBUTING.md).
+   Inspect the chain by appending `--only=<jep1>,<jep2>,...` to the jar command (other demos print exceptions on purpose).
    Confirm every JEP in the chain prints its header without exceptions and the new examples produce
    expected output. Check all earlier `@see` and JSON `dscr` references point to the new implementation,
    and review the diff for unrelated changes.
