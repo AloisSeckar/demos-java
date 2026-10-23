@@ -1,5 +1,13 @@
 [  
   {
+    "jep": 500,
+    "jdk": 26,
+    "name": "JEP 500 - Prepare to Make Final Mean Final",
+    "dscr": "Issue warnings about uses of deep reflection to mutate final fields to prepare for a future release that restricts final field mutation by default.",
+    "link": false,
+    "code": true
+  },
+  {
     "jep": 517,
     "jdk": 26,
     "name": "JEP 517 - HTTP/3 for the HTTP Client API",
