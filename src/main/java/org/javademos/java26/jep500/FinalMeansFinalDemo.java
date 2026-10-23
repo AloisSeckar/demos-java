@@ -17,7 +17,7 @@ import org.javademos.commons.IDemo;
 /// - [Integrity by Default](https://openjdk.org/jeps/8305968)
 /// - [Field.set Javadoc](https://docs.oracle.com/en/java/javase/26/docs/api/java.base/java/lang/reflect/Field.html#set(java.lang.Object,java.lang.Object))
 ///
-/// @author Alois Sečkár <ellrohir@seznam.cz>
+/// @author Alois Sečkár <alois.seckar@gmail.com>
 public class FinalMeansFinalDemo implements IDemo {
 
     @Override
