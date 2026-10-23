@@ -8,6 +8,14 @@
     "code": true
   },
   {
+    "jep": 516,
+    "jdk": 26,
+    "name": "JEP 516 - Ahead-of-Time Object Caching with Any GC",
+    "dscr": "Enhance the ahead-of-time cache so that it can be used with any garbage collector, including the low-latency Z Garbage Collector (ZGC).",
+    "link": false,
+    "code": false
+  },
+  {
     "jep": 517,
     "jdk": 26,
     "name": "JEP 517 - HTTP/3 for the HTTP Client API",
