@@ -8,6 +8,14 @@
     "code": true
   },
   {
+    "jep": 504,
+    "jdk": 26,
+    "name": "JEP 504 - Remove the Applet API",
+    "dscr": "Remove the Applet API, which was deprecated for removal in JDK 17. It is obsolete because neither recent JDK releases nor current web browsers support applets.",
+    "link": false,
+    "code": true
+  },
+  {
     "jep": 516,
     "jdk": 26,
     "name": "JEP 516 - Ahead-of-Time Object Caching with Any GC",
