@@ -91,7 +91,7 @@
     "jep": 488,
     "jdk": 24,
     "name": "JEP 488 - Primitive Types in Patterns, instanceof, and switch (Second Preview)",
-    "dscr": "Up-to-date demo in `org.javademos.java25.jep507.PrimitiveTypesDemo`.",
+    "dscr": "Up-to-date demo in `org.javademos.java27.jep532.PrimitiveTypesDemo`.",
     "link": true,
     "code": false
   },

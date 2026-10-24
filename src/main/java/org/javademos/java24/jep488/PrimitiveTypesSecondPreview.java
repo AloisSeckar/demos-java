@@ -5,8 +5,8 @@ import org.javademos.commons.IDemo;
 /// Demo for JDK 24 feature <strong>JEP 488 - Primitive Types in Patterns, instanceof, and switch (Second Preview)</strong>.
 ///
 /// This was the second preview of this feature.
-/// The feature is in its third preview in JDK 25 (JEP 507).
-/// @see org.javademos.java25.jep507.PrimitiveTypesDemo
+/// Replaced by JEP 532 in JDK 27.
+/// @see org.javademos.java27.jep532.PrimitiveTypesDemo
 ///
 /// @author harshitkumar7525
 public class PrimitiveTypesSecondPreview implements IDemo {

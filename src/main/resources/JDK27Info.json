@@ -16,6 +16,14 @@
     "code": true
   },
   {
+    "jep": 532,
+    "jdk": 27,
+    "name": "JEP 532 - Primitive Types in Patterns, instanceof, and switch (Fifth Preview)",
+    "dscr": "Primitive types in patterns, instanceof, and switch: type patterns and switch cases work with all primitive types, and instanceof checks exact conversions.",
+    "link": false,
+    "code": true
+  },
+  {
     "jep": 533,
     "jdk": 27,
     "name": "JEP 533 - Structured Concurrency (Seventh Preview)",
