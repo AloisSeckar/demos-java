@@ -1,5 +1,13 @@
 [
   {
+    "jep": 523,
+    "jdk": 27,
+    "name": "JEP 523 - Make G1 the Default Garbage Collector in All Environments",
+    "dscr": "G1 is always the default garbage collector, regardless of CPU count and memory, replacing Serial in constrained environments.",
+    "link": false,
+    "code": true
+  },
+  {
     "jep": 527,
     "jdk": 27,
     "name": "JEP 527 - Post-Quantum Hybrid Key Exchange for TLS 1.3",
