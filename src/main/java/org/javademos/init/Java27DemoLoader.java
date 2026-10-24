@@ -9,6 +9,7 @@ import org.javademos.java27.jep527.PostQuantumHybridKeyExchangeDemo;
 import org.javademos.java27.jep531.LazyConstantsDemo;
 import org.javademos.java27.jep532.PrimitiveTypesDemo;
 import org.javademos.java27.jep533.StructuredConcurrencyDemo;
+import org.javademos.java27.jep536.JFRDataRedactionDemo;
 import org.javademos.java27.jep537.VectorAPIDemo;
 import org.javademos.java27.jep538.PemEncodingsDemo;
 
@@ -23,6 +24,7 @@ public class Java27DemoLoader implements IDemoLoader {
         demos.put(531, new LazyConstantsDemo());
         demos.put(532, new PrimitiveTypesDemo());
         demos.put(533, new StructuredConcurrencyDemo());
+        demos.put(536, new JFRDataRedactionDemo());
         demos.put(537, new VectorAPIDemo());
         demos.put(538, new PemEncodingsDemo());
     }
