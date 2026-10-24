@@ -2,7 +2,7 @@
 
 This application helps to show new features being introduced in Java versions until Java 27.
 
-All relevant info is written down in comments inside sources.
+All relevant information is written in comments inside the sources.
 
 ## Prerequisites
 
@@ -10,7 +10,7 @@ This project requires **Java JDK 27** to run. Namely, [OpenJDK 27](https://jdk.j
 
 ## Usage
 
-Checkout the project and explore the files in your favorite IDE. You may find some important context and information in the comments directly in the code.
+Check out the project and explore the files in your favorite IDE. You may find some important context and information in the comments directly in the code.
 
 To build the project locally:
 
@@ -26,7 +26,7 @@ java --enable-preview --add-modules=jdk.incubator.vector -jar target/JavaDemos-2
 
 Using `--enable-preview` and `--add-modules` options is necessary to make the newest Java language features available.
 
-**Note:** If you use `Maven` version < `3.9.12`, you would see warning about `Guice` library using deprecated `sun.misc.Unsafe` class when running Maven install. This was a [known issue](https://github.com/apache/maven/issues/10312) and was fixed in `3.9.12`.
+**Note:** If you use `Maven` version < `3.9.12`, you will see a warning that the `Guice` library uses the deprecated `sun.misc.Unsafe` class when running Maven install. This was a [known issue](https://github.com/apache/maven/issues/10312) and was fixed in `3.9.12`.
 
 ### Filtering Demos
 
@@ -34,10 +34,10 @@ By default, all available JEP demos are processed and run. Since there are hundr
 
 - `--skip-links` — skip demos that only contain links to newer JEPs (incubator and preview stages)
 - `--code-only` — run only demos that contain executable code (many JEPs are only platform changes without apparent effect in code)
-- `--jdk=x,y,z` —  run demos only from the specified JDK versions
-- *`--only=x,y,z` — run only demos with the specified JEP numbers
+- `--jdk=x,y,z` — run demos only from the specified JDK versions
+- `--only=x,y,z` — run only demos with the specified JEP numbers
 
-Filter args can be combined together and conditions are applied as a conjunction.
+Filter args can be combined and conditions are applied as a conjunction.
 
 Examples:
 
@@ -45,7 +45,7 @@ Examples:
 - `--jdk=21 --skip-links` - run only JEPs finalized in Java 21 (no link to newer JEP variant)
 - `--only=521` - run only demo for JEP 521
 
-### Displaying system and filtering information
+### Displaying System and Filtering Information
 
 By default, the application displays information about the current JVM and filtering criteria used. If you want to reduce the noise, you can pass `--no-info` argument to suppress printing those lines.
 
@@ -74,4 +74,4 @@ Check the [contribution guide](/CONTRIBUTING.md) or contact me directly for more
 
 ## Extra - Java News
 
-[Java News](JavaNews.md) is my list with interesting articles and information from Java world started since 09/2023.
+[Java News](JavaNews.md) is my list of interesting articles and information from the Java world, curated since 09/2023.
