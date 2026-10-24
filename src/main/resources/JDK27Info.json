@@ -40,6 +40,14 @@
     "code": true
   },
   {
+    "jep": 536,
+    "jdk": 27,
+    "name": "JEP 536 - JFR In-Process Data Redaction",
+    "dscr": "JDK Flight Recorder redacts command-line arguments, environment variables and system properties before they are written to recordings, so sensitive data does not leak.",
+    "link": false,
+    "code": false
+  },
+  {
     "jep": 537,
     "jdk": 27,
     "name": "JEP 537 - Vector API (Twelfth Incubator)",
