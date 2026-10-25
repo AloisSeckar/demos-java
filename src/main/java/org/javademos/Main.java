@@ -22,6 +22,7 @@ public class Main {
     /// - `--code-only`: Only run demos that contain code
     /// - `--jdk=17,25`: Only run demos from specific JDK versions
     /// - `--only=382,409`: Only run specific JEP numbers
+    /// - `--output=path.txt`: Write a copy of the output to a file (default `demos-java.output`)
     /// 
     /// @see ArgsFilterUtil
     public static void main(String[] args) {

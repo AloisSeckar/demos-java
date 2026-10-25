@@ -1,5 +1,6 @@
 package org.javademos.commons;
 
+import java.nio.file.Path;
 import java.util.*;
 import java.util.stream.Collectors;
 import org.javademos.init.JEPInfo.JEPData;
@@ -19,6 +20,8 @@ import org.javademos.init.JEPInfo.JEPData;
  *   <li><b>--jdk=17,25</b> — Run demos only from the specified JDK versions.</li>
  *   <li><b>--only=382,409</b> — Run only demos with the specified JEP numbers.</li>
  *   <li><b>--no-info</b> — Suppress displaying system and filtering information.</li>
+ *   <li><b>--output=demos.txt</b> — Write a copy of the output to the given file
+ *       (default is <code>demos-java.output</code> in the current directory).</li>
  * </ul>
  *
 * <h3>Multiple filters and examples:</h3>
@@ -41,12 +44,14 @@ public class ArgsFilterUtil {
     private static boolean skipLinks = false;
     private static boolean codeOnly = false;
     private static boolean silent = false;
+    private static String outputPath = OutputTee.DEFAULT_OUTPUT;
 
     private static final String NO_INFO = "--no-info";
     private static final String SKIP_LINKS = "--skip-links";
     private static final String CODE_ONLY = "--code-only";
     private static final String JDK = "--jdk=";
     private static final String ONLY = "--only=";
+    private static final String OUTPUT = "--output=";
     private static final String DELIMITER = ",";
 
     private ArgsFilterUtil() {
@@ -54,6 +59,7 @@ public class ArgsFilterUtil {
 
     public static Map<Integer, JEPData> getFilteredJepData(String[] args, Map<Integer, JEPData> jepDataMap) {
         parseArguments(args);
+        OutputTee.install(Path.of(outputPath));
         var filtered = filterJepData(jepDataMap);
         if (!silent) {
             printSystemInfo();
@@ -76,6 +82,11 @@ public class ArgsFilterUtil {
             } else if (arg.startsWith(ONLY)) {
                 String jepValues = arg.substring(ONLY.length());
                 parseSpecificJeps(jepValues);
+            } else if (arg.startsWith(OUTPUT)) {
+                outputPath = arg.substring(OUTPUT.length());
+                if (outputPath.isBlank()) {
+                    throw new IllegalArgumentException("Missing path for " + OUTPUT);
+                }
             } else {
                 throw new IllegalArgumentException("Unknown arg: " + arg);
             }

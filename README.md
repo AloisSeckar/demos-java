@@ -49,6 +49,10 @@ Examples:
 
 By default, the application displays information about the current JVM and filtering criteria used. If you want to reduce the noise, you can pass `--no-info` argument to suppress printing those lines.
 
+### Output File
+
+Everything printed to the standard output and error is also written to a file, which is overwritten on every run. By default, it is `demos-java.output` in the current working directory. Use `--output=<path>` to specify a different location.
+
 ## Contributing
 
 You can help making this project better!

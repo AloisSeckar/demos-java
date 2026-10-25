@@ -13,3 +13,6 @@ github.txt
 
 # But ignore generated demo files
 /tmp/
+
+# logfile capturing demos' output
+demos-java.output
