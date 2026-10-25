@@ -40,7 +40,7 @@ public class J21Demo implements IDemo {
         System.out.println("'Math.divideExact(Integer.MIN_VALUE, -1)' will throw an exception:");
         try {
             System.out.println(Math.divideExact(Integer.MIN_VALUE, -1));
-        } catch (ArithmeticException ex) {
+        } catch (ArithmeticException e) {
             System.out.println("ArithmeticException thrown by .divideExact()");
         }
         System.out.println();

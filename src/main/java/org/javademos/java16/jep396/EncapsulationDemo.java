@@ -40,7 +40,7 @@ public class EncapsulationDemo implements IDemo {
 
         } catch (NoSuchFieldException e) {
             System.err.println("Error: Could not find the 'value' field. Internal structure might have changed.");
-            e.printStackTrace();
+            e.printStackTrace(System.out);
         } catch (InaccessibleObjectException e) {
             // SUCCESS! Catching this exception is the expected outcome in Java 16+
             System.out.println("SUCCESS: Caught InaccessibleObjectException as expected!");
@@ -49,7 +49,7 @@ public class EncapsulationDemo implements IDemo {
         } catch (Exception e) {
             // Catch any other unexpected exceptions
             System.err.println("An unexpected error occurred during reflection:");
-            e.printStackTrace();
+            e.printStackTrace(System.out);
         }
         System.out.println("Demo complete.");
     }

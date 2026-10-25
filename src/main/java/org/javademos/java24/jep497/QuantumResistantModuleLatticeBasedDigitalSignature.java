@@ -53,7 +53,7 @@ public class QuantumResistantModuleLatticeBasedDigitalSignature implements IDemo
         } catch (java.security.NoSuchAlgorithmException | java.security.InvalidAlgorithmParameterException
                 | java.security.InvalidKeyException | java.security.SignatureException
                 | java.security.spec.InvalidKeySpecException e) {
-            e.printStackTrace();
+            e.printStackTrace(System.out);
         }
     }
 }

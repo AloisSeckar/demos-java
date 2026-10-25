@@ -59,11 +59,11 @@ public class FinalMeansFinalDemo implements IDemo {
             // module, the JVM prints a "WARNING: Final field x in ... has been mutated" to stderr
             field.set(point, 200);
             System.out.println("Mutated value: " + point.x + " (check stderr for JVM warning)");
-        } catch (IllegalAccessException ex) {
+        } catch (IllegalAccessException e) {
             // this happens when running with --illegal-final-field-mutation=deny
-            System.out.println("Mutation denied: " + ex.getMessage());
-        } catch (NoSuchFieldException ex) {
-            throw new IllegalStateException(ex);
+            System.out.println("Mutation denied: " + e.getMessage());
+        } catch (NoSuchFieldException e) {
+            throw new IllegalStateException(e);
         }
         // note: static final fields could never be mutated via Field.set,
         // and compile-time constants (e.g. `final int x = 100;`) are inlined by javac,
@@ -80,10 +80,10 @@ public class FinalMeansFinalDemo implements IDemo {
             field.setAccessible(true);
             field.set(point, 200);
             System.out.println("Mutated value: " + point.x());
-        } catch (IllegalAccessException ex) {
-            System.out.println("Mutation denied: " + ex.getMessage());
-        } catch (NoSuchFieldException ex) {
-            throw new IllegalStateException(ex);
+        } catch (IllegalAccessException e) {
+            System.out.println("Mutation denied: " + e.getMessage());
+        } catch (NoSuchFieldException e) {
+            throw new IllegalStateException(e);
         }
     }
 

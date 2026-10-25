@@ -114,7 +114,7 @@ public class VirtualThreadsDemo implements IDemo {
     private void waitForThreads() {
         try {
             Thread.sleep(500);
-        } catch (InterruptedException ex) {
+        } catch (InterruptedException e) {
             System.err.println("Sleep interrupted!");
         }
     }

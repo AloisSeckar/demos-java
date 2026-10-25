@@ -66,10 +66,10 @@ public class Http3Demo implements IDemo {
             // There are four basic approaches with which a request can determine the availability of HTTP/3 on the target server
             // Further Reading - [JEP 517: HTTP/3 for the HTTP Client API](https://openjdk.org/jeps/517)
             
-        } catch (Exception ex) {
+        } catch (Exception e) {
             // setting PrintStream/PrintWriter target here will easily suppress
             // the infamous 'Print Stack Trace' compiler warning
-            ex.printStackTrace(System.out);
+            e.printStackTrace(System.out);
         }
         
         System.out.println();

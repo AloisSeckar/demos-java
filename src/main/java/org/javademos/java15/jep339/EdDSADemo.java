@@ -42,7 +42,7 @@ public class EdDSADemo implements IDemo {
             demonstrateEd448();
         } catch (Exception e) {
             System.err.println("✗ Error demonstrating EdDSA: " + e.getMessage());
-            e.printStackTrace();
+            e.printStackTrace(System.out);
         }
     }
 

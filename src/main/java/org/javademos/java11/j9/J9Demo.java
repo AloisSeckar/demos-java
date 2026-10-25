@@ -37,7 +37,7 @@ public class J9Demo implements IDemo {
             try (newResource) {
                 newResource.doStuff();
             }
-        } catch (Exception ex) {
+        } catch (Exception e) {
             // this wrapper is required, because
             // .close() from AutoCloseable explicitly throws Exception
             // while our .demo() method is not...
@@ -45,7 +45,7 @@ public class J9Demo implements IDemo {
             
             // setting PrintStream/PrintWriter target here will easily suppress
             // the infamous 'Print Stack Trace' compiler warning
-            ex.printStackTrace(System.out);
+            e.printStackTrace(System.out);
         }
         
         System.out.println();

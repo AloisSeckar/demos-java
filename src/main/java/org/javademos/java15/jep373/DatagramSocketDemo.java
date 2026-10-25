@@ -33,7 +33,7 @@ public class DatagramSocketDemo implements IDemo {
 
             System.out.println("Datagram sent successfully using reimplemented API!");
         } catch (Exception e) {
-            e.printStackTrace();
+            e.printStackTrace(System.out);
         }
     }
 }

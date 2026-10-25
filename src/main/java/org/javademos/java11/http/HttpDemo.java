@@ -60,10 +60,10 @@ public class HttpDemo implements IDemo {
             // browser and select 'View page source' to compare its contents
             // and verify you got the exact same output here
             
-        } catch (Exception ex) {
+        } catch (Exception e) {
             // setting PrintStream/PrintWriter target here will easily suppress
             // the infamous 'Print Stack Trace' compiler warning
-            ex.printStackTrace(System.out);
+            e.printStackTrace(System.out);
         }
         
         System.out.println();

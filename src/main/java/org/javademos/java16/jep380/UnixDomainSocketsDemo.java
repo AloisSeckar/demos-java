@@ -62,13 +62,13 @@ public class UnixDomainSocketsDemo implements IDemo {
 
         } catch (UnsupportedOperationException e) {
             System.err.println("Error: Unix Domain Sockets might not be fully supported on this specific OS version.");
-            e.printStackTrace();
+            e.printStackTrace(System.out);
         } catch (IOException e) {
             System.err.println("An I/O error occurred:");
-            e.printStackTrace();
+            e.printStackTrace(System.out);
         } catch (Exception e) {
             System.err.println("An unexpected error occurred:");
-            e.printStackTrace();
+            e.printStackTrace(System.out);
         }
         System.out.println("Demo complete.");
     }

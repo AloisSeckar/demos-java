@@ -78,7 +78,7 @@ public class HiddenClassesDemo implements IDemo {
 
         } catch (Throwable e) {
             System.err.println("✗ Error demonstrating hidden classes: " + e.getMessage());
-            e.printStackTrace();
+            e.printStackTrace(System.out);
         }
     }
 

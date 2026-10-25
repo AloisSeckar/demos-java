@@ -37,7 +37,7 @@ public class CpuTimeProfilingDemo implements IDemo {
             recording.stop();
             System.out.println("Recording finished. File 'tmp/cpu-profile.jfr' generated.");
         } catch (Exception e) {
-            e.printStackTrace();
+            e.printStackTrace(System.out);
         }
     }
 

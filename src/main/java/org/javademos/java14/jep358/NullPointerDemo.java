@@ -22,12 +22,12 @@ public class NullPointerDemo implements IDemo {
             // this will raise NullPointerException, but with helpful hint
             String s = null;
             s.charAt(0);
-        } catch (Exception ex) {
+        } catch (Exception e) {
             // in Java 8 you will get just:
             // java.lang.NullPointerException
             // with helpful NullPointerExceptions the output is:
             // java.lang.NullPointerException: Cannot invoke "String.charAt(int)" because "s" is null
-            ex.printStackTrace(System.out);
+            e.printStackTrace(System.out);
         }
         
         try {
@@ -36,11 +36,11 @@ public class NullPointerDemo implements IDemo {
             // how long would you need to spot the 'null' reference
             // by analysing the code yourself?
             nullPointer.getLevel2().getLevel3().getLevel4();
-        } catch (Exception ex) {
+        } catch (Exception e) {
             // without the hint, you will have to elaborate, which part 
             // of the chain was 'null', but now JVM simply tells you,
             // and you can narrow your point of interest during debugging
-            ex.printStackTrace(System.out);
+            e.printStackTrace(System.out);
         }
         
         System.out.println();

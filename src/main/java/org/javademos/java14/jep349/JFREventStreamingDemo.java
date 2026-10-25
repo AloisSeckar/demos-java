@@ -58,7 +58,7 @@ public class JFREventStreamingDemo implements IDemo {
 
                 Thread.sleep(3000);
             } catch (Exception e) {
-                e.printStackTrace();
+                e.printStackTrace(System.out);
             }
         });
 
@@ -99,7 +99,7 @@ public class JFREventStreamingDemo implements IDemo {
 
                 Thread.sleep(3000);
             } catch (Exception e) {
-                e.printStackTrace();
+                e.printStackTrace(System.out);
             }
         });
 
@@ -140,7 +140,7 @@ public class JFREventStreamingDemo implements IDemo {
 
                 Thread.sleep(3000);
             } catch (Exception e) {
-                e.printStackTrace();
+                e.printStackTrace(System.out);
             }
         });
 
@@ -179,7 +179,7 @@ public class JFREventStreamingDemo implements IDemo {
 
                 Thread.sleep(3000);
             } catch (Exception e) {
-                e.printStackTrace();
+                e.printStackTrace(System.out);
             }
         });
 

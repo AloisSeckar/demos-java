@@ -131,8 +131,8 @@ public class J16Demo implements IDemo {
         try {
             Path path = Paths.get(null, "path/to/file");
             System.out.println(path.toString());
-        } catch (Exception ex) {
-            ex.printStackTrace(System.out);
+        } catch (Exception e) {
+            e.printStackTrace(System.out);
         }
         
         System.out.println();
@@ -153,8 +153,8 @@ public class J16Demo implements IDemo {
             System.out.println(readLines(text1));
             // this will return 3 in both cases
             System.out.println(readLines(text2));
-        } catch (Exception ex) {
-            ex.printStackTrace(System.out);
+        } catch (Exception e) {
+            e.printStackTrace(System.out);
         }
         
         System.out.println();

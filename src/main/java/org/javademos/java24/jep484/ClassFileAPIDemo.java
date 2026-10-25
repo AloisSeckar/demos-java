@@ -120,7 +120,7 @@ public class ClassFileAPIDemo implements IDemo {
 
         } catch (Exception e) {
             System.out.println("Error generating class: " + e.getMessage());
-            e.printStackTrace();
+            e.printStackTrace(System.out);
         }
         
         System.out.println();
@@ -177,7 +177,7 @@ public class ClassFileAPIDemo implements IDemo {
 
         } catch (Exception e) {
             System.out.println("Error transforming class: " + e.getMessage());
-            e.printStackTrace();
+            e.printStackTrace(System.out);
         }
     }
 }
