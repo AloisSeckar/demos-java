@@ -89,8 +89,6 @@
                             <mainClass>org.javademos.Main</mainClass>
                         </transformer>
                     </transformers>
-                    <!-- do not create backup of the original JAR -->
-                    <outputFile>${project.build.directory}/${project.artifactId}-${project.version}.jar</outputFile>
                     <!-- do not create a dependency-reduced POM -->
                     <createDependencyReducedPom>false</createDependencyReducedPom>
                     <!-- exclude overlapping files from dependencies -->
@@ -104,6 +102,33 @@
                         </filter>
                     </filters>
                 </configuration>
+            </plugin>
+            <plugin>
+                <!-- removes backup of the original JAR left by maven-shade-plugin -->
+                <!-- must be declared after maven-shade-plugin to run after it -->
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-clean-plugin</artifactId>
+                <version>3.5.0</version>
+                <executions>
+                    <execution>
+                        <id>remove-unshaded-jar</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>clean</goal>
+                        </goals>
+                        <configuration>
+                            <excludeDefaultDirectories>true</excludeDefaultDirectories>
+                            <filesets>
+                                <fileset>
+                                    <directory>${project.build.directory}</directory>
+                                    <includes>
+                                        <include>original-*.jar</include>
+                                    </includes>
+                                </fileset>
+                            </filesets>
+                        </configuration>
+                    </execution>
+                </executions>
             </plugin>
             <plugin>
                 <!-- responsible for generating Javadocs in HTML format -->
