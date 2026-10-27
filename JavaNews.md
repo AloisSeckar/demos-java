@@ -35,6 +35,7 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :-- |
+| **`2026-10-27`** | [Quality Outreach Heads-up - JDK 28: Value Classes](https://inside.java/2026/10/27/quality-heads-up/) - overview of upcoming **JEP 401** targetted into **JDK 28** and a call to action for testing |
 | **`2026-10-23`** | [Allocating Off-Heap Memory: Typically 6-18x Faster in JDK 28](https://inside.java/2026/10/23/confined-pools/) - **Java 28** will become significantly more effective when interactive with native applications via FFM API |
 | **`2026-10-22`** | [Java 26 Agentic Microservices for FinTech](https://javapro.io/2026/10/22/java-26-agentic-microservices-cloud-performance-re-imagined-for-fintech/) - how to use **Java 26** features (HTTP/3, AOT object caching, G1 throughput improvements) in a guardrailed, canary-based performance control loop for FinTech microservices |
 | **`2026-10-20`** | [Upgrading from Java 21 to 25: What Actually Breaks](https://foojay.io/today/upgrading-java-21-to-25-what-actually-breaks/) - tested list of changes between **Java 21** and **25** that break builds, startup, or behavior, such as skipped annotation processors, Security Manager removal, removed `Thread` methods, and ignored `COMPAT` locale provider |
