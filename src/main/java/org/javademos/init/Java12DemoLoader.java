@@ -12,6 +12,7 @@ import org.javademos.java12.jep334.ConstantsAPIDemo;
 import org.javademos.java12.jep340.OneAArch64Port;
 import org.javademos.java12.jep341.DefaultCDSArchives;
 import org.javademos.java12.jep344.AbortableMixedCollectionsG1;
+import org.javademos.java12.jep346.PromptlyReturnMemoryG1;
 
 /**
  * Loads demos for Java 12.
@@ -27,5 +28,6 @@ public class Java12DemoLoader implements IDemoLoader {
         demos.put(340, new OneAArch64Port());
         demos.put(341, new DefaultCDSArchives());
         demos.put(344, new AbortableMixedCollectionsG1());
+        demos.put(346, new PromptlyReturnMemoryG1());
     }
 }

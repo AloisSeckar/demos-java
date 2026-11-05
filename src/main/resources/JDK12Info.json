@@ -54,5 +54,13 @@
     "dscr": "G1 can split mixed collections into mandatory and optional parts and abort the optional part to better meet the pause time target.",
     "link": false,
     "code": true
+  },
+  {
+    "jep": 346,
+    "jdk": 12,
+    "name": "JEP 346 - Promptly Return Unused Committed Memory from G1",
+    "dscr": "G1 periodically triggers collections during application inactivity so unused committed Java heap memory is returned to the operating system.",
+    "link": false,
+    "code": true
   }
 ]
