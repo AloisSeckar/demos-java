@@ -40,6 +40,14 @@
     "code": true
   },
   {
+    "jep": 534,
+    "jdk": 27,
+    "name": "JEP 534 - Compact Object Headers by Default",
+    "dscr": "Compact object headers become the default HotSpot object header layout, reducing object headers from 96 to 64 bits on 64-bit platforms.",
+    "link": false,
+    "code": true
+  },
+  {
     "jep": 536,
     "jdk": 27,
     "name": "JEP 536 - JFR In-Process Data Redaction",
