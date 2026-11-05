@@ -7,6 +7,7 @@ import org.javademos.commons.IDemoLoader;
 
 import org.javademos.java13.jep350.DynamicCDSArchives;
 import org.javademos.java13.jep351.ZGCUncommitUnusedMemory;
+import org.javademos.java13.jep353.NioSocketImplDemo;
 import org.javademos.java13.jep354.SwitchExpressionsSecondPreview;
 import org.javademos.java13.jep355.TextBlockFirstPreviewDemo;
 
@@ -19,6 +20,7 @@ public class Java13DemoLoader implements IDemoLoader {
     public void loadDemos(Map<Integer, IDemo> demos) {
         demos.put(350, new DynamicCDSArchives());
         demos.put(351, new ZGCUncommitUnusedMemory());
+        demos.put(353, new NioSocketImplDemo());
         demos.put(354, new SwitchExpressionsSecondPreview());
         demos.put(355, new TextBlockFirstPreviewDemo());
     }
