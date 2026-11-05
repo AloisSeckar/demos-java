@@ -16,6 +16,14 @@
     "code": false
   },
   {
+    "jep": 353,
+    "jdk": 13,
+    "name": "JEP 353 - Reimplement the Legacy Socket API",
+    "dscr": "Explains the `NioSocketImpl` behind `java.net.Socket` and `ServerSocket` and shows a local client-server exchange.",
+    "link": false,
+    "code": true
+  },
+  {
     "jep": 354,
     "jdk": 13,
     "name": "JEP 354 - Switch Expressions (Second Preview)",
