@@ -35,6 +35,8 @@ Check where can you meet fellow Java enthusiasts at:
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
 | --- | :-- |
+| **`2026-10-29`** | [Introducing the Quarkus Almanac](https://quarkus.io/blog/quarkus-almanac/) - new web tool for comparing any two **Quarkus** releases, covering config properties, managed dependencies, extensions, and class API changes |
+| **`2026-10-27`** | [TornadoVM v8.0.0: Meet TC, TornadoVM's Own Compiler](https://www.tornadovm.org/blogs/tornadovm-8-0-0-tc-tornadovm-compiler) - new major version of **TornadoVM** replaces the Graal compiler and JVMCI with its own pure-Java compiler **TC**, enabling Leyden AOT cache and Native Image support, readable generated kernels, and new tools like `tc emit` and `tornado-selftest` |
 | **`2026-10-27`** | [Quality Outreach Heads-up - JDK 28: Value Classes](https://inside.java/2026/10/27/quality-heads-up/) - overview of upcoming **JEP 401** targetted into **JDK 28** and a call to action for testing |
 | **`2026-10-23`** | [Allocating Off-Heap Memory: Typically 6-18x Faster in JDK 28](https://inside.java/2026/10/23/confined-pools/) - **Java 28** will become significantly more effective when interactive with native applications via FFM API |
 | **`2026-10-23`** | [Apache POI 6.0.0 release](https://www.mail-archive.com/announce@apache.org/msg12426.html) - new major version of the Java library for reading and writing Microsoft Office formats will require at least **Java 17** |
