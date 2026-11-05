@@ -13,7 +13,7 @@ import org.javademos.commons.IDemo;
 ///
 /// @author SanjanaMahapatra
 
-public class PackagingToolIncubatorDemo implements IDemo {
+public class PackagingToolDemo implements IDemo {
     @Override
     public void demo() {
         info(343);

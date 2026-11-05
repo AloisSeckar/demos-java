@@ -9,7 +9,7 @@ import org.javademos.commons.IDemo;
 /// @see org.javademos.java25.jep511.ModuleImportDeclarationsDemo
 ///
 /// @author harshitkumar7525
-public class ModuleImportSecondPreviewDemo implements IDemo {
+public class ModuleImportDemo implements IDemo {
     @Override
     public void demo() {
         info(494);

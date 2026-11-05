@@ -8,7 +8,7 @@ import org.javademos.commons.IDemo;
 /// @see org.javademos.java16.jep394.InstanceofPatternMatchingDemo
 ///
 /// @author Shuvam00032
-public class InstanceofPatternMatchingSecondPreviewDemo implements IDemo {
+public class InstanceofPatternMatchingDemo implements IDemo {
     @Override
     public void demo() {
         info(375);

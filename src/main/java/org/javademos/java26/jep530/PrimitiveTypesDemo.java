@@ -8,7 +8,7 @@ import org.javademos.commons.IDemo;
 /// @see org.javademos.java27.jep532.PrimitiveTypesDemo
 ///
 /// @author Alois Sečkár <alois.seckar@gmail.com>
-public class PrimitiveTypesFourthPreviewDemo implements IDemo {
+public class PrimitiveTypesDemo implements IDemo {
 
     @Override
     public void demo() {

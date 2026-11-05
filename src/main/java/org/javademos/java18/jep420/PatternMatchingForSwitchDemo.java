@@ -1,19 +1,19 @@
-package org.javademos.java20.jep433;
+package org.javademos.java18.jep420;
 
 import org.javademos.commons.IDemo;
 
 ///
-/// # JEP 433: Pattern Matching for switch (Fourth Preview)
+/// # JEP 420: Pattern Matching for switch (Second Preview)
 ///
 /// @author mayankvyas1306
 ///
 /// This is a linking class to the final implementation in JEP 441.
 /// Please see {@link org.javademos.java21.jep441.PatternMatchingForSwitchDemo}.
 ///
-public class PatternMatchingForSwitchFourthPreviewDemo implements IDemo {
+public class PatternMatchingForSwitchDemo implements IDemo {
 
     @Override
     public void demo() {
-        info(433);
+        info(420);
     }
 }

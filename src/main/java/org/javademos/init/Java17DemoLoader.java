@@ -11,7 +11,7 @@ import org.javademos.java17.jep382.MacosRenderingPipelineDemo;
 import org.javademos.java17.jep391.MacOsAarch64PortDemo;
 import org.javademos.java17.jep398.DeprecateAppletApiForRemovalDemo;
 import org.javademos.java17.jep403.StronglyEncapsulateInternalsDemo;
-import org.javademos.java17.jep406.PatternMatchingForSwitchPreviewDemo;
+import org.javademos.java17.jep406.PatternMatchingForSwitchDemo;
 import org.javademos.java17.jep407.RemoveRmiActivationDemo;
 import org.javademos.java17.jep409.SealedDemo;
 import org.javademos.java17.jep410.RemoveAotJitDemo;
@@ -33,7 +33,7 @@ public class Java17DemoLoader implements IDemoLoader {
         demos.put(391, new MacOsAarch64PortDemo());
         demos.put(398, new DeprecateAppletApiForRemovalDemo());
         demos.put(403, new StronglyEncapsulateInternalsDemo());
-        demos.put(406, new PatternMatchingForSwitchPreviewDemo());
+        demos.put(406, new PatternMatchingForSwitchDemo());
         demos.put(407, new RemoveRmiActivationDemo());
         demos.put(409, new SealedDemo());
         demos.put(410, new RemoveAotJitDemo());

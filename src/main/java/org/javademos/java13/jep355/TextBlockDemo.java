@@ -13,7 +13,7 @@ import org.javademos.commons.IDemo;
 /// @author SanjanaMahapatra
 
 
-public class TextBlockFirstPreviewDemo implements IDemo {
+public class TextBlockDemo implements IDemo {
     @Override
     public void demo() {
         info(355);

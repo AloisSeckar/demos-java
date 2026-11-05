@@ -18,7 +18,7 @@ import org.javademos.commons.IDemo;
 /// - [JEP 430: String Templates (Preview)](https://openjdk.org/jeps/430)
 ///
 /// @author mayankvyas1306
-public class StringTemplatesSecondPreviewDemo implements IDemo {
+public class StringTemplatesDemo implements IDemo {
 
     @Override
     public void demo() {

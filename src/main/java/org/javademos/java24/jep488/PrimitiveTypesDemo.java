@@ -9,7 +9,7 @@ import org.javademos.commons.IDemo;
 /// @see org.javademos.java27.jep532.PrimitiveTypesDemo
 ///
 /// @author harshitkumar7525
-public class PrimitiveTypesSecondPreviewDemo implements IDemo {
+public class PrimitiveTypesDemo implements IDemo {
 
     @Override
     public void demo() {

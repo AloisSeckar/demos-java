@@ -3,7 +3,7 @@
     "jep": 430,
     "jdk": 21,
     "name": "JEP 430 - String Templates (Preview)",
-    "dscr": "Up-to-date demo in `org.javademos.java23.jep459.StringTemplatesSecondPreviewDemo`.",
+    "dscr": "Up-to-date demo in `org.javademos.java23.jep459.StringTemplatesDemo`.",
     "link": true,
     "code": false
   },

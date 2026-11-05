@@ -8,7 +8,7 @@ import org.javademos.commons.IDemo;
 /// @see org.javademos.java16.jep395.RecordDemo
 ///
 /// @author Adarsh80416
-public class RecordsSecondPreviewDemo implements IDemo {
+public class RecordsDemo implements IDemo {
     @Override
     public void demo() {
         info(384);

@@ -14,7 +14,7 @@ import org.javademos.commons.IDemo;
 /// @author [Krushit Babariya](https://github.com/Krushit-Babariya)
 /// @see org.javademos.java22.jep456.UnnamedVariablesAndPatternsDemo
 ///
-public class UnnamedPatternsAndVariablesPreviewDemo implements IDemo {
+public class UnnamedPatternsAndVariablesDemo implements IDemo {
 
     @Override
     public void demo() {

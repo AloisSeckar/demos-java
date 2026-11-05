@@ -10,7 +10,7 @@ import org.javademos.commons.IDemo;
 /// @author SanjanaMahapatra
 
 
-public class TextBlockSecondPreviewDemo implements IDemo {
+public class TextBlockDemo implements IDemo {
 
     @Override
     public void demo() {

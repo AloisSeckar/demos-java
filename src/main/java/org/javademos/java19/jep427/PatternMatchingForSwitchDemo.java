@@ -10,7 +10,7 @@ import org.javademos.commons.IDemo;
 /// This is a linking class to the final implementation in JEP 441.
 /// Please see {@link org.javademos.java21.jep441.PatternMatchingForSwitchDemo}.
 ///
-public class PatternMatchingForSwitchThirdPreviewDemo implements IDemo {
+public class PatternMatchingForSwitchDemo implements IDemo {
 
     @Override
     public void demo() {

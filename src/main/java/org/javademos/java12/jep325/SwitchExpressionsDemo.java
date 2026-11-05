@@ -9,11 +9,11 @@ import org.javademos.commons.IDemo;
 /// using `break <value>`, which was later changed to `yield <value>` in JEP 354.
 ///
 /// The feature was finalized in JDK 14 by JEP 361.
-/// @see org.javademos.java13.jep354.SwitchExpressionsSecondPreviewDemo
+/// @see org.javademos.java13.jep354.SwitchExpressionsDemo
 /// @see org.javademos.java14.jep361.SwitchExpressionsDemo
 ///
 /// @author Abhineshhh
-public class SwitchExpressionsPreviewDemo implements IDemo {
+public class SwitchExpressionsDemo implements IDemo {
     @Override
     public void demo() {
         info(325);

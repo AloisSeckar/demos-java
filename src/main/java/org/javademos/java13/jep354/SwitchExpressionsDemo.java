@@ -9,11 +9,11 @@ import org.javademos.commons.IDemo;
 /// values from switch expressions.
 ///
 /// The feature was finalized in JDK 14 by JEP 361.
-/// @see org.javademos.java12.jep325.SwitchExpressionsPreviewDemo
+/// @see org.javademos.java12.jep325.SwitchExpressionsDemo
 /// @see org.javademos.java14.jep361.SwitchExpressionsDemo
 ///
 /// @author Abhineshhh
-public class SwitchExpressionsSecondPreviewDemo implements IDemo {
+public class SwitchExpressionsDemo implements IDemo {
     @Override
     public void demo() {
         info(354);

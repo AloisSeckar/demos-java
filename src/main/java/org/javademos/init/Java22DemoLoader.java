@@ -11,7 +11,7 @@ import org.javademos.java22.jep454.ForeignFunctionMemoryDemo;
 import org.javademos.java22.jep456.UnnamedVariablesAndPatternsDemo;
 import org.javademos.java22.jep457.ClassFileAPIDemo;
 import org.javademos.java22.jep458.LaunchMultiFileSourceDemo;
-import org.javademos.java22.jep459.StringTemplatesSecondPreviewDemo;
+import org.javademos.java22.jep459.StringTemplatesDemo;
 import org.javademos.java22.jep460.VectorAPIDemo;
 import org.javademos.java22.jep461.StreamGatherersDemo;
 import org.javademos.java22.jep462.StructuredConcurrencyDemo;
@@ -31,7 +31,7 @@ public class Java22DemoLoader implements IDemoLoader {
         demos.put(456, new UnnamedVariablesAndPatternsDemo());
         demos.put(457, new ClassFileAPIDemo());
         demos.put(458, new LaunchMultiFileSourceDemo());
-        demos.put(459, new StringTemplatesSecondPreviewDemo());
+        demos.put(459, new StringTemplatesDemo());
         demos.put(460, new VectorAPIDemo());
         demos.put(461, new StreamGatherersDemo());
         demos.put(462, new StructuredConcurrencyDemo());

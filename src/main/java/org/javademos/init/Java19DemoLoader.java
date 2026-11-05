@@ -10,7 +10,7 @@ import org.javademos.java19.jep422.LinuxRiscVPortDemo;
 import org.javademos.java19.jep424.ForeignFunctionMemoryDemo;
 import org.javademos.java19.jep425.VirtualThreadsDemo;
 import org.javademos.java19.jep426.VectorAPIDemo;
-import org.javademos.java19.jep427.PatternMatchingForSwitchThirdPreviewDemo;
+import org.javademos.java19.jep427.PatternMatchingForSwitchDemo;
 import org.javademos.java19.jep428.StructuredConcurrencyDemo;
 
 /**
@@ -25,7 +25,7 @@ public class Java19DemoLoader implements IDemoLoader {
         demos.put(424, new ForeignFunctionMemoryDemo());
         demos.put(425, new VirtualThreadsDemo());
         demos.put(426, new VectorAPIDemo());
-        demos.put(427, new PatternMatchingForSwitchThirdPreviewDemo());
+        demos.put(427, new PatternMatchingForSwitchDemo());
         demos.put(428, new StructuredConcurrencyDemo());
     }
 }

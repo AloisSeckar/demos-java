@@ -11,7 +11,7 @@ import org.javademos.java21.jep439.GenerationalZGC21Demo;
 import org.javademos.java21.jep440.RecordPatternsDemo;
 import org.javademos.java21.jep441.PatternMatchingForSwitchDemo;
 import org.javademos.java21.jep442.ForeignFunctionMemoryDemo;
-import org.javademos.java21.jep443.UnnamedPatternsAndVariablesPreviewDemo;
+import org.javademos.java21.jep443.UnnamedPatternsAndVariablesDemo;
 import org.javademos.java21.jep444.VirtualThreadsDemo;
 import org.javademos.java21.jep445.UnnamedClassesDemo;
 import org.javademos.java21.jep446.ScopedValuesDemo;
@@ -34,7 +34,7 @@ public class Java21DemoLoader implements IDemoLoader {
         demos.put(440, new RecordPatternsDemo());
         demos.put(441, new PatternMatchingForSwitchDemo());
         demos.put(442, new ForeignFunctionMemoryDemo());
-        demos.put(443, new UnnamedPatternsAndVariablesPreviewDemo());
+        demos.put(443, new UnnamedPatternsAndVariablesDemo());
         demos.put(444, new VirtualThreadsDemo());
         demos.put(445, new UnnamedClassesDemo());
         demos.put(446, new ScopedValuesDemo());
