@@ -5,7 +5,7 @@ import org.javademos.commons.IDemo;
 /// Demo for JDK 17 feature JEP 411 - Deprecate the Security Manager for Removal.
 ///
 /// This was the deprecation step. The feature is permanently disabled in JDK 24 by JEP 486.
-/// @see org.javademos.java24.jep486.DisableSecurityManager
+/// @see org.javademos.java24.jep486.DisableSecurityManagerDemo
 ///
 /// @author Adarsh80416
 public class DeprecateSecurityManagerDemo implements IDemo {

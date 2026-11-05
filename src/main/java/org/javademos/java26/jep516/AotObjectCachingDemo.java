@@ -13,7 +13,7 @@ import org.javademos.commons.IDemo;
 /// - [Project Leyden](https://openjdk.org/projects/leyden/)
 /// - [Run AOT Cache Article](https://inside.java/2026/01/09/run-aot-cache/)
 ///
-/// @see org.javademos.java24.jep483.AotLoadingAndLinking
+/// @see org.javademos.java24.jep483.AotLoadingAndLinkingDemo
 /// @see org.javademos.java25.jep514.AheadOfTimeCLIDemo
 ///
 /// @author Alois Sečkár <alois.seckar@gmail.com>

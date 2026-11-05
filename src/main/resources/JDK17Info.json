@@ -83,7 +83,7 @@
     "jep": 411,
     "jdk": 17,
     "name": "JEP 411 - Deprecate the Security Manager for Removal",
-    "dscr": "Up-to-date demo in `org.javademos.java24.jep486.DisableSecurityManager`.",
+    "dscr": "Up-to-date demo in `org.javademos.java24.jep486.DisableSecurityManagerDemo`.",
     "link": true,
     "code": false
   },

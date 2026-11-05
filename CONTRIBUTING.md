@@ -49,11 +49,11 @@ Read the [project structure](#project-structure), then follow these conventions:
     start it with `info(jepNumber)`. This default method uses the metadata map to print a standardized JEP header.
 - Keep examples brief but sufficient to show the feature. For changes to JVM or library internals that cannot
     be demonstrated in code, explanatory comments or printed summaries are enough; see
-    [GenerationalZGC23.java](src/main/java/org/javademos/java23/jep474/GenerationalZGC23.java#L1).
+    [GenerationalZGC23Demo.java](src/main/java/org/javademos/java23/jep474/GenerationalZGC23Demo.java#L1).
 - Use ordinary code comments to explain behavior, reasoning, and possibilities so readers need not consult
     the full JEP or a tutorial. Add a Java 23+ Markdown (`///`) class header with JEP information, history,
     and useful article/tutorial links. The reference is
-    [MarkdownComments.java for JEP 467](src/main/java/org/javademos/java23/jep467/MarkdownComments.java#L1).
+    [MarkdownCommentsDemo.java for JEP 467](src/main/java/org/javademos/java23/jep467/MarkdownCommentsDemo.java#L1).
 - For preview/incubator chains, keep the implementation in the newest iteration and link older demos to it:
     older APIs may no longer compile on the latest JDK. Document differences using comments or print statements.
 - Write generated files under the repository-local `tmp/` folder, which is gitignored to avoid untracked artifacts.

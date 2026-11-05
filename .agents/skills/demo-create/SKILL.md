@@ -12,7 +12,7 @@ use [demo-update](../demo-update/SKILL.md) instead.
 Follow [CONTRIBUTING.md](../../../CONTRIBUTING.md) for templates, registration conventions, and generated files.
 Use [LazyConstantsDemo.java](../../../src/main/java/org/javademos/java26/jep526/LazyConstantsDemo.java)
 as the style baseline for demos with executable code. For explanation-only demos (no code to show), use
-[GenerationalZGC23.java](../../../src/main/java/org/javademos/java23/jep474/GenerationalZGC23.java) instead.
+[GenerationalZGC23Demo.java](../../../src/main/java/org/javademos/java23/jep474/GenerationalZGC23Demo.java) instead.
 
 ## Workflow
 

@@ -15,8 +15,8 @@ import org.javademos.commons.IDemo;
 /// - Exhaustiveness checking
 /// - Multiple constants per case
 ///
-/// @see org.javademos.java12.jep325.SwitchExpressionsPreview
-/// @see org.javademos.java13.jep354.SwitchExpressionsSecondPreview
+/// @see org.javademos.java12.jep325.SwitchExpressionsPreviewDemo
+/// @see org.javademos.java13.jep354.SwitchExpressionsSecondPreviewDemo
 /// @author Abhineshhh
 public class SwitchExpressionsDemo implements IDemo {
     

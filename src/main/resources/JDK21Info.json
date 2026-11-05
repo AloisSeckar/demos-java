@@ -3,7 +3,7 @@
     "jep": 430,
     "jdk": 21,
     "name": "JEP 430 - String Templates (Preview)",
-    "dscr": "Up-to-date demo in `org.javademos.java23.jep459.StringTemplatesSecondPreview`.",
+    "dscr": "Up-to-date demo in `org.javademos.java23.jep459.StringTemplatesSecondPreviewDemo`.",
     "link": true,
     "code": false
   },
@@ -19,7 +19,7 @@
     "jep": 439,
     "jdk": 21,
     "name": "JEP 439 - Generational ZGC",
-    "dscr": "No executable code, see GenerationalZGC21.java for further info.",
+    "dscr": "No executable code, see GenerationalZGC21Demo.java for further info.",
     "link": false,
     "code": false
   },

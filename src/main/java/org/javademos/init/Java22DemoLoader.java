@@ -5,13 +5,13 @@ import java.util.Map;
 import org.javademos.commons.IDemo;
 import org.javademos.commons.IDemoLoader;
 
-import org.javademos.java22.jep423.RegionPinningForG1;
-import org.javademos.java22.jep447.StatementsBeforeSuper;
+import org.javademos.java22.jep423.RegionPinningForG1Demo;
+import org.javademos.java22.jep447.StatementsBeforeSuperDemo;
 import org.javademos.java22.jep454.ForeignFunctionMemoryDemo;
 import org.javademos.java22.jep456.UnnamedVariablesAndPatternsDemo;
 import org.javademos.java22.jep457.ClassFileAPIDemo;
 import org.javademos.java22.jep458.LaunchMultiFileSourceDemo;
-import org.javademos.java22.jep459.StringTemplatesSecondPreview;
+import org.javademos.java22.jep459.StringTemplatesSecondPreviewDemo;
 import org.javademos.java22.jep460.VectorAPIDemo;
 import org.javademos.java22.jep461.StreamGatherersDemo;
 import org.javademos.java22.jep462.StructuredConcurrencyDemo;
@@ -25,13 +25,13 @@ public class Java22DemoLoader implements IDemoLoader {
     
     @Override
     public void loadDemos(Map<Integer, IDemo> demos) {
-        demos.put(423, new RegionPinningForG1());
-        demos.put(447, new StatementsBeforeSuper());
+        demos.put(423, new RegionPinningForG1Demo());
+        demos.put(447, new StatementsBeforeSuperDemo());
         demos.put(454, new ForeignFunctionMemoryDemo());
         demos.put(456, new UnnamedVariablesAndPatternsDemo());
         demos.put(457, new ClassFileAPIDemo());
         demos.put(458, new LaunchMultiFileSourceDemo());
-        demos.put(459, new StringTemplatesSecondPreview());
+        demos.put(459, new StringTemplatesSecondPreviewDemo());
         demos.put(460, new VectorAPIDemo());
         demos.put(461, new StreamGatherersDemo());
         demos.put(462, new StructuredConcurrencyDemo());

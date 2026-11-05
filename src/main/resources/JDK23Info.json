@@ -43,7 +43,7 @@
     "jep": 471,
     "jdk": 23,
     "name": "JEP 471 - Deprecate the Memory-Access Methods in sun.misc.Unsafe for Removal",
-    "dscr": "No executable code, see DeprecateMemoryAccessMethods class for further info.",
+    "dscr": "No executable code, see DeprecateMemoryAccessMethodsDemo class for further info.",
     "link": false,
     "code": false
   },
@@ -59,7 +59,7 @@
     "jep": 474,
     "jdk": 23,
     "name": "JEP 474 - ZGC: Generational Mode by Default",
-    "dscr": "No executable code, see GenerationalZGC23.java for further info.",
+    "dscr": "No executable code, see GenerationalZGC23Demo.java for further info.",
     "link": false,
     "code": false
   },

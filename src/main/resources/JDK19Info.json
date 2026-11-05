@@ -11,7 +11,7 @@
     "jep": 422,
     "jdk": 19,
     "name": "JEP 422 – Linux/RISC-V Port",
-    "dscr": "No executable code, see `LinuxRiscVPort.java` for further info.",
+    "dscr": "No executable code, see `LinuxRiscVPortDemo.java` for further info.",
     "link": false,
     "code": false
   },

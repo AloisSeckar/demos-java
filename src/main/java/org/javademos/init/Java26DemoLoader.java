@@ -14,7 +14,7 @@ import org.javademos.java26.jep524.PemEncodingsDemo;
 import org.javademos.java26.jep525.StructuredConcurrencyDemo;
 import org.javademos.java26.jep526.LazyConstantsDemo;
 import org.javademos.java26.jep529.VectorAPIDemo;
-import org.javademos.java26.jep530.PrimitiveTypesFourthPreview;
+import org.javademos.java26.jep530.PrimitiveTypesFourthPreviewDemo;
 
 /**
  * Loads demos for Java 26.
@@ -32,6 +32,6 @@ public class Java26DemoLoader implements IDemoLoader {
         demos.put(525, new StructuredConcurrencyDemo());
         demos.put(526, new LazyConstantsDemo());
         demos.put(529, new VectorAPIDemo());
-        demos.put(530, new PrimitiveTypesFourthPreview());
+        demos.put(530, new PrimitiveTypesFourthPreviewDemo());
     }
 }
