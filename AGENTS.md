@@ -10,8 +10,8 @@ Build and run commands are described in [README.md](README.md#usage).
 
 When adding or updating demos, read [CONTRIBUTING.md](CONTRIBUTING.md#demo-implementation) for implementation conventions, project structure, and workflow. Use the appropriate skill:
 
-- [demo-create](.github/skills/demo-create/SKILL.md): a standalone final JEP without preview/incubator predecessors.
-- [demo-update](.github/skills/demo-update/SKILL.md): a newer preview, incubator, or final iteration of an existing demo.
+- [demo-create](.agents/skills/demo-create/SKILL.md): a standalone final JEP without preview/incubator predecessors.
+- [demo-update](.agents/skills/demo-update/SKILL.md): a newer preview, incubator, or final iteration of an existing demo.
 
 Each demo needs an `IDemo` implementation, per-JDK JSON metadata, and registration in its JDK's loader. Start `demo()` with `info(jepNumber)`.
 
