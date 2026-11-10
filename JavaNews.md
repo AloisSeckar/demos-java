@@ -31,6 +31,14 @@ Check where can you meet fellow Java enthusiasts at:
 
 - <https://javaconferences.org/>
 
+## 2026 - November
+
+| Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
+| --- | :-- |
+| **`2026-11-10`** | [Java 27's Post-Quantum TLS Handshake: How JEP 527 Brings Hybrid Key Exchange to JSSE](https://javapro.io/2026/11/10/java-27s-post-quantum-tls-handshake-how-jep-527-brings-hybrid-key-exchange-to-jsse/) - explains **JEP 527** adding the hybrid `X25519MLKEM768` group to **SunJSSE** in **JDK 27** |
+| **`2026-11-09`** | [A Valhalla Ticker in One int](https://inside.java/2026/11/09/inside-java-ticker-value-class/) - tutorial on building a stock ticker symbol as a single-`int` **JEP 401** `value` class in **JDK 28** |
+| **`2026-11-06`** | [JReleaser 2: The Road Ahead](https://andresalmiray.com/jreleaser-2-the-road-ahead/) - the **JReleaser** `development-2.x` branch starts rolling release requiring **Java 25** bytecode and **Gradle 9**, removes all deprecations, and drops OSX Intel artifacts |
+
 ## 2026 - October
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
