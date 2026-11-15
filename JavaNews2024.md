@@ -2,6 +2,10 @@
 
 What was the Java world up to in 2024?
 
+For convenient reading experience, visit [Java News](https://alois-seckar.cz/digest-java) page on my website.
+
+Check also my [Nuxt News](https://alois-seckar.cz/digest-nuxt), [AI News](https://alois-seckar.cz/digest-ai) and last but not least the general [IT Digest](https://alois-seckar.cz/digest-it).
+
 ## 2024 - December
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Article |
