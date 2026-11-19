@@ -79,3 +79,7 @@ Check the [contribution guide](/CONTRIBUTING.md) or contact me directly for more
 ## Extra - Java News
 
 [Java News](JavaNews.md) is my list of interesting articles and information from the Java world, curated since 09/2023.
+
+## Extra - JEPStatus
+
+[JEPStatus](JEPStatus.md) was my now discontinued overview of existing JEPs divided into JDK releases.
