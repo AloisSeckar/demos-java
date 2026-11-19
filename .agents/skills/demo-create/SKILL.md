@@ -10,7 +10,7 @@ Input: one JEP number. Ask for it if missing. For a JEP with earlier preview/inc
 use [demo-update](../demo-update/SKILL.md) instead.
 
 Follow [CONTRIBUTING.md](../../../CONTRIBUTING.md) for templates, registration conventions, and generated files.
-Use [LazyConstantsDemo.java](../../../src/main/java/org/javademos/java26/jep526/LazyConstantsDemo.java)
+Use [LazyConstantsDemo.java](../../../src/main/java/org/javademos/java27/jep531/LazyConstantsDemo.java)
 as the style baseline for demos with executable code. For explanation-only demos (no code to show), use
 [GenerationalZGC23Demo.java](../../../src/main/java/org/javademos/java23/jep474/GenerationalZGC23Demo.java) instead.
 
@@ -21,8 +21,8 @@ as the style baseline for demos with executable code. For explanation-only demos
    as out of scope.
 2. Create a descriptively named `IDemo` implementation in `org.javademos.java<jdk>.jep<jep-number>`.
    Start `demo()` with `info(<jep-number>)`. Use a `///` header with a single-entry JEP history and
-   relevant reading links. Based on nature of the feature, consider whether it can have executable code demo
-   or not. Some features only require an explanation via comments. If there is a code to be shown, keep the 
+   relevant reading links. Based on the nature of the feature, consider whether it can have an executable code demo
+   or not. Some features only require an explanation via comments. If there is code to be shown, keep the
    example small and runnable; accompany code with explanatory comments.
 3. Add the entry to `src/main/resources/JDK<jdk>Info.json` with `"link": false` and `"code": true`
    (`false` for explanation-only demos). Import and register the class in
