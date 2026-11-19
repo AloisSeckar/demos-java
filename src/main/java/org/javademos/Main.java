@@ -7,7 +7,7 @@ import org.javademos.commons.ArgsFilterUtil;
 import static org.javademos.init.JEPInfo.JEP_DEMO;
 import static org.javademos.init.JEPInfo.JEP_DATA;
 
-/// This application helps to show some new features from Java 11 to Java 21.
+/// This application helps to show some new features from Java 11 to Java 27.
 /// The `JEP_DATA` map consists of simple `IDemo` interface implementations.
 /// Code logic is being implemented inside each `.demo()` method.
 /// 
