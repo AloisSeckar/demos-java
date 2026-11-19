@@ -123,7 +123,7 @@ public class ArgsFilterUtil {
 
             if (codeOnly) {
                 var codeOnlyCount = filtered.values().stream()
-                        .filter(jepData -> !jepData.code())
+                        .filter(JEPData::code)
                         .count();
                 System.out.println("Skipped no code demos. JEPs found: " + codeOnlyCount);
             }

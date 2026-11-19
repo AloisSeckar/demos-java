@@ -8,4 +8,3 @@ This file holds pending tasks only, as a numbered list. Resolved items are delet
 
 <!-- ↑↑↑ agentcreed ↑↑↑ -->
 
-1. Bug in `src/main/java/org/javademos/commons/ArgsFilterUtil.java` (`printFilteredInfo`, lines 124–129): when `--code-only` is active, `filtered` already contains only entries with `code == true`, but the summary filters by `!jepData.code()`, always printing `0`.
