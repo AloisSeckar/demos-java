@@ -78,7 +78,7 @@ Check the [contribution guide](/CONTRIBUTING.md) or contact me directly for more
 
 ## Extra - Java News
 
-[Java News](JavaNews.md) is my list of interesting articles and information from the Java world, curated since 09/2023.
+[Java News](https://github.com/AloisSeckar/it-news/blob/main/java/JavaNews.md) is my list of interesting articles and information from the Java world, curated since 09/2023. It has been moved to an [external project](https://github.com/AloisSeckar/it-news) at 11/2026.
 
 ## Extra - JEPStatus
 
